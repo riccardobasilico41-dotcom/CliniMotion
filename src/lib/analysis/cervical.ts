@@ -13,6 +13,7 @@ import {
   calcEarShoulderAngle,
   allVisible,
   normalizeAngleDelta,
+  checkAnatomicalPlausibility,
 } from '@/lib/mediapipe/angles'
 import { LM } from '@/lib/mediapipe/landmarks'
 import { asymmetryPercent, round } from '@/lib/utils/smoothing'
@@ -31,6 +32,39 @@ const FORMULA_VERSION = 1
  * un confronto analitico con un gold standard e una revisione esplicita.
  */
 const METRIC_STATUS: MetricStatus = 'experimental'
+
+/**
+ * Soglie di plausibilità fisiologica per adulto sano (fonti generali di
+ * letteratura ortopedica/riabilitativa, non normative individuali). Un
+ * valore oltre questi limiti è quasi certamente un errore di acquisizione,
+ * non un dato reale - anche con landmark visibility alta, come dimostrato
+ * da un caso reale con camera puntata altrove.
+ */
+const PLAUSIBLE_MAX = {
+  rotazione: 95,
+  lat_flessione: 55,
+  flessione: 70,
+  estensione: 90,
+} as const
+
+function applyPlausibilityCap(
+  romGradi: number,
+  maxPlausible: number,
+  level: ConfidenceLevel,
+  score: number,
+  nota: string
+): { confidence: ConfidenceLevel; confidenceScore: number; nota: string } {
+  if (Math.abs(romGradi) > maxPlausible) {
+    return {
+      confidence: 'bassa',
+      confidenceScore: Math.min(score, 0.3),
+      nota:
+        nota +
+        ` Valore (${round(romGradi)}°) fuori dal range fisiologico plausibile (max atteso ~${maxPlausible}°): probabile errore di acquisizione, verificare inquadratura e ripetere il test.`,
+    }
+  }
+  return { confidence: level, confidenceScore: score, nota }
+}
 
 function confidenceFromValidRatio(validCount: number, totalCount: number): {
   level: ConfidenceLevel
@@ -60,7 +94,7 @@ export function analyzeCervicalRotation(
 
   for (const frame of frames) {
     const ratio = calcHeadRotationRatio(frame.landmarks)
-    if (ratio !== null) {
+    if (ratio !== null && checkAnatomicalPlausibility(frame.landmarks)) {
       ratios.push(ratio)
       timestamps.push(frame.t)
       validCount++
@@ -81,14 +115,29 @@ export function analyzeCervicalRotation(
       ? ' Qualità acquisizione bassa: rieseguire il test con migliore illuminazione/inquadratura.'
       : ''
 
+  const dxCap = applyPlausibilityCap(
+    destra,
+    PLAUSIBLE_MAX.rotazione,
+    level,
+    score,
+    notaBase + notaConfidence
+  )
+  const sxCap = applyPlausibilityCap(
+    sinistra,
+    PLAUSIBLE_MAX.rotazione,
+    level,
+    score,
+    notaBase + notaConfidence
+  )
+
   const results: CervicalAnalysisResult[] = [
     {
       movimento: 'rotazione_dx',
       romGradi: round(destra),
       asimmetriaPercent: asimmetria,
-      confidence: level,
-      confidenceScore: score,
-      nota: notaBase + notaConfidence,
+      confidence: dxCap.confidence,
+      confidenceScore: dxCap.confidenceScore,
+      nota: dxCap.nota,
       formulaVersion: FORMULA_VERSION,
       status: METRIC_STATUS,
     },
@@ -96,9 +145,9 @@ export function analyzeCervicalRotation(
       movimento: 'rotazione_sx',
       romGradi: round(sinistra),
       asimmetriaPercent: asimmetria,
-      confidence: level,
-      confidenceScore: score,
-      nota: notaBase + notaConfidence,
+      confidence: sxCap.confidence,
+      confidenceScore: sxCap.confidenceScore,
+      nota: sxCap.nota,
       formulaVersion: FORMULA_VERSION,
       status: METRIC_STATUS,
     },
@@ -113,19 +162,25 @@ export function analyzeCervicalRotation(
 
 /**
  * Verifica preliminare rapida: controlla se il primo frame ha visibilità
- * sufficiente su volto/spalle prima di avviare la registrazione del test.
+ * sufficiente su volto/spalle prima di avviare la registrazione del test,
+ * e che la scena abbia senso anatomico (naso sopra le spalle) - senza
+ * questo secondo controllo si può avviare un test su una scena qualsiasi.
  */
 export function checkSetupReady(landmarks: PoseLandmark[]): boolean {
-  return allVisible(landmarks, [LM.NOSE, LM.LEFT_EYE, LM.RIGHT_EYE])
+  return (
+    allVisible(landmarks, [LM.NOSE, LM.LEFT_EYE, LM.RIGHT_EYE]) &&
+    checkAnatomicalPlausibility(landmarks)
+  )
 }
 
 /**
  * Verifica setup per vista laterale (flessione/estensione): richiede
- * almeno un orecchio + spalla omolaterale ben visibili (profilo).
+ * almeno un orecchio + spalla omolaterale ben visibili (profilo), e
+ * coerenza anatomica di base.
  */
 export function checkSetupReadyLateral(landmarks: PoseLandmark[]): boolean {
   const result = calcEarShoulderAngle(landmarks)
-  return result !== null
+  return result !== null && checkAnatomicalPlausibility(landmarks)
 }
 
 /**
@@ -141,7 +196,7 @@ export function analyzeLateralFlexion(frames: FrameSample[]): CervicalAnalysisRe
   let validCount = 0
   for (const frame of frames) {
     const a = calcEarLineAngle(frame.landmarks)
-    if (a !== null) {
+    if (a !== null && checkAnatomicalPlausibility(frame.landmarks)) {
       angles.push(a)
       validCount++
     }
@@ -162,14 +217,17 @@ export function analyzeLateralFlexion(frames: FrameSample[]): CervicalAnalysisRe
     'Dato da correlare con valutazione clinica diretta. Non costituisce diagnosi.' +
     (level === 'bassa' ? ' Qualità acquisizione bassa: rieseguire il test.' : '')
 
+  const dxCap = applyPlausibilityCap(maxDx, PLAUSIBLE_MAX.lat_flessione, level, score, nota)
+  const sxCap = applyPlausibilityCap(maxSx, PLAUSIBLE_MAX.lat_flessione, level, score, nota)
+
   return [
     {
       movimento: 'lat_flessione_dx',
       romGradi: round(maxDx),
       asimmetriaPercent: asimmetria,
-      confidence: level,
-      confidenceScore: score,
-      nota,
+      confidence: dxCap.confidence,
+      confidenceScore: dxCap.confidenceScore,
+      nota: dxCap.nota,
       formulaVersion: FORMULA_VERSION,
       status: METRIC_STATUS,
     },
@@ -177,9 +235,9 @@ export function analyzeLateralFlexion(frames: FrameSample[]): CervicalAnalysisRe
       movimento: 'lat_flessione_sx',
       romGradi: round(maxSx),
       asimmetriaPercent: asimmetria,
-      confidence: level,
-      confidenceScore: score,
-      nota,
+      confidence: sxCap.confidence,
+      confidenceScore: sxCap.confidenceScore,
+      nota: sxCap.nota,
       formulaVersion: FORMULA_VERSION,
       status: METRIC_STATUS,
     },
@@ -198,7 +256,7 @@ export function analyzeFlexionExtension(frames: FrameSample[]): CervicalAnalysis
   let validCount = 0
   for (const frame of frames) {
     const result = calcEarShoulderAngle(frame.landmarks)
-    if (result !== null) {
+    if (result !== null && checkAnatomicalPlausibility(frame.landmarks)) {
       angles.push(result.angle)
       validCount++
     }
@@ -218,14 +276,17 @@ export function analyzeFlexionExtension(frames: FrameSample[]): CervicalAnalysis
     'Dato da correlare con valutazione clinica diretta. Non costituisce diagnosi.' +
     (level === 'bassa' ? ' Qualità acquisizione bassa: rieseguire il test.' : '')
 
+  const flessCap = applyPlausibilityCap(flessione, PLAUSIBLE_MAX.flessione, level, score, nota)
+  const estCap = applyPlausibilityCap(estensione, PLAUSIBLE_MAX.estensione, level, score, nota)
+
   return [
     {
       movimento: 'flessione',
       romGradi: round(flessione),
       asimmetriaPercent: null,
-      confidence: level,
-      confidenceScore: score,
-      nota,
+      confidence: flessCap.confidence,
+      confidenceScore: flessCap.confidenceScore,
+      nota: flessCap.nota,
       formulaVersion: FORMULA_VERSION,
       status: METRIC_STATUS,
     },
@@ -233,9 +294,9 @@ export function analyzeFlexionExtension(frames: FrameSample[]): CervicalAnalysis
       movimento: 'estensione',
       romGradi: round(estensione),
       asimmetriaPercent: null,
-      confidence: level,
-      confidenceScore: score,
-      nota,
+      confidence: estCap.confidence,
+      confidenceScore: estCap.confidenceScore,
+      nota: estCap.nota,
       formulaVersion: FORMULA_VERSION,
       status: METRIC_STATUS,
     },
