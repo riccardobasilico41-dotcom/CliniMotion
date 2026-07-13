@@ -6,9 +6,9 @@ import type {
   PoseLandmark,
 } from '@/types/database'
 import {
-  calcHeadRotationRatio,
-  romFromRatioSeries,
-  calcSmoothnessIndex,
+  calcEarSpan,
+  calcRotationSign,
+  earSpanRatioToAngle,
   calcEarLineAngle,
   calcEarShoulderAngle,
   allVisible,
@@ -16,15 +16,23 @@ import {
   checkAnatomicalPlausibility,
 } from '@/lib/mediapipe/angles'
 import { LM } from '@/lib/mediapipe/landmarks'
-import { asymmetryPercent, round } from '@/lib/utils/smoothing'
+import {
+  asymmetryPercent,
+  round,
+  rejectOutlierJumps,
+  smoothSeries,
+  findQuietBaseline,
+} from '@/lib/utils/smoothing'
 
 /**
  * Versione della formula di calcolo per ogni movimento cervicale.
- * Incrementare quando cambia il metodo/coefficiente di conversione,
+ * v2: metodo geometrico auto-calibrante (sostituisce il coefficiente
+ * fisso v1) + rejection scatti, picco sostenuto, baseline robusta,
+ * rilevamento compensi. Incrementare quando cambia ancora il metodo,
  * cosi i risultati salvati restano tracciabili rispetto alla versione
  * che li ha prodotti (principio da EVIDENCE_REGISTRY/DATA_MODEL).
  */
-const FORMULA_VERSION = 1
+const FORMULA_VERSION = 2
 
 /**
  * Nessuna metrica qui e' stata ancora validata contro goniometro reale
@@ -37,8 +45,7 @@ const METRIC_STATUS: MetricStatus = 'experimental'
  * Soglie di plausibilità fisiologica per adulto sano (fonti generali di
  * letteratura ortopedica/riabilitativa, non normative individuali). Un
  * valore oltre questi limiti è quasi certamente un errore di acquisizione,
- * non un dato reale - anche con landmark visibility alta, come dimostrato
- * da un caso reale con camera puntata altrove.
+ * non un dato reale.
  */
 const PLAUSIBLE_MAX = {
   rotazione: 95,
@@ -46,6 +53,15 @@ const PLAUSIBLE_MAX = {
   flessione: 70,
   estensione: 90,
 } as const
+
+// Scatto massimo plausibile tra due frame consecutivi (gradi). Oltre
+// questa soglia si assume perdita di tracking momentanea, non movimento
+// reale del paziente - il valore viene scartato (v. rejectOutlierJumps).
+const MAX_FRAME_JUMP_DEG = 20
+
+// Soglia oltre la quale un'inclinazione laterale concomitante durante
+// un altro movimento viene segnalata come possibile compenso.
+const COMPENSATION_THRESHOLD_DEG = 15
 
 function applyPlausibilityCap(
   romGradi: number,
@@ -76,37 +92,74 @@ function confidenceFromValidRatio(validCount: number, totalCount: number): {
   return { level: 'bassa', score: round(score, 2) }
 }
 
+function compensationNote(tilts: (number | null)[], peakIndex: number): string {
+  const validTilts = tilts.filter((t): t is number => t !== null)
+  if (validTilts.length < 5 || peakIndex < 0 || tilts[peakIndex] === null) return ''
+
+  const tiltBaseline = findQuietBaseline(validTilts, 5, 20)
+  const deviation = Math.abs(normalizeAngleDelta(tilts[peakIndex]! - tiltBaseline))
+
+  if (deviation > COMPENSATION_THRESHOLD_DEG) {
+    return ` Possibile compenso: rilevata inclinazione laterale concomitante (~${round(deviation)}°) nel momento del picco - da valutare se movimento intenzionale o compensatorio.`
+  }
+  return ''
+}
+
 /**
  * Analizza una sequenza di frame acquisiti durante il test di rotazione
  * cervicale (il paziente ruota la testa verso dx e sx partendo da neutro).
  *
- * Ritorna due risultati (dx, sx) con ROM stimato, asimmetria e confidence.
- * Richiede minimo 3 frame validi, altrimenti ritorna null (dato insufficiente).
+ * Pipeline: filtro validità/coerenza anatomica → baseline robusta (finestra
+ * più quieta, non i primi frame a prescindere) → conversione geometrica
+ * distanza-orecchie→angolo → rejection scatti impossibili → smoothing
+ * (picco sostenuto, non istantaneo) → controllo compenso laterale.
  */
 export function analyzeCervicalRotation(
   frames: FrameSample[]
 ): CervicalAnalysisResult[] | null {
-  if (frames.length < 3) return null
+  if (frames.length < 5) return null
 
-  const ratios: number[] = []
-  const timestamps: number[] = []
+  const spans: number[] = []
+  const signs: number[] = []
+  const tilts: (number | null)[] = []
   let validCount = 0
 
   for (const frame of frames) {
-    const ratio = calcHeadRotationRatio(frame.landmarks)
-    if (ratio !== null && checkAnatomicalPlausibility(frame.landmarks)) {
-      ratios.push(ratio)
-      timestamps.push(frame.t)
+    const span = calcEarSpan(frame.landmarks)
+    const sign = calcRotationSign(frame.landmarks)
+    if (span !== null && sign !== null && checkAnatomicalPlausibility(frame.landmarks)) {
+      spans.push(span)
+      signs.push(sign)
+      tilts.push(calcEarLineAngle(frame.landmarks))
       validCount++
     }
   }
 
-  if (ratios.length < 3) return null
+  if (spans.length < 5) return null
 
-  const { destra, sinistra } = romFromRatioSeries(ratios)
+  // baseline robusta: cerca la finestra più stabile tra i primi frame,
+  // invece di assumere che i primi 5 in assoluto siano a postura neutra
+  const baselineSpan = findQuietBaseline(spans, 5, 20)
+
+  const rawSignedAngle = spans.map((span, i) => {
+    const angle = earSpanRatioToAngle(span, baselineSpan)
+    return signs[i] < 0 ? -angle : angle // negativo = rotazione dx (mirror webcam)
+  })
+
+  const jumpFiltered = rejectOutlierJumps(rawSignedAngle, MAX_FRAME_JUMP_DEG)
+  const smoothed = smoothSeries(jumpFiltered, 0.3)
+
+  let peakDxIdx = 0
+  let peakSxIdx = 0
+  for (let i = 0; i < smoothed.length; i++) {
+    if (smoothed[i] < smoothed[peakDxIdx]) peakDxIdx = i
+    if (smoothed[i] > smoothed[peakSxIdx]) peakSxIdx = i
+  }
+
+  const destra = Math.max(0, -smoothed[peakDxIdx])
+  const sinistra = Math.max(0, smoothed[peakSxIdx])
   const asimmetria = asymmetryPercent(destra, sinistra)
   const { level, score } = confidenceFromValidRatio(validCount, frames.length)
-  const smoothness = calcSmoothnessIndex(ratios, timestamps)
 
   const notaBase =
     'Dato da correlare con valutazione clinica diretta. Non costituisce diagnosi.'
@@ -120,17 +173,17 @@ export function analyzeCervicalRotation(
     PLAUSIBLE_MAX.rotazione,
     level,
     score,
-    notaBase + notaConfidence
+    notaBase + notaConfidence + compensationNote(tilts, peakDxIdx)
   )
   const sxCap = applyPlausibilityCap(
     sinistra,
     PLAUSIBLE_MAX.rotazione,
     level,
     score,
-    notaBase + notaConfidence
+    notaBase + notaConfidence + compensationNote(tilts, peakSxIdx)
   )
 
-  const results: CervicalAnalysisResult[] = [
+  return [
     {
       movimento: 'rotazione_dx',
       romGradi: round(destra),
@@ -152,19 +205,12 @@ export function analyzeCervicalRotation(
       status: METRIC_STATUS,
     },
   ]
-
-  // Smoothness non ancora esposto in UI in questa fase, ma calcolato
-  // e disponibile per estensioni future (indice qualità movimento)
-  void smoothness
-
-  return results
 }
 
 /**
  * Verifica preliminare rapida: controlla se il primo frame ha visibilità
  * sufficiente su volto/spalle prima di avviare la registrazione del test,
- * e che la scena abbia senso anatomico (naso sopra le spalle) - senza
- * questo secondo controllo si può avviare un test su una scena qualsiasi.
+ * e che la scena abbia senso anatomico (naso sopra le spalle).
  */
 export function checkSetupReady(landmarks: PoseLandmark[]): boolean {
   return (
@@ -185,9 +231,7 @@ export function checkSetupReadyLateral(landmarks: PoseLandmark[]): boolean {
 
 /**
  * Analizza flessione laterale (dx/sx) da vista FRONTALE, usando l'angolo
- * della linea tra le due orecchie rispetto all'orizzontale. Il primo
- * secondo di frame viene usato come baseline neutra (assunta postura
- * neutra all'inizio della registrazione).
+ * della linea tra le due orecchie rispetto all'orizzontale.
  */
 export function analyzeLateralFlexion(frames: FrameSample[]): CervicalAnalysisResult[] | null {
   if (frames.length < 5) return null
@@ -203,13 +247,13 @@ export function analyzeLateralFlexion(frames: FrameSample[]): CervicalAnalysisRe
   }
   if (angles.length < 5) return null
 
-  // baseline = media dei primi frame validi (assunti a postura neutra)
-  const baselineCount = Math.min(5, angles.length)
-  const baseline = angles.slice(0, baselineCount).reduce((a, b) => a + b, 0) / baselineCount
-
+  const baseline = findQuietBaseline(angles, 5, 20)
   const deviations = angles.map((a) => normalizeAngleDelta(a - baseline))
-  const maxDx = Math.max(...deviations, 0) // convenzione: positivo = lato dx
-  const maxSx = Math.abs(Math.min(...deviations, 0)) // negativo = lato sx
+  const jumpFiltered = rejectOutlierJumps(deviations, MAX_FRAME_JUMP_DEG)
+  const smoothed = smoothSeries(jumpFiltered, 0.3)
+
+  const maxDx = Math.max(...smoothed, 0) // convenzione: positivo = lato dx
+  const maxSx = Math.abs(Math.min(...smoothed, 0)) // negativo = lato sx
 
   const asimmetria = asymmetryPercent(maxDx, maxSx)
   const { level, score } = confidenceFromValidRatio(validCount, frames.length)
@@ -247,7 +291,6 @@ export function analyzeLateralFlexion(frames: FrameSample[]): CervicalAnalysisRe
 /**
  * Analizza flessione/estensione da vista LATERALE (profilo), usando il
  * Craniovertebral Angle (angolo orecchio-spalla rispetto alla verticale).
- * Baseline neutra presa dai primi frame della registrazione.
  */
 export function analyzeFlexionExtension(frames: FrameSample[]): CervicalAnalysisResult[] | null {
   if (frames.length < 5) return null
@@ -263,13 +306,14 @@ export function analyzeFlexionExtension(frames: FrameSample[]): CervicalAnalysis
   }
   if (angles.length < 5) return null
 
-  const baselineCount = Math.min(5, angles.length)
-  const baseline = angles.slice(0, baselineCount).reduce((a, b) => a + b, 0) / baselineCount
+  const baseline = findQuietBaseline(angles, 5, 20)
   const deviations = angles.map((a) => normalizeAngleDelta(a - baseline))
-  // negativa = estensione (capo indietro) — dipende dal lato ripreso,
-  // ma la baseline neutra normalizza comunque la direzione
-  const flessione = Math.max(...deviations, 0)
-  const estensione = Math.abs(Math.min(...deviations, 0))
+  const jumpFiltered = rejectOutlierJumps(deviations, MAX_FRAME_JUMP_DEG)
+  const smoothed = smoothSeries(jumpFiltered, 0.3)
+
+  // deviazione positiva = flessione (capo in avanti), negativa = estensione
+  const flessione = Math.max(...smoothed, 0)
+  const estensione = Math.abs(Math.min(...smoothed, 0))
 
   const { level, score } = confidenceFromValidRatio(validCount, frames.length)
   const nota =
