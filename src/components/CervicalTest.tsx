@@ -53,7 +53,8 @@ export function CervicalTest() {
     if (phaseRef.current === 'setup_lateral') setSetupOk(checkSetupReadyLateral(landmarks))
   }
 
-  const { init, destroy, startRecording, stopRecording } = useMediaPipePose({
+  const { init, destroy, startRecording, stopRecording, devices, activeDeviceId, switchDevice, isFrontFacing } =
+    useMediaPipePose({
     videoRef,
     canvasRef,
     onLandmarks: handleLandmarks,
@@ -160,9 +161,34 @@ export function CervicalTest() {
             : 'relative bg-cm-panel border border-cm-panelBorder rounded overflow-hidden aspect-video'
         }
       >
-        <video ref={videoRef} className="w-full h-full object-cover -scale-x-100" playsInline muted />
-        <canvas ref={canvasRef} className="absolute inset-0 w-full h-full -scale-x-100" />
+        <video
+          ref={videoRef}
+          className={`w-full h-full object-cover ${isFrontFacing ? '-scale-x-100' : ''}`}
+          playsInline
+          muted
+        />
+        <canvas
+          ref={canvasRef}
+          className={`absolute inset-0 w-full h-full ${isFrontFacing ? '-scale-x-100' : ''}`}
+        />
       </div>
+
+      {(phase === 'setup_frontal' || phase === 'setup_lateral') && devices.length > 1 && (
+        <div className="flex items-center gap-2">
+          <label className="text-xs text-cm-textDim">Camera:</label>
+          <select
+            value={activeDeviceId ?? ''}
+            onChange={(e) => switchDevice(e.target.value)}
+            className="text-xs bg-cm-panel border border-cm-panelBorder rounded px-2 py-1 text-cm-text"
+          >
+            {devices.map((d) => (
+              <option key={d.deviceId} value={d.deviceId}>
+                {d.label}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
 
       {phase === 'setup_frontal' && (
         <div className="space-y-2">
