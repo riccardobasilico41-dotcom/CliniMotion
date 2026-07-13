@@ -3,7 +3,12 @@ import { LM } from './landmarks'
 
 // Soglia di visibilità landmark: 0.15 (valore validato nella versione precedente,
 // soglie più alte causavano troppi falsi negativi in condizioni di luce normali)
-const VISIBILITY_THRESHOLD = 0.15
+// Soglia alzata da 0.15 a 0.6 dopo un caso reale: con soglia bassa il sistema
+// accettava rilevamenti spuri di MediaPipe anche quando la camera inquadrava
+// una scena completamente sbagliata (es. pavimento), riportando "qualità alta"
+// su dati privi di senso. 0.6 e' ancora permissivo ma richiede che MediaPipe
+// sia ragionevolmente sicuro del landmark.
+const VISIBILITY_THRESHOLD = 0.6
 
 export function allVisible(landmarks: PoseLandmark[], indices: number[]): boolean {
   return indices.every((i) => (landmarks[i]?.visibility ?? 0) >= VISIBILITY_THRESHOLD)
@@ -69,6 +74,25 @@ export function normalizeAngleDelta(delta: number): number {
   if (d > 180) d -= 360
   if (d < -180) d += 360
   return d
+}
+
+/**
+ * Verifica di coerenza anatomica minima: il naso deve stare sopra le spalle
+ * nell'immagine (y minore = più in alto), con un margine ragionevole.
+ * Senza questo controllo, MediaPipe può restituire landmark spuri con
+ * visibility alta anche su scene completamente sbagliate (es. camera
+ * puntata a terra) - caso reale riscontrato in test.
+ */
+export function checkAnatomicalPlausibility(landmarks: PoseLandmark[]): boolean {
+  const nose = landmarks[LM.NOSE]
+  const leftShoulder = landmarks[LM.LEFT_SHOULDER]
+  const rightShoulder = landmarks[LM.RIGHT_SHOULDER]
+  if (!nose || !leftShoulder || !rightShoulder) return false
+
+  const shoulderY = (leftShoulder.y + rightShoulder.y) / 2
+  // il naso deve essere chiaramente sopra la linea spalle (differenza minima
+  // per evitare falsi positivi su inquadrature quasi piatte)
+  return shoulderY - nose.y > 0.05
 }
 
 export function calcShoulderElevation(landmarks: PoseLandmark[]): number | null {
