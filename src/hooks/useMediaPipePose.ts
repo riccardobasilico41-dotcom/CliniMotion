@@ -1,12 +1,9 @@
-import { useCallback, useRef } from 'react'
+import { useCallback, useRef, useState } from 'react'
 import type { PoseLandmark, FrameSample } from '@/types/database'
 
-// Le classi Pose/Camera vengono caricate globalmente via script MediaPipe
-// (vedi index.html o import dinamico) - dichiarate qui per TS
 declare global {
   interface Window {
     Pose: any
-    Camera: any
     drawConnectors: any
     drawLandmarks: any
     POSE_CONNECTIONS: any
@@ -15,6 +12,11 @@ declare global {
 
 type Status = 'idle' | 'loading' | 'ready' | 'error'
 
+export interface CameraDevice {
+  deviceId: string
+  label: string
+}
+
 interface UseMediaPipePoseOptions {
   videoRef: React.RefObject<HTMLVideoElement>
   canvasRef: React.RefObject<HTMLCanvasElement>
@@ -22,7 +24,13 @@ interface UseMediaPipePoseOptions {
 }
 
 /**
- * Hook per gestire il ciclo di vita di MediaPipe Pose su un elemento video.
+ * Hook per gestire MediaPipe Pose con controllo manuale dello stream video.
+ *
+ * Non usiamo più l'utility Camera di MediaPipe (che sceglie automaticamente
+ * la camera di default, di solito quella frontale su mobile): gestiamo noi
+ * lo stream via getUserMedia, cosi' l'utente puo' scegliere qualsiasi
+ * dispositivo video disponibile (frontale, posteriore, webcam esterna via
+ * adattatore) mediante enumerateDevices/deviceId.
  *
  * Nota importante (bug risolto in precedenza): NON usare uno state React
  * per decidere se registrare i frame dentro la callback onResults, perché
@@ -32,7 +40,12 @@ interface UseMediaPipePoseOptions {
 export function useMediaPipePose({ videoRef, canvasRef, onLandmarks }: UseMediaPipePoseOptions) {
   const statusRef = useRef<Status>('idle')
   const poseRef = useRef<any>(null)
-  const cameraRef = useRef<any>(null)
+  const streamRef = useRef<MediaStream | null>(null)
+  const rafRef = useRef<number | null>(null)
+  const processingRef = useRef(false)
+
+  const [devices, setDevices] = useState<CameraDevice[]>([])
+  const [activeDeviceId, setActiveDeviceId] = useState<string | null>(null)
 
   const isRecordingRef = useRef(false)
   const framesRef = useRef<FrameSample[]>([])
@@ -52,12 +65,12 @@ export function useMediaPipePose({ videoRef, canvasRef, onLandmarks }: UseMediaP
 
       if (window.drawConnectors && window.POSE_CONNECTIONS) {
         window.drawConnectors(ctx, landmarks, window.POSE_CONNECTIONS, {
-          color: '#5EE6C8',
+          color: '#8FB4D9',
           lineWidth: 2,
         })
       }
       if (window.drawLandmarks) {
-        window.drawLandmarks(ctx, landmarks, { color: '#E6A85E', radius: 2 })
+        window.drawLandmarks(ctx, landmarks, { color: '#C9A24B', radius: 2 })
       }
     },
     [canvasRef, videoRef]
@@ -81,6 +94,71 @@ export function useMediaPipePose({ videoRef, canvasRef, onLandmarks }: UseMediaP
     [drawSkeleton, onLandmarks]
   )
 
+  const frameLoop = useCallback(() => {
+    const video = videoRef.current
+    const pose = poseRef.current
+    if (video && pose && !processingRef.current && video.readyState >= 2) {
+      processingRef.current = true
+      pose.send({ image: video }).finally(() => {
+        processingRef.current = false
+      })
+    }
+    rafRef.current = requestAnimationFrame(frameLoop)
+  }, [videoRef])
+
+  const refreshDeviceList = useCallback(async () => {
+    try {
+      const all = await navigator.mediaDevices.enumerateDevices()
+      const videoInputs = all
+        .filter((d) => d.kind === 'videoinput')
+        .map((d, i) => ({ deviceId: d.deviceId, label: d.label || `Camera ${i + 1}` }))
+      setDevices(videoInputs)
+      return videoInputs
+    } catch {
+      return []
+    }
+  }, [])
+
+  const [isFrontFacing, setIsFrontFacing] = useState(true)
+
+  const startStream = useCallback(
+    async (deviceId?: string) => {
+      streamRef.current?.getTracks().forEach((t) => t.stop())
+
+      const constraints: MediaStreamConstraints = {
+        video: deviceId
+          ? { deviceId: { exact: deviceId } }
+          : { facingMode: { ideal: 'environment' } }, // preferisci posteriore: piu' lontana, meno distorsione
+      }
+
+      const stream = await navigator.mediaDevices.getUserMedia(constraints)
+      streamRef.current = stream
+
+      if (videoRef.current) {
+        videoRef.current.srcObject = stream
+        await videoRef.current.play()
+      }
+
+      const track = stream.getVideoTracks()[0]
+      const settings = track.getSettings()
+      setActiveDeviceId(settings.deviceId ?? null)
+      // specchiare solo la camera frontale (selfie): posteriore/esterna non va specchiata,
+      // altrimenti chi osserva il paziente vede dx/sx invertiti in modo fuorviante
+      setIsFrontFacing(settings.facingMode !== 'environment')
+
+      // richiedere i permessi sblocca le label reali dei dispositivi
+      await refreshDeviceList()
+    },
+    [videoRef, refreshDeviceList]
+  )
+
+  const switchDevice = useCallback(
+    async (deviceId: string) => {
+      await startStream(deviceId)
+    },
+    [startStream]
+  )
+
   const init = useCallback(async () => {
     if (!videoRef.current) return
     if (statusRef.current === 'loading' || statusRef.current === 'ready') return
@@ -91,37 +169,31 @@ export function useMediaPipePose({ videoRef, canvasRef, onLandmarks }: UseMediaP
         locateFile: (file: string) => `https://cdn.jsdelivr.net/npm/@mediapipe/pose/${file}`,
       })
       pose.setOptions({
-        modelComplexity: 0, // modello lite - molto più veloce in browser
+        modelComplexity: 0,
         smoothLandmarks: true,
         enableSegmentation: false,
         minDetectionConfidence: 0.5,
         minTrackingConfidence: 0.5,
       })
       pose.onResults(handleResults)
-
-      const camera = new window.Camera(videoRef.current, {
-        onFrame: async () => {
-          if (videoRef.current) await pose.send({ image: videoRef.current })
-        },
-        width: 320,
-        height: 240,
-      })
-
       poseRef.current = pose
-      cameraRef.current = camera
-      await camera.start()
+
+      await startStream()
+
+      rafRef.current = requestAnimationFrame(frameLoop)
       statusRef.current = 'ready'
     } catch (err) {
-      console.error('Errore inizializzazione MediaPipe:', err)
+      console.error('Errore inizializzazione MediaPipe/camera:', err)
       statusRef.current = 'error'
     }
-  }, [videoRef, handleResults])
+  }, [videoRef, handleResults, startStream, frameLoop])
 
   const destroy = useCallback(() => {
-    cameraRef.current?.stop()
+    if (rafRef.current) cancelAnimationFrame(rafRef.current)
+    streamRef.current?.getTracks().forEach((t) => t.stop())
     poseRef.current?.close()
     poseRef.current = null
-    cameraRef.current = null
+    streamRef.current = null
     statusRef.current = 'idle'
   }, [])
 
@@ -136,5 +208,15 @@ export function useMediaPipePose({ videoRef, canvasRef, onLandmarks }: UseMediaP
     return framesRef.current
   }, [])
 
-  return { init, destroy, startRecording, stopRecording, statusRef }
+  return {
+    init,
+    destroy,
+    startRecording,
+    stopRecording,
+    statusRef,
+    devices,
+    activeDeviceId,
+    switchDevice,
+    isFrontFacing,
+  }
 }
