@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      {/* Hero — il testo passa dietro le vette: foto, poi testo, poi il ritaglio delle montagne sopra */}
-      <section className="relative flex h-[78vh] min-h-[560px] items-start overflow-hidden bg-alpine-dark pt-[24%] sm:h-[86vh] sm:pt-[20%]">
+      {/* Hero — testo enorme, in alto nel cielo aperto, sempre leggibile */}
+      <section className="relative flex h-[78vh] min-h-[560px] items-start overflow-hidden bg-alpine-dark pt-[7%] sm:h-[86vh] sm:pt-[6%]">
         {/* livello 1: foto intera (cielo + montagne) */}
         <div className="absolute inset-0">
           <Image
@@ -41,12 +41,12 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* livello 2: il testo, tra il cielo e le montagne */}
+        {/* livello 2: il testo, grande e leggibile nel cielo */}
         <Container className="relative z-10">
           <Reveal>
             <h1
-              className="max-w-xl font-display text-[3.4rem] font-black leading-[0.85] tracking-tight text-white sm:text-[6rem] lg:text-[7.5rem]"
-              style={{ textShadow: '0 6px 30px rgba(6,14,22,0.5), 0 2px 10px rgba(6,14,22,0.55), 0 1px 2px rgba(6,14,22,0.4)' }}
+              className="max-w-5xl font-display text-[4.6rem] font-black leading-[0.82] tracking-tight text-white sm:text-[9rem] lg:text-[12rem]"
+              style={{ textShadow: '0 8px 40px rgba(6,14,22,0.55), 0 3px 14px rgba(6,14,22,0.6), 0 1px 3px rgba(6,14,22,0.45)' }}
             >
               Casa
               <br />
@@ -54,17 +54,6 @@ export default function HomePage() {
             </h1>
           </Reveal>
         </Container>
-
-        {/* livello 3: ritaglio delle montagne, sopra al testo — stessa foto, stessa posizione */}
-        <div className="pointer-events-none absolute inset-0 z-[15]">
-          <Image
-            src="/images/dolomiti-brenta-hero-cutout.png"
-            alt=""
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-        </div>
 
         {/* livello 4: sottotitolo e CTA, in basso sopra il bosco */}
         <div className="absolute inset-x-0 bottom-0 z-20 pb-10 sm:pb-14">
