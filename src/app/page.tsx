@@ -44,7 +44,10 @@ export default function HomePage() {
         {/* livello 2: il testo, tra il cielo e le montagne */}
         <Container className="relative z-10">
           <Reveal>
-            <h1 className="max-w-xl font-display text-[3.4rem] font-bold leading-[0.85] tracking-tight text-cream sm:text-[6rem] lg:text-[7.5rem]">
+            <h1
+              className="max-w-xl font-display text-[3.4rem] font-black leading-[0.85] tracking-tight text-white sm:text-[6rem] lg:text-[7.5rem]"
+              style={{ textShadow: '0 6px 30px rgba(6,14,22,0.5), 0 2px 10px rgba(6,14,22,0.55), 0 1px 2px rgba(6,14,22,0.4)' }}
+            >
               Casa
               <br />
               di Mara
