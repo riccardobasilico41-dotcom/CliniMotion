@@ -50,19 +50,20 @@ const activities = [
 export default function EstatePage() {
   return (
     <>
-      {/* Hero fotografico — stessa foto della home, taglio e testo diversi */}
-      <section className="relative flex h-[60vh] min-h-[420px] items-start overflow-hidden bg-alpine-dark">
+      {/* Hero fotografico — lago e rifugio al tramonto */}
+      <section className="relative flex h-[64vh] min-h-[460px] items-end overflow-hidden bg-alpine-dark">
         <div className="absolute inset-0">
           <Image
-            src="/images/dolomiti-brenta-hero.jpg"
-            alt="Le Dolomiti di Brenta in estate, viste dalla Val Rendena"
+            src="/images/lago-rifugio-tramonto.jpg"
+            alt="Rifugio di montagna su un lago alpino al tramonto, Trentino"
             fill
-            className="object-cover object-[30%_60%]"
+            priority
+            className="object-cover object-[50%_35%]"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-alpine-dark/80 via-alpine-dark/10 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-alpine-dark/85 via-alpine-dark/10 to-transparent" />
         </div>
-        <Container className="relative pt-16 sm:pt-20">
+        <Container className="relative pb-10 sm:pb-14">
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-cream/70">
             Pinzolo · Madonna di Campiglio
           </p>
@@ -130,7 +131,16 @@ export default function EstatePage() {
       </section>
 
       <section className="border-t border-alpine/10 bg-cream-dark/50 py-20 sm:py-28">
-        <Container className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+        <Container className="grid gap-10 lg:grid-cols-[0.7fr_1fr_1fr] lg:items-center">
+          <div className="relative order-first h-56 overflow-hidden rounded-2xl lg:order-none lg:h-72">
+            <Image
+              src="/images/mucca-alpeggio.jpg"
+              alt="Mucca al pascolo in un alpeggio della Val Rendena"
+              fill
+              className="object-cover"
+              sizes="(min-width: 1024px) 25vw, 100vw"
+            />
+          </div>
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Vicino a casa</p>
             <h2 className="mt-3 font-display text-2xl text-alpine">A Bocenago, senza spostarsi</h2>

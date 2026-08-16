@@ -72,12 +72,23 @@ export default function LaCasaPage() {
           <h2 className="mt-3 max-w-xl font-display text-3xl font-medium text-balance text-alpine sm:text-4xl">
             Bocenago, il volto più autentico della Val Rendena
           </h2>
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
-            Bocenago è, tra i paesi della Val Rendena, quello che ha conservato meglio l&apos;architettura
-            rurale del passato: nel nucleo antico, gli edifici hanno una base massiccia in muratura —
-            che un tempo ospitava il focolare e la stalla — sormontata da piani superiori interamente in
-            legno.
-          </p>
+          <div className="mt-6 grid gap-8 lg:grid-cols-[1fr_1.4fr] lg:items-start">
+            <div className="relative order-first h-64 overflow-hidden rounded-2xl lg:order-none lg:h-full lg:min-h-[16rem]">
+              <Image
+                src="/images/borgo-montagna.jpg"
+                alt="Un borgo di montagna in Trentino, con chiesa e case tradizionali"
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 35vw, 100vw"
+              />
+            </div>
+            <p className="text-base leading-relaxed text-stone">
+              Bocenago è, tra i paesi della Val Rendena, quello che ha conservato meglio
+              l&apos;architettura rurale del passato: nel nucleo antico, gli edifici hanno una base
+              massiccia in muratura — che un tempo ospitava il focolare e la stalla — sormontata da
+              piani superiori interamente in legno.
+            </p>
+          </div>
 
           <div className="mt-14 divide-y divide-alpine/10 border-t border-alpine/10">
             <article className="grid gap-3 py-8 sm:grid-cols-[5rem_1fr] sm:gap-8">
@@ -108,9 +119,19 @@ export default function LaCasaPage() {
         </Container>
       </section>
 
-      {/* Cascata del Masanel — banda a piena larghezza */}
-      <section className="bg-alpine py-20 text-cream sm:py-28">
-        <Container>
+      {/* Cascata del Masanel — banda fotografica a piena larghezza */}
+      <section className="relative overflow-hidden bg-alpine-dark py-20 text-cream sm:py-28">
+        <div className="absolute inset-0">
+          <Image
+            src="/images/brenta-notte-stellata.jpg"
+            alt="Cielo stellato sulle vette innevate delle Dolomiti di Brenta"
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-alpine-dark/70" />
+        </div>
+        <Container className="relative">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cream/60">A due passi da casa</p>
           <h2 className="mt-3 max-w-2xl font-display text-3xl font-medium leading-tight sm:text-4xl">
             La Cascata del Masanel

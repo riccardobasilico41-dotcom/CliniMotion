@@ -144,10 +144,10 @@ export default function HomePage() {
               className="group relative flex min-h-[22rem] flex-col justify-end overflow-hidden rounded-2xl p-8 text-cream lg:col-span-3"
             >
               <Image
-                src="/images/dolomiti-brenta-hero.jpg"
+                src="/images/lago-rifugio-tramonto.jpg"
                 alt=""
                 fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                className="object-cover object-[50%_35%] transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-alpine-dark/90 via-alpine-dark/20 to-transparent" />
               <div className="relative">
@@ -162,10 +162,17 @@ export default function HomePage() {
 
             <Link
               href="/pinzolo-campiglio-inverno"
-              className="group flex min-h-[22rem] flex-col justify-between rounded-2xl bg-[#1c2b3d] p-8 text-cream lg:col-span-2"
+              className="group relative flex min-h-[22rem] flex-col justify-between overflow-hidden rounded-2xl bg-[#1c2b3d] p-8 text-cream lg:col-span-2"
             >
-              <p className="text-xs font-semibold uppercase tracking-wider text-cream/60">Inverno</p>
-              <div>
+              <Image
+                src="/images/brenta-vette-inverno.jpg"
+                alt=""
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0a1520]/90 via-[#0a1520]/35 to-transparent" />
+              <p className="relative text-xs font-semibold uppercase tracking-wider text-cream/60">Inverno</p>
+              <div className="relative">
                 <h3 className="font-display text-2xl leading-tight">
                   Sci a Skirama
                   <br />

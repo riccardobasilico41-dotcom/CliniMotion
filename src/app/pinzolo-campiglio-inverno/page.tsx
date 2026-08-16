@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, ExternalLink, Users } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
@@ -19,15 +20,26 @@ export const metadata: Metadata = {
 export default function InvernoPage() {
   return (
     <>
-      {/* Marquee — nessuna foto, un'unica affermazione tipografica */}
+      {/* Marquee fotografico — vette del Brenta tra le nuvole */}
       <section className="relative flex min-h-[64vh] flex-col justify-between overflow-hidden bg-[#1c2b3d] py-14 text-cream sm:min-h-[72vh]">
-        <Container>
+        <div className="absolute inset-0">
+          <Image
+            src="/images/brenta-vette-inverno.jpg"
+            alt="Le vette innevate delle Dolomiti di Brenta tra le nuvole"
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0a1520]/85 via-[#0a1520]/40 to-[#0a1520]/80" />
+        </div>
+        <Container className="relative">
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-cream/60">
             Pinzolo · Madonna di Campiglio
           </p>
         </Container>
 
-        <Container>
+        <Container className="relative">
           <p className="font-display text-[6.5rem] font-semibold leading-[0.85] tracking-tight sm:text-[10rem]">
             380
           </p>
@@ -45,7 +57,7 @@ export default function InvernoPage() {
           </a>
         </Container>
 
-        <Container className="flex items-end justify-between">
+        <Container className="relative flex items-end justify-between">
           <p className="max-w-xs text-sm leading-relaxed text-cream/60">
             La mansarda a Bocenago è &ldquo;raggiungibile con gli sci&rdquo;: con neve, si scia fin quasi
             a casa.
