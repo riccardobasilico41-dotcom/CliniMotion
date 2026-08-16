@@ -1,5 +1,6 @@
 export const siteConfig = {
   name: 'Mansarda tra le Dolomiti di Brenta',
+  brandName: 'Casa di Mara',
   legalListingName: 'Appartamento "Mansarda tra le Dolomiti di Brenta" con vista montagna e balcone',
   shortName: 'Mansarda tra le Dolomiti di Brenta',
   tagline: 'Una mansarda in legno a Bocenago, con le Dolomiti di Brenta sul balcone',

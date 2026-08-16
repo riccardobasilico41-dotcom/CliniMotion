@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { MapPin, Star, Users, BedDouble, Bath, Ruler } from 'lucide-react'
+import { MapPin, Star, ArrowRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { Button } from '@/components/ui/Button'
 import { SectionHeading } from '@/components/ui/SectionHeading'
@@ -15,70 +15,65 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 }
 
-const stats = [
-  { icon: Users, label: `${siteConfig.property.guests} persone` },
-  { icon: BedDouble, label: `${siteConfig.property.bedrooms} camere da letto` },
-  { icon: Bath, label: `${siteConfig.property.bathrooms} bagno` },
-  { icon: Ruler, label: `${siteConfig.property.sizeSqm} m²` },
-]
-
 export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex min-h-[88vh] items-end overflow-hidden bg-forest-dark">
+      <section className="relative flex h-[78vh] min-h-[560px] overflow-hidden bg-forest-dark sm:h-[86vh]">
         <div className="absolute inset-0">
           <Image
-            src="/images/soggiorno-mansarda.jpg"
-            alt="Soggiorno in legno della mansarda tra le Dolomiti di Brenta, a Bocenago"
+            src="/images/dolomiti-brenta-hero.jpg"
+            alt="Le Dolomiti di Brenta viste dalla Val Rendena, vicino a Bocenago"
             fill
             priority
-            className="animate-slow-zoom object-cover opacity-90"
+            className="animate-slow-zoom object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-forest-dark via-forest-dark/40 to-forest-dark/10" />
         </div>
 
-        <Container className="relative pb-16 pt-40 sm:pb-24">
-          <Reveal>
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-cream/70">
-              Bocenago · Val Rendena · Trentino
-            </p>
-            <h1 className="mt-5 max-w-2xl font-display text-4xl font-medium text-balance text-cream sm:text-6xl">
-              Una mansarda in legno, con le Dolomiti di Brenta sul balcone
-            </h1>
-            <p className="mt-6 max-w-lg text-base leading-relaxed text-cream/80 sm:text-lg">
-              {siteConfig.description}
-            </p>
-          </Reveal>
+        {/* corner caption */}
+        <div className="absolute right-6 top-6 z-10 text-right sm:right-10 sm:top-10">
+          <p className="font-mono text-[0.7rem] uppercase tracking-[0.2em] text-cream/80">
+            Bocenago
+            <br />
+            Trentino
+          </p>
+        </div>
 
-          <Reveal delay={0.15}>
-            <div className="mt-9 flex flex-wrap items-center gap-4">
-              <Button href="/prenota" variant="light">
-                Prenota il soggiorno
-              </Button>
-              <Button href="/la-casa" variant="secondary" className="!border-cream/40 !text-cream hover:!bg-cream/10">
-                Scopri la casa
-              </Button>
-            </div>
-          </Reveal>
+        {/* text block, biased low-left, local scrim only */}
+        <div className="relative mt-auto w-full pb-10 pt-24 sm:pb-16">
+          <div
+            className="pointer-events-none absolute inset-x-0 bottom-0 top-1/3"
+            style={{
+              background:
+                'linear-gradient(180deg, transparent 0%, rgba(28,46,37,0.55) 55%, rgba(28,46,37,0.85) 100%)',
+            }}
+          />
+          <Container className="relative">
+            <Reveal>
+              <h1 className="max-w-3xl font-display text-[3.4rem] font-semibold leading-[0.95] tracking-tight text-cream sm:text-[5.5rem] lg:text-[6.5rem]">
+                {siteConfig.brandName}
+              </h1>
+              <p className="mt-3 max-w-md text-base font-normal text-cream/80 sm:text-lg">
+                {siteConfig.shortName}, a Bocenago
+              </p>
 
-          <Reveal delay={0.25}>
-            <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-cream/85">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-cream/10 px-3 py-1.5">
-                <Star size={15} className="fill-wood text-wood" />
-                {siteConfig.rating.value}/{siteConfig.rating.scale} · {siteConfig.rating.label} ·{' '}
-                {siteConfig.rating.reviewCount} recensioni
-              </span>
-              {stats.map((s) => (
-                <span key={s.label} className="inline-flex items-center gap-1.5">
-                  <s.icon size={16} strokeWidth={1.75} />
-                  {s.label}
+              <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3">
+                <Link
+                  href="/prenota"
+                  className="group inline-flex items-center gap-2 text-sm font-medium text-cream underline decoration-cream/40 decoration-1 underline-offset-4 transition-colors hover:decoration-cream"
+                >
+                  Prenota il soggiorno
+                  <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
+                </Link>
+                <span className="inline-flex items-center gap-1.5 text-xs text-cream/70">
+                  <Star size={13} className="fill-wood text-wood" />
+                  {siteConfig.rating.value}/{siteConfig.rating.scale} · {siteConfig.rating.reviewCount} recensioni
                 </span>
-              ))}
-            </div>
-          </Reveal>
-        </Container>
+              </div>
+            </Reveal>
+          </Container>
+        </div>
       </section>
 
       {/* Intro / benvenuto di Mara */}

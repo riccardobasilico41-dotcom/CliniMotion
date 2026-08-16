@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Container } from './ui/Container'
 import { Button } from './ui/Button'
+import { siteConfig } from '@/lib/site-config'
 
 const navLinks = [
   { href: '/la-casa', label: 'La casa' },
@@ -19,8 +20,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-forest/10 bg-cream/90 backdrop-blur">
       <Container className="flex h-18 items-center justify-between py-3">
-        <Link href="/" className="font-display text-lg font-medium tracking-tight text-forest">
-          Mansarda <span className="text-wood">tra le Dolomiti</span>
+        <Link href="/" className="flex flex-col leading-none">
+          <span className="font-display text-lg font-medium tracking-tight text-forest">
+            {siteConfig.brandName}
+          </span>
+          <span className="text-[0.65rem] font-medium uppercase tracking-[0.14em] text-wood">
+            {siteConfig.shortName}
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
