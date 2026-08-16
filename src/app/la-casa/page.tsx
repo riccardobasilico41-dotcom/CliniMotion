@@ -63,6 +63,36 @@ export default function LaCasaPage() {
             </p>
           </div>
         </Container>
+
+        <Container className="mt-14 grid gap-4 sm:grid-cols-[1.3fr_1fr_1fr]">
+          <div className="relative h-72 overflow-hidden rounded-2xl sm:h-96">
+            <Image
+              src="/images/soggiorno-tavolo.jpg"
+              alt="Soggiorno con tavolo da pranzo e travi in legno a vista"
+              fill
+              className="object-cover"
+              sizes="(min-width: 640px) 40vw, 100vw"
+            />
+          </div>
+          <div className="relative h-72 overflow-hidden rounded-2xl sm:h-96">
+            <Image
+              src="/images/camera-letto.jpg"
+              alt="Una delle due camere da letto della mansarda"
+              fill
+              className="object-cover"
+              sizes="(min-width: 640px) 30vw, 100vw"
+            />
+          </div>
+          <div className="relative h-72 overflow-hidden rounded-2xl sm:h-96">
+            <Image
+              src="/images/barbecue-balcone.jpg"
+              alt="Angolo barbecue sul balcone privato della mansarda"
+              fill
+              className="object-cover"
+              sizes="(min-width: 640px) 30vw, 100vw"
+            />
+          </div>
+        </Container>
       </section>
 
       {/* Il paese — indice numerato, non card affiancate */}
