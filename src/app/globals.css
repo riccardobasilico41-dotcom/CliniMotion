@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --color-forest: #2f4a3c;
+  --color-forest-dark: #1c2e25;
+  --color-cream: #faf6ee;
+  --color-cream-dark: #f0e9d8;
+  --color-wood: #a9744f;
+  --color-wood-dark: #8a5c3c;
+  --color-stone: #55524a;
+  --color-ink: #211f1c;
+}
+
+@theme inline {
+  --color-forest: var(--color-forest);
+  --color-forest-dark: var(--color-forest-dark);
+  --color-cream: var(--color-cream);
+  --color-cream-dark: var(--color-cream-dark);
+  --color-wood: var(--color-wood);
+  --color-wood-dark: var(--color-wood-dark);
+  --color-stone: var(--color-stone);
+  --color-ink: var(--color-ink);
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes slow-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 18s ease-out forwards;
+}
