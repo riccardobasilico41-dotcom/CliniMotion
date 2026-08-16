@@ -37,9 +37,9 @@ export function AmenityGrid() {
         return (
           <li
             key={amenity.label}
-            className="flex items-center gap-3.5 border-t border-forest/10 py-4 first:border-t-0 sm:[&:nth-child(2)]:border-t-0"
+            className="flex items-center gap-3.5 border-t border-alpine/10 py-4 first:border-t-0 sm:[&:nth-child(2)]:border-t-0"
           >
-            <Icon size={17} strokeWidth={1.5} className="shrink-0 text-wood-dark" />
+            <Icon size={17} strokeWidth={1.5} className="shrink-0 text-rosso-dark" />
             <span className="text-sm text-stone">{amenity.label}</span>
             <span className="ml-auto font-mono text-[0.65rem] text-stone/40">
               {String(i + 1).padStart(2, '0')}

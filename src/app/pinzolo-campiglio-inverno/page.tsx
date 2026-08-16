@@ -1,8 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight, Users } from 'lucide-react'
+import { ArrowRight, ExternalLink, Users } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { siteConfig } from '@/lib/site-config'
+
+const officialLinks = {
+  skirama: 'https://www.skirama.it',
+  skiarea: 'https://www.campigliodolomiti.it/it/skiarea/inverno/skirama-adamello-brenta',
+}
 
 export const metadata: Metadata = {
   title: 'Cosa fare in inverno a Pinzolo e Madonna di Campiglio',
@@ -29,6 +34,15 @@ export default function InvernoPage() {
           <p className="mt-2 max-w-sm text-lg text-cream/80">
             km di piste su Skirama Dolomiti Adamello Brenta, un unico skipass
           </p>
+          <a
+            href={officialLinks.skirama}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream"
+          >
+            Skipass e piste (sito ufficiale Skirama)
+            <ExternalLink size={13} />
+          </a>
         </Container>
 
         <Container className="flex items-end justify-between">
@@ -43,14 +57,14 @@ export default function InvernoPage() {
       </section>
 
       {/* Due numeri, in linea, non in card */}
-      <section className="border-b border-forest/10 py-10">
+      <section className="border-b border-alpine/10 py-10">
         <Container className="flex flex-col gap-8 sm:flex-row sm:gap-16">
           <div>
-            <p className="font-display text-3xl text-forest">150</p>
+            <p className="font-display text-3xl text-alpine">150</p>
             <p className="mt-1 text-sm text-stone">impianti di risalita in 8 località collegate</p>
           </div>
           <div>
-            <p className="font-display text-3xl text-forest">90%+</p>
+            <p className="font-display text-3xl text-alpine">90%+</p>
             <p className="mt-1 text-sm text-stone">innevamento garantito su oltre 340 km</p>
           </div>
         </Container>
@@ -59,8 +73,8 @@ export default function InvernoPage() {
       <section className="py-20 sm:py-28">
         <Container className="grid gap-10 lg:grid-cols-2">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Madonna di Campiglio</p>
-            <h2 className="mt-3 font-display text-2xl text-forest sm:text-3xl">60 km di piste, 22 impianti</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Madonna di Campiglio</p>
+            <h2 className="mt-3 font-display text-2xl text-alpine sm:text-3xl">60 km di piste, 22 impianti</h2>
             <p className="mt-3 text-sm leading-relaxed text-stone">
               La località più nota del comprensorio, con piste che scendono verso il paese e
               collegamenti verso il Gruppo di Brenta e la Val di Sole. Adatta sia a sciatori esperti sia
@@ -68,8 +82,8 @@ export default function InvernoPage() {
             </p>
           </div>
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Pinzolo</p>
-            <h2 className="mt-3 font-display text-2xl text-forest sm:text-3xl">30 km di piste, 10 impianti</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Pinzolo</p>
+            <h2 className="mt-3 font-display text-2xl text-alpine sm:text-3xl">30 km di piste, 10 impianti</h2>
             <p className="mt-3 text-sm leading-relaxed text-stone">
               Più raccolta e familiare, con l&apos;impianto di Prà Rodont indicato spesso come punto
               ideale per sciare in famiglia con bambini, e la cabinovia rinnovata verso il Doss del
@@ -77,13 +91,24 @@ export default function InvernoPage() {
             </p>
           </div>
         </Container>
+        <Container className="mt-10">
+          <a
+            href={officialLinks.skiarea}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-rosso underline underline-offset-4"
+          >
+            Mappa piste e stato impianti (sito ufficiale)
+            <ExternalLink size={12} />
+          </a>
+        </Container>
       </section>
 
-      <section className="border-t border-forest/10 bg-cream-dark/50 py-20 sm:py-28">
+      <section className="border-t border-alpine/10 bg-cream-dark/50 py-20 sm:py-28">
         <Container className="grid gap-12 lg:grid-cols-[1fr_1fr] lg:items-center">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Non solo sci</p>
-            <h2 className="mt-3 max-w-md font-display text-3xl font-medium text-balance text-forest">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Non solo sci</p>
+            <h2 className="mt-3 max-w-md font-display text-3xl font-medium text-balance text-alpine">
               Ciaspole, fondo e passeggiate sulla neve
             </h2>
             <p className="mt-4 max-w-md text-base leading-relaxed text-stone">
@@ -92,8 +117,8 @@ export default function InvernoPage() {
               lento tra i boschi innevati.
             </p>
           </div>
-          <div className="flex items-start gap-4 border-l-2 border-wood/40 pl-6">
-            <Users size={20} className="mt-0.5 shrink-0 text-wood-dark" />
+          <div className="flex items-start gap-4 border-l-2 border-rosso/40 pl-6">
+            <Users size={20} className="mt-0.5 shrink-0 text-rosso-dark" />
             <p className="text-sm leading-relaxed text-stone">
               La mansarda dispone di letto per bambini, seggiolone e balcone protetto: comoda base per
               famiglie con bambini piccoli che vogliono alternare sci e giornate più tranquille in paese.
@@ -102,17 +127,17 @@ export default function InvernoPage() {
         </Container>
       </section>
 
-      <section className="border-t border-forest/10 py-16 sm:py-20">
+      <section className="border-t border-alpine/10 py-16 sm:py-20">
         <Container className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
           <div>
-            <h2 className="font-display text-2xl text-forest">Prenota il tuo inverno in Val Rendena</h2>
+            <h2 className="font-display text-2xl text-alpine">Prenota il tuo inverno in Val Rendena</h2>
             <p className="mt-1.5 text-xs text-stone/70">
               Numero di licenza {siteConfig.legal.licenseNumber} · CIN {siteConfig.legal.cin}
             </p>
           </div>
           <Link
             href="/prenota"
-            className="group inline-flex items-center gap-2 text-sm font-medium text-forest underline underline-offset-4"
+            className="group inline-flex items-center gap-2 text-sm font-medium text-alpine underline underline-offset-4"
           >
             Vai alla prenotazione
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />

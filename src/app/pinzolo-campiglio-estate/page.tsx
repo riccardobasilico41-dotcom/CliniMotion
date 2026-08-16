@@ -2,13 +2,19 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Container } from '@/components/ui/Container'
-import { ArrowRight, Footprints, Bike, Mountain, Waves, Landmark } from 'lucide-react'
+import { ArrowRight, ExternalLink, Footprints, Bike, Mountain, Waves, Landmark } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Cosa fare in estate a Pinzolo e Madonna di Campiglio',
   description:
     "Trekking sulle Dolomiti di Brenta, il nuovo bike park, via ferrata, la Cascata del Masanel e la Val Genova: le attività estive a Pinzolo e Madonna di Campiglio, a pochi minuti dalla mansarda di Bocenago.",
   alternates: { canonical: '/pinzolo-campiglio-estate' },
+}
+
+const officialLinks = {
+  funivie: 'https://www.campigliodolomiti.it/it/skiarea-estiva',
+  pnab: 'https://www.pnab.it/it/',
+  golf: 'https://www.golfrendena.it',
 }
 
 const featured = {
@@ -32,6 +38,7 @@ const activities = [
     icon: Waves,
     title: 'Val Genova e le sue cascate',
     text: 'Nel cuore del Parco Naturale Adamello Brenta, una delle valli glaciali più suggestive del Trentino, con le celebri Cascate di Nardis.',
+    link: { href: officialLinks.pnab, label: 'Sito del Parco' },
   },
   {
     icon: Landmark,
@@ -44,7 +51,7 @@ export default function EstatePage() {
   return (
     <>
       {/* Hero fotografico — stessa foto della home, taglio e testo diversi */}
-      <section className="relative flex h-[60vh] min-h-[420px] items-start overflow-hidden bg-forest-dark">
+      <section className="relative flex h-[60vh] min-h-[420px] items-start overflow-hidden bg-alpine-dark">
         <div className="absolute inset-0">
           <Image
             src="/images/dolomiti-brenta-hero.jpg"
@@ -53,7 +60,7 @@ export default function EstatePage() {
             className="object-cover object-[30%_60%]"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-forest-dark/80 via-forest-dark/10 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-alpine-dark/80 via-alpine-dark/10 to-transparent" />
         </div>
         <Container className="relative pt-16 sm:pt-20">
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-cream/70">
@@ -76,24 +83,44 @@ export default function EstatePage() {
       </section>
 
       {/* Attività — un blocco in evidenza + lista, non griglia uniforme */}
-      <section className="border-t border-forest/10 py-20 sm:py-28">
+      <section className="border-t border-alpine/10 py-20 sm:py-28">
         <Container>
           <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:gap-16">
             <article>
-              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-forest text-cream">
+              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-alpine text-cream">
                 <featured.icon size={20} strokeWidth={1.75} />
               </span>
-              <h2 className="mt-5 font-display text-2xl text-forest sm:text-3xl">{featured.title}</h2>
+              <h2 className="mt-5 font-display text-2xl text-alpine sm:text-3xl">{featured.title}</h2>
               <p className="mt-3 max-w-md text-base leading-relaxed text-stone">{featured.text}</p>
+              <a
+                href={officialLinks.funivie}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-rosso underline underline-offset-4"
+              >
+                Orari e stato impianti (sito ufficiale)
+                <ExternalLink size={12} />
+              </a>
             </article>
 
-            <div className="divide-y divide-forest/10 border-t border-forest/10 lg:border-t-0">
+            <div className="divide-y divide-alpine/10 border-t border-alpine/10 lg:border-t-0">
               {activities.map((a) => (
                 <div key={a.title} className="flex gap-4 py-6 first:pt-0 lg:first:pt-0">
-                  <a.icon size={18} strokeWidth={1.75} className="mt-1 shrink-0 text-wood-dark" />
+                  <a.icon size={18} strokeWidth={1.75} className="mt-1 shrink-0 text-rosso-dark" />
                   <div>
-                    <h3 className="font-display text-base text-forest">{a.title}</h3>
+                    <h3 className="font-display text-base text-alpine">{a.title}</h3>
                     <p className="mt-1.5 text-sm leading-relaxed text-stone">{a.text}</p>
+                    {a.link && (
+                      <a
+                        href={a.link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1.5 inline-flex items-center gap-1 text-xs font-medium text-rosso underline underline-offset-4"
+                      >
+                        {a.link.label}
+                        <ExternalLink size={11} />
+                      </a>
+                    )}
                   </div>
                 </div>
               ))}
@@ -102,19 +129,28 @@ export default function EstatePage() {
         </Container>
       </section>
 
-      <section className="border-t border-forest/10 bg-cream-dark/50 py-20 sm:py-28">
+      <section className="border-t border-alpine/10 bg-cream-dark/50 py-20 sm:py-28">
         <Container className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Vicino a casa</p>
-            <h2 className="mt-3 font-display text-2xl text-forest">A Bocenago, senza spostarsi</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Vicino a casa</p>
+            <h2 className="mt-3 font-display text-2xl text-alpine">A Bocenago, senza spostarsi</h2>
             <p className="mt-3 text-sm leading-relaxed text-stone">
-              Il Golf Club Rendena è a 400 metri dalla mansarda, 5 minuti a piedi: un campo pratica
-              immerso nel verde della valle.
+              Il{' '}
+              <a
+                href={officialLinks.golf}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-alpine underline underline-offset-4"
+              >
+                Golf Club Rendena
+              </a>{' '}
+              è a 400 metri dalla mansarda, 5 minuti a piedi: un campo pratica immerso nel verde della
+              valle.
             </p>
           </div>
-          <div className="border-l border-forest/15 pl-8">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Consiglio pratico</p>
-            <h2 className="mt-3 font-display text-2xl text-forest">Prenota gli impianti in anticipo</h2>
+          <div className="border-l border-alpine/15 pl-8">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Consiglio pratico</p>
+            <h2 className="mt-3 font-display text-2xl text-alpine">Prenota gli impianti in anticipo</h2>
             <p className="mt-3 text-sm leading-relaxed text-stone">
               Nei fine settimana di luglio e agosto le funivie di Campiglio e Pinzolo possono avere code
               alla partenza: partire presto la mattina aiuta a godersi meglio la giornata in quota.
@@ -123,12 +159,12 @@ export default function EstatePage() {
         </Container>
       </section>
 
-      <section className="border-t border-forest/10 py-16 sm:py-20">
+      <section className="border-t border-alpine/10 py-16 sm:py-20">
         <Container className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-          <h2 className="font-display text-2xl text-forest">Organizza la tua estate in Val Rendena</h2>
+          <h2 className="font-display text-2xl text-alpine">Organizza la tua estate in Val Rendena</h2>
           <Link
             href="/prenota"
-            className="group inline-flex items-center gap-2 text-sm font-medium text-forest underline underline-offset-4"
+            className="group inline-flex items-center gap-2 text-sm font-medium text-alpine underline underline-offset-4"
           >
             Vai alla prenotazione
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />

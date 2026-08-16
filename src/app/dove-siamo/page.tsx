@@ -1,9 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight, ParkingCircle, Car, Train, Zap } from 'lucide-react'
+import { ArrowRight, ExternalLink, ParkingCircle, Car, Train, Zap } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { MapEmbed } from '@/components/MapEmbed'
 import { siteConfig } from '@/lib/site-config'
+
+const officialLinks = {
+  bus: 'https://www.trentinotrasporti.it',
+  charging: 'https://www.campigliodolomiti.it/it/ricarica-auto-elettriche',
+}
 
 export const metadata: Metadata = {
   title: 'Dove siamo: come arrivare a Bocenago e colonnine elettriche',
@@ -42,8 +47,8 @@ export default function DoveSiamoPage() {
     <>
       <section className="pb-4 pt-16 sm:pt-20">
         <Container>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Dove siamo</p>
-          <h1 className="mt-3 max-w-xl font-display text-3xl font-medium text-balance text-forest sm:text-4xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Dove siamo</p>
+          <h1 className="mt-3 max-w-xl font-display text-3xl font-medium text-balance text-alpine sm:text-4xl">
             Bocenago, nel cuore della Val Rendena
           </h1>
         </Container>
@@ -57,8 +62,8 @@ export default function DoveSiamoPage() {
               Il centro del paese, con ristoranti e minimarket, è a 200 metri (3 minuti a piedi). Pinzolo
               è a circa 9 minuti d&apos;auto, Madonna di Campiglio a circa 20.
             </p>
-            <div className="mt-6 flex items-center gap-3 border-t border-forest/10 pt-5">
-              <ParkingCircle size={19} className="text-wood-dark" />
+            <div className="mt-6 flex items-center gap-3 border-t border-alpine/10 pt-5">
+              <ParkingCircle size={19} className="text-rosso-dark" />
               <p className="text-sm text-stone">
                 {siteConfig.property.type} con parcheggio gratuito sul posto.
               </p>
@@ -68,17 +73,17 @@ export default function DoveSiamoPage() {
       </section>
 
       {/* In auto — elenco, non card */}
-      <section className="border-y border-forest/10 bg-cream-dark/50 py-20 sm:py-28">
+      <section className="border-y border-alpine/10 bg-cream-dark/50 py-20 sm:py-28">
         <Container>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">In auto</p>
-          <h2 className="mt-3 font-display text-2xl text-forest sm:text-3xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">In auto</p>
+          <h2 className="mt-3 font-display text-2xl text-alpine sm:text-3xl">
             Come arrivare da Trento, Verona e Brescia
           </h2>
 
-          <div className="mt-10 divide-y divide-forest/10 border-t border-forest/10">
+          <div className="mt-10 divide-y divide-alpine/10 border-t border-alpine/10">
             {drivingRoutes.map((r) => (
               <div key={r.from} className="grid gap-2 py-6 sm:grid-cols-[10rem_1fr] sm:gap-8">
-                <div className="flex items-center gap-2 text-forest">
+                <div className="flex items-center gap-2 text-alpine">
                   <Car size={16} />
                   <span className="font-display text-base">{r.from}</span>
                 </div>
@@ -86,12 +91,20 @@ export default function DoveSiamoPage() {
               </div>
             ))}
             <div className="grid gap-2 py-6 sm:grid-cols-[10rem_1fr] sm:gap-8">
-              <div className="flex items-center gap-2 text-forest">
+              <div className="flex items-center gap-2 text-alpine">
                 <Train size={16} />
                 <span className="font-display text-base">Treno e bus</span>
               </div>
               <p className="text-sm leading-relaxed text-stone">
-                La stazione ferroviaria più comoda è Trento. Da lì, gli autobus di Trentino Trasporti
+                La stazione ferroviaria più comoda è Trento. Da lì, gli autobus di{' '}
+                <a
+                  href={officialLinks.bus}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-alpine underline underline-offset-4"
+                >
+                  Trentino Trasporti
+                </a>{' '}
                 collegano la tratta Tione–Pinzolo–Madonna di Campiglio, con fermate anche in Val Rendena.
               </p>
             </div>
@@ -102,20 +115,29 @@ export default function DoveSiamoPage() {
       {/* Colonnine elettriche */}
       <section className="py-20 sm:py-28">
         <Container>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Auto elettriche</p>
-          <h2 className="mt-3 max-w-xl font-display text-2xl text-balance text-forest sm:text-3xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Auto elettriche</p>
+          <h2 className="mt-3 max-w-xl font-display text-2xl text-balance text-alpine sm:text-3xl">
             Colonnine di ricarica a Pinzolo e Madonna di Campiglio
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-stone">
             La Val Rendena mette a disposizione una rete di colonnine gratuite, oltre a punti di ricarica
-            rapida a pagamento nei due centri principali.
+            rapida a pagamento nei due centri principali.{' '}
+            <a
+              href={officialLinks.charging}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 font-medium text-rosso underline underline-offset-4"
+            >
+              Elenco aggiornato
+              <ExternalLink size={11} />
+            </a>
           </p>
 
-          <div className="mt-10 divide-y divide-forest/10 border-t border-forest/10">
+          <div className="mt-10 divide-y divide-alpine/10 border-t border-alpine/10">
             {chargingStations.map((s) => (
               <div key={s.zone} className="grid gap-1.5 py-5 sm:grid-cols-[16rem_1fr] sm:items-baseline sm:gap-8">
-                <div className="flex items-center gap-2 text-forest">
-                  <Zap size={15} className="text-wood-dark" />
+                <div className="flex items-center gap-2 text-alpine">
+                  <Zap size={15} className="text-rosso-dark" />
                   <span className="text-sm font-medium">{s.zone}</span>
                 </div>
                 <p className="text-sm text-stone">{s.points}</p>
@@ -125,12 +147,12 @@ export default function DoveSiamoPage() {
         </Container>
       </section>
 
-      <section className="border-t border-forest/10 py-16 sm:py-20">
+      <section className="border-t border-alpine/10 py-16 sm:py-20">
         <Container className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-          <h2 className="font-display text-2xl text-forest">Pronti a raggiungere Bocenago?</h2>
+          <h2 className="font-display text-2xl text-alpine">Pronti a raggiungere Bocenago?</h2>
           <Link
             href="/prenota"
-            className="group inline-flex items-center gap-2 text-sm font-medium text-forest underline underline-offset-4"
+            className="group inline-flex items-center gap-2 text-sm font-medium text-alpine underline underline-offset-4"
           >
             Vai alla prenotazione
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />

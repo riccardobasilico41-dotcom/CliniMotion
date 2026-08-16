@@ -19,8 +19,8 @@ export default function LaCasaPage() {
       <section className="pt-16 sm:pt-20">
         <Container className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-stretch lg:gap-6">
           <div className="flex flex-col justify-center py-10 lg:py-16">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">La casa</p>
-            <h1 className="mt-4 max-w-md font-display text-4xl font-medium leading-[1.05] text-forest sm:text-5xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">La casa</p>
+            <h1 className="mt-4 max-w-md font-display text-4xl font-medium leading-[1.05] text-alpine sm:text-5xl">
               Una mansarda in legno, dentro un paese vero
             </h1>
             <p className="mt-6 max-w-md text-base leading-relaxed text-stone">
@@ -45,7 +45,7 @@ export default function LaCasaPage() {
       {/* La mansarda */}
       <section className="py-20 sm:py-28">
         <Container className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
-          <p className="font-display text-2xl italic leading-tight text-forest sm:text-3xl">
+          <p className="font-display text-2xl italic leading-tight text-alpine sm:text-3xl">
             Due piani, tetto spiovente, legno ovunque.
           </p>
           <div>
@@ -66,10 +66,10 @@ export default function LaCasaPage() {
       </section>
 
       {/* Il paese — indice numerato, non card affiancate */}
-      <section className="border-y border-forest/10 bg-cream-dark/50 py-20 sm:py-28">
+      <section className="border-y border-alpine/10 bg-cream-dark/50 py-20 sm:py-28">
         <Container>
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Il paese</p>
-          <h2 className="mt-3 max-w-xl font-display text-3xl font-medium text-balance text-forest sm:text-4xl">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Il paese</p>
+          <h2 className="mt-3 max-w-xl font-display text-3xl font-medium text-balance text-alpine sm:text-4xl">
             Bocenago, il volto più autentico della Val Rendena
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
@@ -79,11 +79,11 @@ export default function LaCasaPage() {
             legno.
           </p>
 
-          <div className="mt-14 divide-y divide-forest/10 border-t border-forest/10">
+          <div className="mt-14 divide-y divide-alpine/10 border-t border-alpine/10">
             <article className="grid gap-3 py-8 sm:grid-cols-[5rem_1fr] sm:gap-8">
-              <span className="font-display text-4xl text-wood/50">01</span>
+              <span className="font-display text-4xl text-rosso/50">01</span>
               <div>
-                <h3 className="font-display text-xl text-forest">La peste del 1630</h3>
+                <h3 className="font-display text-xl text-alpine">La peste del 1630</h3>
                 <p className="mt-2 max-w-2xl text-sm leading-relaxed text-stone">
                   Una lapide a Bocenago ricorda la peste manzoniana del 1630, che qui fu particolarmente
                   violenta: spopolò le frazioni vicine di Canisaga e Varcè, al punto che Bocenago ne
@@ -93,9 +93,9 @@ export default function LaCasaPage() {
               </div>
             </article>
             <article className="grid gap-3 py-8 sm:grid-cols-[5rem_1fr] sm:gap-8">
-              <span className="font-display text-4xl text-wood/50">02</span>
+              <span className="font-display text-4xl text-rosso/50">02</span>
               <div>
-                <h3 className="font-display text-xl text-forest">Un dipinto di scuola veneta</h3>
+                <h3 className="font-display text-xl text-alpine">Un dipinto di scuola veneta</h3>
                 <p className="mt-2 max-w-2xl text-sm leading-relaxed text-stone">
                   La chiesa di Bocenago custodisce uno dei primi dipinti su tela realizzati in Trentino:
                   un Compianto su Cristo deposto di scuola veneta, attribuito da alcuni storici
@@ -109,7 +109,7 @@ export default function LaCasaPage() {
       </section>
 
       {/* Cascata del Masanel — banda a piena larghezza */}
-      <section className="bg-forest py-20 text-cream sm:py-28">
+      <section className="bg-alpine py-20 text-cream sm:py-28">
         <Container>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cream/60">A due passi da casa</p>
           <h2 className="mt-3 max-w-2xl font-display text-3xl font-medium leading-tight sm:text-4xl">
@@ -127,14 +127,14 @@ export default function LaCasaPage() {
       {/* Chiusura in stile lettera */}
       <section className="py-20 sm:py-28">
         <Container className="max-w-2xl">
-          <p className="font-display text-xl italic leading-relaxed text-forest sm:text-2xl">
+          <p className="font-display text-xl italic leading-relaxed text-alpine sm:text-2xl">
             &ldquo;Vieni a vederla di persona: abito nello stesso edificio, sempre disponibile durante il
             soggiorno.&rdquo;
           </p>
           <p className="mt-4 text-sm text-stone">— {siteConfig.host.name}</p>
           <Link
             href="/prenota"
-            className="group mt-8 inline-flex items-center gap-2 text-sm font-medium text-forest underline underline-offset-4"
+            className="group mt-8 inline-flex items-center gap-2 text-sm font-medium text-alpine underline underline-offset-4"
           >
             Controlla la disponibilità
             <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />

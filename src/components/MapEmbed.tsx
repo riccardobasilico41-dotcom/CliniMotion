@@ -8,7 +8,7 @@ export function MapEmbed() {
   const directionsHref = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`
 
   return (
-    <div className="overflow-hidden rounded-3xl border border-forest/10">
+    <div className="overflow-hidden rounded-3xl border border-alpine/10">
       <iframe
         title="Mappa di Bocenago, Val Rendena"
         src={src}
@@ -22,7 +22,7 @@ export function MapEmbed() {
           href={directionsHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-medium text-forest underline underline-offset-4"
+          className="font-medium text-alpine underline underline-offset-4"
         >
           Apri in Google Maps →
         </a>

@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex h-[78vh] min-h-[560px] overflow-hidden bg-forest-dark sm:h-[86vh]">
+      <section className="relative flex h-[78vh] min-h-[560px] overflow-hidden bg-alpine-dark sm:h-[86vh]">
         <div className="absolute inset-0">
           <Image
             src="/images/dolomiti-brenta-hero.jpg"
@@ -66,7 +66,7 @@ export default function HomePage() {
                   <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
                 </Link>
                 <span className="inline-flex items-center gap-1.5 text-xs text-cream/70">
-                  <Star size={13} className="fill-wood text-wood" />
+                  <Star size={13} className="fill-rosso text-rosso" />
                   {siteConfig.rating.value}/{siteConfig.rating.scale} · {siteConfig.rating.reviewCount} recensioni
                 </span>
               </div>
@@ -79,35 +79,35 @@ export default function HomePage() {
       <section className="pb-16 pt-24 sm:pb-20 sm:pt-32">
         <Container className="grid gap-14 lg:grid-cols-[0.85fr_1.15fr]">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Il benvenuto di Mara</p>
-            <p className="mt-5 font-display text-[1.85rem] italic leading-[1.15] text-forest sm:text-4xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Il benvenuto di Mara</p>
+            <p className="mt-5 font-display text-[1.85rem] italic leading-[1.15] text-alpine sm:text-4xl">
               &ldquo;Sono sempre presente per i miei graditi ospiti, dato che abito nello stesso
               edificio.&rdquo;
             </p>
             <p className="mt-6 text-sm text-stone">
               — {siteConfig.host.name}
-              {siteConfig.host.isStarHost && <span className="text-wood-dark"> · Star Host</span>}
+              {siteConfig.host.isStarHost && <span className="text-rosso-dark"> · Star Host</span>}
             </p>
           </div>
 
-          <div className="border-t border-forest/15 pt-8 lg:border-t-0 lg:border-l lg:pl-14 lg:pt-0">
+          <div className="border-t border-alpine/15 pt-8 lg:border-t-0 lg:border-l lg:pl-14 lg:pt-0">
             <p className="text-base leading-relaxed text-stone">{siteConfig.host.bio}</p>
             <ul className="mt-8 space-y-3 text-sm text-stone">
               <li className="flex gap-3">
-                <span className="text-wood">01</span>A 200 metri dal centro di Bocenago: ristoranti e
+                <span className="text-rosso">01</span>A 200 metri dal centro di Bocenago: ristoranti e
                 minimarket a piedi.
               </li>
               <li className="flex gap-3">
-                <span className="text-wood">02</span>A 9 minuti d&apos;auto da Pinzolo e dall&apos;impianto di
+                <span className="text-rosso">02</span>A 9 minuti d&apos;auto da Pinzolo e dall&apos;impianto di
                 Prà Rodont.
               </li>
               <li className="flex gap-3">
-                <span className="text-wood">03</span>Sentiero per la Cascata del Masanel a due passi da casa.
+                <span className="text-rosso">03</span>Sentiero per la Cascata del Masanel a due passi da casa.
               </li>
             </ul>
             <Link
               href="/la-casa"
-              className="mt-8 inline-flex items-center gap-1.5 text-sm font-medium text-forest underline underline-offset-4"
+              className="mt-8 inline-flex items-center gap-1.5 text-sm font-medium text-alpine underline underline-offset-4"
             >
               Leggi la storia della casa e di Bocenago
               <ArrowRight size={14} />
@@ -117,7 +117,7 @@ export default function HomePage() {
       </section>
 
       {/* Amenities */}
-      <section className="border-y border-forest/10 bg-cream-dark/50 py-16 sm:py-20">
+      <section className="border-y border-alpine/10 bg-cream-dark/50 py-16 sm:py-20">
         <Container>
           <SectionHeading
             eyebrow="Cosa troverai"
@@ -149,7 +149,7 @@ export default function HomePage() {
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-forest-dark/90 via-forest-dark/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-alpine-dark/90 via-alpine-dark/20 to-transparent" />
               <div className="relative">
                 <p className="text-xs font-semibold uppercase tracking-wider text-cream/70">Estate</p>
                 <h3 className="mt-2 font-display text-3xl">Trekking, bike e Dolomiti di Brenta</h3>
@@ -185,7 +185,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA finale — banda a piena larghezza, nessun box arrotondato */}
-      <section className="border-t border-forest/10 bg-forest py-16 text-cream sm:py-20">
+      <section className="border-t border-alpine/10 bg-alpine py-16 text-cream sm:py-20">
         <Container className="flex flex-col items-start gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cream/60">Bocenago, Trentino</p>

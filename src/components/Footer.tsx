@@ -12,7 +12,7 @@ const navLinks = [
 
 export function Footer() {
   return (
-    <footer className="mt-24 border-t border-forest/10 bg-forest text-cream/90">
+    <footer className="mt-24 border-t border-alpine/10 bg-alpine text-cream/90">
       <Container className="grid gap-10 py-14 sm:grid-cols-3">
         <div>
           <p className="font-display text-xl text-cream">Mansarda tra le Dolomiti di Brenta</p>
