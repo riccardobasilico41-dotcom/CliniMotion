@@ -31,18 +31,19 @@ const iconMap: Record<string, LucideIcon> = {
 
 export function AmenityGrid() {
   return (
-    <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-      {siteConfig.amenities.map((amenity) => {
+    <ul className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10">
+      {siteConfig.amenities.map((amenity, i) => {
         const Icon = iconMap[amenity.icon] ?? Mountain
         return (
           <li
             key={amenity.label}
-            className="flex items-center gap-3 rounded-2xl border border-forest/10 bg-white/60 px-4 py-3.5"
+            className="flex items-center gap-3.5 border-t border-forest/10 py-4 first:border-t-0 sm:[&:nth-child(2)]:border-t-0"
           >
-            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-forest/10 text-forest">
-              <Icon size={18} strokeWidth={1.75} />
-            </span>
+            <Icon size={17} strokeWidth={1.5} className="shrink-0 text-wood-dark" />
             <span className="text-sm text-stone">{amenity.label}</span>
+            <span className="ml-auto font-mono text-[0.65rem] text-stone/40">
+              {String(i + 1).padStart(2, '0')}
+            </span>
           </li>
         )
       })}

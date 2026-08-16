@@ -1,10 +1,8 @@
 import type { Metadata } from 'next'
 import { Container } from '@/components/ui/Container'
-import { PageHero } from '@/components/PageHero'
-import { Reveal } from '@/components/Reveal'
 import { Button } from '@/components/ui/Button'
 import { AmenityGrid } from '@/components/AmenityGrid'
-import { Star, ShieldCheck } from 'lucide-react'
+import { Star, ShieldCheck, Phone, Mail, AtSign } from 'lucide-react'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
@@ -14,47 +12,86 @@ export const metadata: Metadata = {
   alternates: { canonical: '/prenota' },
 }
 
+const hasContacts = siteConfig.flags.showPhone || siteConfig.flags.showEmail || siteConfig.flags.showInstagram
+
 export default function PrenotaPage() {
   return (
     <>
-      <PageHero
-        eyebrow="Prenota"
-        title="Verifica le date disponibili"
-        description="La disponibilità e i prezzi esatti si vedono selezionando le date sul calendario. La prenotazione è gestita direttamente tramite Holidu, in sicurezza."
-      />
+      <section className="pb-4 pt-16 sm:pt-20">
+        <Container>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Prenota</p>
+          <h1 className="mt-3 max-w-lg font-display text-3xl font-medium text-balance text-forest sm:text-4xl">
+            Verifica le date disponibili
+          </h1>
+          <p className="mt-3 max-w-lg text-sm leading-relaxed text-stone">
+            Disponibilità e prezzi esatti si vedono selezionando le date sul calendario. La prenotazione
+            è gestita direttamente tramite Holidu, in sicurezza.
+          </p>
+        </Container>
+      </section>
 
-      <section className="py-20 sm:py-28">
+      <section className="py-14 sm:py-20">
         <Container className="grid gap-12 lg:grid-cols-[1fr_1fr]">
-          <Reveal>
-            <div className="rounded-3xl border border-forest/10 bg-white/70 p-8">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-forest/10 px-3 py-1.5 text-sm text-forest">
-                <Star size={15} className="fill-wood text-wood" />
-                {siteConfig.rating.value}/{siteConfig.rating.scale} · {siteConfig.rating.label} ·{' '}
-                {siteConfig.rating.reviewCount} recensioni
-              </span>
+          <div className="rounded-2xl border border-forest/10 bg-white/70 p-8">
+            <span className="inline-flex items-center gap-1.5 text-sm text-forest">
+              <Star size={15} className="fill-wood text-wood" />
+              {siteConfig.rating.value}/{siteConfig.rating.scale} · {siteConfig.rating.label} ·{' '}
+              {siteConfig.rating.reviewCount} recensioni
+            </span>
 
-              <h2 className="mt-5 font-display text-2xl text-forest">{siteConfig.legalListingName}</h2>
-              <p className="mt-2 text-sm text-stone">
-                Bocenago, Val Rendena · {siteConfig.property.guests} persone ·{' '}
-                {siteConfig.property.bedrooms} camere · {siteConfig.property.bathrooms} bagno ·{' '}
-                {siteConfig.property.sizeSqm} m²
+            <h2 className="mt-5 font-display text-2xl text-forest">{siteConfig.legalListingName}</h2>
+            <p className="mt-2 text-sm text-stone">
+              Bocenago, Val Rendena · {siteConfig.property.guests} persone ·{' '}
+              {siteConfig.property.bedrooms} camere · {siteConfig.property.bathrooms} bagno ·{' '}
+              {siteConfig.property.sizeSqm} m²
+            </p>
+
+            <Button href={siteConfig.booking.holiduUrl} external className="mt-6 w-full">
+              Vai al calendario e prenota su Holidu
+            </Button>
+
+            <div className="mt-6 flex items-start gap-3 border-t border-forest/10 pt-5">
+              <ShieldCheck size={18} className="mt-0.5 shrink-0 text-forest" />
+              <p className="text-xs leading-relaxed text-stone">
+                Numero di licenza {siteConfig.legal.licenseNumber} · Codice Identificativo Nazionale (CIN){' '}
+                {siteConfig.legal.cin}.
               </p>
-
-              <Button href={siteConfig.booking.holiduUrl} external className="mt-6 w-full">
-                Vai al calendario e prenota su Holidu
-              </Button>
-
-              <div className="mt-6 flex items-start gap-3 rounded-2xl bg-forest/5 p-4">
-                <ShieldCheck size={20} className="mt-0.5 shrink-0 text-forest" />
-                <p className="text-xs leading-relaxed text-stone">
-                  Numero di licenza {siteConfig.legal.licenseNumber} · Codice Identificativo Nazionale (CIN){' '}
-                  {siteConfig.legal.cin}.
-                </p>
-              </div>
             </div>
-          </Reveal>
 
-          <Reveal delay={0.1}>
+            {hasContacts && (
+              <div className="mt-6 space-y-2 border-t border-forest/10 pt-5">
+                <p className="text-xs font-semibold uppercase tracking-wider text-wood">Contatta Mara</p>
+                {siteConfig.flags.showPhone && siteConfig.contact.phone && (
+                  <a
+                    href={`tel:${siteConfig.contact.phone}`}
+                    className="flex items-center gap-2 text-sm text-stone hover:text-forest"
+                  >
+                    <Phone size={15} /> {siteConfig.contact.phone}
+                  </a>
+                )}
+                {siteConfig.flags.showEmail && siteConfig.contact.email && (
+                  <a
+                    href={`mailto:${siteConfig.contact.email}`}
+                    className="flex items-center gap-2 text-sm text-stone hover:text-forest"
+                  >
+                    <Mail size={15} /> {siteConfig.contact.email}
+                  </a>
+                )}
+                {siteConfig.flags.showInstagram && siteConfig.contact.instagram && (
+                  <a
+                    href={siteConfig.contact.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm text-stone hover:text-forest"
+                  >
+                    <AtSign size={15} /> Instagram
+                  </a>
+                )}
+              </div>
+            )}
+          </div>
+
+          <div>
             <h2 className="font-display text-2xl text-forest">Cosa include il soggiorno</h2>
             <p className="mt-2 text-sm text-stone">
               Lenzuola e asciugamani inclusi nel prezzo. Animali domestici ammessi con supplemento (i
@@ -63,7 +100,7 @@ export default function PrenotaPage() {
             <div className="mt-6">
               <AmenityGrid />
             </div>
-          </Reveal>
+          </div>
         </Container>
       </section>
     </>

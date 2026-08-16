@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { MapPin, Star, ArrowRight } from 'lucide-react'
+import { Star, ArrowRight, ArrowUpRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
-import { Button } from '@/components/ui/Button'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { AmenityGrid } from '@/components/AmenityGrid'
-import { Reveal, RevealGroup, RevealItem } from '@/components/Reveal'
+import { Reveal } from '@/components/Reveal'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
@@ -76,121 +75,131 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Intro / benvenuto di Mara */}
-      <section className="py-20 sm:py-28">
-        <Container className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-          <Reveal>
-            <SectionHeading
-              eyebrow="Il benvenuto di Mara"
-              title="Una casa vera, in un paese vero della Val Rendena"
-              description={siteConfig.host.bio}
-            />
-            <p className="mt-6 text-sm text-stone">
-              — {siteConfig.host.name}, {siteConfig.host.role.toLowerCase()}
-              {siteConfig.host.isStarHost && (
-                <span className="ml-2 inline-flex items-center gap-1 rounded-full bg-wood/10 px-2.5 py-0.5 text-xs font-medium text-wood-dark">
-                  Star Host
-                </span>
-              )}
+      {/* Intro / benvenuto di Mara — voce in prima persona, nessun box */}
+      <section className="pb-16 pt-24 sm:pb-20 sm:pt-32">
+        <Container className="grid gap-14 lg:grid-cols-[0.85fr_1.15fr]">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wood">Il benvenuto di Mara</p>
+            <p className="mt-5 font-display text-[1.85rem] italic leading-[1.15] text-forest sm:text-4xl">
+              &ldquo;Sono sempre presente per i miei graditi ospiti, dato che abito nello stesso
+              edificio.&rdquo;
             </p>
-            <div className="mt-8">
-              <Link href="/la-casa" className="text-sm font-medium text-forest underline underline-offset-4">
-                Leggi la storia della casa e di Bocenago →
-              </Link>
-            </div>
-          </Reveal>
+            <p className="mt-6 text-sm text-stone">
+              — {siteConfig.host.name}
+              {siteConfig.host.isStarHost && <span className="text-wood-dark"> · Star Host</span>}
+            </p>
+          </div>
 
-          <Reveal delay={0.1}>
-            <div className="rounded-3xl border border-forest/10 bg-white/70 p-8">
-              <p className="text-xs font-semibold uppercase tracking-wider text-wood">Perché sceglierla</p>
-              <ul className="mt-5 space-y-4 text-sm leading-relaxed text-stone">
-                <li>A 200 metri dal centro di Bocenago: ristoranti e minimarket a piedi.</li>
-                <li>A 9 minuti d&apos;auto da Pinzolo e dall&apos;impianto di Prà Rodont.</li>
-                <li>Vicina agli impianti di risalita: raggiungibile con gli sci in inverno.</li>
-                <li>Sentiero per la Cascata del Masanel a due passi da casa.</li>
-              </ul>
-            </div>
-          </Reveal>
+          <div className="border-t border-forest/15 pt-8 lg:border-t-0 lg:border-l lg:pl-14 lg:pt-0">
+            <p className="text-base leading-relaxed text-stone">{siteConfig.host.bio}</p>
+            <ul className="mt-8 space-y-3 text-sm text-stone">
+              <li className="flex gap-3">
+                <span className="text-wood">01</span>A 200 metri dal centro di Bocenago: ristoranti e
+                minimarket a piedi.
+              </li>
+              <li className="flex gap-3">
+                <span className="text-wood">02</span>A 9 minuti d&apos;auto da Pinzolo e dall&apos;impianto di
+                Prà Rodont.
+              </li>
+              <li className="flex gap-3">
+                <span className="text-wood">03</span>Sentiero per la Cascata del Masanel a due passi da casa.
+              </li>
+            </ul>
+            <Link
+              href="/la-casa"
+              className="mt-8 inline-flex items-center gap-1.5 text-sm font-medium text-forest underline underline-offset-4"
+            >
+              Leggi la storia della casa e di Bocenago
+              <ArrowRight size={14} />
+            </Link>
+          </div>
         </Container>
       </section>
 
       {/* Amenities */}
-      <section className="bg-cream-dark/60 py-20 sm:py-28">
+      <section className="border-y border-forest/10 bg-cream-dark/50 py-16 sm:py-20">
         <Container>
-          <Reveal>
-            <SectionHeading
-              eyebrow="Cosa troverai"
-              title="Tutto il necessario per sentirsi a casa in montagna"
-              description="65 m² su due piani, con soggiorno in legno, cucina attrezzata, due camere e un balcone privato affacciato sulle montagne."
-            />
-          </Reveal>
+          <SectionHeading
+            eyebrow="Cosa troverai"
+            title="Tutto il necessario per sentirsi a casa in montagna"
+            description="65 m² su due piani: soggiorno in legno, cucina attrezzata, due camere e un balcone privato affacciato sulle montagne."
+          />
           <div className="mt-10">
             <AmenityGrid />
           </div>
         </Container>
       </section>
 
-      {/* Estate / Inverno teaser */}
+      {/* Estate / Inverno teaser — asimmetrico, non due card identiche */}
       <section className="py-20 sm:py-28">
         <Container>
-          <Reveal>
-            <SectionHeading
-              eyebrow="Il territorio"
-              title="Pinzolo e Madonna di Campiglio, in ogni stagione"
-              description="Dalle Dolomiti di Brenta ai laghi di Campiglio, dal bike park alle piste di Skirama: la Val Rendena si vive dodici mesi l'anno."
-            />
-          </Reveal>
-          <RevealGroup className="mt-10 grid gap-6 sm:grid-cols-2">
-            <RevealItem>
-              <Link
-                href="/pinzolo-campiglio-estate"
-                className="group block h-full rounded-3xl bg-forest p-8 text-cream transition-transform hover:-translate-y-1"
-              >
-                <p className="text-xs font-semibold uppercase tracking-wider text-cream/60">Estate</p>
-                <h3 className="mt-3 font-display text-2xl">Trekking, bike e Dolomiti di Brenta</h3>
-                <p className="mt-3 text-sm leading-relaxed text-cream/75">
-                  Sentieri, via ferrata, il nuovo bike park e le funivie che salgono verso i rifugi.
-                </p>
-                <span className="mt-6 inline-block text-sm font-medium text-cream underline underline-offset-4 group-hover:no-underline">
-                  Scopri le attività estive →
+          <SectionHeading
+            eyebrow="Il territorio"
+            title="Pinzolo e Madonna di Campiglio, in ogni stagione"
+            description="Dalle Dolomiti di Brenta ai laghi di Campiglio, dal bike park alle piste di Skirama: la Val Rendena si vive dodici mesi l'anno."
+          />
+          <div className="mt-10 grid gap-4 lg:grid-cols-5">
+            <Link
+              href="/pinzolo-campiglio-estate"
+              className="group relative flex min-h-[22rem] flex-col justify-end overflow-hidden rounded-2xl p-8 text-cream lg:col-span-3"
+            >
+              <Image
+                src="/images/dolomiti-brenta-hero.jpg"
+                alt=""
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-forest-dark/90 via-forest-dark/20 to-transparent" />
+              <div className="relative">
+                <p className="text-xs font-semibold uppercase tracking-wider text-cream/70">Estate</p>
+                <h3 className="mt-2 font-display text-3xl">Trekking, bike e Dolomiti di Brenta</h3>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-cream underline underline-offset-4 group-hover:no-underline">
+                  Scopri le attività estive
+                  <ArrowUpRight size={14} />
                 </span>
-              </Link>
-            </RevealItem>
-            <RevealItem>
-              <Link
-                href="/pinzolo-campiglio-inverno"
-                className="group block h-full rounded-3xl bg-[#233448] p-8 text-cream transition-transform hover:-translate-y-1"
-              >
-                <p className="text-xs font-semibold uppercase tracking-wider text-cream/60">Inverno</p>
-                <h3 className="mt-3 font-display text-2xl">Sci a Skirama Dolomiti Adamello Brenta</h3>
-                <p className="mt-3 text-sm leading-relaxed text-cream/75">
-                  380 km di piste su un unico skipass, con Pinzolo e Madonna di Campiglio collegate.
+              </div>
+            </Link>
+
+            <Link
+              href="/pinzolo-campiglio-inverno"
+              className="group flex min-h-[22rem] flex-col justify-between rounded-2xl bg-[#1c2b3d] p-8 text-cream lg:col-span-2"
+            >
+              <p className="text-xs font-semibold uppercase tracking-wider text-cream/60">Inverno</p>
+              <div>
+                <h3 className="font-display text-2xl leading-tight">
+                  Sci a Skirama
+                  <br />
+                  Dolomiti Adamello Brenta
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-cream/70">
+                  380 km di piste su un unico skipass.
                 </p>
-                <span className="mt-6 inline-block text-sm font-medium text-cream underline underline-offset-4 group-hover:no-underline">
-                  Scopri le attività invernali →
+                <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-cream underline underline-offset-4 group-hover:no-underline">
+                  Scopri le attività invernali
+                  <ArrowUpRight size={14} />
                 </span>
-              </Link>
-            </RevealItem>
-          </RevealGroup>
+              </div>
+            </Link>
+          </div>
         </Container>
       </section>
 
-      {/* CTA finale */}
-      <section className="pb-24">
-        <Container>
-          <Reveal>
-            <div className="flex flex-col items-start gap-6 rounded-3xl bg-forest px-8 py-12 text-cream sm:flex-row sm:items-center sm:justify-between sm:px-12">
-              <div>
-                <h2 className="font-display text-2xl sm:text-3xl">Pronti per la Val Rendena?</h2>
-                <p className="mt-2 flex items-center gap-1.5 text-sm text-cream/75">
-                  <MapPin size={15} /> Bocenago, Trentino — a 9 minuti da Pinzolo
-                </p>
-              </div>
-              <Button href="/prenota" variant="light">
-                Verifica le date disponibili
-              </Button>
-            </div>
-          </Reveal>
+      {/* CTA finale — banda a piena larghezza, nessun box arrotondato */}
+      <section className="border-t border-forest/10 bg-forest py-16 text-cream sm:py-20">
+        <Container className="flex flex-col items-start gap-6 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cream/60">Bocenago, Trentino</p>
+            <h2 className="mt-3 max-w-md font-display text-3xl leading-tight sm:text-4xl">
+              Pronti per la Val Rendena?
+            </h2>
+          </div>
+          <Link
+            href="/prenota"
+            className="group inline-flex items-center gap-2 text-base font-medium text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream"
+          >
+            Verifica le date disponibili
+            <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+          </Link>
         </Container>
       </section>
     </>
