@@ -17,60 +17,77 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      {/* Hero */}
-      <section className="relative flex h-[78vh] min-h-[560px] overflow-hidden bg-alpine-dark sm:h-[86vh]">
+      {/* Hero — il testo passa dietro le vette: foto, poi testo, poi il ritaglio delle montagne sopra */}
+      <section className="relative flex h-[78vh] min-h-[560px] items-start overflow-hidden bg-alpine-dark pt-[24%] sm:h-[86vh] sm:pt-[20%]">
+        {/* livello 1: foto intera (cielo + montagne) */}
         <div className="absolute inset-0">
           <Image
             src="/images/dolomiti-brenta-hero.jpg"
             alt="Le Dolomiti di Brenta viste dalla Val Rendena, vicino a Bocenago"
             fill
             priority
-            className="animate-slow-zoom object-cover"
+            className="object-cover"
             sizes="100vw"
           />
+          <div className="absolute inset-0 bg-alpine-dark/10" />
         </div>
 
         {/* corner caption */}
-        <div className="absolute right-6 top-6 z-10 text-right sm:right-10 sm:top-10">
-          <p className="font-mono text-[0.7rem] uppercase tracking-[0.2em] text-cream/80">
+        <div className="absolute right-6 top-6 z-20 text-right sm:right-10 sm:top-10">
+          <p className="font-mono text-[0.7rem] uppercase tracking-[0.2em] text-cream/90 [text-shadow:0_1px_6px_rgba(0,0,0,0.4)]">
             Bocenago
             <br />
             Trentino
           </p>
         </div>
 
-        {/* text block, biased low-left, local scrim only */}
-        <div className="relative mt-auto w-full pb-10 pt-24 sm:pb-16">
+        {/* livello 2: il testo, tra il cielo e le montagne */}
+        <Container className="relative z-10">
+          <Reveal>
+            <h1 className="max-w-xl font-display text-[3.4rem] font-bold leading-[0.85] tracking-tight text-cream sm:text-[6rem] lg:text-[7.5rem]">
+              Casa
+              <br />
+              di Mara
+            </h1>
+          </Reveal>
+        </Container>
+
+        {/* livello 3: ritaglio delle montagne, sopra al testo — stessa foto, stessa posizione */}
+        <div className="pointer-events-none absolute inset-0 z-[15]">
+          <Image
+            src="/images/dolomiti-brenta-hero-cutout.png"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+        </div>
+
+        {/* livello 4: sottotitolo e CTA, in basso sopra il bosco */}
+        <div className="absolute inset-x-0 bottom-0 z-20 pb-10 sm:pb-14">
           <div
-            className="pointer-events-none absolute inset-x-0 bottom-0 top-1/3"
+            className="pointer-events-none absolute inset-x-0 bottom-0 top-0"
             style={{
-              background:
-                'linear-gradient(180deg, transparent 0%, rgba(28,46,37,0.55) 55%, rgba(28,46,37,0.85) 100%)',
+              background: 'linear-gradient(180deg, transparent 0%, rgba(10,21,32,0.55) 100%)',
             }}
           />
           <Container className="relative">
-            <Reveal>
-              <h1 className="max-w-3xl font-display text-[3.4rem] font-semibold leading-[0.95] tracking-tight text-cream sm:text-[5.5rem] lg:text-[6.5rem]">
-                {siteConfig.brandName}
-              </h1>
-              <p className="mt-3 max-w-md text-base font-normal text-cream/80 sm:text-lg">
-                {siteConfig.shortName}, a Bocenago
-              </p>
-
-              <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3">
-                <Link
-                  href="/prenota"
-                  className="group inline-flex items-center gap-2 text-sm font-medium text-cream underline decoration-cream/40 decoration-1 underline-offset-4 transition-colors hover:decoration-cream"
-                >
-                  Prenota il soggiorno
-                  <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
-                </Link>
-                <span className="inline-flex items-center gap-1.5 text-xs text-cream/70">
-                  <Star size={13} className="fill-rosso text-rosso" />
-                  {siteConfig.rating.value}/{siteConfig.rating.scale} · {siteConfig.rating.reviewCount} recensioni
-                </span>
-              </div>
-            </Reveal>
+            <p className="text-center text-base font-normal text-cream/85 [text-shadow:0_1px_6px_rgba(0,0,0,0.5)] sm:text-lg">
+              {siteConfig.shortName}, a Bocenago
+            </p>
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
+              <Link
+                href="/prenota"
+                className="group inline-flex items-center gap-2 text-sm font-medium text-cream underline decoration-cream/40 decoration-1 underline-offset-4 transition-colors hover:decoration-cream"
+              >
+                Prenota il soggiorno
+                <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
+              </Link>
+              <span className="inline-flex items-center gap-1.5 text-xs text-cream/80">
+                <Star size={13} className="fill-rosso text-rosso" />
+                {siteConfig.rating.value}/{siteConfig.rating.scale} · {siteConfig.rating.reviewCount} recensioni
+              </span>
+            </div>
           </Container>
         </div>
       </section>
