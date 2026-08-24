@@ -42,29 +42,29 @@ Prima serata in città, zona **Khao San Road** per un primo assaggio della
 vita notturna — vedi la sezione Bangkok qui sotto per la guida completa.
 
 ### Giorno 2 — Bangkok-Hua Hin
-- **~7:15-7:30** Pick-up dall'hotel (con gruppi grandi, ci si divide su due
+- **Mattina presto** Pick-up dall'hotel (con gruppi grandi, ci si divide su due
   van — non è possibile chiedere un van unico).
-- **9:00-10:00** **Floating Market** (mercato galleggiante).
-- **10:45-11:45** **Train Market** (il mercato che si smonta al passaggio del
+- **In mattinata** **Floating Market** (mercato galleggiante).
+- **Tarda mattinata** **Train Market** (il mercato che si smonta al passaggio del
   treno) — vedi più sotto il box dedicato a questi due mercati.
-- **12:15-13:15** Pranzo a un autogrill lungo la strada (tanta scelta di
+- **Verso mezzogiorno** Pranzo a un autogrill lungo la strada (tanta scelta di
   cibo, sorprendentemente buono per essere un autogrill).
-- **13:40-14:20** Eventuale tappa a **Tham Khao Luang**, se il tempo lo
+- **Nel primo pomeriggio** Eventuale tappa a **Tham Khao Luang**, se il tempo lo
   permette.
-- **15:30** Arrivo a **Hua Hin**.
+- **Nel tardo pomeriggio** Arrivo a **Hua Hin**.
 - **Cena:** Cicada Market, Tamarind Market o Chatchai Market — tutti mercati
   serali con tantissime bancarelle di street food.
 
 ### Giorno 3 — Hua Hin-Chumphon
-- **7:30** Partenza verso il **Parco Nazionale di Sam Roi Yot** (ingresso 200
+- **Mattina presto** Partenza verso il **Parco Nazionale di Sam Roi Yot** (ingresso 200
   THB a persona, di solito raccolto dal coordinatore in cassa comune).
 - Arrivo alla spiaggia di **Laem Sala** via barca (15 min) o trekking (40
   min, secondo le condizioni del mare).
 - Piccola escursione nella foresta di sabbia fino alla **Grotta di Phra
   Nakorn** — al suo interno un padiglione reale che, con la luce giusta che
   filtra dall'alto, è uno degli scorci più fotografati della Thailandia.
-- Relax in spiaggia fino a mezzogiorno, poi pranzo (12:10-13:30).
-- **14:30-16:30** **Kui Buri National Park**: safari (con cambio veicolo
+- Relax in spiaggia fino a mezzogiorno, poi pranzo verso mezzogiorno.
+- **Nel primo pomeriggio** **Kui Buri National Park**: safari (con cambio veicolo
   dedicato) per l'osservazione di bufali rossi ed elefanti selvatici — *da
   mettere in chiaro con il gruppo: non è un safari africano, gli animali si
   vedono spesso solo da lontano, e a volte non si vedono affatto.* Ingresso
@@ -74,7 +74,7 @@ vita notturna — vedi la sezione Bangkok qui sotto per la guida completa.
 - **Cena:** Cube Bar o Helio Restaurant.
 
 ### Giorno 4 — Chumphon-Khao Sok
-- **7:30** Pick-up, trasferimento verso **Khao Sok** (circa 4h30, due soste
+- **Mattina presto** Pick-up, trasferimento verso **Khao Sok** (circa 4h30, due soste
   in stazioni di servizio lungo la strada). Ingresso al parco 220 THB a
   persona.
 - All'arrivo guida e autista salutano (mancia opzionale, circa 500 baht per
@@ -86,30 +86,30 @@ vita notturna — vedi la sezione Bangkok qui sotto per la guida completa.
 
 ### Giorno 5 — Khao Sok, il lago Cheow Lan
 Pacchetto "2 giorni 1 notte" sul lago, tutto incluso (colazione, pranzo, cena):
-- **~9:00** Transfer verso il molo (con sosta in un negozio locale verso le
-  10:30).
+- **In mattinata** Transfer verso il molo (con sosta in un negozio locale in
+  tarda mattinata).
 - Imbarco e circa 1h30 di navigazione fino al **resort galleggiante** sul
   lago — sistemazione molto essenziale, aspettative da tarare di conseguenza
   (niente copertura telefonica garantita, wifi solo a volte in reception).
   Tempo libero per godersi il lago.
-- **~17:00** Crociera al tramonto sul lago con guida anglofona locale — tra
+- **Nel tardo pomeriggio** Crociera al tramonto sul lago con guida anglofona locale — tra
   le formazioni calcaree che emergono dall'acqua, uno degli scenari più
   spettacolari di tutta la Thailandia, spesso paragonato a una piccola
   Guilin. *Attenzione: niente rumore dopo cena, e niente birra portata da
   fuori — regole rigide del resort.*
 
 ### Giorno 6 — Khao Sok-Krabi
-- **~9:00** Trasferimento dal lago verso Krabi: 1h di barca + 2h di
-  strada, arrivo previsto verso le 12:45.
+- **In mattinata** Trasferimento dal lago verso Krabi: 1h di barca + 2h di
+  strada, arrivo previsto verso mezzogiorno.
 - **Attività suggerite:** **Railay Beach** via barca (15 min, 200 THB a
   tratta), poi 30 minuti a piedi fino a **Phra Nang Beach** e alla sua
-  grotta; spettacolo gratuito di fuoco ad **Ao Nang Beach** (19:00, davanti al
+  grotta; spettacolo gratuito di fuoco ad **Ao Nang Beach** (in serata, davanti al
   Boat Service Club).
 - **Cena:** Last Fisherman (pranzo), Sea Salt Krabi Restaurant, o un
   ristorante di cucina thailandese locale.
 
 ### Giorno 7 — Krabi: Bond Island e canoa
-Escursione di giornata intera (8:00-17:30) con guida anglofona: visita a
+Escursione di giornata intera (dalla mattina presto al tardo pomeriggio) con guida anglofona: visita a
 **Koh Ta Poo** (l'isola resa famosa da *L'uomo dalla pistola d'oro*, 007) e
 **Koh Ping Gun**; giro in canoa fino a **Tham Lot**; pranzo a **Koh Panyee**
 (il villaggio di pescatori costruito su palafitte); visita alla **Monkey
@@ -120,7 +120,7 @@ drop-off tutti inclusi.
 cena; per la serata, Carlito's o Slinky (più disco).
 
 ### Giorno 8 — Krabi-Koh Phi Phi
-- **~9:30** Traghetto da Ao Nopparat Thara Pier verso **Koh Phi Phi**
+- **In mattinata** Traghetto da Ao Nopparat Thara Pier verso **Koh Phi Phi**
   (Tonsai Pier, circa 2h30 di navigazione). Check-in 30 minuti prima della
   partenza.
 - **Attività suggerite:** gita in barca a **Bamboo Island**, oppure
@@ -130,10 +130,9 @@ cena; per la serata, Carlito's o Slinky (più disco).
   Backpacker Bar per la serata.
 
 ### Giorno 9 — Koh Phi Phi-Krabi
-- **~15:00** Traghetto di ritorno verso Krabi (molo Ao Nopparat Thara o
+- **Nel primo pomeriggio** Traghetto di ritorno verso Krabi (molo Ao Nopparat Thara o
   Klong Jirat, secondo l'operatore).
-- **Cena:** Reeve Beach Club Krabi, con spettacolo di fuoco verso le
-  19:30-20:00.
+- **Cena:** Reeve Beach Club Krabi, con spettacolo di fuoco in serata.
 
 ### Giorno 10 — Krabi-Bangkok
 - Volo interno da Krabi a Bangkok (bagaglio incluso, circa 15 kg;

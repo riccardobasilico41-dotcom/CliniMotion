@@ -3,7 +3,7 @@
 **Stato bozza:** 🟡 in lavorazione
 **Periodo del viaggio:** 7-12 settembre
 **Durata:** 6 giorni, 5 notti
-**Compagni di viaggio:** viaggio di gruppo in stile organizzato, cassa comune
+**Compagni di viaggio:** organizzazione flessibile, spese gestite di volta in volta
 **Categoria:** Nord America · USA · New York · città · sport
 
 ---
@@ -15,14 +15,14 @@
 - **Documenti:** ESTA obbligatorio (autorizzazione elettronica di viaggio, https://esta.cbp.dhs.gov/) per i cittadini UE con passaporto elettronico o biometrico, per soggiorni turistici fino a 90 giorni — chi è stato a Cuba, Corea del Nord, Siria o Iran non può usare l'ESTA e deve richiedere un visto vero e proprio.
 - **Moneta:** dollaro americano. Le carte sono accettate quasi ovunque, in molti locali si paga solo con carta — portare comunque un po' di contanti.
 - **Spostamenti:** prevalentemente metro, Uber/Lyft (scaricare le app prima di partire, comodissimi soprattutto la notte) e a piedi — media di 15-20 km al giorno, ritmo serio.
-- **Cassa comune:** indicativa 200€ a persona (250-280€ se si vuole fare proprio tutto).
-- **App utili:** Google Maps offline (le mappe di New York scaricate in anticipo funzionano anche senza connessione, utili soprattutto in metro), Splitwise per dividere le spese di gruppo, Uber/Lyft per i trasferimenti.
-- **Consapevolezza sul ritmo:** le attività proposte sono più di quelle effettivamente fattibili in 6 giorni — è normale non riuscire a fare tutto, meglio deciderlo in anticipo come gruppo piuttosto che rincorrere la lista completa.
+- **Budget indicativo:** intorno ai 200€ (250-280€ per fare praticamente tutto).
+- **App utili:** Google Maps offline (le mappe di New York scaricate in anticipo funzionano anche senza connessione, utili soprattutto in metro), Uber/Lyft per i trasferimenti.
+- **Consapevolezza sul ritmo:** le attività proposte sono più di quelle effettivamente fattibili in 6 giorni — è normale non riuscire a fare tutto, meglio deciderlo in anticipo piuttosto che rincorrere la lista completa.
 
 ## Itinerario giorno per giorno
 
 ### Giorno 1 (07.09) — Arrivo, Times Square
-- Meeting di benvenuto.
+- Arrivo e sistemazione in hotel.
 - **Cena** da **Shake Shack**.
 - Prenotazione per il **Top of the Rock** (l'osservatorio del Rockefeller Center) per i giorni successivi.
 - Passeggiata serale a **Times Square** — l'impatto notturno con le luci e i cartelloni, tappa quasi obbligata la prima sera.
@@ -31,31 +31,31 @@
 
 ### Giorno 2 (08.09) — Harlem, Central Park, Empire State Building
 - **Colazione**: da scegliere tra Le Pain Quotidien (comodo per prendere poi la metro), The Monkey Cup ad Harlem, o Junior's per la cheesecake (più punti in città, tra cui 49th/45th street e Brooklyn).
-- **9:30** Messa gospel: la Bethel Gospel Assembly o, in alternativa, la **Canaan Baptist Church** (inizio alle 10:00, funzione di circa 2 ore, nessun obbligo di offerta, ci si può alzare e uscire quando si vuole) — un'esperienza di quartiere autentica, non un tour organizzato.
-- **11:30-12:00** **Walking tour di Harlem** (275$ dalla cassa comune + mancia, circa 2h): i punti iconici del quartiere, incluso l'**Apollo Theater**.
-- **14:00-14:30** Pranzo da **Gray's Papaya** (hot dog economici, un classico newyorkese) o brunch da Andrew NYC Diner (zona Madison Square Garden).
+- **In mattinata**, messa gospel: la Bethel Gospel Assembly o, in alternativa, la **Canaan Baptist Church** (funzione di circa 2 ore, nessun obbligo di offerta, ci si può alzare e uscire quando si vuole) — un'esperienza di quartiere autentica, non un tour organizzato.
+- **A metà mattina**, **walking tour di Harlem** (275$ + mancia, circa 2h): i punti iconici del quartiere, incluso l'**Apollo Theater**.
+- **Nel primo pomeriggio**, pranzo da **Gray's Papaya** (hot dog economici, un classico newyorkese) o brunch da Andrew NYC Diner (zona Madison Square Garden).
 - **Central Park**: noleggio bici, ingresso con l'autobus M1 davanti al Met (per chi vuole la classica foto sulla scalinata) per poi addentrarsi nel parco fino a Strawberry Fields.
-- **20:00** Cena da **Kesté** (pizza napoletana).
-- **21:45** **Empire State Building**, salita serale.
+- **In serata**, cena da **Kesté** (pizza napoletana).
+- **A tarda sera**, **Empire State Building**, salita serale.
 
 ### Giorno 3 (09.09) — Cattedrale, MoMA, High Line, The Vessel
-- **9:10** Partenza verso la cattedrale, passando per il **Rockefeller Center**.
-- **9:30** **Cattedrale di San Patrizio**.
-- **10:00** **MoMA** (Museum of Modern Art) — ingresso principale da 11 West 53rd Street, tempo consigliato circa 2 ore (10:30-12:30), con priorità al quarto e quinto piano dove si concentrano le opere più famose. *Scaricare in anticipo l'app Bloomberg Connects per mappa e audioguida, disponibili solo online.*
-- **12:30** Pranzo libero (Shake Shack Midtown East, Five Guys, McDonald's) o spostamento a **Chelsea Market** per pranzare lì.
-- **13:30** Passeggiata sulla **High Line** (circa 1 miglio e mezzo) fino a **The Vessel** (1h30-2h in totale).
+- **Mattina presto**, partenza verso la cattedrale, passando per il **Rockefeller Center**.
+- Subito dopo, **Cattedrale di San Patrizio**.
+- **In mattinata**, **MoMA** (Museum of Modern Art) — ingresso principale da 11 West 53rd Street, tempo consigliato circa 2 ore, con priorità al quarto e quinto piano dove si concentrano le opere più famose. *Scaricare in anticipo l'app Bloomberg Connects per mappa e audioguida, disponibili solo online.*
+- **Verso mezzogiorno**, pranzo libero (Shake Shack Midtown East, Five Guys, McDonald's) o spostamento a **Chelsea Market** per pranzare lì.
+- **Nel primo pomeriggio**, passeggiata sulla **High Line** (circa 1 miglio e mezzo) fino a **The Vessel** (1h30-2h in totale).
 - Rooftop **Edge** o **Summit** (i due osservatori panoramici di Hudson Yards), oppure tempo libero/visita alla Grand Central Station e alla Public Library.
 - **Cena** da **Ellen's Stardust Diner**, cena-spettacolo con cameriere che cantano.
 - *Da valutare: inserire la visita al 9/11 Museum al mattino, se il tempo lo permette.*
 
 ### Giorno 4 (10.09) — Statua della Libertà, Wall Street, Chinatown, Broadway
-- **10:00** Traghetto (prenotato) verso la **Statua della Libertà**: visita dal basso e **Ellis Island**, il museo dell'immigrazione.
-- **~13:00** Rientro a Manhattan.
+- **In mattinata**, traghetto (prenotato) verso la **Statua della Libertà**: visita dal basso e **Ellis Island**, il museo dell'immigrazione.
+- **Nel primo pomeriggio**, rientro a Manhattan.
 - **Pranzo**: Liberty Bagels, oppure a Chinatown da Me La Wa (spesso fila) o Uncle Lo; in alternativa Prince Street Pizza a SoHo, famosa per la pepperoni pizza in stile americano.
 - **Wall Street**: il Charging Bull, la Borsa di New York, Trinity Church, Zuccotti Park, l'Oculus, Ground Zero.
 - Metro verso **Canal Street**: **SoHo**, **Little Italy** e **Chinatown** — circa un'ora per girare, passando per Pell Street, Doyers Street e Columbus Park (usato dalla comunità cinese come ritrovo per giochi da tavolo e tai-chi). *Little Italy si riduce ormai a Mulberry Street, con la scritta iconica, ma poco altro; se si mangia lì, Lombardi's Pizza è un'opzione anche se non memorabile.*
-- **17:30** Tramonto al Time Out Market o al Darling Rooftop (vista su Central Park).
-- **19:00** **Musical a Broadway**.
+- **Nel tardo pomeriggio**, tramonto al Time Out Market o al Darling Rooftop (vista su Central Park).
+- **In serata**, **musical a Broadway**.
 
 ### Giorno 5 (11.09) — Ground Zero, DUMBO, Top of the Rock
 - **Ground Zero**: cerimonia di commemorazione dell'11 settembre (se le date coincidono), eventualmente visita al **9/11 Museum**.
@@ -85,7 +85,23 @@ Settembre è il periodo perfetto per unire due sport diversi in un solo viaggio:
 - **High Line e The Vessel** — l'ex ferrovia sopraelevata trasformata in parco lineare, uno dei migliori esempi di rigenerazione urbana della città.
 
 ## Dove abbiamo dormito
-**Paramount Hotel**, 235 W 46th St, New York — in pieno Theater District, a due passi da Times Square.
+Ho dormito al **Paramount Hotel** (oggi ufficialmente "Paramount Times Square – A Generator Hotel"), 235 W 46th St, New York — in pieno Theater District, a due passi da Times Square.
+
+**Cosa dicono davvero le recensioni:** la posizione è il vero punto di forza, con punteggi "location" su Booking.com tra i più alti della zona (intorno a 9-9.3 su 10). Le camere però sono piccole, in alcuni casi minuscole anche per gli standard newyorkesi — le tariffe base "Broadway Petite" partono da circa 13 mq con letto singolo — con poco spazio per i bagagli e isolamento acustico non eccezionale. Lobby e aree comuni sono invece un plus: atmosfera vivace, musica, bar accogliente, staff descritto spesso come cordiale e disponibile. Il punteggio complessivo oscilla tra 6.6 e 7.1 su 10 a seconda del periodo — un buon compromesso per chi vuole dormire in pieno Theater District senza spendere una fortuna, meno indicato per chi cerca spazio in camera.
+
+#### Alternative nella stessa zona (Theater District / Midtown)
+
+**Economiche**
+- **Row NYC** — 700 8th Ave, hotel enorme con centinaia di camere semplici ma funzionali, spesso tra i prezzi più bassi della zona.
+- **Pod Times Square** — 400 W 42nd St, formula "pod hotel": camere compatte ed essenziali, buon rapporto prezzo/posizione per chi in camera ci dorme e basta.
+
+**Fascia media** (il Paramount si colloca qui, più verso il basso della fascia proprio per via delle camere ridotte)
+- **Novotel New York Times Square** — 226 W 52nd St, camere mediamente più ampie della media di zona, buon compromesso qualità/prezzo.
+- **DoubleTree by Hilton New York Times Square West** — 350 W 40th St, standard un po' più alto, comodo per chi arriva/riparte dalla Port Authority.
+
+**Più signorili ma senza eccessi**
+- **citizenM New York Times Square** — 218 W 50th St, design compatto ma curato, molto tecnologico, prezzi da lifestyle hotel senza sconfinare nel lusso.
+- **Moxy NYC Times Square** — 485 7th Ave, brand Marriott dallo spirito giovane, camere piccole ma disegnate bene, rooftop bar molto frequentato.
 
 ## Dove abbiamo mangiato
 - Colazione/diner: Andrew's Diner, Junior's, Zaza (Wall Street), Krispy Kreme, Dunkin' Donuts, Starbucks.
@@ -93,16 +109,16 @@ Settembre è il periodo perfetto per unire due sport diversi in un solo viaggio:
 - Altri: Gray's Papaya (hot dog), Liberty Bagels, Prince Street Pizza, Pisillo (panini), Vinegar Hill House e Bluestone Lane a Dumbo.
 
 ## Rooftop e locali serali
-- **230 Rooftop** — terrazza panoramica con vista su Flatiron Building, Chrysler Building ed Empire State Building. D'inverno vestaglie di lana rossa e igloo riscaldati trasparenti; ingresso gratuito, consumazione non obbligatoria, il giovedì chiude alle 2:00, cocktail da 9$ (analcolici) a 15$.
+- **230 Rooftop** — terrazza panoramica con vista su Flatiron Building, Chrysler Building ed Empire State Building. D'inverno vestaglie di lana rossa e igloo riscaldati trasparenti; ingresso gratuito, consumazione non obbligatoria, il giovedì resta aperto fino a tarda notte, cocktail da 9$ (analcolici) a 15$.
 - **Refinery Rooftop** — ingresso gratuito ma consumazione obbligatoria se si prenota un tavolo; d'inverno un grande camino acceso in terrazza.
-- **Lilli' Victoria Establishment** e **Papillon Bistro & Bar** — pub addobbati durante le festività, chiudono verso l'1:00-2:00.
+- **Lilli' Victoria Establishment** e **Papillon Bistro & Bar** — pub addobbati durante le festività, chiudono a tarda notte.
 - **Blue Note New York** — per una serata jazz in un locale storico.
 
 ## Consigli pratici / errori da non ripetere
 - **Prenotare Top of the Rock e i musical di Broadway** con anticipo — soprattutto in alta stagione i biglietti migliori vanno a ruba.
 - **Scaricare le mappe offline di Google Maps** prima di partire: tornano utili anche senza connessione per muoversi tra le vie e la metro.
 - **Uber/Lyft** più comodi dei taxi per i trasferimenti notturni — scaricare le app prima della partenza.
-- **Non provare a fare tutto**: il programma è volutamente più ricco di quanto sia fattibile in 6 giorni; meglio scegliere le priorità come gruppo fin dall'inizio.
+- **Non provare a fare tutto**: il programma è volutamente più ricco di quanto sia fattibile in 6 giorni; meglio scegliere le priorità fin dall'inizio.
 - **Partite sportive**: prenotare i biglietti (Yankees/Mets o New York Liberty) con qualche giorno di anticipo, soprattutto per le partite serali più richieste.
 
 ## Chiusura personale

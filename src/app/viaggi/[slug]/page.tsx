@@ -115,32 +115,17 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
               </div>
             ))}
 
-            {viaggio.doveDormito && viaggio.doveMangiato ? (
-              <div className="grid gap-10 sm:grid-cols-2">
-                <div>
-                  <h2 className="font-display text-xl text-alpine">Dove abbiamo dormito</h2>
-                  <Prose className="mt-3 text-sm">{viaggio.doveDormito}</Prose>
-                </div>
-                <div>
-                  <h2 className="font-display text-xl text-alpine">Dove abbiamo mangiato</h2>
-                  <Prose className="mt-3 text-sm">{viaggio.doveMangiato}</Prose>
-                </div>
+            {viaggio.doveDormito && (
+              <div>
+                <h2 className="font-display text-xl text-alpine">Dove ho dormito</h2>
+                <Prose className="mt-3 text-sm">{viaggio.doveDormito}</Prose>
               </div>
-            ) : (
-              <>
-                {viaggio.doveDormito && (
-                  <div>
-                    <h2 className="font-display text-xl text-alpine">Dove abbiamo dormito</h2>
-                    <Prose className="mt-3 text-sm">{viaggio.doveDormito}</Prose>
-                  </div>
-                )}
-                {viaggio.doveMangiato && (
-                  <div>
-                    <h2 className="font-display text-xl text-alpine">Dove abbiamo mangiato</h2>
-                    <Prose className="mt-3 text-sm">{viaggio.doveMangiato}</Prose>
-                  </div>
-                )}
-              </>
+            )}
+            {viaggio.doveMangiato && (
+              <div>
+                <h2 className="font-display text-xl text-alpine">Dove ho mangiato</h2>
+                <Prose className="mt-3 text-sm">{viaggio.doveMangiato}</Prose>
+              </div>
             )}
 
             {viaggio.chiusura && (

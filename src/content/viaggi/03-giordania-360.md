@@ -9,8 +9,9 @@ conflitto tra Israele e Palestina nell'ottobre 2023, quando la Giordania si è
 svuotata di turisti nonostante sia rimasta un paese sicuro e pienamente
 accessibile)*
 **Durata:** 8 giorni, 7 notti
-**Compagni di viaggio:** viaggio di gruppo in stile organizzato (DMC locale,
-cassa comune, coordinatore)
+**Compagni di viaggio:** organizzato tramite un DMC locale, con coordinatore
+in loco per transfer, guide e attività (utile da contattare per chi vuole
+replicare lo stesso itinerario)
 **Categoria:** Medio Oriente · Giordania · Capodanno · deserto · storia
 
 ---
@@ -37,31 +38,30 @@ momento del viaggio.)*
   paese non fosse coinvolto nel conflitto e restasse pienamente sicuro per i
   visitatori. Il risultato: siti solitamente presi d'assalto, da Petra al Wadi
   Rum, vissuti in una quiete più unica che rara.
-- **Come ci siamo mossi:** transfer organizzati su tutto il percorso (minivan/
+- **Come mi sono mosso:** transfer organizzati su tutto il percorso (minivan/
   auto), spostamenti interni anche lunghi (fino a 4h30 tra Aqaba e Amman).
-- **Budget:** cassa comune per attività ed extra; alcolici da acquistare nei
-  negozi specializzati (Soho, Hangover a Madaba) prima di arrivare nelle zone
-  più conservatrici o nel deserto.
+- **Budget:** attività ed extra gestiti tramite il DMC organizzatore del
+  viaggio; alcolici da acquistare nei negozi specializzati (Soho, Hangover a
+  Madaba) prima di arrivare nelle zone più conservatrici o nel deserto.
 
 ## Itinerario giorno per giorno
 
 ### Giorno 1 — Arrivo ad Amman
 Arrivo ad Amman. Da valutare un food tour in città (info da chiedere in loco).
 Cena di benvenuto da **Zajal** (Prince Mohammed Street, Amman — circa 15 JOD),
-per il primo assaggio di cucina giordana e la conoscenza del gruppo.
+per il primo assaggio di cucina giordana appena arrivato in Giordania.
 
 ### Giorno 2 — Jerash e Mar Morto
-- **8:30** Partenza da Amman verso **Jerash**, con una sosta lungo il tragitto
-  per acquistare alcolici (circa 1h di viaggio totale).
-- **10:00** Arrivo a Jerash.
-- **10:15** Visita guidata al sito archeologico — una delle città romane
-  meglio conservate al mondo fuori dall'Italia, con il suo foro ovale, il
-  cardo colonnato e i due teatri.
-- **12:15** Trasferimento verso il **Mar Morto** (circa 1h30), sistemazione
-  all'**Holiday Inn Dead Sea**.
-- **14:00** Arrivo, pranzo, relax e bagno nelle acque iper-saline al tramonto —
-  galleggiare a pelo d'acqua guardando il sole calare dietro le colline della
-  Cisgiordania è un'esperienza a sé.
+- **Mattina presto** Partenza da Amman verso **Jerash**, con una sosta lungo
+  il tragitto per acquistare alcolici (circa 1h di viaggio totale).
+- **In mattinata** Arrivo a Jerash e visita guidata al sito archeologico — una
+  delle città romane meglio conservate al mondo fuori dall'Italia, con il suo
+  foro ovale, il cardo colonnato e i due teatri.
+- **Verso mezzogiorno** Trasferimento verso il **Mar Morto** (circa 1h30),
+  sistemazione all'**Holiday Inn Dead Sea**.
+- **Nel primo pomeriggio** Arrivo, pranzo, relax e bagno nelle acque
+  iper-saline al tramonto — galleggiare a pelo d'acqua guardando il sole
+  calare dietro le colline della Cisgiordania è un'esperienza a sé.
 - *(Da valutare in alternativa: tramonto dal Monte Nebo, il luogo da cui la
   tradizione vuole che Mosè abbia visto la Terra Promessa.)*
 - **Cena** a Madaba, tra **Haret Jdoudna** o **Hikayet Sitti** (entrambi su
@@ -133,8 +133,9 @@ Luna", deserto di sabbia rossa e formazioni di arenaria che ha fatto da set a
   immaginare un modo più assurdo di salutare l'anno vecchio.
 
 ### Giorno 6 — Alba nel deserto e mare ad Aqaba
-- **Alba sulle dune** (attorno alle 7:33, da verificare l'orario esatto) —
-  il deserto che cambia colore, dal blu della notte al rosa e oro dell'alba.
+- **Alba sulle dune**, prima che il sole spunti sull'orizzonte (l'orario
+  esatto varia con la stagione) — il deserto che cambia colore, dal blu della
+  notte al rosa e oro dell'alba.
 - **Transfer verso Aqaba** (circa 1h): dal deserto al Mar Rosso in meno di
   un'ora, uno dei contrasti più belli della Giordania.
 - Arrivo in hotel, deposito bagagli.
@@ -148,22 +149,23 @@ Luna", deserto di sabbia rossa e formazioni di arenaria che ha fatto da set a
   Street).
 
 ### Giorno 7 — Rientro ad Amman: due opzioni
-- **7:30** Transfer da Aqaba ad Amman (circa 4h30).
+- **Mattina presto** Transfer da Aqaba ad Amman (circa 4h30).
 
 **Opzione 1 — cultura:**
-- **12:00** Arrivo ad Amman, **12:30** pranzo al Bazaar.
-- **14:30** Visita alla Cittadella e al Teatro Romano.
-- **17:00** Possibilità di bagno turco.
-- **19:00** Cooking class e corso di calligrafia araba (organizzati dal DMC).
-- **21:30** Dopocena e serata da **Talet Al Jabal** o **C-Ling** (Rainbow
-  Street).
+- **Verso mezzogiorno** Arrivo ad Amman e pranzo al Bazaar.
+- **Nel primo pomeriggio** Visita alla Cittadella e al Teatro Romano.
+- **Nel tardo pomeriggio** Possibilità di bagno turco.
+- **In serata** Cooking class e corso di calligrafia araba (organizzati dal
+  DMC).
+- **A tarda sera** Dopocena e serata da **Talet Al Jabal** o **C-Ling**
+  (Rainbow Street).
 
 **Opzione 2 — avventura:**
 - Pausa buggy nel deserto vicino Amman (40 JOD, circa 2h).
 - Pranzo in strada.
-- **15:30** Visita al Bazaar per souvenir e shopping.
-- **19:00** Cooking class e corso di calligrafia (DMC).
-- **21:30** Dopocena e serata da **C-Ling** (Rainbow Street).
+- **Nel pomeriggio** Visita al Bazaar per souvenir e shopping.
+- **In serata** Cooking class e corso di calligrafia (DMC).
+- **A tarda sera** Dopocena e serata da **C-Ling** (Rainbow Street).
 
 ### Giorno 8 — Rientro
 Check-out e saluti. Trasferimento in aeroporto in Uber/taxi. Giornata libera
@@ -184,11 +186,56 @@ per eventuali attività extra prima del volo di rientro.
   e siti archeologici.
 
 ## Dove abbiamo dormito
-- Amman — hotel (Giorno 1 e 7)
-- Mar Morto — Holiday Inn Dead Sea (Giorno 2)
-- Zona Petra/Wadi Musa — hotel (Giorno 3-4)
-- Wadi Rum — campo tendato nel deserto (Giorno 5)
-- Aqaba — hotel (Giorno 6)
+- **Amman (Giorno 1 e 7)** — ho dormito in un hotel generico (il nome non è
+  annotato nei documenti di viaggio); una zona comoda in centro va benissimo
+  per muoversi a piedi tra Cittadella, Teatro Romano e Rainbow Street.
+  - **Economici:** Farah Hotel & Hostel, Cliff Hostel — entrambi a due passi
+    dal Teatro Romano, camere private o dorm.
+  - **Fascia media:** Toledo Hotel (vicino a Rainbow Street), Kaya Hotel
+    Amman (quartiere Abdali, spa interna).
+  - **Più lussuosi:** Fairmont Amman, W Amman.
+
+- **Mar Morto (Giorno 2)** — ho dormito all'**Holiday Inn Resort Dead Sea by
+  IHG**. Dalle recensioni raccolte online (Tripadvisor, circa 5.600
+  recensioni, valutazione media 4/5) emerge un resort di fascia media-alta
+  con staff molto attento, tre piscine, spiaggia privata sul Mar Morto e
+  buffet abbondante a colazione e cena; i punti dolenti più citati sono i
+  prezzi alti di cibo e bevande interni alla struttura, qualche problema di
+  manutenzione nelle camere e il divieto di portare cibo o bevande dall'esterno.
+  Nel complesso rientra proprio nella fascia media-alta dei resort del Mar
+  Morto, non tra i nomi più lussuosi della zona.
+  - **Economici:** Ramada Resort by Wyndham Dead Sea, O Beach Hotel & Resort
+    (quest'ultimo più semplice ma con accesso diretto al mare a una frazione
+    del prezzo dei grandi resort).
+  - **Fascia media:** Dead Sea Spa Hotel, Crowne Plaza Jordan Dead Sea Resort
+    & Spa (l'Holiday Inn si colloca proprio in questa fascia).
+  - **Più lussuosi:** Hilton Dead Sea Resort & Spa, Kempinski Hotel Ishtar
+    Dead Sea.
+
+- **Zona Petra/Wadi Musa (Giorno 3-4)** — anche qui ho dormito in un hotel
+  generico (nome non annotato); Wadi Musa è comoda perché a pochi minuti a
+  piedi o in navetta dall'ingresso di Petra.
+  - **Economici:** Petra Cabin Hostel, Rocky Mountain Hotel (piccolo hotel a
+    conduzione familiare, terrazza panoramica).
+  - **Fascia media:** Petra Panorama Hotel, La Maison Hotel Petra.
+  - **Più lussuosi:** Petra Moon Luxury Hotel (boutique, vicinissimo
+    all'ingresso), Petra Marriott Hotel.
+
+- **Wadi Rum (Giorno 5)** — ho dormito in un campo tendato nel deserto (nome
+  non annotato); tenda beduina classica, cena e colazione incluse, cielo
+  stellato impareggiabile. Questo tipo di sistemazione è diffusissimo nella
+  zona, dalle tende semplici ai più recenti "martian dome"/bubble tent.
+  - **Campo base, bagno condiviso:** Wadi Rum Bedouin Camp, Bedouin Lifestyle
+    Camp.
+  - **Tenda privata con bagno:** Wadi Rum Serenity Camp, Zeina Desert Lodge.
+  - **Luxury desert camp:** Sun City Camp (celebre per i "martian domes"),
+    Palmera Camp (tende/bubble panoramiche con bagno privato).
+
+- **Aqaba (Giorno 6)** — ho dormito in un hotel generico (nome non annotato);
+  comodo per la vicinanza a spiaggia e lungomare.
+  - **Economici:** Days Inn Hotel & Suites Aqaba, Extra Traveller (hostel).
+  - **Fascia media:** Golden Tulip Aqaba, Bratus Hotel Aqaba.
+  - **Più lussuosi:** Kempinski Hotel Aqaba, Mövenpick Resort & Spa Aqaba.
 
 ## Dove abbiamo mangiato
 - Amman: **Zajal** (cena di benvenuto)

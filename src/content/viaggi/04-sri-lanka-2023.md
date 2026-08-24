@@ -1,11 +1,12 @@
 # Sri Lanka in 12 giorni: dai templi antichi al tè di Nuwara Eliya, fino alle spiagge del sud
 
-**Stato bozza:** 🟡 in lavorazione (itinerario completo con orari reali e correzioni
-rispetto al programma originale; mancano aneddoti personali per apertura/chiusura)
+**Stato bozza:** 🟡 in lavorazione (itinerario completo, orari trasformati in fasce
+orarie descrittive, e correzioni rispetto al programma originale; mancano
+aneddoti personali per apertura/chiusura)
 **Periodo del viaggio:** 11-22 novembre 2023
 **Durata:** 12 giorni, 11 notti
-**Compagni di viaggio:** viaggio di gruppo in stile organizzato (van privato con
-autista, DMC locale WanderlustAsia, cassa comune)
+**Compagni di viaggio:** van privato con autista per tutto il percorso, con DMC
+locale (WanderlustAsia) a organizzare hotel e attività
 **Categoria:** Asia · Sri Lanka · on the road · natura · cultura · mare
 
 ---
@@ -27,7 +28,7 @@ Hikkaduwa alle 21 passate perché il ristorante era lento. Dimmi tu.)*
 - **Budget:** cassa comune di partenza consigliata 250€ a testa (sufficiente
   anche con attività extra), più una media di ulteriori 200€ a testa durante il
   viaggio per cibo, bevande, acqua, souvenir, massaggi.
-- **Come ci siamo mossi:** van privato con autista anglofono per tutto il
+- **Come mi sono mosso:** van privato con autista anglofono per tutto il
   viaggio (incluso nel pacchetto), un tratto in treno panoramico da Nuwara
   Eliya a Ella.
 - **Sim/dati:** meglio comprare la SIM locale (Dialog o SLT Mobitel) subito dopo
@@ -39,9 +40,9 @@ Hikkaduwa alle 21 passate perché il ristorante era lento. Dimmi tu.)*
   e vento), adattatore tipo BS546 (a 3 poli tondi, non lo standard UK/Schuko),
   repellente antizanzare ad alta protezione.
 
-### Come lo abbiamo fatto noi vs. le alternative "on your own"
-Noi abbiamo girato lo Sri Lanka in **van privato con autista**, comodo per un
-gruppo di 10 persone ma anche il modo più "guidato" — per chi invece organizza
+### Come l'ho fatto io vs. le alternative "on your own"
+Ho girato lo Sri Lanka in **van privato con autista**, comodo e senza pensieri
+ma anche il modo più "guidato" di vedere il paese — per chi invece organizza
 il viaggio da solo o in coppia e vuole più libertà, esistono due alternative
 molto gettonate:
 
@@ -73,10 +74,10 @@ molto gettonate:
 ## Itinerario giorno per giorno
 
 ### Giorno 1 — Negombo
-Arrivo in aeroporto a Colombo, transfer a Negombo (con Michael, autista di
-fiducia, circa 6.000 LKR a macchina). Per chi arriva in anticipo, pranzo da
-**SeaJoy** (economico, buon rapporto qualità-prezzo). Alle 18:00 ritrovo del
-gruppo nella hall dell'hotel.
+Sono arrivato in aeroporto a Colombo, poi transfer a Negombo (con Michael,
+autista di fiducia, circa 6.000 LKR a macchina). Per chi arriva in anticipo,
+pranzo da **SeaJoy** (economico, buon rapporto qualità-prezzo). Nel tardo
+pomeriggio, ritrovo in hotel prima di uscire per cena.
 
 Cena di benvenuto (non inclusa) tra **Salt Restaurant**, **Tuk Tuk Wine & Dine**
 o **Jude Restaurant** (frutti di mare e pesce buono, ma servizio lento e musica
@@ -86,13 +87,13 @@ Lounge**, oppure a caccia di un beach party chiedendo a guida e locali.
 uno spettacolo da non perdere.*
 
 ### Giorno 2 — Negombo-Anuradhapura
-- **7:00** Colazione.
-- **8:00** Partenza verso Anuradhapura (5h di viaggio).
-- **13:30** Inizio visita del sito archeologico (circa 3h) con guida — Anil in
-  bicicletta o Lalith (che parla ottimo inglese, circa 6.500 LKR/19€, più
-  mancia).
-- **16:30 circa** Rientro in hotel (nella realtà, tra gomma a terra e pioggia,
-  siamo arrivati più tardi del previsto).
+- **Mattina presto** Colazione.
+- **In mattinata** Partenza verso Anuradhapura (5h di viaggio).
+- **Nel primo pomeriggio** Inizio visita del sito archeologico (circa 3h) con
+  guida — Anil in bicicletta o Lalith (che parla ottimo inglese, circa 6.500
+  LKR/19€, più mancia).
+- **Nel tardo pomeriggio** Rientro in hotel (nella realtà, tra gomma a terra e
+  pioggia, sono arrivato più tardi del previsto).
 - **Cena** a buffet in hotel (circa 2.200 LKR + bevande).
 
 Anuradhapura è la prima delle "città sacre" del triangolo culturale
@@ -101,34 +102,35 @@ dell'albero sotto cui il Buddha raggiunse l'illuminazione) e rovine che
 raccontano oltre duemila anni di storia buddhista.
 
 ### Giorno 3 — Anuradhapura-Dambulla: Mihintale e safari
-- **5:00-7:00** Sveglia presto, colazione in hotel.
-- **7:30** Partenza verso **Mihintale** (30 min), il luogo dove secondo la
-  tradizione il buddhismo arrivò per la prima volta in Sri Lanka nel III secolo
-  a.C.
-- **8:00** Visita al sito (circa 2h, ingresso 500 LKR + noleggio sarong 50 LKR
-  + calzini per i templi).
-- **10:30** Trasferimento verso il safari (1h30).
-- **12:30** **Safari** — noi lo abbiamo fatto a **Minneriya** (alternative
+- **Prima dell'alba** Sveglia presto, colazione in hotel.
+- **In mattinata** Partenza verso **Mihintale** (30 min), il luogo dove secondo
+  la tradizione il buddhismo arrivò per la prima volta in Sri Lanka nel III
+  secolo a.C.
+- **A metà mattina** Visita al sito (circa 2h, ingresso 500 LKR + noleggio
+  sarong 50 LKR + calzini per i templi).
+- **Prima di mezzogiorno** Trasferimento verso il safari (1h30).
+- **Verso mezzogiorno** **Safari** — l'ho fatto a **Minneriya** (alternative
   valide secondo la stagione: Hurulu o Kaudulla, da concordare con il DMC
   locale in base a dove si sono spostati gli elefanti). Circa 12.000 LKR a
   jeep (max 6-7 persone) + ingresso. Pranzo tipico ottimo lungo il percorso
   (circa 2.000 LKR).
-- **15:30-17:00** Trasferimento e **trekking al tramonto a Pidurangala Rock**:
-  30 minuti di salita, l'ultimo tratto piuttosto impegnativo (scarpe adatte,
-  non infradito), ma la vista sulla Rocca di Sigiriya di fronte è uno dei
-  panorami più belli di tutto il viaggio. Vista dall'alto 1.000 LKR, sarong e
-  torcia frontale consigliate per la discesa dopo il tramonto.
+- **Nel tardo pomeriggio** Trasferimento e **trekking al tramonto a
+  Pidurangala Rock**: 30 minuti di salita, l'ultimo tratto piuttosto
+  impegnativo (scarpe adatte, non infradito), ma la vista sulla Rocca di
+  Sigiriya di fronte è uno dei panorami più belli di tutto il viaggio. Vista
+  dall'alto 1.000 LKR, sarong e torcia frontale consigliate per la discesa
+  dopo il tramonto.
 - **Cena** a Dambulla, tra **Mom's Kitchen** e **Golden Palace**.
 
 ### Giorno 4 — Dambulla-Polonnaruwa-Dambulla
-- **7:00** Transfer verso **Sigiriya** (30 min).
-- **7:30** **Trekking a Sigiriya**, la Rocca del Leone: 1h30-2h di salita,
-  ingresso 10.000-30 USD a persona a seconda della tariffa applicata (portare
-  sarong, acqua, snack). La vista dalla cima — le fondamenta dell'antico
-  palazzo reale del V secolo, gli affreschi delle fanciulle celesti lungo la
-  parete a specchio — è uno dei momenti clou del viaggio. *Consiglio: partire
-  presto per evitare il caldo.*
-- **9:30** Trasferimento verso **Polonnaruwa** (circa 1h10).
+- **Mattina presto** Transfer verso **Sigiriya** (30 min).
+- **Subito dopo** **Trekking a Sigiriya**, la Rocca del Leone: 1h30-2h di
+  salita, ingresso 10.000-30 USD a persona a seconda della tariffa applicata
+  (portare sarong, acqua, snack). La vista dalla cima — le fondamenta
+  dell'antico palazzo reale del V secolo, gli affreschi delle fanciulle
+  celesti lungo la parete a specchio — è uno dei momenti clou del viaggio.
+  *Consiglio: partire presto per evitare il caldo.*
+- **In mattinata** Trasferimento verso **Polonnaruwa** (circa 1h10).
 - **Visita a Polonnaruwa** (circa 2h30-3h): noleggio biciclette in loco (1.000
   LKR/circa 2,5€) per girare tra i templi e le statue del Buddha della seconda
   capitale medievale di Sri Lanka — un'alternativa più leggera e diretta
@@ -140,30 +142,31 @@ raccontano oltre duemila anni di storia buddhista.
 - **Cena** a Dambulla o Sigiriya (stessi indirizzi del Giorno 3).
 
 ### Giorno 5 — Dambulla-Kandy
-- **9:00** Visita al **Tempio d'Oro di Dambulla** (biglietteria chiude alle
-  17:00, il tempio alle 19:00) — cinque grotte scavate nella roccia, piene di
-  statue e affreschi dedicati al Buddha, uno dei siti più belli e meno
-  "turistici" del viaggio.
-- **9:00** **Dambulla Wholesale Market**, il più grande mercato all'ingrosso
-  dello Sri Lanka: un giro tra le bancarelle è un'ottima occasione per
-  assaggiare street food locale.
-- **11:00** Trasferimento verso **Kandy** (circa 2h), con sosta pranzo al
-  **Ranweli Spice Garden** (con visita alla piantagione di spezie inclusa).
-- **14:00** Arrivo a Kandy. Tempo libero: **Kandy Fish Market** (il posto
-  migliore di tutto il viaggio per i souvenir — spezie, tessuti), la statua del
-  Buddha di Bahiravokanda, il lago cittadino.
-- **17:00-18:30** **Tempio del Dente (Temple of the Tooth)**: la cerimonia
-  inizia ufficialmente alle 18:30, i tamburi alle 18:15, ma la fila comincia
-  già dalle 17:30 — conviene essere dentro con largo anticipo (noi siamo
-  entrati proprio alle 18:00, giusto in tempo per i tamburi). Ingresso 2.000
-  LKR, sarong obbligatorio.
+- **In mattinata** Visita al **Tempio d'Oro di Dambulla** (biglietteria chiude
+  alle 17:00, il tempio alle 19:00) — cinque grotte scavate nella roccia,
+  piene di statue e affreschi dedicati al Buddha, uno dei siti più belli e
+  meno "turistici" del viaggio.
+- **Sempre in mattinata** **Dambulla Wholesale Market**, il più grande mercato
+  all'ingrosso dello Sri Lanka: un giro tra le bancarelle è un'ottima
+  occasione per assaggiare street food locale.
+- **Verso mezzogiorno** Trasferimento verso **Kandy** (circa 2h), con sosta
+  pranzo al **Ranweli Spice Garden** (con visita alla piantagione di spezie
+  inclusa).
+- **Nel primo pomeriggio** Arrivo a Kandy. Tempo libero: **Kandy Fish Market**
+  (il posto migliore di tutto il viaggio per i souvenir — spezie, tessuti), la
+  statua del Buddha di Bahiravokanda, il lago cittadino.
+- **In serata** **Tempio del Dente (Temple of the Tooth)**: la cerimonia
+  serale inizia con il calare della luce, i tamburi poco prima — ma la fila si
+  forma già dal tardo pomeriggio, conviene arrivare con largo anticipo (sono
+  entrato giusto in tempo per i tamburi). Ingresso 2.000 LKR, sarong
+  obbligatorio.
 - **Cena**: da provare un ristorante indiano del sud non in programma ma
   scovato sul posto — economicissimo e ottimo, anche se il servizio fa un po'
   di confusione con gli ordini.
 
 ### Giorno 6 — Kandy-Nallathanniya: rafting a Kitulgala
-- **8:00-9:00** Partenza da Kandy (possibile tappa non programmata a un
-  orfanotrofio locale, se in accordo col gruppo/guida).
+- **In mattinata** Partenza da Kandy (possibile tappa non programmata a un
+  orfanotrofio locale, se concordata con la guida sul posto).
 - **Trasferimento a Kitulgala** (circa 2h): giornata dedicata agli sport
   d'acqua, con **rafting sul fiume Kelani** (lo stesso fiume dove fu girato
   *Il ponte sul fiume Kwai*) organizzato dal DMC locale. Possibile
@@ -174,20 +177,20 @@ raccontano oltre duemila anni di storia buddhista.
 - **Cena** in hotel.
 
 ### Notte Adam's Peak — la sfida fisica del viaggio
-Partenza consigliata attorno all'1:00-2:00 di notte per raggiungere la cima
-(2.243 m) in tempo per l'alba: 2h30-3h di salita su una scalinata di
-pellegrinaggio interamente illuminata e affollata (siamo in stagione di
-pellegrinaggio, dicembre-maggio, per cui l'ultimo tratto si fa quasi in fila
-indiana, a passo di formica). In cima fa freddo — 3-6°C con vento, serve
-assolutamente una felpa. La discesa richiede altre 2h30-3h. *La vera
-attrazione non è tanto il tempio in cima quanto la sfida fisica condivisa con
-centinaia di pellegrini locali — un'esperienza che vale più per il percorso che
-per la meta.*
+Partenza consigliata nel cuore della notte per raggiungere la cima (2.243 m)
+in tempo per l'alba: 2h30-3h di salita su una scalinata di pellegrinaggio
+interamente illuminata e affollata (siamo in stagione di pellegrinaggio,
+dicembre-maggio, per cui l'ultimo tratto si fa quasi in fila indiana, a passo
+di formica). In cima fa freddo — 3-6°C con vento, serve assolutamente una
+felpa. La discesa richiede altre 2h30-3h. *La vera attrazione non è tanto il
+tempio in cima quanto la sfida fisica condivisa con centinaia di pellegrini
+locali — un'esperienza che vale più per il percorso che per la meta.*
 
 ### Giorno 7 — Hatton-Nuwara Eliya: piantagioni di tè
 - **Colazione** e partenza verso le piantagioni di tè **Pedro Tea Plantation**
-  (tempo di trasferimento molto variabile secondo la base di partenza — da
-  noi si è rivelato molto più breve del previsto, circa 20 minuti anziché 2h).
+  (tempo di trasferimento molto variabile secondo la base di partenza — nel
+  mio caso si è rivelato molto più breve del previsto, circa 20 minuti anziché
+  2h).
   Visita alla piantagione e alla fabbrica di lavorazione del tè.
 - Arrivo a **Nuwara Eliya**, la "piccola Inghilterra" di Sri Lanka, a 1.868 m
   di quota — pranzo e pomeriggio libero, con due strade possibili:
@@ -204,29 +207,31 @@ per la meta.*
 ### Giorno 8 — Nuwara Eliya-Ella: il treno panoramico
 - **Colazione** e transfer alla stazione.
 - **Il treno panoramico Nuwara Eliya (Nanu Oya)-Ella**: sulla carta 3 ore, ma
-  gli orari reali sono imprevedibili — nella nostra esperienza siamo partiti
-  verso le 13:00 e arrivati alle 19:30, ben oltre il previsto, senza alcun
-  servizio di ristorazione a bordo. *È la tratta ferroviaria più fotografata
-  dello Sri Lanka — vallate di tè a perdita d'occhio, ponti e gallerie — ma va
-  presa con lo spirito giusto: i ritardi sono la norma, non l'eccezione.*
+  gli orari reali sono imprevedibili — nella mia esperienza sono partito nel
+  primo pomeriggio e arrivato in tarda serata, ben oltre il previsto, senza
+  alcun servizio di ristorazione a bordo. *È la tratta ferroviaria più
+  fotografata dello Sri Lanka — vallate di tè a perdita d'occhio, ponti e
+  gallerie — ma va presa con lo spirito giusto: i ritardi sono la norma, non
+  l'eccezione.*
 - Arrivo a **Ella**. Se il tempo lo permette prima o dopo il treno: **Nine
   Arches Bridge** (il ponte a nove archi, uno dei simboli di Ella — verificare
-  gli orari di passaggio del treno per la foto, indicativamente 9:30, 11:30,
-  15:30, 16:30, 17:30, ma non affidabili), **Lipton's Seat** (punto panoramico,
-  circa 1h15 di distanza), le cascate dei Lover's Leap, la zip line Flying
-  Ravana (circa 20€, 15 minuti da Ella), massaggio alla Spa Ceylon.
+  gli orari di passaggio del treno per la foto: ce ne sono diversi nell'arco
+  della giornata, tra mattina e tardo pomeriggio, ma non sono affidabili),
+  **Lipton's Seat** (punto panoramico, circa 1h15 di distanza), le cascate dei
+  Lover's Leap, la zip line Flying Ravana (circa 20€, 15 minuti da Ella),
+  massaggio alla Spa Ceylon.
 - **Cooking class con cena** organizzata dal DMC locale.
 - **Dopocena** al **One Love Ella**, bel locale ma attento ai drink offerti al
   tavolo — spesso non inclusi nel conto previsto.
 
 ### Giorno 9 — Ella-Yala-Hikkaduwa: safari e prima spiaggia
-- **4:00-4:30** Sveglia prestissimo e partenza verso il **Parco Nazionale di
-  Yala** (2h-2h15).
-- **6:00-7:30** **Safari a Yala** (circa 4h): il parco con la più alta densità
-  di leopardi al mondo, oltre a elefanti, coccodrilli, bufali d'acqua e una
-  ricchissima avifauna. Costo indicativo 12.000-16.000 LKR a jeep + ingresso
-  (27-30€ a persona) + mancia.
-- **10:00** Colazione (spesso portata dal resort di partenza).
+- **Prima dell'alba** Sveglia prestissimo e partenza verso il **Parco
+  Nazionale di Yala** (2h-2h15).
+- **Al mattino presto** **Safari a Yala** (circa 4h): il parco con la più alta
+  densità di leopardi al mondo, oltre a elefanti, coccodrilli, bufali d'acqua
+  e una ricchissima avifauna. Costo indicativo 12.000-16.000 LKR a jeep +
+  ingresso (27-30€ a persona) + mancia.
+- **A metà mattinata** Colazione (spesso portata dal resort di partenza).
 - **Trasferimento verso Mirissa/Hikkaduwa** (2h15-2h40): lungo la strada si
   incontrano i celebri "pescatori su palafitta" — *da sapere: oggi sono quasi
   sempre una messa in scena per turisti, non più un vero metodo di pesca.*
@@ -279,6 +284,11 @@ rientro.
   giorni di templi e trekking.
 
 ## Dove abbiamo dormito
+Ho dormito in 8 città diverse (Negombo due volte, andata e ritorno), tutti
+hotel scelti dal DMC locale nel pacchetto organizzato. Qui sotto la tabella
+con le notti, e più giù una scheda per ciascuna tappa con le mie impressioni
+e qualche alternativa reale per chi organizza lo stesso giro.
+
 | Notti | Città | Hotel |
 |---|---|---|
 | 11-12 nov | Negombo | Regal Réseau Hotel & Spa |
@@ -290,6 +300,89 @@ rientro.
 | 18-19 nov | Ella | 88th Hotel |
 | 19-21 nov | Hikkaduwa | Sapphire Seas Beachfront Hotel |
 | 21-22 nov | Negombo | Goldi Sands Hotel |
+
+**Negombo — Regal Réseau Hotel & Spa (andata) e Goldi Sands Hotel (ritorno)**
+Il Regal Réseau (4/5 su Tripadvisor, circa 400 recensioni) è apprezzato
+soprattutto per il rooftop con piscina a sfioro e vista, anche se la musica
+del bar sale fino alle camere secondo diversi ospiti. Il Goldi Sands (4/5,
+oltre 1.700 recensioni) ha una colazione a buffet sopra le aspettative e
+posizione comoda a piedi da ristoranti e locali, ma diversi recensori lo
+descrivono datato negli arredi, quasi da 2 stelle nello stile.
+*Alternative a Negombo:* economiche: Icebear Guesthouse, Ocean Beauty Guest
+House · fascia media: Jetwing Sea, Jetwing Lagoon (i due hotel scelti per
+questo viaggio rientrano già più o meno in questa fascia) · lusso (contenuto):
+Jetwing Blue, Sentido Heritance Negombo.
+
+**Anuradhapura — Miridiya Lake Resort**
+Voto medio 3/5 su Tripadvisor (circa 400 recensioni), ma con un dettaglio
+utile: sotto una nuova gestione recente il resort sembra migliorato parecchio
+(area di ingresso, cibo, camere). Vista sul lago Nuwara Wewa molto apprezzata,
+qualche lamentela su docce e umidità nei bagni.
+*Alternative ad Anuradhapura:* economiche: Saubagya Inn, Why Not Palace ·
+fascia media: Kings Town Hotel, Monaara Leisure (il Miridiya Lake Resort è
+più o meno su questo livello) · lusso: Ulagalla by Uga Escapes, Divulgaha
+Gedara Boutique Hotel.
+
+**Dambulla — Tropical Life Resort**
+Il migliore dei nove, sulla carta: #1 tra le strutture specialty di Dambulla
+e 4/5 su Tripadvisor. Camere pulite e ben accessoriate, buffet abbondante,
+atmosfera immersa nel verde con uccelli e farfalle intorno alla piscina.
+Qualche recensione segnala assenza di WiFi in camera.
+*Alternative a Dambulla:* economiche: Relax Guesthouse, Lake Island Homestay
+· fascia media: Lake Lodge Boutique Hotel, Kalundewa Retreat (il Tropical
+Life Resort è già su questo livello, anzi sopra) · lusso: Heritance
+Kandalama (il celebre hotel firmato Geoffrey Bawa), Aliya Resort & Spa.
+
+**Kandy — Rivendell Hotel**
+4/5 su Tripadvisor ma con pareri contrastanti: chi lo apprezza parla di
+posizione tranquilla fuori dal centro, viste sulle colline e staff molto
+gentile; altre recensioni lo giudicano caro per quello che offre, con un
+piccolo buffet e rumore mattutino da un tempio vicino.
+*Alternative a Kandy:* economiche: 256 Townhouse Rest, Sharon Inn Kandy ·
+fascia media: Hotel Suisse, OZO Kandy · lusso: Earl's Regency, The Grand
+Kandyan.
+
+**Nallathanniya — Wathsala Inn**
+Base per la scalata dell'Adam's Peak, 3/5 su Tripadvisor: vista notevole
+sulla valle e sul Peak, staff cortese, ma parecchie recensioni segnalano
+problemi di manutenzione (docce, lenzuola, infiltrazioni). Va preso per quello
+che è: un punto d'appoggio essenziale per partire di notte, non una struttura
+da vacanza.
+*Alternative a Nallathanniya:* economiche: Slightly Chilled, Sun Mount
+Adam's Peak · fascia media: White House Adam's Peak, Adams Peak Grand (il
+Wathsala Inn è più o meno su questo livello, con più variabilità) · lusso:
+qui non ce ne sono davvero — è un villaggio di partenza per il trekking, non
+una meta di soggiorno.
+
+**Nuwara Eliya — Araliya RED**
+Uno dei più prenotati della zona, 4/5 con quasi 2.000 recensioni: piscina
+riscaldata molto apprezzata, staff ospitale, vista sulla città dal rooftop.
+Qualche segnalazione di rumori dalle camere vicine e odore di gasolio
+all'ingresso.
+*Alternative a Nuwara Eliya:* economiche: Galaxy Grand Hotel, Star Gate
+Private Villa · fascia media: Jetwing St. Andrew's, Clifton Inn (l'Araliya
+RED è già un'ottima via di mezzo su questo fronte) · lusso: Heritance Tea
+Factory, The Grand Hotel Nuwara Eliya.
+
+**Ella — 88th Hotel**
+4/5 su Tripadvisor, uno dei posti più raccomandati della zona: posizione
+centrale vicino a Ella Rock e Nine Arches Bridge, ospitalità calorosa.
+Attenzione però alle aspettative: niente aria condizionata, niente
+ascensore, letto rigido con solo lenzuola (no coperta), pulizie solo su
+richiesta.
+*Alternative a Ella:* economiche: Ella Alpine Resort, Rock Side Inn (l'88th
+Hotel è già su questo livello, essenziale ma ben recensito) · fascia media:
+Arawe Retreat, Zion View Ella Green Retreat · lusso: 98 Acres Resort & Spa,
+Nine Skies.
+
+**Hikkaduwa — Sapphire Seas Beachfront Hotel**
+Recensioni molto positive: hotel boutique proprio davanti al mare, camere
+spaziose e pulizia tra le più citate positivamente, atmosfera descritta da
+alcuni come "un'oasi" rispetto alle zone più trafficate di Hikkaduwa.
+*Alternative a Hikkaduwa:* economiche: Hilda Guest House, Amaroo Hikkaduwa ·
+fascia media: Sea Star Boutique Hotel, Hikka Tranz by Cinnamon (il Sapphire
+Seas è già su questo livello, boutique) · lusso: Crystal Sands, Aditya
+Resort.
 
 ## Dove abbiamo mangiato
 - Negombo: Jude Restaurant (pesce buono ma lento, 12€/pax); SeaJoy (pranzo

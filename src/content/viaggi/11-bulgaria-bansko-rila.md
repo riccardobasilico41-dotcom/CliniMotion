@@ -9,15 +9,15 @@
 ---
 
 ## Apertura personale
-Non ci aspettavamo grandi cose dallo sci in Bulgaria, ed è esattamente quello che abbiamo trovato: piste carine, ben tenute, niente di esagerato rispetto alle Alpi. Ma è proprio questo il bello — andarci non è tanto per lo sci in sé, quanto per l'esperienza esotica di sciare in un angolo d'Europa che raramente finisce nei programmi delle vacanze bianche. Un weekend diverso, economico, con un finale a sorpresa tra gli affreschi del Monastero di Rila.
+Non mi aspettavo grandi cose dallo sci in Bulgaria, ed è esattamente quello che ho trovato: piste carine, ben tenute, niente di esagerato rispetto alle Alpi. Ma è proprio questo il bello — andarci non è tanto per lo sci in sé, quanto per l'esperienza esotica di sciare in un angolo d'Europa che raramente finisce nei programmi delle vacanze bianche. Un weekend diverso, economico, con un finale a sorpresa tra gli affreschi del Monastero di Rila.
 
 ## Scheda pratica
 - **Quando andare:** stagione sciistica bulgara dal 1° dicembre a metà aprile, con innevamento artificiale su gran parte delle piste (copertura cannoni oltre il 90%) — neve garantita anche nei periodi più secchi.
 - **Documenti/visto:** Bulgaria in UE, nessun visto necessario per cittadini italiani; basta carta d'identità valida per l'espatrio o passaporto.
 - **Moneta:** Lev bulgaro (BGN), non euro — cambio fisso 1€ = 1,95583 BGN.
 - **Come arrivarci:** si vola su **Sofia**, l'unico aeroporto internazionale comodo per Bansko (circa 160 km, 2-2h30 di auto).
-- **Da Sofia a Bansko — le alternative all'auto a noleggio:** noi abbiamo preso l'auto direttamente in aeroporto e guidato fino a Bansko, ma non è l'unica opzione:
-  - **Auto a noleggio** (la nostra scelta): la soluzione più flessibile, comoda soprattutto per fare tappa al Monastero di Rila lungo il tragitto. Strada di montagna, in inverno meglio con gomme invernali.
+- **Da Sofia a Bansko — le alternative all'auto a noleggio:** ho preso l'auto direttamente in aeroporto e guidato fino a Bansko, ma non è l'unica opzione:
+  - **Auto a noleggio** (la mia scelta): la soluzione più flessibile, comoda soprattutto per fare tappa al Monastero di Rila lungo il tragitto. Strada di montagna, in inverno meglio con gomme invernali.
   - **Shuttle/transfer privato o condiviso**: la soluzione più gettonata da chi va solo per sciare. Compagnie come Traventuria, Bansko Shuttle o Welcome Pickups offrono transfer diretti dall'aeroporto fino in hotel o alla stazione della gondola. Il condiviso costa indicativamente 15-30€ a persona, il privato 80-90€ per l'intera auto (4 persone), 2h30-3h di viaggio — da prenotare in anticipo, i posti condivisi si esauriscono nei weekend di alta stagione.
   - **Bus pubblico**: l'opzione più economica (circa 20-22€), ma richiede prima un trasferimento dall'aeroporto alla Stazione Centrale di Sofia, poi il bus vero e proprio (3-5 ore totali) — sconsigliato con l'attrezzatura da sci o poco tempo a disposizione.
   - **Treno + minibus**: da Sofia treno per Blagoevgrad (2-3h) e da lì minibus fino a Bansko — pittoresco ma lento.
@@ -61,7 +61,12 @@ Ultimo tratto verso Sofia e riconsegna dell'auto in aeroporto.
 - **Chicca poco turistica:** le mehane fuori dal centro turistico, dove i prezzi scendono e la cucina è più genuina.
 
 ## Dove abbiamo dormito
-Hotel a Bansko, a pochi minuti a piedi dalla stazione della gondola — comodo per raggiungere le piste al mattino senza dover prendere l'auto.
+Ho scelto un hotel a Bansko, a pochi minuti a piedi dalla stazione della gondola — comodo per raggiungere le piste al mattino senza dover muovere l'auto, e a due passi dal centro storico per le serate in mehana. Non era una struttura di marca né particolarmente ricercata, solo una base pratica per la settimana sulla neve.
+
+**Alternative vicino alla gondola:**
+*Economiche:* Hotel Dumanov (a circa 150 metri dalla stazione a valle della gondola), La Vien Guest House (5 minuti a piedi, gestione familiare)
+*Fascia media:* Hotel Ida (500 metri dalla gondola, piscina interna e vasca idromassaggio), MPM Hotel Sport (a circa 100 metri, accesso quasi diretto alle piste)
+*Più lussuose:* Kempinski Hotel Grand Arena Bansko (proprio di fronte alla stazione della gondola, l'unico vero ski-in/ski-out del paese), Premier Luxury Mountain Resort (pochi minuti dalla gondola con navetta dedicata, centro benessere ampio)
 
 ## Dove abbiamo mangiato
 Mehane del centro storico di Bansko, tra kapama, banitsa e shopska salata, sempre accompagnati da rakia.
