@@ -20,12 +20,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.legalListingName} | Bocenago, Val Rendena`,
+    default: `${siteConfig.brandName} — ${siteConfig.tagline}`,
     template: `%s | ${siteConfig.shortName}`,
   },
   description: siteConfig.description,
   openGraph: {
-    title: siteConfig.legalListingName,
+    title: siteConfig.brandName,
     description: siteConfig.description,
     url: siteConfig.url,
     siteName: siteConfig.shortName,
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.legalListingName,
+    title: siteConfig.brandName,
     description: siteConfig.description,
   },
 };
@@ -42,35 +42,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    name: siteConfig.legalListingName,
+    "@type": "Blog",
+    name: siteConfig.brandName,
     description: siteConfig.description,
     url: siteConfig.url,
-    image: `${siteConfig.url}/images/soggiorno-mansarda.jpg`,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: siteConfig.address.locality,
-      addressRegion: "Trentino-Alto Adige",
-      addressCountry: "IT",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: siteConfig.address.lat,
-      longitude: siteConfig.address.lng,
-    },
-    numberOfRooms: siteConfig.property.bedrooms,
-    petsAllowed: siteConfig.property.petsAllowed,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: siteConfig.rating.value,
-      bestRating: siteConfig.rating.scale,
-      reviewCount: siteConfig.rating.reviewCount,
-    },
-    amenityFeature: siteConfig.amenities.map((a) => ({
-      "@type": "LocationFeatureSpecification",
-      name: a.label,
-      value: true,
-    })),
+    inLanguage: "it-IT",
   };
 
   return (

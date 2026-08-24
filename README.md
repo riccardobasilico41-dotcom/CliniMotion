@@ -1,8 +1,8 @@
-# Mansarda tra le Dolomiti di Brenta
+# Viaggi 360°
 
-Sito vetrina per l'Appartamento "Mansarda tra le Dolomiti di Brenta", a Bocenago (Val Rendena, Trentino). Host: Mara Morganti.
+Diario di viaggio: itinerari giorno per giorno, schede pratiche e consigli, organizzati per continente.
 
-Costruito con Next.js 16 (App Router), Tailwind CSS v4 e la libreria `motion` per le animazioni.
+Costruito con Next.js 16 (App Router), Tailwind CSS v4, `motion` per le animazioni e `react-markdown` per il rendering dei contenuti.
 
 ## Sviluppo
 
@@ -13,16 +13,45 @@ npm run dev
 
 ## Struttura
 
-- `src/lib/site-config.ts` — tutti i dati reali della struttura (indirizzo, servizi, licenze, link di prenotazione). Modificare qui per aggiornare i contenuti in tutto il sito.
-- `src/app/` — le pagine: home, `/la-casa`, `/pinzolo-campiglio-estate`, `/pinzolo-campiglio-inverno`, `/dove-siamo`, `/prenota`.
-- `src/components/` — componenti condivisi (header, footer, hero, reveal animati).
+- `src/content/viaggi/*.md` — un file per viaggio, formato libero ma con una struttura fissa (vedi sotto). Aggiungere un viaggio = aggiungere un file qui, numerato `NN-nome-luogo.md`.
+- `src/lib/viaggi.ts` — parsing dei file markdown in oggetti `Viaggio` (metadati, sezioni, giorni, tag).
+- `src/lib/site-config.ts` — nome, tagline e descrizione del sito.
+- `src/app/` — home (`/`), catalogo (`/viaggi`), pagina di dettaglio (`/viaggi/[slug]`).
+- `src/components/` — componenti condivisi (`Header`, `Footer`, `TripCard`, `Prose`, ecc.).
 
-## Da completare prima del lancio definitivo
+### Formato di un file viaggio
 
-- **Foto**: al momento è disponibile una sola foto reale (`public/images/soggiorno-mansarda.jpg`), ricavata da uno screenshot dell'annuncio Holidu. Andrebbero aggiunte le altre foto reali della mansarda (camere, bagno, balcone, esterno, vista) per completare la galleria.
-- **Dominio**: `siteConfig.url` in `src/lib/site-config.ts` è impostato su un dominio provvisorio (`mansardadolomitidibrenta.it`) — da sostituire con il dominio reale una volta acquistato e collegato.
-- **Coordinate GPS**: `siteConfig.address.lat/lng` sono indicative del centro di Bocenago, non il pin esatto della casa — da affinare se necessario.
-- **Prenotazione**: il pulsante "Prenota" rimanda al link Holidu fornito (`siteConfig.booking.holiduUrl`). Se cambia, aggiornare quel campo.
+```
+# Titolo del viaggio
+
+**Stato bozza:** 🟢 pronta per il sito / 🟡 in lavorazione
+**Periodo del viaggio:** ...
+**Durata:** ...
+**Compagni di viaggio:** ...
+**Categoria:** Continente · Paese · tag · tag
+
+---
+
+## Apertura personale
+## Scheda pratica
+## Itinerario giorno per giorno
+### Giorno 1 — ...
+## Cosa vedere / cosa fare
+## Dove abbiamo dormito
+## Dove abbiamo mangiato
+## Consigli pratici / errori da non ripetere
+## Chiusura personale
+## Foto/media
+## Tag
+```
+
+Se "Apertura personale" o "Chiusura personale" contengono un appunto tra parentesi tipo `*(spunto pronto: ...)*` o `*(da scrivere insieme)*`, il sito lo riconosce come nota interna e non lo pubblica: mostra invece un badge "In aggiornamento" e usa il primo giorno d'itinerario come estratto per le card.
+
+## Da completare
+
+- **Foto**: nessuna delle destinazioni ha ancora foto reali — al momento il sito usa fasce di colore per continente al posto delle immagini. Ogni file `.md` ha una sezione "Foto/media" con la lista di scatti mancanti.
+- **Aneddoti personali**: Marocco, New York, Florida, Transilvania e Costa Rica sono "in lavorazione" — mancano apertura/chiusura in prima persona (solo la Bulgaria è completa).
+- **Dominio**: `siteConfig.url` è provvisorio (`viaggi360.it`).
 
 ## Deploy
 

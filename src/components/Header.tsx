@@ -4,14 +4,10 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Container } from './ui/Container'
-import { Button } from './ui/Button'
 import { siteConfig } from '@/lib/site-config'
 
 const navLinks = [
-  { href: '/la-casa', label: 'La casa' },
-  { href: '/pinzolo-campiglio-estate', label: 'Estate' },
-  { href: '/pinzolo-campiglio-inverno', label: 'Inverno' },
-  { href: '/dove-siamo', label: 'Dove siamo' },
+  { href: '/viaggi', label: 'Tutti i viaggi' },
 ]
 
 export function Header() {
@@ -25,7 +21,7 @@ export function Header() {
             {siteConfig.brandName}
           </span>
           <span className="text-[0.65rem] font-medium uppercase tracking-[0.14em] text-rosso">
-            {siteConfig.shortName}
+            Diario di viaggio
           </span>
         </Link>
 
@@ -40,12 +36,6 @@ export function Header() {
             </Link>
           ))}
         </nav>
-
-        <div className="hidden md:block">
-          <Button href="/prenota" variant="primary" className="!px-5 !py-2.5 text-xs">
-            Prenota il soggiorno
-          </Button>
-        </div>
 
         <button
           type="button"
@@ -71,13 +61,6 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/prenota"
-              onClick={() => setOpen(false)}
-              className="mt-2 rounded-full bg-alpine px-3 py-3 text-center text-base font-medium text-cream"
-            >
-              Prenota il soggiorno
-            </Link>
           </Container>
         </div>
       )}
