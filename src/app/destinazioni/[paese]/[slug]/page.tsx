@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, ArrowUpRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
@@ -95,6 +96,23 @@ export default async function DestinazionePage({
           </Reveal>
         </Container>
       </section>
+
+      {destinazione.immagine && (
+        <Container className="relative -mt-10 sm:-mt-14">
+          <Reveal>
+            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-alpine/10 shadow-lg sm:aspect-[21/9]">
+              <Image
+                src={destinazione.immagine}
+                alt={destinazione.imageAlt}
+                fill
+                sizes="(min-width: 1024px) 1152px, 100vw"
+                priority
+                className="object-cover"
+              />
+            </div>
+          </Reveal>
+        </Container>
+      )}
 
       <section className="py-16 sm:py-20">
         <Container className="grid gap-14 lg:grid-cols-[1.6fr_1fr]">

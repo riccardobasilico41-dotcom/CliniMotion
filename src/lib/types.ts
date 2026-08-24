@@ -50,6 +50,8 @@ export type Destinazione = {
   esperienzeSlugs: string[]
   tripSlugs: string[]
   imageAlt: string
+  /** Percorso in /public. Se assente, la UI mostra il placeholder illustrato. */
+  immagine?: string
 }
 
 export type GiudizioEsperienza = 'imperdibile' | 'la-rifarei' | 'bella-non-essenziale' | 'da-verificare'
@@ -80,6 +82,8 @@ export type Esperienza = {
   alternative: string[]
   tripSlugs: string[]
   imageAlt: string
+  /** Percorso in /public. Se assente, la UI mostra il placeholder illustrato. */
+  immagine?: string
 }
 
 // --- Overlay dati per l'itinerario (facoltativo, per viaggio) ---

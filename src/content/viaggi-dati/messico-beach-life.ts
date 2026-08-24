@@ -72,11 +72,11 @@ export const messicoBeachLifeMeta: TripMeta = {
     },
     {
       titoloGiorno: 'Giorno 3 — Valladolid → Mérida',
-      tratta: 'Valladolid → Chichén Itzá → Izamal → cenote Santa Bárbara → Mérida',
+      tratta: 'Valladolid → Chichén Itzá → Izamal → cenote Ik Kil → Mérida',
       pernottamento: 'Ontico Urban Design Hotel',
       statoPernottamento: 'provato',
       intensita: 'intenso',
-      costiNoti: 'Chichén Itzá 614 MXN/persona · cenote Santa Bárbara 320 MXN',
+      costiNoti: 'Chichén Itzá 614 MXN/persona · cenote Ik Kil 320 MXN',
       destinazioneSlug: 'merida',
     },
     {

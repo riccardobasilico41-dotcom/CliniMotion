@@ -22,7 +22,7 @@
 - **Bagaglio:** zaino morbido 40/50/60L o borsone, no trolley rigido (scomodo su van e barche). Scarpe comode, costume, telo mare, torcia frontale utile per le uscite serali (bioluminescenza, temazcal).
 - **Salute:** kit da viaggio base, un antidiarroico e un gastroprotettore per la classica "Traveller's belly", repellente anti-zanzare formula "jungle" — soprattutto per la bioluminescenza serale a Punta Mosquito.
 - **Mance:** 10-15% consigliata al ristorante e nelle attività in mare (snorkeling, tour in barca).
-- **Budget attività extra:** diverse esperienze (Temazcal, tour in barca a Bacalar, snorkeling, escursione allo squalo balena, tour delle 3 Islas) sono a pagamento diretto in loco, spesso saldabili con carta/Revolut alla cassa dei siti principali (es. Chichén Itzá, cenote Santa Bárbara).
+- **Budget attività extra:** diverse esperienze (Temazcal, tour in barca a Bacalar, snorkeling, escursione allo squalo balena, tour delle 3 Islas) sono a pagamento diretto in loco, spesso saldabili con carta/Revolut alla cassa dei siti principali (es. Chichén Itzá, cenote Ik Kil).
 
 ## Itinerario giorno per giorno
 
@@ -48,7 +48,7 @@ Partenza presto la mattina verso **Chichén Itzá**: sono entrato in mattinata, 
 
 Sosta a **Izamal** per la piramide e il convento, con una pausa all'OXXO vicino al convento per rifocillarmi — nota pratica: Izamal è cara, meglio non perdere troppo tempo (né soldi) tra i souvenir, tanto il pranzo vero arriva più avanti.
 
-Pranzo (tardo) al **cenote Santa Bárbara**, che chiude alle 17 — anche qui si paga direttamente con carta/Revolut alla cassa. Arrivo a Mérida prima di cena, hotel Ontico. Cena direttamente alla **Mezcalería**, locale molto grande dove non serve prenotare. A Mérida ho anche usato il servizio lavanderia disponibile in hotel — comodo, siamo a metà viaggio.
+Pranzo (tardo) al **cenote Ik Kil**, che chiude alle 17 — anche qui si paga direttamente con carta/Revolut alla cassa. Arrivo a Mérida prima di cena, hotel Ontico. Cena direttamente alla **Mezcalería**, locale molto grande dove non serve prenotare. A Mérida ho anche usato il servizio lavanderia disponibile in hotel — comodo, siamo a metà viaggio.
 
 ### Giorno 4 — Mérida, giornata break: Playa Progreso
 Giornata senza transfer, dedicata a un'escursione a **Playa Progreso**, con partenza in mattinata. Al beach club **El Adiós** ho chiesto di Ana: con una consumazione si hanno i lettini in spiaggia gratis. A Progreso c'è anche il **museo del meteorite**, e poco distante **Isla C. Olimpios**, una spiaggia alternativa molto bella e meno battuta.
@@ -77,6 +77,8 @@ In serata, secondo **Temazcal** del viaggio: un'esperienza che definirei "spirit
 ### Giorno 8 — Tulum: giornata chill
 Giornata rilassata a **Caleta Tankah** (ingresso 300 MXN a persona, no carte): il mare, all'inizio, non era invitante e stavo quasi per andarmene dopo pochi minuti — ma niente rimborso, nemmeno appena entrati. Poi è uscito il sole e la giornata è cambiata completamente: il cenote all'interno della caleta è davvero carino. *Nota pratica: pensarci bene prima di entrare, perché il rimborso non c'è in nessun caso.*
 
+In zona ho fatto anche un bagno in un **cenote vicino a Dos Ojos**, nel sistema di grotte allagate di Sac Actun — tutt'altro stile rispetto ai cenote a cielo aperto dello Yucatán: qui si scende dentro una vera grotta, con stalattiti e acqua limpidissima.
+
 Serata top allo **Straw Hat**, con giochi "hot" che hanno movimentato la serata (e creato più di una coppietta di viaggio).
 
 ### Giorno 9 — Tulum e Playa del Carmen
@@ -100,12 +102,13 @@ In serata, **Coco Bongo**: uno di quei locali da fare almeno una volta, e un mod
 ## Cosa vedere / cosa fare
 - **Ek Balam e il cenote Xcanché** appena dopo — combo perfetta tra rovine maya poco affollate e acqua fresca.
 - **Chichén Itzá**, una delle Nuove Sette Meraviglie del Mondo — arrivarci in mattinata aiuta a evitare folla e caldo peggiore.
-- **Il cenote Santa Bárbara**, ottimo anche come tappa pranzo.
+- **Il cenote Ik Kil**, ottimo anche come tappa pranzo.
 - **Playa de los Cerditos ("pig beach")**, vicino a Mérida — il bagno con i maialini è un'attività curiosa e ancora poco battuta rispetto al resto del programma.
 - **Il Temazcal**, doppio nel viaggio (Yax Ha e a Mahahual) — un'esperienza che va oltre il semplice "spa", vera cerimonia rituale.
 - **Il tour in barca e kayak a Bacalar**, sulla laguna dai sette colori.
 - **Lo snorkeling con le tartarughe** a Mahahual.
 - **Playa Paraíso a Tulum**, tra le spiagge più belle di tutto l'itinerario.
+- **Il cenote vicino a Dos Ojos** (sistema Sac Actun), per chi vuole provare anche lo stile "grotta" oltre ai cenote a cielo aperto.
 - **La bioluminescenza a Punta Mosquito**, Holbox — un fenomeno naturale che vale la serata, zanzare comprese.
 - **Lo squalo balena a Holbox**: il momento clou di tutto il viaggio, da non perdere per nessun motivo.
 - **Chicca poco turistica:** oltre al pig beach, anche una sosta a **Cozumel** (raggiungibile in giornata da Playa del Carmen, seconda barriera corallina più grande al mondo) o a **Akumal**, per lo snorkeling guidato con le tartarughe direttamente dalla spiaggia, restano ottime aggiunte per chi ha qualche giorno extra sulla Riviera Maya.
@@ -175,8 +178,8 @@ Manca anche qui il nome della struttura: da recuperare.
 
 ## Foto/media
 - [ ] foto del cenote Xcanché vicino a Ek Balam
-- [ ] foto di Chichén Itzá
-- [ ] foto del cenote Santa Bárbara
+- [x] foto di Chichén Itzá
+- [x] foto del cenote Ik Kil (2 scatti disponibili)
 - [ ] foto della piramide di Izamal
 - [ ] foto di Playa Progreso e/o del pig beach
 - [ ] foto del Temazcal Yax Ha
@@ -186,6 +189,8 @@ Manca anche qui il nome della struttura: da recuperare.
 - [ ] foto dello snorkeling con le tartarughe a Mahahual
 - [ ] foto del sito archeologico di Tulum
 - [ ] foto di Playa Paraíso
+- [x] foto del cenote vicino a Dos Ojos (Sac Actun), foto di gruppo
+- [x] foto delle barche a Holbox
 - [ ] foto della bioluminescenza a Punta Mosquito (se venuta bene, altrimenti solo da raccontare)
 - [ ] foto/video dell'incontro con lo squalo balena
 - [ ] foto della serata al Coco Bongo

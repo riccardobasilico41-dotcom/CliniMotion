@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Waves, Trees, Landmark, Music, Compass } from 'lucide-react'
 import type { Destinazione } from '@/lib/types'
 import { ContentStatusBadge } from './ui/ContentStatusBadge'
@@ -28,19 +29,32 @@ export function DestinationCard({ destinazione, paeseSlug }: { destinazione: Des
       className="group flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg active:scale-[0.99] motion-reduce:active:scale-100"
     >
       <div
-        role="img"
-        aria-label={destinazione.imageAlt}
+        role={destinazione.immagine ? undefined : 'img'}
+        aria-label={destinazione.immagine ? undefined : destinazione.imageAlt}
         className={`relative flex min-h-[10rem] items-end overflow-hidden bg-gradient-to-br p-5 text-cream ${gradient}`}
       >
-        <Icon
-          size={104}
-          strokeWidth={1}
-          className="pointer-events-none absolute -right-3 -top-3 text-cream/10 transition-transform duration-700 group-hover:scale-110"
-        />
-        {destinazione.visitataPersonalmente && (
-          <ContentStatusBadge stato="provato" className="absolute right-4 top-4" />
+        {destinazione.immagine ? (
+          <Image
+            src={destinazione.immagine}
+            alt={destinazione.imageAlt}
+            fill
+            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        ) : (
+          <Icon
+            size={104}
+            strokeWidth={1}
+            className="pointer-events-none absolute -right-3 -top-3 text-cream/10 transition-transform duration-700 group-hover:scale-110"
+          />
         )}
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cream/70">
+        {destinazione.immagine && (
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/5 to-transparent" />
+        )}
+        {destinazione.visitataPersonalmente && (
+          <ContentStatusBadge stato="provato" className="absolute right-4 top-4 z-10" />
+        )}
+        <p className="relative z-10 text-xs font-semibold uppercase tracking-[0.18em] text-cream/70">
           {destinazione.tipologia.join(' · ')}
         </p>
       </div>

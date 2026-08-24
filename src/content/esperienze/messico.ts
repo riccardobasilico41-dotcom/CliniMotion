@@ -74,7 +74,7 @@ export const esperienzeMessico: Esperienza[] = [
     paeseSlug: 'messico',
     destinazioneSlug: 'valladolid',
     nome: 'Bagno in un cenote',
-    localita: 'diffusi in tutto lo Yucatán — nel mio viaggio: Xcanché, Santa Bárbara, Miguel Colorado',
+    localita: 'diffusi in tutto lo Yucatán e la Riviera Maya — nel mio viaggio: Xcanché e Ik Kil (Yucatán), Miguel Colorado (verso Mahahual) e uno vicino a Dos Ojos, nel sistema Sac Actun (zona Tulum)',
     cosE:
       'I cenote sono voragini naturali di roccia calcarea riempite d\'acqua dolce trasparente, spesso collegate a fiumi sotterranei — una delle esperienze più caratteristiche dello Yucatán.',
     percheFarla: 'Ogni cenote è diverso (a cielo aperto, in grotta, con radici che scendono dall\'alto): vale la pena farne più di uno durante il viaggio.',
@@ -89,7 +89,8 @@ export const esperienzeMessico: Esperienza[] = [
     giudizio: 'la-rifarei',
     alternative: [],
     tripSlugs: ['messico-beach-life'],
-    imageAlt: 'Cenote naturale con acqua turchese trasparente e radici che scendono dal soffitto di roccia',
+    imageAlt: 'Vista dal basso del cenote Ik Kil, con radici pendenti e apertura sul cielo',
+    immagine: '/images/messico/cenote-ik-kil-2.jpg',
   },
   {
     slug: 'chichen-itza',
@@ -106,11 +107,12 @@ export const esperienzeMessico: Esperienza[] = [
     comePrenotare: 'ingresso diretto in loco; timbro gratuito sul passaporto disponibile all\'ufficio dietro l\'ingresso',
     cosaPortare: 'cappello, crema solare, acqua — il sito è quasi del tutto scoperto e può fare molto caldo',
     perChiEAdatta: 'chiunque, sito accessibile e ben organizzato',
-    miaEsperienza: 'Sono entrato in mattinata, con circa due ore per la visita completa — tempo giusto per non avere fretta ma anche non perdere il resto della giornata (Izamal e il cenote Santa Bárbara erano ancora da fare).',
+    miaEsperienza: 'Sono entrato in mattinata, con circa due ore per la visita completa — tempo giusto per non avere fretta ma anche non perdere il resto della giornata (Izamal e il cenote Ik Kil erano ancora da fare).',
     giudizio: 'imperdibile',
     alternative: [],
     tripSlugs: ['messico-beach-life'],
     imageAlt: 'Piramide di Kukulcán a Chichén Itzá sotto un cielo azzurro',
+    immagine: '/images/messico/chichen-itza.jpg',
   },
   {
     slug: 'ek-balam-cenote-xcanche',

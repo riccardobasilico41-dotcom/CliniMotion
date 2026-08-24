@@ -200,8 +200,8 @@ export const destinazioniMessico: Destinazione[] = [
     introduzione:
       'Rovine maya sospese su una scogliera a picco sul Caribe, spiagge tra le più belle di tutta la Riviera Maya, e una vita notturna che si fa sentire.',
     percheAndarci: 'Combo di cultura (il sito archeologico), mare (Playa Paraíso) e serate — difficile trovarla altrove in un\'unica tappa.',
-    cosaVedere: ['Sito archeologico di Tulum, sulla scogliera', 'Caleta Tankah', 'Playa Paraíso'],
-    cosaFare: ['Giornata chill a Caleta Tankah', 'Pranzo e pomeriggio a Playa Paraíso', 'Serata allo Straw Hat'],
+    cosaVedere: ['Sito archeologico di Tulum, sulla scogliera', 'Caleta Tankah', 'Playa Paraíso', 'Cenote vicino a Dos Ojos, nel sistema Sac Actun'],
+    cosaFare: ['Giornata chill a Caleta Tankah', 'Pranzo e pomeriggio a Playa Paraíso', 'Serata allo Straw Hat', 'Bagno in un cenote della zona di Dos Ojos/Sac Actun'],
     doveDormire: 'Nome della struttura da confermare.',
     doveMangiare: 'da completare',
     comeArrivare: 'Via van/auto da Mahahual (circa 2-3 ore).',
@@ -215,7 +215,8 @@ export const destinazioniMessico: Destinazione[] = [
       'A Caleta Tankah il mare all\'inizio non era invitante — poi è uscito il sole e la giornata è cambiata completamente, cenote incluso. Il sito archeologico sulla scogliera e Playa Paraíso restano tra i ricordi più forti di tutto il viaggio.',
     esperienzeSlugs: [],
     tripSlugs: ['messico-beach-life'],
-    imageAlt: 'Rovine maya di Tulum sulla scogliera affacciata sul mare turchese',
+    imageAlt: 'Gruppo in muta ed equipaggiamento da snorkeling in un cenote in grotta vicino a Dos Ojos, Tulum',
+    immagine: '/images/messico/cenote-dos-ojos-gruppo.jpg',
   },
   {
     slug: 'playa-del-carmen',
@@ -270,5 +271,6 @@ export const destinazioniMessico: Destinazione[] = [
     esperienzeSlugs: ['squalo-balena-holbox', 'bioluminescenza-holbox'],
     tripSlugs: ['messico-beach-life'],
     imageAlt: 'Spiaggia bianca e acqua bassa turchese dell\'isola di Holbox',
+    immagine: '/images/messico/holbox-barche.jpg',
   },
 ]
