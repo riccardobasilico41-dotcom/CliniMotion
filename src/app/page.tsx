@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { TripCard } from '@/components/TripCard'
-import { Reveal } from '@/components/Reveal'
+import { Reveal, RevealGroup, RevealItem } from '@/components/Reveal'
 import { getAllViaggi } from '@/lib/viaggi'
 import { siteConfig } from '@/lib/site-config'
 
@@ -63,12 +63,18 @@ export default function HomePage() {
             title="I viaggi raccontati finora"
             description="Ogni viaggio con itinerario giorno per giorno, scheda pratica e consigli su cosa vedere, dove dormire e dove mangiare."
           />
-          <div className="mt-10 grid gap-4 sm:grid-cols-2">
-            {primo && <TripCard viaggio={primo} featured />}
+          <RevealGroup className="mt-10 grid gap-4 sm:grid-cols-2" stagger={0.05}>
+            {primo && (
+              <RevealItem className="sm:col-span-2 sm:row-span-2">
+                <TripCard viaggio={primo} featured />
+              </RevealItem>
+            )}
             {altri.map((v) => (
-              <TripCard key={v.slug} viaggio={v} />
+              <RevealItem key={v.slug}>
+                <TripCard viaggio={v} />
+              </RevealItem>
             ))}
-          </div>
+          </RevealGroup>
         </Container>
       </section>
 

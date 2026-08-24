@@ -97,10 +97,10 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
                 <h2 className="font-display text-2xl text-alpine">Itinerario giorno per giorno</h2>
                 <div className="mt-6 space-y-8 border-l border-alpine/15 pl-6">
                   {viaggio.giorni.map((giorno) => (
-                    <div key={giorno.titolo}>
+                    <Reveal key={giorno.titolo}>
                       <h3 className="font-display text-lg font-medium text-ink">{giorno.titolo}</h3>
                       <Prose className="mt-2 text-sm">{giorno.corpo}</Prose>
-                    </div>
+                    </Reveal>
                   ))}
                 </div>
               </div>

@@ -36,9 +36,7 @@ export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; feat
   return (
     <Link
       href={`/viaggi/${viaggio.slug}`}
-      className={`group relative flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-shadow hover:shadow-lg ${
-        featured ? 'sm:col-span-2 sm:row-span-2' : ''
-      }`}
+      className="group relative flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg active:scale-[0.99] motion-reduce:active:scale-100"
     >
       <div
         className={`relative flex items-end overflow-hidden bg-gradient-to-br p-6 text-cream ${gradientFor(continente)} ${

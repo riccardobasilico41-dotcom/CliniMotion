@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { Menu, X } from 'lucide-react'
 import { Container } from './ui/Container'
 import { siteConfig } from '@/lib/site-config'
@@ -12,6 +13,7 @@ const navLinks = [
 
 export function Header() {
   const [open, setOpen] = useState(false)
+  const reduceMotion = useReducedMotion()
 
   return (
     <header className="sticky top-0 z-50 border-b border-alpine/10 bg-cream/90 backdrop-blur">
@@ -48,22 +50,30 @@ export function Header() {
         </button>
       </Container>
 
-      {open && (
-        <div className="border-t border-alpine/10 bg-cream md:hidden">
-          <Container className="flex flex-col gap-1 py-4">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="rounded-lg px-3 py-3 text-base font-medium text-stone hover:bg-alpine/5 hover:text-alpine"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </Container>
-        </div>
-      )}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            className="overflow-hidden border-t border-alpine/10 bg-cream md:hidden"
+            initial={{ opacity: 0, y: reduceMotion ? 0 : -8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: reduceMotion ? 0 : -8 }}
+            transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+          >
+            <Container className="flex flex-col gap-1 py-4">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setOpen(false)}
+                  className="rounded-lg px-3 py-3 text-base font-medium text-stone hover:bg-alpine/5 hover:text-alpine"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </Container>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   )
 }

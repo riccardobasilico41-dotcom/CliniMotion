@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { TripCard } from '@/components/TripCard'
+import { RevealGroup, RevealItem } from '@/components/Reveal'
 import { getAllViaggi, getContinente } from '@/lib/viaggi'
 import { siteConfig } from '@/lib/site-config'
 
@@ -32,11 +33,13 @@ export default function ViaggiIndexPage() {
           {Array.from(perContinente.entries()).map(([continente, elenco]) => (
             <div key={continente}>
               <h2 className="font-display text-2xl text-alpine">{continente}</h2>
-              <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              <RevealGroup className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" stagger={0.05}>
                 {elenco.map((v) => (
-                  <TripCard key={v.slug} viaggio={v} />
+                  <RevealItem key={v.slug}>
+                    <TripCard viaggio={v} />
+                  </RevealItem>
                 ))}
-              </div>
+              </RevealGroup>
             </div>
           ))}
         </div>
