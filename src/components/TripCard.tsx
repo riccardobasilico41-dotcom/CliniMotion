@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { ArrowUpRight, Compass, Mountain, TreePalm, Landmark, Sun, Waves } from 'lucide-react'
 import type { Viaggio } from '@/lib/viaggi'
-import { getContinente } from '@/lib/viaggi'
+import { getContinente } from '@/lib/utils'
 import { FeaturedBorderTrail } from './FeaturedBorderTrail'
 
 const GRADIENTS: Record<string, string> = {

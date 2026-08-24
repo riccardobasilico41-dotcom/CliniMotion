@@ -7,8 +7,14 @@ import { Menu, X } from 'lucide-react'
 import { Container } from './ui/Container'
 import { siteConfig } from '@/lib/site-config'
 
+// Il Messico è per ora l'unico Paese con pagine dedicate: quando se ne
+// aggiungeranno altri, questi link diventeranno un indice generico invece
+// che puntare direttamente a /destinazioni/messico.
 const navLinks = [
-  { href: '/viaggi', label: 'Tutti i viaggi' },
+  { href: '/viaggi', label: 'Viaggi' },
+  { href: '/destinazioni/messico#destinazioni', label: 'Destinazioni' },
+  { href: '/destinazioni/messico#esperienze', label: 'Esperienze' },
+  { href: '/destinazioni/messico#organizza-il-viaggio', label: 'Consigli pratici' },
 ]
 
 export function Header() {

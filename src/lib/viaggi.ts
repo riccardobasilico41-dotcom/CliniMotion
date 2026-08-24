@@ -193,9 +193,9 @@ export function getViaggioBySlug(slug: string): Viaggio | undefined {
   return getAllViaggi().find((v) => v.slug === slug)
 }
 
-export function getContinente(categorie: string[]): string {
-  return categorie[0] ?? 'Altrove'
-}
+// getContinente vive in ./utils (nessuna dipendenza da 'node:fs'), così i
+// componenti client possono importarla senza includere il parser markdown.
+export { getContinente } from './utils'
 
 export function excerpt(markdown: string, maxLength = 200): string {
   const plain = markdown
