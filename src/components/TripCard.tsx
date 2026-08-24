@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { ArrowUpRight, Compass, Mountain, TreePalm, Landmark, Sun, Waves } from 'lucide-react'
 import type { Viaggio } from '@/lib/viaggi'
 import { getContinente } from '@/lib/viaggi'
+import { FeaturedBorderTrail } from './FeaturedBorderTrail'
 
 const GRADIENTS: Record<string, string> = {
   Europa: 'from-[#2c4a6b] to-[#0f2439]',
@@ -38,6 +39,7 @@ export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; feat
       href={`/viaggi/${viaggio.slug}`}
       className="group relative flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg active:scale-[0.99] motion-reduce:active:scale-100"
     >
+      {featured && <FeaturedBorderTrail />}
       <div
         className={`relative flex items-end overflow-hidden bg-gradient-to-br p-6 text-cream ${gradientFor(continente)} ${
           featured ? 'min-h-[14rem]' : 'min-h-[9rem]'

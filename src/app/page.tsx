@@ -5,6 +5,7 @@ import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { TripCard } from '@/components/TripCard'
 import { Reveal, RevealGroup, RevealItem } from '@/components/Reveal'
+import { TextEffect } from '@/components/motion-primitives/text-effect'
 import { getAllViaggi } from '@/lib/viaggi'
 import { siteConfig } from '@/lib/site-config'
 
@@ -36,9 +37,17 @@ export default function HomePage() {
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-cream/60">
               Diario di viaggio
             </p>
-            <h1 className="mt-5 max-w-3xl font-display text-5xl font-medium leading-[1.05] text-cream sm:text-7xl">
-              {siteConfig.tagline}
-            </h1>
+          </Reveal>
+          <TextEffect
+            as="h1"
+            per="word"
+            preset="fade-in-blur"
+            delay={0.15}
+            className="mt-5 max-w-3xl font-display text-5xl font-medium leading-[1.05] text-cream sm:text-7xl"
+          >
+            {siteConfig.tagline}
+          </TextEffect>
+          <Reveal delay={0.5}>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-cream/70 sm:text-lg">
               {siteConfig.description}
             </p>

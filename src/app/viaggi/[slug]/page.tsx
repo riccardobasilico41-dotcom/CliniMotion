@@ -5,6 +5,7 @@ import { ArrowLeft, CalendarDays, Clock3, Users } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { Prose } from '@/components/Prose'
 import { Reveal } from '@/components/Reveal'
+import { ScrollProgress } from '@/components/motion-primitives/scroll-progress'
 import { getAllViaggi, getViaggioBySlug, getContinente } from '@/lib/viaggi'
 
 export async function generateStaticParams() {
@@ -33,6 +34,7 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
 
   return (
     <>
+      <ScrollProgress className="fixed inset-x-0 top-0 z-[60] h-0.5 bg-rosso motion-reduce:hidden" />
       <section className="border-b border-alpine/10 bg-alpine-dark py-20 text-cream sm:py-28">
         <Container>
           <Reveal>
