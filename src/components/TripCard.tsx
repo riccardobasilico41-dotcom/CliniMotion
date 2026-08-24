@@ -67,8 +67,8 @@ export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; feat
         </h3>
         <p className="text-sm leading-relaxed text-stone">{viaggio.descrizione}</p>
         <div className="mt-auto flex flex-wrap items-center gap-x-4 gap-y-1 pt-2 text-xs text-stone/70">
-          {viaggio.periodo && <span>{viaggio.periodo}</span>}
-          {viaggio.durata && <span>· {viaggio.durata}</span>}
+          {viaggio.periodoBreve && <span>{viaggio.periodoBreve}</span>}
+          {viaggio.durataBreve && <span>· {viaggio.durataBreve}</span>}
         </div>
         <span className="inline-flex items-center gap-1.5 text-sm font-medium text-rosso">
           Leggi l&apos;itinerario

@@ -63,14 +63,14 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
               </p>
             )}
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-cream/70">
-              {viaggio.periodo && (
+              {viaggio.periodoBreve && (
                 <span className="inline-flex items-center gap-1.5">
-                  <CalendarDays size={14} /> {viaggio.periodo}
+                  <CalendarDays size={14} /> {viaggio.periodoBreve}
                 </span>
               )}
-              {viaggio.durata && (
+              {viaggio.durataBreve && (
                 <span className="inline-flex items-center gap-1.5">
-                  <Clock3 size={14} /> {viaggio.durata}
+                  <Clock3 size={14} /> {viaggio.durataBreve}
                 </span>
               )}
               {viaggio.compagniBreve && (
@@ -106,33 +106,39 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
               </div>
             )}
 
-            {viaggio.cosaVedere && (
-              <div>
-                <h2 className="font-display text-2xl text-alpine">Cosa vedere / cosa fare</h2>
-                <Prose className="mt-4">{viaggio.cosaVedere}</Prose>
+            {viaggio.sezioni.map((sezione) => (
+              <div key={sezione.titolo}>
+                <h2 className="font-display text-2xl text-alpine">{sezione.titolo}</h2>
+                <Prose className="mt-4">{sezione.corpo}</Prose>
               </div>
-            )}
+            ))}
 
-            <div className="grid gap-10 sm:grid-cols-2">
-              {viaggio.doveDormito && (
+            {viaggio.doveDormito && viaggio.doveMangiato ? (
+              <div className="grid gap-10 sm:grid-cols-2">
                 <div>
                   <h2 className="font-display text-xl text-alpine">Dove abbiamo dormito</h2>
                   <Prose className="mt-3 text-sm">{viaggio.doveDormito}</Prose>
                 </div>
-              )}
-              {viaggio.doveMangiato && (
                 <div>
                   <h2 className="font-display text-xl text-alpine">Dove abbiamo mangiato</h2>
                   <Prose className="mt-3 text-sm">{viaggio.doveMangiato}</Prose>
                 </div>
-              )}
-            </div>
-
-            {viaggio.consigli && (
-              <div>
-                <h2 className="font-display text-2xl text-alpine">Consigli pratici</h2>
-                <Prose className="mt-4">{viaggio.consigli}</Prose>
               </div>
+            ) : (
+              <>
+                {viaggio.doveDormito && (
+                  <div>
+                    <h2 className="font-display text-xl text-alpine">Dove abbiamo dormito</h2>
+                    <Prose className="mt-3 text-sm">{viaggio.doveDormito}</Prose>
+                  </div>
+                )}
+                {viaggio.doveMangiato && (
+                  <div>
+                    <h2 className="font-display text-xl text-alpine">Dove abbiamo mangiato</h2>
+                    <Prose className="mt-3 text-sm">{viaggio.doveMangiato}</Prose>
+                  </div>
+                )}
+              </>
             )}
 
             {viaggio.chiusura && (
@@ -159,6 +165,18 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
             {viaggio.schedaPratica && (
               <div className="rounded-2xl border border-alpine/10 bg-cream-dark/50 p-6">
                 <h2 className="font-display text-lg text-alpine">Scheda pratica</h2>
+                {viaggio.periodo && viaggio.periodo !== viaggio.periodoBreve && (
+                  <p className="mt-4 text-sm leading-relaxed text-stone">
+                    <span className="font-semibold text-ink">Periodo: </span>
+                    {viaggio.periodo}
+                  </p>
+                )}
+                {viaggio.durata && viaggio.durata !== viaggio.durataBreve && (
+                  <p className="mt-4 text-sm leading-relaxed text-stone">
+                    <span className="font-semibold text-ink">Durata: </span>
+                    {viaggio.durata}
+                  </p>
+                )}
                 {viaggio.compagni && (
                   <p className="mt-4 text-sm leading-relaxed text-stone">
                     <span className="font-semibold text-ink">Compagni di viaggio: </span>
