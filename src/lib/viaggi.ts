@@ -17,6 +17,7 @@ export type Viaggio = {
   periodo: string
   durata: string
   compagni: string
+  compagniBreve: string
   categorie: string[]
   apertura: string | null
   schedaPratica: string
@@ -60,6 +61,15 @@ function parseGiorni(itinerarioBody: string): ViaggioGiorno[] {
 
 function stripMd(text: string): string {
   return text.replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*(.+?)\*/g, '$1')
+}
+
+// Il campo "compagni" può contenere contatti/note lunghe (bene nella scheda
+// pratica, troppo per la riga di meta compatta in cima alla pagina).
+function shortCompanions(text: string): string {
+  if (!text || text.length <= 60) return text
+  const cut = text.split(/[,(—]/)[0].trim()
+  if (cut && cut.length <= 60) return cut
+  return text.slice(0, 57).trim() + '…'
 }
 
 function parseTags(tagBody: string): string[] {
@@ -114,6 +124,7 @@ function parseViaggio(filename: string): Viaggio {
     periodo: meta['Periodo del viaggio'] ?? '',
     durata: meta['Durata'] ?? '',
     compagni: stripMd(meta['Compagni di viaggio'] ?? ''),
+    compagniBreve: shortCompanions(stripMd(meta['Compagni di viaggio'] ?? '')),
     categorie,
     apertura,
     schedaPratica: sections['Scheda pratica'] ?? '',

@@ -49,13 +49,19 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
               </p>
               {viaggio.inLavorazione && (
                 <span className="rounded-full bg-cream/10 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/70">
-                  In aggiornamento
+                  Racconto in arrivo
                 </span>
               )}
             </div>
             <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium leading-tight sm:text-5xl">
               {viaggio.titolo}
             </h1>
+            {viaggio.inLavorazione && (
+              <p className="mt-3 max-w-xl text-sm text-cream/60">
+                Itinerario e consigli sono completi — mancano solo i ricordi personali di apertura e
+                chiusura.
+              </p>
+            )}
             <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-cream/70">
               {viaggio.periodo && (
                 <span className="inline-flex items-center gap-1.5">
@@ -67,9 +73,9 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
                   <Clock3 size={14} /> {viaggio.durata}
                 </span>
               )}
-              {viaggio.compagni && (
+              {viaggio.compagniBreve && (
                 <span className="inline-flex items-center gap-1.5">
-                  <Users size={14} /> {viaggio.compagni}
+                  <Users size={14} /> {viaggio.compagniBreve}
                 </span>
               )}
             </div>
@@ -153,6 +159,12 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
             {viaggio.schedaPratica && (
               <div className="rounded-2xl border border-alpine/10 bg-cream-dark/50 p-6">
                 <h2 className="font-display text-lg text-alpine">Scheda pratica</h2>
+                {viaggio.compagni && (
+                  <p className="mt-4 text-sm leading-relaxed text-stone">
+                    <span className="font-semibold text-ink">Compagni di viaggio: </span>
+                    {viaggio.compagni}
+                  </p>
+                )}
                 <Prose className="mt-4 text-sm prose-ul:my-0 prose-li:my-1.5">
                   {viaggio.schedaPratica}
                 </Prose>

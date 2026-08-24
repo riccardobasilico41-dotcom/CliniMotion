@@ -12,8 +12,8 @@ export function Footer() {
         <div>
           <p className="font-display text-xl text-cream">{siteConfig.brandName}</p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream/70">
-            {siteConfig.tagline}. Itinerari giorno per giorno, consigli pratici e ricordi di ogni
-            viaggio.
+            {siteConfig.tagline} — con tappe giorno per giorno, consigli pratici e ricordi da
+            rileggere.
           </p>
         </div>
 

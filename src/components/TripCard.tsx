@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight, Compass, Mountain, TreePalm, Landmark, Sun, Waves } from 'lucide-react'
 import type { Viaggio } from '@/lib/viaggi'
 import { getContinente } from '@/lib/viaggi'
 
@@ -12,12 +12,26 @@ const GRADIENTS: Record<string, string> = {
   Asia: 'from-[#7a2e4e] to-[#33111e]',
 }
 
+const ICONS: Record<string, typeof Compass> = {
+  Europa: Landmark,
+  Africa: Sun,
+  'Nord America': Mountain,
+  'America Centrale': TreePalm,
+  'Medio Oriente': Waves,
+  Asia: Mountain,
+}
+
 function gradientFor(continente: string) {
   return GRADIENTS[continente] ?? 'from-alpine to-alpine-dark'
 }
 
+function iconFor(continente: string) {
+  return ICONS[continente] ?? Compass
+}
+
 export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; featured?: boolean }) {
   const continente = getContinente(viaggio.categorie)
+  const Icon = iconFor(continente)
 
   return (
     <Link
@@ -27,16 +41,21 @@ export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; feat
       }`}
     >
       <div
-        className={`relative flex items-end bg-gradient-to-br p-6 text-cream ${gradientFor(continente)} ${
+        className={`relative flex items-end overflow-hidden bg-gradient-to-br p-6 text-cream ${gradientFor(continente)} ${
           featured ? 'min-h-[14rem]' : 'min-h-[9rem]'
         }`}
       >
+        <Icon
+          size={featured ? 140 : 96}
+          strokeWidth={1}
+          className="pointer-events-none absolute -right-4 -top-4 text-cream/10 transition-transform duration-700 group-hover:scale-110"
+        />
         <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cream/70">
           {continente}
         </p>
         {viaggio.inLavorazione && (
           <span className="absolute right-4 top-4 rounded-full bg-cream/15 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/80 backdrop-blur">
-            In aggiornamento
+            Racconto in arrivo
           </span>
         )}
       </div>

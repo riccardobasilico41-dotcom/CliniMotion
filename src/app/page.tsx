@@ -16,7 +16,9 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const viaggi = getAllViaggi()
-  const [primo, ...altri] = viaggi
+  const pronto = viaggi.find((v) => !v.inLavorazione)
+  const primo = pronto ?? viaggi[0]
+  const altri = viaggi.filter((v) => v.slug !== primo?.slug)
 
   return (
     <>
@@ -57,8 +59,8 @@ export default function HomePage() {
       <section className="py-20 sm:py-28">
         <Container>
           <SectionHeading
-            eyebrow="Ultimi itinerari"
-            title="Dove siamo stati di recente"
+            eyebrow="Itinerari"
+            title="I viaggi raccontati finora"
             description="Ogni viaggio con itinerario giorno per giorno, scheda pratica e consigli su cosa vedere, dove dormire e dove mangiare."
           />
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -85,7 +87,7 @@ export default function HomePage() {
             href="/viaggi"
             className="group inline-flex items-center gap-2 text-base font-medium text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream"
           >
-            Sfoglia il catalogo
+            Vedi tutti i viaggi
             <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
           </Link>
         </Container>
