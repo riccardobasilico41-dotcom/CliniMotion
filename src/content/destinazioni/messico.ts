@@ -19,14 +19,18 @@ export const destinazioniMessico: Destinazione[] = [
       'Come base per aggiustare il fuso e organizzare i primi acquisti (SIM, contanti), e come ultima tappa per un pomeriggio di spiaggia libera prima del rientro.',
     cosaVedere: ['Playa Marlin', 'Playa Gaviota', 'Parque las Palapas', 'Mercado 28'],
     cosaFare: [
-      'Giornata di spiaggia raggiungendo Playa Marlin o Playa Gaviota con il bus locale R1',
+      'Giornata di spiaggia raggiungendo Playa Marlin o Playa Gaviota con il bus locale R1 (gratuite, niente lettini a pagamento come nella zona Hotelera)',
+      'Isla Mujeres in autonomia: traghetto da Puerto Juárez o Playa Tortugas (circa 540 MXN a/r), poi si gira noleggiando un golf cart (1.300-1.500 MXN per 4 persone) — oppure in giornata organizzata in catamarano, più caro ma con soste snorkeling incluse',
+      'Isla Contoy + Isla Mujeres in tour organizzato di un\'intera giornata: riserva naturale con ingressi contingentati a 200 persone al giorno, indicativamente 80-100€ a persona',
       'Aperitivo e street food serale a Parque las Palapas',
-      'Spiaggia libera davanti al Coco Bongo e, in alta stagione, il Coco Bongo Beach Party',
+      'Spiaggia libera davanti al Coco Bongo e, in alta stagione, il Coco Bongo Beach Party nel pomeriggio',
     ],
     doveDormire:
       'Ho dormito all\'Hostel Selina Cancún Downtown, a circa 200 metri dal terminal ADO: pulito, con colazione inclusa a bordo piscina.',
     doveMangiare:
-      'Bancarelle e street food a Parque las Palapas, cena messicana da a la Parrilla (conto individuale, occhio al servizio automatico con tavoli numerosi).',
+      'Budget/local: bancarelle e street food a Parque las Palapas (il mio punto fisso per le prime sere), oppure El Socio Naiz o Taqueria Coapenitos per un pasto messicano genuino a prezzi bassi. Fascia media: a la Parrilla, turistico ma piacevole e con conto individuale (occhio al servizio automatico che spesso si applica oltre le 10 persone al tavolo), o Señor Frog, più indicato a pranzo per i suoi giochi alcolici. Per una cena più curata: Naviós Mexican Fusion Seafood, sull\'acqua nella zona Hotelera con vista sui coccodrilli (prezzo medio-alto), o Chambao, il più caro della lista (60€+ a persona) ma con un pescato molto buono.',
+    usciteSerali:
+      'Il grande classico è il Coco Bongo, discoteca-spettacolo nella zona Hotelera — meglio prendere i biglietti in prevendita, soprattutto nei weekend di alta stagione. Le alternative più economiche sono Mandala (ingresso indicativo intorno ai 20€) e Monkey Business, che unisce cena e serata (spesso richiede di mostrare il badge dell\'hotel/tour all\'ingresso).',
     comeArrivare: 'Aeroporto internazionale di Cancún, il principale hub della zona; bus ADO o Uber per il centro.',
     comeSpostarsi: 'Bus locali (linea R1 rossa) per le spiagge, taxi/Uber per il resto della città.',
     periodoMigliore: 'da confermare',
@@ -56,7 +60,8 @@ export const destinazioniMessico: Destinazione[] = [
     cosaVedere: ['Centro storico coloniale', 'Sito archeologico di Ek Balam'],
     cosaFare: ['Passeggiata serale in centro', 'Bagno al cenote Xcanché'],
     doveDormire: 'Ho dormito all\'Hotel Waye, a pochi passi dalla piazza principale.',
-    doveMangiare: 'Cena libera nel centro storico, raggiungibile a piedi dall\'hotel.',
+    doveMangiare:
+      'Non ho annotato nomi di ristoranti specifici — il centro storico intorno alla piazza principale è pieno di cantinas e loncherías tipiche yucateche a prezzi bassi, tutte raggiungibili a piedi dall\'hotel. Buon posto anche solo per improvvisare, senza bisogno di prenotare.',
     comeArrivare: 'Via van/auto da Cancún (circa 2-2h30), spesso con tappa a Río Lagartos lungo il tragitto.',
     comeSpostarsi: 'Centro storico compatto, si gira comodamente a piedi.',
     periodoMigliore: 'da confermare',
@@ -90,7 +95,10 @@ export const destinazioniMessico: Destinazione[] = [
       'Serata tra La Negrita e la Mezcalería',
     ],
     doveDormire: 'Ho dormito all\'Ontico Urban Design Hotel, nel centro storico.',
-    doveMangiare: 'Cena alla Mezcalería (locale grande, non serve prenotare) e drink a La Negrita.',
+    doveMangiare:
+      'Cena alla Mezcalería, locale molto grande e informale dove non serve prenotare. Il centro storico e il mercado municipal offrono comunque moltissime opzioni economiche/local per pranzo, tipiche della cucina yucateca (cochinita pibil, panuchos, sopa de lima).',
+    usciteSerali:
+      'Drink a La Negrita prima di cena (chiude presto, verso le 22: meglio prenotare per tempo se si vuole viverla con calma). Oltre a La Negrita e alla Mezcalería, il Paseo de Montejo è la strada di riferimento per bar e locali serali in centro.',
     comeArrivare: 'Via van/auto da Valladolid (circa 1h30-2h), passando per Chichén Itzá e Izamal.',
     comeSpostarsi: 'Centro storico a piedi; per Playa Progreso serve un trasferimento in auto/van (circa 30-40 minuti).',
     periodoMigliore: 'da confermare',
@@ -119,7 +127,8 @@ export const destinazioniMessico: Destinazione[] = [
     cosaVedere: ['Piazza della Cattedrale', 'Puerta del Mar e il lungomare', 'Centro storico fortificato'],
     cosaFare: ['Passeggiata a piedi dalla Cattedrale al lungomare, attraverso la Puerta del Mar'],
     doveDormire: 'Ho dormito all\'Hotel Francis Drake, nel centro storico.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Non ho annotato ristoranti specifici — il centro storico fortificato ha diverse opzioni lungo le vie principali vicino alla Cattedrale, comode per una cena veloce prima del transfer lungo del giorno dopo verso Mahahual.',
     comeArrivare: 'Via van/auto da Mérida, con tappe a Uxmal, Becal e Pomuch lungo il tragitto.',
     comeSpostarsi: 'Centro storico compatto, si gira a piedi.',
     periodoMigliore: 'da confermare',
@@ -201,9 +210,18 @@ export const destinazioniMessico: Destinazione[] = [
       'Rovine maya sospese su una scogliera a picco sul Caribe, spiagge tra le più belle di tutta la Riviera Maya, e una vita notturna che si fa sentire.',
     percheAndarci: 'Combo di cultura (il sito archeologico), mare (Playa Paraíso) e serate — difficile trovarla altrove in un\'unica tappa.',
     cosaVedere: ['Sito archeologico di Tulum, sulla scogliera', 'Caleta Tankah', 'Playa Paraíso', 'Cenote vicino a Dos Ojos, nel sistema Sac Actun'],
-    cosaFare: ['Giornata chill a Caleta Tankah', 'Pranzo e pomeriggio a Playa Paraíso', 'Serata allo Straw Hat', 'Bagno in un cenote della zona di Dos Ojos/Sac Actun'],
+    cosaFare: [
+      'Sito archeologico di Tulum in mattinata, prima del caldo peggiore — l\'unico sito maya del Messico affacciato direttamente sul mare',
+      'Giornata a Caleta Tankah (300 MXN a persona, no carte — nessun rimborso, nemmeno uscendo dopo pochi minuti)',
+      'Pranzo e pomeriggio a Playa Paraíso, uno dei beach club più consigliati della zona (lettini a pagamento)',
+      'Bagno in un cenote della zona di Dos Ojos/Sac Actun — stile grotta con stalattiti, diverso dai cenote a cielo aperto dello Yucatán',
+      'Per chi ha più tempo: Xcacel (100 MXN, vietato portare cibo/alcolici/speaker, aperta 10-16 chiusa il lunedì, da aprile a ottobre possibile vedere la schiusa delle tartarughe), oppure Gran Cenote o Cenote Calavera',
+    ],
     doveDormire: 'Nome della struttura da confermare.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Sabor de Mar per il pesce, El Takazo Jr per tacos local a poco prezzo, Bonita (Tulum Burger Bar) se si cerca qualcosa di diverso dal messicano. Per un\'esperienza più ricercata: TuTulum, cucina messicana rivisitata (circa 40€ a persona), con qualche piatto a base di insetti per i più curiosi.',
+    usciteSerali:
+      'Lo Straw Hat è il locale più gettonato per la serata; se il periodo coincide con l\'inverno può capitare qualche festival organizzato in zona. Vagalume è un\'altra opzione per chi cerca musica dal vivo.',
     comeArrivare: 'Via van/auto da Mahahual (circa 2-3 ore).',
     comeSpostarsi: 'da completare',
     periodoMigliore: 'da confermare',
@@ -229,9 +247,17 @@ export const destinazioniMessico: Destinazione[] = [
     introduzione: 'La città più mondana della Riviera Maya, e il punto di partenza classico per l\'escursione a Cozumel.',
     percheAndarci: 'Vita notturna e, per chi ha un giorno in più, la seconda barriera corallina più grande al mondo a Cozumel.',
     cosaVedere: ['5ta Avenida'],
-    cosaFare: ['Serata al Clandestino', 'Escursione a Cozumel (non fatta in questo viaggio, ma consigliata con più tempo)'],
+    cosaFare: [
+      'Escursione a Cozumel in catamarano condiviso (circa 1.670 MXN a persona: include traghetto a/r, 4 ore di navigazione con soste snorkeling a Palancar/El Cielo/El Cielito, open bar e pranzo a buffet a Playa Mia) oppure in barca privata (circa 700 MXN a persona, traghetto escluso — circa 580 MXN a/r a parte — ma con snack e 2 birre a persona incluse). Non fatta in questo viaggio, ma consigliata con più tempo a disposizione.',
+      'Giornata alle spiagge pubbliche: Mamitas Beach, Playacar Beach, Parque Fundadores',
+      'Shopping sulla 5ta Avenida',
+      'Serata al Clandestino',
+    ],
     doveDormire: 'Non ho pernottato a Playa del Carmen in questo viaggio, solo una serata — struttura da confermare.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Las Camelias sulla 5ta Avenida per un pasto solido, Zitla come alternativa. Per un\'occasione più speciale, Mezcla (circa 50€ a persona) — caro ma molto buono.',
+    usciteSerali:
+      'Il Coco Bongo (stessa catena di Cancún) è la scelta più nota, ma anche Clandestino e Santino sono locali frequentati per la serata sulla 5ta Avenida.',
     comeArrivare: 'Via van/auto da Tulum (circa 1 ora).',
     comeSpostarsi: 'da completare',
     periodoMigliore: 'da confermare',
@@ -255,20 +281,32 @@ export const destinazioniMessico: Destinazione[] = [
       'Isola senza auto sul Golfo del Messico, raggiungibile solo in traghetto: squalo balena, bioluminescenza e un ritmo decisamente più lento del resto del viaggio.',
     percheAndarci: 'Il momento clou di tutto l\'itinerario — sia per l\'esperienza con lo squalo balena, sia per l\'atmosfera dell\'isola.',
     cosaVedere: ['Punta Mosquito', 'Il centro dell\'isola, senza auto'],
-    cosaFare: ['Escursione con lo squalo balena', 'Bioluminescenza serale a Punta Mosquito', 'Tour delle 3 Islas'],
+    cosaFare: [
+      'Escursione con lo squalo balena — vedi la scheda esperienza dedicata',
+      'Bioluminescenza a Punta Mosquito: in autonomia con un "carrito" (taxi locale/golf cart) fino al punto, a piedi (sconsigliato — circa un\'ora di cammino per direzione, quasi tutta al buio), in kayak con guida (500 MXN a persona per gruppi sopra le 8 persone, 400 MXN sotto le 8) o con un tour organizzato in barca. Periodo migliore da aprile a novembre, dipende da fasi lunari e meteo — meglio chiedere conferma in loco lo stesso giorno.',
+      'Tour delle 3 Islas (Isla Pájaros, cenote di Yalahau, Isla Pasión o Punta Mosquito): tour condiviso in barca di circa 3 ore, 750-900 MXN a persona a seconda dell\'operatore (alcuni includono il transfer dall\'hotel per circa 1.100 MXN); l\'ingresso al cenote Yalahau si paga a parte, circa 200 MXN. Si vedono fenicotteri, delfini e diverse specie di uccelli.',
+      'Cabo Catoche (non fatta nel mio viaggio, ma è tra le escursioni più proposte sull\'isola): la punta più a nord dello Yucatán, dove si incontrano Golfo del Messico e Mar dei Caraibi. Tour condiviso in barca dalla mattina al tardo pomeriggio, con snorkeling su una barriera corallina bassa (circa 2 metri — tartarughe, polpi, aragoste e a volte squali nutrice innocui), pesca e ceviche fresco preparato sul momento. Indicativamente 80-100$ a persona per un tour condiviso; conviene confrontare più operatori prima di prenotare.',
+      'Passeggiata a cavallo sulla spiaggia: 850 MXN a persona per un\'ora e mezza',
+      'Beach club con minimum spending (di solito scalato dal conto finale): Carolinda, Zomay, Barbarossa, Amaite Beach Club',
+      'Se piove: cooking class alla Puerta Rosa (abbastanza cara, ma buona alternativa) o lezione di yoga',
+    ],
     doveDormire: 'Nome della struttura da confermare.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Budget/local: Taco Queto per tacos economici e genuini, El Crustaceo Kascarudo per pesce/marisco senza fronzoli. Fascia media: Mandarina, Posada Mawimbi, Viva Zapata, Chiringuito Raíces. Per un\'occasione: Casa Alebrije o Tacos de Humo (qui capita spesso un tequila di benvenuto offerto dalla casa).',
+    usciteSerali:
+      'Al tramonto, Café del Mar è il posto giusto per un drink con vista. Per la sera: Hot Corner per pachangueo e musica dal vivo, La Combi tra musica live e DJ set, Bikini Bottom per un DJ set direttamente in spiaggia, Tribe Hostel per musica live, Chobys se si cerca ancora il tramonto più tardi in giornata.',
     comeArrivare: 'Traghetto da Chiquilà (25-30 minuti), raggiungibile via van/auto da Cancún.',
     comeSpostarsi: 'Isola senza auto: a piedi o con i "carritos" (taxi locali/golf cart).',
     periodoMigliore: 'La bioluminescenza si vede meglio da aprile a novembre, e dipende da fasi lunari e meteo.',
     costi: 'da completare',
     erroriDaEvitare: [
       'Portare repellente anti-zanzare in abbondanza per la bioluminescenza serale: le zanzare a Punta Mosquito sono spietate',
+      'Il tour a piedi per la bioluminescenza è sconsigliato: quasi un\'ora di cammino al buio per direzione — meglio un carrito, un kayak o un tour in barca',
       'Il tour delle 3 Islas è carino ma un po\' ridondante se si sono già viste cose simili altrove nel viaggio',
     ],
     miaEsperienza:
       'Holbox è stata la chiusura perfetta del viaggio: se dovessi consigliare una sola attività di tutto l\'itinerario sarebbe l\'escursione con lo squalo balena, fatta proprio qui.',
-    esperienzeSlugs: ['squalo-balena-holbox', 'bioluminescenza-holbox'],
+    esperienzeSlugs: ['squalo-balena-holbox', 'bioluminescenza-holbox', 'tour-3-islas-holbox', 'cabo-catoche'],
     tripSlugs: ['messico-beach-life'],
     imageAlt: 'Spiaggia bianca e acqua bassa turchese dell\'isola di Holbox',
     immagine: '/images/messico/holbox-barche.jpg',

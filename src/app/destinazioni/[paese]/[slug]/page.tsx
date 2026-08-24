@@ -144,6 +144,27 @@ export default async function DestinazionePage({
               </div>
             )}
 
+            {destinazione.doveMangiare && (
+              <div>
+                <h2 className="font-display text-2xl text-alpine">Dove mangiare</h2>
+                <p className="mt-3 text-base leading-relaxed text-stone">{destinazione.doveMangiare}</p>
+              </div>
+            )}
+
+            {destinazione.usciteSerali && (
+              <div>
+                <h2 className="font-display text-2xl text-alpine">Dove andare dopo cena</h2>
+                <p className="mt-3 text-base leading-relaxed text-stone">{destinazione.usciteSerali}</p>
+              </div>
+            )}
+
+            {destinazione.doveDormire && (
+              <div>
+                <h2 className="font-display text-2xl text-alpine">Dove dormire</h2>
+                <p className="mt-3 text-base leading-relaxed text-stone">{destinazione.doveDormire}</p>
+              </div>
+            )}
+
             {destinazione.miaEsperienza ? (
               <div>
                 <h2 className="font-display text-2xl text-alpine">La mia esperienza</h2>
@@ -201,8 +222,6 @@ export default async function DestinazionePage({
                   { label: 'Come arrivare', value: destinazione.comeArrivare ?? 'da completare' },
                   { label: 'Come spostarsi', value: destinazione.comeSpostarsi ?? 'da completare' },
                   { label: 'Costi', value: destinazione.costi ?? 'da completare' },
-                  { label: 'Dove dormire', value: destinazione.doveDormire ?? 'da completare' },
-                  { label: 'Dove mangiare', value: destinazione.doveMangiare ?? 'da completare' },
                 ]}
               />
             </div>

@@ -40,6 +40,7 @@ export type Destinazione = {
   cosaFare: string[]
   doveDormire?: string
   doveMangiare?: string
+  usciteSerali?: string
   comeArrivare?: string
   comeSpostarsi?: string
   periodoMigliore?: string
