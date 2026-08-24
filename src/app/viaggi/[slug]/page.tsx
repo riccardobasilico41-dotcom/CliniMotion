@@ -49,7 +49,7 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
 
   const continente = getContinente(viaggio.categorie)
   const meta = getTripMeta(viaggio.slug)
-  const paeseSlug = meta ? 'messico' : undefined // unico Paese con pagine dedicate, per ora
+  const paeseSlug = meta?.paeseSlug
 
   const cosaVedereSezione = viaggio.sezioni.find((s) => /^Cosa vedere/i.test(s.titolo))
   const consigliSezione = viaggio.sezioni.find((s) => /^Consigli pratici/i.test(s.titolo))

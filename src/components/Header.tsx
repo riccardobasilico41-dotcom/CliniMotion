@@ -7,14 +7,11 @@ import { Menu, X } from 'lucide-react'
 import { Container } from './ui/Container'
 import { siteConfig } from '@/lib/site-config'
 
-// Il Messico è per ora l'unico Paese con pagine dedicate: quando se ne
-// aggiungeranno altri, questi link diventeranno un indice generico invece
-// che puntare direttamente a /destinazioni/messico.
 const navLinks = [
   { href: '/viaggi', label: 'Viaggi' },
-  { href: '/destinazioni/messico#destinazioni', label: 'Destinazioni' },
-  { href: '/destinazioni/messico#esperienze', label: 'Esperienze' },
-  { href: '/destinazioni/messico#organizza-il-viaggio', label: 'Consigli pratici' },
+  { href: '/destinazioni', label: 'Destinazioni' },
+  { href: '/destinazioni', label: 'Esperienze' },
+  { href: '/destinazioni', label: 'Consigli pratici' },
 ]
 
 export function Header() {
@@ -36,7 +33,7 @@ export function Header() {
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (
             <Link
-              key={link.href}
+              key={link.label}
               href={link.href}
               className="text-sm font-medium text-stone transition-colors hover:text-alpine"
             >
@@ -68,7 +65,7 @@ export function Header() {
             <Container className="flex flex-col gap-1 py-4">
               {navLinks.map((link) => (
                 <Link
-                  key={link.href}
+                  key={link.label}
                   href={link.href}
                   onClick={() => setOpen(false)}
                   className="rounded-lg px-3 py-3 text-base font-medium text-stone hover:bg-alpine/5 hover:text-alpine"

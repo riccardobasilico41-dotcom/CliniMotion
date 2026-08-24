@@ -127,6 +127,7 @@ export type ViaggioInBreve = {
 
 export type TripMeta = {
   tripSlug: string
+  paeseSlug: string
   ritmo: string
   trasporti: string
   stile: string[]
