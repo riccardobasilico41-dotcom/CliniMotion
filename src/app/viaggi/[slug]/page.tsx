@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, CalendarDays, Clock3, Users } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
@@ -15,6 +16,7 @@ import { getAllViaggi, getViaggioBySlug, getContinente } from '@/lib/viaggi'
 import { getTripMeta } from '@/lib/geo'
 import type { ViaggioInBreve } from '@/lib/types'
 import { slugify } from '@/lib/utils'
+import { copertineViaggi } from '@/content/viaggi-copertine'
 
 export async function generateStaticParams() {
   return getAllViaggi().map((v) => ({ slug: v.slug }))
@@ -50,6 +52,7 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
   const continente = getContinente(viaggio.categorie)
   const meta = getTripMeta(viaggio.slug)
   const paeseSlug = meta?.paeseSlug
+  const copertina = copertineViaggi[viaggio.slug]
 
   const cosaVedereSezione = viaggio.sezioni.find((s) => /^Cosa vedere/i.test(s.titolo))
   const consigliSezione = viaggio.sezioni.find((s) => /^Consigli pratici/i.test(s.titolo))
@@ -71,8 +74,21 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
   return (
     <>
       <ScrollProgress className="fixed inset-x-0 top-0 z-[60] h-0.5 bg-rosso motion-reduce:hidden" />
-      <section className="border-b border-alpine/10 bg-alpine-dark py-20 text-cream sm:py-28">
-        <Container>
+      <section className="relative overflow-hidden border-b border-alpine/10 bg-alpine-dark py-20 text-cream sm:py-28">
+        {copertina && (
+          <>
+            <Image
+              src={copertina.immagine}
+              alt={copertina.imageAlt}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-alpine-dark/72" />
+          </>
+        )}
+        <Container className="relative z-10">
           <Reveal>
             <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-cream/60">
               <Link href="/" className="hover:text-cream">
