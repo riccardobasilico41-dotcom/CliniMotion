@@ -54,6 +54,8 @@ export const destinazioniSvezia: Destinazione[] = [
     cosaFare: [
       'Giro del centro a piedi',
       'Relax in spa all\'Elite Hotel Frost dopo le giornate più intense ad Abisko',
+      'Visita guidata alla miniera LKAB (3 ore, fino a 540 m di profondità) — vedi la scheda esperienza dedicata',
+      'Gita di mezza giornata all\'ICEHOTEL di Jukkasjärvi, a circa 20 minuti — vedi la scheda esperienza dedicata',
     ],
     doveDormire:
       'All\'andata ho dormito allo STF Malmfältens Folkhögskola, una sistemazione semplice ed essenziale gestita dalla Svenska Turistföreningen (l\'associazione escursionistica svedese, molto presente in tutta la regione). Al ritorno invece all\'Elite Hotel Frost - Hotel & Spa: un netto salto di qualità, con spa interna perfetta per recuperare dopo le giornate più fredde ad Abisko.',
@@ -61,11 +63,12 @@ export const destinazioniSvezia: Destinazione[] = [
     comeArrivare: 'Volo interno da Stoccolma Arlanda; poi treno panoramico per Abisko.',
     comeSpostarsi: 'A piedi in centro; treno per Abisko.',
     periodoMigliore: 'da confermare',
-    costi: 'da completare',
+    costi:
+      'La chiesa e il centro si visitano gratis. La miniera LKAB costa circa 590 SEK (52€) a persona per il tour guidato di 3 ore. L\'ICEHOTEL costa 349 SEK (31€) solo ingresso di giorno, da 3.995 SEK (350€) a notte per 2 persone per dormirci. Doppia in hotel di fascia media in città: indicativamente 100-150€/notte.',
     erroriDaEvitare: [],
     miaEsperienza:
       'Kiruna l\'ho vissuta come base pratica più che come meta in sé: utile per il cambio di passo tra il rigore dello STF di andata e la spa dell\'Elite Hotel Frost al ritorno, con la chiesa rossa e il centro in trasformazione a fare da sfondo.',
-    esperienzeSlugs: ['icehotel-jukkasjarvi'],
+    esperienzeSlugs: ['icehotel-jukkasjarvi', 'miniera-lkab-kiruna'],
     tripSlugs: ['lapponia-svedese-abisko'],
     imageAlt: 'Chiesa di legno rossa di Kiruna sotto un cielo invernale svedese',
     immagine: '/images/svezia/kiruna-stock.jpg',
@@ -95,7 +98,8 @@ export const destinazioniSvezia: Destinazione[] = [
     comeArrivare: 'Treno panoramico da Kiruna, poco più di un\'ora attraverso un paesaggio via via più spoglio.',
     comeSpostarsi: 'A piedi nel villaggio; escursioni organizzate per motoslitta e husky.',
     periodoMigliore: 'da fine dicembre a marzo; febbraio-marzo costa molto meno pur mantenendo alte probabilità di aurora',
-    costi: 'Guida completa ai costi (per persona, intero viaggio): voli 600-645€, alloggi 400-600€, trasporti interni 80€ (treno panoramico + transfer aeroportuale), escursioni 450-500€ per 3 tour con guida — budget totale indicativo 1.500€ (base) - 1.800€ (livello ottimo).',
+    costi:
+      'Attività, prezzo indicativo a persona: seggiovia Aurora Sky Station 35-40€ (pacchetto con cena e pernottamento in quota circa 270-310€, solo il venerdì); motoslitta guidata sul lago ghiacciato circa 100-110€ (self-drive 150-250€); husky sledding serale con caccia all\'aurora 240€ (versioni diurne più brevi da 70€). Guida completa ai costi dell\'intero viaggio (per persona): voli 600-645€, alloggi 400-600€, trasporti interni 80€ (treno panoramico + transfer aeroportuale), escursioni 450-500€ per 3 tour con guida — budget totale indicativo 1.500€ (base) - 1.800€ (livello ottimo).',
     erroriDaEvitare: [
       'Andare a Capodanno se l\'obiettivo è risparmiare: è il periodo più caro dell\'anno per volare e dormire in zona',
       'Non mettere in conto un margine extra sui trasporti: con il freddo estremo i treni a volte (non spesso, ma succede) vengono cancellati, e i taxi della zona in quel caso tendono ad alzare un po\' i prezzi',

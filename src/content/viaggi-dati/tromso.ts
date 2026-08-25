@@ -83,8 +83,11 @@ export const tromsoMeta: TripMeta = {
   ],
   budget: [
     { etichetta: 'Voli', valore: undefined },
-    { etichetta: 'Alloggio (doppia centrale, indicativo)', valore: '170€/notte' },
-    { etichetta: 'Escursioni (aurora, husky, sami)', valore: '150-200€ a persona ciascuna' },
+    { etichetta: 'Alloggio (doppia centrale, indicativo)', valore: '140-170€/notte' },
+    { etichetta: 'Fjellheisen + Polaria + Polar Museum', valore: '90-95€ a persona' },
+    { etichetta: 'Aurora chase in minibus', valore: '100-160€ a persona' },
+    { etichetta: 'Husky sledding', valore: '170-320€ a persona' },
+    { etichetta: 'Esperienza sami con le renne', valore: '145-260€ a persona' },
     { etichetta: 'Cibo', valore: undefined },
     { etichetta: 'Totale', valore: undefined },
   ],
