@@ -1,8 +1,10 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowUpRight, Compass, Mountain, TreePalm, Landmark, Sun, Waves } from 'lucide-react'
 import type { Viaggio } from '@/lib/viaggi'
 import { getContinente } from '@/lib/utils'
 import { FeaturedBorderTrail } from './FeaturedBorderTrail'
+import { copertineViaggi } from '@/content/viaggi-copertine'
 
 const GRADIENTS: Record<string, string> = {
   Europa: 'from-[#2c4a6b] to-[#0f2439]',
@@ -33,6 +35,7 @@ function iconFor(continente: string) {
 export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; featured?: boolean }) {
   const continente = getContinente(viaggio.categorie)
   const Icon = iconFor(continente)
+  const copertina = copertineViaggi[viaggio.slug]
 
   return (
     <Link
@@ -41,20 +44,33 @@ export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; feat
     >
       {featured && <FeaturedBorderTrail />}
       <div
-        className={`relative flex items-end overflow-hidden bg-gradient-to-br p-6 text-cream ${gradientFor(continente)} ${
+        className={`relative flex items-end overflow-hidden p-6 text-cream ${copertina ? '' : `bg-gradient-to-br ${gradientFor(continente)}`} ${
           featured ? 'min-h-[14rem]' : 'min-h-[9rem]'
         }`}
       >
-        <Icon
-          size={featured ? 140 : 96}
-          strokeWidth={1}
-          className="pointer-events-none absolute -right-4 -top-4 text-cream/10 transition-transform duration-700 group-hover:scale-110"
-        />
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cream/70">
+        {copertina ? (
+          <>
+            <Image
+              src={copertina.immagine}
+              alt={copertina.imageAlt}
+              fill
+              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/5 to-transparent" />
+          </>
+        ) : (
+          <Icon
+            size={featured ? 140 : 96}
+            strokeWidth={1}
+            className="pointer-events-none absolute -right-4 -top-4 text-cream/10 transition-transform duration-700 group-hover:scale-110"
+          />
+        )}
+        <p className="relative z-10 text-xs font-semibold uppercase tracking-[0.18em] text-cream/70">
           {continente}
         </p>
         {viaggio.inLavorazione && (
-          <span className="absolute right-4 top-4 rounded-full bg-cream/15 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/80 backdrop-blur">
+          <span className="absolute right-4 top-4 z-10 rounded-full bg-cream/15 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/80 backdrop-blur">
             Racconto in arrivo
           </span>
         )}
