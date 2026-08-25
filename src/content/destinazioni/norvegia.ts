@@ -3,6 +3,10 @@ import type { Destinazione } from '@/lib/types'
 // Contenuto riutilizzato dal viaggio "Lofoten in 7 giorni" (src/content/viaggi/01-lofoten-estate-2025.md).
 // Dove un dato non è nel diario originale, il campo resta vuoto o con una nota
 // esplicita "da confermare/da completare" — nessun fatto inventato.
+//
+// Le immagini sono foto stock temporanee (Pixabay/Pexels, licenze free-use),
+// scelte per rappresentare davvero il luogo in attesa delle foto reali del
+// viaggio — vanno sostituite non appena disponibili gli scatti originali.
 
 export const destinazioniNorvegia: Destinazione[] = [
   {
@@ -39,7 +43,8 @@ export const destinazioniNorvegia: Destinazione[] = [
       'Oslo l\'ho vissuta come tappa breve ma piacevole su entrambi i lati del viaggio: un pomeriggio di passeggiata tranquilla il primo giorno, e un\'ultima cena rilassata da Café Sara al rientro, dopo una settimana di trekking.',
     esperienzeSlugs: [],
     tripSlugs: ['lofoten-estate-2025'],
-    imageAlt: 'Lungomare di Aker Brygge a Oslo con l\'Opera House sullo sfondo',
+    imageAlt: 'Facciata in vetro e marmo dell\'Oslo Opera House, con persone sul tetto spiovente',
+    immagine: '/images/norvegia/oslo-stock.jpg',
   },
   {
     slug: 'bodo',
@@ -68,7 +73,8 @@ export const destinazioniNorvegia: Destinazione[] = [
       'Una tappa puramente logistica sia all\'andata che al ritorno, ma con abbastanza da fare (spiaggia di Mjelle, il punto panoramico di Nyholms Fort) da non sembrare tempo perso.',
     esperienzeSlugs: [],
     tripSlugs: ['lofoten-estate-2025'],
-    imageAlt: 'Porto di Bodø con vista sulle montagne, punto di partenza per le Lofoten',
+    imageAlt: 'Vista dall\'alto del porto di Bodø, con casette rosse sul molo e la strada costiera',
+    immagine: '/images/norvegia/bodo-stock.jpg',
   },
   {
     slug: 'svolvaer',
@@ -95,7 +101,8 @@ export const destinazioniNorvegia: Destinazione[] = [
       'Svolvær è stata la base perfetta per le prime giornate: comoda per il Trollfjord, per Henningsvær, e con la cena più memorabile di tutto il viaggio al Paleo Arctic.',
     esperienzeSlugs: ['trollfjord-rib'],
     tripSlugs: ['lofoten-estate-2025'],
-    imageAlt: 'Porto di Svolvær con le tipiche case rosse sul mare, Lofoten',
+    imageAlt: 'La chiesa di Svolvær con le case rosse del porto sullo sfondo di un cielo tempestoso, Lofoten',
+    immagine: '/images/norvegia/svolvaer-stock.jpg',
   },
   {
     slug: 'henningsvaer',
@@ -124,7 +131,8 @@ export const destinazioniNorvegia: Destinazione[] = [
       'Henningsvær è stata una delle sorprese del viaggio: il pranzo sul canale, il campo da calcio, e nel pomeriggio un trekking (il Festvågtind) più selvaggio e meno affollato del Reinebringen.',
     esperienzeSlugs: ['festvagtind-trail'],
     tripSlugs: ['lofoten-estate-2025'],
-    imageAlt: 'Il celebre campo da calcio di Henningsvær circondato dal mare, Lofoten',
+    imageAlt: 'Vista aerea del celebre campo da calcio di Henningsvær incastonato tra il mare e le montagne',
+    immagine: '/images/norvegia/henningsvaer-stock.jpg',
   },
   {
     slug: 'reine',
@@ -156,7 +164,8 @@ export const destinazioniNorvegia: Destinazione[] = [
       'Reine è stata il punto più intenso del viaggio: il Reinebringen (1h50 il mio tempo totale, tra salita, sosta e discesa) e la spiaggia di Bunes il giorno dopo, raggiungibile solo in traghetto — due ricordi che porto a casa più di ogni altra tappa.',
     esperienzeSlugs: ['reinebringen', 'spiaggia-di-bunes', 'viking-museum-borg'],
     tripSlugs: ['lofoten-estate-2025'],
-    imageAlt: 'Villaggio di Reine con le montagne del Reinebringen sullo sfondo, Lofoten',
+    imageAlt: 'Vista aerea dal Reinebringen sul villaggio di Reine e i fiordi circostanti',
+    immagine: '/images/norvegia/reinebringen-stock.jpg',
   },
   {
     slug: 'nesland-flakstad',
@@ -186,7 +195,8 @@ export const destinazioniNorvegia: Destinazione[] = [
       'Il rorbu di Nesland è stato il posto più silenzioso di tutto il viaggio: nessuna luce artificiale, il fiordo a pochi passi, e una serata di barbecue tra le più rilassate della settimana.',
     esperienzeSlugs: ['nesland-nusfjord'],
     tripSlugs: ['lofoten-estate-2025'],
-    imageAlt: 'Rorbu tradizionale affacciato su un fiordo a Nesland, Lofoten',
+    imageAlt: 'Rorbu rosse tradizionali con una montagna avvolta dalla nebbia sullo sfondo, Lofoten',
+    immagine: '/images/norvegia/nesland-stock.jpg',
   },
   {
     slug: 'a',
@@ -212,6 +222,7 @@ export const destinazioniNorvegia: Destinazione[] = [
       'Å mi ha colpito anche sotto la pioggia: il Museo dei Pescatori, con la visita guidata in inglese, racconta bene una parte di storia locale che altrove nel viaggio si vede solo di sfuggita.',
     esperienzeSlugs: ['museo-dei-pescatori'],
     tripSlugs: ['lofoten-estate-2025'],
-    imageAlt: 'Case rosse tradizionali del villaggio di Å, Lofoten',
+    imageAlt: 'Rastrelliere tradizionali per l\'essiccazione dello stoccafisso al tramonto, con montagne innevate sullo sfondo, Lofoten',
+    immagine: '/images/norvegia/a-stock.jpg',
   },
 ]
