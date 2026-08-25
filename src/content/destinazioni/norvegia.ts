@@ -225,4 +225,42 @@ export const destinazioniNorvegia: Destinazione[] = [
     imageAlt: 'Rastrelliere tradizionali per l\'essiccazione dello stoccafisso al tramonto, con montagne innevate sullo sfondo, Lofoten',
     immagine: '/images/norvegia/a-stock.jpg',
   },
+  {
+    slug: 'tromso',
+    paeseSlug: 'norvegia',
+    ordine: 8,
+    nome: 'Tromsø',
+    tipologia: ['natura', 'avventura'],
+    giorniConsigliati: '5 giorni, viaggio a sé rispetto alle Lofoten',
+    visitataPersonalmente: true,
+    introduzione:
+      'La "capitale artica" della Norvegia, ben più a nord delle Lofoten: base per la caccia all\'aurora boreale, husky sledding e cultura sami, con la Cattedrale Artica come simbolo della città.',
+    percheAndarci: 'Per l\'aurora boreale e per un pacchetto di attività artiche molto concentrato in pochi giorni, con la città stessa come base comoda a piedi.',
+    cosaVedere: [
+      'Cattedrale Artica (Ishavskatedralen), a forma di iceberg, con una delle vetrate a mosaico più grandi d\'Europa',
+      'Fjellheisen, la funivia che sale sul monte Storsteinen (465 m) con vista su città e fiordi',
+      'Polar Museum e Polaria, sulla storia delle spedizioni polari e la fauna artica',
+    ],
+    cosaFare: [
+      'Aurora chase in minibus — vedi la scheda esperienza dedicata',
+      'Husky sledding — vedi la scheda esperienza dedicata',
+      'Esperienza sami con le renne — vedi la scheda esperienza dedicata',
+    ],
+    doveDormire: 'Non ho ricordi precisi sulla struttura scelta — da completare. La zona più comoda è quella del porto/Storgata, a pochi passi da negozi, bar e dal punto di ritrovo di gran parte delle escursioni.',
+    doveMangiare: 'Ricordi generici più che locali precisi: la cucina locale ruota molto intorno a granchio reale (kongekrabbe) e baccalà essiccato (tørrfisk/lutefisk), diffusi nei ristoranti della zona di Storgata.',
+    comeArrivare: 'Volo diretto o con scalo su Tromsø.',
+    comeSpostarsi: 'A piedi in centro; minibus/pullman organizzati per le escursioni fuori città.',
+    periodoMigliore: 'da fine settembre a fine marzo per l\'aurora, con notte polare (poca luce diurna) tra dicembre e gennaio',
+    costi: 'Doppia in hotel centrale in alta stagione intorno ai 170€/notte; escursioni organizzate (aurora, husky, sami) da circa 150-200€ a persona.',
+    erroriDaEvitare: [
+      'Prenotare le escursioni serali con un minimo di anticipo, soprattutto nei mesi di punta (novembre-marzo)',
+      'Sottovalutare il vento sul lungomare: si sente più del previsto',
+    ],
+    miaEsperienza:
+      'Di questo viaggio mi sono rimasti soprattutto flash più che un diario dettagliato: il freddo pungente appena scesi dall\'aereo, il buio della notte polare, e l\'aurora vista muoversi nel cielo per la prima volta durante l\'aurora chase in minibus.',
+    esperienzeSlugs: ['aurora-chase-minibus-tromso', 'husky-sledding-tromso', 'sami-renne-lavvu-tromso', 'whale-watching-tromso', 'glass-igloo-lyngen'],
+    tripSlugs: ['tromso'],
+    imageAlt: 'Cattedrale Artica di Tromsø illuminata di sera con aurora boreale sullo sfondo',
+    immagine: '/images/norvegia/tromso-stock.jpg',
+  },
 ]

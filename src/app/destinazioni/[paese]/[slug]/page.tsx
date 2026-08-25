@@ -17,6 +17,15 @@ import {
   getViaggiByDestinazione,
 } from '@/lib/geo'
 
+// "Torna a..." con l'articolo corretto per ciascun Paese (il Messico, la Norvegia,
+// l'Islanda, la Svezia) — l'italiano non si presta a una regola generica affidabile.
+const TORNA_A_PAESE: Record<string, string> = {
+  messico: 'Torna al Messico',
+  norvegia: 'Torna alla Norvegia',
+  islanda: "Torna all'Islanda",
+  svezia: 'Torna alla Svezia',
+}
+
 export async function generateStaticParams() {
   return getAllDestinazioni().map((d) => ({ paese: d.paeseSlug, slug: d.slug }))
 }
@@ -81,7 +90,7 @@ export default async function DestinazionePage({
               className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-cream/60 hover:text-cream"
             >
               <ArrowLeft size={13} />
-              Torna al Messico
+              {TORNA_A_PAESE[paese.slug] ?? `Torna a ${paese.nome}`}
             </Link>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">
