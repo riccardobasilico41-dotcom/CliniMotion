@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Waves, Trees, Landmark, Music, Compass } from 'lucide-react'
+import { Waves, Trees, Landmark, Music, Tent, Compass } from 'lucide-react'
 import type { Destinazione } from '@/lib/types'
 import { ContentStatusBadge } from './ui/ContentStatusBadge'
 
@@ -9,6 +9,7 @@ const TIPOLOGIA_ICON: Record<string, typeof Waves> = {
   natura: Trees,
   cultura: Landmark,
   nightlife: Music,
+  campeggio: Tent,
 }
 
 const TIPOLOGIA_GRADIENT: Record<string, string> = {
@@ -16,6 +17,7 @@ const TIPOLOGIA_GRADIENT: Record<string, string> = {
   natura: 'from-[#2f6b3f] to-[#123018]',
   cultura: 'from-[#124a6b] to-[#0a2c40]',
   nightlife: 'from-[#7a2e4e] to-[#33111e]',
+  campeggio: 'from-[#5c4a2e] to-[#2b2013]',
 }
 
 export function DestinationCard({ destinazione, paeseSlug }: { destinazione: Destinazione; paeseSlug: string }) {

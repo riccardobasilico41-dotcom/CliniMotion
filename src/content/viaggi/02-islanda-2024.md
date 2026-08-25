@@ -2,8 +2,9 @@
 
 **Stato bozza:** 🟡 in lavorazione (percorso Giorno 1-9 ricostruito con fasce orarie
 indicative e logistica di dettaglio; da confermare campeggi/ristoranti dei Giorni 3-8
-con ricordi/foto e aggiungere aneddoti nell'apertura/chiusura)
-**Periodo del viaggio:** estate 2023 *(da confermare le date esatte)*
+con ricordi/foto e aggiungere aneddoti nell'apertura/chiusura; da confermare anche
+giorno/logistica esatta dell'escursione al vulcano)
+**Periodo del viaggio:** estate 2024 *(anno corretto rispetto alla bozza iniziale — da confermare le date esatte)*
 **Durata:** 9 giorni, 8 notti (6 in tenda, 2 in hotel)
 **Compagni di viaggio:** auto a noleggio condivisa, cassa comune per i pasti durante il percorso
 **Categoria:** Europa · Islanda · on the road · campeggio · Ring Road
@@ -40,10 +41,17 @@ raccontare il resto in flashback — dimmi tu quale stile preferisci.)*
 ### Giorno 0
 TBD — giorno di partenza dall'Italia.
 
-### Giorno 1 — Arrivo a Keflavík
+### Giorno 1 — Arrivo a Keflavík e l'eruzione vista da vicino
 - **Nel tardo pomeriggio** arrivo a Keflavík, trasferimento in bus 55 (~20 min,
   fermata *Kellir*, 4€ a persona) fino al Konvin Hotel; il tempo di sistemarmi e
   sono pronto per uscire a cena.
+- *Da confermare — giorno/logistica esatta:* durante il viaggio ho visto da
+  vicino il **vulcano in eruzione** sulla penisola di Reykjanes (zona
+  Grindavík/Fagradalsfjall, la stessa area entrata in eruzione più volte tra il
+  2023 e il 2024, a pochi minuti da Keflavík) — una delle esperienze più forti
+  di tutto il viaggio. Non ho ancora ricostruito con precisione se sia successo
+  la sera dell'arrivo o in un altro momento del percorso: da confermare con
+  foto/ricordi per fissare il giorno esatto e i dettagli del tour/escursione.
 - **In serata** cena da **Kaffi Duus** (bus 55 + 5 min a piedi fino alla fermata,
   10 min di viaggio, 10 min a piedi fino al ristorante — fermata Hringbraut &
   Melteigur). Pesce misto, circa 30€.
@@ -100,10 +108,19 @@ TBD — giorno di partenza dall'Italia.
 - Proseguimento verso **Skaftafell** (circa 45 min), nel Parco Nazionale del
   Vatnajökull, il più grande d'Europa — area esplorabile solo a piedi, con
   sentieri verso la cascata nera Svartifoss.
+- Da Skaftafell, **trekking guidato sul ghiacciaio Vatnajökull** con ramponi e
+  piccozza (escursione con guida alpina, attrezzatura fornita in loco) — una
+  delle attività più intense di tutto il viaggio: crepacci, formazioni di
+  ghiaccio blu e il silenzio assoluto del ghiacciaio. *Da confermare con
+  foto/ricevute durata e operatore esatti.*
 - **Nel tardo pomeriggio** partenza verso **Jökulsárlón** (circa 1h): la laguna
   glaciale dove il ghiacciaio Vatnajökull stacca i suoi iceberg, che galleggiano
   fino quasi al mare — tra i punti più spettacolari di tutto il viaggio,
-  soprattutto con la luce bassa della sera islandese. Tappa d'obbligo anche alla
+  soprattutto con la luce bassa della sera islandese. Qui **kayak in mezzo agli
+  iceberg**: si pagaia tra i blocchi di ghiaccio che si staccano dal ghiacciaio,
+  con le foche spesso a pochi metri di distanza — un'esperienza molto diversa
+  dal semplice punto panoramico affollato di turisti. *Da confermare con
+  foto/ricevute durata e operatore esatti.* Tappa d'obbligo anche alla
   vicina **Diamond Beach**, dove i blocchi di ghiaccio si arenano sulla sabbia
   nera.
 - **In serata** ultima tratta verso **Höfn** (circa 1h): arrivo a sera inoltrata,
@@ -216,6 +233,9 @@ TBD — giorno di partenza dall'Italia.
   rientro.
 
 ## Cosa vedere / cosa fare
+- **Vulcano in eruzione sulla penisola di Reykjanes** — vista da vicino durante il viaggio, una delle esperienze più forti di tutta l'Islanda (giorno esatto da confermare).
+- **Trekking sul ghiacciaio Vatnajökull** da Skaftafell, con ramponi e guida — crepacci e ghiaccio blu a pochi passi.
+- **Kayak tra gli iceberg a Jökulsárlón** — un modo molto più immersivo di vivere la laguna glaciale rispetto al solo punto panoramico.
 - **Geysir e Gullfoss** — il classico Golden Circle, imperdibile.
 - **Seljalandsfoss** (si passa dietro) e **Skógafoss** — le cascate più fotogeniche
   del sud.
@@ -381,13 +401,30 @@ Fonti caricate:
    personali**, specialmente su quale campeggio a Höfn, i ristoranti dei Giorni
    4-8 e l'ultima cena a Reykjavík.
 
+6. **Correzione anno (confermata dall'autore)**: il viaggio non è del 2023 come
+   nei documenti originali, ma del **2024** — coerente con l'eruzione vista sulla
+   penisola di Reykjanes, che in quella zona è avvenuta più volte tra fine 2023 e
+   il 2024. File e slug rinominati di conseguenza (da islanda-2023 a islanda-2024).
+7. **Attività aggiunte su conferma dell'autore, non presenti nei documenti
+   originali**: trekking guidato sul ghiacciaio Vatnajökull da Skaftafell, kayak
+   tra gli iceberg a Jökulsárlón (entrambe inserite nel Giorno 3, dove la
+   logistica di zona le rende plausibili) e l'eruzione vista da vicino sulla
+   penisola di Reykjanes (inserita come nota nel Giorno 1, il più vicino
+   geograficamente, ma il giorno/momento esatto resta da confermare).
+
 **Cosa manca ancora per chiudere la bozza:**
-- Le date esatte del viaggio (i file sono del giugno/luglio 2023).
+- Le date esatte del viaggio (estate 2024, mese/giorni precisi da confermare).
+- Giorno e logistica esatti dell'escursione al vulcano (operatore, durata, se
+  fatta con tour organizzato o in autonomia).
+- Operatore/durata esatti del trekking sul ghiacciaio e del kayak a Jökulsárlón.
 - Conferma dei campeggi/ristoranti nei punti segnalati "da confermare".
 - Aneddoti personali per aprire/chiudere il racconto e per arricchire i Giorni
   4-9, per ora ricostruiti "a tavolino" su base logistica reale.
 
 ## Foto/media
+- [ ] foto al vulcano in eruzione
+- [ ] foto del trekking sul ghiacciaio Vatnajökull
+- [ ] foto del kayak tra gli iceberg a Jökulsárlón
 - [ ] foto al Geysir in eruzione
 - [ ] foto dietro Seljalandsfoss
 - [ ] foto al relitto dell'aereo
@@ -400,4 +437,4 @@ Fonti caricate:
 - [ ] mappa del percorso ad anello (Ring Road)
 
 ## Tag
-`#islanda` `#ring-road` `#campeggio` `#on-the-road` `#viaggio-di-gruppo`
+`#islanda` `#ring-road` `#campeggio` `#on-the-road` `#vulcano` `#ghiacciaio`
