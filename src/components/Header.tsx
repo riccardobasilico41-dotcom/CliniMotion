@@ -1,82 +1,46 @@
-'use client'
-
 import Link from 'next/link'
-import { useState } from 'react'
-import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
-import { Menu, X } from 'lucide-react'
 import { Container } from './ui/Container'
 import { siteConfig } from '@/lib/site-config'
+import { getAllViaggi } from '@/lib/viaggi'
 
 const navLinks = [
   { href: '/viaggi', label: 'Viaggi' },
   { href: '/destinazioni', label: 'Destinazioni' },
-  { href: '/destinazioni', label: 'Esperienze' },
-  { href: '/destinazioni', label: 'Consigli pratici' },
 ]
 
+/* Hallmark · nav: N6 Newspaper masthead — full-width centred wordmark, thin
+ * issue line above it in small caps, double rule below. Replaces the
+ * previous N1a (wordmark + inline links), the most-recognised AI nav
+ * fingerprint. Not sticky by design — a masthead is a statement, not a
+ * utility bar; StickyTableOfContents carries in-page wayfinding on long
+ * content pages. See design.md. */
 export function Header() {
-  const [open, setOpen] = useState(false)
-  const reduceMotion = useReducedMotion()
+  const itinerari = getAllViaggi().length
 
   return (
-    <header className="sticky top-0 z-50 border-b border-alpine/10 bg-cream/90 backdrop-blur">
-      <Container className="flex h-18 items-center justify-between py-3">
-        <Link href="/" className="flex flex-col leading-none">
-          <span className="font-display text-lg font-medium tracking-tight text-alpine">
-            {siteConfig.brandName}
-          </span>
-          <span className="text-[0.65rem] font-medium uppercase tracking-[0.14em] text-rosso">
-            Diario di viaggio
-          </span>
+    <header className="border-b-4 border-double border-alpine/20 bg-cream">
+      <Container className="flex flex-col items-center gap-2 py-7 text-center sm:py-9">
+        <p className="text-[0.65rem] font-medium uppercase tracking-[0.28em] text-stone">
+          Diario di viaggio · {itinerari} itinerari raccontati
+        </p>
+        <Link href="/" className="font-display text-3xl font-medium tracking-tight text-alpine sm:text-4xl">
+          {siteConfig.brandName}
         </Link>
-
-        <nav className="hidden items-center gap-8 md:flex">
-          {navLinks.map((link) => (
-            <Link
-              key={link.label}
-              href={link.href}
-              className="text-sm font-medium text-stone transition-colors hover:text-alpine"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
-
-        <button
-          type="button"
-          aria-label={open ? 'Chiudi il menu' : 'Apri il menu'}
-          aria-expanded={open}
-          className="text-alpine md:hidden"
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? <X size={26} /> : <Menu size={26} />}
-        </button>
-      </Container>
-
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            className="overflow-hidden border-t border-alpine/10 bg-cream md:hidden"
-            initial={{ opacity: 0, y: reduceMotion ? 0 : -8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: reduceMotion ? 0 : -8 }}
-            transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          >
-            <Container className="flex flex-col gap-1 py-4">
-              {navLinks.map((link) => (
+        <nav aria-label="Primary" className="mt-1">
+          <ul className="flex items-center gap-6">
+            {navLinks.map((link) => (
+              <li key={link.href}>
                 <Link
-                  key={link.label}
                   href={link.href}
-                  onClick={() => setOpen(false)}
-                  className="rounded-lg px-3 py-3 text-base font-medium text-stone hover:bg-alpine/5 hover:text-alpine"
+                  className="text-sm font-medium text-stone transition-colors duration-150 hover:text-rosso"
                 >
                   {link.label}
                 </Link>
-              ))}
-            </Container>
-          </motion.div>
-        )}
-      </AnimatePresence>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </Container>
     </header>
   )
 }

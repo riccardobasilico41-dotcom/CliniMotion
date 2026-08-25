@@ -20,7 +20,6 @@ export default function DestinazioniIndexPage() {
     <section className="py-20 sm:py-28">
       <Container>
         <SectionHeading
-          eyebrow="Costruisci il tuo viaggio"
           title="Destinazioni"
           description="Scegli un Paese per esplorarlo destinazione per destinazione ed esperienza per esperienza, non solo come itinerario unico."
         />

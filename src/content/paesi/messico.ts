@@ -10,6 +10,7 @@ export const messico: Paese = {
   durataConsigliata: '10-14 giorni per coprire Yucatán e Riviera Maya senza correre troppo',
   budgetIndicativo: 'da completare',
   stileViaggio: ['mare', 'natura', 'cultura', 'nightlife'],
-  heroImageAlt: 'Cenote turchese nella giungla dello Yucatán, Messico',
+  heroImageAlt: 'Spiaggia bianca e acqua bassa turchese dell\'isola di Holbox',
+  heroImage: '/images/messico/holbox-barche.jpg',
   tripPrincipaleSlug: 'messico-beach-life',
 }

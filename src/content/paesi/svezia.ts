@@ -11,5 +11,6 @@ export const svezia: Paese = {
   budgetIndicativo: '1.500€ a testa per un budget base, 1.800€ per un livello più comodo (voli, alloggi, trasporti interni, escursioni e pasti inclusi)',
   stileViaggio: ['natura', 'avventura', 'inverno estremo'],
   heroImageAlt: 'Aurora boreale verde sopra un paesaggio innevato della Lapponia svedese',
+  heroImage: '/images/svezia/abisko-stock.jpg',
   tripPrincipaleSlug: 'lapponia-svedese-abisko',
 }

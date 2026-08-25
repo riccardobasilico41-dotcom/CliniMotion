@@ -1,0 +1,10 @@
+{
+  "scannedAt": "2026-08-25",
+  "framework": "Next.js 16 (App Router)",
+  "fontStack": "Fraunces (display, next/font/google) + Inter (body, next/font/google) — src/app/layout.tsx",
+  "palette": "CSS custom properties in :root, src/app/globals.css — converted hex to OKLCH in place",
+  "motion": "motion (framer-motion) v13 — package.json",
+  "spacing": "Tailwind v4 default scale (4pt base), no custom spacing scale",
+  "preserved": ["font stack", "palette hues (converted to OKLCH, same colours)", "Tailwind v4 + @theme inline wiring", "motion library"],
+  "introduced": ["design.md locked system", "N6 nav / Ft1 footer", "Photographic + Ecosystem Index + Long Document macrostructure families", "real photography replacing gradient-blob heroes", "overflow-x: clip"]
+}

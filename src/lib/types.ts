@@ -22,6 +22,8 @@ export type Paese = {
   budgetIndicativo: string
   stileViaggio: string[]
   heroImageAlt: string
+  /** Percorso in /public per l'hero fotografico della pagina Paese. Se assente, la UI mostra un fallback tipografico invece di inventare un'immagine. */
+  heroImage?: string
   /** Slug del viaggio "che ho fatto io" da mettere in evidenza nella pagina Paese. */
   tripPrincipaleSlug: string
 }

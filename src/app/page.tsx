@@ -1,11 +1,10 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
-import { SectionHeading } from '@/components/ui/SectionHeading'
 import { TripCard } from '@/components/TripCard'
 import { Reveal, RevealGroup, RevealItem } from '@/components/Reveal'
-import { TextEffect } from '@/components/motion-primitives/text-effect'
 import { getAllViaggi } from '@/lib/viaggi'
 import { siteConfig } from '@/lib/site-config'
 
@@ -15,6 +14,11 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 }
 
+/* Hallmark · macrostructure: 08 Photographic · genre: editorial · theme: custom
+ * · nav: N6 · footer: Ft1 · designed-as-app
+ * Replaces the previous Marquee-Hero-shaped homepage (dark radial-gradient
+ * "aurora-blob" background + per-word fade-in headline) with a real
+ * photograph doing the work the gradient used to fake. See design.md. */
 export default function HomePage() {
   const viaggi = getAllViaggi()
   const pronto = viaggi.find((v) => !v.inLavorazione)
@@ -23,55 +27,53 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-alpine-dark py-28 sm:py-36">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-40"
-          style={{
-            backgroundImage:
-              'radial-gradient(circle at 15% 20%, rgba(209,69,44,0.35), transparent 45%), radial-gradient(circle at 85% 75%, rgba(18,74,107,0.55), transparent 50%)',
-          }}
+      {/* Photo-fold: the hero IS the photograph */}
+      <section className="relative flex min-h-[62vh] items-end overflow-hidden bg-alpine-dark sm:min-h-[74vh]">
+        <Image
+          src="/images/norvegia/reinebringen-stock.jpg"
+          alt="Vista dall'alto del Reinebringen sul villaggio di Reine e i fiordi, Lofoten"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
         />
-        <Container className="relative z-10">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark/85 via-alpine-dark/10 to-transparent" />
+        <Container className="relative z-10 pb-10 sm:pb-14">
           <Reveal>
-            <p className="font-mono text-xs uppercase tracking-[0.25em] text-cream/60">
-              Diario di viaggio
+            <p className="font-display text-lg italic text-cream/90 sm:text-xl">Reinebringen, Lofoten.</p>
+            <p className="mt-2 max-w-md text-sm leading-relaxed text-cream/70 sm:text-base">
+              {siteConfig.tagline}.
             </p>
+            <Link
+              href="/viaggi"
+              className="group mt-5 inline-flex items-center gap-2 text-sm font-medium text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream"
+            >
+              Scopri il mio itinerario
+              <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
+            </Link>
           </Reveal>
-          <TextEffect
-            as="h1"
-            per="word"
-            preset="fade-in-blur"
-            delay={0.15}
-            className="mt-5 max-w-3xl font-display text-5xl font-medium leading-[1.05] text-cream sm:text-7xl"
-          >
-            {siteConfig.tagline}
-          </TextEffect>
-          <Reveal delay={0.5}>
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-cream/70 sm:text-lg">
-              {siteConfig.description}
-            </p>
-            <div className="mt-8">
-              <Link
-                href="/viaggi"
-                className="group inline-flex items-center gap-2 text-sm font-medium text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream"
-              >
-                Esplora tutti i viaggi
-                <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
-              </Link>
-            </div>
+        </Container>
+      </section>
+
+      {/* Text-fold: the lede, narrow measure */}
+      <section className="py-16 sm:py-20">
+        <Container>
+          <Reveal>
+            <p className="max-w-2xl text-lg leading-relaxed text-stone sm:text-xl">{siteConfig.description}</p>
           </Reveal>
         </Container>
       </section>
 
       {/* Ultimi viaggi */}
-      <section className="py-20 sm:py-28">
+      <section className="pb-20 sm:pb-28">
         <Container>
-          <SectionHeading
-            eyebrow="Itinerari"
-            title="I viaggi raccontati finora"
-            description="Ogni viaggio con itinerario giorno per giorno, scheda pratica e consigli su cosa vedere, dove dormire e dove mangiare."
-          />
+          <h1 className="font-display text-3xl font-medium text-balance text-alpine sm:text-4xl">
+            I viaggi raccontati finora
+          </h1>
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
+            Ogni viaggio con itinerario giorno per giorno, scheda pratica e consigli su cosa vedere, dove dormire e
+            dove mangiare.
+          </p>
           <RevealGroup className="mt-10 grid gap-4 sm:grid-cols-2" stagger={0.05}>
             {primo && (
               <RevealItem className="sm:col-span-2 sm:row-span-2">

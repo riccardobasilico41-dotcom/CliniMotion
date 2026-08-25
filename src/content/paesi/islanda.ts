@@ -10,6 +10,7 @@ export const islanda: Paese = {
   durataConsigliata: '9-10 giorni per fare l\'anello completo (Ring Road) senza correre',
   budgetIndicativo: 'da completare — isola cara, specialmente alcolici, caffè e pasti fuori dal campeggio',
   stileViaggio: ['natura', 'avventura', 'campeggio', 'on the road'],
-  heroImageAlt: 'Tenda da campeggio con vista su un ghiacciaio e iceberg in Islanda',
+  heroImageAlt: 'Iceberg blu che galleggiano nella laguna glaciale di Jökulsárlón, Islanda',
+  heroImage: '/images/islanda/jokulsarlon-stock.jpg',
   tripPrincipaleSlug: 'islanda-2024',
 }

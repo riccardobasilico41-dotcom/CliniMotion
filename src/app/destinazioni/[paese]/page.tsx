@@ -66,7 +66,6 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
         <section className="py-20 sm:py-28">
           <Container>
             <SectionHeading
-              eyebrow="Copia il viaggio che ho fatto io"
               title={tripPrincipale.titolo}
               description="Itinerario completo, giorno per giorno — con quello che rifarei e quello che cambierei."
             />
@@ -137,7 +136,6 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
       <section id="destinazioni" className="scroll-mt-24 border-t border-alpine/10 py-20 sm:py-28">
         <Container>
           <SectionHeading
-            eyebrow="Costruisci il tuo viaggio"
             title="Destinazioni"
             description="Ogni tappa dell'itinerario esplorata singolarmente: quanto fermarsi, cosa fare, dove ho dormito e mangiato io."
           />
@@ -155,7 +153,6 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
       <section id="esperienze" className="scroll-mt-24 border-t border-alpine/10 py-20 sm:py-28">
         <Container>
           <SectionHeading
-            eyebrow="Costruisci il tuo viaggio"
             title="Esperienze"
             description="Le attività che valgono davvero il tempo — con un giudizio sincero su ciascuna."
           />
@@ -173,7 +170,6 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
       <section id="organizza-il-viaggio" className="scroll-mt-24 border-t border-alpine/10 bg-cream-dark/30 py-20 sm:py-28">
         <Container>
           <SectionHeading
-            eyebrow="Prima di partire"
             title="Organizza il viaggio"
             description="Le informazioni pratiche raccolte nella scheda del viaggio: verificale sempre prima di partire, prezzi e orari cambiano."
           />

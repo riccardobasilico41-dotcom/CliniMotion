@@ -18,7 +18,6 @@ export default function ViaggiIndexPage() {
     <section className="py-20 sm:py-28">
       <Container>
         <SectionHeading
-          eyebrow="Catalogo"
           title="Tutti i viaggi"
           description={`${viaggi.length} itinerari completi, giorno per giorno — oppure esplora una singola destinazione o esperienza dalla pagina Paese.`}
         />

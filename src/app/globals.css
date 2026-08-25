@@ -1,15 +1,25 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* Hallmark · genre: editorial · theme: custom (locked, ported 1:1 from the
+ * previous hex palette) · nav: N6 · footer: Ft1 · designed-as-app
+ * See design.md at the project root for the full system this file implements. */
 :root {
-  --color-alpine: #124a6b;
-  --color-alpine-dark: #0a2c40;
-  --color-cream: #fdfcfa;
-  --color-cream-dark: #eaf0f0;
-  --color-rosso: #d1452c;
-  --color-rosso-dark: #a8371f;
-  --color-stone: #47535e;
-  --color-ink: #182027;
+  --color-alpine: oklch(39.1% 0.079 239.9);
+  --color-alpine-dark: oklch(28.0% 0.053 239.0);
+  --color-cream: oklch(99.1% 0.003 84.6);
+  --color-cream-dark: oklch(95.1% 0.006 197.0);
+  --color-rosso: oklch(58.5% 0.181 32.4);
+  --color-rosso-dark: oklch(49.9% 0.153 33.6);
+  --color-stone: oklch(43.6% 0.024 246.0);
+  --color-ink: oklch(23.9% 0.018 245.0);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
 }
 
 @theme inline {
@@ -23,6 +33,11 @@
   --color-ink: var(--color-ink);
   --font-display: var(--font-fraunces);
   --font-sans: var(--font-inter);
+}
+
+html,
+body {
+  overflow-x: clip;
 }
 
 body {

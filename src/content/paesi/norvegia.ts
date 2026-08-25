@@ -10,6 +10,7 @@ export const norvegia: Paese = {
   durataConsigliata: '7-9 giorni per coprire Oslo, Bodø e le Lofoten senza correre troppo',
   budgetIndicativo: '500-600€ a testa solo per i pasti (dato dal viaggio provato); da aggiungere voli, noleggio auto, traghetti e alloggi',
   stileViaggio: ['natura', 'avventura', 'on the road'],
-  heroImageAlt: 'Villaggio di pescatori sulle palafitte in un fiordo delle Lofoten, Norvegia',
+  heroImageAlt: 'La chiesa di Svolvær con le case rosse del porto sullo sfondo di un cielo tempestoso, Lofoten',
+  heroImage: '/images/norvegia/svolvaer-stock.jpg',
   tripPrincipaleSlug: 'lofoten-estate-2025',
 }
