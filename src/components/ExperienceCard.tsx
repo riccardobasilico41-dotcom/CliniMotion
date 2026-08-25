@@ -8,7 +8,7 @@ export function ExperienceCard({ esperienza, paeseSlug }: { esperienza: Esperien
   return (
     <Link
       href={`/esperienze/${paeseSlug}/${esperienza.slug}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg active:scale-[0.99] motion-reduce:active:scale-100"
+      className="group flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
     >
       {esperienza.immagine && (
         <div className="relative h-36 overflow-hidden">
