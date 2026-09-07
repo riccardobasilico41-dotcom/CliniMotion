@@ -1,0 +1,127 @@
+import type { TripMeta } from '@/lib/types'
+
+// Overlay di metadati strutturati per il viaggio "Marocco 360°". Il testo
+// narrativo resta nel markdown (src/content/viaggi/07-marocco-360.md).
+// `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
+// del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
+
+export const marocco360Meta: TripMeta = {
+  tripSlug: 'marocco-360',
+  paeseSlug: 'marocco',
+  ritmo: 'Intenso — tratte anche lunghe (fino a 4 ore) quasi ogni giorno, con soste e visite lungo il percorso',
+  trasporti: 'Van privato con guida locale per tutte le tratte',
+  stile: ['deserto', 'kasbah', 'on the road'],
+  adattoA: ['chi vuole un giro completo del Marocco in poco più di una settimana', 'chi cerca sia deserto sia costa atlantica', 'viaggi organizzati con guida locale'],
+  puntiForti: [
+    'Una guida locale (Mustafa) con organizzazione impeccabile per tutto il viaggio',
+    'Il contrasto tra il Sahara di Erg Chebbi e l\'Atlantico di Essaouira nello stesso viaggio',
+    'Kasbah meno turistiche come Tamnougalt, oltre ai grandi classici come Aït Benhaddou',
+  ],
+  criticita: [
+    'Il ritmo è denso, con trasferimenti anche di 3-4 ore quasi ogni giorno',
+    'A Merzouga le scorte di alcolici/snack sono limitate: va organizzato prima di entrare nel deserto',
+    'Diversi hotel non hanno recensioni chiare online (es. Agdz): restano segnalati con una nota invece di un giudizio inventato',
+  ],
+  budgetTotale: undefined,
+  viaggioInBreve: {
+    percheHoScelto: undefined,
+    conChiSonoPartito: undefined,
+    cosaCercavo: undefined,
+    treEsperienzePiuBelle: undefined,
+    cosaCambierei: undefined,
+    aChiLoConsiglio: undefined,
+  },
+  tappeMappa: [
+    { nome: 'Marrakech', destinazioneSlug: 'marrakech' },
+    { nome: 'Aït Benhaddou', destinazioneSlug: 'ait-benhaddou' },
+    { nome: 'Merzouga ed Erg Chebbi', destinazioneSlug: 'merzouga' },
+    { nome: 'Agdz', destinazioneSlug: 'agdz' },
+    { nome: 'Agadir', destinazioneSlug: 'agadir' },
+    { nome: 'Essaouira', destinazioneSlug: 'essaouira' },
+    { nome: 'Marrakech', destinazioneSlug: 'marrakech' },
+  ],
+  giorni: [
+    {
+      titoloGiorno: 'Giorno 1 — Marrakech',
+      tratta: 'Arrivo a Marrakech',
+      pernottamento: 'Villa Zahra',
+      statoPernottamento: 'provato',
+      intensita: 'leggero',
+      destinazioneSlug: 'marrakech',
+    },
+    {
+      titoloGiorno: 'Giorno 2 — Marrakech-Aït Benhaddou',
+      tratta: 'Marrakech → Kasbah di Telouet → Aït Benhaddou',
+      pernottamento: 'Ksar El Janoub',
+      statoPernottamento: 'provato',
+      intensita: 'medio',
+      destinazioneSlug: 'ait-benhaddou',
+    },
+    {
+      titoloGiorno: 'Giorno 3 — Merzouga, l\'ingresso nel Sahara',
+      tratta: 'Aït Benhaddou → Gole di Todra → Erg Chebbi',
+      pernottamento: 'Camp La Source',
+      statoPernottamento: 'provato',
+      intensita: 'intenso',
+      destinazioneSlug: 'merzouga',
+    },
+    {
+      titoloGiorno: 'Giorno 4 — Merzouga-Agdz',
+      tratta: 'Erg Chebbi (alba in cammello, quad) → Agdz',
+      pernottamento: 'Kasbah Trane',
+      statoPernottamento: 'provato',
+      intensita: 'intenso',
+      costiNoti: 'Quad 350 MAD a persona; Kasbah di Tamnougalt 20 MAD + 200 MAD mancia',
+      destinazioneSlug: 'agdz',
+    },
+    {
+      titoloGiorno: 'Giorno 5 — Agdz-Agadir',
+      tratta: 'Agdz → Taliouine (zafferano) → Agadir',
+      pernottamento: 'Hotel Oasis',
+      statoPernottamento: 'provato',
+      intensita: 'medio',
+      destinazioneSlug: 'agadir',
+    },
+    {
+      titoloGiorno: 'Giorno 6 — Agadir-Essaouira, con tappa surf a Taghazout',
+      tratta: 'Agadir → Taghazout (surf) → Essaouira',
+      pernottamento: 'Maison De Sud',
+      statoPernottamento: 'provato',
+      intensita: 'intenso',
+      costiNoti: 'Lezione di surf 250 MAD a persona; hammam 250 MAD',
+      destinazioneSlug: 'essaouira',
+    },
+    {
+      titoloGiorno: 'Giorno 7 — Essaouira-Marrakech',
+      tratta: 'Essaouira → Ranch de Diabat (quad) → Marrakech',
+      pernottamento: 'Villa Zahra',
+      statoPernottamento: 'provato',
+      intensita: 'medio',
+      destinazioneSlug: 'marrakech',
+    },
+    {
+      titoloGiorno: 'Giorno 8 — Marrakech',
+      tratta: 'Marrakech (tour guidato, Jardin Majorelle)',
+      pernottamento: 'Villa Zahra',
+      statoPernottamento: 'provato',
+      intensita: 'medio',
+      costiNoti: 'Jardin Majorelle 150 MAD a persona',
+      destinazioneSlug: 'marrakech',
+    },
+    {
+      titoloGiorno: 'Giorno 9 — Rientro',
+      tratta: 'Marrakech → rientro',
+      pernottamento: 'nessun pernottamento (giorno di partenza)',
+      statoPernottamento: 'provato',
+      intensita: 'leggero',
+      destinazioneSlug: 'marrakech',
+    },
+  ],
+  budget: [
+    { etichetta: 'Voli', valore: undefined },
+    { etichetta: 'Van, guida e alloggi (pacchetto organizzato)', valore: undefined },
+    { etichetta: 'Escursioni (quad, surf, hammam)', valore: '250-350 MAD a persona ciascuna' },
+    { etichetta: 'Ingressi (Jardin Majorelle, monumenti Marrakech, kasbah)', valore: '20-150 MAD a ingresso' },
+    { etichetta: 'Totale', valore: undefined },
+  ],
+}
