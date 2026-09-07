@@ -16,19 +16,24 @@ import { destinazioniSvezia } from '@/content/destinazioni/svezia'
 import { esperienzeSvezia } from '@/content/esperienze/svezia'
 import { lapponiaSvedeseAbiskoMeta } from '@/content/viaggi-dati/lapponia-svedese-abisko'
 import { tromsoMeta } from '@/content/viaggi-dati/tromso'
+import { giordania } from '@/content/paesi/giordania'
+import { destinazioniGiordania } from '@/content/destinazioni/giordania'
+import { esperienzeGiordania } from '@/content/esperienze/giordania'
+import { giordania360Meta } from '@/content/viaggi-dati/giordania-360'
 import { getViaggioBySlug, type Viaggio } from './viaggi'
 
 // Registro dei Paesi disponibili. Aggiungere un nuovo Paese = aggiungere una
 // riga qui più i relativi file in src/content/{paesi,destinazioni,esperienze}.
-const PAESI: Paese[] = [messico, norvegia, islanda, svezia]
-const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia]
-const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia]
+const PAESI: Paese[] = [messico, norvegia, islanda, svezia, giordania]
+const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania]
+const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania]
 const TRIP_META: TripMeta[] = [
   messicoBeachLifeMeta,
   lofotenEstate2025Meta,
   islanda2024Meta,
   lapponiaSvedeseAbiskoMeta,
   tromsoMeta,
+  giordania360Meta,
 ]
 
 export function getAllPaesi(): Paese[] {
