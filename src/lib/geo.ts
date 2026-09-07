@@ -28,13 +28,17 @@ import { giappone } from '@/content/paesi/giappone'
 import { destinazioniGiappone } from '@/content/destinazioni/giappone'
 import { esperienzeGiappone } from '@/content/esperienze/giappone'
 import { giappone360Meta } from '@/content/viaggi-dati/giappone-360'
+import { thailandia } from '@/content/paesi/thailandia'
+import { destinazioniThailandia } from '@/content/destinazioni/thailandia'
+import { esperienzeThailandia } from '@/content/esperienze/thailandia'
+import { thailandiaMeta } from '@/content/viaggi-dati/thailandia'
 import { getViaggioBySlug, type Viaggio } from './viaggi'
 
 // Registro dei Paesi disponibili. Aggiungere un nuovo Paese = aggiungere una
 // riga qui più i relativi file in src/content/{paesi,destinazioni,esperienze}.
-const PAESI: Paese[] = [messico, norvegia, islanda, svezia, giordania, sriLanka, giappone]
-const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone]
-const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone]
+const PAESI: Paese[] = [messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia]
+const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia]
+const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia]
 const TRIP_META: TripMeta[] = [
   messicoBeachLifeMeta,
   lofotenEstate2025Meta,
@@ -44,6 +48,7 @@ const TRIP_META: TripMeta[] = [
   giordania360Meta,
   sriLanka2023Meta,
   giappone360Meta,
+  thailandiaMeta,
 ]
 
 export function getAllPaesi(): Paese[] {
