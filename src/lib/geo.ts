@@ -56,13 +56,19 @@ import { costaRica } from '@/content/paesi/costa-rica'
 import { destinazioniCostaRica } from '@/content/destinazioni/costa-rica'
 import { esperienzeCostaRica } from '@/content/esperienze/costa-rica'
 import { costaRica360Meta } from '@/content/viaggi-dati/costa-rica-360'
+import { indonesia } from '@/content/paesi/indonesia'
+import { destinazioniIndonesia } from '@/content/destinazioni/indonesia'
+import { esperienzeIndonesia } from '@/content/esperienze/indonesia'
 import { getViaggioBySlug, type Viaggio } from './viaggi'
 
 // Registro dei Paesi disponibili. Aggiungere un nuovo Paese = aggiungere una
 // riga qui più i relativi file in src/content/{paesi,destinazioni,esperienze}.
-const PAESI: Paese[] = [messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia, marocco, newYork, florida, transilvania, bulgaria, costaRica]
-const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia, ...destinazioniMarocco, ...destinazioniNewYork, ...destinazioniFlorida, ...destinazioniTransilvania, ...destinazioniBulgaria, ...destinazioniCostaRica]
-const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia, ...esperienzeMarocco, ...esperienzeNewYork, ...esperienzeFlorida, ...esperienzeTransilvania, ...esperienzeBulgaria, ...esperienzeCostaRica]
+// L'Indonesia non ha ancora un TRIP_META (nessun viaggio-diario collegato,
+// vedi src/content/paesi/indonesia.ts) — va aggiunto qui non appena il primo
+// itinerario combinato tra isole sarà pubblicato.
+const PAESI: Paese[] = [messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia, marocco, newYork, florida, transilvania, bulgaria, costaRica, indonesia]
+const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia, ...destinazioniMarocco, ...destinazioniNewYork, ...destinazioniFlorida, ...destinazioniTransilvania, ...destinazioniBulgaria, ...destinazioniCostaRica, ...destinazioniIndonesia]
+const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia, ...esperienzeMarocco, ...esperienzeNewYork, ...esperienzeFlorida, ...esperienzeTransilvania, ...esperienzeBulgaria, ...esperienzeCostaRica, ...esperienzeIndonesia]
 const TRIP_META: TripMeta[] = [
   messicoBeachLifeMeta,
   lofotenEstate2025Meta,
