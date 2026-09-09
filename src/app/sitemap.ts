@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import { siteConfig } from '@/lib/site-config'
 import { getAllViaggi } from '@/lib/viaggi'
 import { getAllPaesi, getDestinazioniByPaese, getEsperienzeByPaese } from '@/lib/geo'
+import { getAllMeraviglie } from '@/lib/meraviglie'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const paesi = getAllPaesi()
@@ -9,6 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     { path: '/', priority: 1, changeFrequency: 'weekly' as const },
     { path: '/viaggi', priority: 0.9, changeFrequency: 'weekly' as const },
+    { path: '/meraviglie', priority: 0.9, changeFrequency: 'weekly' as const },
+    ...getAllMeraviglie().map((m) => ({
+      path: `/meraviglie/${m.slug}`,
+      priority: 0.8,
+      changeFrequency: 'monthly' as const,
+    })),
     ...getAllViaggi().map((v) => ({
       path: `/viaggi/${v.slug}`,
       priority: 0.8,

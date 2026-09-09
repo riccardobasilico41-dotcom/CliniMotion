@@ -142,3 +142,43 @@ export type TripMeta = {
   giorni: GiornoMeta[]
   budget: VoceBudget[]
 }
+
+// --- Sezione "Meraviglie del mondo" ---
+// Guida indipendente dal layer Paesi/Destinazioni/Esperienze: ogni monumento
+// ha una sola pagina densissima di informazioni pratiche (non un itinerario
+// di viaggio). Vedi src/content/meraviglie.ts.
+
+export type SezioneMeraviglia = {
+  nome: string
+  perche: string
+}
+
+export type Meraviglia = {
+  slug: string
+  nome: string
+  nomeLocale?: string
+  paese: string
+  citta: string
+  titolo: string
+  descrizione: string
+  storiaBreve: string
+  visitataPersonalmente: boolean
+  periodoMigliore: string
+  durataConsigliata: string
+  comeArrivareInternazionale: string
+  comeArrivareLocale: string
+  comeSpostarsi: string
+  prenotazione: string
+  prezzi: string
+  tourOAutonomo: string
+  scamDaEvitare: string[]
+  sezioniDaVedere: SezioneMeraviglia[]
+  giorniSpeciali: string
+  doveDormire: string
+  erroriDaEvitare: string[]
+  /** Se assente, la UI mostra un placeholder editoriale invece di inventare un ricordo. */
+  miaEsperienza?: string
+  heroImageAlt: string
+  /** Percorso in /public. Se assente, la UI mostra un fallback tipografico invece di inventare un'immagine. */
+  heroImage?: string
+}

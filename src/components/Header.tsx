@@ -6,6 +6,7 @@ import { getAllViaggi } from '@/lib/viaggi'
 const navLinks = [
   { href: '/viaggi', label: 'Viaggi' },
   { href: '/destinazioni', label: 'Destinazioni' },
+  { href: '/meraviglie', label: 'Meraviglie del mondo' },
 ]
 
 /* Hallmark · nav: N6 Newspaper masthead — full-width centred wordmark, thin

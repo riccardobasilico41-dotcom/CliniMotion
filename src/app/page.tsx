@@ -4,8 +4,10 @@ import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { TripCard } from '@/components/TripCard'
+import { MeravigliaCard } from '@/components/MeravigliaCard'
 import { Reveal, RevealGroup, RevealItem } from '@/components/Reveal'
 import { getAllViaggi } from '@/lib/viaggi'
+import { getAllMeraviglie } from '@/lib/meraviglie'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
@@ -24,6 +26,7 @@ export default function HomePage() {
   const pronto = viaggi.find((v) => !v.inLavorazione)
   const primo = pronto ?? viaggi[0]
   const altri = viaggi.filter((v) => v.slug !== primo?.slug)
+  const meraviglie = getAllMeraviglie()
 
   return (
     <>
@@ -83,6 +86,37 @@ export default function HomePage() {
             {altri.map((v) => (
               <RevealItem key={v.slug}>
                 <TripCard viaggio={v} />
+              </RevealItem>
+            ))}
+          </RevealGroup>
+        </Container>
+      </section>
+
+      {/* Meraviglie del mondo */}
+      <section className="border-t border-alpine/10 bg-cream-dark/40 py-20 sm:py-28">
+        <Container>
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <h2 className="font-display text-3xl font-medium text-balance text-alpine sm:text-4xl">
+                Le sette meraviglie del mondo
+              </h2>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
+                Guida pratica monumento per monumento: prenotazione, prezzi, come arrivare, tour o autonomia, truffe
+                da evitare e cosa vedere — e perché.
+              </p>
+            </div>
+            <Link
+              href="/meraviglie"
+              className="group inline-flex items-center gap-2 text-sm font-medium text-rosso hover:underline"
+            >
+              Vedi tutte le meraviglie
+              <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+          <RevealGroup className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3" stagger={0.05}>
+            {meraviglie.slice(0, 3).map((m) => (
+              <RevealItem key={m.slug}>
+                <MeravigliaCard meraviglia={m} />
               </RevealItem>
             ))}
           </RevealGroup>
