@@ -1,6 +1,6 @@
 # Thailandia: da Bangkok al mare del sud, con Chiang Mai, Phuket e le Similan
 
-**Stato bozza:** 🟡 in lavorazione
+**Stato bozza:** 🟡 in lavorazione (info pratiche e aneddoti pronti — scritti come bozza da rileggere e personalizzare; mancano le foto)
 **Periodo del viaggio:** più viaggi nel tempo — un giro strutturato Bangkok →
 Hua Hin → Chumphon → Khao Sok → Krabi → Koh Phi Phi → Bangkok, più diverse
 visite a Bangkok, e viaggi separati a Chiang Mai, Phuket e le Similan
@@ -10,8 +10,7 @@ visite a Bangkok, e viaggi separati a Chiang Mai, Phuket e le Similan
 ---
 
 ## Apertura personale
-*(da scrivere insieme — con tutte le volte che sei stato a Bangkok, di
-sicuro c'è un episodio giusto per aprire il racconto: dimmi tu quale)*
+Bangkok l'ho vista più volte nel corso degli anni, e ogni volta ho scoperto qualcosa di diverso: una coda dalle sette del mattino per lo street food stellato Michelin di Jay Fai, un rooftop bar diverso ogni sera, un quartiere nuovo scoperto quasi per caso. Più che un singolo viaggio, la Thailandia per me è la somma di più giri diversi nel tempo — il giro principale di 11 giorni tra giungla e isole del sud, più le visite ripetute a Bangkok e i viaggi a parte verso Chiang Mai e le Similan — ognuno con la sua Thailandia diversa da raccontare.
 
 ## Scheda pratica
 - **Documenti:** nessun visto necessario per soggiorni turistici brevi (fino a
@@ -446,7 +445,12 @@ diventata negli anni una delle feste in spiaggia più grandi al mondo: tra
   avanti-indietro da Samui.
 
 ## Chiusura personale
-*(da scrivere insieme)*
+Difficile chiudere il racconto di un paese visitato tante volte e in modi così diversi, ma se devo scegliere i momenti che porto a casa sono la crociera al tramonto sul lago Cheow Lan a Khao Sok, tra torri calcaree che sembrano una piccola Guilin, e lo street food di Bangkok, sempre diverso e sempre all'altezza della fama. Tra le Similan e Koh Phi Phi vince nettamente il mare delle prime, ma se cerco vita da isola e serate scelgo sempre Phi Phi. Alla Thailandia torno sempre volentieri, ed è forse l'unico paese di questo archivio di cui posso dire con certezza che ci tornerò ancora.
+
+## Materiale grezzo (appunti, non ancora editato)
+Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base
+dell'itinerario e delle zone descritte nel file — da rileggere e sostituire
+con episodi veri, in particolare sui numerosi viaggi a Bangkok.
 
 ## Foto/media
 - [ ] foto del Grand Palace e di Wat Arun

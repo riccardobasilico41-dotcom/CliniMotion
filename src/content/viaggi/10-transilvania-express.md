@@ -1,6 +1,6 @@
 # Transilvania Express in 5 giorni: castelli, saline sotterranee e la strada più bella del mondo
 
-**Stato bozza:** 🟡 in lavorazione (itinerario e info pratiche complete grazie a diario di viaggio, foglio giorno-per-giorno e Vade Mecum ufficiali; mancano aneddoti personali per apertura/chiusura e conferma delle scelte effettive fatte per alcune tappe facoltative)
+**Stato bozza:** 🟡 in lavorazione (itinerario, info pratiche e aneddoti pronti grazie a diario di viaggio, foglio giorno-per-giorno e Vade Mecum ufficiali — aneddoti scritti come bozza da rileggere e personalizzare; manca la conferma delle scelte effettive fatte per alcune tappe facoltative)
 **Periodo del viaggio:** ponte di Halloween, 31 ottobre - 4 novembre [anno da confermare]
 **Durata:** 5 giorni, 4 notti
 **Compagni di viaggio:** on the road con auto a noleggio self-drive per tutto il percorso
@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-*(spunto pronto: la Transilvania Express è un viaggio breve ma densissimo — 5 giorni per attraversare in auto Valacchia e Transilvania, tra castelli avvolti nella leggenda di Dracula, saline scavate nella roccia e una delle strade panoramiche più famose al mondo, la Transfăgărășan. Si può aprire dal primo sguardo sul Castello di Peleș che spunta tra gli alberi, oppure — più a terra — dal momento in cui si lascia l'asfalto per il primo tornante di montagna e ci si rende conto di quanto tempo passerà al volante nei giorni successivi. Dimmi tu.)*
+Il primo vero momento del viaggio è arrivato quando, lasciata l'autostrada per la prima strada di montagna, mi sono reso conto di quanto tempo avrei passato al volante nei giorni successivi: cinque giorni per attraversare Valacchia e Transilvania, con punte di cinque ore di guida in un solo giorno. Ma ne è valsa la pena fin dalla prima tappa vera, il Castello di Peleș che spunta tra gli alberi con la sua facciata neorinascimentale — uno dei castelli più belli che abbia visto in Europa, altro che Dracula.
 
 ## Scheda pratica
 - **Quando andare:** clima freddo, spesso piovoso o nevoso — "perfetto per entrare nel mood Transilvania", come recita il Vade Mecum ufficiale. Il meteo può far cambiare l'itinerario in corsa, soprattutto per la Transfăgărășan (vedi sotto).
@@ -118,7 +118,7 @@ Per l'ultima notte ho dormito vicino al Palazzo del Parlamento, in un 4 stelle c
 - Non dare da mangiare agli orsi né scendere dall'auto se se ne avvista uno lungo la strada.
 
 ## Chiusura personale
-*(da scrivere insieme — qui va il bilancio: quale castello vi ha colpito di più, Peleș o Bran? La Transfăgărășan ha mantenuto le aspettative? Rifareste un viaggio così denso di chilometri in soli 5 giorni?)*
+Tra Peleș e Bran vince nettamente il primo: più bello architettonicamente, meno costruito a tavolino attorno al mito di Dracula, che con questo castello — lo confermano anche le guide — non ha in realtà nessun legame storico reale. La Transfăgărășan ha mantenuto tutte le aspettative, tornanti compresi, e gli orsi avvistati dal finestrino sulla strada del ritorno sono stati la ciliegina sulla torta. Cinque giorni così densi di chilometri li rifarei, ma di corsa: è un viaggio che si vive meglio sapendo già che si tornerà per andare più piano.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonti ufficiali del tour operator (WeRoad):
@@ -130,8 +130,10 @@ Fonti ufficiali del tour operator (WeRoad):
 **Cosa manca ancora per chiudere la bozza:**
 - Anno esatto del viaggio (il periodo, ponte di Halloween/inizio novembre, è chiaro dalle date nel foglio operativo: 31/10-03/11 + giorno terme).
 - Conferma delle tappe facoltative effettivamente fatte (Bear Sanctuary, Viscri, Cetatea Făgărașului) e del percorso di rientro seguito al Day 4 (Transfăgărășan aperta o funivia).
-- Aneddoti personali per apertura e chiusura del racconto.
-- Racconto in prima persona dell'esperienza al volante sui tornanti di montagna, e degli eventuali avvistamenti di orsi.
+- Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
+  sostituire con i ricordi veri, incluso il racconto in prima persona
+  dell'esperienza al volante sui tornanti di montagna e degli eventuali
+  avvistamenti di orsi (per ora solo ipotizzati nella chiusura).
 
 ## Foto/media
 - [ ] foto del Castello di Peleș

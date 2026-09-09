@@ -1,6 +1,6 @@
 # Costa Rica 360° in 13 giorni: dal Caribe al Pacifico, tra bradipi, vulcani e balene
 
-**Stato bozza:** 🟡 in lavorazione (itinerario e info pratiche completissime grazie a Travel Diary, diario giorno per giorno e Vade Mecum ufficiali — con tanto di orari reali, contatti dei local supplier e prezzi effettivamente pagati; mancano solo aneddoti personali per apertura/chiusura e conferma di quali attività opzionali sono state fatte davvero)
+**Stato bozza:** 🟡 in lavorazione (itinerario, info pratiche e aneddoti pronti grazie a Travel Diary, diario giorno per giorno e Vade Mecum ufficiali — con tanto di orari reali, contatti dei local supplier e prezzi effettivamente pagati; aneddoti scritti come bozza da rileggere e personalizzare; manca la conferma di quali attività opzionali sono state fatte davvero)
 **Periodo del viaggio:** metà-fine novembre [anno da confermare], 16-28 novembre circa
 **Durata:** 13 giorni, 12 notti
 **Compagni di viaggio:** van privato con autista, organizzato con il DMC locale MR Adventure Travel (contatto Angie, +506 8831 9669)
@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-*(spunto pronto: il Costa Rica è probabilmente il viaggio più denso di tutto l'archivio — 13 giorni che attraversano letteralmente il paese da una costa all'altra, dal Mar dei Caraibi al Pacifico, passando per foreste pluviali, canyon di lava vulcanica, foreste nebulose e spiagge dove si avvistano le balene. Si può aprire dal primo casado mangiato in una soda locale, dal momento esatto in cui una scimmia urlatrice si fa sentire per la prima volta dagli alberi sopra la testa, oppure — più filosofico — dal motto stesso del paese, quella "Pura Vida" che qui non è uno slogan turistico ma un modo di vivere il tempo in modo completamente diverso. Dimmi tu.)*
+Il Costa Rica si racconta bene partendo dal suo stesso motto: quella "Pura Vida" che ho scoperto non essere affatto uno slogan turistico, ma un modo reale di vivere il tempo, più lento e meno ansioso del solito. L'ho capito fin dai primi giorni, tra un casado mangiato in una soda locale e la prima scimmia urlatrice sentita gridare dagli alberi sopra la testa — un suono che, la prima volta, fa sobbalzare più di quanto ci si aspetti. Tredici giorni che attraversano il paese da una costa all'altra, dal Mar dei Caraibi al Pacifico, sono il viaggio più denso di tutto questo archivio.
 
 ## Scheda pratica
 - **Quando andare:** clima tropicale tutto l'anno, caldo e umido, con possibili piogge soprattutto sulle coste — l'itinerario stesso può variare in caso di maltempo. Novembre è tra i mesi con meno probabilità di incontrare le balene a Uvita (la stagione migliore è gennaio-marzo o luglio-ottobre), ma resta comunque un buon periodo per il resto del paese.
@@ -183,7 +183,7 @@ Buona posizione e staff cordiale tra gli aspetti più citati; diverse recensioni
 - Creare una playlist di gruppo su Spotify per i tanti, lunghi trasferimenti — un modo semplice per rendere i transfer parte del viaggio invece che tempo morto.
 
 ## Chiusura personale
-*(da scrivere insieme — qui va il bilancio vero: qual è stata la tappa più bella tra tutte, il Caribe di Puerto Viejo o il Pacifico di Uvita? Le balene si sono viste? Il ritmo di 13 giorni così densi ha ripagato, o si sarebbe preferito rallentare su qualche tappa in particolare?)*
+Tra il Caribe di Puerto Viejo e il Pacifico di Uvita non c'è un vero vincitore: il primo per la giungla, le scimmie urlatrici e i due Temazcal vissuti come vere cerimonie spirituali; il secondo per il ritmo più lento, le spiagge e — con un po' di fortuna nella stagione sbagliata — anche qualche avvistamento di balene. Tredici giorni così densi hanno ripagato, ma se dovessi rifarlo rallenterei su Monteverde e Manuel Antonio, le due tappe dove avrei voluto più tempo per godermi la natura invece di correre verso il trasferimento successivo.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonti ufficiali del tour operator (WeRoad):
@@ -194,8 +194,10 @@ Fonti ufficiali del tour operator (WeRoad):
 **Cosa manca ancora per chiudere la bozza:**
 - Anno esatto del viaggio (le date, 16-28 novembre circa, sono chiare dai documenti).
 - Conferma di quali attività opzionali sono state effettivamente scelte dal gruppo (Cahuita NP, Pacuaré rafting, canyoning, turtle nesting, birdwatching, equitazione).
-- Se e quante balene sono state avvistate durante il whale watching.
-- Aneddoti personali per apertura e chiusura del racconto.
+- Se e quante balene sono state avvistate durante il whale watching (la
+  chiusura attuale, scritta come bozza, ipotizza un avvistamento riuscito).
+- Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
+  sostituire con i ricordi veri.
 - Eventuale racconto della "sorpresa di compleanno" organizzata durante il Giorno 12 (consegna di empanadas fuori dall'ingresso di Manuel Antonio) — sembra un dettaglio con una bella storia dietro.
 
 ## Foto/media

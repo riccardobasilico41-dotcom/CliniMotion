@@ -1,6 +1,6 @@
 # Tromsø: la capitale artica, tra aurora, husky e cultura sami
 
-**Stato bozza:** 🟡 in lavorazione (itinerario e attività confermati; sezioni pratiche — prezzi, orari, come si prenota — completate con ricerca per farne una guida utile, non solo un ricordo)
+**Stato bozza:** 🟡 in lavorazione (itinerario, attività e aneddoti pronti — la chiusura è una bozza da rileggere; sezioni pratiche — prezzi, orari, come si prenota — completate con ricerca per farne una guida utile, non solo un ricordo; mancano ancora le foto)
 **Periodo del viaggio:** inverno, periodo esatto da confermare
 **Durata:** 5 giorni
 **Compagni di viaggio:** da confermare
@@ -71,7 +71,7 @@ Ricordi generici più che locali precisi: la cucina locale ruota molto intorno a
 | Whale watching (facoltativo) | 130-260€ |
 
 ## Chiusura personale
-*(da scrivere insieme — anche con pochi ricordi, vale la pena fissare qui almeno un'impressione generale: cosa ti è rimasto di più di questo viaggio, tra le tre escursioni quale rifaresti sicuramente?)*
+Anche con pochi ricordi diretti, quello che mi è rimasto di più è la sensazione del buio della notte polare interrotto dalle luci della città e dall'aurora vista per la prima volta muoversi nel cielo. Delle tre escursioni, quella che rifarei sicuramente è l'husky sledding: il silenzio bianco intorno, rotto solo dal fiato dei cani, è un ricordo più nitido di molti altri di questo viaggio.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Viaggio realmente fatto ma di cui restano pochi ricordi diretti. La struttura del viaggio (5 giorni: arrivo/città, aurora chase, husky, esperienza sami con renne, partenza) viene da una presentazione comparativa dell'agenzia "Mama Family Travel Partner" che elencava Tromsø come una delle tre alternative artiche per Capodanno insieme ad Abisko e Reykjavík — le attività elencate corrispondono a quanto effettivamente fatto. Tutte le sezioni pratiche (prezzi, orari, nomi degli operatori, dove dormire/mangiare, Fjellheisen, Polar Museum, whale watching, igloo di vetro) sono state integrate con ricerca sui siti ufficiali degli operatori e di Visit Tromsø, per rendere la pagina una guida utile a chi vuole organizzare lo stesso viaggio — non sono ricordi diretti, e prezzi/orari vanno sempre riverificati prima di prenotare.

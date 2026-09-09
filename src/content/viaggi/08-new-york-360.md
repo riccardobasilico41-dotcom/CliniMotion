@@ -1,6 +1,6 @@
 # New York 360°: grattacieli, quartieri e una partita a testa tra baseball e basket
 
-**Stato bozza:** 🟡 in lavorazione
+**Stato bozza:** 🟡 in lavorazione (itinerario, info pratiche e aneddoti pronti — scritti come bozza da rileggere e personalizzare; mancano le foto)
 **Periodo del viaggio:** 7-12 settembre
 **Durata:** 6 giorni, 5 notti
 **Compagni di viaggio:** organizzazione flessibile, spese gestite di volta in volta
@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-*(spunto pronto: giornate lunghissime, quasi interminabili, 15-20 km a piedi al giorno — un buon modo per aprire potrebbe essere proprio la sensazione di arrivare a fine giornata cotti ma con la testa piena di skyline diversi, da Times Square di notte al tramonto dal Top of the Rock. Dimmi tu il momento giusto.)*
+New York si vive a passo svelto, e in sei giorni l'ho attraversata a piedi per 15-20 chilometri al giorno, arrivando a sera cotto ma con la testa piena di skyline diversi — da Times Square illuminata la prima notte al tramonto visto dal Top of the Rock, che i newyorkesi stessi preferiscono all'Empire State come punto panoramico. È un ritmo che non lascia molto respiro, ma è anche l'unico modo per far stare in pochi giorni una città che meriterebbe molto più tempo.
 
 ## Scheda pratica
 - **Documenti:** ESTA obbligatorio (autorizzazione elettronica di viaggio, https://esta.cbp.dhs.gov/) per i cittadini UE con passaporto elettronico o biometrico, per soggiorni turistici fino a 90 giorni — chi è stato a Cuba, Corea del Nord, Siria o Iran non può usare l'ESTA e deve richiedere un visto vero e proprio.
@@ -122,7 +122,11 @@ Ho dormito al **Paramount Hotel** (oggi ufficialmente "Paramount Times Square �
 - **Partite sportive**: prenotare i biglietti (Yankees/Mets o New York Liberty) con qualche giorno di anticipo, soprattutto per le partite serali più richieste.
 
 ## Chiusura personale
-*(da scrivere insieme)*
+Di New York porto a casa soprattutto i contrasti tra un quartiere e l'altro: la domenica mattina ad Harlem tra messa gospel e Apollo Theater, il ponte di Manhattan visto da DUMBO, una partita delle New York Liberty al Barclays Center vissuta con un'atmosfera elettrica. Il consiglio più utile che mi sono dato da solo, a metà viaggio, è stato smettere di rincorrere la lista completa: il programma era volutamente più ricco di quanto fosse fattibile in sei giorni, ed è giusto così — vuol dire che c'è un motivo per tornare.
+
+## Materiale grezzo (appunti, non ancora editato)
+Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base
+dell'itinerario reale — da rileggere e sostituire con i ricordi veri.
 
 ## Foto/media
 - [ ] foto di Times Square di notte

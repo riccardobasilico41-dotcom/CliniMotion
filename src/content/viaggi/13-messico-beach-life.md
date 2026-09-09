@@ -1,6 +1,6 @@
 # Messico Beach Life: dai cenote dello Yucatán allo squalo balena di Holbox
 
-**Stato bozza:** 🟡 in lavorazione (itinerario giorno per giorno completo grazie al diario personale, arricchito con le info pratiche del Travel Diary/Vade Mecum ufficiali — mancano gli aneddoti veri per apertura/chiusura, la conferma delle date esatte del viaggio e i nomi degli hotel per Mahahual/Bacalar, Tulum, Playa del Carmen e Holbox)
+**Stato bozza:** 🟡 in lavorazione (itinerario giorno per giorno completo grazie al diario personale, arricchito con le info pratiche del Travel Diary/Vade Mecum ufficiali; aneddoti di apertura/chiusura scritti come bozza da rileggere e personalizzare — manca ancora la conferma delle date esatte del viaggio e i nomi degli hotel per Mahahual/Bacalar, Tulum, Playa del Carmen e Holbox)
 **Periodo del viaggio:** da confermare
 **Durata:** 13 giorni, 12 notti (il Giorno 0 è una notte extra pre-tour a Cancún)
 **Compagni di viaggio:** van privato con autista, supporto di una DMC locale in loco
@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-*(da scrivere insieme — qui va l'aneddoto vero: il primo tuffo in un cenote, il momento in cui è spuntato lo squalo balena, la sauna al buio del temazcal che "non si dimentica", o magari semplicemente la sensazione di attraversare lo Yucatán da una costa all'altra in tredici giorni, tra rovine maya, acqua turchese e feste fino a tardi. Dimmi tu da dove vuoi partire.)*
+Se devo scegliere un solo momento per aprire questo racconto, scelgo lo squalo balena di Holbox: otto ore in barca per nuotare accanto al pesce più grande del mondo, un'esperienza che costa parecchio ma vale ogni euro speso, e che resta il vero momento clou di tredici giorni passati ad attraversare lo Yucatán da una costa all'altra. Tra rovine maya, cenote turchesi e feste fino a tardi, è stato un viaggio che alternava cultura e vita notturna senza mai fermarsi davvero.
 
 ## Scheda pratica
 - **Quando andare:** clima tropicale, caldo e umido tutto l'anno, con piogge rare ma possibili — soprattutto sulla costa caraibica. La bioluminescenza a Punta Mosquito (Holbox) si vede meglio da aprile a novembre, dipende da fasi lunari e meteo; la schiusa delle tartarughe lungo la costa (es. Xcacel, vicino Tulum) va da aprile a ottobre.
@@ -174,7 +174,7 @@ Manca anche qui il nome della struttura: da recuperare.
 - **Playa del Carmen:** drink al Clandestino
 
 ## Chiusura personale
-*(da scrivere insieme — qui va il bilancio vero: qual è stata la tappa più forte tra tutte, il Temazcal, lo squalo balena o la bioluminescenza a Punta Mosquito? Il ritmo di 13 giorni così densi, tra rovine, cenote e vita notturna, ha ripagato o si sarebbe preferito rallentare su qualche tappa in particolare, magari Bacalar o Holbox?)*
+Tra il Temazcal, lo squalo balena e la bioluminescenza di Punta Mosquito, il podio lo tengo per lo squalo balena — è l'unica delle tre esperienze che consiglierei senza esitazione a chiunque faccia questo viaggio. Tredici giorni tra rovine, cenote e vita notturna sono stati intensi ma mai stancanti, anche se rallentare su Bacalar — vista solo in giornata — sarebbe stata una scelta giusta se avessi avuto un giorno in più a disposizione.
 
 ## Foto/media
 - [ ] foto del cenote Xcanché vicino a Ek Balam
@@ -207,7 +207,8 @@ Manca anche qui il nome della struttura: da recuperare.
 4. **Ricerca web** (Tripadvisor, Booking, Google) per la sezione hotel: caratterizzazione onesta di Selina Cancún Downtown, Hotel Waye (Valladolid), Ontico Urban Design Hotel (Mérida) e Hotel Francis Drake (Campeche), più alternative reali economiche/medie/lux per tutte le tappe, incluse quelle senza un nome di hotel personale (Mahahual, Bacalar, Tulum, Playa del Carmen, Holbox).
 
 **Cosa manca ancora per chiudere la bozza:**
-- Aneddoti personali veri per apertura e chiusura del racconto.
+- Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
+  sostituire con i ricordi veri.
 - Conferma delle date esatte del viaggio (anno e mese — nel diario non ci sono indizi sufficienti per stimarle con sicurezza, quindi il campo "Periodo del viaggio" resta "da confermare").
 - Nomi degli hotel per Mahahual/Bacalar (dove effettivamente si è dormito, visto che Bacalar nel diario risulta solo una visita in giornata), Tulum, Playa del Carmen (se mai c'è stato un pernottamento lì, o è stata solo una serata) e Holbox.
 - Verificare se la notte del Giorno 9 sia stata effettivamente a Tulum o a Playa del Carmen — dal diario non è chiarissimo, ho assunto Tulum come base.

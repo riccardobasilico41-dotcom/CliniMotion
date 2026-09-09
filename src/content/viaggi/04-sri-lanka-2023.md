@@ -1,8 +1,8 @@
 # Sri Lanka in 12 giorni: dai templi antichi al tè di Nuwara Eliya, fino alle spiagge del sud
 
 **Stato bozza:** 🟡 in lavorazione (itinerario completo, orari trasformati in fasce
-orarie descrittive, e correzioni rispetto al programma originale; mancano
-aneddoti personali per apertura/chiusura)
+orarie descrittive, correzioni rispetto al programma originale e aneddoti
+pronti — scritti come bozza da rileggere e personalizzare)
 **Periodo del viaggio:** 11-22 novembre 2023
 **Durata:** 12 giorni, 11 notti
 **Compagni di viaggio:** van privato con autista per tutto il percorso, con DMC
@@ -12,12 +12,7 @@ locale (WanderlustAsia) a organizzare hotel e attività
 ---
 
 ## Apertura personale
-*(spunto pronto: lo Sri Lanka in 12 giorni è un concentrato pazzesco di paesaggi
-diversi — dai siti buddhisti di Anuradhapura alla salita notturna dell'Adam's
-Peak, dai risciò tra le risaie alle spiagge del sud. Si può aprire dal momento
-più fisico del viaggio, la notte insonne per la scalata al Sacred Footprint, o
-da un dettaglio più piccolo e vero, tipo il pesce rosso mangiato in spiaggia a
-Hikkaduwa alle 21 passate perché il ristorante era lento. Dimmi tu.)*
+Della notte dell'Adam's Peak ricordo soprattutto la fatica condivisa: partire nel cuore della notte per salire 2.243 metri su una scalinata di pellegrinaggio interamente illuminata, in fila indiana con centinaia di pellegrini locali, il freddo che si fa sentire solo in cima dopo ore di sudore in salita. Lo Sri Lanka in 12 giorni è stato un concentrato pazzesco di paesaggi diversi — dai siti buddhisti di Anuradhapura alle spiagge del sud — ma se devo scegliere un solo momento per aprire il racconto è quello: non tanto il tempio in vetta, quanto la sfida fisica vissuta insieme a chi quella scalinata la percorre da una vita.
 
 ## Scheda pratica
 - **Quando andare:** novembre è già bassa stagione per le piogge sulla costa
@@ -411,9 +406,7 @@ Resort.
   l'autista o l'hotel.
 
 ## Chiusura personale
-*(da scrivere insieme — il bilancio di un viaggio così denso e vario: cosa
-avete amato di più tra templi, trekking e spiagge? La notte dell'Adam's Peak
-merita un posto d'onore nel racconto finale?)*
+Di un viaggio così denso e vario è difficile scegliere cosa portarsi a casa per primo, ma se devo ordinare le sensazioni metto la notte dell'Adam's Peak al primo posto, seguita dal safari a Minneriya tra gli elefanti e dal treno panoramico verso Ella, in ritardo come da tradizione ma bellissimo lo stesso. Tra templi, trekking e spiagge del sud, quello che resta di più è proprio il contrasto: pochi paesi permettono di passare da una scalata notturna di pellegrinaggio a una spiaggia come Hikkaduwa nel giro di tre giorni.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonti caricate:
@@ -432,7 +425,8 @@ Fonti caricate:
    generale, usati per arricchire le sezioni corrispondenti.
 
 **Cosa manca ancora per chiudere la bozza:**
-- Aneddoti personali per apertura e chiusura del racconto.
+- Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
+  sostituire con i ricordi veri.
 - Eventuali dettagli mancanti su Giorno 6 (rafting/canyoning a Kitulgala,
   attività extra) e sulla notte dell'Adam's Peak vissuta in prima persona.
 

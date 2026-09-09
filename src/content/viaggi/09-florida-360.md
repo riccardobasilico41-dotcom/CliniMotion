@@ -1,6 +1,6 @@
 # Florida 360° in 10 giorni: dalle Keys a Orlando, on the road tra alligatori, spiagge e razzi
 
-**Stato bozza:** 🟡 in lavorazione (itinerario e info pratiche complete grazie al Travel Diary e al Vade Mecum ufficiali; mancano aneddoti personali per apertura/chiusura e conferma di ristoranti/attività effettivamente scelti)
+**Stato bozza:** 🟡 in lavorazione (itinerario, info pratiche e aneddoti pronti grazie al Travel Diary e al Vade Mecum ufficiali — aneddoti scritti come bozza da rileggere e personalizzare; manca la conferma di ristoranti/attività effettivamente scelti)
 **Periodo del viaggio:** [da confermare — anno/mese esatto]
 **Durata:** 10 giorni, 9 notti
 **Compagni di viaggio:** auto a noleggio self-drive (Sixt)
@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-*(spunto pronto: la Florida 360° è un viaggio a tappe forzate — quasi 1.800 km al volante in 10 giorni, tra il verde primordiale delle Everglades, il turchese delle Keys, il kitsch dorato di Orlando e il countdown della Nasa a Cape Canaveral. Si può aprire dal primo colpo d'occhio sulla Seven Mile Bridge, sospesi tra due azzurri, oppure da un dettaglio più piccolo e vero — il caldo umido appena scesi dall'aereo a Miami, o il conto separato al ristorante con tasse e mancia che quasi raddoppiano il prezzo. Dimmi tu qual è il momento giusto.)*
+Il colpo di caldo umido appena scesi dall'aereo a Miami è stato il primo assaggio di dieci giorni passati quasi sempre in movimento: quasi 1.800 km al volante, tra il verde primordiale delle Everglades, il turchese delle Keys, il kitsch dorato di Orlando e il countdown della Nasa a Cape Canaveral. Ma il momento che ricordo con più chiarezza resta il primo colpo d'occhio sulla Seven Mile Bridge, sospesi letteralmente tra due sfumature di azzurro — mare da una parte e dall'altra, e la strada che sembra galleggiare in mezzo.
 
 ## Scheda pratica
 - **Quando andare:** clima caldo-umido tutto l'anno, con estati molto piovose; il tour può variare in caso di meteo avverso (uragani/tempeste tropicali in stagione).
@@ -155,7 +155,7 @@ A Orlando ho alloggiato in una villa privata in affitto stile Airbnb/VRBO, la so
 - Tutte le camere hanno letti matrimoniali doppi da condividere: da mettere in conto nella composizione delle stanze.
 
 ## Chiusura personale
-*(da scrivere insieme — qui va il bilancio: quali sono state le tappe che avete amato di più? Vale più la pena Universal o Disney? Rifareste 1.800 km in 10 giorni o preferireste un ritmo più lento?)*
+Dieci giorni e 1.800 km sono tanti per un solo viaggio, e onestamente un ritmo più lento avrebbe premiato di più le Keys, che meriterebbero da sole qualche giorno in più. Tra Universal e Disney ho scelto Universal, e non ho rimpianti — le attrazioni a tema Harry Potter valgono da sole la giornata. Il ricordo più forte resta però il Kennedy Space Center: vedere da vicino la storia delle missioni spaziali americane, con tute autentiche e rocce lunari a pochi centimetri, è stata una sorpresa più grande di quanto mi aspettassi da una tappa che consideravo secondaria.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonti ufficiali del tour operator (WeRoad):
@@ -165,7 +165,8 @@ Fonti ufficiali del tour operator (WeRoad):
 **Cosa manca ancora per chiudere la bozza:**
 - Anno/mese esatto del viaggio.
 - Nomi degli hotel: confermati Miami (Generator Miami) e Orlando (villa privata in affitto); Key West/Marathon e Naples/Everglades restano da confermare (nel Travel Diary sono volutamente omessi per policy del DMC).
-- Aneddoti personali per apertura e chiusura del racconto.
+- Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
+  sostituire con i ricordi veri.
 - Conferma di quali ristoranti/attività "suggerite" sono state effettivamente scelte dal gruppo.
 - Eventuale racconto della scelta Universal vs Disney World al Giorno 6.
 

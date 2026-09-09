@@ -1,7 +1,7 @@
 # Giappone in 12 giorni: Tokyo, il Monte Fuji, Kyoto, Hiroshima, Osaka e la caccia ai sakura
 
-**Stato bozza:** 🟡 in lavorazione (itinerario completo, senza orari fissi, con cibo e logistica;
-manca la voce personale — aneddoti, apertura, chiusura)
+**Stato bozza:** 🟡 in lavorazione (itinerario completo, senza orari fissi, con cibo e logistica,
+e aneddoti di apertura/chiusura — scritti come bozza da rileggere e personalizzare)
 **Periodo del viaggio:** 6-17 aprile *(anno da confermare — la versione originale
 del programma copriva 11 giorni fino al 16.04; qui aggiungo una giornata per
 il Monte Fuji, che nella realtà non ho fatto ma che vale la pena includere
@@ -28,12 +28,7 @@ viaggio con più tempo a disposizione, vale la pena spalmare Tokyo su 4-5
 giorni pieni invece dei 3 giorni e mezzo effettivi che avete avuto voi.
 
 ## Apertura personale
-*(spunto pronto: siete arrivati per la fioritura dei sakura, ma con qualche
-giorno di scarto rispetto al picco — a Tokyo i ciliegi di inizio aprile erano
-già verso la fine, tra petali che cadevano come neve rosa (lo hanafubuki) e i
-rami più spogli. È un bel modo per aprire il racconto: la caccia ai sakura
-migliori in giro per la città, sapendo che il tempismo perfetto è quasi
-impossibile da centrare. Dimmi tu il momento giusto.)*
+Sono arrivato a Tokyo per la fioritura dei sakura, ma con qualche giorno di scarto rispetto al picco: i ciliegi di inizio aprile erano già verso la fine, tra petali che cadevano come neve rosa — lo hanafubuki — e rami sempre più spogli. Ho passato il primo pomeriggio a caccia dei ciliegi migliori in giro per la città, sapendo che il tempismo perfetto è quasi impossibile da centrare in un paese dove la stagione dura pochi giorni. È stato comunque uno spettacolo, anche in versione calante, ed è il modo giusto per aprire un viaggio che mi ha portato da Tokyo al Monte Fuji, fino a Kyoto, Hiroshima e Osaka.
 
 ## Scheda pratica
 - **Quando andare:** inizio aprile — clima primaverile, tra 8°C e 18°C, simile
@@ -484,9 +479,7 @@ Ikebukuro, Hotel Century Southern Tower
   un salvavita.
 
 ## Chiusura personale
-*(da scrivere insieme — il bilancio di un viaggio così denso: cosa vi porta
-di più a casa, tra sakura cacciati per la città, il Fuji visto da Chureito, i
-cervi di Nara e le notti tra izakaya e Shibuya Crossing?)*
+Di un viaggio così denso porto a casa soprattutto i contrasti: i sakura cacciati per Tokyo, il Fuji visto da Chureito con i ciliegi ancora in piena fioritura una settimana dopo, i cervi di Nara che passeggiano liberi tra i templi, e le notti tra izakaya affollati e Shibuya Crossing. Se dovessi scegliere un solo momento, sceglierei proprio quello alla Pagoda Chureito: il Giappone da cartolina che per una volta è davvero così anche dal vivo.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonti caricate:
@@ -508,7 +501,8 @@ Fonti caricate:
 
 **Cosa manca ancora per chiudere la bozza:**
 - Conferma dell'anno del viaggio.
-- Aneddoti personali per apertura e chiusura.
+- Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
+  sostituire con i ricordi veri.
 - Eventuali correzioni rispetto a quanto realmente successo (il programma
   originale prevede diverse opzioni alternative mai sciolte, es. Giorno 7 e
   Giorno 8 hanno più varianti — quale avete seguito davvero?).

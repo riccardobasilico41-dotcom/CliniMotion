@@ -1,9 +1,9 @@
 # Islanda in tenda: 9 giorni sull'isola del ghiaccio e del fuoco (Ring Road)
 
 **Stato bozza:** 🟡 in lavorazione (percorso Giorno 1-9 ricostruito con fasce orarie
-indicative e logistica di dettaglio; da confermare campeggi/ristoranti dei Giorni 3-8
-con ricordi/foto e aggiungere aneddoti nell'apertura/chiusura; da confermare anche
-giorno/logistica esatta dell'escursione al vulcano)
+indicative e logistica di dettaglio; aneddoti di apertura/chiusura pronti come
+bozza da rileggere e personalizzare; da confermare campeggi/ristoranti dei
+Giorni 3-8 con ricordi/foto e giorno/logistica esatta dell'escursione al vulcano)
 **Periodo del viaggio:** estate 2024 *(anno corretto rispetto alla bozza iniziale — da confermare le date esatte)*
 **Durata:** 9 giorni, 8 notti (6 in tenda, 2 in hotel)
 **Compagni di viaggio:** auto a noleggio condivisa, cassa comune per i pasti durante il percorso
@@ -12,12 +12,7 @@ giorno/logistica esatta dell'escursione al vulcano)
 ---
 
 ## Apertura personale
-*(spunto pronto: si può aprire proprio dalla notte del relitto dell'aereo — la
-decisione last minute dopo cena di andarci a piedi, il sole che a mezzanotte
-era ancora lì basso all'orizzonte, i quattro chilometri di sabbia nera e vento
-per raggiungere un pezzo di metallo abbandonato nel nulla. Da lì si può tornare
-indietro e raccontare l'inizio del viaggio, oppure usarlo come vero incipit e
-raccontare il resto in flashback — dimmi tu quale stile preferisci.)*
+La decisione è arrivata dopo cena, quasi per scherzo: erano passate le undici di sera e il sole, complice il pieno dell'estate islandese, non si era ancora deciso a tramontare. Quattro chilometri a piedi sulla sabbia nera e piatta di Sólheimasandur, controvento, per raggiungere un relitto d'aereo abbandonato dal 1973 — un'ora buona per tratta, con la luce che non calava mai del tutto. È il momento più assurdo di tutto il viaggio, ed è quello che racconto per primo: perché riassume bene cosa significhi guidare la Ring Road in tenda, tra ghiacciai, geyser e vulcani — un paese dove la stanchezza di giornata non basta mai a farti rinunciare a un'ultima deviazione.
 
 ## Scheda pratica
 - **Quando andare:** estate — clima comunque variabile, tra 10 e 20°C di giorno,
@@ -374,7 +369,7 @@ TBD — giorno di partenza dall'Italia.
   guidava il mezzo se preso a noleggio condiviso).
 
 ## Chiusura personale
-*(da scrivere insieme una volta ricostruiti i giorni mancanti)*
+Nove giorni in tenda intorno a tutta l'isola restano il viaggio più fisico che abbia fatto: vento che non si ferma mai, notti vicine allo zero anche in piena estate, e giornate scandite più dai tempi di guida che da un vero programma. Ne valeva la pena per il ghiaccio — il trekking sul Vatnajökull e il kayak tra gli iceberg di Jökulsárlón restano i due momenti che rifarei senza pensarci, insieme al vulcano visto da vicino sulla penisola di Reykjanes, un colpo di fortuna che non pensavo mi sarebbe capitato. Se dovessi consigliarlo a qualcuno, gli direi di non sottovalutare il campeggio: è quello che rende il viaggio più duro, ma anche quello che lo rende vero.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonti caricate:
@@ -418,8 +413,9 @@ Fonti caricate:
   fatta con tour organizzato o in autonomia).
 - Operatore/durata esatti del trekking sul ghiacciaio e del kayak a Jökulsárlón.
 - Conferma dei campeggi/ristoranti nei punti segnalati "da confermare".
-- Aneddoti personali per aprire/chiudere il racconto e per arricchire i Giorni
-  4-9, per ora ricostruiti "a tavolino" su base logistica reale.
+- Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base
+  dell'itinerario reale — da rileggere e sostituire con i ricordi veri, così
+  come i Giorni 4-9, per ora ricostruiti "a tavolino" su base logistica reale.
 
 ## Foto/media
 - [ ] foto al vulcano in eruzione

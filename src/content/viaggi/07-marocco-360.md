@@ -1,6 +1,6 @@
 # Marocco 360°: da Marrakech al Sahara
 
-**Stato bozza:** 🟡 in lavorazione
+**Stato bozza:** 🟡 in lavorazione (itinerario, info pratiche e aneddoti pronti — scritti come bozza da rileggere e personalizzare; mancano le foto)
 **Periodo del viaggio:** 3-11 maggio
 **Durata:** 9 giorni, 8 notti
 **Compagni di viaggio:** guida locale Mustafa (+212 649431566) — organizzazione impeccabile, ogni dettaglio al posto giusto
@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-*(spunto pronto: si parte da Marrakech e si finisce nel Sahara, tra kasbah di fango, gole scavate nella roccia e una notte sotto le stelle a Merzouga — un bel modo per aprire potrebbe essere proprio quella notte nel deserto, o il primo impatto con il caos ordinato di Jemaa El-Fna. Dimmi tu.)*
+Il primo impatto vero con il Marocco è arrivato a Jemaa El-Fna, la piazza di Marrakech che di sera si trasforma in un caos ordinato di incantatori di serpenti, musicisti e bancarelle di ogni tipo — un assaggio di quello che mi aspettava nei giorni successivi. Ma il momento che porto con me di più resta la notte a Erg Chebbi, nel cuore del Sahara: cammello al tramonto, cena beduina, e un cielo stellato che lontano da ogni luce artificiale sembrava avere il doppio delle stelle a cui sono abituato.
 
 ## Scheda pratica
 - **Quando andare:** inizio maggio — clima ancora gestibile prima della grande calura estiva, ideale sia per Marrakech che per il deserto (che di notte resta comunque fresco, anche in primavera).
@@ -143,7 +143,11 @@ Una notte in pieno centro storico, a pochi passi dai souk e dal porto: le recens
 - **Contanti sempre con sé**, soprattutto fuori da Marrakech e Agadir.
 
 ## Chiusura personale
-*(da scrivere insieme)*
+Nove giorni da Marrakech al Sahara e ritorno, tra kasbah di fango, gole scavate nella roccia e la notte nel deserto — è uno di quei viaggi che mette d'accordo tutti i gusti, dalla cultura all'avventura. Se devo scegliere un solo ricordo è ancora il campo tendato di Erg Chebbi: il cielo stellato lì visto resta uno dei più belli che abbia mai visto in un viaggio. Merito va anche a Mustafa, la guida che mi ha accompagnato: un'organizzazione impeccabile che ha reso tutto più semplice, dal primo giorno all'ultimo.
+
+## Materiale grezzo (appunti, non ancora editato)
+Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base
+dell'itinerario reale — da rileggere e sostituire con i ricordi veri.
 
 ## Foto/media
 - [ ] foto del ksar di Aït Benhaddou

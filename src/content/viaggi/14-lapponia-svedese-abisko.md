@@ -1,6 +1,6 @@
 # Lapponia svedese: Capodanno sotto l'aurora tra Kiruna e Abisko
 
-**Stato bozza:** 🟡 in lavorazione (itinerario, prezzi e pernottamenti pronti dal preventivo originale; mancano ancora aneddoti e foto)
+**Stato bozza:** 🟡 in lavorazione (itinerario, prezzi, pernottamenti e aneddoti pronti — la chiusura è una bozza da rileggere; mancano ancora le foto)
 **Periodo del viaggio:** 30 dicembre - 5 gennaio (Capodanno; anno esatto da confermare)
 **Durata:** 7 giorni
 **Compagni di viaggio:** il mio giro, poi riproposto praticamente identico al mio amico Andrea, che lo ha rifatto in un secondo momento
@@ -82,7 +82,7 @@ Non ho ancora annotazioni puntuali sui singoli ristoranti — dal preventivo, il
 - Vestirsi a strati pesanti è scontato, ma vale la pena ripeterlo: le temperature restano ben sotto lo zero per l'intera settimana.
 
 ## Chiusura personale
-*(da scrivere insieme — qui ci va il bilancio: rifaresti Capodanno in Lapponia o consiglieresti solo la versione low-cost di febbraio-marzo? Quale delle due notti — STF Abisko o l'Elite Hotel Frost con la spa — porti a casa come ricordo più bello?)*
+Consiglierei la versione di Capodanno solo a chi cerca proprio quello — il fascino di salutare l'anno nuovo nel buio e nel gelo assoluto — perché sul fronte del portafoglio la versione low-cost di febbraio-marzo resta la scelta più sensata, con più probabilità di aurora e meno spesa. Tra le due notti, quella che porto a casa come ricordo più bello è la prima allo STF Abisko Turiststation: più semplice dell'Elite Hotel Frost, ma a pochi passi dall'Aurora Sky Station, dove ho visto l'aurora muoversi nel cielo per la prima volta.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Contenuto ricostruito da 4 documenti dell'agenzia "Mama Family Travel Partner" (preventivo Lapponia Svedese, piano hotel, piano voli, presentazione comparativa Capodanno con Tromsø e Reykjavík) preparati originariamente per un preventivo. L'itinerario giorno per giorno è stato ricostruito incrociando il piano voli/hotel (date e strutture esatte) con il riepilogo delle attività della presentazione comparativa (Aurora Sky Station, motoslitta, husky). I prezzi e i dettagli operativi di ogni attività (durate, formule guidata/self-drive, orari, come si prenota) sono stati integrati con ricerca sui siti ufficiali degli operatori e della Swedish Tourist Association, per rendere la pagina utile a chi vuole organizzare lo stesso viaggio — vanno comunque sempre riverificati prima di prenotare. Da confermare/completare: anno esatto del viaggio, ristoranti specifici, aneddoti, foto.

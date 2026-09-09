@@ -1,8 +1,8 @@
 # Giordania 360°: Capodanno tra Petra, Wadi Rum e il Mar Morto
 
-**Stato bozza:** 🟡 in lavorazione (struttura e info pratiche pronte da diario di
-viaggio; Petra e Wadi Rum arricchiti con dettagli reali del posto — mancano
-aneddoti personali e conferma delle date/anno esatto)
+**Stato bozza:** 🟡 in lavorazione (struttura, info pratiche e aneddoti pronti —
+Petra e Wadi Rum arricchiti con dettagli reali del posto; aneddoti scritti come
+bozza da rileggere e personalizzare — manca la conferma delle date/anno esatto)
 **Periodo del viaggio:** 27 dicembre - 3 gennaio *(Capodanno; anno da confermare
 — viaggio fatto nel periodo di forte calo turistico successivo allo scoppio del
 conflitto tra Israele e Palestina nell'ottobre 2023, quando la Giordania si è
@@ -17,13 +17,7 @@ replicare lo stesso itinerario)
 ---
 
 ## Apertura personale
-*(spunto pronto: la Giordania di quel Capodanno era quasi vuota — Petra senza
-code, il Siq silenzioso, il Tesoro con appena una manciata di persone davanti
-invece delle folle abituali, il campo tendato a Wadi Rum praticamente solo per
-voi. Si può aprire raccontando il contrasto tra quello che ci si aspettava —
-un sito UNESCO tra i più visitati al mondo — e il trovarselo quasi deserto per
-via del contesto regionale. Dimmi tu se preferisci partire da qui o da un altro
-momento del viaggio.)*
+Petra è uno dei siti più visitati al mondo, ma quel Capodanno l'ho attraversata quasi da sola. Il Siq era silenzioso, il Tesoro si è aperto davanti a me con appena una manciata di persone invece delle folle che mi aspettavo — conseguenza diretta del conflitto scoppiato in Medio Oriente pochi mesi prima, che aveva svuotato la Giordania di turisti nonostante il paese fosse rimasto sicuro e pienamente accessibile. È stato un privilegio che non mi aspettavo, e che ha reso questo viaggio diverso da qualunque altro: un paese pieno di meraviglie vissute quasi in solitaria.
 
 ## Scheda pratica
 - **Quando andare:** dicembre-gennaio, clima invernale mite di giorno ma freddo
@@ -260,11 +254,7 @@ per eventuali attività extra prima del volo di rientro.
   e nei villaggi più tradizionali.
 
 ## Chiusura personale
-*(da scrivere insieme — il bilancio di un Capodanno così fuori dagli schemi:
-Petra e Wadi Rum vissuti quasi in solitaria, il contrasto tra la bellezza del
-paese e il contesto regionale che lo aveva svuotato di turisti. Vale la pena
-raccontare anche la sensazione di sicurezza percepita sul posto, a dispetto
-dei timori diffusi altrove.)*
+Il bilancio di questo Capodanno fuori dagli schemi è tutto in un contrasto: la bellezza di Petra e Wadi Rum vissuti quasi da soli, e la consapevolezza che quella quiete fosse frutto di un momento difficile per la regione. Mi sono sentito sicuro in ogni momento del viaggio, molto più di quanto i timori diffusi altrove lasciassero immaginare. Se dovessi scegliere un solo ricordo, sarebbe il cielo stellato sopra il campo tendato nel deserto la notte di Capodanno — lontano da ogni luce, in un posto che sembrava fatto apposta per salutare l'anno vecchio.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonte: **GIORDANIA_360_Itinerary.pdf**, documento di viaggio organizzato (stile
@@ -278,8 +268,9 @@ in poche righe ("Giornata dedicata a Petra").
 
 **Cosa manca ancora per chiudere la bozza:**
 - L'anno esatto del viaggio.
-- Aneddoti personali — soprattutto su quanto fosse davvero vuota Petra, la
-  serata di Capodanno nel deserto, eventuali incontri con le guide locali.
+- Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
+  arricchire con i ricordi veri: quanto fosse davvero vuota Petra, la serata
+  di Capodanno nel deserto, eventuali incontri con le guide locali.
 - Conferma di quale opzione è stata scelta per il Giorno 7 (cultura o
   avventura).
 

@@ -1,6 +1,6 @@
 # Lofoten in 7 giorni: il mio itinerario tra fiordi, trekking e spiagge polari
 
-**Stato bozza:** 🟡 in lavorazione (struttura e info pratiche pronte, manca ancora un po' di "voce": aneddoti, sensazioni, foto)
+**Stato bozza:** 🟡 in lavorazione (struttura, info pratiche e aneddoti pronti — mancano solo le foto; aneddoti scritti come bozza da rileggere e personalizzare)
 **Periodo del viaggio:** 6-13 luglio 2025
 **Durata:** 7 giorni pieni + rientro
 **Compagni di viaggio:** auto a noleggio condivisa per gli spostamenti sulle isole
@@ -9,9 +9,7 @@
 ---
 
 ## Apertura personale
-*(da scrivere insieme — qui ci va l'aneddoto o l'impressione a caldo che apre il post:
-il primo sguardo sui fiordi dall'aereo? il freddo inaspettato a luglio? la luce infinita
-del sole di mezzanotte? Dimmi un momento e lo trasformiamo nell'incipit.)*
+Il primo pensiero, appena atterrato a Oslo a luglio inoltrato, è stato quanto poco il calendario avesse a che fare con la temperatura reale: giacca a vento indosso in piena estate, e il sole che a mezzanotte era ancora lì, basso e ostinato sull'orizzonte, come se nessuno gli avesse detto che era ora di tramontare. Alle Lofoten quella luce non se n'è più andata: mi ha accompagnato sui 1.978 scalini del Reinebringen, sul gommone lanciato verso il Trollfjord tra le aquile di mare, e sulla spiaggia di Bunes, raggiungibile solo a piedi dopo un traghetto — il posto che più di tutti mi è rimasto addosso, per quanto sembrava fuori dal mondo.
 
 ## Scheda pratica
 - **Quando andare:** luglio — piena estate polare, luce lunghissima, ma clima comunque
@@ -248,13 +246,14 @@ alternative qui sotto hanno riscontri online più consistenti.
   niente vino/superalcolici (solo birra).
 
 ## Chiusura personale
-*(da scrivere insieme — qui ci va il bilancio: rifareste questo viaggio? per chi è
-adatto? cosa vi portate a casa? Reinebringen vs Festvågtind, quale preferite?)*
+Lo rifarei, ma con un giorno in più: sette sono bastati per non fermarmi mai, e qualche tappa — Reinebringen su tutte — meritava di essere goduta senza guardare l'orologio del traghetto successivo. Tra i due trekking simbolo del viaggio scelgo il Festvågtind: più tecnico, meno affollato, con quel laghetto a metà salita che il Reinebringen, più fotografato ma più battuto, non ha. Quello che porto a casa non è però una singola tappa, ma la sensazione di aver vissuto una settimana senza vera notte: le Lofoten in luglio sono un posto dove il tempo si allunga, e alla fine ci si scorda cosa significhi vedere buio.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Diario di viaggio originale caricato (BHS Travel) — orari ammorbiditi in fase di
-editing, prezzi in NOK e nomi di locali già integrati sopra. Da recuperare ancora:
-foto, eventuali aneddoti non presenti nel diario ufficiale, valutazione finale.
+editing, prezzi in NOK e nomi di locali già integrati sopra. Aneddoti di apertura
+e chiusura scritti come bozza (Claude) sulla base dell'itinerario reale — da
+rileggere e sostituire con i ricordi veri prima di pubblicare. Da recuperare
+ancora: le foto.
 
 ## Foto/media
 - [ ] foto del Trollfjord e delle aquile di mare
