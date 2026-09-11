@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const svezia: Paese = {
   slug: 'svezia',
   nome: 'Svezia',
+  continente: 'Europa',
   titolo: 'Lapponia svedese: Capodanno sotto l\'aurora tra Kiruna e Abisko',
   descrizione:
     'Sette giorni nell\'estremo nord della Svezia, tra la Kiruna che si sposta pezzo per pezzo per via della miniera e la stazione di montagna di Abisko, uno dei punti migliori al mondo per vedere l\'aurora boreale grazie al suo microclima secco. Motoslitta sul lago ghiacciato, husky sledding sotto il cielo che si accende, e un Capodanno diverso da tutti gli altri — al prezzo, però, del periodo più caro dell\'anno per questa zona.',

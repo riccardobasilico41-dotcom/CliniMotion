@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const norvegia: Paese = {
   slug: 'norvegia',
   nome: 'Norvegia',
+  continente: 'Europa',
   titolo: 'Norvegia: le Lofoten in 7 giorni, tra fiordi e sole di mezzanotte',
   descrizione:
     'Sette giorni on the road tra Oslo, Bodø e l\'arcipelago delle Lofoten: trekking iconici, un\'escursione in gommone tra le aquile di mare del Trollfjord, spiagge polari raggiungibili solo in traghetto e villaggi di pescatori sospesi nel tempo. Un itinerario vissuto davvero, con i sentieri che vale la pena fare e quelli da saltare.',

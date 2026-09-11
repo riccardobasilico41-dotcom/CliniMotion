@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const messico: Paese = {
   slug: 'messico',
   nome: 'Messico',
+  continente: 'Nord America',
   titolo: 'Messico: cenote, rovine maya e isole tra due coste',
   descrizione:
     'Tredici giorni a cavallo tra Yucatán e Riviera Maya: rovine maya, cenote turchesi, una laguna dai sette colori, uno squalo balena e notti che finiscono tardi. Un itinerario vissuto davvero, con le tappe che funzionano e quelle da ripensare — utile sia per copiarlo pari pari sia per costruirci sopra il proprio viaggio.',

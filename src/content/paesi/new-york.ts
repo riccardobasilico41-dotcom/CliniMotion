@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const newYork: Paese = {
   slug: 'new-york',
   nome: 'New York',
+  continente: 'Nord America',
   titolo: 'New York 360°: grattacieli, quartieri e una partita a testa tra baseball e basket',
   descrizione:
     'Sei giorni a New York, 15-20 km a piedi al giorno: Times Square di notte, il tramonto dal Top of the Rock, la Statua della Libertà, un musical a Broadway, DUMBO con il ponte di Manhattan sullo sfondo e una partita sportiva dal vivo — baseball in piena corsa playoff o basket WNBA con le New York Liberty. Un programma volutamente più ricco di quanto sia fattibile in una settimana, da vivere sapendo di dover scegliere le priorità.',

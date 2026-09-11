@@ -15,6 +15,8 @@ export const STATO_CONTENUTO_LABEL: Record<StatoContenuto, string> = {
 export type Paese = {
   slug: string
   nome: string
+  /** Macro-regione di appartenenza, usata per raggruppare l'indice Destinazioni. Vedi CONTINENTI in src/lib/geo.ts. */
+  continente: string
   titolo: string
   descrizione: string
   periodoMigliore: string

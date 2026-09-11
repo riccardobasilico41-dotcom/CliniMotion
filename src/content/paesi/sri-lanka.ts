@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const sriLanka: Paese = {
   slug: 'sri-lanka',
   nome: 'Sri Lanka',
+  continente: 'Asia',
   titolo: 'Sri Lanka in 12 giorni: dai templi antichi al tè di Nuwara Eliya, fino alle spiagge del sud',
   descrizione:
     'Dodici giorni in van privato attraverso il triangolo culturale buddhista, la scalata notturna dell\'Adam\'s Peak, le piantagioni di tè di Nuwara Eliya, il treno panoramico fino a Ella e le spiagge del sud: un concentrato di paesaggi molto diversi tra loro in poco più di una settimana e mezzo.',

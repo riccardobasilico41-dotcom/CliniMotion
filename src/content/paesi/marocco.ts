@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const marocco: Paese = {
   slug: 'marocco',
   nome: 'Marocco',
+  continente: 'Africa',
   titolo: 'Marocco 360°: da Marrakech al Sahara',
   descrizione:
     'Nove giorni in van privato da Marrakech al Sahara: la Kasbah di Telouet, il ksar UNESCO di Aït Benhaddou, le Gole di Todra, una notte sotto le stelle a Erg Chebbi, la valle del Draa, Agadir, Taghazout e la città bianca e blu di Essaouira, con una guida locale che ha reso impeccabile ogni giornata.',

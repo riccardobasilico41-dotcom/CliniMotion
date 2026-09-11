@@ -13,6 +13,7 @@ import type { Paese } from '@/lib/types'
 export const indonesia: Paese = {
   slug: 'indonesia',
   nome: 'Indonesia',
+  continente: 'Asia',
   titolo: 'Indonesia isola per isola: da Sumatra a Raja Ampat',
   descrizione:
     'Otto isole molto diverse tra loro — Sumatra, Giava, Bali, Sulawesi, Lombok e le Gili, Komodo, Flores, Raja Ampat — raccontate per ora come guida pratica isola per isola. I veri itinerari, che combinano più isole in un unico viaggio, arriveranno appena saranno pronti gli aneddoti e le foto.',

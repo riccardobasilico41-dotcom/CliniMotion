@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const costaRica: Paese = {
   slug: 'costa-rica',
   nome: 'Costa Rica',
+  continente: 'America Centrale',
   titolo: 'Costa Rica 360° in 13 giorni: dal Caribe al Pacifico, tra bradipi, vulcani e balene',
   descrizione:
     'Tredici giorni che attraversano il paese da una costa all\'altra, dal Mar dei Caraibi al Pacifico: foreste pluviali, canyon di lava vulcanica, la foresta nebulosa di Monteverde e spiagge dove si avvistano le balene. Probabilmente il viaggio più denso di tutto l\'archivio.',

@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const thailandia: Paese = {
   slug: 'thailandia',
   nome: 'Thailandia',
+  continente: 'Asia',
   titolo: 'Thailandia: da Bangkok al mare del sud, con Chiang Mai, Phuket e le Similan',
   descrizione:
     'Più viaggi nel tempo, raccontati insieme: un giro strutturato di 11 giorni da Bangkok a Hua Hin, Khao Sok, Krabi e Koh Phi Phi, più le visite ripetute a Bangkok e i viaggi separati a Chiang Mai e verso le isole del mare delle Andamane.',

@@ -19,7 +19,7 @@ export default function ViaggiIndexPage() {
       <Container>
         <SectionHeading
           title="Tutti i viaggi"
-          description={`${viaggi.length} itinerari completi, giorno per giorno — oppure esplora una singola destinazione o esperienza dalla pagina Paese.`}
+          description={`${viaggi.length} itinerari completi, giorno per giorno, divisi per macro-regione — oppure esplora una singola destinazione o esperienza dalla pagina Paese.`}
         />
 
         <div className="mt-10">

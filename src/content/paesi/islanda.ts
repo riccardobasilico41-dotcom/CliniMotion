@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const islanda: Paese = {
   slug: 'islanda',
   nome: 'Islanda',
+  continente: 'Europa',
   titolo: 'Islanda: 9 giorni in tenda lungo la Ring Road',
   descrizione:
     'Nove giorni ad anello attorno all\'isola del ghiaccio e del fuoco, sei notti su otto passate in tenda: cascate una via l\'altra, un ghiacciaio da camminare con i ramponi, una laguna glaciale da esplorare in kayak, un\'eruzione vulcanica vista da vicino e un relitto d\'aereo raggiunto a piedi a mezzanotte. Un itinerario on the road pensato per il campeggio, non per gli hotel.',

@@ -3,6 +3,7 @@ import type { Paese } from '@/lib/types'
 export const transilvania: Paese = {
   slug: 'transilvania',
   nome: 'Transilvania',
+  continente: 'Europa',
   titolo: 'Transilvania Express in 5 giorni: castelli, saline sotterranee e la strada più bella del mondo',
   descrizione:
     'Cinque giorni densissimi on the road tra Valacchia e Transilvania: il Castello di Peleș, il "Castello di Dracula" a Bran, le saline sotterranee di Salina Turda e la Transfăgărășan, una delle strade panoramiche più famose al mondo, tra tornanti di montagna e avvistamenti di orsi dal finestrino.',
