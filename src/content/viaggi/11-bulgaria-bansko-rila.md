@@ -14,7 +14,10 @@ Non mi aspettavo grandi cose dallo sci in Bulgaria, ed è esattamente quello che
 ## Scheda pratica
 - **Quando andare:** stagione sciistica bulgara dal 1° dicembre a metà aprile, con innevamento artificiale su gran parte delle piste (copertura cannoni oltre il 90%) — neve garantita anche nei periodi più secchi.
 - **Documenti/visto:** Bulgaria in UE, nessun visto necessario per cittadini italiani; basta carta d'identità valida per l'espatrio o passaporto.
-- **Moneta:** Lev bulgaro (BGN), non euro — cambio fisso 1€ = 1,95583 BGN.
+- **Moneta:** **euro.** Al tempo di questo viaggio si usava il lev bulgaro (BGN), con
+  cambio fisso 1€ = 1,95583 BGN, ma dal 1° gennaio 2026 la Bulgaria è entrata
+  nell'eurozona e dal 1° febbraio 2026 l'euro è l'unica valuta legale: i prezzi in lev
+  dei racconti di viaggio più vecchi vanno riconvertiti.
 - **Come arrivarci:** si vola su **Sofia**, l'unico aeroporto internazionale comodo per Bansko (circa 160 km, 2-2h30 di auto).
 - **Da Sofia a Bansko — le alternative all'auto a noleggio:** ho preso l'auto direttamente in aeroporto e guidato fino a Bansko, ma non è l'unica opzione:
   - **Auto a noleggio** (la mia scelta): la soluzione più flessibile, comoda soprattutto per fare tappa al Monastero di Rila lungo il tragitto. Strada di montagna, in inverno meglio con gomme invernali.
@@ -74,7 +77,7 @@ Mehane del centro storico di Bansko, tra kapama, banitsa e shopska salata, sempr
 ## Consigli pratici / errori da non ripetere
 - Se si sceglie l'auto invece del transfer/shuttle, verificare le condizioni della strada di montagna in caso di neve fresca — gomme invernali sempre consigliate.
 - Prenotare gli skipass online con qualche giorno di anticipo: gli sconti rispetto alla biglietteria in loco possono arrivare fino al 25%.
-- Portare contanti in lev: molte mehane fuori dal centro e i piccoli negozi non accettano sempre le carte.
+- Portare contanti: molte mehane fuori dal centro e i piccoli negozi non accettano sempre le carte (dal 2026 si paga in euro, non più in lev).
 - Non aspettarsi piste da Alpi: si va per l'esperienza e il prezzo, non per il livello del comprensorio.
 - Il Monastero di Rila si incastra perfettamente nel tragitto di rientro verso Sofia: non serve una giornata dedicata a parte.
 

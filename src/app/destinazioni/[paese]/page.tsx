@@ -10,6 +10,7 @@ import { RouteTimeline } from '@/components/RouteTimeline'
 import { DestinationCard } from '@/components/DestinationCard'
 import { ExperienceCard } from '@/components/ExperienceCard'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
+import { CountrySheet } from '@/components/CountrySheet'
 import { getAllPaesi, getPaese, getDestinazioniByPaese, getEsperienzeByPaese, getTripMeta } from '@/lib/geo'
 import { getViaggioBySlug } from '@/lib/viaggi'
 
@@ -171,25 +172,35 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
         <Container>
           <SectionHeading
             title="Organizza il viaggio"
-            description="Le informazioni pratiche raccolte nella scheda del viaggio: verificale sempre prima di partire, prezzi e orari cambiano."
+            description={
+              paese.scheda
+                ? `Tutto quello che serve per organizzare un viaggio in ${paese.nome}, al di là del singolo itinerario.`
+                : 'Le informazioni pratiche raccolte nella scheda del viaggio: verificale sempre prima di partire, prezzi e orari cambiano.'
+            }
           />
-          <PracticalInfo
-            className="mt-10 sm:grid-cols-3"
-            items={[
-              { label: 'Quando andare', href: `/viaggi/${paese.tripPrincipaleSlug}#scheda-riassuntiva`, value: 'Periodo e stagionalità' },
-              { label: 'Come spostarsi', href: `/viaggi/${paese.tripPrincipaleSlug}#scheda-riassuntiva`, value: 'Trasporti principali' },
-              { label: 'Budget', href: `/viaggi/${paese.tripPrincipaleSlug}#budget`, value: 'Voci di spesa' },
-              { label: 'Documenti', href: `/viaggi/${paese.tripPrincipaleSlug}#itinerario-giorno-per-giorno`, value: 'Passaporto e visto' },
-              { label: 'SIM e internet', href: `/viaggi/${paese.tripPrincipaleSlug}#itinerario-giorno-per-giorno`, value: 'Come restare connessi' },
-              { label: 'Salute e assicurazione', href: `/viaggi/${paese.tripPrincipaleSlug}#itinerario-giorno-per-giorno`, value: 'Cosa sapere prima di partire' },
-              { label: 'Cosa mettere in valigia', href: `/viaggi/${paese.tripPrincipaleSlug}#itinerario-giorno-per-giorno`, value: 'Bagaglio consigliato' },
-              { label: 'Errori da evitare', href: `/viaggi/${paese.tripPrincipaleSlug}#errori-da-evitare`, value: 'Cosa non rifare' },
-            ]}
-          />
-          <p className="mt-6 flex items-center gap-1.5 text-xs text-stone/60">
-            <ArrowUpRight size={12} />
-            Pagine pratiche dedicate (una per argomento) sono il prossimo passo: per ora ogni voce rimanda alla sezione corrispondente della scheda del viaggio.
-          </p>
+          {paese.scheda ? (
+            <CountrySheet scheda={paese.scheda} />
+          ) : (
+            <>
+              <PracticalInfo
+                className="mt-10 sm:grid-cols-3"
+                items={[
+                  { label: 'Quando andare', href: `/viaggi/${paese.tripPrincipaleSlug}#scheda-riassuntiva`, value: 'Periodo e stagionalità' },
+                  { label: 'Come spostarsi', href: `/viaggi/${paese.tripPrincipaleSlug}#scheda-riassuntiva`, value: 'Trasporti principali' },
+                  { label: 'Budget', href: `/viaggi/${paese.tripPrincipaleSlug}#budget`, value: 'Voci di spesa' },
+                  { label: 'Documenti', href: `/viaggi/${paese.tripPrincipaleSlug}#itinerario-giorno-per-giorno`, value: 'Passaporto e visto' },
+                  { label: 'SIM e internet', href: `/viaggi/${paese.tripPrincipaleSlug}#itinerario-giorno-per-giorno`, value: 'Come restare connessi' },
+                  { label: 'Salute e assicurazione', href: `/viaggi/${paese.tripPrincipaleSlug}#itinerario-giorno-per-giorno`, value: 'Cosa sapere prima di partire' },
+                  { label: 'Cosa mettere in valigia', href: `/viaggi/${paese.tripPrincipaleSlug}#itinerario-giorno-per-giorno`, value: 'Bagaglio consigliato' },
+                  { label: 'Errori da evitare', href: `/viaggi/${paese.tripPrincipaleSlug}#errori-da-evitare`, value: 'Cosa non rifare' },
+                ]}
+              />
+              <p className="mt-6 flex items-center gap-1.5 text-xs text-stone/60">
+                <ArrowUpRight size={12} />
+                Scheda pratica completa in arrivo anche per questo Paese: per ora ogni voce rimanda alla sezione corrispondente della scheda del viaggio.
+              </p>
+            </>
+          )}
         </Container>
       </section>
     </>

@@ -12,11 +12,38 @@ export const STATO_CONTENUTO_LABEL: Record<StatoContenuto, string> = {
   'da-confermare': 'Da confermare',
 }
 
+/**
+ * Scheda pratica di Paese: le informazioni che servono a chi organizza il
+ * viaggio, indipendenti dal singolo itinerario. Compilata con ricerca su
+ * fonti ufficiali e di settore — regole d'ingresso, prezzi e livelli di
+ * sicurezza cambiano, per questo ogni scheda porta la data di verifica.
+ */
+export type SchedaPaese = {
+  documenti: string
+  valuta: string
+  pagamenti: string
+  connettivita: string
+  salute: string
+  sicurezza: string
+  trasportiInterni: string
+  costoVita: string
+  lingua: string
+  elettricita: string
+  fusoOrario: string
+  clima: string
+  festivita?: string
+  emergenze?: string
+  /** Mese e anno in cui la scheda è stata verificata (es. "settembre 2026"). */
+  aggiornatoAl: string
+}
+
 export type Paese = {
   slug: string
   nome: string
-  /** Macro-regione di appartenenza, usata per raggruppare l'indice Destinazioni. Vedi CONTINENTI in src/lib/geo.ts. */
+  /** Macro-regione di appartenenza, usata per raggruppare l'indice Destinazioni. Vedi CONTINENTI in src/lib/utils.ts. */
   continente: string
+  /** Scheda pratica completa. Assente finché il Paese non è stato ricercato: la UI mostra la sezione solo se presente. */
+  scheda?: SchedaPaese
   titolo: string
   descrizione: string
   periodoMigliore: string

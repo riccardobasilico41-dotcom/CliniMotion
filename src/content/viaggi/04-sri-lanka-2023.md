@@ -18,8 +18,11 @@ Della notte dell'Adam's Peak ricordo soprattutto la fatica condivisa: partire ne
 - **Quando andare:** novembre è già bassa stagione per le piogge sulla costa
   ovest/sud, ma è alta stagione per l'Adam's Peak (percorso illuminato e pieno
   di pellegrini fino a maggio) e per i safari nel nord-centro.
-- **Documenti/visto:** visto elettronico ETA obbligatorio, richiesta online,
-  rilasciato in circa 24h, costo ~70€ a persona.
+- **Documenti/visto:** visto elettronico ETA obbligatorio, richiesta online su
+  eta.gov.lk, rilasciato in circa 24h. *Aggiornamento: al tempo di questo
+  viaggio costava circa 70€ a persona, ma dal 25 maggio 2026 l'ETA è gratuita
+  per i titolari di passaporto italiano — verificare sempre le condizioni
+  aggiornate prima di partire.*
 - **Budget:** cassa comune di partenza consigliata 250€ a testa (sufficiente
   anche con attività extra), più una media di ulteriori 200€ a testa durante il
   viaggio per cibo, bevande, acqua, souvenir, massaggi.
