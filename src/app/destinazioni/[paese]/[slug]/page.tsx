@@ -9,6 +9,8 @@ import { ContentStatusBadge } from '@/components/ui/ContentStatusBadge'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { ExperienceCard } from '@/components/ExperienceCard'
 import { ComparisonBlock } from '@/components/ComparisonBlock'
+import { JsonLd } from '@/components/JsonLd'
+import { breadcrumbJsonLd } from '@/lib/structured-data'
 import { RelatedContent } from '@/components/RelatedContent'
 import {
   getAllDestinazioni,
@@ -68,9 +70,16 @@ export default async function DestinazionePage({
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <JsonLd
+        data={[
+          jsonLd,
+          breadcrumbJsonLd([
+            { nome: 'Home', percorso: '/' },
+            { nome: 'Destinazioni', percorso: '/destinazioni' },
+            { nome: paese.nome, percorso: `/destinazioni/${paeseSlug}` },
+            { nome: destinazione.nome, percorso: `/destinazioni/${paeseSlug}/${destinazione.slug}` },
+          ]),
+        ]}
       />
       <section className="border-b border-alpine/10 bg-alpine-dark py-16 text-cream sm:py-20">
         <Container>

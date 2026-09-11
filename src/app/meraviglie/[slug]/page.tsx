@@ -8,6 +8,8 @@ import { Reveal } from '@/components/Reveal'
 import { ContentStatusBadge } from '@/components/ui/ContentStatusBadge'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { getAllMeraviglie, getMeraviglia } from '@/lib/meraviglie'
+import { JsonLd } from '@/components/JsonLd'
+import { breadcrumbJsonLd } from '@/lib/structured-data'
 
 export async function generateStaticParams() {
   return getAllMeraviglie().map((m) => ({ slug: m.slug }))
@@ -47,9 +49,15 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <JsonLd
+        data={[
+          jsonLd,
+          breadcrumbJsonLd([
+            { nome: 'Home', percorso: '/' },
+            { nome: 'Meraviglie del mondo', percorso: '/meraviglie' },
+            { nome: meraviglia.nome, percorso: `/meraviglie/${meraviglia.slug}` },
+          ]),
+        ]}
       />
       <section className="relative flex min-h-[42vh] items-end overflow-hidden border-b border-alpine/10 bg-alpine-dark text-cream sm:min-h-[48vh]">
         {meraviglia.heroImage && (

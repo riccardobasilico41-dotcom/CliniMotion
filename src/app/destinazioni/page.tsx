@@ -7,6 +7,8 @@ import { RevealGroup, RevealItem } from '@/components/Reveal'
 import { getAllPaesi } from '@/lib/geo'
 import { raggruppaPerContinente } from '@/lib/utils'
 import { siteConfig } from '@/lib/site-config'
+import { JsonLd } from '@/components/JsonLd'
+import { raccoltaJsonLd } from '@/lib/structured-data'
 
 export const metadata: Metadata = {
   title: 'Destinazioni',
@@ -20,6 +22,14 @@ export default function DestinazioniIndexPage() {
 
   return (
     <section className="py-20 sm:py-28">
+      <JsonLd
+        data={raccoltaJsonLd({
+          nome: 'Destinazioni',
+          descrizione: `I Paesi esplorati in profondità su ${siteConfig.brandName}.`,
+          percorso: '/destinazioni',
+          elementi: paesi.map((p) => ({ nome: p.nome, percorso: `/destinazioni/${p.slug}` })),
+        })}
+      />
       <Container>
         <SectionHeading
           title="Destinazioni"

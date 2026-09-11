@@ -5,6 +5,8 @@ import { RevealGroup, RevealItem } from '@/components/Reveal'
 import { MeravigliaCard } from '@/components/MeravigliaCard'
 import { getAllMeraviglie } from '@/lib/meraviglie'
 import { siteConfig } from '@/lib/site-config'
+import { JsonLd } from '@/components/JsonLd'
+import { raccoltaJsonLd } from '@/lib/structured-data'
 
 export const metadata: Metadata = {
   title: 'Le sette meraviglie del mondo',
@@ -18,6 +20,14 @@ export default function MeraviglieIndexPage() {
 
   return (
     <section className="py-20 sm:py-28">
+      <JsonLd
+        data={raccoltaJsonLd({
+          nome: 'Le sette meraviglie del mondo',
+          descrizione: 'Guida pratica completa alle Sette Meraviglie del Mondo Moderno.',
+          percorso: '/meraviglie',
+          elementi: meraviglie.map((m) => ({ nome: m.nome, percorso: `/meraviglie/${m.slug}` })),
+        })}
+      />
       <Container>
         <SectionHeading
           eyebrow={`${visitate} su ${meraviglie.length} viste di persona`}

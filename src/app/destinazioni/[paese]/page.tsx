@@ -11,6 +11,8 @@ import { DestinationCard } from '@/components/DestinationCard'
 import { ExperienceCard } from '@/components/ExperienceCard'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { CountrySheet } from '@/components/CountrySheet'
+import { JsonLd } from '@/components/JsonLd'
+import { breadcrumbJsonLd } from '@/lib/structured-data'
 import { getAllPaesi, getPaese, getDestinazioniByPaese, getEsperienzeByPaese, getTripMeta } from '@/lib/geo'
 import { getViaggioBySlug } from '@/lib/viaggi'
 
@@ -52,9 +54,15 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <JsonLd
+        data={[
+          jsonLd,
+          breadcrumbJsonLd([
+            { nome: 'Home', percorso: '/' },
+            { nome: 'Destinazioni', percorso: '/destinazioni' },
+            { nome: paese.nome, percorso: `/destinazioni/${paeseSlug}` },
+          ]),
+        ]}
       />
       <CountryHero
         paese={paese}

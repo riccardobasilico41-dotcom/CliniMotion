@@ -4,6 +4,8 @@ import { SectionHeading } from '@/components/ui/SectionHeading'
 import { TripFilters } from '@/components/TripFilters'
 import { getAllViaggi } from '@/lib/viaggi'
 import { siteConfig } from '@/lib/site-config'
+import { JsonLd } from '@/components/JsonLd'
+import { raccoltaJsonLd } from '@/lib/structured-data'
 
 export const metadata: Metadata = {
   title: 'Tutti i viaggi',
@@ -16,6 +18,14 @@ export default function ViaggiIndexPage() {
 
   return (
     <section className="py-20 sm:py-28">
+      <JsonLd
+        data={raccoltaJsonLd({
+          nome: 'Tutti i viaggi',
+          descrizione: `Il catalogo completo degli itinerari di ${siteConfig.brandName}.`,
+          percorso: '/viaggi',
+          elementi: viaggi.map((v) => ({ nome: v.titolo, percorso: `/viaggi/${v.slug}` })),
+        })}
+      />
       <Container>
         <SectionHeading
           title="Tutti i viaggi"

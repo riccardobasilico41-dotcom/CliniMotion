@@ -8,6 +8,8 @@ import { MeravigliaCard } from '@/components/MeravigliaCard'
 import { Reveal, RevealGroup, RevealItem } from '@/components/Reveal'
 import { getAllViaggi } from '@/lib/viaggi'
 import { getAllMeraviglie } from '@/lib/meraviglie'
+import { getAllPaesi, getAllDestinazioni, getAllEsperienze } from '@/lib/geo'
+import { raggruppaPerContinente } from '@/lib/utils'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
@@ -27,6 +29,10 @@ export default function HomePage() {
   const primo = pronto ?? viaggi[0]
   const altri = viaggi.filter((v) => v.slug !== primo?.slug)
   const meraviglie = getAllMeraviglie()
+  const paesi = getAllPaesi()
+  const destinazioni = getAllDestinazioni()
+  const esperienze = getAllEsperienze()
+  const gruppiPaesi = raggruppaPerContinente(paesi, (p) => p.continente)
 
   return (
     <>
@@ -58,12 +64,77 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* Text-fold: the lede, narrow measure */}
+      {/* Text-fold: la premessa del diario, più i numeri di cosa c'è dentro */}
       <section className="py-16 sm:py-20">
         <Container>
           <Reveal>
             <p className="max-w-2xl text-lg leading-relaxed text-stone sm:text-xl">{siteConfig.description}</p>
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-stone">
+              Non è una guida copiata da altre guide: ogni itinerario è stato percorso davvero, e quello che trovi
+              qui — prezzi pagati, errori fatti, tappe che non valevano la sosta — è scritto perché serva a chi
+              quel viaggio lo deve ancora organizzare.
+            </p>
           </Reveal>
+
+          <Reveal delay={0.08}>
+            <dl className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-alpine/10 bg-alpine/10 sm:grid-cols-4">
+              {[
+                { valore: viaggi.length, etichetta: 'itinerari raccontati' },
+                { valore: paesi.length, etichetta: 'Paesi in archivio' },
+                { valore: destinazioni.length, etichetta: 'destinazioni' },
+                { valore: esperienze.length, etichetta: 'esperienze provate' },
+              ].map((voce) => (
+                <div key={voce.etichetta} className="bg-cream p-5 text-center sm:p-6">
+                  <dt className="font-display text-3xl font-medium text-alpine sm:text-4xl">{voce.valore}</dt>
+                  <dd className="mt-1 text-xs uppercase tracking-wider text-stone/70">{voce.etichetta}</dd>
+                </div>
+              ))}
+            </dl>
+          </Reveal>
+        </Container>
+      </section>
+
+      {/* Punto di incontro: da qui si entra in qualsiasi Paese dell'archivio */}
+      <section className="border-t border-alpine/10 bg-cream-dark/40 py-20 sm:py-28">
+        <Container>
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <h2 className="font-display text-3xl font-medium text-balance text-alpine sm:text-4xl">
+                Da dove vuoi partire?
+              </h2>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
+                Ogni Paese ha una scheda pratica completa — documenti, valuta, SIM, salute, sicurezza, trasporti,
+                clima — più le sue destinazioni e le esperienze che valgono il tempo.
+              </p>
+            </div>
+            <Link
+              href="/destinazioni"
+              className="group inline-flex items-center gap-2 text-sm font-medium text-rosso hover:underline"
+            >
+              Vedi tutte le destinazioni
+              <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+
+          <div className="mt-10 space-y-8">
+            {gruppiPaesi.map(({ continente, items }) => (
+              <Reveal key={continente}>
+                <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">{continente}</h3>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {items.map((paese) => (
+                    <li key={paese.slug}>
+                      <Link
+                        href={`/destinazioni/${paese.slug}`}
+                        className="inline-flex rounded-full border border-alpine/15 bg-white px-4 py-2 text-sm text-ink transition-colors hover:border-alpine/40 hover:text-alpine"
+                      >
+                        {paese.nome}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </Reveal>
+            ))}
+          </div>
         </Container>
       </section>
 

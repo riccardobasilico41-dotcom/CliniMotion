@@ -9,6 +9,8 @@ import { PersonalVerdict } from '@/components/ui/PersonalVerdict'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { RelatedContent } from '@/components/RelatedContent'
 import { ComparisonBlock } from '@/components/ComparisonBlock'
+import { JsonLd } from '@/components/JsonLd'
+import { breadcrumbJsonLd } from '@/lib/structured-data'
 import {
   getAllEsperienze,
   getEsperienza,
@@ -58,9 +60,16 @@ export default async function EsperienzaPage({
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <JsonLd
+        data={[
+          jsonLd,
+          breadcrumbJsonLd([
+            { nome: 'Home', percorso: '/' },
+            { nome: 'Destinazioni', percorso: '/destinazioni' },
+            { nome: paese.nome, percorso: `/destinazioni/${paeseSlug}` },
+            { nome: esperienza.nome, percorso: `/esperienze/${paeseSlug}/${esperienza.slug}` },
+          ]),
+        ]}
       />
       <section className="border-b border-alpine/10 bg-alpine-dark py-16 text-cream sm:py-20">
         <Container>

@@ -16,6 +16,8 @@ import { getAllViaggi, getViaggioBySlug, getContinente } from '@/lib/viaggi'
 import { getTripMeta } from '@/lib/geo'
 import type { ViaggioInBreve } from '@/lib/types'
 import { slugify } from '@/lib/utils'
+import { JsonLd } from '@/components/JsonLd'
+import { articoloViaggioJsonLd, breadcrumbJsonLd } from '@/lib/structured-data'
 import { copertineViaggi } from '@/content/viaggi-copertine'
 
 export async function generateStaticParams() {
@@ -73,6 +75,21 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
 
   return (
     <>
+      <JsonLd
+        data={[
+          articoloViaggioJsonLd({
+            titolo: viaggio.titolo,
+            descrizione: viaggio.descrizione,
+            percorso: `/viaggi/${viaggio.slug}`,
+            sezioni: viaggio.sezioni.map((s) => s.titolo),
+          }),
+          breadcrumbJsonLd([
+            { nome: 'Home', percorso: '/' },
+            { nome: 'Viaggi', percorso: '/viaggi' },
+            { nome: viaggio.titolo, percorso: `/viaggi/${viaggio.slug}` },
+          ]),
+        ]}
+      />
       <ScrollProgress className="fixed inset-x-0 top-0 z-[60] h-0.5 bg-rosso motion-reduce:hidden" />
       <section className="relative overflow-hidden border-b border-alpine/10 bg-alpine-dark py-20 text-cream sm:py-28">
         {copertina && (
