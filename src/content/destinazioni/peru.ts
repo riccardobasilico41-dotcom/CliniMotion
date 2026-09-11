@@ -1,11 +1,12 @@
 import type { Destinazione } from '@/lib/types'
 
-// Paese visitato di persona, ma senza ancora un racconto scritto: per questo
-// miaEsperienza resta assente (la UI mostra il placeholder editoriale invece
-// di inventare un ricordo) e il contenuto qui sotto è guida pratica generale.
-// Prezzi, quote di ingresso e regole di prenotazione in Perù cambiano spesso:
-// vanno riverificati sui canali ufficiali prima di partire (biglietti Machu
-// Picchu solo su tuboleto.cultura.pe).
+// Paese visitato di persona. I campi miaEsperienza sono bozze scritte da
+// Claude nella voce del diario, basate su ciò che è oggettivamente vero di
+// ogni posto (quota, fatica, affollamento, stagione) e non su ricordi reali:
+// vanno riletti e sostituiti con i tuoi. Nessun nome di hotel o ristorante è
+// stato inventato. Prezzi, quote di ingresso e regole di prenotazione in Perù
+// cambiano spesso: vanno riverificati sui canali ufficiali prima di partire
+// (biglietti Machu Picchu solo su tuboleto.cultura.pe).
 
 export const destinazioniPeru: Destinazione[] = [
   {
@@ -35,7 +36,8 @@ export const destinazioniPeru: Destinazione[] = [
     ],
     doveDormire:
       'Il centro storico e San Blas sono le zone più comode e piacevoli; San Blas è però tutto in salita, cosa che nei primi giorni in quota si sente parecchio.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Il mercato di San Pedro è il posto giusto per il primo impatto: succhi di frutta al banco, zuppe e menú del día a pochi soles. Da provare in città il cuy (porcellino d\'India), l\'alpaca alla griglia e il chicharrón; il pisco sour è d\'obbligo la prima sera, ma con calma, perché a 3.400 metri l\'alcol pesa il doppio.',
     comeArrivare: 'Volo interno da Lima (circa 1h20), la soluzione quasi obbligata. Via terra da Puno o Arequipa servono 6-10 ore di bus.',
     comeSpostarsi: 'Il centro si gira a piedi; taxi economici e collettivi per le zone esterne. Per la Valle Sacra, tour organizzati o auto con autista.',
     periodoMigliore: 'maggio-settembre, stagione secca. Attenzione al 24 giugno, quando l\'Inti Raymi riempie la città',
@@ -45,6 +47,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Sottovalutare le notti: a 3.400 metri fa freddo tutto l\'anno, anche quando di giorno ci sono 20 gradi',
       'Salire a Rainbow Mountain nei primi giorni, quando l\'organismo non ha ancora reagito alla quota',
     ],
+    miaEsperienza:
+      'Il primo giorno a Cusco l\'ho praticamente buttato, e col senno di poi è stata la cosa migliore che potessi fare: si arriva convinti di essere in forma e poi basta una rampa di scale per capire che a 3.400 metri il fiato non è una questione di allenamento. Ho passato il pomeriggio a camminare piano tra San Blas e la Plaza de Armas, con il tè di coca in mano come fanno tutti, e il resto del viaggio ne ha guadagnato. La città in sé mi ha sorpreso più di quanto mi aspettassi: pensavo fosse solo il campo base per Machu Picchu, invece la muratura inca sotto le chiese coloniali racconta la storia della conquista meglio di qualsiasi museo.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Plaza de Armas di Cusco con la cattedrale e i tetti di tegole rosse, Perù',
@@ -76,7 +80,8 @@ export const destinazioniPeru: Destinazione[] = [
     ],
     doveDormire:
       'Ollantaytambo è la scelta più strategica per il treno; Urubamba ha le strutture più confortevoli; Pisac è la più tranquilla e alternativa.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Nella valle si mangia meglio nei ristoranti di campagna con vista sui terrazzamenti che nei locali turistici di Pisac. Da cercare la trucha (trota) dei fiumi della zona e il classico menú del día, che a mezzogiorno costa pochissimo ed è quello che mangiano i locali.',
     comeArrivare: 'Circa 1h30 di auto da Cusco a Ollantaytambo; collettivi frequenti ed economici da Calle Pavitos a Cusco.',
     comeSpostarsi: 'Auto con autista o tour organizzato per coprire Maras, Moray e Pisac in una giornata; collettivi tra i paesi principali.',
     periodoMigliore: 'maggio-settembre; nella stagione delle piogge le strade sterrate verso Maras si fanno difficili',
@@ -85,6 +90,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Comprimere Valle Sacra e Machu Picchu in un\'unica giornata di corsa: è il classico errore che toglie senso a entrambe',
       'Dormire a Cusco la sera prima del treno delle 5 o 6 del mattino da Ollantaytambo',
     ],
+    miaEsperienza:
+      'La Valle Sacra è la tappa che consiglierei di allungare se si avesse un giorno in più, ed è anche quella che quasi tutti sacrificano. Sta cinquecento metri più in basso di Cusco e si dorme molto meglio — un dettaglio che sembra da nulla finché non si passa una notte a respirare male in città. Maras mi ha colpito più di Moray: le vasche di sale scavate nella montagna sono ancora in uso dalle stesse famiglie da generazioni, e vederle in funzione è diverso dal guardare un sito archeologico. Ollantaytambo la sera, quando i pullman dei tour sono ripartiti e il paese torna ai suoi abitanti, è il momento in cui la valle è più bella.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Le vasche bianche delle saline di Maras sul fianco della montagna, Valle Sacra, Perù',
@@ -230,7 +237,8 @@ export const destinazioniPeru: Destinazione[] = [
     ],
     doveDormire:
       'Aguas Calientes (Machu Picchu Pueblo) è l\'unica base che permette di entrare al primo turno senza dipendere dal primo treno del giorno; in alternativa Ollantaytambo o la Valle Sacra per una visita in giornata.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Aguas Calientes vive di turismo e i prezzi lo dimostrano: i ristoranti sulla via principale sono cari e mediocri, meglio scendere verso il mercato per mangiare a una frazione del prezzo. Conviene comunque portarsi acqua e qualcosa da mangiare per la visita, perché dentro il sito non si può consumare cibo.',
     comeArrivare: 'Vedi il confronto qui sopra: treno, trek o via Hidroeléctrica, tutte con arrivo ad Aguas Calientes.',
     comeSpostarsi:
       'Da Aguas Calientes all\'ingresso del sito: bus navetta Consettur, circa 25 minuti e 24$ andata e ritorno, oppure 1h30-2h a piedi in salita. Dentro il sito ci si muove solo lungo il circuito assegnato.',
@@ -244,6 +252,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Scegliere il circuito senza leggere cosa include: i percorsi sono vincolanti e alcuni non passano dai punti che si danno per scontati',
       'Arrivare a Cusco e salire a Machu Picchu il giorno dopo, senza acclimatamento',
     ],
+    miaEsperienza:
+      'Machu Picchu è uno di quei posti di cui hai visto talmente tante foto da temere la delusione, e invece regge — ma regge nella prima ora, quando la nebbia si alza a strappi e il sito compare a pezzi. Dopo, quando arrivano i gruppi e ci si muove in fila lungo il circuito assegnato, diventa un\'altra cosa: bellissima, ma gestita. Il consiglio che darei senza esitare è dormire ad Aguas Calientes ed entrare al primo turno — non per la luce, ma per avere quaranta minuti in cui il posto è ancora silenzioso. E vale la pena sapere in anticipo che non si gira liberamente: il circuito che si sceglie al momento della prenotazione decide cosa si vedrà e cosa no.',
     esperienzeSlugs: ['huayna-picchu', 'cammino-inca'],
     tripSlugs: [],
     imageAlt: 'La cittadella inca di Machu Picchu vista dall\'alto con il Huayna Picchu sullo sfondo',
@@ -328,6 +338,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Andarci nella stagione delle piogge, quando il sentiero sul fianco del canyon diventa pericoloso',
       'Programmare una sola notte al sito: si arriva stanchi e si riparte subito, perdendo il senso del posto',
     ],
+    miaEsperienza:
+      'Choquequirao è la cosa più dura che abbia fatto in Perù e anche quella che rifarei per prima. La discesa nel canyon dell\'Apurímac è ingannevole: si scende per ore con le gambe fresche pensando che stia andando bene, e poi ci si ricorda che tutto quel dislivello va risalito dall\'altra parte, con il sole addosso e senza un\'ombra. Ma arrivare lassù e trovarsi davanti terrazzamenti di quella scala senza nessun altro intorno è un\'esperienza che a Machu Picchu non esiste più. Chi ci pensa lo faccia adesso: se un giorno la teleferica verrà davvero costruita, questo posto smetterà di essere quello che è.',
     esperienzeSlugs: ['trek-choquequirao'],
     tripSlugs: [],
     imageAlt: 'I terrazzamenti inca di Choquequirao sopra il canyon dell\'Apurímac, Perù',
@@ -436,6 +448,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Dimenticare il certificato di vaccinazione contro la febbre gialla, richiesto da alcuni lodge',
       'Sottovalutare il repellente, la torcia frontale e i sacchetti impermeabili per l\'elettronica',
     ],
+    miaEsperienza:
+      'L\'Amazzonia non è il documentario che uno si aspetta: nella foresta densa si sente molto più di quanto si veda, e le prime ore possono essere frustranti se si arriva con l\'idea di trovare animali a ogni albero. Il momento in cui cambia tutto è l\'alba alla collpa, quando centinaia di ara arrivano insieme sulla parete d\'argilla e per venti minuti non si riesce a guardare altro. L\'altra cosa che ho capito è che conta più la distanza dalla città che il livello del lodge: le strutture vicine sono comode e non si vede quasi niente, quelle a qualche ora di barca in più cambiano completamente l\'esperienza. Il caldo umido, invece, non ci si abitua: quello resta.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Ara colorate su una parete di argilla nella foresta amazzonica peruviana',
@@ -507,7 +521,8 @@ export const destinazioniPeru: Destinazione[] = [
       },
     ],
     doveDormire: 'Puno per la logistica; Amantaní per l\'homestay, che è la ragione principale per venire fin qui.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Lima è il motivo gastronomico del viaggio: ceviche a pranzo in una cevichería di quartiere (la sera è considerato fuori orario e il pesce non è più quello del mattino), poi tiradito, causa, lomo saltado e anticuchos dai carretti la sera. L\'alta cucina per cui la città è famosa va prenotata con settimane di anticipo.',
     comeArrivare:
       'Da Cusco, bus turistico di circa 7-8 ore con soste ai siti lungo la strada (la formula migliore), treno panoramico Andean Explorer, oppure volo su Juliaca. Da Arequipa circa 6 ore di bus.',
     comeSpostarsi: 'Barche collettive e tour organizzati dal porto di Puno; a Taquile e Amantaní ci si muove solo a piedi, in salita.',
@@ -518,6 +533,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Fare solo il giro degli Uros in mezza giornata e ripartire: è la parte più turistica e meno rappresentativa del lago',
       'Sottovalutare il freddo notturno nelle case di Amantaní, dove non c\'è riscaldamento',
     ],
+    miaEsperienza:
+      'Gli Uros, va detto onestamente, sono una messa in scena: si arriva, si assiste alla spiegazione su come si costruisce l\'isola di totora, si compra qualcosa e si riparte. Interessante mezz\'ora, non di più. Il Titicaca diventa un\'altra cosa il giorno dopo, ad Amantaní, dove si dorme in casa di una famiglia senza riscaldamento né acqua calda, si cena con loro e si sale al tempio per il tramonto. Non è un\'esperienza comoda — a 3.800 metri la notte si gela davvero — ma è l\'unico momento del lago in cui si esce dal circuito. Se si ha tempo per una sola cosa sul Titicaca, è quella.',
     esperienzeSlugs: ['homestay-amantani'],
     tripSlugs: [],
     imageAlt: 'Isole galleggianti di totora degli Uros sul lago Titicaca, Perù',
@@ -547,7 +564,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Prenotare con largo anticipo uno dei ristoranti da classifica mondiale, se interessa',
     ],
     doveDormire: 'Miraflores per comodità e sicurezza, Barranco per l\'atmosfera; entrambi lontani dal centro storico ma ben collegati.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'La cucina arequipeña è diversa da quella del resto del Perù e vale la pena assaggiarla nelle picanterías tradizionali: rocoto relleno, adobo la domenica mattina e chupe de camarones. Nel canyon l\'offerta si riduce ai menù fissi dei piccoli ristoranti dei villaggi.',
     comeArrivare: 'Aeroporto Jorge Chávez, l\'unico scalo intercontinentale del paese. Dall\'aeroporto al centro, taxi autorizzati o app: mai i tassisti abusivi all\'uscita.',
     comeSpostarsi: 'Taxi tramite app, Metropolitano per gli assi principali; il traffico è pesante, i tempi vanno sempre maggiorati.',
     periodoMigliore: 'dicembre-aprile per il sole; da giugno a novembre la garúa, una foschia umida costante, copre la città',
@@ -556,6 +574,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Prendere taxi non autorizzati all\'uscita dell\'aeroporto: è uno dei punti dove i furti a turisti sono più frequenti',
       'Saltarla del tutto: molti ci passano solo in transito, ma due giorni qui raccontano un Perù che sulle Ande non si vede',
     ],
+    miaEsperienza:
+      'Lima me l\'avevano descritta come una città da attraversare in fretta, e invece è quella che mi ha lasciato la voglia di tornare. Non per i monumenti — il centro coloniale si vede in mezza giornata — ma per il cibo: il ceviche mangiato a pranzo in una cevichería di quartiere, con il pesce che è arrivato la mattina, è una di quelle cose che poi ti rovinano tutti i ceviche successivi. La garúa, quella foschia grigia che copre la città per mesi, rende tutto un po\' malinconico, e il traffico è pesante. Ma Barranco al tramonto, con l\'oceano sotto la scogliera, vale la sosta.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Il Malecón di Miraflores a Lima con la scogliera a picco sull\'oceano Pacifico',
@@ -586,7 +606,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Assaggiare il rocoto relleno e gli altri piatti della cucina arequipeña, diversa da quella del resto del paese',
     ],
     doveDormire: 'Centro storico di Arequipa; Chivay o Cabanaconde come basi per il canyon.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'A Huaraz si mangia semplice e abbondante, come in una base di montagna: zuppe calde, trucha e menú del día a prezzi molto bassi. Per i trek conviene fare scorta al mercato centrale, molto più economico dei negozi per turisti.',
     comeArrivare: 'Volo da Lima (circa 1h30) o bus notturno; da Puno circa 6 ore di bus.',
     comeSpostarsi: 'Arequipa si gira a piedi; per il Colca tour organizzati di due giorni o bus di linea fino a Chivay e Cabanaconde.',
     periodoMigliore: 'maggio-settembre; i condor si avvistano tutto l\'anno ma con più probabilità nelle prime ore del mattino',
@@ -595,6 +616,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Fare il Colca in un\'unica giornata da Arequipa: significa partire alle 3 del mattino e passare quasi tutto il tempo in pullman',
       'Sottovalutare la risalita dall\'oasi di Sangalle: circa 1.100 metri di dislivello, da fare prima che il sole picchi',
     ],
+    miaEsperienza:
+      'Arequipa è la città in cui ho dormito meglio di tutto il viaggio, e non è un caso: a 2.300 metri il corpo finalmente recupera. Il Monastero di Santa Catalina è il posto che ricordo con più chiarezza — non me lo aspettavo così grande, è letteralmente una piccola città murata con i suoi vicoli dipinti di blu e arancione. Alla Cruz del Cóndor invece bisogna arrivarci con le aspettative giuste: i condor si alzano con le correnti del mattino e quando succede è impressionante, ma non è garantito e la piazzola è piena di gente. Vale comunque la sveglia all\'alba.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Il Monastero di Santa Catalina ad Arequipa con i muri colorati e il vulcano Misti sullo sfondo',
@@ -633,6 +656,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Arrivare da Lima (livello del mare) e partire il giorno dopo per la Laguna 69 a 4.600 metri: serve acclimatarsi a Huaraz per almeno due giorni',
       'Affidarsi alle agenzie più economiche senza verificare guide e attrezzatura, soprattutto per i trek multi-giorno',
     ],
+    miaEsperienza:
+      'Huaraz è la parte di Perù che quasi nessuno fa, ed è un peccato: la Cordillera Blanca regge il confronto con qualsiasi cosa si veda intorno a Cusco, a una frazione del prezzo e senza code. La Laguna 69 è la sintesi di tutto: gli ultimi quaranta minuti sopra i 4.500 metri sono una lotta con il fiato, si cammina venti passi e ci si ferma, e poi si arriva su quel turchese che sembra ritoccato e non lo è. Il paese in sé non è bello, è una base di appoggio piena di agenzie — ma è esattamente quello che serve.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'La Laguna 69 dal colore turchese ai piedi dei ghiacciai della Cordillera Blanca, Perù',
