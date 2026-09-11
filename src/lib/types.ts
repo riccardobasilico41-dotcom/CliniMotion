@@ -57,6 +57,28 @@ export type Paese = {
   tripPrincipaleSlug: string
 }
 
+/**
+ * Confronto tra opzioni alternative per la stessa meta — usato dove la scelta
+ * è la vera informazione utile: come si arriva a Machu Picchu, da quale porta
+ * entrare in Amazzonia, quale trek scegliere.
+ */
+export type OpzioneConfronto = {
+  nome: string
+  sintesi: string
+  costo?: string
+  durata?: string
+  pro: string[]
+  contro: string[]
+  perChi: string
+}
+
+export type Confronto = {
+  titolo: string
+  introduzione: string
+  opzioni: OpzioneConfronto[]
+  raccomandazione?: string
+}
+
 export type Destinazione = {
   slug: string
   paeseSlug: string
@@ -77,6 +99,8 @@ export type Destinazione = {
   periodoMigliore?: string
   costi?: string
   erroriDaEvitare: string[]
+  /** Confronti tra opzioni alternative (accessi, trek, porte d'ingresso). Renderizzati solo se presenti. */
+  confronti?: Confronto[]
   /** Se assente, la UI mostra un placeholder editoriale invece di inventare un ricordo. */
   miaEsperienza?: string
   esperienzeSlugs: string[]
@@ -109,6 +133,8 @@ export type Esperienza = {
   comePrenotare?: string
   cosaPortare?: string
   perChiEAdatta?: string
+  /** Confronti tra varianti dell'esperienza (operatori, formule, percorsi). Renderizzati solo se presenti. */
+  confronti?: Confronto[]
   miaEsperienza?: string
   giudizio: GiudizioEsperienza
   alternative: string[]

@@ -8,6 +8,7 @@ import { Reveal } from '@/components/Reveal'
 import { ContentStatusBadge } from '@/components/ui/ContentStatusBadge'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { ExperienceCard } from '@/components/ExperienceCard'
+import { ComparisonBlock } from '@/components/ComparisonBlock'
 import { RelatedContent } from '@/components/RelatedContent'
 import {
   getAllDestinazioni,
@@ -152,6 +153,10 @@ export default async function DestinazionePage({
                 </ul>
               </div>
             )}
+
+            {destinazione.confronti?.map((confronto) => (
+              <ComparisonBlock key={confronto.titolo} confronto={confronto} />
+            ))}
 
             {destinazione.doveMangiare && (
               <div>

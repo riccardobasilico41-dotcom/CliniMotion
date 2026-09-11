@@ -1,8 +1,8 @@
 import type { Destinazione } from '@/lib/types'
 
-// Paese non ancora visitato: visitataPersonalmente resta false ovunque e
-// miaEsperienza è assente di proposito. Contenuto guida pratica generale —
-// prezzi e orari vanno riverificati prima di partire.
+// Paese visitato di persona, ma senza ancora un racconto scritto: miaEsperienza
+// resta assente e il contenuto qui sotto è guida pratica generale. Ricordi e
+// giudizi personali vanno aggiunti in un secondo momento.
 
 export const destinazioniBelize: Destinazione[] = [
   {
@@ -12,7 +12,7 @@ export const destinazioniBelize: Destinazione[] = [
     nome: 'Caye Caulker',
     tipologia: ['mare', 'isole'],
     giorniConsigliati: '3-4 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Un\'isola lunga poche centinaia di metri dove non circolano auto (solo golf cart e biciclette) e il motto ufficiale, scritto ovunque, è "Go Slow". La base più economica e rilassata per il mare del Belize.',
     percheAndarci:
@@ -50,7 +50,7 @@ export const destinazioniBelize: Destinazione[] = [
     nome: 'Ambergris Caye e San Pedro',
     tipologia: ['mare', 'diving'],
     giorniConsigliati: '3-5 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'L\'isola più grande e più sviluppata del Belize, con il paese di San Pedro come centro: più servizi, più ristoranti e più centri diving rispetto a Caye Caulker, ma anche prezzi più alti.',
     percheAndarci:
@@ -87,7 +87,7 @@ export const destinazioniBelize: Destinazione[] = [
     nome: 'San Ignacio e il Cayo',
     tipologia: ['natura', 'cultura', 'avventura'],
     giorniConsigliati: '2-4 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'L\'entroterra del Belize, al confine con il Guatemala: giungla, fiumi, siti maya e la grotta archeologica di Actun Tunichil Muknal, tra le più impressionanti al mondo.',
     percheAndarci:
@@ -126,7 +126,7 @@ export const destinazioniBelize: Destinazione[] = [
     nome: 'Placencia e Hopkins',
     tipologia: ['mare', 'cultura'],
     giorniConsigliati: '2-4 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La costa sud del Belize continentale: Placencia è una penisola sottile con le spiagge di sabbia più belle del paese, Hopkins è un villaggio garifuna noto per la cultura e i tamburi.',
     percheAndarci:

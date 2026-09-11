@@ -8,6 +8,7 @@ import { Reveal } from '@/components/Reveal'
 import { PersonalVerdict } from '@/components/ui/PersonalVerdict'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { RelatedContent } from '@/components/RelatedContent'
+import { ComparisonBlock } from '@/components/ComparisonBlock'
 import {
   getAllEsperienze,
   getEsperienza,
@@ -131,6 +132,10 @@ export default async function EsperienzaPage({
                 Ricordo personale da aggiungere.
               </div>
             )}
+
+            {esperienza.confronti?.map((confronto) => (
+              <ComparisonBlock key={confronto.titolo} confronto={confronto} />
+            ))}
 
             {esperienza.alternative.length > 0 && (
               <div>

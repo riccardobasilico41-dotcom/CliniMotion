@@ -1,8 +1,8 @@
 import type { Destinazione } from '@/lib/types'
 
-// Paese non ancora visitato: visitataPersonalmente resta false ovunque e
-// miaEsperienza è assente di proposito. Contenuto guida pratica generale —
-// prezzi e orari vanno riverificati prima di partire.
+// Paese visitato di persona, ma senza ancora un racconto scritto: miaEsperienza
+// resta assente e il contenuto qui sotto è guida pratica generale. Ricordi e
+// giudizi personali vanno aggiunti in un secondo momento.
 
 export const destinazioniPanama: Destinazione[] = [
   {
@@ -12,7 +12,7 @@ export const destinazioniPanama: Destinazione[] = [
     nome: 'Panama City',
     tipologia: ['città', 'cultura'],
     giorniConsigliati: '2-3 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Una capitale con due facce opposte a pochi chilometri di distanza: lo skyline di grattacieli sulla baia e il Casco Viejo, il centro storico coloniale Patrimonio UNESCO, con le sue piazze e i suoi rooftop.',
     percheAndarci:
@@ -51,7 +51,7 @@ export const destinazioniPanama: Destinazione[] = [
     nome: 'San Blas (Guna Yala)',
     tipologia: ['mare', 'isole', 'cultura'],
     giorniConsigliati: '2-4 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Un arcipelago di oltre 300 isole caraibiche amministrato in autonomia dal popolo Guna: palme, sabbia bianca, acqua bassa turchese e sistemazioni volutamente essenziali, spesso senza elettricità continua.',
     percheAndarci:
@@ -90,7 +90,7 @@ export const destinazioniPanama: Destinazione[] = [
     nome: 'Bocas del Toro',
     tipologia: ['mare', 'isole', 'nightlife'],
     giorniConsigliati: '3-5 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Arcipelago caraibico al confine con la Costa Rica, con case su palafitte, surf, snorkeling e una vita notturna che non ha eguali nel resto del paese.',
     percheAndarci:
@@ -131,7 +131,7 @@ export const destinazioniPanama: Destinazione[] = [
     nome: 'Boquete e gli altopiani',
     tipologia: ['natura', 'trekking'],
     giorniConsigliati: '2-4 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Il Panama d\'altura, nella provincia di Chiriquí: clima fresco, piantagioni di caffè tra i migliori al mondo, foreste nuvolose e il Volcán Barú, il punto più alto del paese.',
     percheAndarci:

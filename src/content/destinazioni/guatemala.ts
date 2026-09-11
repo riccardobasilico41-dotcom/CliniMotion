@@ -1,9 +1,9 @@
 import type { Destinazione } from '@/lib/types'
 
-// Paese non ancora visitato: visitataPersonalmente resta false ovunque e
-// miaEsperienza è assente di proposito (la UI mostra il placeholder
-// editoriale invece di inventare un ricordo). Il contenuto è guida pratica
-// generale — prezzi e orari vanno riverificati prima di partire.
+// Paese visitato di persona, ma senza ancora un racconto scritto: per questo
+// miaEsperienza resta assente (la UI mostra il placeholder editoriale invece
+// di inventare un ricordo) e il contenuto qui sotto è guida pratica generale.
+// Ricordi e giudizi personali vanno aggiunti in un secondo momento.
 
 export const destinazioniGuatemala: Destinazione[] = [
   {
@@ -13,7 +13,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     nome: 'Antigua Guatemala',
     tipologia: ['cultura', 'città'],
     giorniConsigliati: '2-3 giorni, più una notte extra se si fa il trekking all\'Acatenango',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'L\'ex capitale coloniale, Patrimonio UNESCO: strade acciottolate, facciate color pastello, rovine di chiese distrutte dai terremoti e tre vulcani a fare da sfondo — Agua, Fuego e Acatenango.',
     percheAndarci:
@@ -52,7 +52,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     nome: 'Lago Atitlán',
     tipologia: ['natura', 'cultura'],
     giorniConsigliati: '2-4 giorni, a seconda di quanti villaggi si vogliono vedere',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Un lago dentro una caldera vulcanica, circondato da tre vulcani e da una decina di villaggi maya molto diversi tra loro, collegati fra loro quasi solo via barca.',
     percheAndarci:
@@ -93,7 +93,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     nome: 'Tikal e Flores',
     tipologia: ['cultura', 'natura'],
     giorniConsigliati: '2-3 giorni, di cui uno intero dedicato a Tikal',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Il più imponente sito maya del Guatemala, nella giungla del Petén: templi che superano i 60 metri e spuntano sopra la volta della foresta, con scimmie urlatrici e tucani come colonna sonora. Si visita usando come base l\'isola di Flores, sul lago Petén Itzá.',
     percheAndarci:
@@ -134,7 +134,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     nome: 'Semuc Champey',
     tipologia: ['natura', 'avventura'],
     giorniConsigliati: '2 giorni, considerando i lunghi trasferimenti',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Una scalinata naturale di piscine turchesi di acqua calcarea, costruita su un ponte di roccia sotto il quale il fiume Cahabón scorre incassato. Si trova in una valle remota della regione di Alta Verapaz, vicino al villaggio di Lanquín.',
     percheAndarci:
@@ -172,7 +172,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     nome: 'Chichicastenango',
     tipologia: ['cultura', 'mercati'],
     giorniConsigliati: 'mezza giornata, in giornata da Antigua o dal lago Atitlán',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Il mercato indigeno più grande dell\'America Centrale, che il giovedì e la domenica riempie l\'intero centro del paese: tessuti, maschere, ceramiche, fiori e generi alimentari.',
     percheAndarci:
