@@ -1,10 +1,11 @@
 import type { Destinazione } from '@/lib/types'
 
-// Contenuto guida pratica generale, non ancora un racconto personale:
-// miaEsperienza resta assente ovunque e visitataPersonalmente è false in
-// attesa di conferma. Prezzi, quote di ingresso e regole di prenotazione in
-// Perù cambiano spesso: vanno riverificati sui canali ufficiali prima di
-// partire (biglietti Machu Picchu solo su tuboleto.cultura.pe).
+// Paese visitato di persona, ma senza ancora un racconto scritto: per questo
+// miaEsperienza resta assente (la UI mostra il placeholder editoriale invece
+// di inventare un ricordo) e il contenuto qui sotto è guida pratica generale.
+// Prezzi, quote di ingresso e regole di prenotazione in Perù cambiano spesso:
+// vanno riverificati sui canali ufficiali prima di partire (biglietti Machu
+// Picchu solo su tuboleto.cultura.pe).
 
 export const destinazioniPeru: Destinazione[] = [
   {
@@ -14,7 +15,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Cusco',
     tipologia: ['cultura', 'città'],
     giorniConsigliati: '3-4 giorni, di cui almeno due solo per acclimatarsi',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'L\'antica capitale dell\'impero inca a 3.400 metri, dove le fondamenta in pietra incastrata a secco reggono ancora le chiese coloniali costruite sopra. È la base logistica di quasi tutto ciò che si fa in Perù: da qui partono treni, trek e voli per l\'Amazzonia.',
     percheAndarci:
@@ -55,7 +56,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Valle Sacra degli Inca',
     tipologia: ['cultura', 'natura'],
     giorniConsigliati: '2-3 giorni, meglio dormendoci invece di farla in giornata da Cusco',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La valle del fiume Urubamba tra Cusco e Machu Picchu: terrazzamenti, saline ancora in uso dai tempi degli Inca, villaggi di tessitori e la fortezza di Ollantaytambo, da cui partono i treni.',
     percheAndarci:
@@ -95,7 +96,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Machu Picchu',
     tipologia: ['cultura', 'trekking'],
     giorniConsigliati: '2 giorni (una notte ad Aguas Calientes) per entrare all\'apertura senza corse',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La cittadella inca del XV secolo sospesa tra le montagne, e la meta con il sistema di accesso più regolamentato di tutto il Sud America: quote giornaliere, fasce orarie fisse, circuiti obbligati e biglietti extra a numero chiusissimo per le vette.',
     percheAndarci:
@@ -254,7 +255,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Choquequirao',
     tipologia: ['trekking', 'cultura', 'avventura'],
     giorniConsigliati: '4-5 giorni per l\'andata e ritorno classico',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La "sorella di Machu Picchu": una cittadella inca di dimensioni paragonabili, scavata solo per circa un terzo, appollaiata sopra il canyon dell\'Apurímac. Ci arrivano meno di diecimila persone all\'anno, contro il milione e mezzo di Machu Picchu, e il motivo è semplice: non c\'è altro modo che camminare per due giorni.',
     percheAndarci:
@@ -338,7 +339,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Amazzonia peruviana',
     tipologia: ['natura', 'avventura'],
     giorniConsigliati: '3-4 giorni da Puerto Maldonado, 5-7 da Iquitos, 6-8 per il Manu',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Oltre metà del territorio peruviano è foresta amazzonica, e la domanda vera non è "andarci o no" ma "da quale porta entrare": Puerto Maldonado, Iquitos e il Manu offrono tre esperienze molto diverse per costo, difficoltà e tipo di fauna.',
     percheAndarci:
@@ -446,7 +447,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Lago Titicaca',
     tipologia: ['cultura', 'natura'],
     giorniConsigliati: '2-3 giorni dal lato peruviano, 4-5 se si prosegue in Bolivia',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Il lago navigabile più alto del mondo, a 3.812 metri, diviso tra Perù e Bolivia. Dal lato peruviano si parte da Puno per le isole galleggianti degli Uros, Taquile e Amantaní; dal lato boliviano ci sono Copacabana e l\'Isla del Sol, e il confine si attraversa senza difficoltà.',
     percheAndarci:
@@ -528,7 +529,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Lima',
     tipologia: ['città', 'cibo'],
     giorniConsigliati: '2 giorni, spesso all\'inizio e alla fine del viaggio',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La capitale sull\'oceano, punto di arrivo di ogni volo internazionale e, negli ultimi vent\'anni, una delle capitali gastronomiche mondiali: diversi ristoranti della città compaiono stabilmente nelle classifiche dei migliori al mondo.',
     percheAndarci: 'Perché ci si passa comunque, e perché è il posto dove la cucina peruviana si vede al massimo livello, dal ceviche di quartiere all\'alta cucina.',
@@ -566,7 +567,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Arequipa e il Colca',
     tipologia: ['cultura', 'natura'],
     giorniConsigliati: '3-4 giorni, di cui due per il canyon',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La "città bianca", costruita in sillar, la pietra vulcanica chiara, ai piedi del vulcano Misti — e a poche ore il Canyon del Colca, uno dei più profondi al mondo, dove i condor si alzano in volo la mattina presto.',
     percheAndarci:
@@ -605,7 +606,7 @@ export const destinazioniPeru: Destinazione[] = [
     nome: 'Huaraz e la Cordillera Blanca',
     tipologia: ['trekking', 'natura', 'avventura'],
     giorniConsigliati: '4-7 giorni, secondo i trek scelti',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La catena tropicale più alta del mondo, con oltre trenta cime sopra i 6.000 metri e laghi glaciali dai colori irreali. È il Perù dell\'alta montagna, quasi ignorato da chi viene solo per Machu Picchu.',
     percheAndarci:

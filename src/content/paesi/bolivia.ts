@@ -1,8 +1,8 @@
 import type { Paese } from '@/lib/types'
 
-// Contenuto guida verificabile, non personale. visitataPersonalmente è false
-// nelle destinazioni collegate, in attesa di conferma. tripPrincipaleSlug
-// punta a un itinerario ancora da scrivere.
+// Paese visitato di persona, ma senza ancora un racconto scritto: miaEsperienza
+// resta assente nelle destinazioni collegate, in attesa dei ricordi reali.
+// tripPrincipaleSlug punta a un itinerario ancora da scrivere.
 
 export const bolivia: Paese = {
   slug: 'bolivia',

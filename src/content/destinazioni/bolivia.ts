@@ -1,9 +1,9 @@
 import type { Destinazione } from '@/lib/types'
 
-// Contenuto guida pratica generale: miaEsperienza resta assente ovunque e
-// visitataPersonalmente è false in attesa di conferma. In Bolivia prezzi e
-// soprattutto condizioni di accesso (blocchi stradali, disponibilità di
-// contanti) cambiano rapidamente: vanno verificati sul posto.
+// Paese visitato di persona, ma senza ancora un racconto scritto: miaEsperienza
+// resta assente e il contenuto qui sotto è guida pratica generale. In Bolivia
+// prezzi e soprattutto condizioni di accesso (blocchi stradali, disponibilità
+// di contanti) cambiano rapidamente: vanno verificati sul posto.
 
 export const destinazioniBolivia: Destinazione[] = [
   {
@@ -13,7 +13,7 @@ export const destinazioniBolivia: Destinazione[] = [
     nome: 'La Paz',
     tipologia: ['città', 'avventura'],
     giorniConsigliati: '3-4 giorni, compresa la giornata sulla Carretera de la Muerte',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La sede del governo più alta del mondo, incastrata in un canyon a 3.600 metri con El Alto che la sovrasta a oltre 4.000. Ci si muove con una rete di teleferiche urbane che è insieme trasporto pubblico e miglior punto panoramico della città.',
     percheAndarci:
@@ -54,7 +54,7 @@ export const destinazioniBolivia: Destinazione[] = [
     nome: 'Salar de Uyuni e Sud Lípez',
     tipologia: ['natura', 'avventura', 'deserto'],
     giorniConsigliati: '3-4 giorni, il formato del tour classico in 4x4',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'La distesa di sale più grande del mondo, oltre 10.000 km quadrati a 3.650 metri di quota, e il suo naturale prolungamento verso sud: le lagune colorate, i geyser e i deserti d\'alta quota del Sud Lípez, fino al confine cileno.',
     percheAndarci:
@@ -99,7 +99,7 @@ export const destinazioniBolivia: Destinazione[] = [
     nome: 'Copacabana e Isla del Sol',
     tipologia: ['natura', 'cultura'],
     giorniConsigliati: '2-3 giorni',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Il lato boliviano del Titicaca: Copacabana, paese di pellegrinaggio affacciato sul lago, e l\'Isla del Sol, dove secondo la tradizione inca nacquero il sole e il primo Inca. È anche la via naturale per entrare in Bolivia dal Perù.',
     percheAndarci:
@@ -139,7 +139,7 @@ export const destinazioniBolivia: Destinazione[] = [
     nome: 'Sucre e Potosí',
     tipologia: ['cultura', 'città'],
     giorniConsigliati: '3-4 giorni per entrambe',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'Sucre è la capitale costituzionale, città coloniale bianca Patrimonio UNESCO a 2.800 metri — la quota più gentile della Bolivia. Potosí, a 4.000 metri, è la città che con l\'argento del suo Cerro Rico ha finanziato per secoli l\'impero spagnolo, al costo di un numero enorme di vite.',
     percheAndarci:
@@ -177,7 +177,7 @@ export const destinazioniBolivia: Destinazione[] = [
     nome: 'Rurrenabaque e il Madidi',
     tipologia: ['natura', 'avventura'],
     giorniConsigliati: '4-5 giorni, per fare sia pampas sia giungla',
-    visitataPersonalmente: false,
+    visitataPersonalmente: true,
     introduzione:
       'L\'Amazzonia boliviana, molto meno battuta e molto più economica di quella peruviana o brasiliana. Da Rurrenabaque si parte in due direzioni opposte: le pampas del Yacuma, praterie allagate dove la fauna si vede facilmente, o la foresta primaria del Parco Nazionale Madidi.',
     percheAndarci:

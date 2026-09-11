@@ -1,9 +1,9 @@
 import type { Paese } from '@/lib/types'
 
-// Contenuto guida verificabile, non personale: miaEsperienza resta assente
-// nelle destinazioni collegate. visitataPersonalmente è impostato a false in
-// attesa di conferma. tripPrincipaleSlug punta a un itinerario ancora da
-// scrivere: il codice gestisce il caso con un link di fallback a /viaggi.
+// Paese visitato di persona, ma senza ancora un racconto scritto: miaEsperienza
+// resta assente nelle destinazioni collegate, in attesa dei ricordi reali.
+// tripPrincipaleSlug punta a un itinerario ancora da scrivere: il codice
+// gestisce il caso con un link di fallback a /viaggi.
 
 export const peru: Paese = {
   slug: 'peru',

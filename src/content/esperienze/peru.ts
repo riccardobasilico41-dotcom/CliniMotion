@@ -1,8 +1,9 @@
 import type { Esperienza } from '@/lib/types'
 
-// Paese non ancora confermato come visitato: miaEsperienza assente e giudizio
-// 'da-verificare' ovunque. Prezzi e regole di prenotazione in Perù cambiano
-// spesso, vanno riverificati prima di prenotare.
+// Paese visitato di persona: miaEsperienza e giudizio restano però da
+// compilare con i ricordi e le opinioni reali — il giudizio 'da-verificare' è
+// un segnaposto, non una valutazione. Prezzi e regole di prenotazione in Perù
+// cambiano spesso, vanno riverificati prima di prenotare.
 
 export const esperienzePeru: Esperienza[] = [
   {
