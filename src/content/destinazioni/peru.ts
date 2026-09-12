@@ -48,7 +48,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Salire a Rainbow Mountain nei primi giorni, quando l\'organismo non ha ancora reagito alla quota',
     ],
     miaEsperienza:
-      'Il primo giorno a Cusco l\'ho praticamente buttato, e col senno di poi è stata la cosa migliore che potessi fare: si arriva convinti di essere in forma e poi basta una rampa di scale per capire che a 3.400 metri il fiato non è una questione di allenamento. Ho passato il pomeriggio a camminare piano tra San Blas e la Plaza de Armas, con il tè di coca in mano come fanno tutti, e il resto del viaggio ne ha guadagnato. La città in sé mi ha sorpreso più di quanto mi aspettassi: pensavo fosse solo il campo base per Machu Picchu, invece la muratura inca sotto le chiese coloniali racconta la storia della conquista meglio di qualsiasi museo.',
+      'Il primo giorno qui è un giorno perso, e va messo in conto come tale: si arriva convinti di essere in forma e basta una rampa di scale per scoprire che a 3.400 metri il fiato non è questione di allenamento. Camminare piano tra San Blas e la Plaza de Armas, con il tè di coca in mano come fanno tutti, è esattamente quello che serve, e il resto del viaggio ne guadagna. La sorpresa è la città in sé: sembra solo il campo base per Machu Picchu, invece la muratura inca sotto le chiese coloniali racconta la conquista meglio di qualsiasi museo.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Plaza de Armas di Cusco con la cattedrale e i tetti di tegole rosse, Perù',
@@ -91,7 +91,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Dormire a Cusco la sera prima del treno delle 5 o 6 del mattino da Ollantaytambo',
     ],
     miaEsperienza:
-      'La Valle Sacra è la tappa che consiglierei di allungare se si avesse un giorno in più, ed è anche quella che quasi tutti sacrificano. Sta cinquecento metri più in basso di Cusco e si dorme molto meglio — un dettaglio che sembra da nulla finché non si passa una notte a respirare male in città. Maras mi ha colpito più di Moray: le vasche di sale scavate nella montagna sono ancora in uso dalle stesse famiglie da generazioni, e vederle in funzione è diverso dal guardare un sito archeologico. Ollantaytambo la sera, quando i pullman dei tour sono ripartiti e il paese torna ai suoi abitanti, è il momento in cui la valle è più bella.',
+      'È la tappa da allungare se si ha un giorno in più, ed è quella che quasi tutti sacrificano per correre a Machu Picchu. Sta cinquecento metri più in basso di Cusco e si dorme molto meglio: sembra un dettaglio da poco finché non si passa una notte a respirare male in città. Maras colpisce più di Moray — le vasche di sale scavate nella montagna sono ancora in uso dalle stesse famiglie da generazioni, e vederle in funzione è un\'altra cosa rispetto a guardare un sito archeologico. Ollantaytambo dà il meglio la sera, quando i pullman dei tour sono ripartiti e il paese torna ai suoi abitanti.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Le vasche bianche delle saline di Maras sul fianco della montagna, Valle Sacra, Perù',
@@ -253,7 +253,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Arrivare a Cusco e salire a Machu Picchu il giorno dopo, senza acclimatamento',
     ],
     miaEsperienza:
-      'Machu Picchu è uno di quei posti di cui hai visto talmente tante foto da temere la delusione, e invece regge — ma regge nella prima ora, quando la nebbia si alza a strappi e il sito compare a pezzi. Dopo, quando arrivano i gruppi e ci si muove in fila lungo il circuito assegnato, diventa un\'altra cosa: bellissima, ma gestita. Il consiglio che darei senza esitare è dormire ad Aguas Calientes ed entrare al primo turno — non per la luce, ma per avere quaranta minuti in cui il posto è ancora silenzioso. E vale la pena sapere in anticipo che non si gira liberamente: il circuito che si sceglie al momento della prenotazione decide cosa si vedrà e cosa no.',
+      'È uno di quei posti di cui si sono viste talmente tante foto da temere la delusione, e invece regge — ma regge nella prima ora, quando la nebbia si alza a strappi e il sito compare a pezzi. Dopo, con i gruppi in fila lungo il circuito assegnato, diventa un\'altra cosa: bellissima, ma gestita. Il consiglio che vale più di tutti è dormire ad Aguas Calientes ed entrare al primo turno, non per la luce ma per quei quaranta minuti in cui il posto è ancora silenzioso. E conviene sapere prima che non si gira liberamente: il circuito scelto al momento della prenotazione decide cosa si vedrà e cosa no.',
     esperienzeSlugs: ['huayna-picchu', 'cammino-inca'],
     tripSlugs: [],
     imageAlt: 'La cittadella inca di Machu Picchu vista dall\'alto con il Huayna Picchu sullo sfondo',
@@ -339,7 +339,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Programmare una sola notte al sito: si arriva stanchi e si riparte subito, perdendo il senso del posto',
     ],
     miaEsperienza:
-      'Choquequirao è la cosa più dura che abbia fatto in Perù e anche quella che rifarei per prima. La discesa nel canyon dell\'Apurímac è ingannevole: si scende per ore con le gambe fresche pensando che stia andando bene, e poi ci si ricorda che tutto quel dislivello va risalito dall\'altra parte, con il sole addosso e senza un\'ombra. Ma arrivare lassù e trovarsi davanti terrazzamenti di quella scala senza nessun altro intorno è un\'esperienza che a Machu Picchu non esiste più. Chi ci pensa lo faccia adesso: se un giorno la teleferica verrà davvero costruita, questo posto smetterà di essere quello che è.',
+      'La cosa più dura del Perù, e quella che vale di più. La discesa nel canyon dell\'Apurímac inganna: si scende per ore con le gambe fresche pensando che stia andando bene, e solo dopo ci si ricorda che tutto quel dislivello va risalito dall\'altra parte, col sole addosso e senza un filo d\'ombra. Ma arrivare lassù e trovarsi davanti terrazzamenti di quella scala senza nessun altro intorno è qualcosa che a Machu Picchu non esiste più. Chi ci sta pensando lo faccia adesso: se la teleferica verrà costruita davvero, questo posto smetterà di essere quello che è.',
     esperienzeSlugs: ['trek-choquequirao'],
     tripSlugs: [],
     imageAlt: 'I terrazzamenti inca di Choquequirao sopra il canyon dell\'Apurímac, Perù',
@@ -449,7 +449,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Sottovalutare il repellente, la torcia frontale e i sacchetti impermeabili per l\'elettronica',
     ],
     miaEsperienza:
-      'L\'Amazzonia non è il documentario che uno si aspetta: nella foresta densa si sente molto più di quanto si veda, e le prime ore possono essere frustranti se si arriva con l\'idea di trovare animali a ogni albero. Il momento in cui cambia tutto è l\'alba alla collpa, quando centinaia di ara arrivano insieme sulla parete d\'argilla e per venti minuti non si riesce a guardare altro. L\'altra cosa che ho capito è che conta più la distanza dalla città che il livello del lodge: le strutture vicine sono comode e non si vede quasi niente, quelle a qualche ora di barca in più cambiano completamente l\'esperienza. Il caldo umido, invece, non ci si abitua: quello resta.',
+      'Non è il documentario che ci si aspetta: nella foresta densa si sente molto più di quanto si veda, e le prime ore possono deludere chi arriva con l\'idea di trovare animali a ogni albero. Il momento che ribalta tutto è l\'alba alla collpa, quando centinaia di ara arrivano insieme sulla parete d\'argilla e per venti minuti non si riesce a guardare altro. L\'altra cosa che conta più di quanto sembri è la distanza dalla città: i lodge vicini sono comodi e non si vede quasi niente, quelli a qualche ora di barca in più cambiano completamente l\'esperienza. Al caldo umido, invece, non ci si abitua.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Ara colorate su una parete di argilla nella foresta amazzonica peruviana',
@@ -534,7 +534,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Sottovalutare il freddo notturno nelle case di Amantaní, dove non c\'è riscaldamento',
     ],
     miaEsperienza:
-      'Gli Uros, va detto onestamente, sono una messa in scena: si arriva, si assiste alla spiegazione su come si costruisce l\'isola di totora, si compra qualcosa e si riparte. Interessante mezz\'ora, non di più. Il Titicaca diventa un\'altra cosa il giorno dopo, ad Amantaní, dove si dorme in casa di una famiglia senza riscaldamento né acqua calda, si cena con loro e si sale al tempio per il tramonto. Non è un\'esperienza comoda — a 3.800 metri la notte si gela davvero — ma è l\'unico momento del lago in cui si esce dal circuito. Se si ha tempo per una sola cosa sul Titicaca, è quella.',
+      'Gli Uros, va detto, sono una messa in scena: si arriva, si assiste alla spiegazione su come si costruisce l\'isola di totora, si compra qualcosa e si riparte. Mezz\'ora interessante, non di più. Il Titicaca diventa un\'altra cosa il giorno dopo ad Amantaní, dove si dorme in casa di una famiglia senza riscaldamento né acqua calda, si cena con loro e si sale al tempio per il tramonto. Non è comodo — a 3.800 metri la notte si gela davvero — ma è l\'unico momento in cui si esce dal circuito. Dovendo scegliere una sola cosa sul lago, è quella.',
     esperienzeSlugs: ['homestay-amantani'],
     tripSlugs: [],
     imageAlt: 'Isole galleggianti di totora degli Uros sul lago Titicaca, Perù',
@@ -575,7 +575,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Saltarla del tutto: molti ci passano solo in transito, ma due giorni qui raccontano un Perù che sulle Ande non si vede',
     ],
     miaEsperienza:
-      'Lima me l\'avevano descritta come una città da attraversare in fretta, e invece è quella che mi ha lasciato la voglia di tornare. Non per i monumenti — il centro coloniale si vede in mezza giornata — ma per il cibo: il ceviche mangiato a pranzo in una cevichería di quartiere, con il pesce che è arrivato la mattina, è una di quelle cose che poi ti rovinano tutti i ceviche successivi. La garúa, quella foschia grigia che copre la città per mesi, rende tutto un po\' malinconico, e il traffico è pesante. Ma Barranco al tramonto, con l\'oceano sotto la scogliera, vale la sosta.',
+      'La descrivono come una città da attraversare in fretta, e invece è quella che lascia la voglia di tornare. Non per i monumenti, il centro coloniale si vede in mezza giornata: per il cibo. Un ceviche mangiato a pranzo in una cevichería di quartiere, col pesce arrivato la mattina, rovina tutti i ceviche successivi. La garúa, quella foschia grigia che copre la città per mesi, rende tutto un po\' malinconico, e il traffico è pesante — ma Barranco al tramonto, con l\'oceano sotto la scogliera, vale la sosta.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Il Malecón di Miraflores a Lima con la scogliera a picco sull\'oceano Pacifico',
@@ -617,7 +617,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Sottovalutare la risalita dall\'oasi di Sangalle: circa 1.100 metri di dislivello, da fare prima che il sole picchi',
     ],
     miaEsperienza:
-      'Arequipa è la città in cui ho dormito meglio di tutto il viaggio, e non è un caso: a 2.300 metri il corpo finalmente recupera. Il Monastero di Santa Catalina è il posto che ricordo con più chiarezza — non me lo aspettavo così grande, è letteralmente una piccola città murata con i suoi vicoli dipinti di blu e arancione. Alla Cruz del Cóndor invece bisogna arrivarci con le aspettative giuste: i condor si alzano con le correnti del mattino e quando succede è impressionante, ma non è garantito e la piazzola è piena di gente. Vale comunque la sveglia all\'alba.',
+      'È la città dove finalmente si dorme: a 2.300 metri il corpo recupera, e dopo giorni passati in quota si sente. Il Monastero di Santa Catalina è il posto che resta più impresso — non ci si aspetta che sia così grande, è letteralmente una piccola città murata con i vicoli dipinti di blu e arancione. Alla Cruz del Cóndor invece bisogna arrivare con le aspettative giuste: i condor si alzano con le correnti del mattino e quando succede è impressionante, ma non è garantito e la piazzola è piena di gente. Vale comunque la sveglia all\'alba.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Il Monastero di Santa Catalina ad Arequipa con i muri colorati e il vulcano Misti sullo sfondo',
@@ -647,7 +647,8 @@ export const destinazioniPeru: Destinazione[] = [
       'Alpinismo di introduzione sul Nevado Mateo o sull\'Ishinca, per chi ha esperienza',
     ],
     doveDormire: 'Huaraz è la base di tutto: ostelli e piccoli hotel, con agenzie di trekking a ogni angolo.',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'Huaraz è una città di montagna e si mangia di conseguenza: zuppe calde a ogni pasto, trucha (trota) degli allevamenti in quota, cuy e il pachamanca, la carne cotta sotto terra con pietre roventi, che si trova soprattutto nei fine settimana. Il mercato centrale al mattino serve caldo de gallina e gli infusi di erbe d\'altura che aiutano davvero nei primi giorni. Per le giornate di trekking, il pranzo al sacco lo preparano le agenzie o lo si compra al mercato: sui sentieri non c\'è nulla.',
     comeArrivare: 'Bus notturno da Lima, circa 8 ore. Non ci sono voli regolari comodi: la strada è la via normale.',
     comeSpostarsi: 'Collettivi e tour giornalieri dalle agenzie di Huaraz per tutti i punti di partenza dei trek.',
     periodoMigliore: 'da maggio a settembre, la stagione secca: nel resto dell\'anno i sentieri in quota diventano impraticabili',
@@ -657,7 +658,7 @@ export const destinazioniPeru: Destinazione[] = [
       'Affidarsi alle agenzie più economiche senza verificare guide e attrezzatura, soprattutto per i trek multi-giorno',
     ],
     miaEsperienza:
-      'Huaraz è la parte di Perù che quasi nessuno fa, ed è un peccato: la Cordillera Blanca regge il confronto con qualsiasi cosa si veda intorno a Cusco, a una frazione del prezzo e senza code. La Laguna 69 è la sintesi di tutto: gli ultimi quaranta minuti sopra i 4.500 metri sono una lotta con il fiato, si cammina venti passi e ci si ferma, e poi si arriva su quel turchese che sembra ritoccato e non lo è. Il paese in sé non è bello, è una base di appoggio piena di agenzie — ma è esattamente quello che serve.',
+      'È la parte di Perù che quasi nessuno fa, ed è un peccato: la Cordillera Blanca regge il confronto con qualsiasi cosa si veda intorno a Cusco, a una frazione del prezzo e senza code. La Laguna 69 è la sintesi di tutto: gli ultimi quaranta minuti sopra i 4.500 metri sono una lotta col fiato, venti passi e una sosta, e poi ci si trova davanti a quel turchese che sembra ritoccato e non lo è. Il paese in sé non è bello, è una base di appoggio piena di agenzie — ma è esattamente quello che serve.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'La Laguna 69 dal colore turchese ai piedi dei ghiacciai della Cordillera Blanca, Perù',

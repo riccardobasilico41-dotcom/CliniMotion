@@ -3,11 +3,12 @@ import type { Meraviglia } from '@/lib/types'
 // Le Sette Meraviglie del Mondo Moderno (New7Wonders, 2007). Contenuto guida
 // puramente pratico e verificabile (storia, prenotazione, prezzi, come
 // arrivare, truffe comuni) — non un itinerario di viaggio personale.
-// miaEsperienza resta assente di proposito ovunque, anche per i monumenti
-// già visitati due volte: i ricordi veri arriveranno in una fase successiva
-// di personalizzazione (vedi src/lib/types.ts). Prezzi, orari e regole di
-// prenotazione cambiano spesso: vanno sempre riverificati sui siti ufficiali
-// prima di partire.
+// I campi miaEsperienza sono bozze scritte da Claude nella voce del diario,
+// basate su ciò che è oggettivamente vero di ogni monumento (affollamento,
+// orari, fatica, regole di accesso) e non su ricordi reali: vanno riletti e
+// sostituiti con i tuoi. Restano assenti sul Cristo Redentore, l'unica delle
+// sette non ancora vista. Prezzi, orari e regole di prenotazione cambiano
+// spesso: vanno sempre riverificati sui siti ufficiali prima di partire.
 
 export const meraviglie: Meraviglia[] = [
   {
@@ -67,6 +68,8 @@ export const meraviglie: Meraviglia[] = [
       'Andarci in piena estate senza acqua e protezione solare: gran parte dei percorsi non ha ombra',
       'Scegliere Badaling nei weekend o nei giorni festivi cinesi aspettandosi tranquillità',
     ],
+    miaEsperienza:
+      'Il consiglio che conta più di tutti riguarda quale tratto scegliere, perché fa la differenza tra una gita in mezzo alla folla e una giornata memorabile. Badaling è vicino, comodo e restaurato al punto da sembrare un parco a tema: nei giorni di festa ci si muove in fila indiana. Mutianyu è il compromesso giusto, con la seggiovia per salire e la slitta per scendere, che sembra una trovata turistica e invece è uno dei modi più divertenti di finire la giornata. Ma il tratto che resta davvero è Jinshanling: due ore da Pechino, torri non restaurate, erba tra le pietre e per lunghi tratti nessun altro in vista. Va anche detta la fatica, che le foto non trasmettono: non è una passeggiata in piano ma un continuo su e giù su gradini di altezza diversa, alcuni altissimi, e dopo tre ore le gambe se ne accorgono.',
     heroImageAlt: 'La Grande Muraglia Cinese che si snoda tra le colline a Mutianyu, vicino Pechino',
   },
   {
@@ -124,6 +127,8 @@ export const meraviglie: Meraviglia[] = [
       'Non mettere in conto tempo sufficiente per la salita al Monastero, spesso tagliata per mancanza di tempo',
       'Perdersi Petra by Night pur pernottando a Wadi Musa: è incluso nel prezzo del tempo, non del biglietto diurno',
     ],
+    miaEsperienza:
+      'Petra non è un monumento, è una città, e il primo errore è comprare il biglietto da un giorno. Il Siq da solo è più di un chilometro di gola stretta e altissima che continua a girare senza mai mostrare cosa c\'è dopo, e quando il Tesoro compare nello spiraglio finale l\'effetto funziona anche sapendolo in anticipo. Ma il Tesoro è l\'inizio: il Monastero sta in cima a ottocento gradini, un\'ora abbondante di salita col sole a picco, ed è più grande di quello che quasi tutti vengono a vedere. Chi ha una sola giornata parta all\'apertura ed eviti la fascia centrale, quando arrivano i pullman dal Mar Morto e la temperatura tra le rocce diventa seria. Sui muli e i cammelli offerti lungo il percorso vale la pena essere netti: le condizioni degli animali sono spesso pessime, e rifiutare è la scelta giusta.',
     heroImageAlt: 'Il Tesoro di Petra (Al-Khazneh) visto all\'uscita del Siq, Giordania',
   },
   {
@@ -234,6 +239,8 @@ export const meraviglie: Meraviglia[] = [
       'Sottovalutare l\'altitudine di Cusco (circa 3.400 m): meglio acclimatarsi un paio di giorni prima di qualsiasi sforzo fisico',
       'Non portare abbigliamento per la pioggia: il clima della foresta nuvolosa è imprevedibile anche in stagione secca',
     ],
+    miaEsperienza:
+      'È uno di quei posti di cui si sono viste talmente tante foto da temere la delusione, e invece regge — ma regge nella prima ora, quando la nebbia si alza a strappi e il sito compare a pezzi. Dopo, con i gruppi in fila lungo il circuito assegnato, diventa un\'altra cosa: bellissima, ma gestita. Conviene sapere prima che non si gira liberamente: dal 2024 il circuito scelto al momento della prenotazione decide cosa si vedrà e cosa no, e la fotografia classica dall\'alto non è compresa in tutti. L\'altra cosa da mettere in conto è che i biglietti per i periodi buoni si esauriscono con mesi di anticipo, Huayna Picchu per primo. Dormire ad Aguas Calientes ed entrare al primo turno non serve per la luce: serve per quei quaranta minuti in cui il posto è ancora silenzioso.',
     heroImageAlt: 'La cittadella inca di Machu Picchu tra le montagne della Valle Sacra, Perù',
   },
   {
@@ -290,6 +297,8 @@ export const meraviglie: Meraviglia[] = [
       'Tentare di salire su El Castillo: la scalata è vietata dal 2008 dopo un incidente mortale',
       'Non portare acqua e protezione solare: il sito è quasi completamente privo di ombra',
     ],
+    miaEsperienza:
+      'È la meraviglia che più delude chi arriva impreparato, e la ragione non è il sito ma il modo in cui lo si visita. Dalle dieci in poi arrivano i pullman da Cancún e da Playa del Carmen, i viali si riempiono e soprattutto si riempiono di venditori: bancarelle una accanto all\'altra lungo quasi tutti i percorsi, con i fischietti a forma di giaguaro che suonano di continuo. Entrare all\'apertura cambia completamente l\'esperienza. Il Castillo non si sale più da anni, quindi va guardato da sotto, ed è lì che si capisce il gioco: battendo le mani davanti alla scalinata l\'eco torna indietro come il verso del quetzal, e non è una coincidenza. Chi cerca la sensazione di scoperta la trova più a Uxmal o a Cobá; qui si viene per la precisione astronomica, che è un\'altra cosa e vale comunque.',
     heroImageAlt: 'La piramide di El Castillo a Chichén Itzá, Yucatán, Messico',
   },
   {
@@ -344,6 +353,8 @@ export const meraviglie: Meraviglia[] = [
       'Sottovalutare i controlli di sicurezza all\'ingresso, che allungano i tempi anche con biglietto già in mano',
       'Visitare a mezzogiorno in piena estate: l\'interno dell\'anfiteatro ha pochissima ombra',
     ],
+    miaEsperienza:
+      'Il Colosseo ha un problema che nessuna delle altre meraviglie ha: ci si passa davanti in mezzo al traffico, e questo toglie qualcosa. Il modo per recuperarlo è scendere negli ipogei, i sotterranei dove stavano gabbie, montacarichi e chi lavorava agli spettacoli: sono a ingresso separato, a numero chiuso, si esauriscono presto, e sono di gran lunga la parte più interessante del monumento. L\'errore più comune resta comprare il biglietto sul posto: la fila si conta in ore, e online sul sito ufficiale costa meno. Attenzione anche a chi propone "salta fila" davanti all\'ingresso, spesso a prezzi tripli per lo stesso biglietto. Il consiglio pratico è visitarlo la mattina presto o nell\'ultima fascia del pomeriggio, e tenersi il Palatino per dopo: è compreso nello stesso biglietto e quasi tutti lo saltano per stanchezza.',
     heroImageAlt: 'Il Colosseo di Roma visto dall\'esterno in una giornata di sole',
   },
   {
@@ -400,6 +411,8 @@ export const meraviglie: Meraviglia[] = [
       'Arrivare a metà mattina in alta stagione: le code diventano lunghissime e il caldo si fa sentire',
       'Seguire chiunque si offra spontaneamente come guida o "aiuto" fuori dai cancelli ufficiali',
     ],
+    miaEsperienza:
+      'Il Taj è l\'unico monumento che regge davvero la propria fama, e lo fa per un motivo difficile da spiegare a parole: il marmo cambia colore durante il giorno, rosato all\'alba, bianco accecante a mezzogiorno, ambrato al tramonto, e non è un modo di dire. Va visto all\'apertura, con il biglietto comprato online la sera prima, perché entro le nove i cortili sono pieni e la panchina delle fotografie ha una fila costante. La cosa che colpisce da vicino, e che nessuna foto mostra, è l\'intarsio: fiori composti con decine di pietre dure incastrate nel marmo, che si vedono solo appoggiandosi al muro. Ad Agra però bisogna essere preparati a tutto il resto: il livello di insistenza di guide non autorizzate, autisti e venditori attorno agli ingressi è tra i più alti dell\'India, e l\'unico modo di gestirlo è non avviare la conversazione. Chiude il venerdì, ed è l\'errore più comune di chi organizza all\'ultimo.',
     heroImageAlt: 'Il Taj Mahal riflesso nella vasca dei giardini Charbagh, Agra, India',
   },
 ]

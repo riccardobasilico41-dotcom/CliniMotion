@@ -103,7 +103,8 @@ export const destinazioniGiappone: Destinazione[] = [
       'Onsen con vista Fuji, ad esempio all\'Hotel Mifujien',
     ],
     doveDormire: 'Non pernottato: gita di un giorno da Tokyo (Agora Place Asakusa).',
-    doveMangiare: 'da completare',
+    doveMangiare:
+      'La specialità della zona dei Cinque Laghi è l\'hoto: tagliatelle larghe di grano saraceno in una zuppa densa di miso e verdure, servita nel pentolone di ghisa, che è esattamente quello che serve dopo la salita alla pagoda. Si trova nei ristoranti attorno alla stazione di Kawaguchiko e lungo la riva del lago. Per il resto l\'offerta è quella tipica di una zona turistica giapponese: konbini per il pranzo veloce e ristoranti con vista sul Fuji che costano più del dovuto.',
     comeArrivare: 'Treno Fuji Excursion da Shinjuku a Kawaguchiko (circa 2h, ~4.130 yen; con JR Pass si copre la tratta fino a Otsuki e si paga solo il supplemento Fujikyu, circa 1.770 yen).',
     comeSpostarsi: 'A piedi per la salita alla pagoda, giro del lago in autonomia.',
     periodoMigliore: 'metà aprile, quando i ciliegi a Chureito sono spesso ancora in piena fioritura',

@@ -47,7 +47,7 @@ export const destinazioniBolivia: Destinazione[] = [
       'Girare con oggetti di valore in vista nei mercati affollati',
     ],
     miaEsperienza:
-      'Atterrare a El Alto è uno shock fisico che non avevo messo in conto: si scende dall\'aereo a più di quattromila metri e il corpo se ne accorge subito, prima ancora di uscire dal terminal. La Paz poi è la città più strana che abbia visto, costruita dentro una conca con i quartieri poveri in alto e quelli ricchi in basso — l\'opposto di ogni altra città al mondo, e c\'è una ragione: più si scende, più si respira. Le teleferiche urbane sono la cosa che consiglierei a chiunque: costano pochi centesimi, si usano come una metropolitana e danno la vista migliore sulla città. Il problema vero della Bolivia, però, sono i blocchi stradali: vanno messi in conto nell\'itinerario, non come eventualità remota.',
+      'Atterrare a El Alto è uno shock fisico che quasi nessuno mette in conto: si scende dall\'aereo a più di quattromila metri e il corpo se ne accorge prima ancora di uscire dal terminal. La Paz è poi la città più strana del continente, costruita dentro una conca con i quartieri poveri in alto e quelli ricchi in basso — l\'opposto di ogni altra città al mondo, e per una ragione precisa: più si scende, più si respira. Le teleferiche urbane sono la cosa da consigliare a chiunque, costano pochi centesimi e danno la vista migliore sulla conca. Il problema vero della Bolivia, però, sono i blocchi stradali: vanno messi in conto nell\'itinerario, non trattati come eventualità remota.',
     esperienzeSlugs: ['carretera-de-la-muerte'],
     tripSlugs: [],
     imageAlt: 'La conca di La Paz vista dall\'alto con il Nevado Illimani sullo sfondo, Bolivia',
@@ -94,7 +94,7 @@ export const destinazioniBolivia: Destinazione[] = [
       'Arrivare a Uyuni senza essersi acclimatati: il tour sale fino a quasi 5.000 metri il secondo giorno',
     ],
     miaEsperienza:
-      'Il salar è l\'unico posto in cui ho perso completamente il senso della distanza: senza riferimenti non si capisce se una montagna è a cinque chilometri o a cinquanta, ed è per questo che funzionano le foto prospettiche. Ma la parte che ricordo meglio non è il primo giorno sul sale, è il secondo, nel Sud Lípez: lagune rosse piene di fenicotteri a quattromila e passa metri, geyser che sbuffano all\'alba con venti gradi sotto zero, e alloggi dove si dorme vestiti perché non c\'è riscaldamento. È un tour duro, molto più di quanto le fotografie lascino immaginare, e l\'unica cosa su cui non risparmierei è la scelta dell\'operatore: lì in mezzo un 4x4 che si rompe è un problema serio.',
+      'È l\'unico posto in cui si perde davvero il senso della distanza: senza riferimenti non si capisce se una montagna è a cinque chilometri o a cinquanta, ed è per questo che funzionano le foto prospettiche. Ma la parte che resta non è il primo giorno sul sale, è il secondo, nel Sud Lípez: lagune rosse piene di fenicotteri oltre i quattromila metri, geyser che sbuffano all\'alba con venti gradi sotto zero, alloggi dove si dorme vestiti perché non c\'è riscaldamento. È un tour molto più duro di quanto le fotografie lascino immaginare, e l\'unica voce su cui non conviene risparmiare è l\'operatore: lì in mezzo un 4x4 che si rompe è un problema serio.',
     esperienzeSlugs: ['tour-uyuni-sud-lipez'],
     tripSlugs: [],
     imageAlt: 'Distesa di sale del Salar de Uyuni con i poligoni bianchi a perdita d\'occhio, Bolivia',
@@ -136,7 +136,7 @@ export const destinazioniBolivia: Destinazione[] = [
       'Sottovalutare la quota: si cammina in salita a quasi 4.000 metri',
     ],
     miaEsperienza:
-      'Il lato boliviano del Titicaca mi è piaciuto più di quello peruviano, e non di poco. Copacabana è un paese di pellegrinaggio un po\' scalcinato ma con un\'anima, e l\'Isla del Sol è semplicemente più bella delle isole di Puno: terrazzamenti, sentieri in pietra, nessuna macchina e nessuna organizzazione turistica pesante. Dormirci una notte cambia tutto — le barche in giornata arrivano e ripartono tutte insieme, e appena se ne vanno l\'isola torna silenziosa. Va solo messo in conto che si cammina sempre in salita a quasi quattromila metri, con lo zaino: non è una passeggiata.',
+      'Il lato boliviano del lago è più bello di quello peruviano, e non di poco. Copacabana è un paese di pellegrinaggio un po\' scalcinato ma con un\'anima, e l\'Isla del Sol batte le isole di Puno senza discussione: terrazzamenti, sentieri in pietra, nessuna macchina e nessuna organizzazione turistica pesante. Dormirci una notte cambia tutto, perché le barche in giornata arrivano e ripartono tutte insieme e appena se ne vanno l\'isola torna silenziosa. Va solo messo in conto che si cammina sempre in salita a quasi quattromila metri, con lo zaino: non è una passeggiata.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Terrazzamenti e sentieri dell\'Isla del Sol sul lago Titicaca, Bolivia',
@@ -177,7 +177,7 @@ export const destinazioniBolivia: Destinazione[] = [
       'Trattare la visita alle miniere come un\'attrazione turistica qualunque: è un luogo di lavoro reale, con condizioni durissime',
     ],
     miaEsperienza:
-      'Sucre è il posto dove mi sarei fermato più a lungo: duemilaottocento metri invece di quattromila, clima mite, una città bianca ordinata dove finalmente si respira e si dorme. Potosí è l\'opposto, e non parlo solo della quota. Entrare nelle gallerie del Cerro Rico è l\'esperienza più pesante di tutto il viaggio — non pericolosa in sé, ma difficile da digerire: si cammina piegati in cunicoli caldi e polverosi accanto a uomini che ci passano dieci ore al giorno con strumenti di un altro secolo. Non è un\'attrazione e non va trattata come tale. Ne esci zitto, e forse è giusto così.',
+      'Sucre è il posto dove viene voglia di fermarsi più a lungo: duemilaottocento metri invece di quattromila, clima mite, una città bianca e ordinata dove finalmente si respira e si dorme. Potosí è l\'opposto, e non solo per la quota. Entrare nelle gallerie del Cerro Rico è l\'esperienza più pesante di tutto il viaggio — non pericolosa in sé, ma difficile da digerire: si cammina piegati in cunicoli caldi e polverosi accanto a uomini che ci passano dieci ore al giorno con strumenti di un altro secolo. Non è un\'attrazione e non andrebbe trattata come tale. Se ne esce zitti, e forse è giusto così.',
     esperienzeSlugs: ['miniere-cerro-rico'],
     tripSlugs: [],
     imageAlt: 'Il centro coloniale bianco di Sucre con la cattedrale, Bolivia',
@@ -263,7 +263,7 @@ export const destinazioniBolivia: Destinazione[] = [
       'Andarci senza repellente serio e senza vaccinazione contro la febbre gialla',
     ],
     miaEsperienza:
-      'Le pampas sono il posto dove ho visto più animali in vita mia, e con pochissimo sforzo: si sta in barca e sfilano caimani, capibara, scimmie e centinaia di uccelli, con i delfini rosa che ogni tanto emergono accanto allo scafo. È anche il posto dove ho visto le pratiche più discutibili: alcune guide tirano fuori i caimani dall\'acqua o vanno a cercare le anaconda per farle toccare ai clienti, e non è una cosa da assecondare — basta dire di no e chiedere di restare a guardare. Le zanzare, poi, sono di un altro livello: quello che serve non è un repellente, è una corazza.',
+      'Le pampas sono il posto dove si vedono più animali con meno sforzo di qualsiasi altro: si sta in barca e sfilano caimani, capibara, scimmie e centinaia di uccelli, con i delfini rosa che ogni tanto emergono accanto allo scafo. È anche il posto dove si vedono le pratiche più discutibili: certe guide tirano fuori i caimani dall\'acqua o vanno a cercare le anaconda per farle toccare ai clienti, e non è una cosa da assecondare — basta dire di no e chiedere di restare a guardare. Le zanzare, poi, sono di un altro livello: quello che serve non è un repellente, è una corazza.',
     esperienzeSlugs: [],
     tripSlugs: [],
     imageAlt: 'Barca sul Rio Yacuma tra le praterie allagate delle pampas boliviane al tramonto',
