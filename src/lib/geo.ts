@@ -71,6 +71,17 @@ import { esperienzePanama } from '@/content/esperienze/panama'
 import { peru } from '@/content/paesi/peru'
 import { destinazioniPeru } from '@/content/destinazioni/peru'
 import { esperienzePeru } from '@/content/esperienze/peru'
+import { emiratiArabiUniti } from '@/content/paesi/emirati-arabi-uniti'
+import { destinazioniEmiratiArabiUniti } from '@/content/destinazioni/emirati-arabi-uniti'
+import { esperienzeEmiratiArabiUniti } from '@/content/esperienze/emirati-arabi-uniti'
+import { stopoverGolfoMeta } from '@/content/viaggi-dati/stopover-golfo'
+import { qatar } from '@/content/paesi/qatar'
+import { destinazioniQatar } from '@/content/destinazioni/qatar'
+import { esperienzeQatar } from '@/content/esperienze/qatar'
+import { arabiaSaudita } from '@/content/paesi/arabia-saudita'
+import { destinazioniArabiaSaudita } from '@/content/destinazioni/arabia-saudita'
+import { esperienzeArabiaSaudita } from '@/content/esperienze/arabia-saudita'
+import { arabiaSauditaItinerarioMeta } from '@/content/viaggi-dati/arabia-saudita-itinerario'
 import { malesia } from '@/content/paesi/malesia'
 import { destinazioniMalesia } from '@/content/destinazioni/malesia'
 import { esperienzeMalesia } from '@/content/esperienze/malesia'
@@ -101,9 +112,9 @@ import { getViaggioBySlug, type Viaggio } from './viaggi'
 // L'Indonesia non ha ancora un TRIP_META (nessun viaggio-diario collegato,
 // vedi src/content/paesi/indonesia.ts) — va aggiunto qui non appena il primo
 // itinerario combinato tra isole sarà pubblicato.
-const PAESI: Paese[] = [messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia, marocco, newYork, florida, transilvania, bulgaria, costaRica, indonesia, guatemala, belize, panama, peru, bolivia, cina, coreaDelSud, malesia, borneo, singapore]
-const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia, ...destinazioniMarocco, ...destinazioniNewYork, ...destinazioniFlorida, ...destinazioniTransilvania, ...destinazioniBulgaria, ...destinazioniCostaRica, ...destinazioniIndonesia, ...destinazioniGuatemala, ...destinazioniBelize, ...destinazioniPanama, ...destinazioniPeru, ...destinazioniBolivia, ...destinazioniCina, ...destinazioniCoreaDelSud, ...destinazioniMalesia, ...destinazioniBorneo, ...destinazioniSingapore]
-const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia, ...esperienzeMarocco, ...esperienzeNewYork, ...esperienzeFlorida, ...esperienzeTransilvania, ...esperienzeBulgaria, ...esperienzeCostaRica, ...esperienzeIndonesia, ...esperienzeGuatemala, ...esperienzeBelize, ...esperienzePanama, ...esperienzePeru, ...esperienzeBolivia, ...esperienzeCina, ...esperienzeCoreaDelSud, ...esperienzeMalesia, ...esperienzeBorneo, ...esperienzeSingapore]
+const PAESI: Paese[] = [messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia, marocco, newYork, florida, transilvania, bulgaria, costaRica, indonesia, guatemala, belize, panama, peru, bolivia, cina, coreaDelSud, malesia, borneo, singapore, emiratiArabiUniti, qatar, arabiaSaudita]
+const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia, ...destinazioniMarocco, ...destinazioniNewYork, ...destinazioniFlorida, ...destinazioniTransilvania, ...destinazioniBulgaria, ...destinazioniCostaRica, ...destinazioniIndonesia, ...destinazioniGuatemala, ...destinazioniBelize, ...destinazioniPanama, ...destinazioniPeru, ...destinazioniBolivia, ...destinazioniCina, ...destinazioniCoreaDelSud, ...destinazioniMalesia, ...destinazioniBorneo, ...destinazioniSingapore, ...destinazioniEmiratiArabiUniti, ...destinazioniQatar, ...destinazioniArabiaSaudita]
+const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia, ...esperienzeMarocco, ...esperienzeNewYork, ...esperienzeFlorida, ...esperienzeTransilvania, ...esperienzeBulgaria, ...esperienzeCostaRica, ...esperienzeIndonesia, ...esperienzeGuatemala, ...esperienzeBelize, ...esperienzePanama, ...esperienzePeru, ...esperienzeBolivia, ...esperienzeCina, ...esperienzeCoreaDelSud, ...esperienzeMalesia, ...esperienzeBorneo, ...esperienzeSingapore, ...esperienzeEmiratiArabiUniti, ...esperienzeQatar, ...esperienzeArabiaSaudita]
 
 const TRIP_META: TripMeta[] = [
   messicoBeachLifeMeta,
@@ -126,6 +137,8 @@ const TRIP_META: TripMeta[] = [
   coreaDelSudItinerarioMeta,
   malesiaSingaporeMeta,
   borneoItinerarioMeta,
+  stopoverGolfoMeta,
+  arabiaSauditaItinerarioMeta,
 ]
 
 export function getAllPaesi(): Paese[] {
