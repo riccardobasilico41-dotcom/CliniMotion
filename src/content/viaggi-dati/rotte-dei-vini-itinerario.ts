@@ -1,0 +1,136 @@
+import type { TripMeta } from '@/lib/types'
+
+// Overlay di metadati strutturati per "Sulle rotte dei grandi vini".
+// Il testo narrativo resta nel markdown (src/content/viaggi/27-rotte-dei-vini.md).
+// `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
+// del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
+
+export const rotteDeiViniMeta: TripMeta = {
+  tripSlug: 'rotte-dei-vini-itinerario',
+  paeseSlug: 'italia',
+  ritmo: 'Lento per costruzione: due o tre cantine al giorno al massimo, perché dopo la terza non si assaggia più niente',
+  trasporti: 'Auto a noleggio, con il problema di chi guida da risolvere prima di partire',
+  stile: ['enogastronomia', 'paesaggi', 'itinerari'],
+  adattoA: [
+    'chi vuole vedere l\'Italia agricola invece di quella monumentale',
+    'chi è disposto a prenotare le cantine con qualche giorno di anticipo',
+    'chi accetta di assaggiare e sputare, o di pagare un autista',
+  ],
+  puntiForti: [
+    'Le fruttaie dell\'Amarone, dove le uve appassiscono su graticci per mesi: una tecnica che si vede solo lì',
+    'Il confronto tra Barolo e Barbaresco nello stesso viaggio, che è la cosa più istruttiva di tutto l\'itinerario',
+    'Essere ricevuti dal produttore invece che da una guida, che è la norma nelle cantine italiane',
+  ],
+  criticita: [
+    'Presentarsi in cantina senza appuntamento è l\'errore numero uno e costa la giornata: sono aziende agricole, non negozi',
+    'Più di due o tre cantine al giorno e la giornata diventa una collezione di timbri',
+    'Il problema di chi guida va risolto prima di partire: si assaggia e si sputa, o si paga un autista',
+    'In agosto molte cantine chiudono o sono in preparazione della vendemmia',
+    'Langhe e Montalcino sono le rotte più care d\'Italia; Irpinia, Vulture, Valtellina ed Etna danno molto simile a una frazione',
+  ],
+  budgetTotale: undefined,
+  viaggioInBreve: {
+    percheHoScelto: undefined,
+    conChiSonoPartito: 'in autonomia, con auto a noleggio e cantine prenotate',
+    cosaCercavo: undefined,
+    treEsperienzePiuBelle: 'Le fruttaie dell\'Amarone piene di grappoli, il confronto Barolo-Barbaresco, la Val d\'Orcia nella giornata senza cantine',
+    cosaCambierei: undefined,
+    aChiLoConsiglio: undefined,
+  },
+  tappeMappa: [
+    { nome: 'Langhe e Roero', destinazioneSlug: 'rotte-dei-vini' },
+    { nome: 'Valpolicella e Soave', destinazioneSlug: 'rotte-dei-vini' },
+    { nome: 'Colline del Prosecco', destinazioneSlug: 'rotte-dei-vini' },
+    { nome: 'Chianti Classico', destinazioneSlug: 'rotte-dei-vini' },
+    { nome: 'Montalcino e Val d\'Orcia', destinazioneSlug: 'rotte-dei-vini' },
+  ],
+  giorni: [
+    {
+      titoloGiorno: 'Giorno 1 — Arrivo nelle Langhe',
+      tratta: 'Arrivo ad Alba',
+      pernottamento: 'Agriturismo nelle Langhe',
+      statoPernottamento: 'da-confermare',
+      intensita: 'leggero',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 2 — Barolo',
+      tratta: 'Due cantine nella zona del Barolo',
+      pernottamento: 'Agriturismo nelle Langhe',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      costiNoti: 'degustazioni 15-40€ a persona, spesso scalate sull\'acquisto',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 3 — Barbaresco e Roero',
+      tratta: 'Barbaresco al mattino, Roero nel pomeriggio',
+      pernottamento: 'Agriturismo nelle Langhe',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 4 — Trasferimento in Valpolicella',
+      tratta: 'Langhe → Valpolicella (circa 3h30)',
+      pernottamento: 'Valpolicella Classica',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 5 — Amarone, Valpolicella e Soave',
+      tratta: 'Una cantina in Valpolicella e una nel Soave',
+      pernottamento: 'Valpolicella Classica',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 6 — Le colline del Prosecco',
+      tratta: 'Colline di Conegliano e Valdobbiadene, poi verso la Toscana',
+      pernottamento: 'Colline del Prosecco o trasferimento',
+      statoPernottamento: 'da-confermare',
+      intensita: 'intenso',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 7 — Chianti Classico',
+      tratta: 'Arrivo nel Chianti Classico',
+      pernottamento: 'Chianti, tra Firenze e Siena',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 8 — Montalcino',
+      tratta: 'Giornata a Montalcino',
+      pernottamento: 'Chianti o Val d\'Orcia',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 9 — La Val d\'Orcia',
+      tratta: 'Val d\'Orcia: la giornata senza cantine',
+      pernottamento: 'Val d\'Orcia',
+      statoPernottamento: 'da-confermare',
+      intensita: 'leggero',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+    {
+      titoloGiorno: 'Giorno 10 — Rientro',
+      tratta: 'Rientro da Firenze',
+      intensita: 'leggero',
+      destinazioneSlug: 'rotte-dei-vini',
+    },
+  ],
+  budget: [
+    { etichetta: 'Degustazioni in cantina', valore: '15-40€ a persona secondo i vini, spesso scalate sull\'acquisto' },
+    { etichetta: 'Auto a noleggio', valore: 'indispensabile per tutti i dieci giorni' },
+    { etichetta: 'Autista o servizio navetta', valore: 'la spesa che risolve il problema di chi guida, dove non si vuole sputare' },
+    { etichetta: 'Alloggi', valore: 'alti in Langhe e in Toscana in stagione; una frazione in Irpinia, Vulture e Valtellina' },
+    { etichetta: 'Vino acquistato', valore: 'in azienda si paga il prezzo di produzione: è la voce che cresce da sola' },
+    { etichetta: 'Ristoranti', valore: 'le osterie dei consorzi hanno le carte dei vini locali a prezzi vicini a quelli di cantina' },
+  ],
+}
