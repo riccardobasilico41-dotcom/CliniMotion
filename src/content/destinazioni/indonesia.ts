@@ -45,6 +45,54 @@ export const destinazioniIndonesia: Destinazione[] = [
       'Affidarsi a guide non certificate per il trekking oranghi: il contatto ravvicinato non regolamentato è pericoloso sia per i visitatori sia per gli animali',
       'Sottovalutare i tempi di spostamento su strade di montagna spesso dissestate',
     ],
+    confronti: [
+      {
+        titolo: 'Oranghi a Sumatra o in Borneo?',
+        introduzione:
+          'Gli oranghi selvatici esistono solo su queste due isole, e sono specie diverse: quello di Sumatra (in pericolo critico, poche migliaia di individui) e quello del Borneo. Chi ha fatto Bukit Lawang e pensa al Borneo — o viceversa — si sta ponendo la domanda giusta, perché non è la stessa esperienza.',
+        opzioni: [
+          {
+            nome: 'Bukit Lawang, Sumatra',
+            sintesi: 'Trekking a piedi nella giungla del Gunung Leuser, cercando gli animali invece di aspettarli.',
+            costo: 'il più economico di tutti: trekking guidati di 1-3 giorni per poche decine di euro, alloggi semplici sul fiume',
+            durata: '2-3 giorni',
+            pro: [
+              'Si cammina dentro la foresta: è un incontro attivo, non una piattaforma o una barca',
+              'Probabilità alte, perché nella zona vivono ex individui riabilitati ormai selvatici',
+              'Costi bassissimi, un quarto o meno di qualsiasi opzione del Borneo',
+              'Il Leuser è l\'ultimo ecosistema al mondo dove oranghi, tigri, rinoceronti ed elefanti convivono',
+            ],
+            contro: [
+              'Il nodo etico è reale: alcune guide attirano gli animali con il cibo per garantire l\'avvistamento, e va rifiutato esplicitamente in fase di prenotazione',
+              'Fisicamente impegnativo: fango, radici, caldo e umidità alti',
+              'Regolamentazione meno rigida che in Malesia: la qualità dipende molto dalla guida',
+              'Oltre agli oranghi, la zona offre meno varietà di fauna visibile',
+            ],
+            perChi: 'Chi vuole cercarli camminando, ha un budget contenuto e sceglie l\'operatore con attenzione.',
+          },
+          {
+            nome: 'Sabah, Borneo malese',
+            sintesi: 'Il sistema Sepilok più Kinabatangan: centro di riabilitazione con poppate a orario e poi crociere sul fiume per gli avvistamenti selvatici.',
+            costo: 'molto più alto: i lodge sul Kinabatangan si pagano a pacchetto, da circa 100€ a notte',
+            durata: '4-5 giorni per fare entrambi con senso',
+            pro: [
+              'A Sepilok l\'incontro ravvicinato è ragionevolmente garantito in quasi ogni stagione',
+              'Sul Kinabatangan gli oranghi sono selvatici e arrivano con tutto il resto: nasiche, elefanti pigmei, coccodrilli, buceri',
+              'Standard di gestione e regolamentazione più alti, con pratiche di alimentazione dichiarate',
+              'Nella stessa isola ci sono la foresta primaria della Danum Valley e Sipadan',
+            ],
+            contro: [
+              'Si guarda da una piattaforma o da una barca a venti-trenta metri: è meno diretto',
+              'Costa molto di più, e i trasferimenti interni sono lunghi',
+              'A Sepilok gli animali sono semi-selvatici e abituati all\'uomo',
+            ],
+            perChi: 'Chi vuole vedere anche il resto della fauna del Borneo e accetta un budget più alto in cambio di maggiore prevedibilità.',
+          },
+        ],
+        raccomandazione:
+          'Per il solo incontro con gli oranghi, Sumatra dà più per molto meno: si cammina, si cerca, e costa una frazione. Il Borneo si sceglie quando la lista è più lunga — nasiche, elefanti pigmei, foresta primaria, Sipadan — e gli oranghi sono uno dei motivi, non l\'unico. Chi ha già fatto Bukit Lawang non attraversi mezzo sud-est asiatico per rivederli: vada in Borneo per tutto il resto, e li rivedrà comunque.',
+      },
+    ],
     miaEsperienza:
       'È l\'isola che quasi nessuno mette in itinerario, e sbaglia. Il trekking a Bukit Lawang non è una passeggiata nel verde: si sale nel fango aggrappandosi alle radici, fa un caldo che toglie il respiro, e dopo tre ore senza vedere niente viene il dubbio di aver buttato una giornata. Poi un orango scende su un ramo a pochi metri, guarda per qualche secondo e riprende a mangiare, e quel dubbio sparisce. Va detta anche la parte scomoda: qualche guida attira gli animali col cibo per garantire l\'avvistamento, ed è una pratica da rifiutare esplicitamente al momento della prenotazione. Il Lago Toba, dopo, funziona come decompressione — grande come una provincia, silenzioso, con un ritmo che rallenta da solo.',
     esperienzeSlugs: ['trekking-oranghi-bukit-lawang'],
