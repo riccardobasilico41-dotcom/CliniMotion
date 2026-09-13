@@ -505,7 +505,7 @@ export const destinazioniItalia: Destinazione[] = [
     miaEsperienza:
       'Roma è la città che si visita peggio proprio perché si crede di conoscerla. La trappola è il triangolo Colosseo-Trevi-Vaticano, che si fa in due giorni con la lingua di fuori, in coda, mangiando male. Quello che invece resta sono due cose che non costano niente. La prima sono le chiese: a Roma ci sono tre Caravaggio in San Luigi dei Francesi, si entra gratis, e a metà mattina di un martedì di novembre non c\'è quasi nessuno — si mette un euro nella gettoniera per la luce e si sta lì dieci minuti davanti alla Vocazione di San Matteo. La seconda è l\'Appia Antica di domenica, chiusa al traffico: si cammina su basoli romani originali tra i sepolcri e i pini, con gli acquedotti in lontananza, e per chilometri ci sono solo ciclisti e famiglie. È a mezz\'ora dal Colosseo e non ci va quasi nessuno dei milioni di persone che quel Colosseo lo fotografano. Sul mangiare, una sola regola vale tutto il resto: allontanarsi. A Testaccio, al Pigneto o a San Lorenzo si mangia una cacio e pepe fatta bene per quindici euro, a cinquecento metri da un posto dove la stessa cosa costa il doppio ed è surgelata.',
     esperienzeSlugs: ['roma-sotterranea', 'appia-antica'],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['roma-4-giorni', 'grandi-citta-italia'],
     imageAlt: 'Il Colosseo visto dal Foro Romano al tramonto, Roma',
   },
   {
@@ -558,7 +558,7 @@ export const destinazioniItalia: Destinazione[] = [
     miaEsperienza:
       'Firenze ha un problema di scala che nessuna guida dice: tutto quello che si viene a vedere sta in mezzo chilometro quadrato, e questo significa che da aprile a ottobre il centro è una folla compatta che si sposta lentamente lungo tre assi. La conseguenza pratica è che la città va fatta al contrario — presto al mattino, o a novembre. La salita alla cupola prenotata alla prima fascia, alle otto e mezza, è un\'altra esperienza rispetto a farla a mezzogiorno: si sale per una scala stretta tra i due gusci, si passa a pochi centimetri dagli affreschi del Giudizio, e in cima c\'è aria. Il pezzo però che quasi nessuno fa e che vale quanto gli Uffizi è il Museo dell\'Opera del Duomo: dentro ci sono le porte originali del Battistero — quelle in piazza sono copie — e l\'ultima Pietà di Michelangelo, quella che voleva distruggere. Ci sono quattro persone. E per il tramonto: tutti vanno al Piazzale Michelangelo, che è un parcheggio con i venditori; cento metri più su c\'è San Miniato al Monte, una chiesa romanica del Mille con la facciata a intarsi di marmo, la stessa vista, e nel pomeriggio i monaci che cantano in gregoriano nella cripta.',
     esperienzeSlugs: ['cupola-brunelleschi'],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['firenze-3-giorni', 'grandi-citta-italia'],
     imageAlt: 'La cupola di Brunelleschi e i tetti di Firenze visti dall\'alto al tramonto',
   },
   {
@@ -611,7 +611,7 @@ export const destinazioniItalia: Destinazione[] = [
     miaEsperienza:
       'Venezia è la città più fraintesa d\'Italia, e il motivo è l\'orario. Tra le dieci del mattino e le cinque del pomeriggio, sugli assi che vanno dalla stazione a Rialto e da Rialto a San Marco, si cammina in un flusso compatto e si capisce perché i veneziani se ne siano andati — sono meno di cinquantamila, un terzo rispetto agli anni Cinquanta, e continuano a calare. Ma quella è una fascia oraria, non la città. Alle sette del mattino le stesse calli sono vuote, si sente l\'acqua battere contro i muri, passano le barche delle consegne, e i bacari aprono per chi va al lavoro. Dopo le sette di sera succede la stessa cosa al contrario. È l\'unica ragione seria per dormire in centro invece che a Mestre: non la comodità, ma l\'accesso a quelle due finestre. La cosa che invece quasi nessuno fa è la laguna: Torcello ha una basilica del settimo secolo con un Giudizio Universale a mosaico che copre un\'intera parete, ci si arriva in quaranta minuti di vaporetto, e ci sono venti persone. È lì che Venezia è cominciata, prima che esistesse Venezia.',
     esperienzeSlugs: ['venezia-alba'],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['venezia-3-giorni', 'grandi-citta-italia'],
     imageAlt: 'Un canale di Venezia all\'alba con le barche ormeggiate e nessuno in giro',
   },
   {
@@ -664,7 +664,7 @@ export const destinazioniItalia: Destinazione[] = [
     miaEsperienza:
       'Napoli è la città italiana che più divide, e la ragione è che chiede di adattarsi invece di accogliere. Il centro storico è la zona più densamente abitata d\'Europa e si sente: i vicoli sono stretti, i motorini passano dove non dovrebbero, i panni sono stesi sopra la testa e c\'è un rumore costante. Chi si irrita torna a casa dicendo che è caotica; chi entra nel ritmo scopre la città con più energia del paese. La cosa che però cambia di più la visita è un consiglio banale sull\'ordine: il Museo Archeologico Nazionale va visto **prima** di Pompei e non dopo. Tutti i mosaici, gli affreschi e i bronzi migliori sono stati portati lì nell\'Ottocento, e chi arriva a Pompei senza averli visti cammina per tre ore in mezzo a muri senza capire cosa ci fosse dentro. E poi Ercolano, che quasi tutti saltano per fare la più famosa: è un decimo di Pompei ma è stata sepolta da fango e non da cenere, quindi si sono conservati i piani superiori, le travi di legno carbonizzate e perfino i mobili. Si cammina dentro case a due piani con le scale ancora al loro posto.',
     esperienzeSlugs: ['pompei-ercolano', 'napoli-sotterranea', 'pizza-napoletana'],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['napoli-3-giorni', 'grandi-citta-italia'],
     imageAlt: 'Il golfo di Napoli con il Vesuvio sullo sfondo visto dal lungomare',
   },
   {
@@ -716,7 +716,7 @@ export const destinazioniItalia: Destinazione[] = [
     miaEsperienza:
       'Milano ha la reputazione di essere la città italiana che non vale un viaggio, e per il turismo classico è quasi vero: il centro si vede in un giorno e non ha il fascino stratificato di Roma o di Firenze. Poi però ci si sale sulle terrazze del Duomo, che quasi tutti saltano per fare solo l\'interno, e la prospettiva cambia: si cammina sul tetto di una cattedrale gotica in mezzo a centotrentacinque guglie e a tremila statue, con la città sotto e nelle giornate limpide le Alpi all\'orizzonte. È una delle cose più belle d\'Italia e costa quanto un museo. Sul Cenacolo va detta la cosa scomoda: non è un\'attrazione che si "prova a vedere", è un dipinto su un muro in un ambiente a umidità controllata dove entrano piccoli gruppi per quindici minuti, si prenota mesi prima con aperture trimestrali, e chi arriva a Milano sperando di trovarne uno all\'ultimo non entra. Chi ci riesce, però, sta davanti a un affresco che sta scomparendo da cinquecento anni — Leonardo lo dipinse con una tecnica sperimentale che iniziò a degradarsi mentre lui era ancora vivo — e quei quindici minuti valgono la trafila.',
     esperienzeSlugs: [],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['milano-e-i-laghi', 'grandi-citta-italia'],
     imageAlt: 'Le guglie e le terrazze del Duomo di Milano con la città sullo sfondo',
   },
   {
@@ -833,7 +833,7 @@ export const destinazioniItalia: Destinazione[] = [
     miaEsperienza:
       'La Sicilia è la regione italiana che più viene sottodimensionata in fase di pianificazione: sulla mappa sembra un\'isola, nella realtà è una nazione, e il classico "giro della Sicilia in una settimana" si traduce in sei giorni di statali. La cosa che mi ha colpito di più non è un monumento singolo ma un edificio che li contiene tutti: il Duomo di Monreale, costruito da re normanni con maestranze arabe e mosaicisti bizantini, con seimila metri quadrati di mosaici d\'oro e un chiostro dove ogni capitello è diverso. Lì dentro si capisce che la Sicilia non è stata conquistata da una cultura dopo l\'altra: le ha tenute tutte insieme. La seconda cosa è l\'Etna, che va fatto sapendo che non è un panorama ma un vulcano in attività: si sale su un terreno nero di lapilli che scricchiola sotto i piedi, con le fumarole che escono dalle fessure e il terreno caldo se ci si appoggia la mano. E per il resto, un consiglio poco romantico ma utile: la Valle dei Templi si fa in notturna. Di giorno, in estate, si cammina in un forno senza un albero.',
     esperienzeSlugs: ['etna'],
-    tripSlugs: ['sicilia-itinerario'],
+    tripSlugs: ['sicilia-itinerario', 'sicilia-completa'],
     imageAlt: 'Il Tempio della Concordia nella Valle dei Templi di Agrigento al tramonto, Sicilia',
   },
   {
@@ -855,7 +855,8 @@ export const destinazioniItalia: Destinazione[] = [
       'La gola di Gorropu, tra le più profonde d\'Europa, con pareti fino a cinquecento metri',
       'La Barbagia e i paesi del Supramonte: Orgosolo con i murales, Oliena, Urzulei',
       'Alghero, con l\'impronta catalana ancora nella lingua, e la Grotta di Nettuno',
-      'Le miniere dismesse del Sulcis-Iglesiente, patrimonio geominerario, e Porto Flavia',
+      'Le miniere dismesse del Sulcis-Iglesiente, patrimonio geominerario, con Porto Flavia scavata dentro la falesia',
+      'Le dune di Piscinas sulla Costa Verde, tra le più alte d\'Europa, e Carloforte dove si parla ligure',
     ],
     cosaFare: [
       'Trekking nella gola di Gorropu, che è la cosa più impressionante dell\'interno — vedi la scheda esperienza dedicata',
@@ -883,10 +884,78 @@ export const destinazioniItalia: Destinazione[] = [
       'Andare in agosto',
       'Aspettarsi di mangiare pesce come piatto tradizionale: la cucina sarda è pastorale, e il meglio è nell\'interno',
     ],
+    confronti: [
+      {
+        titolo: 'Sardegna chic o Sardegna inesplorata',
+        introduzione:
+          'La Sardegna vive da sessant\'anni una doppia identità: da una parte la costa disegnata negli anni Sessanta dal consorzio dell\'Aga Khan, con prezzi da capitale del lusso; dall\'altra un interno di pastori, nuraghi e montagne dove il turismo non è mai arrivato. Sono due isole diverse, e si può scegliere — o mescolarle, che è la cosa più interessante.',
+        opzioni: [
+          {
+            nome: 'Costa Smeralda e nord-est',
+            sintesi: 'Porto Cervo, Porto Rotondo, Baja Sardinia e l\'arcipelago della Maddalena: il tratto di costa progettato dal consorzio negli anni Sessanta, con un\'architettura studiata a tavolino e i prezzi più alti del Mediterraneo.',
+            costo: 'altissimo in alta stagione, tra i più cari d\'Europa',
+            durata: '4-5 giorni',
+            pro: [
+              'Il mare è davvero eccezionale, e le spiagge del nord-est sono tra le più belle dell\'isola',
+              'L\'arcipelago della **Maddalena** è parco nazionale e si gira in barca: Budelli, Spargi, Caprera',
+              'Servizi di livello internazionale e collegamenti comodi da Olbia',
+              'L\'architettura del consorzio, per quanto artificiale, è studiata e in certi tratti riuscita',
+            ],
+            contro: [
+              'Prezzi fuori scala in luglio e agosto, con ristoranti e alloggi da capitale del lusso',
+              'Affollamento serio e traffico sulle strade costiere',
+              'È un paesaggio costruito per il turismo: di sardo, lì, c\'è poco',
+              'I traghetti e i voli per il nord-est in alta stagione costano il doppio',
+            ],
+            perChi: 'Chi viene per il mare e per i servizi e accetta il prezzo, e chi vuole girare la Maddalena in barca.',
+          },
+          {
+            nome: 'Interno: Barbagia, Supramonte e Ogliastra',
+            sintesi: 'L\'altra Sardegna: i paesi del Supramonte, i nuraghi, la gola di Gorropu, i murales di Orgosolo, gli ovili dei pastori e una lingua che è una lingua e non un dialetto.',
+            costo: 'bassissimo, con agriturismi a prezzi che sulla costa non esistono più',
+            durata: '4-6 giorni',
+            pro: [
+              'La **gola di Gorropu**, tra le più profonde d\'Europa, con pareti fino a cinquecento metri',
+              'I **nuraghi**: settemila torri di pietra a secco costruite tra il 1800 e il 1100 a.C. da una civiltà senza scrittura, di cui non si sa con certezza nemmeno a cosa servissero. Su Nuraxi di Barumini è patrimonio UNESCO',
+              'La cucina è pastorale e non marinara — porceddu, pane carasau, culurgiones, pecorini — e si mangia meglio e a metà prezzo rispetto alla costa',
+              'Solitudine reale: si cammina mezza giornata senza incontrare nessuno',
+              'Tiscali, il villaggio nuragico nascosto dentro una dolina',
+            ],
+            contro: [
+              'Servizi turistici minimi e nessuna infrastruttura di accoglienza',
+              'Strade strette e lente, con tempi molto più lunghi delle stime',
+              'Sentieri del Supramonte severi, poco segnati e senza acqua: ogni anno ci sono interventi di soccorso',
+              'Niente mare a portata immediata',
+            ],
+            perChi: 'Chi ha già fatto la costa, chi cammina, chi vuole capire cos\'è la Sardegna oltre le spiagge.',
+          },
+          {
+            nome: 'Sud-ovest: Sulcis, Iglesiente e Costa Verde',
+            sintesi: 'La parte che quasi nessuno fa: le miniere dismesse patrimonio geominerario, Porto Flavia scavata nella falesia, le dune di Piscinas e le spiagge senza nessuno.',
+            costo: 'basso',
+            durata: '4-5 giorni',
+            pro: [
+              'Spiagge di livello nord-est con una frazione delle persone e dei prezzi',
+              'L\'archeologia industriale mineraria: **Porto Flavia**, un porto scavato dentro una falesia a picco sul mare, è una delle cose più impressionanti dell\'isola',
+              'Le dune di **Piscinas**, tra le più alte d\'Europa, con il deserto che arriva al mare',
+              'Sant\'Antioco e San Pietro, con Carloforte dove si parla ancora un dialetto ligure',
+            ],
+            contro: [
+              'Meno servizi e meno collegamenti: si arriva da Cagliari e serve l\'auto',
+              'Alcune spiagge sono raggiungibili solo con sterrati',
+              'Meno "famoso", il che per alcuni è un problema e per altri il motivo',
+            ],
+            perChi: 'Chi vuole spiagge di primo livello senza i prezzi del nord-est, e chi si interessa di archeologia industriale.',
+          },
+        ],
+        raccomandazione:
+          'La formula che rende di più è **mescolarle**: quattro giorni di costa e tre nell\'interno, che stanno a un\'ora di strada l\'uno dall\'altra e sembrano due paesi. Chi ha già visto il nord-est vada nel **sud-ovest**, che ha spiagge dello stesso livello, Porto Flavia e le dune di Piscinas, a una frazione del prezzo. E chi vuole capire davvero quest\'isola dedichi almeno due giorni al **Supramonte**: i nuraghi e Gorropu spiegano la Sardegna molto più di qualsiasi tratto di costa.',
+      },
+    ],
     miaEsperienza:
       'La Sardegna ha un problema di percezione: la si associa al mare, e il mare è davvero tra i più belli del Mediterraneo — Cala Goloritzé con quel pinnacolo di calcare e l\'acqua trasparente regge qualsiasi confronto. Ma la parte che sorprende è a venti chilometri dalla costa, nell\'interno, e ci va una frazione delle persone. La gola di Gorropu è una fenditura tra pareti che arrivano a cinquecento metri, dove si cammina su massi grandi come automobili con una striscia di cielo sopra: sembra un canyon americano e sta in Barbagia. E i nuraghi sono la cosa più strana d\'Italia: settemila torri di pietra a secco costruite tra il 1800 e il 1100 avanti Cristo da una civiltà di cui non sappiamo quasi nulla, senza scrittura, e di cui non si capisce con certezza nemmeno a cosa servissero quelle torri. A Barumini si entra dentro e si sale per scale interne nello spessore del muro. Poi c\'è la cosa pratica che va detta: le cale più belle sono state contingentate proprio perché stavano venendo distrutte, e oggi senza prenotazione non ci si entra.',
     esperienzeSlugs: ['gorropu', 'cala-goloritze'],
-    tripSlugs: [],
+    tripSlugs: ['sardegna-due-anime'],
     imageAlt: 'La spiaggia di Cala Goloritzé con il pinnacolo di calcare e l\'acqua trasparente, Sardegna',
   },
   {
@@ -1039,7 +1108,7 @@ export const destinazioniItalia: Destinazione[] = [
     miaEsperienza:
       'Le isole minori sono la parte d\'Italia dove la differenza tra andare a giugno e andare ad agosto non è di grado ma di natura: sono posti piccoli, con un numero finito di letti, ristoranti e barche, e quando arriva il carico di agosto smettono semplicemente di funzionare come funzionano il resto dell\'anno. La cosa che resta di più, tra tutte, è Stromboli visto dal mare di notte: si sta su una barca a motore spento davanti alla Sciara del Fuoco, al buio, e ogni pochi minuti il cratere sputa materiale incandescente che rotola lungo il versante fino all\'acqua. Non c\'è nessun effetto speciale e nessuna spiegazione che regga: è un vulcano che fa quello che fa da millenni, con un paese abitato sotto. L\'altra sorpresa è Pantelleria, che è l\'anti-isola italiana: niente sabbia, vento sempre, roccia nera, e una viticoltura in cui le viti si coltivano in buche scavate nel terreno per proteggerle dal vento, tecnica dichiarata patrimonio immateriale dall\'UNESCO. Ci si va per capire cosa significa coltivare qualcosa in un posto ostile.',
     esperienzeSlugs: [],
-    tripSlugs: [],
+    tripSlugs: ['eolie-in-vela', 'isole-siciliane', 'costiera-e-isole'],
     imageAlt: 'Lo Stromboli in attività visto dal mare di notte, Isole Eolie',
   },
   {
@@ -1374,5 +1443,512 @@ export const destinazioniItalia: Destinazione[] = [
     esperienzeSlugs: ['degustazione-cantina'],
     tripSlugs: ['rotte-dei-vini-itinerario'],
     imageAlt: 'Le colline coltivate a vite delle Langhe in autunno, Piemonte',
+  },
+  {
+    slug: 'torino',
+    paeseSlug: 'italia',
+    ordine: 13,
+    nome: 'Torino',
+    tipologia: ['città d\'arte', 'musei', 'gastronomia'],
+    giorniConsigliati: '2-3 giorni, più le Langhe o la Valle di Susa',
+    visitataPersonalmente: true,
+    introduzione:
+      'La prima capitale d\'Italia, costruita su una griglia romana e poi barocca, con diciotto chilometri di portici che permettono di attraversarla senza mai prendere la pioggia. Ha il museo egizio più importante al mondo dopo il Cairo, la Mole che è il simbolo più improbabile mai adottato da una città, e una cultura del caffè e del vermouth che qui è nata.',
+    percheAndarci:
+      'Perché è la grande città italiana più sottovalutata: non ha il turismo di massa di Firenze o Venezia, ha musei di livello internazionale, si cammina benissimo, e si mangia e si beve come in poche altre — con le Alpi che si vedono in fondo alle strade nelle giornate limpide.',
+    cosaVedere: [
+      'Il Museo Egizio, secondo al mondo solo a quello del Cairo per importanza della collezione',
+      'La Mole Antonelliana con il Museo Nazionale del Cinema e l\'ascensore panoramico nel vuoto centrale',
+      'Il Palazzo Reale, i Musei Reali e l\'Armeria, con la Cappella della Sindone di Guarini restaurata',
+      'La Basilica di Superga sulla collina, con le tombe dei Savoia e il memoriale del Grande Torino',
+      'La Reggia di Venaria, patrimonio UNESCO, con i giardini',
+      'Il Quadrilatero Romano e Porta Palazzo, il mercato all\'aperto più grande d\'Europa',
+      'I caffè storici: qui sono nati il bicerin, il vermouth e il rito dell\'aperitivo',
+    ],
+    cosaFare: [
+      'Museo Egizio all\'apertura, con almeno tre ore a disposizione',
+      'Salire alla Mole con l\'ascensore che attraversa il vuoto della cupola, che è un\'esperienza a sé',
+      'Aperitivo in un caffè storico, che a Torino è una pratica codificata da due secoli',
+      'Salire a Superga con la tranvia a dentiera storica, e fare il giro della collina',
+      'Il mercato di Porta Palazzo al mattino, che è il più grande mercato all\'aperto d\'Europa',
+    ],
+    doveDormire:
+      'Il centro dentro il quadrilatero barocco è comodissimo e si gira tutto a piedi. San Salvario, dietro Porta Nuova, ha i prezzi migliori e la vita serale. Il Quadrilatero Romano per l\'atmosfera. La città è ben servita dalla metropolitana e dai tram: la posizione conta meno che a Roma o Napoli.',
+    doveMangiare:
+      'La cucina piemontese è tra le più ricche d\'Italia: agnolotti del plin, vitello tonnato, carne cruda battuta al coltello, bagna càuda (d\'inverno, e si mangia in gruppo), finanziera per i coraggiosi. E poi la parte dolce e liquida, che a Torino è identità: il **bicerin** (caffè, cioccolata e crema di latte, in bicchiere, servito a strati), il gianduiotto, i grissini — nati qui — e il **vermouth**, inventato a Torino nel Settecento. L\'aperitivo con il buffet è una pratica locale da due secoli, non una moda recente.',
+    comeArrivare:
+      'Alta velocità: Torino Porta Nuova e Porta Susa sono in città, con Milano a un\'ora e Roma in quattro e mezza. Aeroporto di Caselle, collegato in treno e bus.',
+    comeSpostarsi:
+      'A piedi sotto i portici, che coprono il centro per chilometri. Metropolitana automatica (una linea) e una rete di tram tra le più estese d\'Italia. **Attenzione alla ZTL centrale**, attiva nei giorni feriali con telecamere.',
+    periodoMigliore:
+      'aprile-giugno e settembre-novembre. L\'inverno è freddo e nebbioso ma la città funziona benissimo e i musei sono vuoti; l\'estate è afosa e ad agosto Torino si svuota. A novembre c\'è il Salone del Gusto negli anni pari e la fiera del tartufo ad Alba a un\'ora di distanza.',
+    costi:
+      'Museo Egizio con biglietto contenuto rispetto al livello; la **Torino+Piemonte Card** copre decine di musei e conviene da due giorni in su. La città è sensibilmente più economica di Milano su alloggi e ristorazione.',
+    erroriDaEvitare: [
+      'Dedicare un\'ora al Museo Egizio: ce ne vogliono almeno tre, ed è la collezione egizia più importante al mondo dopo quella del Cairo',
+      'Saltare la collina: Superga e il giro panoramico sono metà del carattere della città e quasi nessun visitatore ci sale',
+      'Entrare in auto in centro senza conoscere la ZTL',
+      'Considerarla solo una tappa di passaggio verso le Langhe: Torino regge due giorni pieni',
+      'Aspettarsi una città "da cartolina": Torino è rigorosa, geometrica e un po\' severa, e piace per questo',
+    ],
+    miaEsperienza:
+      'Torino è la grande città italiana che ricevi in regalo, nel senso che nessuno ti dice di andarci e poi ci vai e regge due giorni pieni senza sforzo. Il Museo Egizio è il pezzo forte e va detto con chiarezza quanto sia grosso: è la seconda collezione egizia al mondo dopo il Cairo, con statuari interi, papiri e la tomba di Kha e Merit ricostruita con tutto il corredo trovato intatto — ci vogliono tre ore e non è un modo di dire. La Mole, invece, è la cosa più assurda: nata come sinagoga, mai usata come tale, diventata simbolo della città, e oggi museo del cinema con un ascensore a cabina trasparente che sale nel vuoto della cupola, sopra la testa dei visitatori sdraiati sui divani a guardare filmati. Poi c\'è la parte che quasi nessuno fa, cioè la collina: si prende la tranvia a dentiera e si sale a Superga, dove ci sono le tombe dei Savoia e, sul retro, il muro contro cui si schiantò l\'aereo del Grande Torino nel 1949. E la sera, l\'aperitivo: non la moda milanese, ma i caffè storici con i banconi di marmo dove si beve un vermouth fatto a cento metri da lì.',
+    esperienzeSlugs: ['museo-egizio'],
+    tripSlugs: ['torino-2-giorni'],
+    imageAlt: 'La Mole Antonelliana e i tetti di Torino con le Alpi sullo sfondo',
+  },
+  {
+    slug: 'costiera-amalfitana',
+    paeseSlug: 'italia',
+    ordine: 14,
+    nome: 'Costiera Amalfitana',
+    tipologia: ['mare', 'paesaggi', 'trekking'],
+    giorniConsigliati: '4-5 giorni',
+    visitataPersonalmente: true,
+    introduzione:
+      'Cinquanta chilometri di costa a picco tra Sorrento e Salerno, patrimonio UNESCO come **paesaggio culturale**: non per la natura ma per il modo in cui l\'uomo l\'ha terrazzata a limoni e vite su pendenze impossibili. Tredici comuni aggrappati alla roccia, collegati da una strada statale che è insieme la più bella e la più maledetta d\'Italia.',
+    percheAndarci:
+      'Perché il rapporto tra montagna e mare qui non esiste altrove nel Mediterraneo: si passa da seicento metri di quota al mare in due chilometri in linea d\'aria. E perché sopra la strada, sui sentieri, c\'è una costiera completamente diversa da quella che vedono i pullman.',
+    cosaVedere: [
+      'Positano, verticale e fotogenica, che si scende a piedi e si risale con le gambe',
+      'Amalfi con il Duomo e il Chiostro del Paradiso, e Ravello con Villa Cimbrone e Villa Rufolo',
+      'Il **Sentiero degli Dei**, da Bomerano a Nocelle, che è la costiera vista dall\'alto',
+      'La Valle delle Ferriere sopra Amalfi, con le felci giganti sopravvissute dall\'era glaciale',
+      'Il Fiordo di Furore e la Grotta dello Smeraldo',
+      'Atrani, il comune più piccolo d\'Italia per superficie, a duecento metri da Amalfi e senza nessuno',
+      'Cetara, paese di pescatori con la colatura di alici, e Vietri con le ceramiche',
+    ],
+    cosaFare: [
+      'Il Sentiero degli Dei, che è la cosa migliore della Costiera — vedi la scheda esperienza dedicata',
+      'Muoversi in traghetto invece che in auto, che d\'estate è l\'unica scelta sensata',
+      'La Scala Fenicia o i sentieri dei Limoni tra Maiori e Minori, che quasi nessuno fa',
+      'Una serata a Ravello, che sta a quattrocento metri sopra la costa ed è un altro mondo rispetto al fondo',
+    ],
+    doveDormire:
+      '**Dormire a Napoli o a Salerno e fare gite in giornata costa una frazione** rispetto ad alloggiare a Positano o ad Amalfi in stagione. Chi vuole stare sulla costa: Praiano e Minori hanno prezzi molto più umani di Positano e Amalfi, con la stessa costa. Ravello è un\'altra cosa — più alta, più silenziosa, più cara.',
+    doveMangiare:
+      'Pesce azzurro, non pesce nobile: qui la tradizione è quella dei pescatori. La **colatura di alici di Cetara**, erede del garum romano, si usa su spaghetti con aglio, olio e prezzemolo e non va cotta. Poi gli scialatielli ai frutti di mare, la mozzarella nella mortella, e i limoni — sfusato amalfitano, che è enorme e si mangia anche in insalata. Il limoncello è ovunque e quasi sempre industriale: quello buono si compra dai produttori. **Sul lungomare di Positano e Amalfi si paga la posizione**, non il piatto.',
+    comeArrivare:
+      'Da Napoli: Circumvesuviana fino a Sorrento e poi bus o traghetto; oppure traghetto diretto in stagione. Da Salerno: bus o traghetto lungo tutta la costa. **L\'aereo arriva a Napoli Capodichino.**',
+    comeSpostarsi:
+      '**Il traghetto batte l\'auto e il bus in ogni stagione.** La statale amalfitana è una strada a due corsie strette con centinaia di tornanti e nessun parcheggio: d\'estate è un ingorgo continuo, con code di ore. I bus SITA sono economici e panoramici ma pieni. **In alta stagione vige la targhe alterne** su alcuni tratti: va verificato. Lo scooter è l\'alternativa per chi se la sente.',
+    periodoMigliore:
+      '**maggio-giugno e settembre-inizio ottobre.** Luglio e agosto sono saturi, con la statale bloccata e i prezzi al massimo. Da novembre a marzo la costa si svuota: bellissima e silenziosa, con molte strutture chiuse e il mare fuori gioco. Aprile e ottobre sono ottimi per i sentieri.',
+    costi:
+      'Tra le zone più care d\'Italia in alta stagione. Il Sentiero degli Dei è gratuito; Villa Cimbrone e Villa Rufolo a Ravello hanno biglietti contenuti; i traghetti costano pochi euro a tratta e sono il miglior investimento del viaggio.',
+    erroriDaEvitare: [
+      '**Venire in auto in luglio o agosto.** È l\'errore che rovina più vacanze sulla Costiera: la statale è bloccata, i parcheggi costano cifre assurde dove esistono, e si passa la giornata in coda',
+      'Dormire a Positano o Amalfi senza sapere che a Praiano o Minori si spende metà con la stessa costa',
+      'Fare solo il fondo: Ravello sta a quattrocento metri e i sentieri sopra la strada sono un\'altra costiera',
+      'Fermarsi a Positano e Amalfi saltando Atrani, che è a duecento metri da Amalfi, è il comune più piccolo d\'Italia e non ha nessuno',
+      'Fare il Sentiero degli Dei nel senso sbagliato: da Bomerano a Nocelle si scende, al contrario si sale tutto',
+      'Cuocere la colatura di alici, che va aggiunta a crudo',
+    ],
+    miaEsperienza:
+      'La Costiera ha un problema che si chiama statale 163: una strada a due corsie strettissime, scavata nella roccia, con i bus che si incrociano a specchietti rientrati, e d\'estate una coda continua da Sorrento a Salerno. Chi ci arriva in auto in agosto passa la vacanza fermo, e questo basta a rovinare uno dei posti più belli del Mediterraneo. La soluzione è banale e quasi nessuno la applica: **il traghetto**. Costa pochi euro, collega tutti i paesi, e si arriva dal mare — che è anche il modo in cui questa costa va guardata, perché i paesi sono stati costruiti per essere visti da lì. La seconda cosa che cambia il viaggio è salire. Sopra la strada c\'è una costiera di sentieri, terrazzamenti e mulattiere che collegavano i paesi prima che la statale esistesse: il **Sentiero degli Dei** corre a cinquecento metri sopra il mare con Positano sotto e Capri all\'orizzonte, dura tre ore, è gratis, e ci va una frazione minima delle persone che si accalcano sul lungomare. Da lassù si capisce anche perché sia patrimonio UNESCO: quei terrazzamenti a limoni su pendenze del quaranta per cento li ha costruiti qualcuno, a mano, nei secoli.',
+    esperienzeSlugs: ['sentiero-degli-dei'],
+    tripSlugs: ['costiera-e-isole'],
+    imageAlt: 'Positano vista dall\'alto con le case a terrazza sul mare, Costiera Amalfitana',
+  },
+  {
+    slug: 'isole-golfo-napoli',
+    paeseSlug: 'italia',
+    ordine: 15,
+    nome: 'Capri, Ischia e Procida',
+    tipologia: ['isole', 'mare', 'terme'],
+    giorniConsigliati: '4-5 giorni per farne almeno due',
+    visitataPersonalmente: true,
+    introduzione:
+      'Tre isole a meno di un\'ora da Napoli e completamente diverse tra loro: Capri verticale, mondana e carissima; Ischia grande, verde e termale, con sorgenti già sfruttate dai greci; Procida minuscola, colorata e rimasta un paese di pescatori.',
+    percheAndarci:
+      'Perché sono raggiungibili in giornata da Napoli e perché il contrasto tra le tre, a poche miglia di distanza, è la cosa più interessante: si può passare dalla mondanità assoluta di Capri alla Marina Corricella di Procida, dove la gente stende i panni, nello stesso pomeriggio.',
+    cosaVedere: [
+      'Capri: i Faraglioni, la Grotta Azzurra, Villa Jovis di Tiberio, il Monte Solaro con la seggiovia da Anacapri',
+      'Il Sentiero dei Fortini e la Scala Fenicia a Capri, che quasi nessuno fa',
+      'Ischia: il Castello Aragonese su un isolotto, le terme di Cavascura scavate nella roccia, il Monte Epomeo',
+      'La Baia di Sorgeto a Ischia, dove sorgenti termali bollenti sgorgano direttamente in mare',
+      'Procida: Marina Corricella con le case colorate, Terra Murata, la Chiaiolella',
+      'I Campi Flegrei sulla terraferma, con la Solfatara e Baia sommersa',
+    ],
+    cosaFare: [
+      'Capri **dormendoci**, perché l\'isola cambia completamente dopo che ripartono i giornalieri',
+      'Bagno termale a Sorgeto a Ischia, dove si scava una buca nella ghiaia e si sta nell\'acqua calda',
+      'Salire al Monte Solaro in seggiovia e scendere a piedi lungo la Scala Fenicia',
+      'Il giro di Procida in bici o a piedi, che si fa in mezza giornata',
+      'Il giro dell\'isola in barca, che a Capri è l\'unico modo di vedere le grotte e i Faraglioni da vicino',
+    ],
+    doveDormire:
+      'Capri è carissima in alta stagione; Anacapri costa sensibilmente meno ed è più tranquilla. Ischia ha l\'offerta più larga e più economica delle tre, con gli hotel termali. Procida è la più accessibile e la più autentica. **Molti fanno base a Napoli o a Sorrento e vanno in giornata**, che è la scelta più economica ma la peggiore per Capri.',
+    doveMangiare:
+      'A Capri l\'insalata caprese è nata qui e la torta caprese pure — con le mandorle e senza farina. A Ischia il piatto da cercare è il **coniglio all\'ischitana**, che è un piatto di terra su un\'isola: i conigli venivano allevati in fosse scavate nel tufo, e la cucina isolana è più contadina che marinara. A Procida si mangia pesce e si compra il limone locale, enorme, che si usa in insalata. **Sulle piazzette principali si paga la posizione**: due vicoli più in là si mangia meglio e si spende metà.',
+    comeArrivare:
+      'Traghetti e aliscafi da Napoli (Molo Beverello per gli aliscafi, Calata Porta di Massa per i traghetti) e da Sorrento. Procida e Ischia anche da Pozzuoli, che è più vicino e meno caotico.',
+    comeSpostarsi:
+      'A Capri **non si porta l\'auto** — è vietata ai non residenti in alta stagione — e ci si muove con la funicolare, i bus e i taxi scoperti. A Ischia servono bus o scooter, perché l\'isola è grande. Procida si gira a piedi o in bici.',
+    periodoMigliore:
+      '**maggio-giugno e settembre.** Luglio e agosto: Capri riceve decine di migliaia di visitatori in giornata ed è invivibile. Ischia funziona anche in inverno per le terme, ed è l\'unica delle tre con una stagione lunga.',
+    costi:
+      'Capri è tra i posti più cari d\'Italia. Ischia ha prezzi normali, Procida bassi. I traghetti costano pochi euro; la Grotta Azzurra richiede biglietto più il passaggio sulla barchetta, con code lunghe e accesso sospeso quando il mare è mosso.',
+    erroriDaEvitare: [
+      '**Fare Capri in giornata in agosto**: si arriva insieme a migliaia di persone, si fa la fila per la funicolare, si cammina in fila in Piazzetta e si riparte. Chi ci dorme vede un\'altra isola dopo le sei di sera',
+      'Andare alla Grotta Azzurra senza verificare il mare: con onda l\'accesso viene sospeso, e la coda può essere di ore per cinque minuti dentro',
+      'Portare l\'auto a Capri, dove è vietata, o a Procida, dove è inutile',
+      'Scegliere Ischia pensando che sia una Capri più economica: è più grande, più verde, più contadina, e la sua ragione sono le terme',
+      'Saltare Procida perché "è piccola": è l\'unica delle tre rimasta un paese vero',
+    ],
+    confronti: [
+      {
+        titolo: 'Capri, Ischia o Procida: quale scegliere',
+        introduzione:
+          'Sono a poche miglia l\'una dall\'altra e vengono trattate come intercambiabili, mentre sono tre viaggi diversi per costo, ritmo e ragione per andarci.',
+        opzioni: [
+          {
+            nome: 'Capri',
+            sintesi: 'Verticale, mondana, con i Faraglioni, Villa Jovis e il Monte Solaro. È l\'isola più celebre del Mediterraneo e si comporta di conseguenza.',
+            costo: 'altissimo, tra i più alti d\'Italia',
+            durata: '1-2 giorni, meglio con un pernottamento',
+            pro: [
+              'Il paesaggio regge la fama: i Faraglioni e la costa da Punta Carena sono spettacolari',
+              'Dopo le sei di sera, quando ripartono i giornalieri, diventa un\'altra isola',
+              'Il Sentiero dei Fortini e la Scala Fenicia sono tra le camminate più belle del Tirreno e ci va pochissima gente',
+              'Anacapri, in alto, è tutt\'altro ritmo rispetto alla Piazzetta',
+            ],
+            contro: [
+              'In alta stagione arrivano decine di migliaia di visitatori in giornata: la Piazzetta è impraticabile',
+              'Prezzi da capitale internazionale su tutto',
+              'La Grotta Azzurra ha code lunghissime per cinque minuti dentro, e chiude col mare mosso',
+            ],
+            perChi: 'Chi accetta il prezzo e — soprattutto — chi ci dorme. In giornata in agosto è il modo peggiore di conoscerla.',
+          },
+          {
+            nome: 'Ischia',
+            sintesi: 'La più grande delle tre, verde e montuosa, con il termalismo come identità: le sorgenti sono sfruttate dai tempi dei greci.',
+            costo: 'medio, con l\'offerta più larga e più accessibile delle tre',
+            durata: '3-4 giorni',
+            pro: [
+              'Le terme sono vere e non un servizio da spa: a **Sorgeto** l\'acqua bollente sgorga direttamente in mare e ci si scava una buca nella ghiaia',
+              'Il Castello Aragonese su un isolotto collegato da un ponte è uno dei posti più belli del golfo',
+              'Grande abbastanza da avere un interno agricolo: il Monte Epomeo, i vigneti, i paesi in collina',
+              'Stagione lunga: funziona anche in inverno grazie alle terme',
+            ],
+            contro: [
+              'Molto edificata in alcune zone, con un\'urbanistica pesante lungo la costa nord',
+              'Serve muoversi: l\'isola è grande e i bus sono lenti',
+              'Meno "da cartolina" delle altre due',
+            ],
+            perChi: 'Chi cerca terme vere, chi sta più giorni, chi viaggia con famiglia, chi vuole spendere il giusto.',
+          },
+          {
+            nome: 'Procida',
+            sintesi: 'La più piccola, la meno turistica, rimasta un paese di pescatori con le case colorate di Marina Corricella. Capitale italiana della cultura nel 2022.',
+            costo: 'il più basso delle tre',
+            durata: 'mezza giornata o una notte',
+            pro: [
+              'È l\'unica rimasta un paese vero: la gente ci vive, stende i panni, ripara le barche',
+              'Marina Corricella, con le case a gradoni di tutti i colori, è uno dei porti più belli d\'Italia',
+              'Si gira a piedi in mezza giornata e costa pochissimo',
+              'Vicinissima: quaranta minuti da Napoli',
+            ],
+            contro: [
+              'Poco da "fare" in senso classico: si cammina, si guarda, si mangia',
+              'Spiagge modeste rispetto alle altre due',
+              'Dopo la nomina a capitale della cultura l\'affluenza è cresciuta molto',
+            ],
+            perChi: 'Chi ha mezza giornata, chi cerca autenticità invece di scenografia, chi vuole spendere poco.',
+          },
+        ],
+        raccomandazione:
+          'Con un giorno solo: **Procida**, che costa poco e non delude mai. Con tre o quattro giorni: **Ischia** come base, con una giornata a Procida che è a venti minuti di traghetto. **Capri** merita, ma solo dormendoci o venendo fuori stagione: farla in giornata ad agosto significa vedere la versione peggiore del posto più bello del golfo.',
+      },
+    ],
+    miaEsperienza:
+      'La differenza tra queste tre isole si misura in una cosa sola: cosa succede alle sei di sera. A Capri, alle sei, ripartono gli ultimi aliscafi dei giornalieri e la Piazzetta — che a mezzogiorno è una folla compatta in cui non ci si muove — si svuota. Rimangono i residenti e i pochi che ci dormono, la luce si abbassa sui Faraglioni, e si capisce perché per duemila anni questa sia stata l\'isola più desiderata del Mediterraneo. Chi la fa in giornata ad agosto vede solo la parte peggiore e torna dicendo che è sopravvalutata. Ischia funziona diversamente, perché è grande e ha un\'economia sua: le terme non sono un servizio alberghiero ma una risorsa geologica sfruttata dai greci, e a **Sorgeto** si scende una scalinata fino a una baia dove l\'acqua bollente sgorga dal fondale e si mescola col mare — ci si scava una buca nella ghiaia e ci si siede, gratis, con il mare freddo a due metri. Procida è la più piccola e la più onesta: non c\'è niente da spuntare, si cammina fino a Marina Corricella, ci si siede e si guarda un porto di pescatori con le case di tutti i colori dove la gente vive davvero.',
+    esperienzeSlugs: ['sorgeto-ischia'],
+    tripSlugs: ['costiera-e-isole'],
+    imageAlt: 'Le case colorate di Marina Corricella a Procida viste dal mare',
+  },
+  {
+    slug: 'eolie',
+    paeseSlug: 'italia',
+    ordine: 16,
+    nome: 'Isole Eolie',
+    tipologia: ['isole', 'vulcani', 'vela'],
+    giorniConsigliati: '6-7 giorni per farne almeno quattro',
+    visitataPersonalmente: true,
+    introduzione:
+      'Sette isole vulcaniche a nord della Sicilia, patrimonio UNESCO dal 2000 per il loro valore geologico: qui sono stati studiati e battezzati due tipi di eruzione — quella **stromboliana** e quella **vulcaniana** — che portano il nome di queste isole in tutti i manuali del mondo. Stromboli è uno dei pochissimi vulcani al mondo in eruzione permanente da millenni.',
+    percheAndarci:
+      'Perché sono sette mondi separati a poche miglia l\'uno dall\'altro: da Panarea mondana ad Alicudi, dove non ci sono strade e le merci salgono ancora con i muli. E perché il modo migliore di farle — la vela — permette di dormire in rada davanti a un vulcano in eruzione.',
+    cosaVedere: [
+      'Stromboli, con la Sciara del Fuoco e le esplosioni visibili dal mare di notte',
+      'Vulcano, con il Gran Cratere, le fumarole e i fanghi sulfurei',
+      'Lipari, la più grande, con le cave di pomice e ossidiana e il Museo Archeologico Eoliano',
+      'Salina, la più verde, con i due vulcani spenti, la malvasia e i capperi',
+      'Panarea, la più piccola e la più mondana, con il villaggio preistorico di Capo Milazzese',
+      'Filicudi e Alicudi, le due più remote: ad Alicudi non ci sono strade, solo scalinate',
+      'Le pomici e le sabbie bianche di Lipari e le acque termali sottomarine di Vulcano',
+    ],
+    cosaFare: [
+      'Vedere Stromboli in eruzione dal mare di notte — vedi la scheda esperienza dedicata',
+      'Salire sul Gran Cratere di Vulcano, con l\'avvertenza che l\'accesso è stato più volte regolamentato o chiuso per l\'attività fumarolica',
+      'Girare le isole **in barca a vela**, che è il modo per cui queste isole sono fatte — vedi la scheda esperienza dedicata',
+      'Salire a piedi ad Alicudi lungo le scalinate, che sono l\'unica viabilità dell\'isola',
+      'Assaggiare la malvasia delle Lipari a Salina, dove si produce',
+    ],
+    doveDormire:
+      'Lipari come base, per i collegamenti e l\'offerta più larga; Salina per la qualità e la tranquillità; Panarea se il budget non è un tema; Stromboli per la salita e le eruzioni. **In alta stagione i posti si esauriscono**: sono isole piccole con un numero finito di letti. Chi va in vela dorme a bordo e risolve il problema.',
+    doveMangiare:
+      'La cucina eoliana è povera e di mare: **pasta alla eoliana** con capperi, olive e pomodorini, pesce azzurro, totani, e il **pane cunzato**, che è una fetta di pane con pomodoro, acciughe, capperi, origano e formaggio — nato come pasto dei contadini. I **capperi di Salina** sono un presidio e sono diversi da tutti gli altri. Da bere, la **Malvasia delle Lipari** passita, che si beve a fine pasto.',
+    comeArrivare:
+      'Aliscafi e traghetti da **Milazzo** (il collegamento principale, circa un\'ora per Lipari), Messina, Palermo e in stagione da Napoli. **Con il mare mosso le corse saltano**, ed è la variabile che condiziona tutto: restare bloccati un giorno in più è la normalità, non l\'eccezione.',
+    comeSpostarsi:
+      'Traghetti e aliscafi interni tra le isole, frequenti in alta stagione e radi in bassa. Sulle isole: scooter a Lipari e Salina, nulla a Panarea (solo carrelli elettrici), **niente a Filicudi e Alicudi**, dove ci si muove a piedi e i muli portano ancora le merci.',
+    periodoMigliore:
+      '**giugno e settembre.** Luglio e agosto sono saturi: sono isole piccole e il carico di agosto le fa smettere di funzionare come funzionano il resto dell\'anno. Da novembre a marzo molte strutture chiudono e i collegamenti si riducono drasticamente.',
+    costi:
+      'I traghetti incidono più di quanto si pensi, soprattutto facendo più isole. Panarea ha prezzi da altra categoria; Filicudi e Alicudi sono economicissime. La salita guidata allo Stromboli ha un costo fisso ed è obbligatoria oltre una certa quota.',
+    erroriDaEvitare: [
+      '**Programmare coincidenze strette**: con il mare mosso le corse saltano e si resta bloccati. Non si prenota un volo per la sera stessa del rientro dalle isole',
+      'Fare solo Lipari e Vulcano perché sono le più comode: Salina, Filicudi e Alicudi sono la ragione per venire fin qui',
+      'Dare per scontata la salita allo Stromboli: **l\'accesso oltre quota è regolamentato dalla protezione civile e cambia con l\'attività del vulcano**, e negli ultimi anni è stato più volte limitato. Va verificato prima di partire',
+      'Andare in agosto',
+      'Portare l\'auto: su queste isole è inutile e in gran parte impossibile',
+      'Sottovalutare l\'acqua: diverse isole hanno problemi idrici e l\'acqua arriva con le navi cisterna',
+    ],
+    confronti: [
+      {
+        titolo: 'Eolie in vela o via traghetto?',
+        introduzione:
+          'Le Eolie si possono fare in due modi completamente diversi, e la scelta cambia il viaggio più di qualunque altra decisione. La differenza non è solo il mezzo: è dove si dorme, cosa si vede e quanto si dipende dagli orari degli altri.',
+        opzioni: [
+          {
+            nome: 'In barca a vela',
+            sintesi: 'Si noleggia una barca — con skipper o in autonomia se si ha la patente nautica — e si vive a bordo per una settimana, spostandosi tra le isole e dormendo in rada.',
+            costo: 'una barca da 8-10 persone divisa tra l\'equipaggio costa spesso meno di sette notti in hotel a testa in alta stagione, più skipper, carburante e cassa comune',
+            durata: '7 giorni, che è il formato standard del noleggio',
+            pro: [
+              '**Stromboli di notte dal mare**: si sta alla fonda davanti alla Sciara del Fuoco con il motore spento e si guardano le esplosioni. È la cosa che da sola giustifica la formula',
+              'Si raggiungono cale e punti di ancoraggio inaccessibili da terra',
+              'Zero dipendenza dagli orari degli aliscafi e zero problema di trovare alloggio in alta stagione',
+              'Con un equipaggio pieno, il costo a testa è competitivo con gli hotel',
+              'Si dorme in rada, che è un\'esperienza a sé',
+            ],
+            contro: [
+              'Spazi stretti e vita in comune: con le persone sbagliate, sette giorni sono lunghi',
+              'Il mare decide: con vento forte si cambia programma o si resta in porto',
+              'Confort limitato — acqua razionata, docce brevi, cuccette',
+              'Serve uno skipper se non si ha la patente nautica, e va messo in conto',
+              'Chi soffre il mare lo scopre il primo giorno',
+            ],
+            perChi: 'Gruppi di amici, chi vuole vedere Stromboli dal mare, chi non sopporta di dipendere dagli aliscafi.',
+          },
+          {
+            nome: 'Base a terra e traghetti',
+            sintesi: 'Si sceglie una base — di solito Lipari o Salina — e si fanno le altre isole in giornata con aliscafi e traghetti.',
+            costo: 'alloggio più biglietti dei collegamenti interni, che sommati incidono',
+            durata: '5-7 giorni',
+            pro: [
+              'Comodità: letto fisso, doccia vera, bagagli che restano fermi',
+              'Si può cambiare programma in base al meteo senza conseguenze',
+              'Accessibile a tutti, anche a chi soffre il mare',
+              'Si conoscono meglio le isole dove si dorme, perché si vive la sera',
+            ],
+            contro: [
+              '**Si dipende dagli orari**: gli aliscafi in giornata limitano le isole raggiungibili e impongono di ripartire nel pomeriggio',
+              'Con il mare mosso le corse saltano e si resta fermi',
+              'In alta stagione gli alloggi si esauriscono e i prezzi salgono',
+              'Stromboli di notte dal mare si può fare solo con escursioni organizzate a orario',
+            ],
+            perChi: 'Chi viaggia in coppia o in famiglia, chi non vuole vivere in barca, chi ha tempi flessibili.',
+          },
+        ],
+        raccomandazione:
+          'Se si è un gruppo e si hanno sette giorni: **la vela**, senza esitazione. Il costo a testa regge il confronto con gli hotel di alta stagione, si eliminano i problemi di alloggio e di orari, e si guadagna la cosa che nessuna formula a terra offre — stare alla fonda davanti allo Stromboli di notte, motore spento, a guardare un vulcano che esplode ogni pochi minuti. In coppia o con bambini, base a **Salina** (più bella e più tranquilla di Lipari) e traghetti, mettendo in conto una notte a Stromboli.',
+      },
+    ],
+    miaEsperienza:
+      'Le Eolie sono l\'arcipelago italiano con la varietà più alta, e il modo di capirlo è fare quattro isole invece di due. Si passa da Panarea, dove d\'estate attraccano gli yacht e i prezzi sono da Costa Smeralda, ad Alicudi, che ha meno di cento abitanti, nessuna strada — solo scalinate di pietra — e le merci che salgono ancora con i muli. Sono a venti miglia di distanza. Ma la cosa che resta, e che non ha paragoni in Italia, è Stromboli visto dal mare di notte. Ci si ferma alla fonda davanti alla **Sciara del Fuoco**, il versante nudo lungo cui rotola il materiale, si spegne il motore, e si sta al buio ad aspettare. Ogni pochi minuti il cratere sputa materiale incandescente che scende lungo il pendio fino all\'acqua, con un rumore sordo che arriva un attimo dopo. Non c\'è nessuna illuminazione, nessuna spiegazione, nessuno spettacolo organizzato: è un vulcano che fa questo da millenni, con un paese abitato sotto e le luci delle case accese a poche centinaia di metri dalla colata. Sulla salita a piedi, invece, va detto con chiarezza che **l\'accesso oltre quota è regolamentato e cambia con l\'attività**: negli ultimi anni è stato più volte limitato, e va verificato prima di costruirci sopra il viaggio.',
+    esperienzeSlugs: ['stromboli-notte', 'eolie-in-vela'],
+    tripSlugs: ['eolie-in-vela'],
+    imageAlt: 'Lo Stromboli in eruzione visto dal mare di notte con la Sciara del Fuoco',
+  },
+  {
+    slug: 'sicilia-occidentale',
+    paeseSlug: 'italia',
+    ordine: 17,
+    nome: 'Sicilia occidentale',
+    tipologia: ['archeologia', 'città d\'arte', 'gastronomia'],
+    giorniConsigliati: '7-8 giorni',
+    visitataPersonalmente: true,
+    introduzione:
+      'L\'altra metà dell\'isola: quella araba, normanna, fenicia e punica. Palermo con la Cappella Palatina e il Duomo di Monreale, i templi di Segesta e Selinunte, le saline di Trapani e Marsala, Erice a settecentocinquanta metri sopra il mare, e le Egadi davanti.',
+    percheAndarci:
+      'Perché Monreale e la Cappella Palatina sono tra i capolavori assoluti del Medioevo europeo — costruiti da re normanni con maestranze arabe e mosaicisti bizantini — e perché lo street food palermitano non ha equivalenti in Italia. E perché Segesta e Selinunte hanno templi quasi come Agrigento con un decimo delle persone.',
+    cosaVedere: [
+      'Il **Duomo di Monreale**, con seimila metri quadrati di mosaici d\'oro e un chiostro dove ogni capitello è diverso',
+      'La Cappella Palatina a Palermo, con il soffitto a muqarnas arabo su una struttura normanna: l\'itinerario arabo-normanno è patrimonio UNESCO',
+      'I mercati di Palermo: Ballarò, Vucciria, Capo — che sono street food e teatro insieme',
+      'Segesta, con il tempio dorico incompiuto isolato su una collina e il teatro greco in cima',
+      'Selinunte, il parco archeologico più esteso d\'Europa, con i templi sul mare',
+      'Erice a 750 metri, con la nebbia che la copre quasi sempre, e Trapani con le saline e i mulini',
+      'Mozia, l\'isola fenicia nello Stagnone, con la strada punica sommersa e il Giovinetto',
+      'La Riserva dello Zingaro e San Vito Lo Capo',
+    ],
+    cosaFare: [
+      'Monreale al mattino presto, prima dei pullman — vedi la scheda esperienza dedicata',
+      'Giro dei mercati di Palermo mangiando, che è il modo giusto di conoscere la città',
+      'Le saline di Trapani e Marsala al tramonto, quando l\'acqua diventa rosa',
+      'Traversata a Mozia nello Stagnone, con la barca che attraversa acque basse dove passava una strada punica',
+      'Trekking nella Riserva dello Zingaro, la prima riserva istituita in Sicilia',
+    ],
+    doveDormire:
+      'Palermo come base per i primi giorni — il centro storico attorno a Ballarò e alla Kalsa è la scelta più viva. Poi Trapani o Marsala per l\'ovest, o San Vito Lo Capo per il mare. Erice per una notte, per vederla la sera quando i pullman se ne sono andati e resta la nebbia.',
+    doveMangiare:
+      'Palermo è la capitale italiana dello street food: **arancine** (femminile, qui), **panelle** di ceci, **sfincione**, crocchè, e il **pane con la milza** — che è per i coraggiosi e che va provato almeno una volta ai banchi storici. Poi la pasta con le sarde, le sarde a beccafico, il cous cous di pesce a **San Vito Lo Capo** e a Trapani, che è eredità araba e nordafricana diretta. I dolci: cassata, cannoli, e la frutta martorana. Il vino: Marsala nella sua zona, Grillo e Catarratto per i bianchi.',
+    comeArrivare:
+      'Volo su Palermo Punta Raisi, oppure Trapani Birgi per i low cost. In traghetto da Napoli, Genova e Civitavecchia. **Auto indispensabile** per muoversi fuori da Palermo.',
+    comeSpostarsi:
+      'Palermo si gira a piedi nel centro storico, con i mezzi pubblici che funzionano male. Fuori serve l\'auto: le autostrade collegano Palermo, Trapani e Marsala, il resto è statale. Per le Egadi, aliscafi da Trapani e Marsala.',
+    periodoMigliore:
+      '**aprile-giugno e settembre-ottobre.** In estate l\'ovest è torrido e le zone archeologiche non hanno ombra. L\'inverno è mite e ottimo per Palermo e i siti, con il mare fuori gioco. A settembre c\'è il Cous Cous Fest a San Vito Lo Capo.',
+    costi:
+      'Sensibilmente più economica della Sicilia orientale su alloggi e ristorazione. Monreale ha biglietti separati per duomo, chiostro e terrazze; Segesta e Selinunte hanno ingressi contenuti; i mercati non costano niente oltre a quello che si mangia.',
+    erroriDaEvitare: [
+      'Andare a Monreale a metà giornata, quando arrivano i pullman: alle otto e mezza si sta dentro con dieci persone',
+      'Giudicare Palermo dal degrado di certe zone e fermarsi lì: è la città più stratificata d\'Italia e chiede di adattarsi',
+      'Saltare Segesta e Selinunte perché "c\'è già Agrigento": Segesta ha un tempio isolato su una collina senza nessuno intorno, e Selinunte è il parco archeologico più esteso d\'Europa',
+      'Fare Selinunte a mezzogiorno d\'estate: è vastissimo e senza ombra',
+      'Aspettarsi che Erice sia limpida: è a 750 metri e la nebbia la copre per gran parte dell\'anno — fa parte del posto',
+      'Lasciare oggetti in vista in auto nelle zone urbane',
+    ],
+    miaEsperienza:
+      'La Sicilia occidentale è quella che si fa la seconda volta, e per molti versanti è la più forte. Il pezzo che regge qualsiasi confronto è il **Duomo di Monreale**: un edificio costruito nel Dodicesimo secolo da re normanni, con architetti e maestranze arabi e mosaicisti bizantini, dove un Cristo Pantocratore alto quasi venti metri guarda giù da un\'abside interamente rivestita d\'oro. Intorno, seimila metri quadrati di mosaici raccontano l\'Antico e il Nuovo Testamento. Fuori c\'è un chiostro con duecentoventotto colonnine, e **ogni capitello è diverso dagli altri**. È lì che si capisce che la Sicilia non è stata conquistata da una cultura dopo l\'altra: le ha tenute tutte insieme, nello stesso edificio, contemporaneamente. La seconda cosa è Palermo, che chiede di adattarsi: è caotica, in certe zone degradata, rumorosa, e chi si irrita torna a casa dicendo che è sporca. Chi entra nel ritmo scopre i mercati, che al mattino sono un teatro — con i venditori che urlano l\'abbanniata, una specie di richiamo cantato — e dove si mangia in piedi camminando con due euro. E poi Segesta: un tempio dorico del quinto secolo, mai finito, in piedi da solo su una collina in mezzo al niente, con il vento. Ci sono venti persone.',
+    esperienzeSlugs: ['monreale', 'street-food-palermo'],
+    tripSlugs: ['sicilia-completa'],
+    imageAlt: 'I mosaici d\'oro dell\'abside del Duomo di Monreale, Sicilia',
+  },
+  {
+    slug: 'isole-siciliane',
+    paeseSlug: 'italia',
+    ordine: 18,
+    nome: 'Egadi, Pantelleria e Pelagie',
+    tipologia: ['isole', 'mare', 'natura'],
+    giorniConsigliati: '4-5 giorni per arcipelago',
+    visitataPersonalmente: true,
+    introduzione:
+      'Le altre isole siciliane, che non sono le Eolie: le **Egadi** davanti a Trapani, con Favignana e le cave di tufo; **Pantelleria**, più vicina all\'Africa che alla Sicilia, senza una spiaggia di sabbia; e le **Pelagie**, con Lampedusa che sta sulla placca africana e ha una delle spiagge più celebrate del Mediterraneo.',
+    percheAndarci:
+      'Perché sono tre mondi diversi tra loro e da tutto il resto: Favignana è mare trasparente e archeologia industriale della tonnara, Pantelleria è roccia lavica, vento e vino, Lampedusa è geologicamente Africa e ha un mare che non somiglia a niente in Italia.',
+    cosaVedere: [
+      'Favignana: Cala Rossa, Cala Azzurra, le **cave di tufo** che hanno scavato l\'isola e l\'ex stabilimento Florio della tonnara',
+      'Levanzo, con la **Grotta del Genovese** e le pitture rupestri del Paleolitico',
+      'Marettimo, la più selvaggia delle Egadi, senza quasi turismo',
+      'Pantelleria: il **Lago Specchio di Venere**, i dammusi, i giardini panteschi e le grotte di vapore naturali',
+      'La Montagna Grande e l\'Arco dell\'Elefante a Pantelleria',
+      'Lampedusa: la **Spiaggia dei Conigli**, riserva naturale dove depone la tartaruga Caretta caretta, con accesso regolamentato',
+      'Linosa, vulcanica e nera, con duecento abitanti',
+    ],
+    cosaFare: [
+      'Girare Favignana in bicicletta, che è il modo giusto e l\'isola è piatta',
+      'Bagno notturno nel Lago Specchio di Venere a Pantelleria, con il fango termale sulla riva',
+      'Visitare una cantina pantesca, dove la vite si coltiva **in buche scavate nel terreno** per proteggerla dal vento — tecnica riconosciuta patrimonio immateriale UNESCO',
+      'Snorkeling e immersioni, che alle Egadi e alle Pelagie sono tra i migliori d\'Italia',
+      'La Grotta del Genovese a Levanzo, con le incisioni di dodicimila anni fa',
+    ],
+    doveDormire:
+      'Favignana ha l\'offerta più larga e i prezzi più accessibili. A Pantelleria si dorme nei **dammusi**, le case di pietra lavica con il tetto a cupola, che sono la formula giusta. Lampedusa ha un\'offerta stagionale che chiude quasi del tutto in inverno. **In tutte e tre, in agosto i posti si esauriscono.**',
+    doveMangiare:
+      'Alle Egadi il tonno, in tutte le sue conserve: la tonnara di Favignana è stata la più importante del Mediterraneo, e la **mattanza** si praticava fino a pochi decenni fa. A Pantelleria il **pesto pantesco**, i capperi — che qui sono un presidio e si raccolgono a mano — e il **passito di Pantelleria**, che è uno dei grandi vini dolci del mondo. A Lampedusa il pesce, e una cucina che risente della vicinanza alla Tunisia.',
+    comeArrivare:
+      '**Egadi:** aliscafo da Trapani, venti minuti per Favignana. **Pantelleria:** aereo da Trapani o Palermo (in stagione anche da Milano e Roma), o traghetto notturno da Trapani, sei ore. **Lampedusa:** aereo da Palermo o Catania, o traghetto da Porto Empedocle, otto ore. Sono le isole italiane più lontane dalla terraferma.',
+    comeSpostarsi:
+      'Favignana in bicicletta o scooter. **Pantelleria richiede l\'auto**: è grande, montuosa e i punti d\'interesse sono distribuiti. Lampedusa in scooter o auto, ma è piccola.',
+    periodoMigliore:
+      '**giugno e settembre**, come tutte le isole minori. A Pantelleria la stagione è più lunga e l\'isola funziona anche in primavera e in autunno grazie al vino e al termalismo. Lampedusa da novembre a marzo chiude quasi del tutto.',
+    costi:
+      'I trasporti sono la voce principale e non sono banali: Pantelleria e Lampedusa richiedono un volo o un traghetto lungo. **La Spiaggia dei Conigli a Lampedusa ha accesso regolamentato e contingentato** per la nidificazione delle tartarughe: va verificato prima.',
+    erroriDaEvitare: [
+      'Andare a Pantelleria cercando spiagge di sabbia: **non ce ne sono**. Si entra in acqua dalle rocce, e chi non lo sa resta deluso',
+      'Sottovalutare il vento a Pantelleria: è una costante e può essere forte per giorni',
+      'Presentarsi alla Spiaggia dei Conigli senza verificare il regime di accesso, che è contingentato',
+      'Programmare coincidenze strette con i traghetti per Pantelleria e Lampedusa, che con il mare mosso non partono',
+      'Fare Favignana in auto: è piatta, piccola e l\'auto è un impiccio — la bici è il mezzo giusto',
+      'Andare a Lampedusa fuori stagione aspettandosi servizi: da novembre a marzo l\'isola si ferma',
+    ],
+    confronti: [
+      {
+        titolo: 'Favignana, Pantelleria o Lampedusa',
+        introduzione:
+          'Vengono messe insieme perché sono tutte "isole siciliane", e sono tre viaggi completamente diversi per geologia, accessibilità, costo e tipo di vacanza.',
+        opzioni: [
+          {
+            nome: 'Favignana e le Egadi',
+            sintesi: 'Venti minuti di aliscafo da Trapani: isola piatta, mare trasparente, cave di tufo e l\'archeologia industriale della tonnara Florio.',
+            costo: 'il più basso dei tre, sia per arrivare che per stare',
+            durata: '3-4 giorni',
+            pro: [
+              'Accessibilità: si arriva in venti minuti da Trapani, anche in giornata',
+              'Si gira in bicicletta: l\'isola è piatta e piccola',
+              'Cala Rossa e Cala Azzurra hanno un\'acqua che regge qualsiasi confronto',
+              'Le **cave di tufo** sono uno scenario unico: l\'isola è stata letteralmente scavata, e oggi ci sono giardini ipogei dentro le cave',
+              'Levanzo con le pitture rupestri del Paleolitico è a venti minuti',
+            ],
+            contro: [
+              'Molto affollata in luglio e agosto: è l\'isola dei siciliani e in quei mesi lo si vede',
+              'Poche spiagge di sabbia, si entra in acqua dagli scogli',
+              'Poca vita oltre il mare',
+            ],
+            perChi: 'Chi ha pochi giorni, chi viene dalla Sicilia occidentale, chi vuole spendere poco.',
+          },
+          {
+            nome: 'Pantelleria',
+            sintesi: 'Più vicina all\'Africa che alla Sicilia: isola vulcanica di roccia nera, senza spiagge di sabbia, con i dammusi, il vento costante e una viticoltura eroica.',
+            costo: 'medio-alto, ma senza turismo di massa',
+            durata: '5-7 giorni',
+            pro: [
+              'Non somiglia a nessun\'altra isola italiana: terrazzamenti di pietra lavica, **giardini panteschi** (muri circolari che proteggono un solo albero), grotte di vapore naturali',
+              'La **vite ad alberello pantesca** è patrimonio immateriale UNESCO: si coltiva in buche scavate nel terreno per proteggerla dal vento',
+              'Il passito e i capperi sono tra i prodotti migliori d\'Italia',
+              'Il Lago Specchio di Venere con il fango termale e il bagno notturno',
+              'Turismo di ritorno, non di massa: ci si torna',
+            ],
+            contro: [
+              '**Nessuna spiaggia di sabbia**: si entra in acqua dalle rocce, e per molti è un problema serio',
+              'Il vento è una costante e può soffiare forte per giorni',
+              'Serve l\'auto: l\'isola è grande e montuosa',
+              'Collegamenti meno frequenti e più cari',
+            ],
+            perChi: 'Chi cerca un\'isola di carattere invece che di spiagge, chi ama il vino, chi torna.',
+          },
+          {
+            nome: 'Lampedusa e le Pelagie',
+            sintesi: 'L\'isola più a sud d\'Italia, geologicamente sulla **placca africana**, con la Spiaggia dei Conigli e un mare che non somiglia a niente nel resto del paese.',
+            costo: 'alto, soprattutto per arrivarci',
+            durata: '5-7 giorni',
+            pro: [
+              'Il mare è oggettivamente il più bello d\'Italia: acqua trasparente su fondali chiari, con gradazioni che si vedono dall\'alto',
+              'La **Spiaggia dei Conigli** è riserva naturale e sito di nidificazione della Caretta caretta',
+              'Geologicamente è Africa: la vegetazione, la roccia e il paesaggio non sono mediterranei nel senso italiano',
+              'Linosa, vulcanica e nera, a poche miglia, con duecento abitanti',
+            ],
+            contro: [
+              'La più difficile da raggiungere: volo o otto ore di traghetto da Porto Empedocle',
+              'Prezzi alti in alta stagione, con la stagione concentrata in tre mesi',
+              'Da novembre a marzo l\'isola si ferma quasi del tutto',
+              'L\'accesso alla Spiaggia dei Conigli è contingentato e regolamentato',
+              'Isola brulla: chi cerca verde non la trova',
+            ],
+            perChi: 'Chi mette il mare al primo posto e accetta il costo e la distanza per averlo al massimo livello.',
+          },
+        ],
+        raccomandazione:
+          'Per il mare puro e senza compromessi, **Lampedusa**: è il più bello d\'Italia e vale il viaggio, a patto di andarci a giugno o a settembre e di mettere in conto il costo. Per un\'isola che abbia un carattere proprio e una cultura da capire, **Pantelleria**, sapendo che non ci sono spiagge di sabbia. **Favignana** è la scelta giusta per chi è già in Sicilia occidentale e ha tre giorni: costa poco, si arriva in venti minuti e non delude.',
+      },
+    ],
+    miaEsperienza:
+      'Queste tre isole spiegano bene quanto sia larga la parola "Sicilia". Favignana è la più semplice e la più immediata: si arriva in venti minuti da Trapani, si noleggia una bici e in un giorno si è girata tutta, con l\'acqua di Cala Rossa che è di un turchese che non sembra italiano. La cosa che la rende diversa dalle altre isole è il tufo: per secoli qui si è scavata pietra da costruzione, e il risultato è un paesaggio di cave a cielo aperto, con pareti verticali gialle e, dentro alcune, giardini ipogei piantati sul fondo. Pantelleria è l\'opposto esatto e l\'isola che ho trovato più interessante: niente sabbia, roccia nera ovunque, vento che non smette mai, e una viticoltura in cui le viti si coltivano dentro buche scavate nel terreno per ripararle — una tecnica talmente particolare da essere stata riconosciuta patrimonio immateriale dall\'UNESCO. Il bagno notturno nello Specchio di Venere, con il fango termale, è una di quelle cose che nessuno racconta prima. Lampedusa, infine, ha il mare più bello d\'Italia e non c\'è discussione: ma è geologicamente Africa, brulla, lontana e cara, e ci si va per quello e solo per quello.',
+    esperienzeSlugs: ['passito-pantelleria'],
+    tripSlugs: ['isole-siciliane'],
+    imageAlt: 'L\'acqua turchese di Cala Rossa tra le cave di tufo di Favignana, Egadi',
   },
 ]

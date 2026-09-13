@@ -189,7 +189,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Le catacombe di San Callisto o San Sebastiano lungo l\'Appia Antica',
       'Il complesso archeologico di Vicus Caprarius, la "città dell\'acqua" sotto la zona di Fontana di Trevi',
     ],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['roma-4-giorni', 'grandi-citta-italia'],
     imageAlt: 'Il livello paleocristiano sotterraneo della Basilica di San Clemente, Roma',
   },
   {
@@ -217,7 +217,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Il Parco degli Acquedotti da solo, raggiungibile in metropolitana, per chi ha meno tempo',
       'Il quartiere dell\'EUR o la Garbatella, per una Roma novecentesca che quasi nessuno visita',
     ],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['roma-4-giorni', 'grandi-citta-italia'],
     imageAlt: 'Il basolato romano originale dell\'Appia Antica con i pini e i sepolcri ai lati',
   },
   {
@@ -247,7 +247,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Il campanile di Giotto, accanto, con la stessa vista e la cupola nell\'inquadratura — ma senza l\'esperienza dell\'interno',
       'San Miniato al Monte al tramonto, gratuito, con il panorama migliore sulla città',
     ],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['firenze-3-giorni', 'grandi-citta-italia'],
     imageAlt: 'Le scale interne tra i due gusci della cupola di Brunelleschi, Firenze',
   },
   {
@@ -275,7 +275,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Venezia dopo le sette di sera, che è la seconda finestra, quando i giornalieri sono ripartiti',
       'Il campanile di San Giorgio Maggiore, con la vista migliore su San Marco e senza la coda del campanile principale',
     ],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['venezia-3-giorni', 'grandi-citta-italia'],
     imageAlt: 'Una calle veneziana vuota all\'alba con le barche delle consegne sul canale',
   },
   {
@@ -307,7 +307,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Oplontis, la villa di Poppea, compresa nel biglietto cumulativo e quasi sempre vuota',
       'La salita al cratere del Vesuvio, per vedere da dove è venuto tutto',
     ],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['napoli-3-giorni', 'grandi-citta-italia'],
     imageAlt: 'Una strada di Pompei con i basoli romani e il Vesuvio sullo sfondo',
   },
   {
@@ -336,7 +336,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Le catacombe di San Gennaro, gestite da una cooperativa di giovani del rione Sanità, che è anche un progetto sociale riuscito',
       'Il Museo Archeologico Nazionale, per la Napoli di sopra e di duemila anni fa',
     ],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['napoli-3-giorni', 'grandi-citta-italia'],
     imageAlt: 'Cisterna sotterranea scavata nel tufo sotto il centro storico di Napoli',
   },
   {
@@ -363,7 +363,7 @@ export const esperienzeItalia: Esperienza[] = [
       'La pizza a portafoglio da strada, che costa due euro e si mangia camminando',
       'Il ragù napoletano in una trattoria di quartiere la domenica, che è l\'altro piatto identitario della città',
     ],
-    tripSlugs: ['grandi-citta-italia'],
+    tripSlugs: ['napoli-3-giorni', 'grandi-citta-italia'],
     imageAlt: 'Una pizza margherita napoletana appena uscita dal forno a legna',
   },
   {
@@ -395,7 +395,7 @@ export const esperienzeItalia: Esperienza[] = [
       'La Valle del Bove da un punto panoramico, per vedere la scala delle colate',
       'Le cantine dell\'Etna sui versanti, che sono l\'altro modo di conoscere il vulcano',
     ],
-    tripSlugs: ['sicilia-itinerario'],
+    tripSlugs: ['sicilia-itinerario', 'sicilia-completa'],
     imageAlt: 'I crateri sommitali dell\'Etna con le fumarole e il terreno di lapilli neri',
   },
   {
@@ -425,7 +425,7 @@ export const esperienzeItalia: Esperienza[] = [
       'La Valle della Luna e il Supramonte di Orgosolo, per l\'interno sardo con meno fatica',
       'Tiscali, il villaggio nuragico dentro una dolina, raggiungibile con un\'escursione simile per impegno',
     ],
-    tripSlugs: [],
+    tripSlugs: ['sardegna-due-anime'],
     imageAlt: 'Le pareti verticali e i massi sul fondo della gola di Gorropu, Sardegna',
   },
   {
@@ -455,7 +455,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Cala Mariolu e Cala Luna, raggiungibili in barca, con accessi anch\'essi regolamentati',
       'Il giro in gommone del Golfo di Orosei, che permette di vedere più cale in una giornata senza camminare',
     ],
-    tripSlugs: [],
+    tripSlugs: ['sardegna-due-anime'],
     imageAlt: 'Cala Goloritzé con il pinnacolo di calcare e l\'acqua turchese, Sardegna',
   },
   {
@@ -517,5 +517,239 @@ export const esperienzeItalia: Esperienza[] = [
     ],
     tripSlugs: ['rotte-dei-vini-itinerario'],
     imageAlt: 'Botti di affinamento in una cantina italiana durante una degustazione',
+  },
+  {
+    slug: 'museo-egizio',
+    paeseSlug: 'italia',
+    destinazioneSlug: 'torino',
+    nome: 'Il Museo Egizio di Torino',
+    localita: 'Torino, centro',
+    cosE:
+      'La collezione egizia più importante al mondo dopo quella del Cairo: oltre quarantamila reperti, statuari monumentali, papiri, e — pezzo unico — la **tomba di Kha e Merit**, trovata intatta nel 1906 con tutto il corredo funerario, mobili, cibo e vestiti compresi.',
+    percheFarla:
+      'Perché è l\'unico museo egizio fuori dall\'Egitto ad avere questa scala, e perché la tomba intatta di Kha permette di vedere non i reperti di una civiltà ma **l\'arredamento completo di una casa** di tremilacinquecento anni fa: il letto, le sedie, i sandali, il cibo nei vasi.',
+    durata: 'almeno 3 ore, meglio 4',
+    periodo: 'tutto l\'anno; **d\'inverno è quasi vuoto**, ed è il momento migliore. Aperto anche il lunedì, a differenza di molti musei italiani.',
+    costo: 'biglietto contenuto rispetto al livello della collezione; compreso nella Torino+Piemonte Card',
+    comePrenotare:
+      'Prenotazione online consigliata nei fine settimana e nei periodi di punta, con fascia oraria. Non è contingentato come altri grandi musei italiani, ma le code in alta stagione esistono.',
+    cosaPortare: 'Niente di particolare. Una bottiglia d\'acqua: tre ore in un museo sono tre ore.',
+    perChiEAdatta: 'A tutti. Il percorso è accessibile e ordinato cronologicamente, con un allestimento rinnovato che spiega anche il contesto archeologico degli scavi.',
+    miaEsperienza:
+      'Il Museo Egizio è il pezzo che rende Torino una città da due giorni invece che da uno, e la cosa da sapere è che **un\'ora non basta**: ci vogliono tre ore, e chi le sottovaluta esce a metà. La sala che resta è quella della tomba di Kha e Merit, e per una ragione precisa: non è una collezione di reperti raccolti qua e là, è **un corredo funerario trovato intatto** nel 1906 dall\'archeologo Schiaparelli — mai saccheggiato, mai disperso. Ci sono i mobili di casa loro, le sedie, il letto con il poggiatesta, i sandali, i vasi con dentro il cibo, i vestiti piegati. Non è la morte di un faraone: è la vita quotidiana di una coppia della classe media di tremilacinquecento anni fa, arredamento compreso. Nell\'altra sala grande, lo Statuario, il museo ha fatto una scelta scenografica che funziona: le statue monumentali sono allineate con specchi e luci basse, e l\'effetto è quello di entrare in un tempio. Ed è un museo dove — a differenza di Firenze o Roma — d\'inverno si è praticamente soli.',
+    giudizio: 'imperdibile',
+    alternative: [
+      'Il Museo Nazionale del Cinema dentro la Mole, con l\'ascensore che sale nel vuoto della cupola',
+      'I Musei Reali e l\'Armeria, con la Cappella della Sindone di Guarini restaurata',
+    ],
+    tripSlugs: ['torino-2-giorni'],
+    imageAlt: 'Lo Statuario del Museo Egizio di Torino con le statue monumentali allineate',
+  },
+  {
+    slug: 'sentiero-degli-dei',
+    paeseSlug: 'italia',
+    destinazioneSlug: 'costiera-amalfitana',
+    nome: 'Il Sentiero degli Dei',
+    localita: 'Da Bomerano (Agerola) a Nocelle (Positano), Costiera Amalfitana',
+    cosE:
+      'Il sentiero più famoso della Costiera: circa otto chilometri lungo il costone, a quattro-cinquecento metri sopra il mare, che collega Agerola a Positano seguendo le vecchie mulattiere che univano i paesi prima che esistesse la statale. Si conclude con 1.700 gradini di discesa fino a Positano.',
+    percheFarla:
+      'Perché è la Costiera vista da sopra invece che dalla strada, con Positano che compare sotto e Capri all\'orizzonte, ed è gratis. E perché mostra i terrazzamenti per cui questa costa è patrimonio UNESCO — che dal basso non si vedono.',
+    durata: '3-4 ore da Bomerano a Nocelle, più la discesa a Positano',
+    periodo:
+      '**primavera e autunno.** D\'estate il sentiero è esposto e senza ombra per gran parte del percorso, e va fatto all\'alba. D\'inverno è praticabile ma con giornate corte.',
+    costo: 'gratuito; si paga solo il bus per raggiungere la partenza',
+    comePrenotare:
+      'Niente da prenotare. La logistica è l\'unica cosa da organizzare: si sale in bus ad **Agerola/Bomerano** da Amalfi o da Sorrento, si cammina fino a Nocelle e si scende a Positano, da cui si riparte in bus o traghetto. Farlo al contrario significa salire tutto.',
+    cosaPortare:
+      'Scarpe da trekking o da avvicinamento — **non sandali**, il fondo è roccioso e in alcuni punti esposto — acqua in quantità perché lungo il percorso non se ne trova, cappello e crema solare.',
+    perChiEAdatta:
+      'Serve un po\' di gamba e nessun problema con l\'esposizione: ci sono tratti stretti con il vuoto a lato, senza protezioni. **I 1.700 gradini finali fino a Positano pesano sulle ginocchia** più della camminata.',
+    miaEsperienza:
+      'È la cosa migliore della Costiera Amalfitana e costa il prezzo di un biglietto dell\'autobus. Si sale in bus ad Agerola, a seicento metri, e si comincia a camminare lungo un costone con il mare quattrocento metri sotto: il sentiero passa tra i terrazzamenti a limoni e vite, attraversa qualche casa isolata dove qualcuno vende ancora acqua e limoni sul ciglio, e a ogni curva si apre una vista diversa. A metà percorso compare Positano sotto, e all\'orizzonte c\'è Capri. Da qui si capisce anche perché questa costa sia patrimonio UNESCO come **paesaggio culturale** e non come paesaggio naturale: quei terrazzamenti, su pendenze del quaranta per cento, li ha costruiti qualcuno a mano, nei secoli, per poter coltivare. Dal fondovalle non si vedono. La parte che va messa in conto sono i **1.700 gradini finali** che scendono a Positano: dopo tre ore di cammino le ginocchia li sentono davvero, e chi ha problemi articolari valuti di fermarsi a Nocelle e prendere il bus. E una regola pratica: farlo **da Bomerano verso Positano**, che è in discesa, e non il contrario.',
+    giudizio: 'imperdibile',
+    alternative: [
+      'Il Sentiero dei Limoni tra Maiori e Minori, più corto e più facile, che quasi nessuno fa',
+      'La Valle delle Ferriere sopra Amalfi, con le felci giganti sopravvissute dall\'era glaciale',
+    ],
+    tripSlugs: ['costiera-e-isole'],
+    imageAlt: 'Il Sentiero degli Dei con Positano e la costa quattrocento metri più in basso',
+  },
+  {
+    slug: 'sorgeto-ischia',
+    paeseSlug: 'italia',
+    destinazioneSlug: 'isole-golfo-napoli',
+    nome: 'Le terme naturali di Sorgeto',
+    localita: 'Panza, Forio, isola di Ischia',
+    cosE:
+      'Una baia sul versante sud-ovest di Ischia dove **sorgenti termali bollenti sgorgano direttamente sul fondale** e si mescolano con il mare. Si scende una scalinata di circa duecento gradini, si sceglie un punto dove l\'acqua è alla temperatura giusta, si scava una buca nella ghiaia e ci si siede. È gratuito e aperto sempre.',
+    percheFarla:
+      'Perché è termalismo allo stato naturale, senza stabilimento e senza biglietto: l\'acqua esce dal fondale a temperature che in alcuni punti superano i novanta gradi e si raffredda mescolandosi al mare, creando zone a temperature diverse a pochi metri di distanza.',
+    durata: '2-3 ore',
+    periodo:
+      'tutto l\'anno, e **l\'inverno è il momento migliore**: con il mare freddo il contrasto è massimo, e ci si sta molto meglio che d\'estate. Il **bagno notturno** è la versione più suggestiva.',
+    costo: 'gratuito; esiste un servizio di taxi-boat da Sant\'Angelo per chi non vuole fare le scale',
+    comePrenotare:
+      'Niente da prenotare. Si arriva in auto o in bus a Panza e si scende a piedi. **In alta stagione la baia è affollata**: si va presto al mattino o dopo il tramonto.',
+    cosaPortare:
+      'Ciabatte da scoglio (**la ghiaia in alcuni punti è bollente**), asciugamano, acqua da bere, e una torcia se si va di sera. Non portare gioielli d\'argento: lo zolfo li annerisce in modo permanente.',
+    perChiEAdatta:
+      'A tutti, con due avvertenze: i **duecento gradini di risalita** alla fine pesano, e chi ha problemi cardiovascolari o di pressione dovrebbe stare attento alle zone più calde — in alcuni punti l\'acqua è davvero bollente e ci si scotta.',
+    miaEsperienza:
+      'Sorgeto è la cosa che rende Ischia diversa da Capri e da Procida, ed è gratis. Si scende una scalinata lunga verso una baia di ciottoli, e già a metà si sente l\'odore di zolfo. Sotto, il mare è normale a venti metri dalla riva e bollente a due: le sorgenti escono direttamente dal fondale, in alcuni punti a temperature che scottano, e si mescolano con l\'acqua fredda creando una gradazione che cambia a ogni passo. Il gioco è trovare il proprio punto: ci si sposta di mezzo metro alla volta finché la temperatura è giusta, si scava una buca nella ghiaia con le mani e ci si siede, con il mare freddo che arriva a ondate e cambia tutto ogni pochi secondi. La gente del posto porta le uova a cuocere nelle pozze più calde, e non è folklore: funziona davvero. Il momento migliore è **d\'inverno o di notte**: con il mare freddo il contrasto è quello vero, e di sera la baia si svuota. Una cosa pratica che nessuno dice: le ciabatte da scoglio servono davvero, perché in certi punti la ghiaia è talmente calda che non ci si sta in piedi.',
+    giudizio: 'imperdibile',
+    alternative: [
+      'I parchi termali attrezzati di Ischia (Poseidon, Negombo), che sono l\'altra faccia del termalismo isolano',
+      'Le terme di Cavascura, scavate nella roccia della gola, raggiungibili a piedi da Maronti',
+    ],
+    tripSlugs: ['costiera-e-isole'],
+    imageAlt: 'La baia di Sorgeto a Ischia con le pozze termali naturali sul bagnasciuga',
+  },
+  {
+    slug: 'stromboli-notte',
+    paeseSlug: 'italia',
+    destinazioneSlug: 'eolie',
+    nome: 'Stromboli in eruzione dal mare',
+    localita: 'Sciara del Fuoco, isola di Stromboli, Eolie',
+    cosE:
+      'Uno dei pochissimi vulcani al mondo in **eruzione permanente**, attivo in modo continuo da almeno duemila anni con esplosioni ogni pochi minuti. Il materiale incandescente scende lungo la **Sciara del Fuoco**, il versante nudo che precipita in mare, e di notte si vede da lontano. Si guarda dal mare, in barca, oppure dal punto di osservazione a terra.',
+    percheFarla:
+      'Perché è l\'unico posto in Europa dove si può guardare un vulcano esplodere ogni pochi minuti, di notte, da poche centinaia di metri, con un paese abitato sotto. Il tipo di eruzione qui è talmente caratteristico che i manuali di vulcanologia di tutto il mondo lo chiamano **"stromboliano"**.',
+    durata: 'un\'uscita serale in barca dura 2-3 ore',
+    periodo:
+      'da aprile a ottobre per le uscite in barca. **L\'attività varia**: ci sono fasi più intense e periodi di calma, e va messo in conto che possa esserci poco da vedere. Le uscite si annullano con mare mosso.',
+    costo: 'escursione serale in barca da Stromboli o dalle isole vicine, con prezzo per persona; gratuito guardarlo da terra dal punto di osservazione',
+    comePrenotare:
+      'Le uscite in barca si prenotano sull\'isola o dagli operatori di Lipari e Salina. **La salita a piedi verso i crateri è tutt\'altra cosa: l\'accesso oltre quota è regolamentato dalla protezione civile, cambia con l\'attività del vulcano e negli ultimi anni è stato più volte limitato o sospeso.** Va verificato prima, e quando è consentita richiede guida autorizzata obbligatoria.',
+    cosaPortare:
+      'Qualcosa di caldo: in mare di sera, anche d\'estate, si prende freddo. Torcia, e un telefono con buona modalità notturna — le esplosioni sono difficili da fotografare e vale più guardarle.',
+    perChiEAdatta:
+      'L\'uscita in barca è per tutti, salvo chi soffre il mare. La salita ai crateri, quando consentita, è impegnativa: diverse ore di salita su terreno di lapilli, con la discesa al buio.',
+    miaEsperienza:
+      'È la cosa che ho visto in Italia che somiglia meno a tutto il resto. Si esce in barca dopo il tramonto, si naviga fino davanti alla **Sciara del Fuoco** — il versante nudo e nero lungo cui il vulcano scarica — e a un certo punto lo skipper spegne il motore. Da lì in poi c\'è solo il rumore dell\'acqua contro lo scafo, e si aspetta. Ogni pochi minuti, in cima, c\'è un bagliore arancione e poi una specie di fontana di materiale incandescente che sale e ricade, e i pezzi più grossi rotolano lungo il pendio fino all\'acqua, con un rumore sordo che arriva qualche secondo dopo. Non c\'è nessuna illuminazione artificiale, nessuno spettacolo organizzato, nessuna narrazione: è un vulcano che fa questa cosa da duemila anni, ininterrottamente, e sotto — a poche centinaia di metri dalla colata — ci sono le luci accese delle case di un paese dove la gente vive normalmente. Sulla salita a piedi, invece, conviene essere chiari: l\'accesso ai crateri **dipende dall\'attività e viene limitato o sospeso dalla protezione civile**, è cambiato più volte negli ultimi anni, e non è una cosa su cui si costruisce un viaggio.',
+    giudizio: 'imperdibile',
+    alternative: [
+      'Il punto di osservazione a terra sull\'isola, gratuito, per chi non vuole uscire in mare',
+      'Il Gran Cratere di Vulcano, quando l\'accesso è consentito, per le fumarole e i fanghi',
+    ],
+    tripSlugs: ['eolie-in-vela'],
+    imageAlt: 'Esplosione notturna dello Stromboli con il materiale incandescente sulla Sciara del Fuoco',
+  },
+  {
+    slug: 'eolie-in-vela',
+    paeseSlug: 'italia',
+    destinazioneSlug: 'eolie',
+    nome: 'Le Eolie in barca a vela',
+    localita: 'Arcipelago delle Eolie, base di partenza Milazzo o Capo d\'Orlando',
+    cosE:
+      'Una settimana a bordo di una barca a vela, spostandosi tra le sette isole, dormendo in rada o in porto e vivendo a bordo. Si noleggia con skipper (se non si ha la patente nautica) o in autonomia, dividendo il costo tra l\'equipaggio.',
+    percheFarla:
+      'Perché le Eolie sono un arcipelago e vanno viste dal mare, e perché è l\'unico modo di stare alla fonda davanti allo Stromboli di notte, di raggiungere cale inaccessibili da terra e di non dipendere dagli orari degli aliscafi né dal trovare alloggio in alta stagione.',
+    durata: '7 giorni, che è il formato standard del noleggio (sabato-sabato)',
+    periodo:
+      '**maggio-giugno e settembre**, con luglio e agosto più affollati e con i posti in rada contesi. In inverno il noleggio si ferma quasi del tutto.',
+    costo:
+      'il noleggio di una barca da 8-10 posti diviso per l\'equipaggio è spesso competitivo con sette notti in hotel a testa in alta stagione. Ad esso si sommano **skipper** (se necessario), carburante, ormeggi e cassa comune per il vitto.',
+    comePrenotare:
+      'Con largo anticipo per luglio e agosto, attraverso le basi di noleggio di Milazzo, Capo d\'Orlando, Portorosa o Palermo. **Senza patente nautica serve lo skipper**, che va messo in conto nel budget. Vale la pena chiarire prima se il prezzo include ormeggi e carburante, che spesso sono a parte.',
+    cosaPortare:
+      '**Borsa morbida e non valigia rigida**, perché a bordo non c\'è spazio per i trolley. Scarpe con suola chiara che non lasci segni sul ponte, cerata leggera, crema solare, e farmaci per il mal di mare presi **prima** di partire, non quando serve.',
+    perChiEAdatta:
+      'A gruppi che si sopportano: sette giorni in spazi stretti con acqua razionata e docce brevi non sono per tutti. Non serve saper navigare se c\'è lo skipper, ma chi soffre il mare lo scopre il primo giorno.',
+    miaEsperienza:
+      'La vela alle Eolie risolve tre problemi in un colpo solo e ne crea uno. Risolve gli alloggi, che in agosto su isole piccole si esauriscono; risolve gli orari degli aliscafi, che condizionano tutto per chi sta a terra; e risolve l\'accesso, perché in barca si arriva in cale dove da terra non si scende. Il problema che crea è banale e va detto: si vive in sette metri quadrati con altre otto persone per una settimana, con la doccia contingentata e nessuna privacy. Con il gruppo giusto è la vacanza migliore possibile; con quello sbagliato sono sette giorni lunghi. Detto questo, c\'è una sera che giustifica tutto il resto: ci si ferma alla fonda davanti alla Sciara del Fuoco di Stromboli, si cena in pozzetto mentre fa buio, e poi si sta lì a guardare il vulcano esplodere ogni pochi minuti, con il motore spento e il rumore dell\'acqua. Nessuna formula a terra permette di farlo. La cosa pratica più utile: **borsa morbida, mai il trolley** — a bordo non c\'è dove metterlo — e il farmaco per il mal di mare va preso prima di uscire dal porto, non dopo.',
+    giudizio: 'imperdibile',
+    alternative: [
+      'Base a terra a Salina con aliscafi giornalieri, per chi non vuole vivere in barca',
+      'Un\'uscita giornaliera in barca da Lipari, per assaggiare la formula senza impegnarsi una settimana',
+    ],
+    tripSlugs: ['eolie-in-vela'],
+    imageAlt: 'Barca a vela alla fonda davanti a un\'isola delle Eolie al tramonto',
+  },
+  {
+    slug: 'monreale',
+    paeseSlug: 'italia',
+    destinazioneSlug: 'sicilia-occidentale',
+    nome: 'Il Duomo di Monreale',
+    localita: 'Monreale, sopra Palermo',
+    cosE:
+      'Una cattedrale del XII secolo costruita da re normanni con architetti e maestranze arabe e mosaicisti bizantini: **seimila metri quadrati di mosaici a fondo oro** che coprono l\'intera superficie interna, con un Cristo Pantocratore nell\'abside. Accanto, un chiostro con 228 colonnine binate dove **ogni capitello è diverso dagli altri**. Fa parte dell\'itinerario arabo-normanno patrimonio UNESCO.',
+    percheFarla:
+      'Perché è uno dei capolavori assoluti del Medioevo europeo e perché in un solo edificio si vedono tre culture che lavorano insieme invece di sostituirsi — che è esattamente cosa è stata la Sicilia normanna.',
+    durata: '2 ore per duomo, chiostro e terrazze',
+    periodo:
+      'tutto l\'anno. **Il momento giusto è l\'apertura mattutina**: dalle dieci in poi arrivano i pullman da Palermo e la navata si riempie.',
+    costo: 'ingressi separati per duomo, chiostro e terrazze, tutti contenuti; il chiostro è gestito dal ministero e ha orari propri',
+    comePrenotare:
+      'Non serve prenotare, ma vanno controllati gli orari: **il duomo chiude in alcune fasce per le funzioni** e il chiostro ha un calendario diverso da quello della chiesa. È l\'errore più comune di chi ci arriva a metà giornata.',
+    cosaPortare:
+      'Spalle e ginocchia coperte, che all\'ingresso vengono controllate. Un paio di euro per la gettoniera che accende le luci dei mosaici: **con le luci spente si perde metà di quello che si è venuti a vedere**.',
+    perChiEAdatta: 'A tutti. Le terrazze richiedono di salire una scala stretta, ma sono facoltative.',
+    miaEsperienza:
+      'Monreale è il pezzo che da solo giustifica la Sicilia occidentale, e la ragione non è la bellezza — che è evidente — ma cosa rappresenta. Nel Dodicesimo secolo un re normanno, in una Sicilia appena strappata agli arabi, commissiona una cattedrale: la struttura è romanica del nord Europa, gli archi e le decorazioni sono di maestranze arabe rimaste sull\'isola, i mosaici li fanno artigiani bizantini chiamati da Costantinopoli. Nessuno cancella nessuno. Il risultato è una navata in cui seimila metri quadrati di mosaici a fondo oro raccontano tutta la Bibbia, con un Cristo Pantocratore alto quasi venti metri nell\'abside che guarda chi entra. Ma la cosa che colpisce ancora di più, per me, è il chiostro accanto: duecentoventotto colonnine binate, e **ogni singolo capitello è diverso** — scene bibliche, animali, motivi geometrici arabi, mostri — che qualcuno ha scolpito uno per uno. Due cose pratiche che fanno la differenza: andarci **all\'apertura**, perché dalle dieci arrivano i pullman, e avere **monete per la gettoniera** delle luci: al buio quei mosaici non si vedono.',
+    giudizio: 'imperdibile',
+    alternative: [
+      'La Cappella Palatina a Palermo, più piccola e altrettanto straordinaria, con il soffitto a muqarnas arabo',
+      'La Martorana e San Cataldo a Palermo, dove la stratificazione arabo-normanna si vede in scala ridotta',
+    ],
+    tripSlugs: ['sicilia-completa'],
+    imageAlt: 'La navata del Duomo di Monreale con i mosaici a fondo oro e il Cristo Pantocratore',
+  },
+  {
+    slug: 'street-food-palermo',
+    paeseSlug: 'italia',
+    destinazioneSlug: 'sicilia-occidentale',
+    nome: 'I mercati e lo street food di Palermo',
+    localita: 'Ballarò, Vucciria, Capo — Palermo',
+    cosE:
+      'I tre mercati storici del centro di Palermo, eredi diretti dei suq arabi nella struttura e nel modo di vendere, dove si mangia in piedi camminando: **panelle** di farina di ceci, **arancine**, **sfincione**, crocchè, stigghiola e il **pane con la milza**.',
+    percheFarla:
+      'Perché Palermo è considerata una delle capitali mondiali dello street food e perché i mercati non sono un\'attrazione ricostruita: sono ancora il posto dove si fa la spesa, con l\'**abbanniata** — il richiamo cantato dei venditori — che è una forma di teatro quotidiano.',
+    durata: 'una mattinata per il mercato, una serata per il cibo',
+    periodo:
+      'tutto l\'anno. **I mercati si vedono al mattino**, indicativamente fino alle due; la Vucciria la sera si trasforma in luogo di ritrovo notturno, che è tutt\'altra cosa.',
+    costo: 'pochissimo: si mangia con pochi euro, ed è cibo nato come pasto dei lavoratori',
+    comePrenotare: 'Niente da prenotare. I mercati si attraversano e ci si ferma ai banchi.',
+    cosaPortare:
+      'Contanti in piccolo taglio e nessuna fretta. Attenzione agli oggetti in tasca nei punti più affollati, come in qualsiasi mercato di città.',
+    perChiEAdatta:
+      'A tutti, con una precisazione onesta: il **pane con la milza** — milza e polmone di vitello bolliti nella sugna, serviti in un panino — non è per tutti, e non c\'è niente di male a saltarlo.',
+    miaEsperienza:
+      'I mercati di Palermo sono la cosa che spiega la città meglio di qualsiasi monumento, e la ragione è strutturale: nella pianta, nel modo di disporre i banchi e nel richiamo cantato dei venditori si vede ancora il suq arabo da cui derivano. A Ballarò al mattino si cammina in un corridoio di banchi con il pesce sul ghiaccio, le cassette di verdura e i venditori che urlano l\'**abbanniata** — un richiamo cantato, ritmico, che è diverso da banco a banco. In mezzo si mangia: le **panelle**, frittelle sottili di farina di ceci servite nel pane; le **arancine** (qui femminili, e a Catania maschili: è una faglia culturale seria); lo **sfincione**, una focaccia alta con cipolla, acciughe e caciocavallo. Con cinque euro si pranza in piedi camminando. Sul **pane con la milza** vale la pena essere onesti: è milza e polmone di vitello bolliti nella sugna, si mangia "schietto" o "maritato" con ricotta e caciocavallo, ed è la cosa più identitaria e più divisiva della città. Va provato una volta, e se non piace non è un fallimento.',
+    giudizio: 'imperdibile',
+    alternative: [
+      'Il mercato di Ortigia a Siracusa, sull\'altro versante dell\'isola, con la stessa energia e più pesce',
+      'Le friggitorie storiche fuori dai mercati, per la stessa cucina seduti',
+    ],
+    tripSlugs: ['sicilia-completa'],
+    imageAlt: 'Banchi e venditori nel mercato di Ballarò a Palermo',
+  },
+  {
+    slug: 'passito-pantelleria',
+    paeseSlug: 'italia',
+    destinazioneSlug: 'isole-siciliane',
+    nome: 'Il passito e la vite ad alberello di Pantelleria',
+    localita: 'Pantelleria',
+    cosE:
+      'La viticoltura pantesca: lo **zibibbo** coltivato ad alberello in **buche scavate nel terreno**, per proteggere la pianta da un vento che non smette mai, con i **giardini panteschi** — muri circolari di pietra lavica che racchiudono e riparano un solo albero. La pratica dell\'alberello pantesco è **patrimonio immateriale UNESCO dal 2014**.',
+    percheFarla:
+      'Perché è l\'unico caso al mondo di una **tecnica agricola** iscritta nel patrimonio immateriale dell\'umanità, e perché spiega meglio di qualsiasi museo cosa significhi coltivare in un posto ostile: qui ogni pianta è difesa da una buca e da un muro, uno per uno, a mano.',
+    durata: '2-3 ore per una visita in cantina con degustazione',
+    periodo:
+      'la vendemmia dello zibibbo si fa in **agosto**, molto prima che altrove, e le uve vengono poi stese ad appassire al sole su graticci. Primavera e autunno sono i momenti migliori per visitare.',
+    costo: 'degustazioni con prezzi contenuti rispetto alle grandi denominazioni continentali',
+    comePrenotare:
+      '**Su appuntamento**, come in tutte le cantine italiane: sono aziende agricole piccole e non ricevono senza preavviso. Una mail o una telefonata qualche giorno prima.',
+    cosaPortare: 'Nulla di particolare. **L\'auto è indispensabile** per raggiungere le cantine, che sono sparse sull\'isola.',
+    perChiEAdatta: 'A tutti, anche a chi non beve vino dolce: qui il punto è tanto la viticoltura quanto il prodotto.',
+    miaEsperienza:
+      'A Pantelleria si capisce cosa significa agricoltura eroica in un modo che nessun\'altra zona vitivinicola italiana mostra. Il vento qui è una costante, non un evento: soffia per giorni, e una vite allevata in alto verrebbe distrutta. Allora si fa il contrario — si scava una **conca nel terreno** e ci si pianta dentro la vite, bassa, in modo che i grappoli restino sotto il livello del suolo, protetti. Ogni pianta è una buca. Accanto, per gli agrumi, ci sono i **giardini panteschi**: muri circolari di pietra lavica alti quattro metri che racchiudono un albero solo — uno — creando un microclima al riparo dal vento e trattenendo l\'umidità notturna. Sono strutture che si vedono sparse per l\'isola e sembrano ruderi, e invece sono macchine agricole. Il risultato, nel bicchiere, è il **passito di Pantelleria**: uve zibibbo vendemmiate ad agosto, stese ad appassire al sole, e poi vinificate — un vino denso, con l\'albicocca e il miele, che regge il confronto con i grandi dolci del mondo. Va bevuto lì, seduti, guardando il muretto a secco che ha reso possibile quell\'uva.',
+    giudizio: 'imperdibile',
+    alternative: [
+      'Le cantine dell\'Etna, con le viti a piede franco sopravvissute alla fillossera',
+      'La Malvasia delle Lipari a Salina, l\'altro grande passito delle isole siciliane',
+    ],
+    tripSlugs: ['isole-siciliane'],
+    imageAlt: 'Vite ad alberello coltivata in una conca scavata nel terreno a Pantelleria',
   },
 ]

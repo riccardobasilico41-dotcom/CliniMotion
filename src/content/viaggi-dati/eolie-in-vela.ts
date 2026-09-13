@@ -1,0 +1,130 @@
+import type { TripMeta } from '@/lib/types'
+
+// Overlay di metadati strutturati per "Le Eolie in vela".
+// Il testo narrativo resta nel markdown (src/content/viaggi/35-eolie-in-vela.md).
+// `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
+// del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
+
+export const eolieInVelaMeta: TripMeta = {
+  tripSlug: 'eolie-in-vela',
+  paeseSlug: 'italia',
+  ritmo: 'La settimana classica da sabato a sabato, con traversate brevi tra un\'isola e l\'altra e l\'itinerario riscritto in corsa dal meteo',
+  trasporti: 'In barca a vela con skipper, partendo da Milazzo; tender per gli sbarchi',
+  stile: [
+    'vela',
+    'vulcani',
+    'isole',
+  ],
+  adattoA: [
+    'chi vuole vedere la Sciara del Fuoco dal mare, di notte',
+    'chi accetta che il vento decida e che il programma cambi',
+    'chi vuole Filicudi e Alicudi, che via traghetto sono scomode e in barca sono a portata',
+  ],
+  puntiForti: [
+    'Stromboli di notte dalla barca, con i blocchi incandescenti che scendono lungo la Sciara fino al mare',
+    'Il Museo Archeologico Eoliano di Lipari, con le maschere teatrali greche in terracotta',
+    'Le bolle di gas tra Lisca Bianca e Bottaro, nuotando sopra fumarole sottomarine attive',
+  ],
+  criticita: [
+    'Le ordinanze sulla salita a Stromboli — quota massima, obbligo di guida, periodi di divieto — sono cambiate più volte e vanno verificate al momento',
+    'L\'accesso al Gran Cratere di Vulcano è stato chiuso e poi riaperto con limitazioni dalla crisi gassosa del 2021',
+    'Il meteo comanda: con mare formato certi ancoraggi diventano inutilizzabili, Stromboli in particolare',
+    'Su diverse isole l\'acqua dolce arriva con le navi cisterna ed è un bene scarso',
+    'Si sta stretti a bordo e le traversate possono essere mosse',
+  ],
+  budgetTotale: undefined,
+  viaggioInBreve: {
+    percheHoScelto: undefined,
+    conChiSonoPartito: 'in barca a vela, con skipper',
+    cosaCercavo: undefined,
+    treEsperienzePiuBelle: 'La Sciara del Fuoco di notte con le luci spente, il mare bianco sotto le cave di pomice di Lipari, le scalinate di Alicudi',
+    cosaCambierei: undefined,
+    aChiLoConsiglio: undefined,
+  },
+  tappeMappa: [
+    { nome: 'Vulcano', destinazioneSlug: 'eolie' },
+    { nome: 'Lipari', destinazioneSlug: 'eolie' },
+    { nome: 'Salina', destinazioneSlug: 'eolie' },
+    { nome: 'Panarea e gli isolotti', destinazioneSlug: 'eolie' },
+    { nome: 'Stromboli', destinazioneSlug: 'eolie' },
+    { nome: 'Filicudi e Alicudi', destinazioneSlug: 'eolie' },
+  ],
+  giorni: [
+    {
+      titoloGiorno: 'Giorno 1 — Imbarco a Milazzo e trasferimento a Vulcano',
+      tratta: 'Imbarco a Milazzo e traversata verso Vulcano',
+      pernottamento: 'a bordo, in rada a Vulcano',
+      statoPernottamento: 'da-confermare',
+      intensita: 'leggero',
+      costiNoti: 'cambusa acquistata il primo giorno e divisa tra l\'equipaggio',
+      destinazioneSlug: 'eolie',
+    },
+    {
+      titoloGiorno: 'Giorno 2 — Vulcano e le Sette Piaghe',
+      tratta: 'Gran Cratere al mattino presto, poi navigazione verso Lipari',
+      pernottamento: 'a bordo, Lipari',
+      statoPernottamento: 'da-confermare',
+      intensita: 'intenso',
+      costiNoti: 'accesso al Gran Cratere soggetto a ordinanze: da verificare',
+      destinazioneSlug: 'eolie',
+    },
+    {
+      titoloGiorno: 'Giorno 3 — Lipari: il castello, il museo e la pomice',
+      tratta: 'Lipari: acropoli, museo archeologico e navigazione davanti alle ex cave di pomice',
+      pernottamento: 'a bordo, Lipari',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      costiNoti: 'l\'accesso agli impianti delle cave da terra è vietato; dal mare si vede tutto',
+      destinazioneSlug: 'eolie',
+    },
+    {
+      titoloGiorno: 'Giorno 4 — Salina: la verde',
+      tratta: 'Traversata per Salina, salita alla Fossa delle Felci e Pollara al tramonto',
+      pernottamento: 'a bordo, Santa Marina o Rinella',
+      statoPernottamento: 'da-confermare',
+      intensita: 'intenso',
+      costiNoti: 'cantine di Malvasia su appuntamento; accesso alla spiaggia di Pollara limitato per rischio crollo',
+      destinazioneSlug: 'eolie',
+    },
+    {
+      titoloGiorno: 'Giorno 5 — Panarea e gli isolotti',
+      tratta: 'Panarea, gli isolotti e Punta Milazzese, poi traversata lunga verso Stromboli',
+      pernottamento: 'a bordo, Stromboli',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      costiNoti: 'Panarea è la più cara dell\'arcipelago in alta stagione',
+      destinazioneSlug: 'eolie',
+    },
+    {
+      titoloGiorno: 'Giorno 6 — Stromboli: la Sciara del Fuoco',
+      tratta: 'Stromboli: il paese, Ginostra, la salita consentita e la Sciara dal mare dopo il buio',
+      pernottamento: 'a bordo, sottocosta a Stromboli',
+      statoPernottamento: 'da-confermare',
+      intensita: 'intenso',
+      costiNoti: 'salita solo con guide autorizzate e fino alla quota consentita dall\'ordinanza in vigore',
+      destinazioneSlug: 'eolie',
+    },
+    {
+      titoloGiorno: 'Giorno 7 — Filicudi o Alicudi: le isole della fine',
+      tratta: 'Navigazione verso occidente, Filicudi e Alicudi',
+      pernottamento: 'a bordo',
+      statoPernottamento: 'da-confermare',
+      intensita: 'medio',
+      costiNoti: 'sono le isole peggio collegate via traghetto: in barca sono a portata',
+      destinazioneSlug: 'eolie',
+    },
+    {
+      titoloGiorno: 'Giorno 8 — Rientro e sbarco',
+      tratta: 'Navigazione di rientro e sbarco al porto di partenza',
+      intensita: 'leggero',
+      destinazioneSlug: 'eolie',
+    },
+  ],
+  budget: [
+    { etichetta: 'Barca con skipper', valore: 'la voce principale: su una settimana è confrontabile con sette notti di alberghi in alta stagione' },
+    { etichetta: 'Cambusa', valore: 'acquistata il primo giorno e divisa: si mangia a bordo quasi tutte le sere' },
+    { etichetta: 'Ormeggi e ancoraggi', valore: 'variabili, con i porti in alta stagione nettamente più cari delle rade' },
+    { etichetta: 'Guide a Stromboli', valore: 'obbligatorie per la salita, nei limiti consentiti' },
+    { etichetta: 'Ingressi', valore: 'bassi: il Museo Archeologico Eoliano e il Gran Cratere costano poco' },
+  ],
+}

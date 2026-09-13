@@ -79,6 +79,17 @@ import { settimanaBiancaMeta } from '@/content/viaggi-dati/settimana-bianca'
 import { grandiCittaItaliaMeta } from '@/content/viaggi-dati/grandi-citta-italia'
 import { siciliaItinerarioMeta } from '@/content/viaggi-dati/sicilia-itinerario'
 import { rotteDeiViniMeta } from '@/content/viaggi-dati/rotte-dei-vini-itinerario'
+import { roma4GiorniMeta } from '@/content/viaggi-dati/roma-4-giorni'
+import { firenze3GiorniMeta } from '@/content/viaggi-dati/firenze-3-giorni'
+import { milanoEILaghiMeta } from '@/content/viaggi-dati/milano-e-i-laghi'
+import { venezia3GiorniMeta } from '@/content/viaggi-dati/venezia-3-giorni'
+import { torino2GiorniMeta } from '@/content/viaggi-dati/torino-2-giorni'
+import { napoli3GiorniMeta } from '@/content/viaggi-dati/napoli-3-giorni'
+import { costieraEIsoleMeta } from '@/content/viaggi-dati/costiera-e-isole'
+import { eolieInVelaMeta } from '@/content/viaggi-dati/eolie-in-vela'
+import { siciliaCompletaMeta } from '@/content/viaggi-dati/sicilia-completa'
+import { sardegnaDueAnimeMeta } from '@/content/viaggi-dati/sardegna-due-anime'
+import { isoleSicilianeMeta } from '@/content/viaggi-dati/isole-siciliane'
 import { emiratiArabiUniti } from '@/content/paesi/emirati-arabi-uniti'
 import { destinazioniEmiratiArabiUniti } from '@/content/destinazioni/emirati-arabi-uniti'
 import { esperienzeEmiratiArabiUniti } from '@/content/esperienze/emirati-arabi-uniti'
@@ -152,6 +163,17 @@ const TRIP_META: TripMeta[] = [
   grandiCittaItaliaMeta,
   siciliaItinerarioMeta,
   rotteDeiViniMeta,
+  roma4GiorniMeta,
+  firenze3GiorniMeta,
+  milanoEILaghiMeta,
+  venezia3GiorniMeta,
+  torino2GiorniMeta,
+  napoli3GiorniMeta,
+  costieraEIsoleMeta,
+  eolieInVelaMeta,
+  siciliaCompletaMeta,
+  sardegnaDueAnimeMeta,
+  isoleSicilianeMeta,
 ]
 
 export function getAllPaesi(): Paese[] {
