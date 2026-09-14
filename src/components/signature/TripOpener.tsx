@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion, useReducedMotion } from 'motion/react'
 import { ArrowLeft, CalendarDays, Clock3, Users } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
@@ -9,10 +10,11 @@ import { codicePaese } from './paese-codici'
 import type { PuntoTappa } from './geo'
 
 /**
- * Apertura firmata della pagina viaggio: sostituisce l'hero fotografico (qui
- * assente: nessuna delle quattro città di questo itinerario ha ancora una
- * foto reale) con un campo scuro, titolo a scala estrema e una striscia di
- * percorso/coordinate al posto dell'immagine mancante — il Field Dossier
+ * Apertura firmata della pagina viaggio: titolo a scala estrema e una
+ * striscia di percorso/coordinate sopra un campo scuro. Quando il viaggio ha
+ * una copertina fotografica reale la usa come sfondo (stesso trattamento a
+ * overlay scuro dell'hero precedente); quando non ce l'ha ancora, lo sfondo
+ * resta il campo scuro con le tacche cartografiche — il Field Dossier
  * applicato a un momento hero invece che a una card.
  */
 export function TripOpener({
@@ -23,6 +25,7 @@ export function TripOpener({
   compagniBreve,
   tappe,
   inLavorazione,
+  copertina,
 }: {
   titolo: string
   paeseSlug: string
@@ -31,20 +34,35 @@ export function TripOpener({
   compagniBreve?: string
   tappe: PuntoTappa[]
   inLavorazione?: boolean
+  copertina?: { immagine: string; imageAlt: string }
 }) {
   const reduceMotion = useReducedMotion()
 
   return (
     <section className="relative overflow-hidden border-b border-alpine/10 bg-alpine-dark pb-14 pt-10 text-cream sm:pb-20 sm:pt-14">
-      <svg
-        aria-hidden="true"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="none"
-        className="pointer-events-none absolute inset-0 h-full w-full text-cream/[0.06]"
-      >
-        <path d="M6 24 V6 H24" fill="none" stroke="currentColor" strokeWidth="0.2" />
-        <path d="M94 6 H76 V24" fill="none" stroke="currentColor" strokeWidth="0.2" />
-      </svg>
+      {copertina ? (
+        <>
+          <Image
+            src={copertina.immagine}
+            alt={copertina.imageAlt}
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark via-alpine-dark/55 to-alpine-dark/40" />
+        </>
+      ) : (
+        <svg
+          aria-hidden="true"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          className="pointer-events-none absolute inset-0 h-full w-full text-cream/[0.06]"
+        >
+          <path d="M6 24 V6 H24" fill="none" stroke="currentColor" strokeWidth="0.2" />
+          <path d="M94 6 H76 V24" fill="none" stroke="currentColor" strokeWidth="0.2" />
+        </svg>
+      )}
 
       <Container className="relative z-10">
         <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-cream/60">

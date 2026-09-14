@@ -1,32 +1,21 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
-import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { ArrowLeft, CalendarDays, Clock3, Users } from 'lucide-react'
-import { Container } from '@/components/ui/Container'
 import { Prose } from '@/components/Prose'
-import { Reveal } from '@/components/Reveal'
 import { ScrollProgress } from '@/components/motion-primitives/scroll-progress'
 import { TripSummary } from '@/components/TripSummary'
-import { RouteTimeline } from '@/components/RouteTimeline'
-import { DayTimeline } from '@/components/DayTimeline'
 import { BudgetBreakdown } from '@/components/BudgetBreakdown'
 import { StickyTableOfContents, type TocItem } from '@/components/StickyTableOfContents'
 import { TripOpener } from '@/components/signature/TripOpener'
 import { DaySectionSignature } from '@/components/signature/DaySectionSignature'
 import { RouteLine } from '@/components/signature/RouteLine'
-import { getAllViaggi, getViaggioBySlug, getContinente, type Viaggio } from '@/lib/viaggi'
+import { Container } from '@/components/ui/Container'
+import { getAllViaggi, getViaggioBySlug, type Viaggio } from '@/lib/viaggi'
 import { getTripMeta } from '@/lib/geo'
 import type { ViaggioInBreve, TripMeta } from '@/lib/types'
 import { slugify } from '@/lib/utils'
 import { JsonLd } from '@/components/JsonLd'
 import { articoloViaggioJsonLd, breadcrumbJsonLd } from '@/lib/structured-data'
 import { copertineViaggi } from '@/content/viaggi-copertine'
-
-// Unico viaggio con la composizione "Signature Editorial" in questa iterazione
-// del prototipo: tutti gli altri 46 itinerari restano invariati (componente
-// legacy sotto), come richiesto — nessuna propagazione ancora.
-const SIGNATURE_TRIP_SLUG = 'grandi-citta-italia'
 
 export async function generateStaticParams() {
   return getAllViaggi().map((v) => ({ slug: v.slug }))
@@ -59,9 +48,8 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
   const viaggio = getViaggioBySlug(slug)
   if (!viaggio) notFound()
 
-  const continente = getContinente(viaggio.categorie)
   const meta = getTripMeta(viaggio.slug)
-  const paeseSlug = meta?.paeseSlug
+  if (!meta) notFound()
   const copertina = copertineViaggi[viaggio.slug]
 
   const cosaVedereSezione = viaggio.sezioni.find((s) => /^Cosa vedere/i.test(s.titolo))
@@ -100,28 +88,15 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
       />
       <ScrollProgress className="fixed inset-x-0 top-0 z-[60] h-0.5 bg-rosso motion-reduce:hidden" />
 
-      {slug === SIGNATURE_TRIP_SLUG && meta ? (
-        <SignatureViaggioContent
-          viaggio={viaggio}
-          meta={meta}
-          toc={toc}
-          cosaVedereSezione={cosaVedereSezione}
-          consigliSezione={consigliSezione}
-          altreSezioni={altreSezioni}
-        />
-      ) : (
-        <LegacyViaggioContent
-          viaggio={viaggio}
-          meta={meta}
-          paeseSlug={paeseSlug}
-          copertina={copertina}
-          continente={continente}
-          toc={toc}
-          cosaVedereSezione={cosaVedereSezione}
-          consigliSezione={consigliSezione}
-          altreSezioni={altreSezioni}
-        />
-      )}
+      <SignatureViaggioContent
+        viaggio={viaggio}
+        meta={meta}
+        copertina={copertina}
+        toc={toc}
+        cosaVedereSezione={cosaVedereSezione}
+        consigliSezione={consigliSezione}
+        altreSezioni={altreSezioni}
+      />
     </>
   )
 }
@@ -129,16 +104,15 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
 type SezioneViaggio = Viaggio['sezioni'][number]
 
 /**
- * Composizione Signature Editorial: apertura senza foto (Field Dossier a
- * scala hero), mappa del percorso reale al posto di RouteTimeline, e
- * giorno-per-giorno con numeri grandi + segnaposto di percorso. Il resto dei
- * contenuti (cosa vedere, dove dormire/mangiare, budget, consigli, chiusura,
- * tag) resta strutturalmente identico alla pagina legacy: questa iterazione
- * trasforma apertura, mappa e giorni, non ogni sezione della pagina.
+ * Composizione Signature Editorial della pagina viaggio: apertura firmata
+ * (foto reale se in `copertineViaggi`, altrimenti Field Dossier a scala
+ * hero), mappa del percorso con `RouteLine`, e giorno-per-giorno con numeri
+ * grandi + segnaposto di percorso.
  */
 function SignatureViaggioContent({
   viaggio,
   meta,
+  copertina,
   toc,
   cosaVedereSezione,
   consigliSezione,
@@ -146,6 +120,7 @@ function SignatureViaggioContent({
 }: {
   viaggio: Viaggio
   meta: TripMeta
+  copertina?: { immagine: string; imageAlt: string }
   toc: TocItem[]
   cosaVedereSezione?: SezioneViaggio
   consigliSezione?: SezioneViaggio
@@ -161,6 +136,7 @@ function SignatureViaggioContent({
         compagniBreve={viaggio.compagniBreve}
         tappe={meta.tappeMappa}
         inLavorazione={viaggio.inLavorazione}
+        copertina={copertina}
       />
 
       <section className="py-16 sm:py-20">
@@ -196,7 +172,7 @@ function SignatureViaggioContent({
               <div id="mappa" className="scroll-mt-24">
                 <h2 className="font-display text-2xl text-alpine">La rotta</h2>
                 <p className="mt-2 max-w-xl text-sm leading-relaxed text-stone">
-                  Coordinate reali delle quattro tappe, nell&apos;ordine in cui si visitano.
+                  Le tappe dell&apos;itinerario, nell&apos;ordine in cui si visitano.
                 </p>
                 <div className="mt-8 rounded-2xl border border-alpine/10 bg-cream-dark/40 p-6 sm:p-10">
                   <RouteLine
@@ -256,267 +232,6 @@ function SignatureViaggioContent({
                 <BudgetBreakdown voci={meta.budget} />
               </div>
             </div>
-
-            {consigliSezione && (
-              <div id={slugify(consigliSezione.titolo)} className="scroll-mt-24">
-                <h2 className="font-display text-2xl text-alpine">{consigliSezione.titolo}</h2>
-                <Prose className="mt-4">{consigliSezione.corpo}</Prose>
-              </div>
-            )}
-
-            {viaggio.chiusura && (
-              <p className="border-t border-alpine/10 pt-10 font-display text-xl italic leading-relaxed text-stone">
-                {viaggio.chiusura}
-              </p>
-            )}
-
-            {viaggio.tags.length > 0 && (
-              <div className="flex flex-wrap gap-2">
-                {viaggio.tags.map((tag) => (
-                  <span key={tag} className="rounded-full bg-alpine/5 px-3 py-1 text-xs font-medium text-alpine">
-                    #{tag}
-                  </span>
-                ))}
-              </div>
-            )}
-          </div>
-
-          <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
-            {toc.length > 0 && <StickyTableOfContents items={toc} />}
-
-            {viaggio.schedaPratica && (
-              <div className="rounded-2xl border border-alpine/10 bg-cream-dark/50 p-6">
-                <h2 className="font-display text-lg text-alpine">Scheda pratica</h2>
-                {viaggio.periodo && viaggio.periodo !== viaggio.periodoBreve && (
-                  <p className="mt-4 text-sm leading-relaxed text-stone">
-                    <span className="font-semibold text-ink">Periodo: </span>
-                    {viaggio.periodo}
-                  </p>
-                )}
-                {viaggio.durata && viaggio.durata !== viaggio.durataBreve && (
-                  <p className="mt-4 text-sm leading-relaxed text-stone">
-                    <span className="font-semibold text-ink">Durata: </span>
-                    {viaggio.durata}
-                  </p>
-                )}
-                {viaggio.compagni && (
-                  <p className="mt-4 text-sm leading-relaxed text-stone">
-                    <span className="font-semibold text-ink">Compagni di viaggio: </span>
-                    {viaggio.compagni}
-                  </p>
-                )}
-                <Prose className="mt-4 text-sm prose-ul:my-0 prose-li:my-1.5">{viaggio.schedaPratica}</Prose>
-              </div>
-            )}
-
-            <p className="text-xs leading-relaxed text-stone/60">
-              Viaggio effettuato nel {viaggio.periodo || 'periodo da confermare'} · pagina aggiornata il{' '}
-              {new Date().toLocaleDateString('it-IT', { year: 'numeric', month: 'long', day: 'numeric' })}.
-              <br />
-              Prezzi, orari, documenti e traghetti vanno sempre verificati prima della partenza.
-            </p>
-          </aside>
-        </Container>
-      </section>
-    </>
-  )
-}
-
-/** Composizione invariata (Hallmark): usata da tutti i viaggi tranne quello firmato. */
-function LegacyViaggioContent({
-  viaggio,
-  meta,
-  paeseSlug,
-  copertina,
-  continente,
-  toc,
-  cosaVedereSezione,
-  consigliSezione,
-  altreSezioni,
-}: {
-  viaggio: Viaggio
-  meta: TripMeta | undefined
-  paeseSlug: string | undefined
-  copertina: { immagine: string; imageAlt: string } | undefined
-  continente: string
-  toc: TocItem[]
-  cosaVedereSezione?: SezioneViaggio
-  consigliSezione?: SezioneViaggio
-  altreSezioni: SezioneViaggio[]
-}) {
-  return (
-    <>
-      <section className="relative overflow-hidden border-b border-alpine/10 bg-alpine-dark py-20 text-cream sm:py-28">
-        {copertina && (
-          <>
-            <Image
-              src={copertina.immagine}
-              alt={copertina.imageAlt}
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover"
-            />
-            <div className="pointer-events-none absolute inset-0 bg-alpine-dark/72" />
-          </>
-        )}
-        <Container className="relative z-10">
-          <Reveal>
-            <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-cream/60">
-              <Link href="/" className="hover:text-cream">
-                Home
-              </Link>
-              <span>/</span>
-              <Link href="/viaggi" className="hover:text-cream">
-                Tutti i viaggi
-              </Link>
-              <span>/</span>
-              <span className="text-cream/85">{viaggio.titolo}</span>
-            </nav>
-            <Link
-              href="/viaggi"
-              className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-cream/60 hover:text-cream"
-            >
-              <ArrowLeft size={13} />
-              Tutti i viaggi
-            </Link>
-            <div className="mt-6 flex items-center gap-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">{continente}</p>
-              {viaggio.inLavorazione && (
-                <span className="rounded-full bg-cream/10 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/70">
-                  Racconto in arrivo
-                </span>
-              )}
-            </div>
-            <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium leading-tight sm:text-5xl">
-              {viaggio.titolo}
-            </h1>
-            {viaggio.inLavorazione && (
-              <p className="mt-3 max-w-xl text-sm text-cream/60">
-                Itinerario e consigli sono completi — mancano solo i ricordi personali di apertura e chiusura.
-              </p>
-            )}
-            <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm text-cream/70">
-              {viaggio.periodoBreve && (
-                <span className="inline-flex items-center gap-1.5">
-                  <CalendarDays size={14} /> {viaggio.periodoBreve}
-                </span>
-              )}
-              {viaggio.durataBreve && (
-                <span className="inline-flex items-center gap-1.5">
-                  <Clock3 size={14} /> {viaggio.durataBreve}
-                </span>
-              )}
-              {viaggio.compagniBreve && (
-                <span className="inline-flex items-center gap-1.5">
-                  <Users size={14} /> {viaggio.compagniBreve}
-                </span>
-              )}
-            </div>
-          </Reveal>
-        </Container>
-      </section>
-
-      <section className="py-16 sm:py-20">
-        <Container className="grid gap-14 lg:grid-cols-[1.6fr_1fr]">
-          <div className="space-y-14">
-            {viaggio.apertura && (
-              <p className="font-display text-2xl italic leading-relaxed text-alpine sm:text-3xl">
-                {viaggio.apertura}
-              </p>
-            )}
-
-            {meta && (
-              <div className="space-y-8">
-                <TripSummary viaggio={viaggio} meta={meta} />
-
-                <div id="il-viaggio-in-breve" className="scroll-mt-24">
-                  <h2 className="font-display text-xl text-alpine">Il viaggio in breve</h2>
-                  <dl className="mt-4 grid gap-4 sm:grid-cols-2">
-                    {CAMPI_VIAGGIO_IN_BREVE.map(({ key, label }) => {
-                      const valore = meta.viaggioInBreve[key]
-                      return (
-                        <div key={key} className="rounded-xl border border-dashed border-alpine/20 p-4">
-                          <dt className="text-xs font-semibold uppercase tracking-wider text-stone/70">{label}</dt>
-                          <dd className={`mt-1.5 text-sm leading-relaxed ${valore ? 'text-ink' : 'italic text-stone/60'}`}>
-                            {valore ?? 'Ricordo personale da aggiungere'}
-                          </dd>
-                        </div>
-                      )
-                    })}
-                  </dl>
-                </div>
-              </div>
-            )}
-
-            {meta && meta.tappeMappa.length > 0 && paeseSlug && (
-              <div id="mappa" className="scroll-mt-24">
-                <h2 className="font-display text-2xl text-alpine">Mappa del viaggio</h2>
-                <div className="mt-6">
-                  <RouteTimeline tappe={meta.tappeMappa} paeseSlug={paeseSlug} />
-                </div>
-              </div>
-            )}
-
-            {viaggio.giorni.length > 0 && (
-              <div id="itinerario-giorno-per-giorno" className="scroll-mt-24">
-                <h2 className="font-display text-2xl text-alpine">Itinerario giorno per giorno</h2>
-                <div className="mt-6">
-                  {meta ? (
-                    <DayTimeline giorni={viaggio.giorni} meta={meta.giorni} paeseSlug={paeseSlug} />
-                  ) : (
-                    <div className="space-y-8 border-l border-alpine/15 pl-6">
-                      {viaggio.giorni.map((giorno) => (
-                        <Reveal key={giorno.titolo}>
-                          <h3 className="font-display text-lg font-medium text-ink">{giorno.titolo}</h3>
-                          <Prose className="mt-2 text-sm">{giorno.corpo}</Prose>
-                        </Reveal>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {cosaVedereSezione && (
-              <div id={slugify(cosaVedereSezione.titolo)} className="scroll-mt-24">
-                <h2 className="font-display text-2xl text-alpine">{cosaVedereSezione.titolo}</h2>
-                <Prose className="mt-4">{cosaVedereSezione.corpo}</Prose>
-              </div>
-            )}
-
-            {altreSezioni.map((sezione) => (
-              <div key={sezione.titolo} id={slugify(sezione.titolo)} className="scroll-mt-24">
-                <h2 className="font-display text-2xl text-alpine">{sezione.titolo}</h2>
-                <Prose className="mt-4">{sezione.corpo}</Prose>
-              </div>
-            ))}
-
-            {viaggio.doveDormito && (
-              <div id="dove-dormire" className="scroll-mt-24">
-                <h2 className="font-display text-xl text-alpine">Dove ho dormito</h2>
-                <Prose className="mt-3 text-sm">{viaggio.doveDormito}</Prose>
-              </div>
-            )}
-            {viaggio.doveMangiato && (
-              <div id="dove-mangiare" className="scroll-mt-24">
-                <h2 className="font-display text-xl text-alpine">Dove ho mangiato</h2>
-                <Prose className="mt-3 text-sm">{viaggio.doveMangiato}</Prose>
-              </div>
-            )}
-
-            {meta && (
-              <div id="budget" className="scroll-mt-24">
-                <h2 className="font-display text-2xl text-alpine">Budget</h2>
-                <p className="mt-2 text-sm text-stone">
-                  Voci di spesa indicative: dove non c&apos;è un dato affidabile, la voce resta da completare invece
-                  di una stima inventata.
-                </p>
-                <div className="mt-4">
-                  <BudgetBreakdown voci={meta.budget} />
-                </div>
-              </div>
-            )}
 
             {consigliSezione && (
               <div id={slugify(consigliSezione.titolo)} className="scroll-mt-24">
