@@ -19,6 +19,7 @@ import {
   getEsperienzeDiDestinazione,
   getViaggiByDestinazione,
 } from '@/lib/geo'
+import { pageMetadata } from '@/lib/seo'
 
 // "Torna a..." con l'articolo corretto per ciascun Paese (il Messico, la Norvegia,
 // l'Islanda, la Svezia) — l'italiano non si presta a una regola generica affidabile.
@@ -41,11 +42,12 @@ export async function generateMetadata({
   const { paese: paeseSlug, slug } = await params
   const destinazione = getDestinazione(paeseSlug, slug)
   if (!destinazione) return {}
-  return {
+  return pageMetadata({
     title: destinazione.nome,
     description: destinazione.introduzione,
-    alternates: { canonical: `/destinazioni/${paeseSlug}/${slug}` },
-  }
+    path: `/destinazioni/${paeseSlug}/${slug}`,
+    type: 'article',
+  })
 }
 
 export default async function DestinazionePage({

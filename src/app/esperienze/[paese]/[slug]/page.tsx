@@ -18,6 +18,7 @@ import {
   getDestinazioniByEsperienzaSlug,
   getViaggiByEsperienza,
 } from '@/lib/geo'
+import { pageMetadata } from '@/lib/seo'
 
 export async function generateStaticParams() {
   return getAllEsperienze().map((e) => ({ paese: e.paeseSlug, slug: e.slug }))
@@ -31,11 +32,12 @@ export async function generateMetadata({
   const { paese: paeseSlug, slug } = await params
   const esperienza = getEsperienza(paeseSlug, slug)
   if (!esperienza) return {}
-  return {
+  return pageMetadata({
     title: esperienza.nome,
     description: esperienza.cosE,
-    alternates: { canonical: `/esperienze/${paeseSlug}/${slug}` },
-  }
+    path: `/esperienze/${paeseSlug}/${slug}`,
+    type: 'article',
+  })
 }
 
 export default async function EsperienzaPage({

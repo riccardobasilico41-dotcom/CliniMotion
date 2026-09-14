@@ -3,14 +3,15 @@ import { Container } from '@/components/ui/Container'
 import { TripFilters } from '@/components/TripFilters'
 import { getAllViaggi } from '@/lib/viaggi'
 import { siteConfig } from '@/lib/site-config'
+import { pageMetadata } from '@/lib/seo'
 import { JsonLd } from '@/components/JsonLd'
 import { raccoltaJsonLd } from '@/lib/structured-data'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: 'Tutti i viaggi',
   description: `Il catalogo completo degli itinerari di ${siteConfig.brandName}: destinazioni, periodi e durate a colpo d'occhio.`,
-  alternates: { canonical: '/viaggi' },
-}
+  path: '/viaggi',
+})
 
 export default function ViaggiIndexPage() {
   const viaggi = getAllViaggi()

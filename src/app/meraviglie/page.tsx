@@ -5,14 +5,15 @@ import { RevealGroup, RevealItem } from '@/components/Reveal'
 import { MeravigliaCard } from '@/components/MeravigliaCard'
 import { getAllMeraviglie } from '@/lib/meraviglie'
 import { siteConfig } from '@/lib/site-config'
+import { pageMetadata } from '@/lib/seo'
 import { JsonLd } from '@/components/JsonLd'
 import { raccoltaJsonLd } from '@/lib/structured-data'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: 'Le sette meraviglie del mondo',
   description: `Guida pratica completa alle Sette Meraviglie del Mondo Moderno su ${siteConfig.brandName}: prenotazione, prezzi, come arrivare, truffe da evitare e cosa vedere in ognuna.`,
-  alternates: { canonical: '/meraviglie' },
-}
+  path: '/meraviglie',
+})
 
 export default function MeraviglieIndexPage() {
   const meraviglie = getAllMeraviglie()

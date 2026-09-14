@@ -15,6 +15,7 @@ import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbJsonLd } from '@/lib/structured-data'
 import { getAllPaesi, getPaese, getDestinazioniByPaese, getEsperienzeByPaese, getTripMeta } from '@/lib/geo'
 import { getViaggioBySlug } from '@/lib/viaggi'
+import { pageMetadata } from '@/lib/seo'
 
 export async function generateStaticParams() {
   return getAllPaesi().map((p) => ({ paese: p.slug }))
@@ -28,11 +29,11 @@ export async function generateMetadata({
   const { paese: paeseSlug } = await params
   const paese = getPaese(paeseSlug)
   if (!paese) return {}
-  return {
+  return pageMetadata({
     title: paese.titolo,
     description: paese.descrizione,
-    alternates: { canonical: `/destinazioni/${paeseSlug}` },
-  }
+    path: `/destinazioni/${paeseSlug}`,
+  })
 }
 
 export default async function PaesePage({ params }: { params: Promise<{ paese: string }> }) {

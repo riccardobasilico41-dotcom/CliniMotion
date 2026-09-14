@@ -8,6 +8,7 @@ import { Reveal } from '@/components/Reveal'
 import { ContentStatusBadge } from '@/components/ui/ContentStatusBadge'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { getAllMeraviglie, getMeraviglia } from '@/lib/meraviglie'
+import { pageMetadata } from '@/lib/seo'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbJsonLd } from '@/lib/structured-data'
 
@@ -23,11 +24,12 @@ export async function generateMetadata({
   const { slug } = await params
   const meraviglia = getMeraviglia(slug)
   if (!meraviglia) return {}
-  return {
+  return pageMetadata({
     title: meraviglia.titolo,
     description: meraviglia.descrizione,
-    alternates: { canonical: `/meraviglie/${slug}` },
-  }
+    path: `/meraviglie/${slug}`,
+    type: 'article',
+  })
 }
 
 export default async function MeravigliaPage({ params }: { params: Promise<{ slug: string }> }) {

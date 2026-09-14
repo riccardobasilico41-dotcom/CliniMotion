@@ -17,7 +17,7 @@ import { JsonLd } from '@/components/JsonLd'
 import { articoloViaggioJsonLd, breadcrumbJsonLd } from '@/lib/structured-data'
 import { copertineViaggi } from '@/content/viaggi-copertine'
 import { getEditorialMeta, type EditorialMeta } from '@/content/viaggi-editorial'
-import { siteConfig } from '@/lib/site-config'
+import { pageMetadata } from '@/lib/seo'
 
 export async function generateStaticParams() {
   return getAllViaggi().map((v) => ({ slug: v.slug }))
@@ -31,30 +31,14 @@ export async function generateMetadata({
   if (!viaggio) return {}
 
   const editorial = getEditorialMeta(slug)
-  const title = editorial.seoTitle ?? viaggio.titolo
-  const description = editorial.seoDescription ?? viaggio.descrizione
-  const socialTitle = editorial.socialTitle ?? title
-  const socialDescription = editorial.socialDescription ?? description
-  const url = `/viaggi/${viaggio.slug}`
-
-  return {
-    title,
-    description,
-    alternates: { canonical: url },
-    openGraph: {
-      title: socialTitle,
-      description: socialDescription,
-      url,
-      siteName: siteConfig.shortName,
-      locale: 'it_IT',
-      type: 'article',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: socialTitle,
-      description: socialDescription,
-    },
-  }
+  return pageMetadata({
+    title: editorial.seoTitle ?? viaggio.titolo,
+    description: editorial.seoDescription ?? viaggio.descrizione,
+    socialTitle: editorial.socialTitle,
+    socialDescription: editorial.socialDescription,
+    path: `/viaggi/${viaggio.slug}`,
+    type: 'article',
+  })
 }
 
 const CAMPI_VIAGGIO_IN_BREVE: { key: keyof ViaggioInBreve; label: string }[] = [

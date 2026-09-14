@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     { path: '/', priority: 1, changeFrequency: 'weekly' as const },
     { path: '/viaggi', priority: 0.9, changeFrequency: 'weekly' as const },
+    { path: '/destinazioni', priority: 0.9, changeFrequency: 'weekly' as const },
     { path: '/meraviglie', priority: 0.9, changeFrequency: 'weekly' as const },
     ...getAllMeraviglie().map((m) => ({
       path: `/meraviglie/${m.slug}`,

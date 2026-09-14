@@ -6,14 +6,15 @@ import { RevealGroup, RevealItem } from '@/components/Reveal'
 import { getAllPaesi } from '@/lib/geo'
 import { raggruppaPerContinente } from '@/lib/utils'
 import { siteConfig } from '@/lib/site-config'
+import { pageMetadata } from '@/lib/seo'
 import { JsonLd } from '@/components/JsonLd'
 import { raccoltaJsonLd } from '@/lib/structured-data'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: 'Destinazioni',
   description: `I Paesi esplorati in profondità su ${siteConfig.brandName}, divisi per macro-regione: destinazioni ed esperienze, non solo l'itinerario completo.`,
-  alternates: { canonical: '/destinazioni' },
-}
+  path: '/destinazioni',
+})
 
 export default function DestinazioniIndexPage() {
   const paesi = getAllPaesi()
