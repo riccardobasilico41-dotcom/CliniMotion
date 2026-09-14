@@ -16,6 +16,8 @@ import { slugify } from '@/lib/utils'
 import { JsonLd } from '@/components/JsonLd'
 import { articoloViaggioJsonLd, breadcrumbJsonLd } from '@/lib/structured-data'
 import { copertineViaggi } from '@/content/viaggi-copertine'
+import { getEditorialMeta, type EditorialMeta } from '@/content/viaggi-editorial'
+import { siteConfig } from '@/lib/site-config'
 
 export async function generateStaticParams() {
   return getAllViaggi().map((v) => ({ slug: v.slug }))
@@ -27,10 +29,31 @@ export async function generateMetadata({
   const { slug } = await params
   const viaggio = getViaggioBySlug(slug)
   if (!viaggio) return {}
+
+  const editorial = getEditorialMeta(slug)
+  const title = editorial.seoTitle ?? viaggio.titolo
+  const description = editorial.seoDescription ?? viaggio.descrizione
+  const socialTitle = editorial.socialTitle ?? title
+  const socialDescription = editorial.socialDescription ?? description
+  const url = `/viaggi/${viaggio.slug}`
+
   return {
-    title: viaggio.titolo,
-    description: viaggio.descrizione,
-    alternates: { canonical: `/viaggi/${viaggio.slug}` },
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: socialTitle,
+      description: socialDescription,
+      url,
+      siteName: siteConfig.shortName,
+      locale: 'it_IT',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: socialTitle,
+      description: socialDescription,
+    },
   }
 }
 
@@ -51,6 +74,7 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
   const meta = getTripMeta(viaggio.slug)
   if (!meta) notFound()
   const copertina = copertineViaggi[viaggio.slug]
+  const editorial = getEditorialMeta(viaggio.slug)
 
   const cosaVedereSezione = viaggio.sezioni.find((s) => /^Cosa vedere/i.test(s.titolo))
   const consigliSezione = viaggio.sezioni.find((s) => /^Consigli pratici/i.test(s.titolo))
@@ -92,6 +116,7 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
         viaggio={viaggio}
         meta={meta}
         copertina={copertina}
+        editorial={editorial}
         toc={toc}
         cosaVedereSezione={cosaVedereSezione}
         consigliSezione={consigliSezione}
@@ -113,6 +138,7 @@ function SignatureViaggioContent({
   viaggio,
   meta,
   copertina,
+  editorial,
   toc,
   cosaVedereSezione,
   consigliSezione,
@@ -121,6 +147,7 @@ function SignatureViaggioContent({
   viaggio: Viaggio
   meta: TripMeta
   copertina?: { immagine: string; imageAlt: string }
+  editorial: EditorialMeta
   toc: TocItem[]
   cosaVedereSezione?: SezioneViaggio
   consigliSezione?: SezioneViaggio
@@ -130,6 +157,8 @@ function SignatureViaggioContent({
     <>
       <TripOpener
         titolo={viaggio.titolo}
+        editorialHeadline={editorial.editorialHeadline}
+        editorialHook={editorial.editorialHook}
         paeseSlug={meta.paeseSlug}
         periodoBreve={viaggio.periodoBreve}
         durataBreve={viaggio.durataBreve}

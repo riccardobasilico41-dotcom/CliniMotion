@@ -7,7 +7,7 @@ import { Manifesto } from '@/components/signature/Manifesto'
 import { GeographyIndex } from '@/components/signature/GeographyIndex'
 import { FeaturedJourney } from '@/components/signature/FeaturedJourney'
 import { VisualArchive } from '@/components/signature/VisualArchive'
-import { getAllViaggi } from '@/lib/viaggi'
+import { getAllViaggi, type Viaggio } from '@/lib/viaggi'
 import { getAllMeraviglie } from '@/lib/meraviglie'
 import { getAllPaesi, getAllDestinazioni, getAllEsperienze, getDestinazioniByPaese, getTripMeta } from '@/lib/geo'
 import { raggruppaPerContinente } from '@/lib/utils'
@@ -34,6 +34,22 @@ const ROTTA_DECORATIVA = [
   { nome: 'Messico' },
 ]
 
+// Selezione editoriale per l'archivio visivo della Home: 8 viaggi scelti a
+// mano (non i 47 al completo, che restano su /viaggi) per varietà geografica
+// e narrativa. Bansko resta il "viaggio in evidenza" (vedi `primo` sotto) e
+// non è duplicato qui. Aggiornare questa lista è una decisione editoriale,
+// non un criterio automatico (durata, data, ecc.).
+const VIAGGI_HOME_SLUGS = [
+  'lofoten-estate-2025', // Lofoten
+  'islanda-2024', // Islanda in tenda / Ring Road
+  'giappone-360', // Giappone
+  'cina-paesaggi', // "L'altra Cina" — Zhangjiajie, Sichuan, Yunnan, Yangshuo
+  'giordania-360', // Giordania
+  'costa-rica-360', // Costa Rica
+  'marocco-360', // Marocco / Sahara
+  'sicilia-itinerario', // Sicilia orientale
+]
+
 /* Signature Editorial · macrostructure: Field Archive
  * Sostituisce l'homepage fotografica singola (Hallmark, 08 Photographic) con
  * una sequenza a più registri: apertura tipografica su campo scuro, manifesto
@@ -45,7 +61,9 @@ export default function HomePage() {
   const viaggi = getAllViaggi()
   const pronto = viaggi.find((v) => !v.inLavorazione)
   const primo = pronto ?? viaggi[0]
-  const altri = viaggi.filter((v) => v.slug !== primo?.slug)
+  const selezioneHome = VIAGGI_HOME_SLUGS.map((slug) => viaggi.find((v) => v.slug === slug)).filter(
+    (v): v is Viaggio => v !== undefined && v.slug !== primo?.slug
+  )
   const meraviglie = getAllMeraviglie()
   const paesi = getAllPaesi()
   const destinazioni = getAllDestinazioni()
@@ -108,7 +126,26 @@ export default function HomePage() {
         />
       )}
 
-      <VisualArchive viaggi={altri} copertine={copertineViaggi} />
+      <VisualArchive viaggi={selezioneHome} copertine={copertineViaggi} />
+
+      <section className="border-t border-alpine/10 py-16 sm:py-20">
+        <Container>
+          <Reveal>
+            <div className="flex flex-col items-center gap-5 text-center">
+              <p className="max-w-md text-base leading-relaxed text-stone">
+                Questi sono otto viaggi scelti a mano. L&apos;archivio completo ne racconta {viaggi.length}.
+              </p>
+              <Link
+                href="/viaggi"
+                className="inline-flex items-center gap-2 rounded-full bg-alpine px-7 py-3.5 text-sm font-medium text-cream transition-colors duration-150 hover:bg-alpine-dark"
+              >
+                Esplora tutti i {viaggi.length} viaggi
+                <ArrowRight size={15} />
+              </Link>
+            </div>
+          </Reveal>
+        </Container>
+      </section>
 
       <section className="border-t border-alpine/10 bg-cream-dark/40 py-24 sm:py-32">
         <Container>

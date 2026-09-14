@@ -19,6 +19,8 @@ import type { PuntoTappa } from './geo'
  */
 export function TripOpener({
   titolo,
+  editorialHeadline,
+  editorialHook,
   paeseSlug,
   periodoBreve,
   durataBreve,
@@ -28,6 +30,10 @@ export function TripOpener({
   copertina,
 }: {
   titolo: string
+  /** Titolo da rivista per l'H1: sostituisce `titolo` solo qui (hero), mai in breadcrumb/JSON-LD. Fallback a `titolo` se assente. */
+  editorialHeadline?: string
+  /** Riga breve sotto l'H1 (curiosità/opinione/utilità) — vedi `HookType` in viaggi-editorial.ts. Nessun rendering se assente. */
+  editorialHook?: string
   paeseSlug: string
   periodoBreve?: string
   durataBreve?: string
@@ -101,8 +107,14 @@ export function TripOpener({
           transition={reduceMotion ? { duration: 0 } : { duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           className="mt-3 max-w-4xl font-display text-5xl font-medium leading-[0.98] tracking-tight text-balance sm:text-7xl lg:text-8xl"
         >
-          {titolo}
+          {editorialHeadline ?? titolo}
         </motion.h1>
+
+        {editorialHook && (
+          <p className="mt-4 max-w-2xl font-display text-lg italic leading-relaxed text-cream/80 sm:text-xl">
+            {editorialHook}
+          </p>
+        )}
 
         <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-cream/70">
           {periodoBreve && (
