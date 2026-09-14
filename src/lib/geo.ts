@@ -90,6 +90,18 @@ import { eolieInVelaMeta } from '@/content/viaggi-dati/eolie-in-vela'
 import { siciliaCompletaMeta } from '@/content/viaggi-dati/sicilia-completa'
 import { sardegnaDueAnimeMeta } from '@/content/viaggi-dati/sardegna-due-anime'
 import { isoleSicilianeMeta } from '@/content/viaggi-dati/isole-siciliane'
+import { francia } from '@/content/paesi/francia'
+import { destinazioniFrancia } from '@/content/destinazioni/francia'
+import { esperienzeFrancia } from '@/content/esperienze/francia'
+import { costaAzzurraMeta } from '@/content/viaggi-dati/costa-azzurra'
+import { parigi5GiorniMeta } from '@/content/viaggi-dati/parigi-5-giorni'
+import { normandiaBretagnaMeta } from '@/content/viaggi-dati/normandia-bretagna'
+import { castelliLoiraMeta } from '@/content/viaggi-dati/castelli-loira'
+import { bordeauxEVignetiMeta } from '@/content/viaggi-dati/bordeaux-e-vigneti'
+import { rotteDeiViniFranciaMeta } from '@/content/viaggi-dati/rotte-dei-vini-francia'
+import { provenzaCamargueMeta } from '@/content/viaggi-dati/provenza-camargue'
+import { settimanaBiancaFranciaMeta } from '@/content/viaggi-dati/settimana-bianca-francia'
+import { tourDuMontBlancMeta } from '@/content/viaggi-dati/tour-du-mont-blanc'
 import { emiratiArabiUniti } from '@/content/paesi/emirati-arabi-uniti'
 import { destinazioniEmiratiArabiUniti } from '@/content/destinazioni/emirati-arabi-uniti'
 import { esperienzeEmiratiArabiUniti } from '@/content/esperienze/emirati-arabi-uniti'
@@ -131,9 +143,9 @@ import { getViaggioBySlug, type Viaggio } from './viaggi'
 // L'Indonesia non ha ancora un TRIP_META (nessun viaggio-diario collegato,
 // vedi src/content/paesi/indonesia.ts) — va aggiunto qui non appena il primo
 // itinerario combinato tra isole sarà pubblicato.
-const PAESI: Paese[] = [italia, messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia, marocco, newYork, florida, transilvania, bulgaria, costaRica, indonesia, guatemala, belize, panama, peru, bolivia, cina, coreaDelSud, malesia, borneo, singapore, emiratiArabiUniti, qatar, arabiaSaudita]
-const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia, ...destinazioniMarocco, ...destinazioniNewYork, ...destinazioniFlorida, ...destinazioniTransilvania, ...destinazioniBulgaria, ...destinazioniCostaRica, ...destinazioniIndonesia, ...destinazioniGuatemala, ...destinazioniBelize, ...destinazioniPanama, ...destinazioniPeru, ...destinazioniBolivia, ...destinazioniCina, ...destinazioniCoreaDelSud, ...destinazioniMalesia, ...destinazioniBorneo, ...destinazioniSingapore, ...destinazioniEmiratiArabiUniti, ...destinazioniQatar, ...destinazioniArabiaSaudita, ...destinazioniItalia]
-const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia, ...esperienzeMarocco, ...esperienzeNewYork, ...esperienzeFlorida, ...esperienzeTransilvania, ...esperienzeBulgaria, ...esperienzeCostaRica, ...esperienzeIndonesia, ...esperienzeGuatemala, ...esperienzeBelize, ...esperienzePanama, ...esperienzePeru, ...esperienzeBolivia, ...esperienzeCina, ...esperienzeCoreaDelSud, ...esperienzeMalesia, ...esperienzeBorneo, ...esperienzeSingapore, ...esperienzeEmiratiArabiUniti, ...esperienzeQatar, ...esperienzeArabiaSaudita, ...esperienzeItalia]
+const PAESI: Paese[] = [italia, messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia, marocco, newYork, florida, transilvania, bulgaria, costaRica, indonesia, guatemala, belize, panama, peru, bolivia, cina, coreaDelSud, malesia, borneo, singapore, emiratiArabiUniti, qatar, arabiaSaudita, francia]
+const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia, ...destinazioniMarocco, ...destinazioniNewYork, ...destinazioniFlorida, ...destinazioniTransilvania, ...destinazioniBulgaria, ...destinazioniCostaRica, ...destinazioniIndonesia, ...destinazioniGuatemala, ...destinazioniBelize, ...destinazioniPanama, ...destinazioniPeru, ...destinazioniBolivia, ...destinazioniCina, ...destinazioniCoreaDelSud, ...destinazioniMalesia, ...destinazioniBorneo, ...destinazioniSingapore, ...destinazioniEmiratiArabiUniti, ...destinazioniQatar, ...destinazioniArabiaSaudita, ...destinazioniItalia, ...destinazioniFrancia]
+const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia, ...esperienzeMarocco, ...esperienzeNewYork, ...esperienzeFlorida, ...esperienzeTransilvania, ...esperienzeBulgaria, ...esperienzeCostaRica, ...esperienzeIndonesia, ...esperienzeGuatemala, ...esperienzeBelize, ...esperienzePanama, ...esperienzePeru, ...esperienzeBolivia, ...esperienzeCina, ...esperienzeCoreaDelSud, ...esperienzeMalesia, ...esperienzeBorneo, ...esperienzeSingapore, ...esperienzeEmiratiArabiUniti, ...esperienzeQatar, ...esperienzeArabiaSaudita, ...esperienzeItalia, ...esperienzeFrancia]
 
 const TRIP_META: TripMeta[] = [
   messicoBeachLifeMeta,
@@ -174,6 +186,15 @@ const TRIP_META: TripMeta[] = [
   siciliaCompletaMeta,
   sardegnaDueAnimeMeta,
   isoleSicilianeMeta,
+  costaAzzurraMeta,
+  parigi5GiorniMeta,
+  normandiaBretagnaMeta,
+  castelliLoiraMeta,
+  bordeauxEVignetiMeta,
+  rotteDeiViniFranciaMeta,
+  provenzaCamargueMeta,
+  settimanaBiancaFranciaMeta,
+  tourDuMontBlancMeta,
 ]
 
 export function getAllPaesi(): Paese[] {
