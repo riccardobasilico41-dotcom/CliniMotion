@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
-import { SectionHeading } from '@/components/ui/SectionHeading'
 import { RevealGroup, RevealItem } from '@/components/Reveal'
 import { getAllPaesi } from '@/lib/geo'
 import { raggruppaPerContinente } from '@/lib/utils'
@@ -31,10 +30,15 @@ export default function DestinazioniIndexPage() {
         })}
       />
       <Container>
-        <SectionHeading
-          title="Destinazioni"
-          description={`${paesi.length} Paesi divisi per macro-regione: scegline uno per esplorarlo destinazione per destinazione ed esperienza per esperienza, non solo come itinerario unico.`}
-        />
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-stone/50">Paese per Paese</p>
+        <h1 className="mt-3 max-w-2xl font-display text-4xl font-medium leading-tight text-balance text-alpine sm:text-5xl">
+          Destinazioni
+        </h1>
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
+          {paesi.length} Paesi divisi per macro-regione: scegline uno per esplorarlo destinazione per destinazione
+          ed esperienza per esperienza, non solo come itinerario unico.
+        </p>
+        <div className="mt-8 max-w-2xl border-t border-alpine/10" />
 
         <div className="mt-14 space-y-16">
           {gruppi.map(({ continente, items }) => (
