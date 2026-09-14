@@ -121,4 +121,129 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/aerial-view-of-florence-cathedral-dome-at-sunrise-36484575/',
   },
+  'sri-lanka-2023': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/clouds-moving-over-a-tea-plantations-11193/',
+  },
+  'transilvania-express': {
+    autore: 'Elena Veter (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/dracula-s-castle-in-transylvania-17387928/',
+  },
+  'corea-del-sud-itinerario': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/traditional-palace-in-korea-20095/',
+  },
+  'malesia-singapore': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/petronas-twin-towers-in-daylight-20133/',
+  },
+  'borneo-itinerario': {
+    autore: 'Juan Camilo Trujillo Botero (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-lush-tropical-rainforest-canopy-32179534/',
+  },
+  'stopover-golfo': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/dubai-burj-khalifa-tower-time-lapse-20109/',
+  },
+  'arabia-saudita-itinerario': {
+    autore: 'Aamir Somewhere (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/alula-old-town-saudi-arabia-18819906/',
+  },
+  'settimana-bianca': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/ski-resort-in-the-alps-aerial-shot-12785/',
+  },
+  'grandi-citta-italia': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/italys-iconic-city-4161/',
+  },
+  'rotte-dei-vini-itinerario': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/landscape-of-the-vineyards-in-the-tuscany-area-25189/',
+  },
+  'milano-e-i-laghi': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/duomo-di-milano-in-the-rain-time-lapse-20160/',
+  },
+  'torino-2-giorni': {
+    autore: 'Kmeel.com Videos (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/low-angle-view-of-mole-antonelliana-building-in-turin-11929203/',
+  },
+  'napoli-3-giorni': {
+    autore: 'Samborskaya Anastasia (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/scenic-view-of-naples-with-mount-vesuvius-35116824/',
+  },
+  'costiera-e-isole': {
+    autore: 'Tommaso Zucol (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-beautiful-positano-coastline-29420358/',
+  },
+  'eolie-in-vela': {
+    autore: 'Mehmet Ali Turan (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/drone-arc-shot-of-a-sailing-boat-at-sea-12084809/',
+  },
+  'sicilia-completa': {
+    autore: 'Two Passports Later (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/drone-aerial-footage-of-sea-waves-beach-volcano-and-mediterranean-coastline-of-catania-etna-sicily-italy-19692491/',
+  },
+  'sardegna-due-anime': {
+    autore: 'Nirjhar Basak (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/serene-sardinia-beach-aerial-view-34258973/',
+  },
+  'isole-siciliane': {
+    autore: 'Mihaela Claudia Puscas (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-cala-rossa-in-favignana-italy-32800859/',
+  },
+  'costa-azzurra': {
+    autore: 'Brendon Spring (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-mediterranean-coastline-37293572/',
+  },
+  'normandia-bretagna': {
+    autore: 'Florian Delée (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-historic-mont-saint-michel-29779615/',
+  },
+  'castelli-loira': {
+    autore: 'Adrien JACTA (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/drone-shot-of-a-historic-castle-12794719/',
+  },
+  'bordeaux-e-vigneti': {
+    autore: 'Fernando Sánchez Aranguren (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/tomas-aereas-chateau-pichon-baron-18278389/',
+  },
+  'rotte-dei-vini-francia': {
+    autore: 'Julien Goettelmann (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/charming-alsace-village-and-vineyard-aerial-view-32390621/',
+  },
+  'provenza-camargue': {
+    autore: 'Judas Isariot (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-scenic-wetlands-and-coastal-marsh-37207628/',
+  },
+  'settimana-bianca-francia': {
+    autore: 'Maison Delia (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/ski-slope-in-france-drone-footage-13369425/',
+  },
 }
