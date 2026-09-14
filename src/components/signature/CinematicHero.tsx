@@ -8,14 +8,25 @@ import { RouteLine } from './RouteLine'
 import type { PuntoTappa } from './geo'
 
 /**
- * Apertura cinematica della Home. Sostituisce l'hero fotografico singolo con
- * un'apertura tipografica su campo scuro: una linea di rotta schematica
- * (decorativa, aria-hidden — attraversa Paesi reali dell'archivio, ma senza
- * pretesa di scala) disegnata dietro il titolo, e il titolo stesso rivelato
- * con una singola maschera al montaggio (non per-parola: un solo gesto
- * comunicativo, non una cascata). `prefers-reduced-motion` salta dritto allo
- * stato finale.
+ * Apertura cinematica della Home: apertura tipografica su un fondale video
+ * (loop muto, 20s, licenza libera — vedi credito in HERO_VIDEO_CREDITO più
+ * sotto) invece del solo hero fotografico singolo. Sopra restano la linea di
+ * rotta schematica (decorativa, aria-hidden — attraversa Paesi reali
+ * dell'archivio, ma senza pretesa di scala) e il titolo, rivelato con una
+ * singola maschera al montaggio (non per-parola: un solo gesto comunicativo,
+ * non una cascata).
+ *
+ * `prefers-reduced-motion`: niente video autoplay (è esattamente il tipo di
+ * movimento continuo che quella preferenza chiede di evitare) — resta solo
+ * il frame fermo del video come immagine di sfondo, stesso trattamento
+ * scuro sopra. Il titolo salta dritto allo stato finale.
  */
+export const HERO_VIDEO_CREDITO = {
+  autore: 'Mixkit',
+  licenza: 'Mixkit Stock Video Free License',
+  fonteUrl: 'https://mixkit.co/free-stock-video/beautiful-beach-surrounded-by-nature-seen-from-above-5371/',
+}
+
 export function CinematicHero({
   tagline,
   subtext,
@@ -29,10 +40,33 @@ export function CinematicHero({
 
   return (
     <section className="relative flex min-h-[100dvh] items-end overflow-hidden bg-alpine-dark pb-14 sm:pb-20">
+      <div className="absolute inset-0">
+        {reduceMotion ? (
+          // eslint-disable-next-line @next/next/no-img-element -- sfondo decorativo a piena pagina, non serve next/image qui
+          <img
+            src="/videos/hero-travel-poster.jpg"
+            alt=""
+            aria-hidden="true"
+            className="h-full w-full object-cover"
+          />
+        ) : (
+          <video
+            aria-hidden="true"
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster="/videos/hero-travel-poster.jpg"
+            className="h-full w-full object-cover"
+          >
+            <source src="/videos/hero-travel.mp4" type="video/mp4" />
+          </video>
+        )}
+      </div>
       <div className="pointer-events-none absolute inset-0 opacity-70">
         <RouteLine tappe={routeTappe} decorative className="h-full w-full" strokeClassName="stroke-cream/[0.14]" />
       </div>
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark via-alpine-dark/40 to-alpine-dark/10" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark via-alpine-dark/65 to-alpine-dark/45" />
 
       <Container className="relative z-10">
         <motion.h1
