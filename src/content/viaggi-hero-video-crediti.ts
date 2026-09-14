@@ -51,4 +51,19 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Mixkit Stock Video Free License',
     fonteUrl: 'https://mixkit.co/free-stock-video/ruins-of-the-temple-of-segesta-in-sicily-in-greece-4402/',
   },
+  'cina-classica': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/chinese-great-wall-in-the-mountains-28660/',
+  },
+  'venezia-3-giorni': {
+    autore: 'Mixkit',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/gondola-sailing-in-a-venice-canal-11128/',
+  },
+  'tour-du-mont-blanc': {
+    autore: 'Sergey Guk (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/breathtaking-aerial-view-of-mont-blanc-massif-36690240/',
+  },
 }

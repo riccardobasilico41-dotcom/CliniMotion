@@ -50,6 +50,18 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
     src: '/videos/trips/sicilia-itinerario.mp4',
     poster: '/videos/trips/sicilia-itinerario-poster.jpg',
   },
+  'cina-classica': {
+    src: '/videos/trips/cina-classica.mp4',
+    poster: '/videos/trips/cina-classica-poster.jpg',
+  },
+  'venezia-3-giorni': {
+    src: '/videos/trips/venezia-3-giorni.mp4',
+    poster: '/videos/trips/venezia-3-giorni-poster.jpg',
+  },
+  'tour-du-mont-blanc': {
+    src: '/videos/trips/tour-du-mont-blanc.mp4',
+    poster: '/videos/trips/tour-du-mont-blanc-poster.jpg',
+  },
 }
 
 export function getHeroVideo(slug: string): HeroVideo | undefined {
