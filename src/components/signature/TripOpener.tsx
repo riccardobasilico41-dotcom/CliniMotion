@@ -11,11 +11,13 @@ import type { PuntoTappa } from './geo'
 
 /**
  * Apertura firmata della pagina viaggio: titolo a scala estrema e una
- * striscia di percorso/coordinate sopra un campo scuro. Quando il viaggio ha
- * una copertina fotografica reale la usa come sfondo (stesso trattamento a
- * overlay scuro dell'hero precedente); quando non ce l'ha ancora, lo sfondo
- * resta il campo scuro con le tacche cartografiche — il Field Dossier
- * applicato a un momento hero invece che a una card.
+ * striscia di percorso/coordinate sopra un campo scuro. Priorità dello
+ * sfondo: video del viaggio (se in `viaggi-hero-video.ts`) → copertina
+ * fotografica reale → tacche cartografiche del Field Dossier applicato a un
+ * momento hero invece che a una card.
+ *
+ * `prefers-reduced-motion`: niente autoplay video — resta solo il suo frame
+ * fermo (`video.poster`) come immagine di sfondo, stesso overlay scuro.
  */
 export function TripOpener({
   titolo,
@@ -28,6 +30,7 @@ export function TripOpener({
   tappe,
   inLavorazione,
   copertina,
+  video,
 }: {
   titolo: string
   /** Titolo da rivista per l'H1: sostituisce `titolo` solo qui (hero), mai in breadcrumb/JSON-LD. Fallback a `titolo` se assente. */
@@ -41,12 +44,34 @@ export function TripOpener({
   tappe: PuntoTappa[]
   inLavorazione?: boolean
   copertina?: { immagine: string; imageAlt: string }
+  /** Video di sfondo, se il viaggio ne ha uno in `viaggi-hero-video.ts` — ha priorità su `copertina`. */
+  video?: { src: string; poster: string }
 }) {
   const reduceMotion = useReducedMotion()
 
   return (
     <section className="relative overflow-hidden border-b border-alpine/10 bg-alpine-dark pb-14 pt-10 text-cream sm:pb-20 sm:pt-14">
-      {copertina ? (
+      {video ? (
+        <>
+          {reduceMotion ? (
+            // eslint-disable-next-line @next/next/no-img-element -- sfondo decorativo a piena pagina, non serve next/image qui
+            <img src={video.poster} alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover" />
+          ) : (
+            <video
+              aria-hidden="true"
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster={video.poster}
+              className="absolute inset-0 h-full w-full object-cover"
+            >
+              <source src={video.src} type="video/mp4" />
+            </video>
+          )}
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark via-alpine-dark/65 to-alpine-dark/45" />
+        </>
+      ) : copertina ? (
         <>
           <Image
             src={copertina.immagine}

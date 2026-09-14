@@ -17,6 +17,7 @@ import { JsonLd } from '@/components/JsonLd'
 import { articoloViaggioJsonLd, breadcrumbJsonLd } from '@/lib/structured-data'
 import { copertineViaggi } from '@/content/viaggi-copertine'
 import { getEditorialMeta, type EditorialMeta } from '@/content/viaggi-editorial'
+import { getHeroVideo } from '@/content/viaggi-hero-video'
 import { pageMetadata } from '@/lib/seo'
 
 export async function generateStaticParams() {
@@ -100,6 +101,7 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
         viaggio={viaggio}
         meta={meta}
         copertina={copertina}
+        video={getHeroVideo(viaggio.slug)}
         editorial={editorial}
         toc={toc}
         cosaVedereSezione={cosaVedereSezione}
@@ -122,6 +124,7 @@ function SignatureViaggioContent({
   viaggio,
   meta,
   copertina,
+  video,
   editorial,
   toc,
   cosaVedereSezione,
@@ -131,6 +134,7 @@ function SignatureViaggioContent({
   viaggio: Viaggio
   meta: TripMeta
   copertina?: { immagine: string; imageAlt: string }
+  video?: { src: string; poster: string }
   editorial: EditorialMeta
   toc: TocItem[]
   cosaVedereSezione?: SezioneViaggio
@@ -150,6 +154,7 @@ function SignatureViaggioContent({
         tappe={meta.tappeMappa}
         inLavorazione={viaggio.inLavorazione}
         copertina={copertina}
+        video={video}
       />
 
       <section className="py-16 sm:py-20">
