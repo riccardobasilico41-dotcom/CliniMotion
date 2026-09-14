@@ -161,11 +161,22 @@ export type GiornoMeta = {
   intensita: IntensitaGiorno
   costiNoti?: string
   destinazioneSlug?: string
+  /** Percorso in /public. Campo facoltativo e non ancora popolato: se assente, la UI mostra il Field Dossier tipografico invece di un placeholder generico. */
+  immagine?: string
+  imageAlt?: string
 }
 
 export type TappaMappa = {
   nome: string
   destinazioneSlug?: string
+  /**
+   * Coordinate reali (gradi decimali) della tappa, facoltative e verificate a mano
+   * caso per caso — mai stimate o inventate. Assenti finché non si è verificata la
+   * posizione esatta: la UI di mappa mostra un percorso schematico (tappe in ordine,
+   * senza pretesa di scala) quando mancano, invece di inventare una posizione.
+   */
+  lat?: number
+  lng?: number
 }
 
 export type VoceBudget = {

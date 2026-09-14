@@ -38,10 +38,10 @@ export const grandiCittaItaliaMeta: TripMeta = {
     aChiLoConsiglio: undefined,
   },
   tappeMappa: [
-    { nome: 'Roma', destinazioneSlug: 'roma' },
-    { nome: 'Firenze', destinazioneSlug: 'firenze' },
-    { nome: 'Venezia', destinazioneSlug: 'venezia' },
-    { nome: 'Napoli', destinazioneSlug: 'napoli' },
+    { nome: 'Roma', destinazioneSlug: 'roma', lat: 41.9028, lng: 12.4964 },
+    { nome: 'Firenze', destinazioneSlug: 'firenze', lat: 43.7696, lng: 11.2558 },
+    { nome: 'Venezia', destinazioneSlug: 'venezia', lat: 45.4408, lng: 12.3155 },
+    { nome: 'Napoli', destinazioneSlug: 'napoli', lat: 40.8518, lng: 14.2681 },
   ],
   giorni: [
     {
