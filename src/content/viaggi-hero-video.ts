@@ -62,6 +62,50 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
     src: '/videos/trips/tour-du-mont-blanc.mp4',
     poster: '/videos/trips/tour-du-mont-blanc-poster.jpg',
   },
+  'roma-4-giorni': {
+    src: '/videos/trips/roma-4-giorni.mp4',
+    poster: '/videos/trips/roma-4-giorni-poster.jpg',
+  },
+  'parigi-5-giorni': {
+    src: '/videos/trips/parigi-5-giorni.mp4',
+    poster: '/videos/trips/parigi-5-giorni-poster.jpg',
+  },
+  thailandia: {
+    src: '/videos/trips/thailandia.mp4',
+    poster: '/videos/trips/thailandia-poster.jpg',
+  },
+  'new-york-360': {
+    src: '/videos/trips/new-york-360.mp4',
+    poster: '/videos/trips/new-york-360-poster.jpg',
+  },
+  'florida-360': {
+    src: '/videos/trips/florida-360.mp4',
+    poster: '/videos/trips/florida-360-poster.jpg',
+  },
+  tromso: {
+    src: '/videos/trips/tromso.mp4',
+    poster: '/videos/trips/tromso-poster.jpg',
+  },
+  'lapponia-svedese-abisko': {
+    src: '/videos/trips/lapponia-svedese-abisko.mp4',
+    poster: '/videos/trips/lapponia-svedese-abisko-poster.jpg',
+  },
+  'bulgaria-bansko-rila': {
+    src: '/videos/trips/bulgaria-bansko-rila.mp4',
+    poster: '/videos/trips/bulgaria-bansko-rila-poster.jpg',
+  },
+  'messico-beach-life': {
+    src: '/videos/trips/messico-beach-life.mp4',
+    poster: '/videos/trips/messico-beach-life-poster.jpg',
+  },
+  'dolomiti-estate': {
+    src: '/videos/trips/dolomiti-estate.mp4',
+    poster: '/videos/trips/dolomiti-estate-poster.jpg',
+  },
+  'firenze-3-giorni': {
+    src: '/videos/trips/firenze-3-giorni.mp4',
+    poster: '/videos/trips/firenze-3-giorni-poster.jpg',
+  },
 }
 
 export function getHeroVideo(slug: string): HeroVideo | undefined {
