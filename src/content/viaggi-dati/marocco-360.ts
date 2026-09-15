@@ -48,6 +48,8 @@ export const marocco360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'marrakech',
+      immagine: '/images/viaggi/marocco-360/giorno-1-koutoubia.jpg',
+      imageAlt: 'Il minareto della Moschea Koutoubia a Marrakech, con la sua pietra rosata contro il cielo azzurro',
     },
     {
       titoloGiorno: 'Giorno 2 — Marrakech-Aït Benhaddou',
@@ -56,6 +58,8 @@ export const marocco360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'ait-benhaddou',
+      immagine: '/images/viaggi/marocco-360/giorno-2-ait-benhaddou.jpg',
+      imageAlt: 'Il ksar fortificato di Aït Benhaddou, con le sue torri in terra cruda, visto dall\'altra sponda del fiume',
     },
     {
       titoloGiorno: 'Giorno 3 — Merzouga, l\'ingresso nel Sahara',
@@ -64,6 +68,8 @@ export const marocco360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'merzouga',
+      immagine: '/images/viaggi/marocco-360/giorno-3-erg-chebbi.jpg',
+      imageAlt: 'Le dune dorate di Erg Chebbi al tramonto, con le creste di sabbia disegnate dal vento',
     },
     {
       titoloGiorno: 'Giorno 4 — Merzouga-Agdz',
@@ -73,6 +79,8 @@ export const marocco360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Quad 350 MAD a persona; Kasbah di Tamnougalt 20 MAD + 200 MAD mancia',
       destinazioneSlug: 'agdz',
+      immagine: '/images/viaggi/marocco-360/giorno-4-todra-gorge.jpg',
+      imageAlt: 'Le pareti rosse e strette delle Gole di Todra, con la strada che le attraversa',
     },
     {
       titoloGiorno: 'Giorno 5 — Agdz-Agadir',
@@ -81,6 +89,8 @@ export const marocco360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'agadir',
+      immagine: '/images/viaggi/marocco-360/giorno-5-vallee-draa.jpg',
+      imageAlt: 'La palmeraie della Valle del Draa vista dall\'alto, con i kasbah in terra cruda ai margini dell\'oasi',
     },
     {
       titoloGiorno: 'Giorno 6 — Agadir-Essaouira, con tappa surf a Taghazout',
@@ -90,6 +100,8 @@ export const marocco360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Lezione di surf 250 MAD a persona; hammam 250 MAD',
       destinazioneSlug: 'essaouira',
+      immagine: '/images/viaggi/marocco-360/giorno-6-taghazout-surf.jpg',
+      imageAlt: 'Surfisti con le tavole sottobraccio sulla spiaggia rocciosa di Taghazout',
     },
     {
       titoloGiorno: 'Giorno 7 — Essaouira-Marrakech',
@@ -98,6 +110,8 @@ export const marocco360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'marrakech',
+      immagine: '/images/viaggi/marocco-360/giorno-7-essaouira.jpg',
+      imageAlt: 'Una barca da pesca blu sotto le mura della medina di Essaouira',
     },
     {
       titoloGiorno: 'Giorno 8 — Marrakech',
@@ -107,6 +121,8 @@ export const marocco360Meta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Jardin Majorelle 150 MAD a persona',
       destinazioneSlug: 'marrakech',
+      immagine: '/images/viaggi/marocco-360/giorno-8-jardin-majorelle.jpg',
+      imageAlt: 'La villa blu cobalto del Jardin Majorelle a Marrakech, circondata da cactus e palme',
     },
     {
       titoloGiorno: 'Giorno 9 — Rientro',
@@ -115,6 +131,8 @@ export const marocco360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'marrakech',
+      immagine: '/images/viaggi/marocco-360/giorno-9-marrakech-aeroporto.jpg',
+      imageAlt: 'La sala partenze dalla cupola geometrica dell\'aeroporto Marrakech Menara',
     },
   ],
   budget: [

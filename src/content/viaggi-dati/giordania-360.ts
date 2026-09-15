@@ -49,6 +49,8 @@ export const giordania360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'amman',
+      immagine: '/images/viaggi/giordania-360/giorno-1-amman.jpg',
+      imageAlt: 'Il teatro romano di Amman visto dall\'alto della cittadella, con la città che si arrampica sulle colline',
     },
     {
       titoloGiorno: 'Giorno 2 — Jerash e Mar Morto',
@@ -57,6 +59,8 @@ export const giordania360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'mar-morto',
+      immagine: '/images/viaggi/giordania-360/giorno-2-jerash.jpg',
+      imageAlt: 'Il colonnato della Piazza Ovale nelle rovine romane di Jerash',
     },
     {
       titoloGiorno: 'Giorno 3 — Karak, Monte Nebo e Little Petra',
@@ -65,6 +69,8 @@ export const giordania360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'karak-monte-nebo',
+      immagine: '/images/viaggi/giordania-360/giorno-3-karak-castle.jpg',
+      imageAlt: 'Le mura in pietra del castello crociato di Karak, arroccato sulla collina',
     },
     {
       titoloGiorno: 'Giorno 4 — Petra, giornata intera',
@@ -73,6 +79,8 @@ export const giordania360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'petra',
+      immagine: '/images/viaggi/giordania-360/giorno-4-petra-treasury.jpg',
+      imageAlt: 'La facciata del Tesoro (Al-Khazneh) scavata nella roccia rosa di Petra, con alcuni cammelli in primo piano',
     },
     {
       titoloGiorno: 'Giorno 5 — Wadi Rum: cammelli, jeep safari e Capodanno nel deserto',
@@ -82,6 +90,8 @@ export const giordania360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Cammellata 20 JOD; pranzo al sacco 10 JOD',
       destinazioneSlug: 'wadi-rum',
+      immagine: '/images/viaggi/giordania-360/giorno-5-wadi-rum-cammelli.jpg',
+      imageAlt: 'Cammelli seduti sulla sabbia rossa di Wadi Rum, con le montagne rocciose sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 6 — Alba nel deserto e mare ad Aqaba',
@@ -90,6 +100,8 @@ export const giordania360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'aqaba',
+      immagine: '/images/viaggi/giordania-360/giorno-6-aqaba.jpg',
+      imageAlt: 'Una barca ancorata nelle acque blu del Mar Rosso ad Aqaba, con le montagne desertiche sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 7 — Rientro ad Amman: due opzioni',
@@ -98,6 +110,8 @@ export const giordania360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'amman',
+      immagine: '/images/viaggi/giordania-360/giorno-7-amman-moschea.jpg',
+      imageAlt: 'La cupola blu mosaicata della Moschea di Re Abdullah I ad Amman, tra i rami spogli degli alberi',
     },
     {
       titoloGiorno: 'Giorno 8 — Rientro',
@@ -106,6 +120,8 @@ export const giordania360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'amman',
+      immagine: '/images/viaggi/giordania-360/giorno-8-amman-aeroporto.jpg',
+      imageAlt: "La sala d'imbarco dell'aeroporto Queen Alia di Amman, con vista sulla pista al tramonto",
     },
   ],
   budget: [

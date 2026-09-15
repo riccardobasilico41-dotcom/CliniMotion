@@ -53,6 +53,8 @@ export const siciliaItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-1-catania-duomo.jpg',
+      imageAlt: "Piazza del Duomo a Catania con la cattedrale e la Fontana dell'Elefante",
     },
     {
       titoloGiorno: 'Giorno 2 — L\'Etna',
@@ -62,6 +64,8 @@ export const siciliaItinerarioMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'guida obbligatoria oltre i 2.900 m circa; accesso interdetto in caso di attività',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-2-etna.jpg',
+      imageAlt: "I crateri sommitali dell'Etna vicino al Rifugio Sapienza, con escursionisti sul sentiero",
     },
     {
       titoloGiorno: 'Giorno 3 — Taormina e i Gole dell\'Alcantara',
@@ -70,6 +74,8 @@ export const siciliaItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-3-taormina-teatro-etna.jpg',
+      imageAlt: "Il Teatro Greco di Taormina con l'Etna innevato sullo sfondo",
     },
     {
       titoloGiorno: 'Giorno 4 — Siracusa e Ortigia',
@@ -78,6 +84,8 @@ export const siciliaItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-4-ortigia-duomo.jpg',
+      imageAlt: 'Piazza Duomo a Ortigia, Siracusa, con i palazzi barocchi che la delimitano',
     },
     {
       titoloGiorno: 'Giorno 5 — Noto, Modica, Scicli',
@@ -86,6 +94,8 @@ export const siciliaItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-5-noto-cattedrale.jpg',
+      imageAlt: 'La facciata barocca della Cattedrale di Noto in cima alla scalinata',
     },
     {
       titoloGiorno: 'Giorno 6 — Ragusa Ibla e Vendicari',
@@ -94,6 +104,8 @@ export const siciliaItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-6-ragusa-ibla.jpg',
+      imageAlt: 'Il panorama di Ragusa Ibla arroccata sulla collina, con le case barocche addossate le une alle altre',
     },
     {
       titoloGiorno: 'Giorno 7 — Verso l\'interno: Piazza Armerina ed Enna',
@@ -103,6 +115,8 @@ export const siciliaItinerarioMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Villa Romana del Casale: 3.500 mq di mosaici romani del IV secolo',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-7-villa-casale-mosaici.jpg',
+      imageAlt: 'Il celebre mosaico delle "ragazze in bikini" della Villa Romana del Casale a Piazza Armerina',
     },
     {
       titoloGiorno: 'Giorno 8 — Agrigento',
@@ -112,6 +126,8 @@ export const siciliaItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Valle dei Templi: in estate si visita in notturna o al primo mattino',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-8-valle-templi.jpg',
+      imageAlt: 'Il Tempio della Concordia nella Valle dei Templi di Agrigento, visto tra gli ulivi con il mare sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 9 — Scala dei Turchi e rientro verso Catania',
@@ -121,12 +137,16 @@ export const siciliaItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'accesso alla Scala dei Turchi regolamentato e a tratti interdetto: da verificare',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-9-scala-turchi.jpg',
+      imageAlt: 'La scogliera bianca a gradoni della Scala dei Turchi vista dalla spiaggia',
     },
     {
       titoloGiorno: 'Giorno 10 — Ultima mattina e partenza',
       tratta: 'Volo da Catania',
       intensita: 'leggero',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-itinerario/giorno-10-catania-aeroporto.jpg',
+      imageAlt: "L'aeroporto di Catania-Fontanarossa al tramonto con l'Etna sullo sfondo",
     },
   ],
   budget: [

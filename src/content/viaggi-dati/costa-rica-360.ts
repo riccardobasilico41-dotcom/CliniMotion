@@ -50,6 +50,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'san-jose',
+      immagine: '/images/viaggi/costa-rica-360/giorno-1-san-jose.jpg',
+      imageAlt: 'La facciata del Teatro Nacional a San José, con la sua bandiera costaricana e la balaustra ornata',
     },
     {
       titoloGiorno: 'Giorno 2 — Puerto Viejo, tra Caribe e giungla',
@@ -58,6 +60,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'puerto-viejo',
+      immagine: '/images/viaggi/costa-rica-360/giorno-2-puerto-viejo.jpg',
+      imageAlt: 'La costa caraibica di Puerto Viejo, con palme e una barca di pescatori tra le onde',
     },
     {
       titoloGiorno: 'Giorno 3 — Parco Nazionale di Cahuita',
@@ -67,6 +71,8 @@ export const costaRica360Meta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Tour Cahuita 50$ a persona',
       destinazioneSlug: 'puerto-viejo',
+      immagine: '/images/viaggi/costa-rica-360/giorno-3-cahuita.jpg',
+      imageAlt: 'Vista aerea di Cahuita Point, dove la foresta pluviale incontra la spiaggia e la barriera corallina',
     },
     {
       titoloGiorno: 'Giorno 4 — Verso Tortuguero, tra fiume e giungla',
@@ -75,6 +81,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'tortuguero',
+      immagine: '/images/viaggi/costa-rica-360/giorno-4-tortuguero-boat.jpg',
+      imageAlt: 'Una barca risale un canale immerso nella giungla lungo la rotta verso Tortuguero',
     },
     {
       titoloGiorno: 'Giorno 5 — Tortuguero: kayak tra le mangrovie, poi Sarapiquí',
@@ -83,6 +91,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'sarapiqui',
+      immagine: '/images/viaggi/costa-rica-360/giorno-5-tortuguero-canal.jpg',
+      imageAlt: 'Il canale alla foce del fiume Tortuguero, con la foresta pluviale che orla le sponde',
     },
     {
       titoloGiorno: 'Giorno 6 — Rafting sul fiume Sarapiquí',
@@ -91,6 +101,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'sarapiqui',
+      immagine: '/images/viaggi/costa-rica-360/giorno-6-rafting-sarapiqui.jpg',
+      imageAlt: 'Un gruppo fa rafting tra le rapide del fiume Sarapiquí',
     },
     {
       titoloGiorno: 'Giorno 7 — Arenal: cascate, vulcano e sorgenti termali',
@@ -100,6 +112,8 @@ export const costaRica360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Cascada de La Fortuna 18-20$; tour combo 90-120$',
       destinazioneSlug: 'arenal',
+      immagine: '/images/viaggi/costa-rica-360/giorno-7-arenal.jpg',
+      imageAlt: 'Il cono perfetto del vulcano Arenal visto dal parco centrale di La Fortuna',
     },
     {
       titoloGiorno: 'Giorno 8 — Monteverde, nella foresta nebulosa',
@@ -108,6 +122,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'monteverde',
+      immagine: '/images/viaggi/costa-rica-360/giorno-8-monteverde.jpg',
+      imageAlt: 'Un ponte sospeso attraversa la chioma della foresta nebulosa di Monteverde',
     },
     {
       titoloGiorno: 'Giorno 9 — Zipline a Monteverde, poi verso il Pacifico e Uvita',
@@ -117,6 +133,8 @@ export const costaRica360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Zipline circa 60$ a persona',
       destinazioneSlug: 'uvita',
+      immagine: '/images/viaggi/costa-rica-360/giorno-9-zipline-monteverde.jpg',
+      imageAlt: 'Un turista in teleferica sospeso tra gli alberi durante un canopy tour a Monteverde',
     },
     {
       titoloGiorno: 'Giorno 10 — Uvita: avvistamento balene',
@@ -126,6 +144,8 @@ export const costaRica360Meta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Whale watching 70$ a persona',
       destinazioneSlug: 'uvita',
+      immagine: '/images/viaggi/costa-rica-360/giorno-10-uvita-marino-ballena.jpg',
+      imageAlt: 'La spiaggia sabbiosa e il promontorio di palme del Parco Marino Ballena a Uvita, dove nasce la "coda di balena"',
     },
     {
       titoloGiorno: 'Giorno 11 — Uvita: giornata libera tra surf, cavalli e yoga',
@@ -134,6 +154,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'uvita',
+      immagine: '/images/viaggi/costa-rica-360/giorno-11-uvita-surf.jpg',
+      imageAlt: 'Un surfista esce dalle onde con la tavola sottobraccio al tramonto su una spiaggia del Pacifico',
     },
     {
       titoloGiorno: 'Giorno 12 — Parco Nazionale Manuel Antonio e rientro a San José',
@@ -142,6 +164,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'manuel-antonio',
+      immagine: '/images/viaggi/costa-rica-360/giorno-12-manuel-antonio.jpg',
+      imageAlt: 'Un isolotto roccioso nella baia del Parco Nazionale Manuel Antonio, visto tra la vegetazione della foresta pluviale',
     },
     {
       titoloGiorno: 'Giorno 13 — Check-out e rientro',
@@ -150,6 +174,8 @@ export const costaRica360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'san-jose',
+      immagine: '/images/viaggi/costa-rica-360/giorno-13-san-jose-aeroporto.jpg',
+      imageAlt: "L'area check-in dell'aeroporto Juan Santamaría di San José, con i viaggiatori in partenza",
     },
   ],
   budget: [

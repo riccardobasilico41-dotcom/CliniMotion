@@ -51,6 +51,8 @@ export const giappone360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'tokyo',
+      immagine: '/images/viaggi/giappone-360/giorno-1-sensoji.jpg',
+      imageAlt: 'La pagoda a cinque piani del tempio Senso-ji ad Asakusa tra i rami fioriti dei sakura',
     },
     {
       titoloGiorno: 'Giorno 2 (07.04) — Kamakura, l\'antica capitale sul mare',
@@ -60,6 +62,8 @@ export const giappone360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Engaku-ji 400 yen; Kencho-ji 450 yen',
       destinazioneSlug: 'kamakura',
+      immagine: '/images/viaggi/giappone-360/giorno-2-kamakura-buddha.jpg',
+      imageAlt: 'Il Grande Buddha di Kamakura (Kotoku-in) visto di fronte, con la collina boscosa alle spalle',
     },
     {
       titoloGiorno: 'Giorno 3 (08.04) — NUOVO: Monte Fuji e Pagoda Chureito',
@@ -69,6 +73,8 @@ export const giappone360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Treno Fuji Excursion ~4.130 yen (o supplemento Fujikyu ~1.770 yen con JR Pass); onsen ~1.200 yen',
       destinazioneSlug: 'monte-fuji-chureito',
+      immagine: '/images/viaggi/giappone-360/giorno-3-chureito-fuji.jpg',
+      imageAlt: 'La pagoda Chureito con il Monte Fuji innevato sullo sfondo, vista dal parco Arakurayama Sengen',
     },
     {
       titoloGiorno: 'Giorno 4 (09.04) — Tokyo-Kyoto',
@@ -77,6 +83,8 @@ export const giappone360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'kyoto',
+      immagine: '/images/viaggi/giappone-360/giorno-4-shinkansen.jpg',
+      imageAlt: 'Uno Shinkansen N700 fermo alla stazione di Kyoto pronto per la partenza',
     },
     {
       titoloGiorno: 'Giorno 5 (10.04) — Kyoto: Arashiyama, la foresta di bambù e Gion',
@@ -86,6 +94,8 @@ export const giappone360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Okochi Sanso Garden 1.000 yen',
       destinazioneSlug: 'kyoto',
+      immagine: '/images/viaggi/giappone-360/giorno-5-arashiyama.jpg',
+      imageAlt: "Gli alti fusti verdi della foresta di bambù di Arashiyama, a Kyoto",
     },
     {
       titoloGiorno: 'Giorno 6 (11.04) — Kyoto: Fushimi Inari, Nijo Castle, Kinkaku-ji',
@@ -95,6 +105,8 @@ export const giappone360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Cerimonia del tè 2.700 yen + 3.000 yen kimono',
       destinazioneSlug: 'kyoto',
+      immagine: '/images/viaggi/giappone-360/giorno-6-fushimi-inari.jpg',
+      imageAlt: 'Il tunnel di torii arancioni del santuario Fushimi Inari a Kyoto',
     },
     {
       titoloGiorno: 'Giorno 7 (12.04) — Kyoto-Hiroshima-Miyajima',
@@ -103,6 +115,8 @@ export const giappone360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'hiroshima-miyajima',
+      immagine: '/images/viaggi/giappone-360/giorno-7-miyajima.jpg',
+      imageAlt: 'Il torii galleggiante del santuario di Itsukushima a Miyajima controluce al tramonto',
     },
     {
       titoloGiorno: 'Giorno 8 (13.04) — Hiroshima-Himeji-Osaka (o Kobe)',
@@ -112,6 +126,8 @@ export const giappone360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Castello di Himeji + Giardini Kokoen 1.060 yen',
       destinazioneSlug: 'osaka',
+      immagine: '/images/viaggi/giappone-360/giorno-8-himeji.jpg',
+      imageAlt: 'Il castello bianco di Himeji, detto "castello dell\'airone bianco", contro il cielo azzurro',
     },
     {
       titoloGiorno: 'Giorno 9 (14.04) — Osaka e Nara',
@@ -121,6 +137,8 @@ export const giappone360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Torre di Tsutenkaku 900 yen; cheesecake 900-1.000 yen',
       destinazioneSlug: 'nara',
+      immagine: '/images/viaggi/giappone-360/giorno-9-nara-deer.jpg',
+      imageAlt: 'Due cervi sacri del Nara Park che si avvicinano incuriositi verso l\'obiettivo',
     },
     {
       titoloGiorno: 'Giorno 10 (15.04) — Osaka-Tokyo: Harajuku e Shibuya',
@@ -129,6 +147,8 @@ export const giappone360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'tokyo',
+      immagine: '/images/viaggi/giappone-360/giorno-10-shibuya.jpg',
+      imageAlt: 'Il celebre incrocio a scramble di Shibuya illuminato dalle insegne al neon nell\'ora blu',
     },
     {
       titoloGiorno: 'Giorno 11 (16.04) — Tokyo: Tsukiji, Akihabara, Senso-ji, Shinjuku',
@@ -137,6 +157,8 @@ export const giappone360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'tokyo',
+      immagine: '/images/viaggi/giappone-360/giorno-11-shinjuku.jpg',
+      imageAlt: 'Le insegne al neon che illuminano una via pedonale di Kabukicho, Shinjuku, di notte',
     },
     {
       titoloGiorno: 'Giorno 12 (17.04) — Check out',
@@ -145,6 +167,8 @@ export const giappone360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'tokyo',
+      immagine: '/images/viaggi/giappone-360/giorno-12-tokyo-skyline.jpg',
+      imageAlt: 'Lo skyline di Tokyo al tramonto con la Tokyo Skytree e il Monte Fuji sullo sfondo',
     },
   ],
   budget: [
