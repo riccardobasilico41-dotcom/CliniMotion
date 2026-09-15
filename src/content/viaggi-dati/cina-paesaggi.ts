@@ -56,6 +56,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'chongqing',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-1-chongqing.jpg',
+      imageAlt: 'Lo skyline di Chongqing di notte, visto dall\'ansa dello Yangtze',
     },
     {
       titoloGiorno: 'Giorno 2 — Chongqing verticale',
@@ -64,6 +66,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'funivia sullo Yangtze pochi yuan, Hongya Dong gratuito',
       destinazioneSlug: 'chongqing',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-2-chongqing.jpg',
+      imageAlt: 'Gli edifici a più piani di Hongya Dong addossati alla collina, con i grattacieli di Chongqing alle spalle',
     },
     {
       titoloGiorno: 'Giorno 3 — Furong Zhen, il borgo sulla cascata',
@@ -73,6 +77,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'ingresso al borgo circa 100 yuan',
       destinazioneSlug: 'furong-zhen',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-3-furong-zhen.jpg',
+      imageAlt: 'Il borgo di Furong Zhen visto dall\'alto, con le case costruite sopra la cascata che cade nel fiume',
     },
     {
       titoloGiorno: 'Giorno 4 — Verso Zhangjiajie',
@@ -81,6 +87,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'zhangjiajie',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-4-zhangjiajie.jpg',
+      imageAlt: 'Un pilastro di arenaria coperto di pini nel Parco Nazionale di Zhangjiajie, con altre guglie sullo sfondo nella foschia',
     },
     {
       titoloGiorno: 'Giorno 5 — Yuanjiajie e l\'ascensore di Bailong',
@@ -89,6 +97,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'ingresso al parco circa 239 yuan (valido 4 giorni), ascensore di Bailong ~72 a corsa',
       destinazioneSlug: 'zhangjiajie',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-5-bailong.jpg',
+      imageAlt: 'Le guglie di arenaria di Yuanjiajie, le "montagne di Avatar", viste dalla base dell\'ascensore di Bailong',
     },
     {
       titoloGiorno: 'Giorno 6 — Tianzi Shan e il fondovalle',
@@ -97,6 +107,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'incluso nel biglietto di 4 giorni, funivie a parte',
       destinazioneSlug: 'zhangjiajie',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-6-tianzishan.jpg',
+      imageAlt: 'Le vette di Tianzi Shan tra le nuvole, con la funivia che attraversa le guglie di roccia',
     },
     {
       titoloGiorno: 'Giorno 7 — Tianmen Shan e volo per Chengdu',
@@ -106,6 +118,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Tianmen Shan 250-280 yuan con funivia, fascia oraria da prenotare',
       destinazioneSlug: 'zhangjiajie',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-7-tianmenshan.jpg',
+      imageAlt: 'L\'arco naturale della Porta del Paradiso sul Tianmen Shan, con la strada tortuosa e la passerella scavate nella parete rocciosa',
     },
     {
       titoloGiorno: 'Giorno 8 — Chengdu: panda, tè e hot pot',
@@ -114,6 +128,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'base dei panda circa 55 yuan, prenotazione nominale obbligatoria; hot pot 60-120 a persona',
       destinazioneSlug: 'chengdu',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-8-chengdu-panda.jpg',
+      imageAlt: 'Un panda gigante seduto sull\'erba mentre mangia germogli di bambù a Chengdu',
     },
     {
       titoloGiorno: 'Giorno 9 — Leshan, poi volo per Lijiang',
@@ -123,6 +139,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Leshan circa 80 yuan',
       destinazioneSlug: 'chengdu',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-9-leshan.jpg',
+      imageAlt: 'Il Grande Buddha di Leshan scolpito nella parete rocciosa, visto dal fiume',
     },
     {
       titoloGiorno: 'Giorno 10 — Lijiang e Baisha',
@@ -130,6 +148,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'lijiang',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-10-lijiang.jpg',
+      imageAlt: 'Un canale della città vecchia di Lijiang tra le case in legno e mattoni grigi dai tetti in tegole',
     },
     {
       titoloGiorno: 'Giorno 11 — Yulong Xueshan e Impression Lijiang',
@@ -139,6 +159,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'ingresso parco ~100 yuan + navetta 20 + funivia ghiacciaio ~120; Impression Lijiang 190-280',
       destinazioneSlug: 'yulong-shangri-la',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-11-yulong-xueshan.jpg',
+      imageAlt: 'Le vette innevate dello Yulong Xueshan, il Monte del Drago di Giada, al tramonto',
     },
     {
       titoloGiorno: 'Giorno 12 — Gola del Salto della Tigre, primo giorno',
@@ -148,6 +170,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'ingresso alla gola circa 65 yuan',
       destinazioneSlug: 'yulong-shangri-la',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-12-tiger-leaping-gorge.jpg',
+      imageAlt: 'Il fiume Jinsha visto dall\'alto della Gola del Salto della Tigre, con i terrazzamenti coltivati sul fondovalle',
     },
     {
       titoloGiorno: 'Giorno 13 — Secondo giorno di trek e Shangri-La',
@@ -156,6 +180,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'yulong-shangri-la',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-13-gola-trek.jpg',
+      imageAlt: 'Il sentiero alto della Gola del Salto della Tigre, con il fiume Jinsha che serpeggia nella valle sottostante',
     },
     {
       titoloGiorno: 'Giorno 14 — Shangri-La e rientro a Lijiang',
@@ -165,6 +191,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'monastero di Songzanlin circa 100 yuan',
       destinazioneSlug: 'yulong-shangri-la',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-14-songzanlin.jpg',
+      imageAlt: 'Il monastero di Songzanlin (Ganden Sumtseling) sulla collina sopra Shangri-La, con i suoi tetti dorati',
     },
     {
       titoloGiorno: 'Giorno 15 — Volo per Guilin e trasferimento a Yangshuo',
@@ -173,6 +201,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'yangshuo',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-15-guilin-li-river.jpg',
+      imageAlt: 'Le guglie carsiche intorno al fiume Li al tramonto, avvolte nella foschia della sera',
     },
     {
       titoloGiorno: 'Giorno 16 — Xingping in zattera e alba a Xianggong',
@@ -181,6 +211,8 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'zattera di bambù 100-150 yuan per il tratto breve',
       destinazioneSlug: 'yangshuo',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-16-xingping.jpg',
+      imageAlt: 'Le montagne carsiche di Xingping riflesse nel fiume Li, lo scorcio raffigurato sulla banconota da 20 yuan',
     },
     {
       titoloGiorno: 'Giorno 17 — Yangshuo in bicicletta',
@@ -189,12 +221,16 @@ export const cinaPaesaggiMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'bici elettrica pochi yuan al giorno; Impression Liu Sanjie biglietto a parte',
       destinazioneSlug: 'yangshuo',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-17-yangshuo.jpg',
+      imageAlt: 'Risaie allagate nella campagna di Yangshuo, con i contadini al lavoro e le cime carsiche sullo sfondo nella foschia',
     },
     {
       titoloGiorno: 'Giorno 18 — Guilin e partenza',
       tratta: 'Yangshuo → Guilin (circa 1h), volo di rientro',
       intensita: 'leggero',
       destinazioneSlug: 'yangshuo',
+      immagine: '/images/viaggi/cina-paesaggi/giorno-18-guilin-elephant-hill.jpg',
+      imageAlt: 'L\'Elephant Trunk Hill di Guilin, la collina carsica a forma di proboscide che si immerge nel fiume Li',
     },
   ],
   budget: [

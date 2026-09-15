@@ -53,6 +53,8 @@ export const lofotenEstate2025Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'oslo',
+      immagine: '/images/viaggi/lofoten-estate-2025/giorno-1-oslo-harbour.jpg',
+      imageAlt: 'Il porto di Oslo con le barche a vela ormeggiate e lo skyline della città sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 2 — Oslo → Bodø → Svolvær',
@@ -61,6 +63,8 @@ export const lofotenEstate2025Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'svolvaer',
+      immagine: '/images/viaggi/lofoten-estate-2025/giorno-2-svolvaer-harbour.jpg',
+      imageAlt: "Il porto di Svolvær all'ora blu, con una nave Hurtigruten illuminata e le montagne innevate sullo sfondo",
     },
     {
       titoloGiorno: 'Giorno 3 — Svolvær → Henningsvær',
@@ -69,6 +73,8 @@ export const lofotenEstate2025Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'svolvaer',
+      immagine: '/images/viaggi/lofoten-estate-2025/giorno-3-henningsvaer.jpg',
+      imageAlt: 'Vista aerea di Henningsvær, il villaggio di pescatori sparso su isolotti collegati da ponti, con le montagne innevate sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 4 — Svolvær → Reine → Nesland',
@@ -78,6 +84,8 @@ export const lofotenEstate2025Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Parcheggio a Reine 200 NOK/3h',
       destinazioneSlug: 'nesland-flakstad',
+      immagine: '/images/viaggi/lofoten-estate-2025/giorno-4-reine.jpg',
+      imageAlt: 'Il villaggio di Reine affacciato sul fiordo, circondato dalle vette frastagliate delle Lofoten',
     },
     {
       titoloGiorno: 'Giorno 5 — Spiaggia di Bunes',
@@ -86,6 +94,8 @@ export const lofotenEstate2025Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'nesland-flakstad',
+      immagine: '/images/viaggi/lofoten-estate-2025/giorno-5-bunes-beach.jpg',
+      imageAlt: "La spiaggia di sabbia bianca di Bunes chiusa da una parete di roccia a picco sul mare",
     },
     {
       titoloGiorno: 'Giorno 6 — Å e il sentiero verso Nusfjord',
@@ -94,6 +104,8 @@ export const lofotenEstate2025Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'nesland-flakstad',
+      immagine: '/images/viaggi/lofoten-estate-2025/giorno-6-a-i-lofoten.jpg',
+      imageAlt: 'Le case tradizionali del villaggio di Å i Lofoten ai piedi di una montagna, alla fine della strada',
     },
     {
       titoloGiorno: 'Giorno 7 — Bødø e rientro a Oslo',
@@ -102,6 +114,8 @@ export const lofotenEstate2025Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'oslo',
+      immagine: '/images/viaggi/lofoten-estate-2025/giorno-7-saltstraumen.jpg',
+      imageAlt: 'Vista aerea del vortice di Saltstraumen, il ponte e le correnti di marea vicino a Bodø',
     },
   ],
   budget: [

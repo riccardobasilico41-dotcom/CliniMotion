@@ -53,6 +53,8 @@ export const islanda2024Meta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Bus 55: 4€ a persona a tratta',
       destinazioneSlug: 'keflavik',
+      immagine: '/images/viaggi/islanda-2024/giorno-1-eruzione-reykjanes.jpg',
+      imageAlt: "Fontane di lava incandescente che sprizzano da una fessura eruttiva nella penisola di Reykjanes, di notte",
     },
     {
       titoloGiorno: 'Giorno 2 — Golden Circle: Geysir e Gullfoss',
@@ -62,6 +64,8 @@ export const islanda2024Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Campeggio 1.950 ISK + doccia 300 ISK · parcheggio Seljalandsfoss 700 ISK',
       destinazioneSlug: 'vik',
+      immagine: '/images/viaggi/islanda-2024/giorno-2-geysir.jpg',
+      imageAlt: "Il geyser Strokkur nell'atto di eruttare un getto d'acqua bollente contro il cielo del Golden Circle",
     },
     {
       titoloGiorno: 'Giorno 3 — Dyrhólaey, Reynisfjara e la laguna glaciale',
@@ -71,6 +75,8 @@ export const islanda2024Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Pranzo a Reynisfjara 2-3.000 ISK',
       destinazioneSlug: 'skaftafell-jokulsarlon',
+      immagine: '/images/viaggi/islanda-2024/giorno-3-reynisfjara.jpg',
+      imageAlt: 'Le colonne di basalto della spiaggia di sabbia nera di Reynisfjara, con il faraglione sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 4 — Viking Village, fiordi dell\'Est ed Egilsstaðir',
@@ -80,6 +86,8 @@ export const islanda2024Meta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Campeggio 2.000-2.400 ISK',
       destinazioneSlug: 'egilsstadir',
+      immagine: '/images/viaggi/islanda-2024/giorno-4-fiordi-est.jpg',
+      imageAlt: "La costa frastagliata dei fiordi dell'Est islandesi, con le montagne che scendono ripide sul mare",
     },
     {
       titoloGiorno: 'Giorno 5 — Stuðlagil, Dettifoss e Ásbyrgi',
@@ -88,6 +96,8 @@ export const islanda2024Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'asbyrgi',
+      immagine: '/images/viaggi/islanda-2024/giorno-5-studlagil.jpg',
+      imageAlt: "Le colonne esagonali di basalto del canyon di Stuðlagil che si specchiano nell'acqua turchese del fiume",
     },
     {
       titoloGiorno: 'Giorno 6 — Húsavík, whale watching e il lago Mývatn',
@@ -97,6 +107,8 @@ export const islanda2024Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Campeggio ~1.500 ISK/persona + quota tenda',
       destinazioneSlug: 'akureyri',
+      immagine: '/images/viaggi/islanda-2024/giorno-6-husavik.jpg',
+      imageAlt: 'Il porto di Húsavík con le barche da whale watching ormeggiate e le montagne innevate sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 7 — Verso la penisola di Snæfellsnes',
@@ -105,6 +117,8 @@ export const islanda2024Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'grundarfjordur',
+      immagine: '/images/viaggi/islanda-2024/giorno-7-kirkjufell.jpg',
+      imageAlt: 'Il monte Kirkjufell con la cascata Kirkjufellsfoss e un arcobaleno sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 8 — Relax termale e rientro a Reykjavík',
@@ -113,6 +127,8 @@ export const islanda2024Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'reykjavik',
+      immagine: '/images/viaggi/islanda-2024/giorno-8-terme.jpg',
+      imageAlt: "Le acque turchesi di una laguna geotermica islandese circondata da campi di lava e montagne innevate",
     },
     {
       titoloGiorno: 'Giorno 9 — Rientro',
@@ -121,6 +137,8 @@ export const islanda2024Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'reykjavik',
+      immagine: '/images/viaggi/islanda-2024/giorno-9-keflavik.jpg',
+      imageAlt: "Il piazzale d'imbarco dell'aeroporto di Keflavík sotto un cielo terso, ultimo scorcio dell'Islanda",
     },
   ],
   budget: [
