@@ -54,6 +54,8 @@ export const cinaClassicaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'pechino',
+      immagine: '/images/viaggi/cina-classica/giorno-1-hutong-pechino.jpg',
+      imageAlt: 'Un vicolo hutong a Pechino, tra i muri in mattoni grigi delle case a corte tradizionali',
     },
     {
       titoloGiorno: 'Giorno 2 — Città Proibita, Tiananmen e Jingshan',
@@ -62,6 +64,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Città Proibita circa 60 yuan in alta stagione, prenotazione obbligatoria',
       destinazioneSlug: 'pechino',
+      immagine: '/images/viaggi/cina-classica/giorno-2-citta-proibita.jpg',
+      imageAlt: 'La Sala dell\'Armonia Suprema nella Città Proibita, con la grande scalinata di marmo e i visitatori',
     },
     {
       titoloGiorno: 'Giorno 3 — La Grande Muraglia a Jinshanling',
@@ -71,6 +75,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'ingresso circa 65 yuan più trasferimento privato',
       destinazioneSlug: 'pechino',
+      immagine: '/images/viaggi/cina-classica/giorno-3-muraglia-jinshanling.jpg',
+      imageAlt: 'La Grande Muraglia che corre lungo le creste verdi di Jinshanling, non restaurata e quasi deserta',
     },
     {
       titoloGiorno: 'Giorno 4 — Tempio del Cielo, hutong e Palazzo d\'Estate',
@@ -79,6 +85,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Tempio del Cielo e Palazzo d\'Estate 30-60 yuan con biglietto combinato',
       destinazioneSlug: 'pechino',
+      immagine: '/images/viaggi/cina-classica/giorno-4-tempio-del-cielo.jpg',
+      imageAlt: 'La Sala della Preghiera per il Buon Raccolto nel Tempio del Cielo, con il suo tetto circolare a tre livelli',
     },
     {
       titoloGiorno: 'Giorno 5 — Treno per Xi\'an e mura in bicicletta',
@@ -88,6 +96,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'mura 54 yuan più circa 45 di noleggio bici',
       destinazioneSlug: 'xian',
+      immagine: '/images/viaggi/cina-classica/giorno-5-mura-xian.jpg',
+      imageAlt: 'La sommità larga delle antiche mura di Xi\'an, percorsa a piedi e in bicicletta',
     },
     {
       titoloGiorno: 'Giorno 6 — Esercito di Terracotta',
@@ -97,6 +107,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'ingresso circa 120 yuan, vendita aperta solo 7 giorni prima',
       destinazioneSlug: 'xian',
+      immagine: '/images/viaggi/cina-classica/giorno-6-esercito-terracotta.jpg',
+      imageAlt: 'Le file di guerrieri di terracotta nella fossa 1, con la scala del sito che si coglie tutta insieme',
     },
     {
       titoloGiorno: 'Giorno 7 — Treno per Shanghai e il Bund',
@@ -105,6 +117,8 @@ export const cinaClassicaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'shanghai',
+      immagine: '/images/viaggi/cina-classica/giorno-7-bund-shanghai.jpg',
+      imageAlt: 'Lo skyline di Pudong illuminato di notte, visto dal Bund con il fiume Huangpu in primo piano',
     },
     {
       titoloGiorno: 'Giorno 8 — Shanghai: Concessione Francese, Yuyuan, Pudong',
@@ -113,6 +127,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Shanghai Tower circa 180 yuan',
       destinazioneSlug: 'shanghai',
+      immagine: '/images/viaggi/cina-classica/giorno-8-yuyuan-garden.jpg',
+      imageAlt: 'I padiglioni rossi del Giardino Yuyuan che si affacciano sullo stagno, nel cuore della città vecchia',
     },
     {
       titoloGiorno: 'Giorno 9 — Suzhou e i giardini classici',
@@ -122,6 +138,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'giardini 30-80 yuan ciascuno secondo la stagione',
       destinazioneSlug: 'shanghai',
+      immagine: '/images/viaggi/cina-classica/giorno-9-giardino-suzhou.jpg',
+      imageAlt: 'Uno stagno con padiglione nel Giardino dell\'Umile Amministratore a Suzhou, tra salici e rocce ornamentali',
     },
     {
       titoloGiorno: 'Giorno 10 — Un villaggio d\'acqua',
@@ -131,6 +149,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'ingresso al borgo 50-120 yuan secondo la scelta',
       destinazioneSlug: 'shanghai',
+      immagine: '/images/viaggi/cina-classica/giorno-10-villaggio-acqua.jpg',
+      imageAlt: 'Un canale tra case tradizionali in un villaggio d\'acqua dello Jiangnan, al tramonto',
     },
     {
       titoloGiorno: 'Giorno 11 — Verso Hong Kong',
@@ -139,6 +159,8 @@ export const cinaClassicaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'hong-kong',
+      immagine: '/images/viaggi/cina-classica/giorno-11-hong-kong-skyline.jpg',
+      imageAlt: 'Lo skyline di Hong Kong Island visto da Tsim Sha Tsui, con gli Star Ferry che attraversano il porto',
     },
     {
       titoloGiorno: 'Giorno 12 — Hong Kong: Peak, Star Ferry, mercati',
@@ -147,6 +169,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Peak Tram con piattaforma 100-150 HKD; Star Ferry pochi HKD',
       destinazioneSlug: 'hong-kong',
+      immagine: '/images/viaggi/cina-classica/giorno-12-victoria-peak.jpg',
+      imageAlt: 'Il porto di Victoria e i grattacieli di Hong Kong Island visti dall\'alto di Victoria Peak',
     },
     {
       titoloGiorno: 'Giorno 13 — Macao in giornata',
@@ -156,6 +180,8 @@ export const cinaClassicaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'traghetto 160-200 HKD a tratta; centro storico quasi tutto gratuito',
       destinazioneSlug: 'macao',
+      immagine: '/images/viaggi/cina-classica/giorno-13-rovine-san-paolo-macao.jpg',
+      imageAlt: 'La facciata barocca delle Rovine di San Paolo a Macao, vista dal basso della grande scalinata',
     },
     {
       titoloGiorno: 'Giorno 14 — Lantau e la Hong Kong che non ci si aspetta',
@@ -163,12 +189,16 @@ export const cinaClassicaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'hong-kong',
+      immagine: '/images/viaggi/cina-classica/giorno-14-tian-tan-buddha-lantau.jpg',
+      imageAlt: 'Il grande Buddha di Tian Tan sulla cima della collina a Ngong Ping, isola di Lantau, tra le montagne verdi',
     },
     {
       titoloGiorno: 'Giorno 15 — Partenza',
       tratta: 'Hong Kong Central → HKG con Airport Express (24 min)',
       intensita: 'leggero',
       destinazioneSlug: 'hong-kong',
+      immagine: '/images/viaggi/cina-classica/giorno-15-aeroporto-hong-kong.jpg',
+      imageAlt: 'Il terminal dall\'iconico tetto ondulato dell\'aeroporto di Hong Kong al tramonto, ultimo scorcio prima della partenza',
     },
   ],
   budget: [

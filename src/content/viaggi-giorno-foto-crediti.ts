@@ -499,4 +499,201 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Departure_hall_Marrakech_airport.jpg',
     },
   },
+  'sicilia-completa': {
+    'Giorno 1 — Arrivo a Palermo': {
+      autore: 'Wikimedia Commons',
+      licenza: 'CC BY-SA',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/Category:Quattro_Canti',
+    },
+    'Giorno 2 — Palermo arabo-normanna': {
+      autore: 'Wikimedia Commons',
+      licenza: 'CC BY-SA',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/Category:Cappella_Palatina',
+    },
+    'Giorno 3 — I mercati, le Catacombe, Palazzo Abatellis': {
+      autore: 'Benjamín Núñez González (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Ballar%C3%B2,_gente_en_el_mercado,_Palermo,_Sicilia,_Italia,_2015.JPG',
+    },
+    'Giorno 4 — Monreale e Cefalù': {
+      autore: 'Berthold Werner (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Monreale_Cathedral_BW_2025-04-29_15-42-01.jpg',
+    },
+    'Giorno 5 — Segesta, Erice e Trapani': {
+      autore: 'Rabe! (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Segesta_-_Griechischer_Tempel_2015-03-29c.jpg',
+    },
+    'Giorno 6 — Le saline, Mozia e Marsala': {
+      autore: 'La mia avventura (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mulino_alle_Saline_di_Trapani.jpg',
+    },
+    'Giorno 7 — Lo Zingaro, Scopello e San Vito Lo Capo': {
+      autore: 'Norbert Reimer (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Tonnara_di_Scopello_(Castellammare_del_Golfo)_-_Trapani,_Sicily_-_Italy_-_(1).jpg',
+    },
+    'Giorno 8 — Selinunte e le Cave di Cusa': {
+      autore: 'Jos Dielis (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Temple_ruins_Selinunte,_Sicily.jpg',
+    },
+    'Giorno 9 — Agrigento e la Valle dei Templi': {
+      autore: 'Giorgio Curioni (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tempio_di_Giunone,_Agrigento,_Sicilia.JPG',
+    },
+    "Giorno 10 — La Scala dei Turchi e l'interno": {
+      autore: '29C (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Scala_dei_Turchi_2020.jpg',
+    },
+    "Giorno 11 — Ragusa Ibla e l'arrivo nel barocco": {
+      autore: 'Savvo90 (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ingresso_Ibla.JPG',
+    },
+    'Giorno 12 — Modica, Scicli e Noto': {
+      autore: 'Ruggero Poggianella (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Modica,_Duomo_di_San_Giorgio.jpg',
+    },
+    'Giorno 13 — Vendicari e arrivo a Siracusa': {
+      autore: 'Einaz80 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Riserva_Naturale_Vendicari_1.jpg',
+    },
+    'Giorno 14 — Siracusa': {
+      autore: 'Allie Caulfield (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Syrakus_-_Tempio_di_Apollo.jpg',
+    },
+    "Giorno 15 — L'Etna": {
+      autore: 'Cayambe (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mount_Etna_2024_28.jpg',
+    },
+    'Giorno 16 — Taormina e le Gole dell\'Alcantara': {
+      autore: 'Richard Allaway (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Columnar_jointing_in_the_Alcantara_Gorge,_Sicily.jpg',
+    },
+    'Giorno 17 — Catania e partenza': {
+      autore: 'Cosal (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Catania,_via_Etnea.jpg',
+    },
+  },
+  'cina-classica': {
+    'Giorno 1 — Arrivo a Pechino': {
+      autore: 'FLASHPACKER TRAVELGUIDE (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Hutong,_Gasse_in_Peking,_alley_in_Beijing_(44042315480).jpg',
+    },
+    'Giorno 2 — Città Proibita, Tiananmen e Jingshan': {
+      autore: 'Peter K Burian (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_2018._Forbidden_City.jpg',
+    },
+    'Giorno 3 — La Grande Muraglia a Jinshanling': {
+      autore: 'Vincent Ndaku (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling.jpg',
+    },
+    "Giorno 4 — Tempio del Cielo, hutong e Palazzo d'Estate": {
+      autore: 'Xiquinho Silva (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Temple_of_Heaven_-_Hall_of_Prayer_for_Good_Harvests_01.jpg',
+    },
+    "Giorno 5 — Treno per Xi'an e mura in bicicletta": {
+      autore: 'AcidBomber (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:XiAn_CityWall.JPG',
+    },
+    'Giorno 6 — Esercito di Terracotta': {
+      autore: 'shankar s. (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:The_sheer_scale_of_it_was_nothing_like_what_I_had_expected_(35519050182).jpg',
+    },
+    'Giorno 7 — Treno per Shanghai e il Bund': {
+      autore: 'Daniel Case (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lujiazui_skyline_by_night_from_Bund,_fully_illuminated.jpg',
+    },
+    'Giorno 8 — Shanghai: Concessione Francese, Yuyuan, Pudong': {
+      autore: 'Elizaveta Butryn (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Shanghai,_Yuyuan_Garden.jpg',
+    },
+    'Giorno 9 — Suzhou e i giardini classici': {
+      autore: 'Rose Abrams (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:Touring_the_Humble_Administrator%27s_Garden_10.jpg",
+    },
+    "Giorno 10 — Un villaggio d'acqua": {
+      autore: 'Mattias Hill (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Zhouzhuang_water_town.jpg',
+    },
+    'Giorno 11 — Verso Hong Kong': {
+      autore: 'WiNG (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hong_Kong_Island_Skyline_2009.jpg',
+    },
+    'Giorno 12 — Hong Kong: Peak, Star Ferry, mercati': {
+      autore: 'Exploringlife (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Overlook_Hong_Kong_Island_north_coast,_Victoria_Harbour_and_Kowloon_from_Peak_Tower_at_daytime_(improved_version).jpg',
+    },
+    'Giorno 13 — Macao in giornata': {
+      autore: 'Løken (Wikimedia Commons)',
+      licenza: 'CC BY-SA',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:Ruins_of_St._Paul%27s,_Macau.JPG",
+    },
+    'Giorno 14 — Lantau e la Hong Kong che non ci si aspetta': {
+      autore: 'Tessa Bury (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tian_Tan_Buddha_Outdoors.jpg',
+    },
+    'Giorno 15 — Partenza': {
+      autore: 'LN9267 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sunset_in_Hong_Kong_International_Airport_02-11-2024.jpg',
+    },
+  },
+  'transilvania-express': {
+    'Giorno 1 — Bucarest': {
+      autore: 'Ștefan Jurcă (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bucharest_-_Sunset_on_Lipscani_Street_(28592940111).jpg',
+    },
+    'Giorno 2 — Bucarest, Castello di Peleș, Castello di Bran, Brașov': {
+      autore: 'Teodor Mitrache (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0 RO',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Peles_Castle,_Sinaia_(Romania).jpg',
+    },
+    'Giorno 3 — Paesi sassoni, Sighișoara e Salina Turda': {
+      autore: 'Cristian Bortes (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Salina_Turda_3.jpg',
+    },
+    'Giorno 4 — Sibiu, Transfăgărășan e ritorno a Bucarest': {
+      autore: 'Draceane (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Fagara%C5%A1,_Transfagara%C5%A1,_2014_(06).jpg',
+    },
+    'Giorno 5 — Bucarest: check-out, Terme e saluti': {
+      autore: 'Daniele Napolitano (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:ThermeBucuresti.jpg',
+    },
+  },
 }

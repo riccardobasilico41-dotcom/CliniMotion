@@ -62,6 +62,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'a Palermo l\'auto resta in garage: la città si gira a piedi',
       destinazioneSlug: 'sicilia-occidentale',
+      immagine: '/images/viaggi/sicilia-completa/giorno-1-palermo-quattro-canti.jpg',
+      imageAlt: 'I Quattro Canti di Palermo, l\'incrocio barocco tra via Maqueda e il Cassaro con le facciate concave dei quattro palazzi',
     },
     {
       titoloGiorno: 'Giorno 2 — Palermo arabo-normanna',
@@ -71,6 +73,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'orari e percorso della Cappella Palatina variano con le attività dell\'Assemblea Regionale',
       destinazioneSlug: 'sicilia-occidentale',
+      immagine: '/images/viaggi/sicilia-completa/giorno-2-cappella-palatina.jpg',
+      imageAlt: 'I mosaici bizantini dorati e gli archi della Cappella Palatina a Palermo, illuminati dalle candele',
     },
     {
       titoloGiorno: 'Giorno 3 — I mercati, le Catacombe, Palazzo Abatellis',
@@ -80,6 +84,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'le Catacombe dei Cappuccini non sono un luogo adatto a tutti: è giusto saperlo prima',
       destinazioneSlug: 'sicilia-occidentale',
+      immagine: '/images/viaggi/sicilia-completa/giorno-3-mercato-ballaro.jpg',
+      imageAlt: 'Il mercato di Ballarò a Palermo, tra bancarelle di frutta e passanti nel vicolo del centro storico',
     },
     {
       titoloGiorno: 'Giorno 4 — Monreale e Cefalù',
@@ -89,6 +95,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'a Monreale duomo e chiostro sono biglietti distinti e vanno fatti entrambi',
       destinazioneSlug: 'sicilia-occidentale',
+      immagine: '/images/viaggi/sicilia-completa/giorno-4-monreale-mosaici.jpg',
+      imageAlt: "L'abside dorata del Duomo di Monreale, con il grande mosaico del Cristo Pantocratore sopra l'altare",
     },
     {
       titoloGiorno: 'Giorno 5 — Segesta, Erice e Trapani',
@@ -98,6 +106,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'a Erice si sale in auto o in funivia da Trapani',
       destinazioneSlug: 'sicilia-occidentale',
+      immagine: '/images/viaggi/sicilia-completa/giorno-5-segesta-tempio.jpg',
+      imageAlt: 'Il tempio dorico di Segesta, isolato nella campagna siciliana con le colline sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 6 — Le saline, Mozia e Marsala',
@@ -107,6 +117,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'a Mozia si arriva con un breve tragitto in barca; cantine su appuntamento',
       destinazioneSlug: 'sicilia-occidentale',
+      immagine: '/images/viaggi/sicilia-completa/giorno-6-saline-mulino.jpg',
+      imageAlt: 'Un mulino a vento tra le saline di Trapani, con le pale controluce sul cielo nuvoloso',
     },
     {
       titoloGiorno: 'Giorno 7 — Lo Zingaro, Scopello e San Vito Lo Capo',
@@ -116,6 +128,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'dentro la riserva non si compra niente: acqua al seguito',
       destinazioneSlug: 'sicilia-occidentale',
+      immagine: '/images/viaggi/sicilia-completa/giorno-7-scopello-tonnara.jpg',
+      imageAlt: 'La tonnara di Scopello con i faraglioni a picco sul mare e la torre di avvistamento sulla scogliera',
     },
     {
       titoloGiorno: 'Giorno 8 — Selinunte e le Cave di Cusa',
@@ -125,6 +139,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Selinunte è il più grande parco archeologico d\'Europa e non ha ombra: si va presto',
       destinazioneSlug: 'sicilia-occidentale',
+      immagine: '/images/viaggi/sicilia-completa/giorno-8-selinunte-tempio.jpg',
+      imageAlt: 'Le colonne spezzate del Tempio G di Selinunte contro il cielo azzurro',
     },
     {
       titoloGiorno: 'Giorno 9 — Agrigento e la Valle dei Templi',
@@ -134,6 +150,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'd\'estate la Valle si visita in notturna o al primo mattino; cumulativo con il museo',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-9-agrigento-giunone.jpg',
+      imageAlt: 'Il Tempio di Giunone nella Valle dei Templi di Agrigento, con le colonne doriche in luce diurna',
     },
     {
       titoloGiorno: 'Giorno 10 — La Scala dei Turchi e l\'interno',
@@ -143,6 +161,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'lo stato di accesso della Scala dei Turchi va verificato: è stato regolamentato e a tratti interdetto',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-10-scala-turchi-alto.jpg',
+      imageAlt: 'Vista dall\'alto della Scala dei Turchi, la scogliera bianca a strati che scende verso la spiaggia e il mare',
     },
     {
       titoloGiorno: 'Giorno 11 — Ragusa Ibla e l\'arrivo nel barocco',
@@ -152,6 +172,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'ZTL attive nei centri storici del Val di Noto',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-11-ragusa-ibla-notte.jpg',
+      imageAlt: 'Ragusa Ibla di sera, con le luci accese lungo le strade del centro storico arroccato',
     },
     {
       titoloGiorno: 'Giorno 12 — Modica, Scicli e Noto',
@@ -161,6 +183,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'sono tutte a venti chilometri l\'una dall\'altra: la giornata si fa senza fretta',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-12-modica-duomo.jpg',
+      imageAlt: 'La scalinata barocca e la facciata del Duomo di San Giorgio a Modica',
     },
     {
       titoloGiorno: 'Giorno 13 — Vendicari e arrivo a Siracusa',
@@ -170,6 +194,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'in primavera e in autunno a Vendicari ci sono i fenicotteri',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-13-vendicari.jpg',
+      imageAlt: 'Le lagune e gli acquitrini della Riserva Naturale di Vendicari, habitat degli uccelli migratori',
     },
     {
       titoloGiorno: 'Giorno 14 — Siracusa',
@@ -179,6 +205,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'cumulativo tra parco archeologico e Museo Paolo Orsi',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-14-siracusa-tempio-apollo.jpg',
+      imageAlt: 'Le colonne doriche del Tempio di Apollo a Ortigia, Siracusa, tra i palazzi del centro storico',
     },
     {
       titoloGiorno: 'Giorno 15 — L\'Etna',
@@ -188,6 +216,8 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'funivia più fuoristrada più guida obbligatoria oltre quota: la voce singola più alta del viaggio',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-15-etna-lava.jpg',
+      imageAlt: "Un pendio di roccia lavica e zolfo sui fianchi dell'Etna, tra le nuvole che avvolgono la montagna",
     },
     {
       titoloGiorno: 'Giorno 16 — Taormina e le Gole dell\'Alcantara',
@@ -197,12 +227,16 @@ export const siciliaCompletaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Taormina in alta stagione ha prezzi da un\'altra regione: si va prima dei pullman',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-16-alcantara-gole.jpg',
+      imageAlt: 'Le colonne basaltiche esagonali scolpite dall\'acqua nelle Gole dell\'Alcantara',
     },
     {
       titoloGiorno: 'Giorno 17 — Catania e partenza',
       tratta: 'Catania, mercato della Pescheria e volo di rientro',
       intensita: 'leggero',
       destinazioneSlug: 'sicilia',
+      immagine: '/images/viaggi/sicilia-completa/giorno-17-catania-via-etnea.jpg',
+      imageAlt: 'Via Etnea a Catania, la via principale della città con i palazzi barocchi e i passanti',
     },
   ],
   budget: [

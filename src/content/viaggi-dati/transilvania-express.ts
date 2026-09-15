@@ -47,6 +47,8 @@ export const transilvaniaExpressMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'bucarest',
+      immagine: '/images/viaggi/transilvania-express/giorno-1-bucarest-lipscani.jpg',
+      imageAlt: 'Il tramonto su Strada Lipscani nel centro storico di Bucarest, tra i tavolini dei locali e la folla della sera',
     },
     {
       titoloGiorno: 'Giorno 2 — Bucarest, Castello di Peleș, Castello di Bran, Brașov',
@@ -55,6 +57,8 @@ export const transilvaniaExpressMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'brasov',
+      immagine: '/images/viaggi/transilvania-express/giorno-2-castello-peles.jpg',
+      imageAlt: 'Il Castello di Peleș a Sinaia con le sue guglie in stile neorinascimentale tedesco, tra i boschi dei Carpazi',
     },
     {
       titoloGiorno: 'Giorno 3 — Paesi sassoni, Sighișoara e Salina Turda',
@@ -64,6 +68,8 @@ export const transilvaniaExpressMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Viscri 12 LEI/pax; Salina Turda 10-12€; guida 100 LEI',
       destinazioneSlug: 'sighisoara-salina-turda',
+      immagine: '/images/viaggi/transilvania-express/giorno-3-salina-turda.jpg',
+      imageAlt: 'Il lago sotterraneo di Salina Turda, con le passerelle in legno e le barchette a remi tra le pareti di sale scavate',
     },
     {
       titoloGiorno: 'Giorno 4 — Sibiu, Transfăgărășan e ritorno a Bucarest',
@@ -72,6 +78,8 @@ export const transilvaniaExpressMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'sibiu-transfagarasan',
+      immagine: '/images/viaggi/transilvania-express/giorno-4-transfagarasan.jpg',
+      imageAlt: 'I tornanti a zig-zag della Transfăgărășan che risalgono il versante erboso dei Carpazi',
     },
     {
       titoloGiorno: 'Giorno 5 — Bucarest: check-out, Terme e saluti',
@@ -81,6 +89,8 @@ export const transilvaniaExpressMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'Terme di Bucarest 35€',
       destinazioneSlug: 'bucarest',
+      immagine: '/images/viaggi/transilvania-express/giorno-5-therme-bucuresti.jpg',
+      imageAlt: 'La facciata in vetro e acciaio a vela del complesso Therme București, ultima tappa prima del rientro',
     },
   ],
   budget: [
