@@ -2,6 +2,7 @@
 
 import { forwardRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Route, BedDouble, Coins, Gauge, ArrowUpRight } from 'lucide-react'
 import { Prose } from '@/components/Prose'
 import { Reveal } from '@/components/Reveal'
@@ -26,10 +27,9 @@ const INTENSITA_CLASSES: Record<IntensitaGiorno, string> = {
  * Presentazione giorno-per-giorno di Signature Editorial: stesso contenuto e
  * stesso `GiornoMeta` del `DayTimeline` esistente (nessuna perdita di dati),
  * ma il numero del giorno diventa un vero ancoraggio tipografico invece di
- * un badge circolare, e ogni giorno senza fotografia (qui: tutti, per questo
- * viaggio) porta un Field Dossier invece di restare una card bianca vuota.
- * Usata solo dalla pagina viaggio firmata — `DayTimeline` originale resta
- * intatto per tutti gli altri 46 itinerari.
+ * un badge circolare. Un giorno con `info.immagine` (una foto reale del
+ * viaggio, non stock) mostra quella; un giorno senza porta un Field Dossier
+ * invece di restare una card bianca vuota.
  */
 export const DayTimelineSignature = forwardRef<
   HTMLOListElement,
@@ -64,21 +64,32 @@ export const DayTimelineSignature = forwardRef<
                   {sottotitolo}
                 </h3>
 
-                {/* Field Dossier a piena larghezza: nessuna foto per nessun giorno di
-                    questo viaggio, quindi ogni giorno porta questa striscia invece di
-                    restare senza alcun elemento visivo. Impilata sotto il titolo, mai
-                    in una colonna affiancata al testo — con tre livelli di grid già
+                {/* Foto reale se questo giorno ne ha una (mai stock: solo scatti del
+                    viaggio), altrimenti Field Dossier — impilato sotto il titolo, mai
+                    in una colonna affiancata al testo: con tre livelli di grid già
                     annidati sopra (pagina → sezione giorni → questo giorno), un'altra
                     colonna `lg:` finiva per calcolare la soglia sulla larghezza dello
                     schermo invece che sullo spazio realmente disponibile qui, e le due
                     colonne si sovrapponevano. */}
-                <FieldDossier
-                  size="sm"
-                  eyebrow={`Giorno ${numero}`}
-                  titolo={info?.destinazioneSlug ?? sottotitolo}
-                  meta={info?.intensita ? INTENSITA_LABEL[info.intensita] : undefined}
-                  className="mt-5 h-28"
-                />
+                {info?.immagine ? (
+                  <div className="relative mt-5 aspect-[4/3] w-full overflow-hidden rounded-sm sm:aspect-[16/10]">
+                    <Image
+                      src={info.immagine}
+                      alt={info.imageAlt ?? sottotitolo}
+                      fill
+                      sizes="(min-width: 640px) 50vw, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                ) : (
+                  <FieldDossier
+                    size="sm"
+                    eyebrow={`Giorno ${numero}`}
+                    titolo={info?.destinazioneSlug ?? sottotitolo}
+                    meta={info?.intensita ? INTENSITA_LABEL[info.intensita] : undefined}
+                    className="mt-5 h-28"
+                  />
+                )}
 
                 <div className="mt-6">
                   {info && (

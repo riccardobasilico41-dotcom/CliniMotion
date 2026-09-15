@@ -52,6 +52,8 @@ export const dolomitiEstateMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'dolomiti',
+      immagine: '/images/viaggi/dolomiti-estate/giorno-1-lago-di-braies.jpg',
+      imageAlt: 'Il Lago di Braies con le sue barche a remi e le pareti dolomitiche sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 2 — Il Parco Fanes-Sennes',
@@ -59,6 +61,8 @@ export const dolomitiEstateMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'dolomiti',
+      immagine: '/images/viaggi/dolomiti-estate/giorno-2-fanes.jpg',
+      imageAlt: "Il Lago di Fanes con le conche d'alta quota del parco Fanes-Sennes sullo sfondo",
     },
     {
       titoloGiorno: 'Giorno 3 — Le Tre Cime di Lavaredo',
@@ -68,6 +72,8 @@ export const dolomitiEstateMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'pedaggio circa 40€ per auto, valido 12 ore',
       destinazioneSlug: 'dolomiti',
+      immagine: '/images/viaggi/dolomiti-estate/giorno-3-tre-cime.jpg',
+      imageAlt: 'Le Tre Cime di Lavaredo al tramonto viste dal Rifugio Locatelli',
     },
     {
       titoloGiorno: 'Giorno 4 — Prima notte in rifugio',
@@ -77,6 +83,8 @@ export const dolomitiEstateMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'mezza pensione 60-80€, sconti soci CAI',
       destinazioneSlug: 'dolomiti',
+      immagine: '/images/viaggi/dolomiti-estate/giorno-4-rifugio-nuvolau.jpg',
+      imageAlt: 'Il Rifugio Nuvolau in vetta, con gli escursionisti in arrivo',
     },
     {
       titoloGiorno: 'Giorno 5 — Seconda tappa in quota',
@@ -85,6 +93,8 @@ export const dolomitiEstateMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'dolomiti',
+      immagine: '/images/viaggi/dolomiti-estate/giorno-5-puez-odle.jpg',
+      imageAlt: 'Escursionisti in cammino sulla cresta del parco Puez-Odle, con le pareti dolomitiche sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 6 — Una via ferrata',
@@ -94,12 +104,16 @@ export const dolomitiEstateMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'noleggio kit da ferrata 15-25€ al giorno',
       destinazioneSlug: 'dolomiti',
+      immagine: '/images/viaggi/dolomiti-estate/giorno-6-lagazuoi.jpg',
+      imageAlt: 'Le gallerie scavate nella roccia del Lagazuoi durante la Prima guerra mondiale',
     },
     {
       titoloGiorno: 'Giorno 7 — Seceda, Alpe di Siusi e rientro',
       tratta: 'Seceda o Alpe di Siusi con impianti, poi rientro',
       intensita: 'leggero',
       costiNoti: 'funivie 15-30€ a tratta',
+      immagine: '/images/viaggi/dolomiti-estate/giorno-7-seceda.jpg',
+      imageAlt: 'La cresta erbosa di Seceda che si spezza di colpo nelle guglie verticali dei Odle',
       destinazioneSlug: 'dolomiti',
     },
   ],
