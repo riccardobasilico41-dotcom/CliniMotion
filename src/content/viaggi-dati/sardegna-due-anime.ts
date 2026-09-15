@@ -60,6 +60,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'dormire a pochi chilometri dalla Costa Smeralda costa una frazione e la costa è la stessa',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-1-spiaggia-del-principe.jpg',
+      imageAlt: "L'acqua turchese e le rocce di granito rosa della Spiaggia del Principe, sulla Costa Smeralda",
     },
     {
       titoloGiorno: 'Giorno 2 — L\'arcipelago della Maddalena',
@@ -69,6 +71,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Cala Coticcio ha accesso contingentato e solo con guide autorizzate; la Spiaggia Rosa si guarda dall\'acqua',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-2-budelli.jpg',
+      imageAlt: "Le rocce di granito rosa dell'isola di Budelli emergono dal mare turchese dell'arcipelago della Maddalena",
     },
     {
       titoloGiorno: 'Giorno 3 — Capo Testa, la Valle della Luna e la Gallura interna',
@@ -78,6 +82,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'cantine di Vermentino di Gallura su appuntamento',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-3-capo-testa.jpg',
+      imageAlt: 'Le rocce di granito scolpite dal vento a Capo Testa, affacciate sullo Stretto di Bonifacio',
     },
     {
       titoloGiorno: 'Giorno 4 — Verso il Golfo di Orosei',
@@ -87,6 +93,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Cala Brandinchi e Lu Impostu sono soggette a contingentamento in alta stagione',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-4-golfo-orosei.jpg',
+      imageAlt: 'Le pareti calcaree a picco sul mare blu intenso del Golfo di Orosei',
     },
     {
       titoloGiorno: 'Giorno 5 — Cala Goloritzé',
@@ -96,6 +104,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'accesso a numero chiuso con prenotazione e contributo; nessun servizio in spiaggia e ritorno tutto in salita',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-5-cala-goloritze.jpg',
+      imageAlt: "L'Aguglia di Cala Goloritzé, la guglia calcarea alta 143 metri che domina la cala",
     },
     {
       titoloGiorno: 'Giorno 6 — Le cale del golfo in barca',
@@ -105,6 +115,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'le imbarcazioni hanno quote di sbarco assegnate sulle cale contingentate',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-6-cala-luna.jpg',
+      imageAlt: "La baia turchese di Cala Luna vista dall'alto, con le barche ancorate sotto le falesie calcaree",
     },
     {
       titoloGiorno: 'Giorno 7 — Il Supramonte: Gorropu o Tiscali',
@@ -114,6 +126,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'ingresso a pagamento a Gorropu; oltre il primo tratto servono attrezzatura o guida',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-7-gorropu.jpg',
+      imageAlt: "Le pareti di roccia altissime della Gola di Su Gorropu, con gli escursionisti minuscoli sul fondo del canyon",
     },
     {
       titoloGiorno: 'Giorno 8 — La Barbagia: Orgosolo, Mamoiada, il Cannonau',
@@ -123,6 +137,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'in Barbagia gli agriturismi hanno prezzi bassissimi rispetto alla costa e la cucina migliore dell\'isola',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-8-orgosolo-murales.jpg',
+      imageAlt: "Un vicolo di Orgosolo con le facciate delle case dipinte dai celebri murales politici e sociali",
     },
     {
       titoloGiorno: 'Giorno 9 — Il Sinis, Tharros e i nuraghi',
@@ -132,6 +148,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Barumini si visita solo con accompagnamento a orari fissi; a Is Arutas la sabbia non si tocca',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-9-tharros.jpg',
+      imageAlt: 'Le colonne romane del sito archeologico di Tharros, affacciate sul mare del Sinis',
     },
     {
       titoloGiorno: 'Giorno 10 — Il Sulcis-Iglesiente e Porto Flavia',
@@ -141,6 +159,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Porto Flavia si visita solo con accompagnamento',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-10-porto-flavia.jpg',
+      imageAlt: "L'ingresso della galleria di Porto Flavia scavata nella falesia calcarea di Masua",
     },
     {
       titoloGiorno: 'Giorno 11 — Le dune di Piscinas e la Costa Verde',
@@ -150,6 +170,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'nessun servizio sulle spiagge della Costa Verde: si porta tutto, e la corrente è seria',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-11-piscinas.jpg',
+      imageAlt: 'Il paesaggio desertico delle dune di Piscinas, con la macchia mediterranea sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 12 — Carloforte e l\'isola di San Pietro',
@@ -159,6 +181,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'il tonno è l\'identità gastronomica dell\'isola',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-12-carloforte.jpg',
+      imageAlt: 'Le case colorate di Carloforte incorniciano la vista sul porto e i traghetti per l\'isola di San Pietro',
     },
     {
       titoloGiorno: 'Giorno 13 — Cagliari',
@@ -168,6 +192,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'al Museo Archeologico ci sono i bronzetti nuragici e i Giganti di Mont\'e Prama',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-13-bastione-saint-remy.jpg',
+      imageAlt: 'La monumentale scalinata bianca del Bastione di Saint Remy nel quartiere Castello di Cagliari',
     },
     {
       titoloGiorno: 'Giorno 14 — Partenza',
@@ -175,6 +201,8 @@ export const sardegnaDueAnimeMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'Tuerredda è contingentata in stagione',
       destinazioneSlug: 'sardegna',
+      immagine: '/images/viaggi/sardegna-due-anime/giorno-14-nora.jpg',
+      imageAlt: "Le rovine romane delle Terme a Mare nel sito archeologico di Nora, con le colonne sullo sfondo",
     },
   ],
   budget: [

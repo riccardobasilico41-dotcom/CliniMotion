@@ -696,4 +696,293 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:ThermeBucuresti.jpg',
     },
   },
+  'corea-del-sud-itinerario': {
+    'Giorno 1 — Arrivo a Seoul': {
+      autore: 'USAGI_POST (Pixabay / Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Han_River_Seoul_skyline_Pixabay_1214950.jpg',
+    },
+    'Giorno 2 — Palazzi e Memoriale della Guerra': {
+      autore: 'lumoplank (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Changdeokgung,_Seoul_-_Changdeokgung3148.jpg',
+    },
+    'Giorno 3 — La DMZ': {
+      autore: 'Travis Wise (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Demilitarized_Zone_(DMZ)_Joint_Security_Area_(JSA)_Looking_Into_North_Korea_(28819154694).jpg',
+    },
+    'Giorno 4 — Seoul: quartieri, fortezza, jjimjilbang': {
+      autore: 'Basile Morin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Bukchon-ro_11-gil_street_with_hanok_houses_and_blue_sky_in_Bukchon_Hanok_Village_Seoul.jpg',
+    },
+    'Giorno 5 — Sokcho e il Seoraksan': {
+      autore: 'Olga Lipunova (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Seoraksan_National_Park,_Daecheongbong.jpg',
+    },
+    'Giorno 6 — Seoraksan': {
+      autore: 'Olga Lipunova (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Seoraksan_National_Park,_Ulsanbawi.jpg',
+    },
+    'Giorno 7 — Andong e il villaggio di Hahoe': {
+      autore: 'Theda Grimoire (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Korea-Andong-Hahoe_Folk_Village-02.jpg',
+    },
+    'Giorno 8 — Gyeongju': {
+      autore: 'parhessiastes (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Korea-Gyeongju-Cheomseongdae-01.jpg',
+    },
+    'Giorno 9 — Bulguksa, Seokguram e templestay': {
+      autore: 'lumoplank (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bulguksa_Temple,_Gyeongju_-_Bulguska2632.jpg',
+    },
+    'Giorno 10 — Busan': {
+      autore: 'Basile Morin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Colorful_houses_in_Gamcheon_Culture_Village_at_sunset_in_Busan_South_Korea.jpg',
+    },
+    'Giorno 11 — Busan: il cimitero ONU e la costa': {
+      autore: 'StephNurnberg (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Haeundae_Beach_in_Busan.jpg',
+    },
+    'Giorno 12 — Volo per Jeju e la costa orientale': {
+      autore: 'Lcarrion88 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Seopjiokji_Coastline.jpg',
+    },
+    'Giorno 13 — Le haenyeo e Seongsan Ilchulbong': {
+      autore: 'Korea.net / Korean Culture and Information Service (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Seongsan_Ilchulbong_from_the_air.jpg',
+    },
+    'Giorno 14 — Rientro': {
+      autore: 'Arne Müseler (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0 DE',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Incheon_International_Airport_Terminal_1_Departure.jpg',
+    },
+  },
+  'sri-lanka-2023': {
+    'Giorno 1 — Negombo': {
+      autore: 'Rudolph.A.furtado (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Fibreglass_fishing_boat_on_Negombo_Beach.JPG',
+    },
+    'Giorno 2 — Negombo-Anuradhapura': {
+      autore: 'A.Savin (Wikimedia Commons)',
+      licenza: 'Free Art License',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:SL_Anuradhapura_asv2020-01_img11_Ruwanwelisaya_Stupa.jpg',
+    },
+    'Giorno 3 — Anuradhapura-Dambulla: Mihintale e safari': {
+      autore: 'Shankar S. (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Elephant_herd_(7568539214).jpg',
+    },
+    'Giorno 4 — Dambulla-Polonnaruwa-Dambulla': {
+      autore: 'Michael Gunther (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Polonnaruwa_0355.jpg',
+    },
+    'Giorno 5 — Dambulla-Kandy': {
+      autore: 'A.Savin (Wikimedia Commons)',
+      licenza: 'Free Art License',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:SL_Kandy_asv2020-01_img34_Sacred_Tooth_Temple.jpg',
+    },
+    'Giorno 6 — Kandy-Nallathanniya: rafting a Kitulgala': {
+      autore: 'Pavithra Packiyanathan (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:A_river_through_the_mountain.jpg',
+    },
+    'Giorno 7 — Hatton-Nuwara Eliya: piantagioni di tè': {
+      autore: 'Curved.kiwix (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tea_picker_in_the_highland_region_of_Nuwara_Eliya.jpg',
+    },
+    'Giorno 8 — Nuwara Eliya-Ella: il treno panoramico': {
+      autore: 'A.Savin (Wikimedia Commons)',
+      licenza: 'Free Art License',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:SL_Demodara_near_Ella_asv2020-01_img02.jpg',
+    },
+    'Giorno 9 — Ella-Yala-Hikkaduwa: safari e prima spiaggia': {
+      autore: 'Byrdyak / Volodymyr Burdiak (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Leopard_on_stone_in_Yala_National_Park.jpg',
+    },
+    'Giorno 10 — Hikkaduwa: giornata di mare': {
+      autore: 'Dinusha Chathuranga (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hikkaduwa_beach_beauty.jpg',
+    },
+    'Giorno 11 — Hikkaduwa-Negombo': {
+      autore: 'Dan Lundberg (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:20160129_Sri_Lanka_4191_Habaraduwa_sRGB_(25139072394).jpg',
+    },
+    'Giorno 12 — Negombo-Aeroporto': {
+      autore: 'Imaas181 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bandaranaike_International_Airport_-_BIA.jpg',
+    },
+  },
+  'sardegna-due-anime': {
+    'Giorno 1 — Arrivo a Olbia e Costa Smeralda': {
+      autore: 'Ökologix (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Spiaggia_del_Principe.jpg',
+    },
+    "Giorno 2 — L'arcipelago della Maddalena": {
+      autore: 'Gianni Careddu (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:La_Maddalena_-_Isola_di_Budelli_(01).JPG',
+    },
+    'Giorno 3 — Capo Testa, la Valle della Luna e la Gallura interna': {
+      autore: 'Isiwal (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sardinien_Capo_Testa_Blick_Korsika_2010.jpg',
+    },
+    'Giorno 4 — Verso il Golfo di Orosei': {
+      autore: 'Carlo Pelagalli (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Costa_del_golfo_di_Orosei_-_panoramio.jpg',
+    },
+    'Giorno 5 — Cala Goloritzé': {
+      autore: 'Rosanna C. (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Baunei-Guglia_di_Cala_Goloritz%C3%A9.jpg',
+    },
+    'Giorno 6 — Le cale del golfo in barca': {
+      autore: 'K. Härtling (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cala_Luna,_Sardinien.JPG',
+    },
+    'Giorno 7 — Il Supramonte: Gorropu o Tiscali': {
+      autore: 'Pigiosu (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gorropu_-_interno.JPG',
+    },
+    'Giorno 8 — La Barbagia: Orgosolo, Mamoiada, il Cannonau': {
+      autore: 'Daniel Ventura (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Murals_in_Orgosolo_01.jpg',
+    },
+    'Giorno 9 — Il Sinis, Tharros e i nuraghi': {
+      autore: 'Gloriamusa (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Colonne_di_Tharros.JPG',
+    },
+    'Giorno 10 — Il Sulcis-Iglesiente e Porto Flavia': {
+      autore: 'DeeJay05 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:27_Nahaufnahme-Hafen-Porto-Flavia-Iglesias-Sardinien-Italien.jpg',
+    },
+    'Giorno 11 — Le dune di Piscinas e la Costa Verde': {
+      autore: 'Giorgio Galeotti (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Dunes_of_Piscinas_-_Arbus,_Sud_Sardegna,_Italy_-_August_13,_2020.jpg',
+    },
+    "Giorno 12 — Carloforte e l'isola di San Pietro": {
+      autore: 'trolvag / Tom Rolvag (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Carloforte_porto,_Carloforte,_Carbonia-Iglesias,_Sardinia,_Italy_-_panoramio.jpg',
+    },
+    'Giorno 13 — Cagliari': {
+      autore: 'Mike Peel (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:At_Cagliari,_Sardinia_2019_165.jpg',
+    },
+    'Giorno 14 — Partenza': {
+      autore: 'Norbert Nagel (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Archaeological_site_Nora_-_Pula_-_Sardinia_-_Italy_-_15.jpg',
+    },
+  },
+  'malesia-singapore': {
+    'Giorno 1 — Arrivo a Kuala Lumpur': {
+      autore: 'Philip Nalangan (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Merdeka_Square_Kuala_Lumpur_Malaysia.jpg',
+    },
+    'Giorno 2 — Batu Caves e i quartieri': {
+      autore: 'KQuhen (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Batu_Caves_Murugan_Statue_and_Stairs_2015.jpg',
+    },
+    'Giorno 3 — Verso Taman Negara': {
+      autore: 'Maxine Xin (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/tranquil-river-scene-with-boat-in-malaysia-33691774/',
+    },
+    'Giorno 4 — La foresta di centotrenta milioni di anni': {
+      autore: 'Vyacheslav Argenberg (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Taman_Negara,_Malaysia,_Canopy_Walkway.jpg',
+    },
+    'Giorno 5 — Verso le Cameron Highlands': {
+      autore: 'Adam Jones (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Cameron_Valley_Tea_Estate_-_Near_Tanah_Rata_-_Cameron_Highlands_-_Malaysia_-_01_(34733984213).jpg',
+    },
+    'Giorno 6 — Piantagioni di tè e mossy forest': {
+      autore: 'Pro QueeNia (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Breathtaking_view_at_BOH_Sungei_Palas_Tea_Plantation,_Cameron_Highlands.jpg',
+    },
+    'Giorno 7 — Verso Penang': {
+      autore: 'Gryffindor (Wikimedia Commons)',
+      licenza: 'Public Domain',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Penang_Dec_2006_006.jpg',
+    },
+    'Giorno 8 — George Town a piedi': {
+      autore: 'Wikimedia Commons',
+      licenza: 'CC BY',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Penang_-_Little_Children_on_a_Bicycle.JPG',
+    },
+    'Giorno 9 — Penang: la giornata del cibo': {
+      autore: 'Khairil Yusof (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Char_Koay_Kak,_Hawker_Stall,_Georgetown,_Penang.jpg',
+    },
+    'Giorno 10 — Verso Malacca': {
+      autore: 'Felix Andrews (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Riverside_buildings_Melaka.jpg',
+    },
+    'Giorno 11 — Malacca e la cucina nyonya': {
+      autore: 'Leo Andyka (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:The_Stadthuys.jpg',
+    },
+    'Giorno 12 — Verso Singapore': {
+      autore: 'Bijay Chaurasia (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Marina_Bay_Singapore-3499.jpg',
+    },
+    'Giorno 13 — Singapore: i quartieri e la baia': {
+      autore: 'Giorces (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:View_of_Marina_Bay_Sands_Hotel_and_the_Supertree_Grove,_Gardens_by_the_Bay,_Singapore,_at_sunset_-_20140513.jpg',
+    },
+    'Giorno 14 — La Singapore verde e partenza': {
+      autore: 'Shiny Things (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cloud_Forest,_Gardens_by_the_Bay,_Singapore_-_20120712-03.jpg',
+    },
+  },
 }

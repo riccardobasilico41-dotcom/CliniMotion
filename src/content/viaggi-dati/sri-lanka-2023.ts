@@ -51,6 +51,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'negombo',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-1-negombo.jpg',
+      imageAlt: 'Pescatori tirano a riva una barca colorata sulla spiaggia di Negombo, con le palme sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 2 — Negombo-Anuradhapura',
@@ -59,6 +61,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'anuradhapura',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-2-ruwanwelisaya.jpg',
+      imageAlt: 'Il grande dagoba bianco di Ruwanwelisaya ad Anuradhapura, circondato dal muro di elefanti scolpiti',
     },
     {
       titoloGiorno: 'Giorno 3 — Anuradhapura-Dambulla: Mihintale e safari',
@@ -68,6 +72,8 @@ export const sriLanka2023Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Mihintale 500 LKR + sarong 50 LKR; safari 12.000 LKR a jeep + ingresso; Pidurangala 1.000 LKR',
       destinazioneSlug: 'dambulla-sigiriya',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-3-minneriya-elefanti.jpg',
+      imageAlt: 'Un branco di elefanti selvatici al pascolo durante il safari nel parco nazionale di Minneriya',
     },
     {
       titoloGiorno: 'Giorno 4 — Dambulla-Polonnaruwa-Dambulla',
@@ -77,6 +83,8 @@ export const sriLanka2023Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Sigiriya 10.000-30 USD a persona; bicicletta a Polonnaruwa 1.000 LKR',
       destinazioneSlug: 'polonnaruwa',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-4-gal-vihara.jpg',
+      imageAlt: 'Le statue del Buddha scolpite nella roccia al Gal Vihara di Polonnaruwa, in piedi e reclinata',
     },
     {
       titoloGiorno: 'Giorno 5 — Dambulla-Kandy',
@@ -85,6 +93,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'kandy',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-5-tempio-del-dente.jpg',
+      imageAlt: 'Il Tempio del Dente di Kandy, con le mura bianche e i tetti rossi che si riflettono nel fossato',
     },
     {
       titoloGiorno: 'Giorno 6 — Kandy-Nallathanniya: rafting a Kitulgala',
@@ -93,6 +103,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'nallathanniya',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-6-kitulgala.jpg',
+      imageAlt: 'Il fiume Kelani che scorre tra la giungla fitta a Kitulgala, teatro del rafting',
     },
     {
       titoloGiorno: 'Notte Adam\'s Peak — la sfida fisica del viaggio',
@@ -110,6 +122,8 @@ export const sriLanka2023Meta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Attività a Nuwara Eliya 5.000-8.000 LKR',
       destinazioneSlug: 'nuwara-eliya',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-7-tea-pickers.jpg',
+      imageAlt: "Due raccoglitrici di tè tra i filari verdi di una piantagione sulle colline di Nuwara Eliya",
     },
     {
       titoloGiorno: 'Giorno 8 — Nuwara Eliya-Ella: il treno panoramico',
@@ -118,6 +132,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'ella',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-8-nine-arches.jpg',
+      imageAlt: 'Il treno blu attraversa il Nine Arches Bridge tra la giungla vicino a Ella',
     },
     {
       titoloGiorno: 'Giorno 9 — Ella-Yala-Hikkaduwa: safari e prima spiaggia',
@@ -127,6 +143,8 @@ export const sriLanka2023Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Safari a Yala 12.000-16.000 LKR a jeep + ingresso (27-30€ a persona) + mancia',
       destinazioneSlug: 'hikkaduwa',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-9-yala-leopard.jpg',
+      imageAlt: 'Un leopardo dello Sri Lanka riposa su una roccia nel parco nazionale di Yala',
     },
     {
       titoloGiorno: 'Giorno 10 — Hikkaduwa: giornata di mare',
@@ -135,6 +153,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'hikkaduwa',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-10-hikkaduwa.jpg',
+      imageAlt: 'La spiaggia di sabbia dorata di Hikkaduwa, orlata di palme, con le onde che si infrangono sulla riva',
     },
     {
       titoloGiorno: 'Giorno 11 — Hikkaduwa-Negombo',
@@ -143,6 +163,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'negombo',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-11-tartarughe.jpg',
+      imageAlt: 'Una tartaruga marina verde nella vasca di un progetto di conservazione sulla costa dello Sri Lanka',
     },
     {
       titoloGiorno: 'Giorno 12 — Negombo-Aeroporto',
@@ -151,6 +173,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'negombo',
+      immagine: '/images/viaggi/sri-lanka-2023/giorno-12-aeroporto.jpg',
+      imageAlt: "Un aereo SriLankan Airlines in pista all'aeroporto di Colombo-Bandaranaike al tramonto",
     },
   ],
   budget: [

@@ -57,6 +57,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'seoul',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-1-seoul-skyline.jpg',
+      imageAlt: 'Lo skyline di Seoul lungo il fiume Han, con i grattacieli di Yeouido sotto un cielo azzurro',
     },
     {
       titoloGiorno: 'Giorno 2 — Palazzi e Memoriale della Guerra',
@@ -65,6 +67,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'palazzi circa 3.000 won, Giardino Segreto 5.000 in più, Memoriale della Guerra gratuito',
       destinazioneSlug: 'seoul',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-2-changdeokgung.jpg',
+      imageAlt: 'Il padiglione sul laghetto di Buyongji, nel Giardino Segreto del palazzo di Changdeokgung',
     },
     {
       titoloGiorno: 'Giorno 3 — La DMZ',
@@ -74,6 +78,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'tour standard 50-90€, pranzo spesso incluso; passaporto originale obbligatorio',
       destinazioneSlug: 'dmz',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-3-dmz-jsa.jpg',
+      imageAlt: 'Le baracche blu della Joint Security Area a Panmunjom, con le guardie sulla linea di demarcazione',
     },
     {
       titoloGiorno: 'Giorno 4 — Seoul: quartieri, fortezza, jjimjilbang',
@@ -82,6 +88,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'jjimjilbang 8.000-15.000 won',
       destinazioneSlug: 'seoul',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-4-bukchon.jpg',
+      imageAlt: 'Il vicolo in salita di Bukchon-ro fiancheggiato dai tetti tradizionali delle case hanok',
     },
     {
       titoloGiorno: 'Giorno 5 — Sokcho e il Seoraksan',
@@ -90,6 +98,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'sokcho-seoraksan',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-5-seoraksan.jpg',
+      imageAlt: 'Le guglie di roccia del Seoraksan viste dal Daecheongbong, la vetta più alta del parco',
     },
     {
       titoloGiorno: 'Giorno 6 — Seoraksan',
@@ -98,6 +108,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'ingresso al parco pochi euro; funivia per Gwongeumseong circa 11.000 won A/R',
       destinazioneSlug: 'sokcho-seoraksan',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-6-ulsanbawi.jpg',
+      imageAlt: 'La cresta di granito di Ulsanbawi, con le montagne del Seoraksan che sfumano sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 7 — Andong e il villaggio di Hahoe',
@@ -107,6 +119,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'ingresso a Hahoe circa 5.000 won',
       destinazioneSlug: 'andong',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-7-hahoe.jpg',
+      imageAlt: "Vista dall'alto del villaggio di Hahoe, con le case dal tetto di paglia nell'ansa del fiume",
     },
     {
       titoloGiorno: 'Giorno 8 — Gyeongju',
@@ -116,6 +130,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Daereungwon 3.000 won, Museo Nazionale gratuito',
       destinazioneSlug: 'gyeongju',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-8-cheomseongdae.jpg',
+      imageAlt: "L'osservatorio astronomico di Cheomseongdae a Gyeongju, tra i più antichi dell'Asia orientale",
     },
     {
       titoloGiorno: 'Giorno 9 — Bulguksa, Seokguram e templestay',
@@ -125,6 +141,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Bulguksa e Seokguram circa 6.000 won ciascuno; templestay 50.000-100.000 won con pasti',
       destinazioneSlug: 'gyeongju',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-9-bulguksa.jpg',
+      imageAlt: 'I tetti in tegole e la scalinata in pietra del tempio buddista di Bulguksa, sul monte Toham',
     },
     {
       titoloGiorno: 'Giorno 10 — Busan',
@@ -133,6 +151,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'busan',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-10-gamcheon.jpg',
+      imageAlt: 'Le case colorate del villaggio di Gamcheon a Busan, arrampicate sulla collina al crepuscolo',
     },
     {
       titoloGiorno: 'Giorno 11 — Busan: il cimitero ONU e la costa',
@@ -141,6 +161,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'cimitero ONU e tempio Haedong Yonggungsa gratuiti',
       destinazioneSlug: 'busan',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-11-haeundae.jpg',
+      imageAlt: 'La spiaggia di Haeundae a Busan, con gli ombrelloni rossi e lo skyline della città sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 12 — Volo per Jeju e la costa orientale',
@@ -150,6 +172,8 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Museo delle haenyeo circa 1.100 won; noleggio auto 40-60€ al giorno, patente internazionale obbligatoria',
       destinazioneSlug: 'jeju',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-12-jeju-costa.jpg',
+      imageAlt: 'La costa lavica di Seopjikoji a Jeju, con il promontorio di Seongsan Ilchulbong sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 13 — Le haenyeo e Seongsan Ilchulbong',
@@ -158,12 +182,16 @@ export const coreaDelSudItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Seongsan Ilchulbong 5.000 won, Manjanggul 4.000, Parco della Pace 4·3 gratuito',
       destinazioneSlug: 'jeju',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-13-seongsan-ilchulbong.jpg',
+      imageAlt: 'Vista aerea del cratere erboso di Seongsan Ilchulbong, la "Punta del Sole" sulla costa di Jeju',
     },
     {
       titoloGiorno: 'Giorno 14 — Rientro',
       tratta: 'Volo Jeju → Gimpo e proseguimento per Incheon',
       intensita: 'leggero',
       destinazioneSlug: 'jeju',
+      immagine: '/images/viaggi/corea-del-sud-itinerario/giorno-14-incheon-partenza.jpg',
+      imageAlt: "La grande hall del Terminal 1 dell'aeroporto di Incheon, con i banchi check-in e i passeggeri in partenza",
     },
   ],
   budget: [
