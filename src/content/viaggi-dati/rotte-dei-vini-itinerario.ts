@@ -52,6 +52,8 @@ export const rotteDeiViniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-01-langhe.jpg',
+      imageAlt: 'Filari di vigneti sulle colline delle Langhe, con un borgo fortificato in cima al crinale',
     },
     {
       titoloGiorno: 'Giorno 2 — Barolo',
@@ -61,6 +63,8 @@ export const rotteDeiViniMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'degustazioni 15-40€ a persona, spesso scalate sull\'acquisto',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-02-barolo.jpg',
+      imageAlt: 'Filari di vigneti di Nebbiolo sopra il paese di Barolo, con il castello e i tetti visibili a valle',
     },
     {
       titoloGiorno: 'Giorno 3 — Barbaresco e Roero',
@@ -69,6 +73,8 @@ export const rotteDeiViniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-03-barbaresco.jpg',
+      imageAlt: 'Vigneti collinari nei dintorni di Barbaresco, con cascine sparse tra i filari',
     },
     {
       titoloGiorno: 'Giorno 4 — Trasferimento in Valpolicella',
@@ -77,6 +83,8 @@ export const rotteDeiViniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-04-valpolicella.jpg',
+      imageAlt: 'Filari di vigneti della Valpolicella su un crinale collinare, con una strada sterrata che li attraversa',
     },
     {
       titoloGiorno: 'Giorno 5 — Amarone, Valpolicella e Soave',
@@ -85,6 +93,8 @@ export const rotteDeiViniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-05-soave.jpg',
+      imageAlt: 'Il castello medievale di Soave al tramonto, con i vigneti in primo piano',
     },
     {
       titoloGiorno: 'Giorno 6 — Le colline del Prosecco',
@@ -93,6 +103,8 @@ export const rotteDeiViniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-06-prosecco.jpg',
+      imageAlt: 'I vigneti terrazzati del Cartizze tra le colline di Valdobbiadene, patrimonio UNESCO',
     },
     {
       titoloGiorno: 'Giorno 7 — Chianti Classico',
@@ -101,6 +113,8 @@ export const rotteDeiViniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-07-chianti.jpg',
+      imageAlt: 'Filari di vigneti sulle colline del Chianti Classico, delimitati da un muretto a secco',
     },
     {
       titoloGiorno: 'Giorno 8 — Montalcino',
@@ -109,6 +123,8 @@ export const rotteDeiViniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-08-montalcino.jpg',
+      imageAlt: 'Lo skyline di Montalcino su una collina toscana, con la fortezza medievale e il centro storico',
     },
     {
       titoloGiorno: 'Giorno 9 — La Val d\'Orcia',
@@ -117,12 +133,16 @@ export const rotteDeiViniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-09-valdorcia.jpg',
+      imageAlt: 'Un filare di cipressi che segue il crinale di una collina nella Val d\'Orcia, tra la nebbia mattutina',
     },
     {
       titoloGiorno: 'Giorno 10 — Rientro',
       tratta: 'Rientro da Firenze',
       intensita: 'leggero',
       destinazioneSlug: 'rotte-dei-vini',
+      immagine: '/images/viaggi/rotte-dei-vini-itinerario/giorno-10-firenze.jpg',
+      imageAlt: 'Il tramonto su Firenze visto da Piazzale Michelangelo, con Ponte Vecchio e l\'Arno',
     },
   ],
   budget: [

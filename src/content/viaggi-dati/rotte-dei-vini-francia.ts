@@ -53,6 +53,8 @@ export const rotteDeiViniFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'vigneti-di-francia',
+      immagine: '/images/viaggi/rotte-dei-vini-francia/giorno-1-colmar.jpg',
+      imageAlt: 'Case a graticcio colorate affacciate sul canale nel quartiere della Petite Venise a Colmar',
     },
     {
       titoloGiorno: 'Giorno 2 — Riquewihr e Eguisheim in bicicletta',
@@ -61,6 +63,8 @@ export const rotteDeiViniFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'vigneti-di-francia',
+      immagine: '/images/viaggi/rotte-dei-vini-francia/giorno-2-riquewihr.jpg',
+      imageAlt: 'Una viuzza acciottolata di Riquewihr tra case a graticcio colorate della Route des Vins d\'Alsace',
     },
     {
       titoloGiorno: 'Giorno 3 — Route des Vins verso sud',
@@ -69,6 +73,8 @@ export const rotteDeiViniFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'vigneti-di-francia',
+      immagine: '/images/viaggi/rotte-dei-vini-francia/giorno-3-eguisheim.jpg',
+      imageAlt: 'La fontana Saint-Léon nella piazza del castello di Eguisheim, circondata da case fiorite',
     },
     {
       titoloGiorno: 'Giorno 4 — Strasburgo',
@@ -77,6 +83,8 @@ export const rotteDeiViniFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'vigneti-di-francia',
+      immagine: '/images/viaggi/rotte-dei-vini-francia/giorno-4-strasburgo.jpg',
+      imageAlt: 'Le case a graticcio del quartiere Petite France a Strasburgo riflesse nel canale dell\'Ill',
     },
     {
       titoloGiorno: 'Giorno 5 — Trasferimento a Reims',
@@ -85,6 +93,8 @@ export const rotteDeiViniFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'vigneti-di-francia',
+      immagine: '/images/viaggi/rotte-dei-vini-francia/giorno-5-reims.jpg',
+      imageAlt: 'La facciata gotica della Cattedrale di Notre-Dame di Reims con il rosone e le torri gemelle',
     },
     {
       titoloGiorno: 'Giorno 6 — Una crayère di Champagne',
@@ -94,6 +104,8 @@ export const rotteDeiViniFranciaMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'appuntamento consigliato per le grandi maison',
       destinazioneSlug: 'vigneti-di-francia',
+      immagine: '/images/viaggi/rotte-dei-vini-francia/giorno-6-crayere.jpg',
+      imageAlt: 'Una galleria sotterranea scavata nel gesso a Reims, con le rastrelliere di bottiglie di Champagne in affinamento',
     },
     {
       titoloGiorno: 'Giorno 7 — Épernay e l\'Avenue de Champagne',
@@ -102,12 +114,16 @@ export const rotteDeiViniFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'vigneti-di-francia',
+      immagine: '/images/viaggi/rotte-dei-vini-francia/giorno-7-epernay.jpg',
+      imageAlt: 'La facciata storica della maison Moët & Chandon, fondata nel 1743, sull\'Avenue de Champagne a Épernay',
     },
     {
       titoloGiorno: 'Giorno 8 — Rientro',
       tratta: 'Rientro verso Parigi',
       intensita: 'leggero',
       destinazioneSlug: 'vigneti-di-francia',
+      immagine: '/images/viaggi/rotte-dei-vini-francia/giorno-8-rientro.jpg',
+      imageAlt: 'Un TGV in stazione a Reims, pronto a ripartire verso Parigi',
     },
   ],
   budget: [

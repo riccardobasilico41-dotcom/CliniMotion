@@ -51,6 +51,8 @@ export const settimanaBiancaFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'sciare-in-francia',
+      immagine: '/images/viaggi/settimana-bianca-francia/giorno-01-arrivo.jpg',
+      imageAlt: 'Vista dall\'alto della stazione di Val Thorens, con i residence e le piste innevate',
     },
     {
       titoloGiorno: 'Giorno 2 — Sci nel comprensorio principale',
@@ -59,6 +61,8 @@ export const settimanaBiancaFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'sciare-in-francia',
+      immagine: '/images/viaggi/settimana-bianca-francia/giorno-02-comprensorio.jpg',
+      imageAlt: 'Le gole della Daille e le piste verso Val-d\'Isère, viste dalla diga di Tignes',
     },
     {
       titoloGiorno: 'Giorno 3 — Sci nel comprensorio principale',
@@ -67,6 +71,8 @@ export const settimanaBiancaFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'sciare-in-francia',
+      immagine: '/images/viaggi/settimana-bianca-francia/giorno-03-comprensorio2.jpg',
+      imageAlt: 'Le vette innevate del comprensorio delle Trois Vallées, viste dal Col du Gollet',
     },
     {
       titoloGiorno: 'Giorno 4 — Giornata in una valle laterale o a Chamonix',
@@ -76,6 +82,8 @@ export const settimanaBiancaFranciaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'prenotazione online con fascia oraria consigliata',
       destinazioneSlug: 'sciare-in-francia',
+      immagine: '/images/viaggi/settimana-bianca-francia/giorno-04-aiguilledumidi.jpg',
+      imageAlt: 'La terrazza della stazione dell\'Aiguille du Midi, con il massiccio del Monte Bianco sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 5 — Sci libero',
@@ -84,6 +92,8 @@ export const settimanaBiancaFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'sciare-in-francia',
+      immagine: '/images/viaggi/settimana-bianca-francia/giorno-05-scialpinismo.jpg',
+      imageAlt: 'Un gruppo di scialpinisti in salita con le pelli su un pendio innevato vicino a Chamonix, in controluce',
     },
     {
       titoloGiorno: 'Giorno 6 — Sci libero',
@@ -92,12 +102,16 @@ export const settimanaBiancaFranciaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'sciare-in-francia',
+      immagine: '/images/viaggi/settimana-bianca-francia/giorno-06-scilibero.jpg',
+      imageAlt: 'Piste appena battute sul ghiacciaio della Grande Motte, nel comprensorio di Tignes',
     },
     {
       titoloGiorno: 'Giorno 7 — Ultima mattina e partenza',
       tratta: 'Ultima mattina sugli sci, partenza',
       intensita: 'leggero',
       destinazioneSlug: 'sciare-in-francia',
+      immagine: '/images/viaggi/settimana-bianca-francia/giorno-07-partenza.jpg',
+      imageAlt: 'Il centro del villaggio di Courchevel 1850 innevato, con gli chalet e l\'ufficio del turismo',
     },
   ],
   budget: [

@@ -58,6 +58,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'dormire a Praiano o Minori costa una frazione di Positano e Amalfi, sulla stessa costa',
       destinazioneSlug: 'costiera-amalfitana',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-1-positano.jpg',
+      imageAlt: 'Positano al tramonto, con le case colorate arrampicate sulla costa e le barche nella baia',
     },
     {
       titoloGiorno: 'Giorno 2 — Il Sentiero degli Dei',
@@ -67,6 +69,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'il sentiero è gratuito; la discesa finale su Positano è di oltre 1.700 gradini',
       destinazioneSlug: 'costiera-amalfitana',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-2-sentiero-degli-dei.jpg',
+      imageAlt: 'Il Sentiero degli Dei in quota, con Positano e la costa sottostante e Capri all\'orizzonte',
     },
     {
       titoloGiorno: 'Giorno 3 — Amalfi, Atrani e Ravello',
@@ -76,6 +80,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Villa Rufolo e Villa Cimbrone hanno biglietti contenuti',
       destinazioneSlug: 'costiera-amalfitana',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-3-amalfi-duomo.jpg',
+      imageAlt: 'Il Duomo di Amalfi con la scalinata monumentale e il campanile decorato a maioliche',
     },
     {
       titoloGiorno: 'Giorno 4 — La costa orientale e la Valle delle Ferriere',
@@ -85,6 +91,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'alcuni tratti della riserva hanno accesso regolamentato; la Grotta dello Smeraldo dipende dallo stato del mare',
       destinazioneSlug: 'costiera-amalfitana',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-4-valle-ferriere.jpg',
+      imageAlt: 'Una cascata nella Valle delle Ferriere, la riserva naturale umida sopra Amalfi',
     },
     {
       titoloGiorno: 'Giorno 5 — Trasferimento a Capri',
@@ -94,6 +102,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'Capri costa di più, ma dormirci significa vederla dopo che i giornalieri sono ripartiti',
       destinazioneSlug: 'isole-golfo-napoli',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-5-marina-grande-capri.jpg',
+      imageAlt: 'Avvicinamento in traghetto a Capri, con Marina Grande e la montagna dell\'isola',
     },
     {
       titoloGiorno: 'Giorno 6 — Capri, dall\'alto e dal mare',
@@ -103,6 +113,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'la seggiovia costa pochissimo; la Grotta Azzurra vale solo se il mare è giusto e non c\'è fila',
       destinazioneSlug: 'isole-golfo-napoli',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-6-faraglioni-capri.jpg',
+      imageAlt: 'I Faraglioni di Capri visti dall\'alto, con una barca a vela ancorata nella baia',
     },
     {
       titoloGiorno: 'Giorno 7 — Ischia: il Castello e le terme',
@@ -112,6 +124,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'i parchi termali si pagano a giornata; le sorgenti libere come Sorgeto sono gratuite',
       destinazioneSlug: 'isole-golfo-napoli',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-7-castello-aragonese.jpg',
+      imageAlt: 'Il Castello Aragonese di Ischia su un isolotto di roccia collegato da un ponte',
     },
     {
       titoloGiorno: 'Giorno 8 — Ischia: l\'Epomeo, Sorgeto e La Mortella',
@@ -121,6 +135,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'a Sorgeto servono scarpe di gomma: i sassi vicino alle bocche scottano davvero',
       destinazioneSlug: 'isole-golfo-napoli',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-8-sorgeto.jpg',
+      imageAlt: 'La baia di Sorgeto a Ischia, con le persone immerse nelle pozze di acqua termale tra gli scogli',
     },
     {
       titoloGiorno: 'Giorno 9 — Procida e rientro',
@@ -128,6 +144,8 @@ export const costieraEIsoleMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Procida ha i prezzi più bassi delle tre isole; l\'accesso a Vivara è contingentato',
       destinazioneSlug: 'isole-golfo-napoli',
+      immagine: '/images/viaggi/costiera-e-isole/giorno-9-marina-corricella.jpg',
+      imageAlt: 'Marina Corricella a Procida, il borgo di pescatori con le case dipinte di rosa, giallo e ocra affacciate sul porto',
     },
   ],
   budget: [

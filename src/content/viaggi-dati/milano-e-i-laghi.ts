@@ -57,6 +57,8 @@ export const milanoEILaghiMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'terrazze del Duomo in biglietto separato o cumulativo; il cortile del Castello è gratuito',
       destinazioneSlug: 'milano-nord',
+      immagine: '/images/viaggi/milano-e-i-laghi/giorno-1-duomo.jpg',
+      imageAlt: 'La facciata gotica del Duomo di Milano vista dal basso, con le guglie di marmo e i visitatori in piazza',
     },
     {
       titoloGiorno: 'Giorno 2 — Cenacolo, Sant\'Ambrogio e la Milano contemporanea',
@@ -64,6 +66,8 @@ export const milanoEILaghiMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Cenacolo solo su prenotazione rilasciata a scaglioni mesi prima; HangarBicocca e Cimitero Monumentale a ingresso gratuito, da riverificare',
       destinazioneSlug: 'milano-nord',
+      immagine: '/images/viaggi/milano-e-i-laghi/giorno-2-sant-ambrogio.jpg',
+      imageAlt: 'La facciata romanica della Basilica di Sant\'Ambrogio a Milano vista attraverso il quadriportico',
     },
   ],
   budget: [

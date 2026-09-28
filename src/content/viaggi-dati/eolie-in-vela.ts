@@ -58,6 +58,8 @@ export const eolieInVelaMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'cambusa acquistata il primo giorno e divisa tra l\'equipaggio',
       destinazioneSlug: 'eolie',
+      immagine: '/images/viaggi/eolie-in-vela/giorno-1-vulcano.jpg',
+      imageAlt: 'Tramonto a Porto di Levante, isola di Vulcano, con lo Scoglio delle Sirene e barche ormeggiate',
     },
     {
       titoloGiorno: 'Giorno 2 — Vulcano e le Sette Piaghe',
@@ -67,6 +69,8 @@ export const eolieInVelaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'accesso al Gran Cratere soggetto a ordinanze: da verificare',
       destinazioneSlug: 'eolie',
+      immagine: '/images/viaggi/eolie-in-vela/giorno-2-gran-cratere-vulcano.jpg',
+      imageAlt: 'Fumarole gialle di zolfo sul bordo del Gran Cratere di Vulcano',
     },
     {
       titoloGiorno: 'Giorno 3 — Lipari: il castello, il museo e la pomice',
@@ -76,6 +80,8 @@ export const eolieInVelaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'l\'accesso agli impianti delle cave da terra è vietato; dal mare si vede tutto',
       destinazioneSlug: 'eolie',
+      immagine: '/images/viaggi/eolie-in-vela/giorno-3-lipari-castello.jpg',
+      imageAlt: 'La cittadella fortificata di Lipari sull\'antica acropoli, vista da Marina Corta',
     },
     {
       titoloGiorno: 'Giorno 4 — Salina: la verde',
@@ -85,6 +91,8 @@ export const eolieInVelaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'cantine di Malvasia su appuntamento; accesso alla spiaggia di Pollara limitato per rischio crollo',
       destinazioneSlug: 'eolie',
+      immagine: '/images/viaggi/eolie-in-vela/giorno-4-pollara-salina.jpg',
+      imageAlt: 'La baia di Pollara a Salina, il mezzo cratere collassato in mare con la falesia a picco',
     },
     {
       titoloGiorno: 'Giorno 5 — Panarea e gli isolotti',
@@ -94,6 +102,8 @@ export const eolieInVelaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Panarea è la più cara dell\'arcipelago in alta stagione',
       destinazioneSlug: 'eolie',
+      immagine: '/images/viaggi/eolie-in-vela/giorno-5-cala-junco-panarea.jpg',
+      imageAlt: 'Cala Junco a Panarea, la baia chiusa ad anfiteatro da pareti di roccia vicino a Punta Milazzese',
     },
     {
       titoloGiorno: 'Giorno 6 — Stromboli: la Sciara del Fuoco',
@@ -103,6 +113,8 @@ export const eolieInVelaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'salita solo con guide autorizzate e fino alla quota consentita dall\'ordinanza in vigore',
       destinazioneSlug: 'eolie',
+      immagine: '/images/viaggi/eolie-in-vela/giorno-6-sciara-del-fuoco.jpg',
+      imageAlt: 'La Sciara del Fuoco di Stromboli al crepuscolo, con i blocchi incandescenti che scendono verso il mare',
     },
     {
       titoloGiorno: 'Giorno 7 — Filicudi o Alicudi: le isole della fine',
@@ -112,12 +124,16 @@ export const eolieInVelaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'sono le isole peggio collegate via traghetto: in barca sono a portata',
       destinazioneSlug: 'eolie',
+      immagine: '/images/viaggi/eolie-in-vela/giorno-7-alicudi.jpg',
+      imageAlt: 'Il profilo conico di Alicudi visto dal mare, senza strade e senza auto',
     },
     {
       titoloGiorno: 'Giorno 8 — Rientro e sbarco',
       tratta: 'Navigazione di rientro e sbarco al porto di partenza',
       intensita: 'leggero',
       destinazioneSlug: 'eolie',
+      immagine: '/images/viaggi/eolie-in-vela/giorno-8-milazzo.jpg',
+      imageAlt: 'La costa di Milazzo vista dal mare in avvicinamento, con le montagne sullo sfondo',
     },
   ],
   budget: [

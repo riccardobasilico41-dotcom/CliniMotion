@@ -57,6 +57,8 @@ export const roma4GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'biglietto Colosseo nominativo con fascia oraria; arena e sotterranei sono biglietti a parte e limitatissimi',
       destinazioneSlug: 'roma',
+      immagine: '/images/viaggi/roma-4-giorni/giorno-1-colosseo.jpg',
+      imageAlt: 'L\'esterno del Colosseo a Roma in una giornata di sole, con gli archi dei quattro livelli ben visibili',
     },
     {
       titoloGiorno: 'Giorno 2 — Vaticano: Musei, Sistina, San Pietro',
@@ -66,6 +68,8 @@ export const roma4GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'prenotazione Musei Vaticani di fatto obbligatoria; basilica gratuita, cupola a pagamento',
       destinazioneSlug: 'roma',
+      immagine: '/images/viaggi/roma-4-giorni/giorno-2-san-pietro.jpg',
+      imageAlt: 'La facciata della Basilica di San Pietro in Vaticano vista di giorno dalla piazza',
     },
     {
       titoloGiorno: 'Giorno 3 — Il centro barocco e la Galleria Borghese',
@@ -75,6 +79,8 @@ export const roma4GiorniMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Galleria Borghese solo su prenotazione con slot a numero chiuso; Pantheon a pagamento dal 2023',
       destinazioneSlug: 'roma',
+      immagine: '/images/viaggi/roma-4-giorni/giorno-3-pantheon.jpg',
+      imageAlt: 'La facciata del Pantheon con il colonnato e la fontana di Piazza della Rotonda a Roma',
     },
     {
       titoloGiorno: 'Giorno 4 — La Roma che non finisce sulle cartoline',
@@ -82,6 +88,8 @@ export const roma4GiorniMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'la domenica l\'Appia è chiusa al traffico; Domus Aurea su prenotazione in giorni limitati',
       destinazioneSlug: 'roma',
+      immagine: '/images/viaggi/roma-4-giorni/giorno-4-appia-antica.jpg',
+      imageAlt: 'Il basolato originale della Via Appia Antica tra i pini, alla periferia di Roma',
     },
   ],
   budget: [

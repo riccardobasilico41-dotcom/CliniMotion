@@ -113,6 +113,8 @@ export const sriLanka2023Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'nallathanniya',
+      immagine: '/images/viaggi/sri-lanka-2023/notte-adams-peak.jpg',
+      imageAlt: "La scalinata affollata di centinaia di pellegrini infreddoliti vicino alla vetta dell'Adam's Peak, poco dopo l'alba",
     },
     {
       titoloGiorno: 'Giorno 7 — Hatton-Nuwara Eliya: piantagioni di tè',

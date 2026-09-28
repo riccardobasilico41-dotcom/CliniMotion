@@ -48,6 +48,8 @@ export const lapponiaSvedeseAbiskoMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'stoccolma',
+      immagine: '/images/viaggi/lapponia-svedese-abisko/giorno-1-stoccolma.jpg',
+      imageAlt: 'Il lungomare illuminato della Gamla Stan di Stoccolma di sera, con le luci degli edifici che si riflettono nell\'acqua',
     },
     {
       titoloGiorno: 'Giorno 2 — Stoccolma → Kiruna (Capodanno)',
@@ -56,6 +58,8 @@ export const lapponiaSvedeseAbiskoMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'kiruna',
+      immagine: '/images/viaggi/lapponia-svedese-abisko/giorno-2-kiruna-kyrka.jpg',
+      imageAlt: 'Vista dall\'alto della caratteristica chiesa di legno rossa di Kiruna, con il campanile a torretta separato e gli alberi autunnali intorno',
     },
     {
       titoloGiorno: 'Giorno 3 — Kiruna → Abisko',
@@ -64,6 +68,8 @@ export const lapponiaSvedeseAbiskoMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'abisko',
+      immagine: '/images/viaggi/lapponia-svedese-abisko/giorno-3-abisko-turiststation.jpg',
+      imageAlt: "La STF Abisko Turiststation innevata, con i suoi edifici in mattoni rossi e le persone che camminano nella neve",
     },
     {
       titoloGiorno: 'Giorno 4 — Abisko: motoslitta e husky sotto l\'aurora',
@@ -73,6 +79,8 @@ export const lapponiaSvedeseAbiskoMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Escursioni: 450-500€ a persona per 3 tour con guida',
       destinazioneSlug: 'abisko',
+      immagine: '/images/viaggi/lapponia-svedese-abisko/giorno-4-aurora-abisko.jpg',
+      imageAlt: 'Aurora boreale verde che danza nel cielo stellato sopra una collina innevata vicino al lago Torneträsk, ad Abisko',
     },
     {
       titoloGiorno: 'Giorno 5 — Abisko → Kiruna',
@@ -81,6 +89,8 @@ export const lapponiaSvedeseAbiskoMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'kiruna',
+      immagine: '/images/viaggi/lapponia-svedese-abisko/giorno-5-kiruna-stazione.jpg',
+      imageAlt: 'La stazione ferroviaria di Kiruna al tramonto invernale, con i binari innevati e un treno merci fermo sotto la linea elettrica',
     },
     {
       titoloGiorno: 'Giorno 6 — Kiruna → Stoccolma',
@@ -89,6 +99,8 @@ export const lapponiaSvedeseAbiskoMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'stoccolma',
+      immagine: '/images/viaggi/lapponia-svedese-abisko/giorno-6-stoccolma-stadshuset.jpg',
+      imageAlt: "Il Municipio di Stoccolma (Stadshuset) visto dal lago ghiacciato, con la gente che passeggia sul ghiaccio in una giornata invernale di sole",
     },
     {
       titoloGiorno: 'Giorno 7 — Rientro',
@@ -97,6 +109,8 @@ export const lapponiaSvedeseAbiskoMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'stoccolma',
+      immagine: '/images/viaggi/lapponia-svedese-abisko/giorno-7-arlanda.jpg',
+      imageAlt: "L'interno del terminal dell'aeroporto di Stoccolma-Arlanda, con le grandi vetrate e i passeggeri in transito",
     },
   ],
   budget: [

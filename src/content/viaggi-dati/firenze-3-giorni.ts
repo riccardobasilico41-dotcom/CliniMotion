@@ -57,6 +57,8 @@ export const firenze3GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'biglietto cumulativo del complesso del Duomo con validità a giorni; cupola solo su prenotazione oraria',
       destinazioneSlug: 'firenze',
+      immagine: '/images/viaggi/firenze-3-giorni/giorno-1-duomo-cupola.jpg',
+      imageAlt: 'La lanterna della cupola del Brunelleschi vista da vicino, con i visitatori sulla terrazza panoramica in cima',
     },
     {
       titoloGiorno: 'Giorno 2 — Uffizi e Oltrarno',
@@ -66,6 +68,8 @@ export const firenze3GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Uffizi con slot fortemente consigliato; Cappella Brancacci con accesso contingentato',
       destinazioneSlug: 'firenze',
+      immagine: '/images/viaggi/firenze-3-giorni/giorno-2-ponte-vecchio.jpg',
+      imageAlt: 'Ponte Vecchio sull\'Arno a Firenze, con le botteghe degli orafi affacciate sul fiume in una giornata di sole',
     },
     {
       titoloGiorno: 'Giorno 3 — Il David, le Cappelle Medicee e la scelta finale',
@@ -73,6 +77,8 @@ export const firenze3GiorniMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Accademia su prenotazione; il Bargello ha il miglior rapporto tra qualità e affollamento della città',
       destinazioneSlug: 'firenze',
+      immagine: '/images/viaggi/firenze-3-giorni/giorno-3-david-accademia.jpg',
+      imageAlt: 'Il David di Michelangelo sotto la tribuna della Galleria dell\'Accademia di Firenze, con i visitatori intorno al piedistallo',
     },
   ],
   budget: [

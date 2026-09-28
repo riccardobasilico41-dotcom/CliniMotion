@@ -57,6 +57,8 @@ export const napoli3GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Cappella Sansevero solo su prenotazione con fascia oraria; Pio Monte della Misericordia a ingresso molto contenuto',
       destinazioneSlug: 'napoli',
+      immagine: '/images/viaggi/napoli-3-giorni/giorno-1-spaccanapoli.jpg',
+      imageAlt: 'Un vicolo affollato dei decumani di Napoli, con i balconi fioriti e la collina del Vomero sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 2 — MANN, Sanità e la collina',
@@ -66,6 +68,8 @@ export const napoli3GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'le Catacombe di San Gennaro sono gestite da una cooperativa del quartiere e il biglietto finanzia quel progetto',
       destinazioneSlug: 'napoli',
+      immagine: '/images/viaggi/napoli-3-giorni/giorno-2-castel-sant-elmo.jpg',
+      imageAlt: 'Vista panoramica su Napoli e il golfo dal belvedere di Castel Sant\'Elmo, sulla collina del Vomero',
     },
     {
       titoloGiorno: 'Giorno 3 — Il Vesuvio, Ercolano e Pompei',
@@ -73,6 +77,8 @@ export const napoli3GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Vesuvio con prenotazione online obbligatoria; biglietti degli scavi con slot consigliati in alta stagione',
       destinazioneSlug: 'napoli',
+      immagine: '/images/viaggi/napoli-3-giorni/giorno-3-pompei-vesuvio.jpg',
+      imageAlt: 'Le rovine del Foro di Pompei con il Vesuvio sullo sfondo, parzialmente coperto dalle nuvole',
     },
   ],
   budget: [

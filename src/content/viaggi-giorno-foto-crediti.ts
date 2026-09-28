@@ -12,6 +12,93 @@ import type { CreditoImmagine } from './viaggi-copertine-crediti'
  */
 
 export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> = {
+  'tour-du-mont-blanc': {
+    'Giorno 1 — Les Houches, partenza': {
+      autore: 'Ymblanter (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Les_Houches_Mont_Blanc_seen_from_Route_de_la_C%C3%B4te_des_Chavants_1.jpg',
+    },
+    'Giorno 2 — Verso il Col du Bonhomme': {
+      autore: 'Dominicus Johannes Bergsma (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Col_De_La_Croix_Du_Bonhomme_(2479_m.)_05.JPG',
+    },
+    'Giorno 3 — Ingresso in Italia, Val Veny': {
+      autore: 'Giorgio Galeotti (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Monte_Bianco_-_Val_Veny,_Courmayeur,_Italia_-_10_Agosto_2016.jpg',
+    },
+    'Giorno 4 — Courmayeur': {
+      autore: 'Rémih (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Courmayeur_Mont_Ch%C3%A9tif.jpg',
+    },
+    'Giorno 5 — Rifugio Bonatti': {
+      autore: 'Cboon (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rifugio_Walter_Bonatti_Refuge.jpg',
+    },
+    'Giorno 6 — Passaggio in Svizzera': {
+      autore: 'Dominicus Johannes Bergsma (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Grand_Col_Ferret_(2537_meter).__02.JPG',
+    },
+    'Giorno 7 — La Fouly, Champex-Lac': {
+      autore: 'Barbara Steinemann (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lac_de_Champex_in_Champex.jpg',
+    },
+    'Giorno 8 — Rientro verso la Francia': {
+      autore: 'Björn S... (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl:
+        "https://commons.wikimedia.org/wiki/File:Panoramic_view_onto_Glacier_du_Tour,_Aiguille_du_Chardonnet,_Glacier_d'Argenti%C3%A8re_and_Aiguille_Verte_(12834233464).jpg",
+    },
+    'Giorno 9 — Chamonix': {
+      autore: 'Ypsilon (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Chamonix_town_view_from_the_Mer_de_Glace_railway.jpg',
+    },
+  },
+  'lapponia-svedese-abisko': {
+    'Giorno 1 — Milano → Stoccolma': {
+      autore: 'Giuseppe Milo (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Stockholm_Skyline_At_Night_(91983391).jpeg',
+    },
+    'Giorno 2 — Stoccolma → Kiruna (Capodanno)': {
+      autore: 'Arild Vågen (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Kiruna_kyrka_September_2017_04.jpg',
+    },
+    'Giorno 3 — Kiruna → Abisko': {
+      autore: 'Arjoopy (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Abisko_Turiststation_in_Winter.jpg',
+    },
+    'Giorno 4 — Abisko: motoslitta e husky sotto l\'aurora': {
+      autore: 'Pavel.shyshkouski (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Aurora_in_Abisko_near_Tornetr%C3%A4sk.jpg',
+    },
+    'Giorno 5 — Abisko → Kiruna': {
+      autore: 'Ludovic Lubeigt (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Train_Station_-_Kiruna,_Sweden_(15123542346).jpg',
+    },
+    'Giorno 6 — Kiruna → Stoccolma': {
+      autore: 'ArildV (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Stockholms_stadshus_February_2026_02.jpg',
+    },
+    'Giorno 7 — Rientro': {
+      autore: 'Andreas Trepte (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.5',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Airport_Arlanda_Sweden.jpg',
+    },
+  },
   'dolomiti-roadtrip': {
     'Val Gardena, Ortisei e la Seceda': {
       autore: 'Stch2022 (Wikimedia Commons)',
@@ -1102,6 +1189,11 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       licenza: 'CC BY-SA 4.0',
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:A_river_through_the_mountain.jpg',
     },
+    'Notte Adam\'s Peak — la sfida fisica del viaggio': {
+      autore: 'Lasitha Sandeepa Kurukula Arachchi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sripada-crowd.jpg',
+    },
     'Giorno 7 — Hatton-Nuwara Eliya: piantagioni di tè': {
       autore: 'Curved.kiwix (Wikimedia Commons)',
       licenza: 'CC BY-SA 4.0',
@@ -1421,6 +1513,774 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       autore: 'Antony-22 (Wikimedia Commons)',
       licenza: 'CC BY-SA 4.0',
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Canc%C3%BAn_International_Airport_2024a.jpg',
+    },
+  },
+  'provenza-camargue': {
+    'Giorno 10 — Un castello cataro o Carcassonne, e partenza': {
+      autore: 'Daniel Lepoittevin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Enter_The_Fortress_(258300379).jpeg',
+    },
+    'Giorno 9 — Le Calanques': {
+      autore: 'Chabe01 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Calanque_En_Vau_Marseille_29.jpg',
+    },
+    'Giorno 8 — Aix-en-Provence e Marsiglia': {
+      autore: 'Clément Bardot (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vieux-Port_de_Marseille,_France.jpg',
+    },
+    'Giorno 7 — Le Gole del Verdon': {
+      autore: 'Benh LIEU SONG (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gorges_Verdon_Barrage_Sainte_Croix.jpg',
+    },
+    'Giorno 6 — Il Luberon e la lavanda (se in stagione)': {
+      autore: 'Einaz80 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lavender_field_near_Valensole_3.jpg',
+    },
+    'Giorno 5 — Aigues-Mortes e le Alpilles': {
+      autore: 'Benjamin Smith (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Aigues-Mortes_-_Ramparts_at_sunset_-_02.jpg',
+    },
+    'Giorno 4 — Camargue': {
+      autore: 'Compo (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Pink_Flamingos_in_the_Camargue.jpg',
+    },
+    'Giorno 3 — Arles e la Camargue': {
+      autore: 'PierreSelim (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Arles_-_2017-05-24_-_Roman_Amphitheatre_-_3804.jpg',
+    },
+    'Giorno 2 — Pont du Gard e Nîmes': {
+      autore: 'Wolfgang Moroder (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Pont_du_Gard_2017.jpg',
+    },
+    'Giorno 1 — Avignone': {
+      autore: 'Acediscovery (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Palais-des-Papes-Avignon-June-2012.jpg',
+    },
+  },
+  'costa-azzurra': {
+    'Giorno 8 — Partenza, o estensione nel Mercantour': {
+      autore: 'Eebie (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vallee_des_Merveilles-lacs1.jpg',
+    },
+    'Giorno 7 — Grasse e le colline del profumo': {
+      autore: 'Olivier Cleynen (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tourrettes-sur-Loup_seen_from_the_east.jpg',
+    },
+    'Giorno 6 — Cannes e le Isole di Lerino': {
+      autore: 'Abxbay (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ile_sainte_marguerite_fort_royal.JPG',
+    },
+    'Giorno 5 — Èze, La Turbie e Monaco': {
+      autore: 'Tobi 87 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Èze_und_Cap_Ferrat-Grande_Corniche.jpg',
+    },
+    'Giorno 4 — Saint-Paul-de-Vence e Vence': {
+      autore: 'Pom² (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Saint_paul_de_vence_panorama.jpg',
+    },
+    'Giorno 3 — Nizza': {
+      autore: 'Mike is Michi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Baie_des_Anges_and_Promenade_des_Anglais_Nice_2026.JPG',
+    },
+    'Giorno 2 — Il Cap d\'Antibes a piedi': {
+      autore: 'Gilbert Bochenek (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sentier_du_Littoral,_Cap_d%27Antibes-France.jpg',
+    },
+    'Giorno 1 — Antibes: la città vecchia e il porto': {
+      autore: 'Evgenii Novikov (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Антиб._Вид_на_порт_Вобан_и_старый_город.jpg',
+    },
+  },
+  'tromso': {
+    'Giorno 5 — Tempo libero e partenza': {
+      autore: 'Lee Dyer (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Polaria_winter.jpg',
+    },
+    'Giorno 4 — Cultura sami e renne': {
+      autore: 'Nicolas Buffler (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Reindeer_husbandry_in_Saariselkä,_2019_(40293963903).jpg',
+    },
+    'Giorno 3 — Husky sledding': {
+      autore: 'Randi Hausken (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mushing_(5293678449).jpg',
+    },
+    'Giorno 2 — Aurora chase in minibus': {
+      autore: 'Andi Gentsch (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Aurora_Borealis_Tromsø_Norway.jpg',
+    },
+    'Giorno 1 — Arrivo a Tromsø': {
+      autore: 'Gaute Bruvik / Tromsø kommune (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tromsdalen_kirke_(Ishavskatedralen)_-_The_Arctic_Cathedral_(5557802765).jpg',
+    },
+  },
+  'costiera-e-isole': {
+    'Giorno 1 — Arrivo e prima sera in Costiera': {
+      autore: 'Thomas Fabian (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Positano_at_sunset1.jpg',
+    },
+    'Giorno 2 — Il Sentiero degli Dei': {
+      autore: 'Wolfgang Moroder (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sentiero_degli_Dei_26_sopra_Positano_Campania.jpg',
+    },
+    'Giorno 3 — Amalfi, Atrani e Ravello': {
+      autore: 'Berthold Werner (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Amalfi_BW_2013-05-15_10-09-21.jpg',
+    },
+    'Giorno 4 — La costa orientale e la Valle delle Ferriere': {
+      autore: 'LuciaPuzziello (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:To_the_realm_of_fairies.jpg',
+    },
+    'Giorno 5 — Trasferimento a Capri': {
+      autore: 'Wolfgang Moroder (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Marina_Grande_Capri.jpg',
+    },
+    'Giorno 6 — Capri, dall\'alto e dal mare': {
+      autore: 'Marlis Börger (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Capri_Faraglioni_with_boat.jpg',
+    },
+    'Giorno 7 — Ischia: il Castello e le terme': {
+      autore: 'Dudva (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Castello_Aragonese_(Ischia).jpg',
+    },
+    'Giorno 8 — Ischia: l\'Epomeo, Sorgeto e La Mortella': {
+      autore: "Manu'ndroid (Wikimedia Commons)",
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ischia,_Sorgeto.jpeg',
+    },
+    'Giorno 9 — Procida e rientro': {
+      autore: 'Velvet (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Procida_Marina_Corricella.jpg',
+    },
+  },
+  'eolie-in-vela': {
+    'Giorno 1 — Imbarco a Milazzo e trasferimento a Vulcano': {
+      autore: 'Tartaruga86 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sunset_in_Aeolian_Islands.jpg',
+    },
+    'Giorno 2 — Vulcano e le Sette Piaghe': {
+      autore: 'Francesco Tosoni (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vulcano_(isola)._Solfatara_(01422).JPG',
+    },
+    'Giorno 3 — Lipari: il castello, il museo e la pomice': {
+      autore: 'Jeanne boleyn (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lipari_castle_on_acropolis.jpeg',
+    },
+    'Giorno 4 — Salina: la verde': {
+      autore: 'fab. (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Eolie_salina_2.jpg',
+    },
+    'Giorno 5 — Panarea e gli isolotti': {
+      autore: 'GerritR (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cala_Junco.JPG',
+    },
+    'Giorno 6 — Stromboli: la Sciara del Fuoco': {
+      autore: 'Unukorno (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Stromboli_sciara_del_fuoco_in_september_2014.jpg',
+    },
+    'Giorno 7 — Filicudi o Alicudi: le isole della fine': {
+      autore: 'Stephen kleckner (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Isola_di_Alicudi_vista_dal_mare_by_Stephne_Kleckner.jpg',
+    },
+    'Giorno 8 — Rientro e sbarco': {
+      autore: 'Dedda71 (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Milazzo_harbour.jpg',
+    },
+  },
+  'stopover-golfo': {
+    'Giorno 1 — Dubai, le prime 24 ore': {
+      autore: 'CT Cooper (Wikimedia Commons)',
+      licenza: 'Public Domain',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Abra_with_passengers_in_Dubai_Creek.jpg',
+    },
+    'Giorno 2 — Dubai, il secondo giorno': {
+      autore: 'Desertsafarideals (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Desert_Dune.jpg',
+    },
+    'Giorno 3 — Abu Dhabi, lo stopover Etihad': {
+      autore: 'Guilhem Vellut (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sheikh_Zayed_Grand_Mosque_@_Abu_Dhabi_(15856602738).jpg',
+    },
+    'Giorno 4 — Abu Dhabi, il Louvre e il deserto': {
+      autore: 'Boubloub (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:LouvreAD_water.jpg',
+    },
+    'Giorno 5 — Doha, lo stopover da quattordici dollari': {
+      autore: 'Mohamod Fasil (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:IslamicArtMuseumDohaSkyline.jpg',
+    },
+    'Giorno 6 — Doha, l\'inland sea': {
+      autore: 'FLASHPACKER TRAVELGUIDE (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Khor_Al_Adaid_Inland_Sea_and_desert_in_Katar.jpg',
+    },
+    'Giorno 7 — Jeddah, lo stopover saudita': {
+      autore: 'Francisco Anzola (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Green_woodwork_in_old_Jeddah_(Al_Balad)_October_8_2021.jpg',
+    },
+  },
+  'isole-siciliane': {
+    'Giorno 1 — Trapani e sbarco a Favignana': {
+      autore: 'Davide Mauro / Codas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Porto_di_Favignana_02.jpg',
+    },
+    'Giorno 2 — Favignana in bicicletta': {
+      autore: 'Davide Mauro / Codas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cala_Rossa,_Favignana_02.jpg',
+    },
+    'Giorno 3 — Levanzo e la Grotta del Genovese': {
+      autore: 'Civa61 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Levanzo_paese.jpg',
+    },
+    'Giorno 4 — Marettimo': {
+      autore: 'sctkirk (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:The_Castle_of_Marettimo_(36357071461).jpg',
+    },
+    'Giorno 5 — Trasferimento a Pantelleria e primo giro': {
+      autore: 'Nathill2512 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:Arco_dell'Elefante.jpg",
+    },
+    'Giorno 6 — Lo Specchio di Venere, Benikulà e la Montagna Grande': {
+      autore: 'Luca Volpi / Goldmund100 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_Lago_specchio_di_venere.jpg',
+    },
+    'Giorno 7 — I vigneti, i capperi e il Passito': {
+      autore: 'Mario Squitieri (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Heroic_Agricolture.jpg',
+    },
+    'Giorno 8 — Pantelleria dal mare': {
+      autore: 'Michael Leithold (Wikimedia Commons)',
+      licenza: 'Public Domain',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Dammuso_in_Pantelleria,_Sicily.JPG',
+    },
+    'Giorno 9 — Giornata di transito': {
+      autore: 'EdoBoo (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:External_view_of_Palermo_Airport.jpg',
+    },
+    'Giorno 10 — Lampedusa e la Spiaggia dei Conigli': {
+      autore: 'ALY MOHAMED YOUSSEF (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:SPIAGGIA_DEI_CONIGLI_LAMPEDUSA_1.jpg',
+    },
+    'Giorno 11 — In barca, o Linosa': {
+      autore: 'Luca Siragusa (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tabaccara,_Lampedusa_(5253890675).jpg',
+    },
+    'Giorno 12 — Partenza': {
+      autore: 'Carlo Dani (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Aeroporto_di_Lampedusa.jpg',
+    },
+  },
+  'grandi-citta-italia': {
+    'Giorno 1 — Arrivo a Roma': {
+      autore: 'Jorge Franganillo (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Roma_Piazza_di_Santa_Maria_in_Trastevere_(52470998325).jpg',
+    },
+    'Giorno 2 — Roma antica': {
+      autore: 'Stefano Lovato (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Il_Foro_Romano_verso_il_Colosseo_(27556348350).jpg',
+    },
+    'Giorno 3 — Vaticano e le chiese': {
+      autore: 'David Iliff (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:St_Peter's_Square,_Vatican_City_-_April_2007.jpg",
+    },
+    'Giorno 4 — La Roma sotterranea e l\'Appia': {
+      autore: 'Palickap (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Roma,_Via_Appia_Antica_(04).jpg',
+    },
+    'Giorno 5 — Alta velocità per Firenze': {
+      autore: 'Giorgio Galeotti (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Firenze_-_Basilica_di_San_Miniato_al_Monte,_Florence,_Italy_-_April_6,_2015_02.jpg',
+    },
+    'Giorno 6 — La cupola e gli Uffizi': {
+      autore: 'Senpai (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.5',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cupola_Santa_Maria_del_Fiore.JPG',
+    },
+    'Giorno 8 — Alta velocità per Venezia': {
+      autore: 'Derbrauni (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Canal_Grande_at_Stazione_di_Venezia_Santa_Lucia.jpg',
+    },
+    'Giorno 9 — Venezia all\'alba e la Scuola di San Rocco': {
+      autore: 'Armin Kleiner (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Venice,_San_Polo,_Mercato_del_Pesce_i1.jpg',
+    },
+    'Giorno 10 — La laguna': {
+      autore: 'Anoixe (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Case_di_Burano.jpg',
+    },
+    'Giorno 11 — Alta velocità per Napoli': {
+      autore: 'MM (Wikimedia Commons)',
+      licenza: 'Public Domain',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:NapoliPanoramaDaSanMartino.jpg',
+    },
+    'Giorno 7 — Il museo che nessuno fa': {
+      autore: 'Sailko (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lorenzo_ghiberti,_porta_del_paradiso,_1425-52,_00.JPG',
+    },
+    'Giorno 12 — Pompei ed Ercolano, e rientro': {
+      autore: 'Tracey Hind (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:View_of_Vesuvius_from_Via_Dell'Abbondanza,_Pompeii_(52786200781).jpg",
+    },
+  },
+  'bordeaux-e-vigneti': {
+    'Giorno 1 — Bordeaux città': {
+      autore: 'Mith (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Place_de_la_Bourse,_Bordeaux.jpg',
+    },
+    'Giorno 2 — La Cité du Vin e i Chartrons': {
+      autore: 'Chris06 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bordeaux_Quai_de_Bacalan_(1).jpg',
+    },
+    'Giorno 3 — Saint-Émilion': {
+      autore: 'Chris06 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:2023_%C3%89glise_monolithe_de_Saint-%C3%89milion_(01).jpg',
+    },
+    'Giorno 4 — Pomerol e i Graves': {
+      autore: 'Pascal3012 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Pomerol.jpg',
+    },
+    'Giorno 5 — Il Médoc': {
+      autore: 'Slywire (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Chateau_La_Tour_de_By_Vignoble.jpg',
+    },
+    'Giorno 6 — Sauternes': {
+      autore: 'Megan Mallen (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Doisy-V%C3%A9drines,_Barsac,_Sauternes_noble_rot_grapes.jpg",
+    },
+    'Giorno 7 — Bacino di Arcachon': {
+      autore: 'Seriousgroove (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Dune_du_Pyla.JPG',
+    },
+  },
+  'firenze-3-giorni': {
+    'Giorno 1 — Il complesso del Duomo e il centro': {
+      autore: 'Senpai (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.5',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cupola_Santa_Maria_del_Fiore.JPG',
+    },
+    'Giorno 2 — Uffizi e Oltrarno': {
+      autore: 'Jebulon (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_Arno_Florence.jpg',
+    },
+    'Giorno 3 — Il David, le Cappelle Medicee e la scelta finale': {
+      autore: 'Dimitris Kamaras (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        "https://commons.wikimedia.org/wiki/File:Michelangelo's_David,_Galleria_dell'Accademia,_Florence_(26612167281).jpg",
+    },
+  },
+  'roma-4-giorni': {
+    'Giorno 1 — La Roma antica: Colosseo, Foro, Palatino': {
+      autore: 'Debashritaiitmandi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Colosseum_Rome_DSC06208.jpg',
+    },
+    'Giorno 2 — Vaticano: Musei, Sistina, San Pietro': {
+      autore: 'Paris Orlando / NikonZ7II (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:Facade_of_Saint_Peter's_Basilica_in_day.jpg",
+    },
+    'Giorno 3 — Il centro barocco e la Galleria Borghese': {
+      autore: 'Nicholas Hartmann (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rome_Pantheon_facade_and_Piazza_della_Rotonda.jpg',
+    },
+    'Giorno 4 — La Roma che non finisce sulle cartoline': {
+      autore: 'Rincewindbpmeu (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Appian_Way_as_seen_from_Mausoleum_of_the_Curiazi.jpg',
+    },
+  },
+  'venezia-3-giorni': {
+    'Giorno 1 — San Marco, ma all\'ora giusta': {
+      autore: 'Nino Barbieri (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.5',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:Venice_-_St._Marc's_Basilica_01.jpg",
+    },
+    'Giorno 2 — Dorsoduro, i Frari e San Rocco': {
+      autore: 'Wolfgang Moroder (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Basilica_Santa_Maria_della_Salute_Canal_Grande_Dorsoduro_Venezia.jpg',
+    },
+    'Giorno 3 — Cannaregio, il Ghetto e le isole': {
+      autore: 'Jorge Franganillo (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Burano_-_canal_and_colourful_houses_(35262836603).jpg',
+    },
+  },
+  'napoli-3-giorni': {
+    'Giorno 1 — I decumani, il Cristo Velato e la Napoli sotterranea': {
+      autore: 'Alpha 350 (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Spaccanapoli,_Via_dei_Tribunali,_Naples,_Italy_(18036064939).jpg',
+    },
+    'Giorno 2 — MANN, Sanità e la collina': {
+      autore: 'Argo Navis (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:View_of_Naples_from_Castel_Sant'Elmo_20230622_01.jpg",
+    },
+    'Giorno 3 — Il Vesuvio, Ercolano e Pompei': {
+      autore: 'Brian Jeffery Beggerly (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Pompeii,_December_2023_IMG_7708_(54186985376).jpg',
+    },
+  },
+  'torino-2-giorni': {
+    'Giorno 1 — Museo Egizio, piazze e caffè': {
+      autore: 'Jeanne Griffin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Turin_Palazzo_Madama_Juvarra_facade_22-3-22.jpg',
+    },
+    'Giorno 2 — La Mole, il fiume e la collina': {
+      autore: 'Wikibusters (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mole_Antonelliana_in_Turin.jpg',
+    },
+  },
+  'milano-e-i-laghi': {
+    'Giorno 1 — Duomo, centro, Brera e Castello': {
+      autore: 'l0da_ralta (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Duomo_facade,_Milan,_Italy_(9471457573).jpg',
+    },
+    'Giorno 2 — Cenacolo, Sant\'Ambrogio e la Milano contemporanea': {
+      autore: 'Threecharlie (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        "https://commons.wikimedia.org/wiki/File:Basilica_di_Sant'Ambrogio,_facciata_e_quadriportico_(Milano).jpg",
+    },
+  },
+  'parigi-5-giorni': {
+    'Giorno 1 — Île de la Cité e il centro storico': {
+      autore: 'Dietmar Rabich (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Paris,_Notre_Dame_--_2014_--_1434.jpg',
+    },
+    'Giorno 2 — Il Louvre': {
+      autore: 'Pedro Szekely (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:North_facade_of_the_Denon_Wing_%26_Louvre_Pyramid,_1_May_2018.jpg',
+    },
+    'Giorno 3 — Orsay, Orangerie e Torre Eiffel': {
+      autore: 'NonOmnisMoriar (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Eiffel_tower_from_trocadero.jpg',
+    },
+    'Giorno 4 — Montmartre all\'alba e Versailles': {
+      autore: 'Pedro Szekely (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:Sacr%C3%A9-C%C5%93ur_Basilica_in_Montmartre,_2_May_2018.jpg",
+    },
+    'Giorno 5 — Quartieri e chiusura': {
+      autore: 'Pierre-Yves Beaudouin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cemetery_P%C3%A8re-Lachaise_in_autumn_01.jpg',
+    },
+  },
+  'rotte-dei-vini-itinerario': {
+    'Giorno 1 — Arrivo nelle Langhe': {
+      autore: 'Phalaenopsis Aphrodite (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Langhe.jpg',
+    },
+    'Giorno 2 — Barolo': {
+      autore: 'Megan Mallen (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Nebbiolo_vines_above_town_of_Barolo.jpg',
+    },
+    'Giorno 3 — Barbaresco e Roero': {
+      autore: 'David Haberthür (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Barbaresco_vineyard.jpg',
+    },
+    'Giorno 4 — Trasferimento in Valpolicella': {
+      autore: 'Aaron Epstein (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Stitched_Panorama_of_Valpolicella_vineyard.jpg',
+    },
+    'Giorno 5 — Amarone, Valpolicella e Soave': {
+      autore: 'Casa del Vino (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Soave_Castle.jpg',
+    },
+    'Giorno 6 — Le colline del Prosecco': {
+      autore: 'Civvì (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Pentagono_del_Cartizze_01.jpg',
+    },
+    'Giorno 7 — Chianti Classico': {
+      autore: 'Tom Chance (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vineyards_in_the_Chianti_Classico_valleys.jpg',
+    },
+    'Giorno 8 — Montalcino': {
+      autore: 'Bjørn Christian Tørrissen (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Montalcino-Skyline-2012.JPG',
+    },
+    'Giorno 9 — La Val d\'Orcia': {
+      autore: 'JP Vets (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cipressi_pellegrini.jpg',
+    },
+    'Giorno 10 — Rientro': {
+      autore: 'Maëlick (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Florence_Sunset_-_Flickr_-_Ma%C3%ABlick.jpg',
+    },
+  },
+  'castelli-loira': {
+    'Giorno 1 — Arrivo e Blois': {
+      autore: 'Cussenot (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Blois_-_Fa%C3%A7ade_des_Loges.jpg',
+    },
+    'Giorno 2 — Chambord': {
+      autore: 'Krzysztof Golik (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:North-west_facade_of_the_Castle_of_Chambord_06.jpg',
+    },
+    'Giorno 3 — Chenonceau e Amboise': {
+      autore: 'Giladtop (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chenonceau_on_a_cloudy_day.jpg',
+    },
+    'Giorno 4 — In bicicletta lungo la Loira': {
+      autore: 'Guillaume Boulanger (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/37553948/',
+    },
+    'Giorno 5 — Villandry e Azay-le-Rideau': {
+      autore: 'LonganimE (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.5',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Villandry_vue_des_jardins.JPG',
+    },
+    'Giorno 6 — Cheverny o Fontevraud, e partenza': {
+      autore: 'Jean-Christophe BENOIST (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cheverny-Chateau-VueFrontale.jpg',
+    },
+  },
+  'settimana-bianca': {
+    'Giorno 1 — Arrivo e ritiro dell\'attrezzatura': {
+      autore: 'Kallerna (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:3_Zinnen_Dolomites_ski_resort_1.jpg',
+    },
+    'Giorno 2 — Rodaggio e ricognizione': {
+      autore: 'RimOrso (Wikimedia Commons)',
+      licenza: 'Public Domain',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:La_pista_Valon_sopra_le_nuvole.jpg',
+    },
+    'Giorno 3 — Il giro del Sellaronda': {
+      autore: 'Michael Karavanov (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gruppo_del_Sella_-_panoramio.jpg',
+    },
+    'Giorno 4 — Giornata tecnica o riposo attivo': {
+      autore: 'MaiDireLollo (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Franchetti.JPG',
+    },
+    'Giorno 5 — Scialpinismo, o la montagna senza impianti': {
+      autore: 'Giacomo Berardi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Scialpinismo_sotto_il_Catinaccio.jpg',
+    },
+    'Giorno 6 — La giornata lunga': {
+      autore: 'Luca Lorenzi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Plan_de_Corones_-_panorama.JPG',
+    },
+    'Giorno 7 — Ultima mattina e rientro': {
+      autore: 'VitVit (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Corvara_sjezdovka_a_lanovka.jpg',
+    },
+  },
+  'rotte-dei-vini-francia': {
+    'Giorno 1 — Arrivo a Colmar': {
+      autore: 'Krzysztof Golik (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Little_Venice_in_Colmar_01.jpg',
+    },
+    'Giorno 2 — Riquewihr e Eguisheim in bicicletta': {
+      autore: 'JopkeB (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Street_in_Riquewihr_2011.jpg',
+    },
+    'Giorno 3 — Route des Vins verso sud': {
+      autore: 'AlineRockstud68 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:La_place_du_Ch%C3%A2teau_Saint-L%C3%A9on_%C3%A0_Eguisheim.jpg',
+    },
+    'Giorno 4 — Strasburgo': {
+      autore: 'Bohyunlee (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Petite_France_of_Strasbourg.jpg',
+    },
+    'Giorno 5 — Trasferimento a Reims': {
+      autore: 'Lumaca (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_de_Reims_(fa%C3%A7ade).jpg',
+    },
+    'Giorno 6 — Una crayère di Champagne': {
+      autore: 'Wes Guild (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/34643419/',
+    },
+    "Giorno 7 — Épernay e l'Avenue de Champagne": {
+      autore: 'Mz~commonswiki (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Headquarters_moet_et_chandon_in_Epernay.JPG',
+    },
+    'Giorno 8 — Rientro': {
+      autore: 'Florian Pépellin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:TGV_en_gare_de_Reims_avant_retour_%C3%A0_Paris_(juillet_2024).JPG',
+    },
+  },
+  'settimana-bianca-francia': {
+    'Giorno 4 — Giornata in una valle laterale o a Chamonix': {
+      autore: 'Christian David (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_of_Aiguille_du_Midi_station_and_Mont_Blanc_glaciers,_Chamonix,_Haute-Savoie.jpg',
+    },
+    'Giorno 2 — Sci nel comprensorio principale': {
+      autore: 'Florian Pépellin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gorges_de_la_Daille_et_Val-d%27Is%C3%A8re_depuis_le_barrage_(f%C3%A9vrier_2026).JPG',
+    },
+    'Giorno 3 — Sci nel comprensorio principale': {
+      autore: 'Rémih (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mont_du_Vallon_@_Col_du_Gollet.jpg',
+    },
+    'Giorno 5 — Sci libero': {
+      autore: 'Webwizzard (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ski_Touring_group_Chamonix_Mont_Blanc.JPG',
+    },
+    'Giorno 1 — Arrivo': {
+      autore: 'Florian Pépellin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Station_de_Val_Thorens_en_hiver_(f%C3%A9vrier_2024)_1.JPG',
+    },
+    'Giorno 6 — Sci libero': {
+      autore: 'Antoine Lamielle (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:2017-01_Grande_Motte_Tignes_01.jpg',
+    },
+    'Giorno 7 — Ultima mattina e partenza': {
+      autore: 'Florian Pépellin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Office_du_tourisme_de_Courchevel_1850_(d%C3%A9cembre_2019).JPG',
+    },
+  },
+  'bulgaria-bansko-rila': {
+    'Giorno 1 — Arrivo a Sofia e trasferimento a Bansko': {
+      autore: 'Colin W (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Old_town_Bansko_-_panoramio.jpg',
+    },
+    'Giorno 2-4 — Sci sulle piste di Bansko': {
+      autore: 'Kallerna (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bansko_ski_2025_16.jpg',
+    },
+    'Giorno 5 — Escursione al Monastero di Rila': {
+      autore: 'Explorer1940 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Rila_Monastery_-_Rozhdestvo_Bogorodichno_01.jpg',
+    },
+    'Giorno 6 — Rientro': {
+      autore: 'Yassen Kounchev (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/19745695/',
     },
   },
 }

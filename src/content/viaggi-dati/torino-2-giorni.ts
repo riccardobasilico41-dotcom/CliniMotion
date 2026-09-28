@@ -57,6 +57,8 @@ export const torino2GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Museo Egizio con fascia oraria prenotata; la Torino+Piemonte Card conviene da tre o quattro musei',
       destinazioneSlug: 'torino',
+      immagine: '/images/viaggi/torino-2-giorni/giorno-1-palazzo-madama.jpg',
+      imageAlt: 'La facciata settecentesca di Palazzo Madama su Piazza Castello a Torino, con le fontane in primo piano',
     },
     {
       titoloGiorno: 'Giorno 2 — La Mole, il fiume e la collina',
@@ -64,6 +66,8 @@ export const torino2GiorniMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'ascensore della Mole in biglietto separato o cumulativo con slot; funicolare a cremagliera per Superga',
       destinazioneSlug: 'torino',
+      immagine: '/images/viaggi/torino-2-giorni/giorno-2-mole-antonelliana.jpg',
+      imageAlt: 'La Mole Antonelliana, simbolo di Torino, vista dal basso contro il cielo',
     },
   ],
   budget: [

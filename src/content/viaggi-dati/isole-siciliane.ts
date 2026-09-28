@@ -58,6 +58,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'aliscafi frequenti da Trapani, venti minuti di traversata',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-01-favignana.jpg',
+      imageAlt: 'Vecchie ancore arrugginite sulla banchina del porto di Favignana, con l\'ex stabilimento Florio e il Monte Santa Caterina sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 2 — Favignana in bicicletta',
@@ -67,6 +69,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'quasi nessuna cala è di sabbia: servono scarpe di gomma',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-02-cala-rossa.jpg',
+      imageAlt: 'Una ciclista sulla scogliera di roccia bianca tagliata di Cala Rossa a Favignana, con il mare turchese e la costa siciliana sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 3 — Levanzo e la Grotta del Genovese',
@@ -76,6 +80,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'la grotta si visita solo con accompagnamento, prenotando: via mare o in fuoristrada',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-03-levanzo.jpg',
+      imageAlt: 'Il piccolo paese bianco di Levanzo affacciato sulla baia con le barche ormeggiate nell\'acqua turchese',
     },
     {
       titoloGiorno: 'Giorno 4 — Marettimo',
@@ -83,6 +89,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Marettimo non ha auto e ha pochissimi posti letto',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-04-marettimo.jpg',
+      imageAlt: 'Il Castello di Punta Troia in cima al promontorio roccioso di Marettimo, raggiunto da un sentiero a tornanti sopra il mare blu',
     },
     {
       titoloGiorno: 'Giorno 5 — Trasferimento a Pantelleria e primo giro',
@@ -92,6 +100,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'voli in continuità territoriale; il traghetto da Trapani viene cancellato spesso con mare mosso',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-05-arco-elefante.jpg',
+      imageAlt: 'L\'Arco dell\'Elefante, la formazione di roccia lavica nera a forma di proboscide che entra nel mare blu a Pantelleria',
     },
     {
       titoloGiorno: 'Giorno 6 — Lo Specchio di Venere, Benikulà e la Montagna Grande',
@@ -101,6 +111,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'la sauna di Benikulà è libera e gratuita; i fanghi del lago anche',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-06-specchio-venere.jpg',
+      imageAlt: 'Vista panoramica del lago Specchio di Venere a Pantelleria, un bacino turchese dentro una caldera circondata da vigneti terrazzati',
     },
     {
       titoloGiorno: 'Giorno 7 — I vigneti, i capperi e il Passito',
@@ -110,6 +122,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'cantine su appuntamento: la visita è gran parte del viaggio',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-07-alberello.jpg',
+      imageAlt: 'Filari di vite ad alberello pantesco coltivate basse tra muretti di pietra lavica a secco, con una persona al lavoro tra i filari',
     },
     {
       titoloGiorno: 'Giorno 8 — Pantelleria dal mare',
@@ -119,6 +133,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'si sceglie la cala in base al vento del giorno, come fanno i panteschi',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-08-dammuso.jpg',
+      imageAlt: 'Un dammuso abbandonato in pietra lavica con il tetto a cupola erboso, circondato da fiori selvatici e con il mare sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 9 — Giornata di transito',
@@ -128,6 +144,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'da prevedere con margine: una cancellazione per vento manda a monte la coincidenza',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-09-transito.jpg',
+      imageAlt: 'L\'ingresso dell\'Aeroporto di Palermo Falcone Borsellino, tappa di coincidenza tra il volo da Pantelleria e quello per Lampedusa',
     },
     {
       titoloGiorno: 'Giorno 10 — Lampedusa e la Spiaggia dei Conigli',
@@ -137,6 +155,8 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'accesso alla riserva contingentato e regolamentato, con regole che cambiano ogni stagione',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-10-conigli.jpg',
+      imageAlt: 'La Spiaggia dei Conigli a Lampedusa, con la sabbia bianca e l\'acqua trasparente dai toni turchesi dentro la baia protetta',
     },
     {
       titoloGiorno: 'Giorno 11 — In barca, o Linosa',
@@ -146,12 +166,16 @@ export const isoleSicilianeMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'alla Tabaccara non si sbarca e l\'ancoraggio è regolamentato',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-11-tabaccara.jpg',
+      imageAlt: 'Barche che sembrano sospese sull\'acqua trasparente color turchese della Tabaccara a Lampedusa, dentro un\'insenatura di roccia calcarea',
     },
     {
       titoloGiorno: 'Giorno 12 — Partenza',
       tratta: 'Volo di rientro, con margine',
       intensita: 'leggero',
       destinazioneSlug: 'isole-siciliane',
+      immagine: '/images/viaggi/isole-siciliane/giorno-12-partenza.jpg',
+      imageAlt: 'L\'aeroporto di Lampedusa con la torre di controllo ENAV e un piccolo aereo in decollo nel cielo azzurro',
     },
   ],
   budget: [

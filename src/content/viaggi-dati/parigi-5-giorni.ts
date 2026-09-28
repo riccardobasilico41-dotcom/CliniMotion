@@ -56,6 +56,8 @@ export const parigi5GiorniMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Sainte-Chapelle solo con il sole',
       destinazioneSlug: 'parigi',
+      immagine: '/images/viaggi/parigi-5-giorni/giorno-1-notre-dame.jpg',
+      imageAlt: 'La facciata di Notre-Dame vista dalla Senna, con un battello sul fiume e i tetti dell\'Île de la Cité',
     },
     {
       titoloGiorno: 'Giorno 2 — Il Louvre',
@@ -65,6 +67,8 @@ export const parigi5GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'prenotazione con fascia oraria di fatto obbligatoria',
       destinazioneSlug: 'parigi',
+      immagine: '/images/viaggi/parigi-5-giorni/giorno-2-louvre.jpg',
+      imageAlt: 'La piramide di vetro del Louvre nella Cour Napoléon, all\'alba con i riflessi sul selciato bagnato',
     },
     {
       titoloGiorno: 'Giorno 3 — Orsay, Orangerie e Torre Eiffel',
@@ -73,6 +77,8 @@ export const parigi5GiorniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'parigi',
+      immagine: '/images/viaggi/parigi-5-giorni/giorno-3-tour-eiffel.jpg',
+      imageAlt: 'La Torre Eiffel vista dal Trocadéro',
     },
     {
       titoloGiorno: 'Giorno 4 — Montmartre all\'alba e Versailles',
@@ -82,6 +88,8 @@ export const parigi5GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Versailles con fascia oraria obbligatoria, chiuso il lunedì',
       destinazioneSlug: 'parigi',
+      immagine: '/images/viaggi/parigi-5-giorni/giorno-4-sacre-coeur.jpg',
+      imageAlt: 'La basilica del Sacré-Cœur a Montmartre in una tranquilla mattina, prima dell\'arrivo dei turisti',
     },
     {
       titoloGiorno: 'Giorno 5 — Quartieri e chiusura',
@@ -90,6 +98,8 @@ export const parigi5GiorniMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'parigi',
+      immagine: '/images/viaggi/parigi-5-giorni/giorno-5-pere-lachaise.jpg',
+      imageAlt: 'I vialetti alberati del cimitero di Père-Lachaise a Parigi in autunno',
     },
   ],
   budget: [

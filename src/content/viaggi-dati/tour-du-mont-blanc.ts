@@ -54,6 +54,8 @@ export const tourDuMontBlancMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-1-les-houches.jpg',
+      imageAlt: 'La vetta innevata del Monte Bianco vista da Les Houches, con i versanti rocciosi e i boschi di larici in primo piano',
     },
     {
       titoloGiorno: 'Giorno 2 — Verso il Col du Bonhomme',
@@ -62,6 +64,8 @@ export const tourDuMontBlancMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-2-col-du-bonhomme.jpg',
+      imageAlt: 'Un gruppo di escursionisti in fila sale il crinale roccioso e innevato del Col de la Croix du Bonhomme',
     },
     {
       titoloGiorno: 'Giorno 3 — Ingresso in Italia, Val Veny',
@@ -70,6 +74,8 @@ export const tourDuMontBlancMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-3-val-veny.jpg',
+      imageAlt: 'Le guglie rocciose del versante italiano del Monte Bianco sopra i prati verdi della Val Veny, con nuvole estive',
     },
     {
       titoloGiorno: 'Giorno 4 — Courmayeur',
@@ -78,6 +84,8 @@ export const tourDuMontBlancMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-4-courmayeur.jpg',
+      imageAlt: 'Vista dall\'alto su Courmayeur, adagiata nella valle tra i boschi, con la strada che serpeggia lungo il fondovalle',
     },
     {
       titoloGiorno: 'Giorno 5 — Rifugio Bonatti',
@@ -86,6 +94,8 @@ export const tourDuMontBlancMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-5-rifugio-bonatti.jpg',
+      imageAlt: 'Il Rifugio Walter Bonatti, edificio in legno e pietra, adagiato su un pendio erboso con le montagne del Val Ferret sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 6 — Passaggio in Svizzera',
@@ -94,6 +104,8 @@ export const tourDuMontBlancMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-6-grand-col-ferret.jpg',
+      imageAlt: 'Il sentiero erboso del Grand Col Ferret, al confine tra Italia e Svizzera, con il ghiacciaio di Pré de Bar sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 7 — La Fouly, Champex-Lac',
@@ -102,6 +114,8 @@ export const tourDuMontBlancMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-7-champex-lac.jpg',
+      imageAlt: 'Il lago di Champex dalle acque turchesi, circondato da boschi di conifere e chalet svizzeri',
     },
     {
       titoloGiorno: 'Giorno 8 — Rientro verso la Francia',
@@ -110,12 +124,16 @@ export const tourDuMontBlancMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-8-rientro-francia.jpg',
+      imageAlt: 'Panorama sulla valle di Chamonix dal versante francese, con le vette innevate del massiccio del Monte Bianco che dominano lo sfondo',
     },
     {
       titoloGiorno: 'Giorno 9 — Chamonix',
       tratta: 'Ultima tappa fino a Chamonix',
       intensita: 'medio',
       destinazioneSlug: 'montagne-francesi',
+      immagine: '/images/viaggi/tour-du-mont-blanc/giorno-9-chamonix.jpg',
+      imageAlt: "Il paese di Chamonix visto dal basso, tra i tetti degli chalet e i boschi, con le nuvole che avvolgono la montagna",
     },
   ],
   budget: [

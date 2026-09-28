@@ -53,6 +53,8 @@ export const castelliLoiraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'castelli-loira',
+      immagine: '/images/viaggi/castelli-loira/giorno-1-blois.jpg',
+      imageAlt: 'La facciata rinascimentale delle Logge del Castello di Blois con le sue arcate sovrapposte',
     },
     {
       titoloGiorno: 'Giorno 2 — Chambord',
@@ -61,6 +63,8 @@ export const castelliLoiraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'castelli-loira',
+      immagine: '/images/viaggi/castelli-loira/giorno-2-chambord.jpg',
+      imageAlt: 'Il Castello di Chambord visto dal fossato, con la celebre selva di camini e torrette sul tetto',
     },
     {
       titoloGiorno: 'Giorno 3 — Chenonceau e Amboise',
@@ -69,6 +73,8 @@ export const castelliLoiraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'castelli-loira',
+      immagine: '/images/viaggi/castelli-loira/giorno-3-chenonceau.jpg',
+      imageAlt: 'Il Castello di Chenonceau con la galleria ad arcate che attraversa il fiume Cher, riflesso nell\'acqua',
     },
     {
       titoloGiorno: 'Giorno 4 — In bicicletta lungo la Loira',
@@ -77,6 +83,8 @@ export const castelliLoiraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'castelli-loira',
+      immagine: '/images/viaggi/castelli-loira/giorno-4-loira-bici.jpg',
+      imageAlt: 'Ciclisti lungo l\'argine della Loira, con un villaggio di tetti in ardesia e il fiume sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 5 — Villandry e Azay-le-Rideau',
@@ -85,12 +93,16 @@ export const castelliLoiraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'castelli-loira',
+      immagine: '/images/viaggi/castelli-loira/giorno-5-villandry.jpg',
+      imageAlt: 'Il Castello di Villandry visto dai suoi giardini rinascimentali a disegni geometrici',
     },
     {
       titoloGiorno: 'Giorno 6 — Cheverny o Fontevraud, e partenza',
       tratta: 'Cheverny o Fontevraud, partenza',
       intensita: 'leggero',
       destinazioneSlug: 'castelli-loira',
+      immagine: '/images/viaggi/castelli-loira/giorno-6-cheverny.jpg',
+      imageAlt: 'La simmetrica facciata classica del Castello di Cheverny vista dal grande viale d\'ingresso',
     },
   ],
   budget: [

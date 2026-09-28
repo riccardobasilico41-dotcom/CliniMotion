@@ -51,6 +51,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'roma',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-01-roma-trastevere.jpg',
+      imageAlt: 'Piazza di Santa Maria in Trastevere a Roma, con la basilica, la fontana ottagonale e i passanti sul selciato',
     },
     {
       titoloGiorno: 'Giorno 2 — Roma antica',
@@ -59,6 +61,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'biglietto unico Colosseo-Foro-Palatino, nominativo: serve il documento originale',
       destinazioneSlug: 'roma',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-02-foro-colosseo.jpg',
+      imageAlt: 'Il Foro Romano all\'alba con le colonne dei templi in primo piano e il Colosseo illuminato sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 3 — Vaticano e le chiese',
@@ -67,6 +71,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Musei Vaticani su prenotazione; chiese gratuite',
       destinazioneSlug: 'roma',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-03-san-pietro.jpg',
+      imageAlt: 'Vista aerea di Piazza San Pietro dal colonnato del Bernini, con l\'obelisco al centro e Roma che si estende sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 4 — La Roma sotterranea e l\'Appia',
@@ -75,6 +81,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'San Clemente ingresso contenuto; Appia Antica gratuita',
       destinazioneSlug: 'roma',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-04-appia-antica.jpg',
+      imageAlt: 'Il basolato originale della Via Appia Antica fiancheggiato dai pini marittimi e dai cipressi',
     },
     {
       titoloGiorno: 'Giorno 5 — Alta velocità per Firenze',
@@ -83,6 +91,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'firenze',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-05-san-miniato.jpg',
+      imageAlt: 'Panorama di Firenze dalla terrazza di San Miniato al Monte, con la cupola del Duomo e il campanile di Giotto in mezzo ai tetti della città',
     },
     {
       titoloGiorno: 'Giorno 6 — La cupola e gli Uffizi',
@@ -91,6 +101,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'cupola con fascia oraria obbligatoria; Uffizi su prenotazione',
       destinazioneSlug: 'firenze',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-06-cupola-uffizi.jpg',
+      imageAlt: 'La lanterna della Cupola del Brunelleschi vista da vicino, con i visitatori affacciati sulla balconata sopra il tetto in cotto',
     },
     {
       titoloGiorno: 'Giorno 7 — Il museo che nessuno fa',
@@ -98,6 +110,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'firenze',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-07-ghiberti.jpg',
+      imageAlt: 'La Porta del Paradiso originale di Lorenzo Ghiberti, i pannelli dorati del Battistero conservati al Museo dell\'Opera del Duomo di Firenze',
     },
     {
       titoloGiorno: 'Giorno 8 — Alta velocità per Venezia',
@@ -107,6 +121,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'dormire in centro esenta dal contributo di accesso',
       destinazioneSlug: 'venezia',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-08-santa-lucia.jpg',
+      imageAlt: 'Il Canal Grande davanti alla stazione di Venezia Santa Lucia, con la cupola verde della chiesa di San Simeon Piccolo e le barche sull\'acqua',
     },
     {
       titoloGiorno: 'Giorno 9 — Venezia all\'alba e la Scuola di San Rocco',
@@ -114,6 +130,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'venezia',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-09-rialto.jpg',
+      imageAlt: 'Il loggiato deserto della Pescheria di Rialto a Venezia nella luce del mattino presto, con le colonne in prospettiva e il canale sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 10 — La laguna',
@@ -123,6 +141,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'il pass vaporetto a tempo si ripaga in una giornata come questa',
       destinazioneSlug: 'venezia',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-10-burano.jpg',
+      imageAlt: 'Un canale di Burano fiancheggiato da case dipinte in colori vivaci, con le barche ormeggiate lungo la riva',
     },
     {
       titoloGiorno: 'Giorno 11 — Alta velocità per Napoli',
@@ -131,6 +151,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'napoli',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-11-napoli.jpg',
+      imageAlt: 'Panorama di Napoli dal Vomero, con il porto, i palazzi del centro e il Vesuvio che domina sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 12 — Pompei ed Ercolano, e rientro',
@@ -138,6 +160,8 @@ export const grandiCittaItaliaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Pompei con biglietto nominativo e tetto di 20.000 visitatori al giorno',
       destinazioneSlug: 'napoli',
+      immagine: '/images/viaggi/grandi-citta-italia/giorno-12-pompei.jpg',
+      imageAlt: 'Il muro di cinta degli scavi di Pompei con un pino ad ombrello in primo piano e il Vesuvio sullo sfondo',
     },
   ],
   budget: [

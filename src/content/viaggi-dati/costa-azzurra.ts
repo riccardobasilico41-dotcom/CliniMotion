@@ -55,6 +55,8 @@ export const costaAzzurraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'costa-azzurra',
+      immagine: '/images/viaggi/costa-azzurra/giorno-1-antibes.jpg',
+      imageAlt: "I tetti e le torri della città vecchia di Antibes visti da Port Vauban, con le barche a vela in primo piano",
     },
     {
       titoloGiorno: 'Giorno 2 — Il Cap d\'Antibes a piedi',
@@ -63,6 +65,8 @@ export const costaAzzurraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'costa-azzurra',
+      immagine: '/images/viaggi/costa-azzurra/giorno-2-cap-antibes.jpg',
+      imageAlt: 'Le scogliere rocciose del sentiero del litorale sul Cap d\'Antibes, con il mare blu intenso',
     },
     {
       titoloGiorno: 'Giorno 3 — Nizza',
@@ -71,6 +75,8 @@ export const costaAzzurraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'costa-azzurra',
+      immagine: '/images/viaggi/costa-azzurra/giorno-3-nizza.jpg',
+      imageAlt: 'Vista dall\'alto sulla Baie des Anges di Nizza, con la Promenade des Anglais e i tetti rossi della città vecchia',
     },
     {
       titoloGiorno: 'Giorno 4 — Saint-Paul-de-Vence e Vence',
@@ -80,6 +86,8 @@ export const costaAzzurraMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'orari della Chapelle du Rosaire molto limitati: da verificare',
       destinazioneSlug: 'costa-azzurra',
+      immagine: '/images/viaggi/costa-azzurra/giorno-4-saint-paul-de-vence.jpg',
+      imageAlt: 'Panorama del borgo collinare di Saint-Paul-de-Vence, cinto dalle mura e circondato dal verde',
     },
     {
       titoloGiorno: 'Giorno 5 — Èze, La Turbie e Monaco',
@@ -88,6 +96,8 @@ export const costaAzzurraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'costa-azzurra',
+      immagine: '/images/viaggi/costa-azzurra/giorno-5-eze.jpg',
+      imageAlt: 'Il villaggio arroccato di Èze sul suo sperone roccioso, con il Cap Ferrat e il mare sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 6 — Cannes e le Isole di Lerino',
@@ -97,6 +107,8 @@ export const costaAzzurraMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'verificare orario ultimo traghetto di rientro',
       destinazioneSlug: 'costa-azzurra',
+      immagine: '/images/viaggi/costa-azzurra/giorno-6-lerino.jpg',
+      imageAlt: "Il Fort Royal sulla scogliera dell'Île Sainte-Marguerite, con una barca a vela in primo piano",
     },
     {
       titoloGiorno: 'Giorno 7 — Grasse e le colline del profumo',
@@ -105,12 +117,16 @@ export const costaAzzurraMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'costa-azzurra',
+      immagine: '/images/viaggi/costa-azzurra/giorno-7-grasse.jpg',
+      imageAlt: "Il villaggio di Tourrettes-sur-Loup arroccato su uno sperone di roccia tra le colline dell'entroterra",
     },
     {
       titoloGiorno: 'Giorno 8 — Partenza, o estensione nel Mercantour',
       tratta: 'Partenza, o estensione di due giorni nel Mercantour',
       intensita: 'leggero',
       destinazioneSlug: 'costa-azzurra',
+      immagine: '/images/viaggi/costa-azzurra/giorno-8-mercantour.jpg',
+      imageAlt: 'I laghi alpini della Vallée des Merveilles nel Parco del Mercantour, circondati da vette rocciose',
     },
   ],
   budget: [

@@ -56,6 +56,8 @@ export const provenzaCamargueMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'provenza',
+      immagine: '/images/viaggi/provenza-camargue/giorno-1-avignone.jpg',
+      imageAlt: 'Le guglie gotiche del Palazzo dei Papi di Avignone contro il cielo azzurro',
     },
     {
       titoloGiorno: 'Giorno 2 — Pont du Gard e Nîmes',
@@ -64,6 +66,8 @@ export const provenzaCamargueMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'provenza',
+      immagine: '/images/viaggi/provenza-camargue/giorno-2-pont-du-gard.jpg',
+      imageAlt: "L'acquedotto romano del Pont du Gard visto dal letto del fiume, con i suoi tre livelli di arcate",
     },
     {
       titoloGiorno: 'Giorno 3 — Arles e la Camargue',
@@ -72,6 +76,8 @@ export const provenzaCamargueMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'camargue',
+      immagine: '/images/viaggi/provenza-camargue/giorno-3-arles.jpg',
+      imageAlt: "L'anfiteatro romano di Arles illuminato al crepuscolo, con la torre medievale sopra le arcate",
     },
     {
       titoloGiorno: 'Giorno 4 — Camargue',
@@ -80,6 +86,8 @@ export const provenzaCamargueMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'camargue',
+      immagine: '/images/viaggi/provenza-camargue/giorno-4-camargue.jpg',
+      imageAlt: 'Un gruppo di fenicotteri rosa in uno stagno della Camargue, circondati da canneti',
     },
     {
       titoloGiorno: 'Giorno 5 — Aigues-Mortes e le Alpilles',
@@ -88,6 +96,8 @@ export const provenzaCamargueMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'camargue',
+      immagine: '/images/viaggi/provenza-camargue/giorno-5-aigues-mortes.jpg',
+      imageAlt: "Le mura medievali e la Tour de Constance di Aigues-Mortes riflesse nel canale al tramonto",
     },
     {
       titoloGiorno: 'Giorno 6 — Il Luberon e la lavanda (se in stagione)',
@@ -97,6 +107,8 @@ export const provenzaCamargueMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'verificare stato della fioritura pochi giorni prima',
       destinazioneSlug: 'provenza',
+      immagine: '/images/viaggi/provenza-camargue/giorno-6-lavanda.jpg',
+      imageAlt: 'Un campo di lavanda in fiore nell\'altopiano di Valensole, con un casale in pietra sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 7 — Le Gole del Verdon',
@@ -105,6 +117,8 @@ export const provenzaCamargueMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'provenza',
+      immagine: '/images/viaggi/provenza-camargue/giorno-7-verdon.jpg',
+      imageAlt: "L'ingresso del canyon delle Gole del Verdon con l'acqua turchese del lago di Sainte-Croix",
     },
     {
       titoloGiorno: 'Giorno 8 — Aix-en-Provence e Marsiglia',
@@ -113,6 +127,8 @@ export const provenzaCamargueMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'provenza',
+      immagine: '/images/viaggi/provenza-camargue/giorno-8-marsiglia.jpg',
+      imageAlt: "Barche a vela ormeggiate nel Vieux-Port di Marsiglia, con i palazzi del lungomare sullo sfondo",
     },
     {
       titoloGiorno: 'Giorno 9 — Le Calanques',
@@ -122,12 +138,16 @@ export const provenzaCamargueMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'verificare stato di accesso giornaliero per rischio incendio',
       destinazioneSlug: 'provenza',
+      immagine: '/images/viaggi/provenza-camargue/giorno-9-calanques.jpg',
+      imageAlt: "La calanque d'En-Vau vista dall'alto, con l'acqua turchese incorniciata dalle falesie bianche e dai pini",
     },
     {
       titoloGiorno: 'Giorno 10 — Un castello cataro o Carcassonne, e partenza',
       tratta: 'Un castello cataro o Carcassonne, partenza',
       intensita: 'medio',
       destinazioneSlug: 'occitania',
+      immagine: '/images/viaggi/provenza-camargue/giorno-10-carcassonne.jpg',
+      imageAlt: 'Le torri con i tetti conici della Porte Narbonnaise, ingresso alla Cité medievale di Carcassonne',
     },
   ],
   budget: [

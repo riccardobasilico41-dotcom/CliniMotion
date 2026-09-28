@@ -57,6 +57,8 @@ export const venezia3GiorniMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'prenotazione della basilica per saltare la coda; Loggia dei Cavalli e Pala d\'Oro sono supplementi a parte',
       destinazioneSlug: 'venezia',
+      immagine: '/images/viaggi/venezia-3-giorni/giorno-1-san-marco.jpg',
+      imageAlt: 'La facciata della Basilica di San Marco a Venezia vista dalla piazza, con i visitatori e i piccioni sul selciato',
     },
     {
       titoloGiorno: 'Giorno 2 — Dorsoduro, i Frari e San Rocco',
@@ -66,6 +68,8 @@ export const venezia3GiorniMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'il Chorus Pass conviene già dalla terza o quarta chiesa',
       destinazioneSlug: 'venezia',
+      immagine: '/images/viaggi/venezia-3-giorni/giorno-2-santa-maria-salute.jpg',
+      imageAlt: 'La Basilica di Santa Maria della Salute a Dorsoduro, vista dal Canal Grande sotto un cielo azzurro',
     },
     {
       titoloGiorno: 'Giorno 3 — Cannaregio, il Ghetto e le isole',
@@ -73,6 +77,8 @@ export const venezia3GiorniMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'abbonamento vaporetti a giornata: si ripaga al terzo viaggio e serve per le isole',
       destinazioneSlug: 'venezia',
+      immagine: '/images/viaggi/venezia-3-giorni/giorno-3-burano.jpg',
+      imageAlt: 'Un canale di Burano fiancheggiato dalle tipiche case colorate dei pescatori, nella laguna nord di Venezia',
     },
   ],
   budget: [

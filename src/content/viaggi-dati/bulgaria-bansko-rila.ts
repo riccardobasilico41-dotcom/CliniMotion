@@ -44,6 +44,8 @@ export const bulgariaBanskoRilaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'bansko',
+      immagine: '/images/viaggi/bulgaria-bansko-rila/giorno-1-bansko-arrivo.jpg',
+      imageAlt: 'Il centro storico di Bansko con le case in pietra tipiche e i Monti Pirin innevati sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 2-4 — Sci sulle piste di Bansko',
@@ -53,6 +55,8 @@ export const bulgariaBanskoRilaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Skipass giornaliero 35-40€',
       destinazioneSlug: 'bansko',
+      immagine: '/images/viaggi/bulgaria-bansko-rila/giorno-2-4-bansko-sci.jpg',
+      imageAlt: 'Una seggiovia della Bansko Ski Zone sale verso la cresta innevata vicino al Todorka Peak',
     },
     {
       titoloGiorno: 'Giorno 5 — Escursione al Monastero di Rila',
@@ -62,6 +66,8 @@ export const bulgariaBanskoRilaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Museo di Storia Ecclesiastica 8 BGN (4€)',
       destinazioneSlug: 'monastero-rila',
+      immagine: '/images/viaggi/bulgaria-bansko-rila/giorno-5-rila-monastero.jpg',
+      imageAlt: 'La Chiesa della Natività della Vergine al Monastero di Rila, con le cupole e il portico interamente affrescato',
     },
     {
       titoloGiorno: 'Giorno 6 — Rientro',
@@ -70,6 +76,8 @@ export const bulgariaBanskoRilaMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'monastero-rila',
+      immagine: '/images/viaggi/bulgaria-bansko-rila/giorno-6-rientro.jpg',
+      imageAlt: 'Un aereo in fase di atterraggio in cielo sereno, in avvicinamento a Sofia per il rientro',
     },
   ],
   budget: [

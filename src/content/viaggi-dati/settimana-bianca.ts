@@ -51,6 +51,8 @@ export const settimanaBiancaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'sciare-in-italia',
+      immagine: '/images/viaggi/settimana-bianca/giorno-01-arrivo.jpg',
+      imageAlt: 'Cabinovia di un comprensorio sciistico delle Dolomiti, con piste innevate e vista sulla vallata',
     },
     {
       titoloGiorno: 'Giorno 2 — Rodaggio e ricognizione',
@@ -59,6 +61,8 @@ export const settimanaBiancaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'skipass giornaliero Dolomiti Superski attorno agli 86€ in alta stagione',
       destinazioneSlug: 'sciare-in-italia',
+      immagine: '/images/viaggi/settimana-bianca/giorno-02-piste.jpg',
+      imageAlt: 'Sciatori su una pista della pista Valon in Alta Badia, sopra un mare di nuvole',
     },
     {
       titoloGiorno: 'Giorno 3 — Il giro del Sellaronda',
@@ -67,6 +71,8 @@ export const settimanaBiancaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'sciare-in-italia',
+      immagine: '/images/viaggi/settimana-bianca/giorno-03-sellaronda.jpg',
+      imageAlt: 'Sciatori sulle piste del Sellaronda ai piedi del Gruppo del Sella, con le pareti rocciose innevate sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 4 — Giornata tecnica o riposo attivo',
@@ -74,6 +80,8 @@ export const settimanaBiancaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'sciare-in-italia',
+      immagine: '/images/viaggi/settimana-bianca/giorno-04-tecnica.jpg',
+      imageAlt: 'La pista Franchetti sul Monte Faloria a Cortina d\'Ampezzo, tra i larici innevati',
     },
     {
       titoloGiorno: 'Giorno 5 — Scialpinismo, o la montagna senza impianti',
@@ -83,6 +91,8 @@ export const settimanaBiancaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'noleggio attrezzatura scialpinistica 30-50€ al giorno; guida alpina a parte',
       destinazioneSlug: 'sciare-in-italia',
+      immagine: '/images/viaggi/settimana-bianca/giorno-05-scialpinismo.jpg',
+      imageAlt: 'Un gruppo di scialpinisti in salita con le pelli di foca sotto le pareti rocciose del Catinaccio',
     },
     {
       titoloGiorno: 'Giorno 6 — La giornata lunga',
@@ -90,12 +100,16 @@ export const settimanaBiancaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'sciare-in-italia',
+      immagine: '/images/viaggi/settimana-bianca/giorno-06-lunga.jpg',
+      imageAlt: 'Panorama dalla cima di Plan de Corones sulla valle innevata, con la cabinovia in primo piano',
     },
     {
       titoloGiorno: 'Giorno 7 — Ultima mattina e rientro',
       tratta: 'Mezza giornata sugli sci e rientro',
       intensita: 'leggero',
       destinazioneSlug: 'sciare-in-italia',
+      immagine: '/images/viaggi/settimana-bianca/giorno-07-rientro.jpg',
+      imageAlt: 'Il paese di Corvara in Badia con la cabinovia gialla e il Sassongher sullo sfondo',
     },
   ],
   budget: [

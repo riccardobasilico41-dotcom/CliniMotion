@@ -54,6 +54,8 @@ export const bordeauxEVignetiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'bordeaux',
+      immagine: '/images/viaggi/bordeaux-e-vigneti/giorno-1-bordeaux-place-bourse.jpg',
+      imageAlt: "La Place de la Bourse a Bordeaux con il Miroir d'eau che riflette i palazzi settecenteschi",
     },
     {
       titoloGiorno: 'Giorno 2 — La Cité du Vin e i Chartrons',
@@ -62,6 +64,8 @@ export const bordeauxEVignetiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'bordeaux',
+      immagine: '/images/viaggi/bordeaux-e-vigneti/giorno-2-cite-du-vin.jpg',
+      imageAlt: "L'edificio della Cité du Vin sulle rive della Garonna a Bordeaux, con la sua caratteristica forma avvolta",
     },
     {
       titoloGiorno: 'Giorno 3 — Saint-Émilion',
@@ -71,6 +75,8 @@ export const bordeauxEVignetiMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'chiesa monolitica solo con accompagnamento prenotato',
       destinazioneSlug: 'bordeaux',
+      immagine: '/images/viaggi/bordeaux-e-vigneti/giorno-3-saint-emilion.jpg',
+      imageAlt: 'Il campanile della chiesa monolitica di Saint-Émilion che svetta sui tetti in tegole del borgo',
     },
     {
       titoloGiorno: 'Giorno 4 — Pomerol e i Graves',
@@ -79,6 +85,8 @@ export const bordeauxEVignetiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'bordeaux',
+      immagine: '/images/viaggi/bordeaux-e-vigneti/giorno-4-pomerol.jpg',
+      imageAlt: 'Il villaggio di Pomerol con il suo campanile e uno château circondati dai filari di vigneto',
     },
     {
       titoloGiorno: 'Giorno 5 — Il Médoc',
@@ -88,6 +96,8 @@ export const bordeauxEVignetiMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'appuntamento obbligatorio per i grandi château',
       destinazioneSlug: 'bordeaux',
+      immagine: '/images/viaggi/bordeaux-e-vigneti/giorno-5-medoc.jpg',
+      imageAlt: 'La torre di un château del Médoc tra un cedro secolare e i filari di vigneto in autunno',
     },
     {
       titoloGiorno: 'Giorno 6 — Sauternes',
@@ -96,12 +106,16 @@ export const bordeauxEVignetiMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'bordeaux',
+      immagine: '/images/viaggi/bordeaux-e-vigneti/giorno-6-sauternes.jpg',
+      imageAlt: 'Grappoli di uva Sémillon coperti dalla muffa nobile (botrytis) in un vigneto del Sauternes',
     },
     {
       titoloGiorno: 'Giorno 7 — Bacino di Arcachon',
       tratta: 'Dune du Pilat e ostriche ad Arcachon',
       intensita: 'medio',
       destinazioneSlug: 'bordeaux',
+      immagine: '/images/viaggi/bordeaux-e-vigneti/giorno-7-dune-pilat.jpg',
+      imageAlt: 'Tramonto sul Bacino di Arcachon visto dalla Dune du Pilat, con parapendii in volo',
     },
   ],
   budget: [

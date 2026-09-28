@@ -47,6 +47,8 @@ export const tromsoMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'tromso',
+      immagine: '/images/viaggi/tromso/giorno-1-cattedrale-artica.jpg',
+      imageAlt: 'La Cattedrale Artica di Tromsø illuminata di notte tra gli alberi innevati',
     },
     {
       titoloGiorno: 'Giorno 2 — Aurora chase in minibus',
@@ -55,6 +57,8 @@ export const tromsoMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'tromso',
+      immagine: '/images/viaggi/tromso/giorno-2-aurora.jpg',
+      imageAlt: "L'aurora boreale verde che ondeggia nel cielo sopra le montagne innevate vicino a Tromsø",
     },
     {
       titoloGiorno: 'Giorno 3 — Husky sledding',
@@ -63,6 +67,8 @@ export const tromsoMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'tromso',
+      immagine: '/images/viaggi/tromso/giorno-3-husky.jpg',
+      imageAlt: 'Una muta di cani husky traina una slitta lungo un sentiero innevato tra gli abeti',
     },
     {
       titoloGiorno: 'Giorno 4 — Cultura sami e renne',
@@ -71,6 +77,8 @@ export const tromsoMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'tromso',
+      immagine: '/images/viaggi/tromso/giorno-4-renne.jpg',
+      imageAlt: 'Una renna imbrigliata in un bosco innevato, sguardo diretto in camera',
     },
     {
       titoloGiorno: 'Giorno 5 — Tempo libero e partenza',
@@ -79,6 +87,8 @@ export const tromsoMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'tromso',
+      immagine: '/images/viaggi/tromso/giorno-5-polaria.jpg',
+      imageAlt: "L'edificio dalle pareti inclinate di Polaria a Tromsø, illuminato la sera mentre nevica",
     },
   ],
   budget: [
