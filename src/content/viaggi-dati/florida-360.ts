@@ -47,6 +47,8 @@ export const florida360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'miami',
+      immagine: '/images/viaggi/florida-360/giorno-1-miami-art-deco.jpg',
+      imageAlt: 'Facciate pastello in stile Art Deco lungo Ocean Drive, South Beach, con le palme e il cielo azzurro',
     },
     {
       titoloGiorno: 'Giorno 2 — Key West',
@@ -55,6 +57,8 @@ export const florida360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'key-west-marathon',
+      immagine: '/images/viaggi/florida-360/giorno-2-key-west-southernmost.jpg',
+      imageAlt: 'La celebre boa "Southernmost Point" di Key West, con l\'oceano turchese sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 3 — Key West e Marathon',
@@ -63,6 +67,8 @@ export const florida360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'key-west-marathon',
+      immagine: '/images/viaggi/florida-360/giorno-3-seven-mile-bridge.jpg',
+      imageAlt: 'La Seven Mile Bridge vista dal parabrezza dell\'auto, con l\'oceano turchese su entrambi i lati',
     },
     {
       titoloGiorno: 'Giorno 4 — Everglades e Naples',
@@ -71,6 +77,8 @@ export const florida360Meta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'everglades-naples',
+      immagine: '/images/viaggi/florida-360/giorno-4-everglades-alligator.jpg',
+      imageAlt: 'Un alligatore americano lungo un canale delle Everglades, a Shark Valley',
     },
     {
       titoloGiorno: 'Giorno 5 — Da Naples a Orlando via Clearwater',
@@ -79,6 +87,8 @@ export const florida360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'orlando',
+      immagine: '/images/viaggi/florida-360/giorno-5-clearwater-beach.jpg',
+      imageAlt: 'Il Pier 60 di Clearwater Beach al tramonto, con la sabbia bianca e i bagnanti in acqua',
     },
     {
       titoloGiorno: 'Giorno 6 — Orlando (parco a tema)',
@@ -88,6 +98,8 @@ export const florida360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Universal 130-210$; Disney World da 250€ per 2 giorni',
       destinazioneSlug: 'orlando',
+      immagine: '/images/viaggi/florida-360/giorno-6-lake-eola-orlando.jpg',
+      imageAlt: 'La fontana di Lake Eola Park nel centro di Orlando, con lo skyline della città sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 7 — Orlando e Kennedy Space Center',
@@ -97,6 +109,8 @@ export const florida360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Kennedy Space Center $57',
       destinazioneSlug: 'cape-canaveral',
+      immagine: '/images/viaggi/florida-360/giorno-7-kennedy-space-center.jpg',
+      imageAlt: 'I razzi storici esposti nel Rocket Garden del Kennedy Space Center',
     },
     {
       titoloGiorno: 'Giorno 8 — Miami Beach',
@@ -105,6 +119,8 @@ export const florida360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'miami',
+      immagine: '/images/viaggi/florida-360/giorno-8-ocean-drive-notte.jpg',
+      imageAlt: 'Gli hotel Art Deco di Ocean Drive illuminati di rosso e viola al calare della sera, tra le palme',
     },
     {
       titoloGiorno: 'Giorno 9 — Miami "di terra"',
@@ -113,6 +129,8 @@ export const florida360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'miami',
+      immagine: '/images/viaggi/florida-360/giorno-9-wynwood-walls.jpg',
+      imageAlt: "L'ingresso di Wynwood Walls con i murales colorati del distretto artistico di Miami",
     },
     {
       titoloGiorno: 'Giorno 10 — Check-out e rientro',
@@ -121,6 +139,8 @@ export const florida360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'miami',
+      immagine: '/images/viaggi/florida-360/giorno-10-miami-airport.jpg',
+      imageAlt: "Il terminal dell'aeroporto internazionale di Miami, con i viaggiatori pronti al rientro",
     },
   ],
   budget: [

@@ -52,6 +52,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'bangkok',
+      immagine: '/images/viaggi/thailandia/giorno-1-wat-arun.jpg',
+      imageAlt: 'Un guardiano yaksha colorato all\'ingresso di Wat Arun, il Tempio dell\'Alba a Bangkok',
     },
     {
       titoloGiorno: 'Giorno 2 — Bangkok-Hua Hin',
@@ -60,6 +62,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'hua-hin',
+      immagine: '/images/viaggi/thailandia/giorno-2-hua-hin-stazione.jpg',
+      imageAlt: 'Il padiglione reale in stile tradizionale thailandese della stazione ferroviaria di Hua Hin',
     },
     {
       titoloGiorno: 'Giorno 3 — Hua Hin-Chumphon',
@@ -69,6 +73,8 @@ export const thailandiaMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Sam Roi Yot 200 THB a persona; Kui Buri 1.050 THB a persona',
       destinazioneSlug: 'sam-roi-yot-kui-buri',
+      immagine: '/images/viaggi/thailandia/giorno-3-chumphon-costa.jpg',
+      imageAlt: 'La costa di Chumphon, con acque turchesi, scogliere calcaree e una spiaggia di sabbia bianca',
     },
     {
       titoloGiorno: 'Giorno 4 — Chumphon-Khao Sok',
@@ -78,6 +84,8 @@ export const thailandiaMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Ingresso al parco 220 THB a persona',
       destinazioneSlug: 'khao-sok',
+      immagine: '/images/viaggi/thailandia/giorno-4-khao-sok.jpg',
+      imageAlt: 'Le montagne calcaree e la giungla del Parco Nazionale di Khao Sok al crepuscolo',
     },
     {
       titoloGiorno: 'Giorno 5 — Khao Sok, il lago Cheow Lan',
@@ -86,6 +94,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'khao-sok',
+      immagine: '/images/viaggi/thailandia/giorno-5-cheow-lan-lake.jpg',
+      imageAlt: 'Le torri calcaree del lago Cheow Lan che emergono dalle acque, con alberi sommersi in primo piano',
     },
     {
       titoloGiorno: 'Giorno 6 — Khao Sok-Krabi',
@@ -94,6 +104,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'krabi',
+      immagine: '/images/viaggi/thailandia/giorno-6-krabi-ao-nang.jpg',
+      imageAlt: 'Il primo sguardo alla costa di Krabi da Ao Nang beach, al crepuscolo',
     },
     {
       titoloGiorno: 'Giorno 7 — Krabi: Bond Island e canoa',
@@ -102,6 +114,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'krabi',
+      immagine: '/images/viaggi/thailandia/giorno-7-james-bond-island.jpg',
+      imageAlt: 'Il celebre faraglione di Ko Tapu a James Bond Island, nella baia di Phang Nga',
     },
     {
       titoloGiorno: 'Giorno 8 — Krabi-Koh Phi Phi',
@@ -110,6 +124,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'koh-phi-phi',
+      immagine: '/images/viaggi/thailandia/giorno-8-koh-phi-phi-viewpoint.jpg',
+      imageAlt: 'La baia turchese di Koh Phi Phi vista dal punto panoramico, tra le palme e le barche a coda lunga',
     },
     {
       titoloGiorno: 'Giorno 9 — Koh Phi Phi-Krabi',
@@ -118,6 +134,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'krabi',
+      immagine: '/images/viaggi/thailandia/giorno-9-loh-dalum-bay.jpg',
+      imageAlt: 'La baia a mezzaluna di Loh Dalum a Koh Phi Phi, con le acque turchesi e le colline verdi',
     },
     {
       titoloGiorno: 'Giorno 10 — Krabi-Bangkok',
@@ -126,6 +144,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'bangkok',
+      immagine: '/images/viaggi/thailandia/giorno-10-railay-beach.jpg',
+      imageAlt: 'La scogliera calcarea a picco su Railay West Beach, con le barche a coda lunga ormeggiate sulla sabbia',
     },
     {
       titoloGiorno: 'Giorno 11 — Bangkok',
@@ -134,6 +154,8 @@ export const thailandiaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'bangkok',
+      immagine: '/images/viaggi/thailandia/giorno-11-wat-pho.jpg',
+      imageAlt: 'Il volto dorato del Buddha sdraiato nel tempio di Wat Pho a Bangkok',
     },
   ],
   budget: [

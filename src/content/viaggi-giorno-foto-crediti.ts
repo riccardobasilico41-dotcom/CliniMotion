@@ -71,6 +71,281 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Seiser_Alm_01.jpg',
     },
   },
+  'new-york-360': {
+    'Giorno 1 (07.09) — Arrivo, Times Square': {
+      autore: 'Rafi B. (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Times_square_at_night.jpg',
+    },
+    'Giorno 2 (08.09) — Harlem, Central Park, Empire State Building': {
+      autore: 'dllu (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg',
+    },
+    'Giorno 3 (09.09) — Cattedrale, MoMA, High Line, The Vessel': {
+      autore: 'Wikimedia Commons',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:The_Vessel_June_2024.jpg',
+    },
+    'Giorno 4 (10.09) — Statua della Libertà, Wall Street, Chinatown, Broadway': {
+      autore: 'Daniel Schwen (Wikimedia Commons)',
+      licenza: 'CC BY-SA',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Statue_of_Liberty_frontal_2_crop.JPG',
+    },
+    'Giorno 5 (11.09) — Ground Zero, DUMBO, Top of the Rock': {
+      autore: 'Wikimedia Commons',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Manhattan_Bridge_view_from_Washington_Street_DUMBO_Brooklyn_Morning_2022.jpg',
+    },
+    'Giorno 6 (12.09) — Rientro': {
+      autore: 'Kidfly182 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lower_Manhattan_Skyline_from_Brooklyn_Heights.jpg',
+    },
+  },
+  'florida-360': {
+    'Giorno 1 — Arrivo a Miami': {
+      autore: 'Phillip Pessar (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Art_Deco_Hotels_Ocean_Drive_South_Beach.jpg',
+    },
+    'Giorno 2 — Key West': {
+      autore: 'Radomianin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Southernmost_point_buoy,_NE_view.jpg',
+    },
+    'Giorno 3 — Key West e Marathon': {
+      autore: 'SimonMGC (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Seven_Mile_Bridge,_Florida.jpg',
+    },
+    'Giorno 4 — Everglades e Naples': {
+      autore: 'Wikimedia Commons',
+      licenza: 'CC BY-SA',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:American_Alligator_at_Shark_Valley_in_Everglades_National_Park.jpg',
+    },
+    'Giorno 5 — Da Naples a Orlando via Clearwater': {
+      autore: 'Wikimedia Commons',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Clearwater-beach-florida-pier-60.jpg',
+    },
+    'Giorno 6 — Orlando (parco a tema)': {
+      autore: 'Wikimedia Commons',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg',
+    },
+    'Giorno 7 — Orlando e Kennedy Space Center': {
+      autore: 'Diego Delso (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rocket_garden,_Kennedy_Space_Center,_Florida,_USA1.jpg',
+    },
+    'Giorno 8 — Miami Beach': {
+      autore: 'Gzzz (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ocean_Drive_by_night_1.jpg',
+    },
+    'Giorno 9 — Miami "di terra"': {
+      autore: 'Dan Lundberg (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Wynwood_Walls_Miami_Florida_October_2013.jpg',
+    },
+    'Giorno 10 — Check-out e rientro': {
+      autore: 'Dough4872 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Miami_International_Airport_Terminal_D_January_2026.jpeg',
+    },
+  },
+  thailandia: {
+    'Giorno 1 — Bangkok': {
+      autore: 'Jakub Hałun (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:20171201_Bangkok_Wat_Arun_6460_DxO.jpg',
+    },
+    'Giorno 2 — Bangkok-Hua Hin': {
+      autore: 'Khaosaming (Wikimedia Commons)',
+      licenza: 'CC BY-SA',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hua_Hin_Railway_Station_Thailand.JPG',
+    },
+    'Giorno 3 — Hua Hin-Chumphon': {
+      autore: 'KOSIN SUKHUM (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mu_Ko_Chumphon_National_Park_Chumphon_Thailand.jpg',
+    },
+    'Giorno 4 — Chumphon-Khao Sok': {
+      autore: 'Vyacheslav Argenberg (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Khao_Sok,_Forest_and_hills,_Surat_Thani,_Thailand.jpg',
+    },
+    'Giorno 5 — Khao Sok, il lago Cheow Lan': {
+      autore: 'Vyacheslav Argenberg (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Karst_landscape_of_Cheow_Lan_Lake,_Surat_Thani,_Thailand.jpg',
+    },
+    'Giorno 6 — Khao Sok-Krabi': {
+      autore: 'Satdeep Gill (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:A_view_of_Ao_Nang_beach,_Krabi.jpg',
+    },
+    'Giorno 7 — Krabi: Bond Island e canoa': {
+      autore: 'DSN18 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:James_Bond_Island_Thailand.jpg',
+    },
+    'Giorno 8 — Krabi-Koh Phi Phi': {
+      autore: 'Caitriana Nicholson (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Koh_Phi_Phi_viewpoint_(4463475153).jpg',
+    },
+    'Giorno 9 — Koh Phi Phi-Krabi': {
+      autore: 'Christophe95 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Loh_Dalum_Bay,_Ko_Phi_Phi_Don.jpg',
+    },
+    'Giorno 10 — Krabi-Bangkok': {
+      autore: 'Nnthurber (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Limestone_karst_cliff_and_longtail_boats_at_Railay_West_Beach_Krabi.jpg',
+    },
+    'Giorno 11 — Bangkok': {
+      autore: 'Tomasz Swatowski (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Wat_Pho_Reclining_Buddha.jpg',
+    },
+  },
+  'borneo-itinerario': {
+    'Giorno 1 — Arrivo a Kota Kinabalu': {
+      autore: 'FILMR Production (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Kota_Kinabalu_City.jpg',
+    },
+    'Giorno 2 — Verso il Kinabalu Park': {
+      autore: 'Dukeabruzzi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Borneo_rainforest.jpg',
+    },
+    'Giorno 3 — Kinabalu, primo giorno': {
+      autore: 'Anton Zelenov (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Morning_view_of_Mount_Kinabalu_in_Malaysia,_with_its_peak_clearly_visible.jpg',
+    },
+    "Giorno 4 — Vetta all'alba e discesa": {
+      autore: 'Edelans (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Kinabalu.JPG',
+    },
+    'Giorno 5 — Sepilok': {
+      autore: 'Eterna Media (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/bornean-orangutans-in-natural-habitat-39494080/',
+    },
+    'Giorno 6 — Sandakan e la memoria': {
+      autore: 'Enziee (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sandakan_Memorial_monument.jpg',
+    },
+    'Giorno 7 — Kinabatangan': {
+      autore: 'Apocru (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Proboscis_monkey_(Kinabatangan_River,_July_2025).jpg',
+    },
+    'Giorno 8 — Kinabatangan e verso Semporna': {
+      autore: 'Mike Prince (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Boating_down_the_Kinabatangan_River_(14134035806).jpg',
+    },
+    'Giorno 9 — Mabul: muck diving': {
+      autore: 'Topfmodel / Marco Teubner (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mabul-village.jpg',
+    },
+    'Giorno 10 — Sipadan': {
+      autore: 'Avoini (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Green_Turtle.jpg',
+    },
+    'Giorno 11 — Mabul o Bohey Dulang': {
+      autore: 'Amri HMS (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bohey_Dulang_from_Above_(17287121525).jpg',
+    },
+    'Giorno 12 — Tawau e rientro': {
+      autore: 'CEphoto / Uwe Aranas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tawau_Sabah_Pasar-Tanjung-Tawau-01.jpg',
+    },
+  },
+  'arabia-saudita-itinerario': {
+    'Giorno 1 — Arrivo a Jeddah': {
+      autore: 'AndLikeThings (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:King_Fahd_Fountain.jpg',
+    },
+    'Giorno 2 — Al-Balad': {
+      autore: 'Jpatokal (Wikimedia Commons)',
+      licenza: 'CC BY-SA',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:AlBalad_CoralHouses.JPG',
+    },
+    'Giorno 3 — Volo per AlUla': {
+      autore: 'Prof. Mortel (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Landscape_at_al-Ula,_Saudi_Arabia_(1).jpg',
+    },
+    'Giorno 4 — Hegra': {
+      autore: 'Prof. Mortel (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Qasr_al-Farid,_Hegra_(Madain_Salih),_1st_cent._CE,_Saudi_Arabia_(1).jpg',
+    },
+    "Giorno 5 — Jabal Ikmah, Dadan e l'oasi": {
+      autore: 'Prof. Mortel (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Jabal_Ikmah,_ancient_Arabian_rock_art_and_inscription_site;_1st_millenium_BCE;_al-Ula,_Saudi_Arabia_(3).jpg',
+    },
+    'Giorno 6 — Volo per Riyadh': {
+      autore: 'B.alotaby (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Riyadh_Skyline_showing_the_King_Abdullah_Financial_District_(KAFD)_and_the_famous_Kingdom_Tower_.jpg',
+    },
+    'Giorno 7 — Diriyah': {
+      autore: 'Radosław Botev (Wikimedia Commons)',
+      licenza: 'CC BY 3.0 PL',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:At-Turaif_District_in_ad-Dir'iyah_(5).jpg",
+    },
+    "Giorno 8 — L'Edge of the World": {
+      autore: 'S0lL0 TRAVELER (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Edge_of_the_World.jpg',
+    },
+    'Giorno 9 — Volo per Abha': {
+      autore: 'Wajahatmr (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:The_Ridges_of_Sarawat_Mountains.jpg',
+    },
+    'Giorno 10 — Rijal Almaa': {
+      autore: 'Richard Mortel (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rijal_Almaa_village_2021.jpg',
+    },
+    'Giorno 11 — Le montagne': {
+      autore: 'marviikad (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Abha-_Saudi_Arabia_-_on_the_way_to_Al_Sawda_(2518041457).jpg',
+    },
+    'Giorno 12 — Rientro': {
+      autore: 'Æmyr Sahli (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/airplane-view-from-airport-terminal-window-31703078/',
+    },
+  },
   'lofoten-estate-2025': {
     'Giorno 1 — Oslo': {
       autore: 'Bjørn Erik Pedersen (Wikimedia Commons)',

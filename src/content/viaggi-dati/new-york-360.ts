@@ -46,6 +46,8 @@ export const newYork360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'times-square-midtown',
+      immagine: '/images/viaggi/new-york-360/giorno-1-times-square.jpg',
+      imageAlt: 'Times Square di notte, con le insegne al neon e i maxischermi pubblicitari accesi',
     },
     {
       titoloGiorno: 'Giorno 2 (08.09) — Harlem, Central Park, Empire State Building',
@@ -55,6 +57,8 @@ export const newYork360Meta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Walking tour di Harlem 275$ + mancia',
       destinazioneSlug: 'harlem-central-park',
+      immagine: '/images/viaggi/new-york-360/giorno-2-empire-state.jpg',
+      imageAlt: "L'Empire State Building illuminato di verde al tramonto, visto dal Rockefeller Center con lo skyline di Manhattan",
     },
     {
       titoloGiorno: 'Giorno 3 (09.09) — Cattedrale, MoMA, High Line, The Vessel',
@@ -63,6 +67,8 @@ export const newYork360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'rockefeller-chelsea',
+      immagine: '/images/viaggi/new-york-360/giorno-3-the-vessel.jpg',
+      imageAlt: 'La struttura a nido d\'ape di The Vessel a Hudson Yards, con i grattacieli di vetro sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 4 (10.09) — Statua della Libertà, Wall Street, Chinatown, Broadway',
@@ -71,6 +77,8 @@ export const newYork360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'statua-liberta-wall-street',
+      immagine: '/images/viaggi/new-york-360/giorno-4-statua-liberta.jpg',
+      imageAlt: 'La Statua della Libertà vista dal basso, con la torcia sollevata contro il cielo blu',
     },
     {
       titoloGiorno: 'Giorno 5 (11.09) — Ground Zero, DUMBO, Top of the Rock',
@@ -79,6 +87,8 @@ export const newYork360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'intenso',
       destinazioneSlug: 'ground-zero-dumbo',
+      immagine: '/images/viaggi/new-york-360/giorno-5-dumbo.jpg',
+      imageAlt: 'Il Manhattan Bridge incorniciato tra i palazzi in mattoni di Washington Street, DUMBO, con l\'Empire State Building sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 6 (12.09) — Rientro',
@@ -87,6 +97,8 @@ export const newYork360Meta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'times-square-midtown',
+      immagine: '/images/viaggi/new-york-360/giorno-6-skyline-rientro.jpg',
+      imageAlt: "Un ultimo sguardo allo skyline di Lower Manhattan dalla Brooklyn Heights Promenade, prima del rientro",
     },
   ],
   budget: [
