@@ -9,6 +9,12 @@ import type { Meraviglia } from '@/lib/types'
 // sostituiti con i tuoi. Restano assenti sul Cristo Redentore, l'unica delle
 // sette non ancora vista. Prezzi, orari e regole di prenotazione cambiano
 // spesso: vanno sempre riverificati sui siti ufficiali prima di partire.
+//
+// Ultimo passaggio di verifica prezzi/prenotazioni/orari: 28 settembre 2026
+// (fonti: siti ufficiali e guide di viaggio affidabili consultate quel
+// giorno). Le cifre corrette in quel passaggio riportano l'indicazione
+// "indicativo, soggetto a revisione periodica" — vanno comunque riverificate
+// prima di ogni partenza, come da nota sopra.
 
 export const meraviglie: Meraviglia[] = [
   {
@@ -34,7 +40,7 @@ export const meraviglie: Meraviglia[] = [
     prenotazione:
       'A Badaling è in vigore un sistema di prenotazione online nominale (real-name), obbligatorio con passaporto nei periodi di alta affluenza — meglio prenotare qualche giorno prima sul sito ufficiale o tramite un\'agenzia. Mutianyu, Jinshanling e Simatai sono generalmente acquistabili anche in loco, ma prenotare online evita le code.',
     prezzi:
-      'Badaling: circa 45-180 RMB a seconda di stagione e funivia inclusa. Mutianyu: ingresso circa 45 RMB, funivia/toboga extra 120-180 RMB andata e ritorno. Jinshanling: circa 65-100 RMB. Simatai: ingresso combinato con la visita serale, prezzi più alti e su prenotazione separata per gli slot notturni.',
+      'Badaling: ingresso circa 35-40 RMB a seconda della stagione, fino a 180 RMB circa se si aggiunge la funivia (indicativo, soggetto a revisione periodica). Mutianyu: ingresso circa 45 RMB, funivia/toboga extra 120-180 RMB andata e ritorno. Jinshanling: ingresso circa 55-65 RMB a seconda della stagione, più circa 30 RMB per la funivia in salita. Simatai: ingresso diurno circa 40 RMB più 40 RMB di funivia; la visita serale illuminata ha un biglietto a parte, più caro e su prenotazione separata per gli slot notturni.',
     tourOAutonomo:
       'Badaling e Mutianyu si visitano bene anche in autonomia con i mezzi pubblici o un taxi/Didi. Per Jinshanling e Simatai conviene un tour organizzato o un autista privato per l\'intera giornata: i collegamenti pubblici sono scarsi e i tempi di trasferimento lunghi.',
     scamDaEvitare: [
@@ -71,6 +77,7 @@ export const meraviglie: Meraviglia[] = [
     miaEsperienza:
       'Il consiglio che conta più di tutti riguarda quale tratto scegliere, perché fa la differenza tra una gita in mezzo alla folla e una giornata memorabile. Badaling è vicino, comodo e restaurato al punto da sembrare un parco a tema: nei giorni di festa ci si muove in fila indiana. Mutianyu è il compromesso giusto, con la seggiovia per salire e la slitta per scendere, che sembra una trovata turistica e invece è uno dei modi più divertenti di finire la giornata. Ma il tratto che resta davvero è Jinshanling: due ore da Pechino, torri non restaurate, erba tra le pietre e per lunghi tratti nessun altro in vista. Va anche detta la fatica, che le foto non trasmettono: non è una passeggiata in piano ma un continuo su e giù su gradini di altezza diversa, alcuni altissimi, e dopo tre ore le gambe se ne accorgono.',
     heroImageAlt: 'La Grande Muraglia Cinese che si snoda tra le colline a Mutianyu, vicino Pechino',
+    heroImage: '/images/meraviglie/grande-muraglia-cinese.jpg',
   },
   {
     slug: 'petra',
@@ -93,7 +100,7 @@ export const meraviglie: Meraviglia[] = [
     prenotazione:
       'Il Jordan Pass (acquistabile online prima del viaggio) copre il visto d\'ingresso in Giordania e l\'accesso a Petra ed è conveniente per chi resta almeno 3 notti nel paese. In alternativa si acquista il biglietto direttamente in loco (1, 2 o 3 giorni), senza necessità di prenotazione anticipata per l\'ingresso diurno.',
     prezzi:
-      'Con Jordan Pass, l\'ingresso è incluso. Senza pass: circa 50 JOD per 1 giorno, 55 JOD per 2 giorni, 60 JOD per 3 giorni (tariffe più alte per chi non pernotta in Giordania). "Petra by Night" è un biglietto separato, circa 17 JOD.',
+      'Con Jordan Pass, l\'ingresso è incluso (il pass stesso costa circa 70 JOD per la versione 1 giorno, 75 JOD per 2 giorni, 80 JOD per 3 giorni, indicativo, soggetto a revisione periodica). Senza pass: circa 50 JOD per 1 giorno, 55 JOD per 2 giorni, 60 JOD per 3 giorni (tariffe più alte per chi non pernotta in Giordania). "Petra by Night" è un biglietto separato, circa 30 JOD (prezzo salito negli ultimi anni, indicativo).',
     tourOAutonomo:
       'Il sito si visita bene in autonomia seguendo la mappa fornita all\'ingresso; una guida locale (assumibile alla biglietteria, circa 50 JOD per un piccolo gruppo, 1-2 ore) aggiunge molto contesto storico, soprattutto sul Siq e sul Tesoro.',
     scamDaEvitare: [
@@ -120,7 +127,7 @@ export const meraviglie: Meraviglia[] = [
       },
     ],
     giorniSpeciali:
-      '"Petra by Night" si svolge tre sere a settimana (lunedì, mercoledì, giovedì, da verificare sul sito ufficiale per eventuali variazioni stagionali): il Siq viene illuminato da centinaia di candele fino al Tesoro, con musica beduina dal vivo — biglietto separato, consigliata prenotazione con un giorno d\'anticipo.',
+      '"Petra by Night" si svolge ora cinque sere a settimana, da domenica a giovedì (orario ampliato rispetto alle sole tre sere di qualche anno fa — da verificare comunque sul sito ufficiale per eventuali variazioni stagionali): il Siq viene illuminato da centinaia di candele fino al Tesoro, con musica beduina dal vivo. Il biglietto si acquista di persona il giorno stesso all\'ufficio del Petra Visitor Center (la prenotazione online anticipata non risulta al momento disponibile, indicativo, da riverificare).',
     doveDormire: 'Wadi Musa, la cittadina proprio all\'ingresso del sito: permette di arrivare a piedi alla biglietteria e di partire presto per battere il caldo e le folle.',
     erroriDaEvitare: [
       'Non portare abbastanza acqua: quasi tutto il percorso è privo d\'ombra',
@@ -130,6 +137,7 @@ export const meraviglie: Meraviglia[] = [
     miaEsperienza:
       'Petra non è un monumento, è una città, e il primo errore è comprare il biglietto da un giorno. Il Siq da solo è più di un chilometro di gola stretta e altissima che continua a girare senza mai mostrare cosa c\'è dopo, e quando il Tesoro compare nello spiraglio finale l\'effetto funziona anche sapendolo in anticipo. Ma il Tesoro è l\'inizio: il Monastero sta in cima a ottocento gradini, un\'ora abbondante di salita col sole a picco, ed è più grande di quello che quasi tutti vengono a vedere. Chi ha una sola giornata parta all\'apertura ed eviti la fascia centrale, quando arrivano i pullman dal Mar Morto e la temperatura tra le rocce diventa seria. Sui muli e i cammelli offerti lungo il percorso vale la pena essere netti: le condizioni degli animali sono spesso pessime, e rifiutare è la scelta giusta.',
     heroImageAlt: 'Il Tesoro di Petra (Al-Khazneh) visto all\'uscita del Siq, Giordania',
+    heroImage: '/images/meraviglie/petra.jpg',
   },
   {
     slug: 'cristo-redentore',
@@ -152,7 +160,7 @@ export const meraviglie: Meraviglia[] = [
     prenotazione:
       'Obbligatoria in anticipo online, con orario fisso (treno o van): i biglietti si esauriscono facilmente nei weekend e in alta stagione. Non esiste un ingresso "diretto" acquistabile solo sul posto con certezza di disponibilità.',
     prezzi:
-      'Il treno del Corcovado (che include il trasporto e l\'ingresso) costa indicativamente 155-190 BRL a seconda dell\'orario e della stagione; i van ufficiali sono generalmente un\'opzione più economica, a partire da circa 100 BRL. L\'ingresso al monumento non si acquista separatamente dal trasporto.',
+      'Il treno del Corcovado (che include il trasporto e l\'ingresso) costa indicativamente circa 130-140 BRL per adulto secondo l\'orario e la stagione (prezzo pieno intorno ai 134 BRL sul sito ufficiale, indicativo, soggetto a revisione periodica); i van ufficiali sono generalmente un\'opzione più economica, con pacchetti a partire da circa 98-100 BRL. L\'ingresso al monumento non si acquista separatamente dal trasporto.',
     tourOAutonomo:
       'Non esiste una vera opzione "indipendente" senza trasporto ufficiale: treno e van sono l\'unico modo per arrivare in cima. Le guide turistiche non sono necessarie per la visita in sé (la piattaforma si vede da sola), ma un tour organizzato semplifica la prenotazione e spesso combina la visita con il Pan di Zucchero nella stessa giornata.',
     scamDaEvitare: [
@@ -179,6 +187,7 @@ export const meraviglie: Meraviglia[] = [
       'Portare con sé oggetti di valore vistosi nelle zone più affollate',
     ],
     heroImageAlt: 'Il Cristo Redentore sulla cima del Corcovado con Rio de Janeiro e il Pan di Zucchero sullo sfondo',
+    heroImage: '/images/meraviglie/cristo-redentore.jpg',
   },
   {
     slug: 'machu-picchu',
@@ -201,9 +210,9 @@ export const meraviglie: Meraviglia[] = [
     prenotazione:
       'Obbligatoria con largo anticipo (settimane o mesi prima in alta stagione): esiste una quota massima di visitatori giornalieri e fasce orarie di ingresso fisse. I biglietti per la salita a Huayna Picchu o alla Montaña, entrambi con quote separate e molto più limitate, vanno prenotati con ancora più anticipo — spesso 3-6 mesi prima per l\'alta stagione. Diversi circuiti richiedono obbligatoriamente una guida autorizzata.',
     prezzi:
-      'Ingresso base (circuito generale): circa 152 soles per stranieri (~40 USD). Aggiungendo Huayna Picchu o Montaña: circa 200 soles combinati. Il treno andata/ritorno da Cusco/Valle Sacra costa dai 70 ai 500+ USD a seconda della classe (Expedition, Vistadome, Hiram Bingham). Bus navetta da Aguas Calientes: circa 24 USD andata/ritorno.',
+      'Ingresso base (circuito generale): circa 163 soles per stranieri (~43 USD) — 152 soles di tariffa base più un supplemento di circa 11 soles introdotto di recente, indicativo e soggetto a revisione periodica. Aggiungendo Huayna Picchu o Montaña: circa 200 soles combinati. Il treno andata/ritorno da Cusco/Valle Sacra costa dai 70 ai 500+ USD a seconda della classe (Expedition, Vistadome, Hiram Bingham). Bus navetta da Aguas Calientes: circa 24 USD andata/ritorno.',
     tourOAutonomo:
-      'Molti dei circuiti attuali richiedono obbligatoriamente una guida autorizzata all\'ingresso (regola introdotta negli ultimi anni, da verificare sul sito ufficiale prima di prenotare): conviene organizzare il tour o unirsi a un piccolo gruppo alla biglietteria. Il trasporto (treno + biglietto) si può comunque organizzare in autonomia con largo anticipo.',
+      'La regola attuale (Ministero della Cultura peruviano) prevede l\'obbligo di una guida autorizzata per entrare a Machu Picchu su tutti i circuiti, non solo su alcuni come in passato — nella pratica il controllo su singoli viaggiatori indipendenti risulta ancora incostante, ma conviene mettere comunque in conto una guida o un piccolo gruppo organizzato alla biglietteria (regola in evoluzione, da verificare sul sito ufficiale prima di prenotare). Il trasporto (treno + biglietto) si può comunque organizzare in autonomia con largo anticipo.',
     scamDaEvitare: [
       'Rivenditori non ufficiali di biglietti online a prezzi gonfiati o con garanzie false sulla disponibilità: acquistare solo dai canali ufficiali (Ministero della Cultura peruviano) o da agenzie autorizzate riconosciute',
       'Operatori che offrono trekking sull\'Inca Trail "last minute" senza permesso regolare: i permessi sono limitatissimi e vanno prenotati mesi prima tramite agenzie autorizzate',
@@ -242,6 +251,7 @@ export const meraviglie: Meraviglia[] = [
     miaEsperienza:
       'È uno di quei posti di cui si sono viste talmente tante foto da temere la delusione, e invece regge — ma regge nella prima ora, quando la nebbia si alza a strappi e il sito compare a pezzi. Dopo, con i gruppi in fila lungo il circuito assegnato, diventa un\'altra cosa: bellissima, ma gestita. Conviene sapere prima che non si gira liberamente: dal 2024 il circuito scelto al momento della prenotazione decide cosa si vedrà e cosa no, e la fotografia classica dall\'alto non è compresa in tutti. L\'altra cosa da mettere in conto è che i biglietti per i periodi buoni si esauriscono con mesi di anticipo, Huayna Picchu per primo. Dormire ad Aguas Calientes ed entrare al primo turno non serve per la luce: serve per quei quaranta minuti in cui il posto è ancora silenzioso.',
     heroImageAlt: 'La cittadella inca di Machu Picchu tra le montagne della Valle Sacra, Perù',
+    heroImage: '/images/meraviglie/machu-picchu.jpg',
   },
   {
     slug: 'chichen-itza',
@@ -260,7 +270,7 @@ export const meraviglie: Meraviglia[] = [
     comeArrivareLocale: 'Bus ADO da Cancún, Mérida o Valladolid (quest\'ultima solo 45 minuti di distanza); auto a noleggio; oppure tour organizzato di giornata da Cancún o dalla Riviera Maya (spesso lungo, 4-5 ore di solo trasferimento andata e ritorno).',
     comeSpostarsi: 'Il sito si visita interamente a piedi, su un\'area pianeggiante e priva quasi ovunque di ombra.',
     prenotazione: 'Non è richiesta una prenotazione anticipata: i biglietti si acquistano alla biglietteria d\'ingresso. Arrivare all\'apertura (8:00) è la vera chiave per evitare sia il caldo peggiore sia l\'arrivo in massa dei pullman turistici da Cancún, che tipicamente confluisce tra le 11:00 e le 14:00.',
-    prezzi: 'Circa 614 pesos messicani in totale (tariffa federale INAH più tariffa statale, indicativo, soggetto a revisione periodica); sconto per residenti/cittadini messicani. Lo spettacolo di luci ed effetti sonori serale ha un biglietto separato.',
+    prezzi: 'Circa 697 pesos messicani in totale per stranieri (tariffa federale INAH più tariffa statale dello Yucatán, dal 2026 riunite in un unico "Boleto Único" pagato in un solo punto cassa; indicativo, soggetto a revisione periodica — il prezzo è salito rispetto agli anni precedenti); sconto sensibile per residenti/cittadini messicani. Lo spettacolo di luci ed effetti sonori serale ha un biglietto separato.',
     tourOAutonomo: 'Facilmente visitabile in autonomia via bus o auto a noleggio. Le guide ufficiali si trovano all\'ingresso (contrattabili, circa 25-40 USD per un piccolo gruppo) e aggiungono molto contesto storico sulla cosmologia Maya e sul gioco della pelota.',
     scamDaEvitare: [
       '"Guide gratuite" che si offrono spontaneamente all\'ingresso e poi richiedono una mancia elevata a fine tour: concordare sempre il prezzo prima di iniziare',
@@ -300,6 +310,7 @@ export const meraviglie: Meraviglia[] = [
     miaEsperienza:
       'È la meraviglia che più delude chi arriva impreparato, e la ragione non è il sito ma il modo in cui lo si visita. Dalle dieci in poi arrivano i pullman da Cancún e da Playa del Carmen, i viali si riempiono e soprattutto si riempiono di venditori: bancarelle una accanto all\'altra lungo quasi tutti i percorsi, con i fischietti a forma di giaguaro che suonano di continuo. Entrare all\'apertura cambia completamente l\'esperienza. Il Castillo non si sale più da anni, quindi va guardato da sotto, ed è lì che si capisce il gioco: battendo le mani davanti alla scalinata l\'eco torna indietro come il verso del quetzal, e non è una coincidenza. Chi cerca la sensazione di scoperta la trova più a Uxmal o a Cobá; qui si viene per la precisione astronomica, che è un\'altra cosa e vale comunque.',
     heroImageAlt: 'La piramide di El Castillo a Chichén Itzá, Yucatán, Messico',
+    heroImage: '/images/meraviglie/chichen-itza.jpg',
   },
   {
     slug: 'colosseo',
@@ -356,6 +367,7 @@ export const meraviglie: Meraviglia[] = [
     miaEsperienza:
       'Il Colosseo ha un problema che nessuna delle altre meraviglie ha: ci si passa davanti in mezzo al traffico, e questo toglie qualcosa. Il modo per recuperarlo è scendere negli ipogei, i sotterranei dove stavano gabbie, montacarichi e chi lavorava agli spettacoli: sono a ingresso separato, a numero chiuso, si esauriscono presto, e sono di gran lunga la parte più interessante del monumento. L\'errore più comune resta comprare il biglietto sul posto: la fila si conta in ore, e online sul sito ufficiale costa meno. Attenzione anche a chi propone "salta fila" davanti all\'ingresso, spesso a prezzi tripli per lo stesso biglietto. Il consiglio pratico è visitarlo la mattina presto o nell\'ultima fascia del pomeriggio, e tenersi il Palatino per dopo: è compreso nello stesso biglietto e quasi tutti lo saltano per stanchezza.',
     heroImageAlt: 'Il Colosseo di Roma visto dall\'esterno in una giornata di sole',
+    heroImage: '/images/meraviglie/colosseo.jpg',
   },
   {
     slug: 'taj-mahal',
@@ -375,7 +387,7 @@ export const meraviglie: Meraviglia[] = [
     comeArrivareLocale: 'Da Delhi, il treno Gatimaan Express o lo Shatabdi Express raggiungono Agra in circa 1h45-2h; in alternativa auto/bus (3-4 ore). La gita in giornata da Delhi è molto comune ma frettolosa: pernottare almeno una notte ad Agra permette l\'ingresso all\'alba.',
     comeSpostarsi: 'Il complesso si visita interamente a piedi; dal parcheggio esterno (le auto non possono avvicinarsi per motivi di inquinamento) si prosegue con navette elettriche, a piedi o in risciò a pedali fino agli ingressi.',
     prenotazione: 'Consigliata la prenotazione online in anticipo (sito ASI/Archaeological Survey of India) con fascia oraria, soprattutto per lo slot dell\'alba che ha una quota limitata di visitatori.',
-    prezzi: 'Circa 1.100-1.300 rupie indiane per stranieri (tariffa differenziata, molto più bassa per cittadini indiani), con un piccolo extra (circa 200 rupie) per l\'accesso al mausoleo principale. Il biglietto include copriscarpe e una bottiglietta d\'acqua.',
+    prezzi: 'Circa 1.300 rupie indiane per stranieri (tariffa differenziata, molto più bassa per cittadini indiani; indicativo, soggetto a revisione periodica — il prezzo è salito negli ultimi anni), con un piccolo extra (circa 200 rupie) per l\'accesso al mausoleo principale. Il biglietto include copriscarpe e una bottiglietta d\'acqua.',
     tourOAutonomo: 'Facilmente visitabile in autonomia. Una guida autorizzata (contrattabile all\'ingresso, indicativamente 1.000-1.500 rupie per un piccolo gruppo) aiuta a capire i dettagli della simmetria architettonica e della calligrafia coranica incisa sul marmo, oltre a scoraggiare l\'avvicinamento di venditori e falsi assistenti.',
     scamDaEvitare: [
       'Finte guide o "assistenti" fuori dai cancelli che offrono aiuto e poi portano verso negozi di tappeti/marmi con commissione, sotto forma di "laboratorio artigianale da visitare"',
@@ -414,5 +426,6 @@ export const meraviglie: Meraviglia[] = [
     miaEsperienza:
       'Il Taj è l\'unico monumento che regge davvero la propria fama, e lo fa per un motivo difficile da spiegare a parole: il marmo cambia colore durante il giorno, rosato all\'alba, bianco accecante a mezzogiorno, ambrato al tramonto, e non è un modo di dire. Va visto all\'apertura, con il biglietto comprato online la sera prima, perché entro le nove i cortili sono pieni e la panchina delle fotografie ha una fila costante. La cosa che colpisce da vicino, e che nessuna foto mostra, è l\'intarsio: fiori composti con decine di pietre dure incastrate nel marmo, che si vedono solo appoggiandosi al muro. Ad Agra però bisogna essere preparati a tutto il resto: il livello di insistenza di guide non autorizzate, autisti e venditori attorno agli ingressi è tra i più alti dell\'India, e l\'unico modo di gestirlo è non avviare la conversazione. Chiude il venerdì, ed è l\'errore più comune di chi organizza all\'ultimo.',
     heroImageAlt: 'Il Taj Mahal riflesso nella vasca dei giardini Charbagh, Agra, India',
+    heroImage: '/images/meraviglie/taj-mahal.jpg',
   },
 ]
