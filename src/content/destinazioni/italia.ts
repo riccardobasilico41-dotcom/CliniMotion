@@ -206,7 +206,7 @@ export const destinazioniItalia: Destinazione[] = [
     miaEsperienza:
       'Le Dolomiti sono il posto dove il paragone con il resto del mondo smette di funzionare, e non per campanilismo: la combinazione di pareti verticali, prati alti e una rete di rifugi con cucina e letti non esiste in questa densità da nessun\'altra parte. Si cammina otto ore con uno zaino da trenta litri e la sera si mangia polenta e formaggio fuso a duemilacinquecento metri, con la parete che diventa rosa. L\'enrosadira, che sembra una trovata per depliant, è un fenomeno reale legato alla composizione della dolomia, e la prima volta che si vede una parete accendersi in quel modo si capisce perché a questi monti abbiano dato un nome proprio. Detto questo, c\'è una cosa che va affrontata senza giri di parole: in luglio e agosto certi punti sono diventati impraticabili. Il giro delle Tre Cime nel pieno di agosto è una fila indiana, i parcheggi si esauriscono all\'alba, e nel 2026 hanno dovuto mettere la prenotazione obbligatoria sulla strada. La soluzione non è rinunciare: è andare a settembre, quando i rifugi sono ancora aperti e c\'è un terzo delle persone, oppure spostarsi di venti chilometri verso le valli che nessuno fotografa.',
     esperienzeSlugs: ['alta-via-1', 'tre-cime-lavaredo', 'via-ferrata-dolomiti'],
-    tripSlugs: ['dolomiti-estate'],
+    tripSlugs: ['dolomiti-roadtrip'],
     imageAlt: 'Le Tre Cime di Lavaredo con l\'enrosadira al tramonto, Dolomiti',
   },
   {

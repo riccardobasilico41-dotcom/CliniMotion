@@ -111,7 +111,7 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Mixkit Stock Video Free License',
     fonteUrl: 'https://mixkit.co/free-stock-video/interior-of-a-heavenly-cenote-4375/',
   },
-  'dolomiti-estate': {
+  'dolomiti-roadtrip': {
     autore: 'Oskar Gross (Pexels)',
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/aerial-view-of-tre-cime-di-lavaredo-peaks-34974241/',

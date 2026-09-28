@@ -12,38 +12,63 @@ import type { CreditoImmagine } from './viaggi-copertine-crediti'
  */
 
 export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> = {
-  'dolomiti-estate': {
-    'Giorno 2 — Il Parco Fanes-Sennes': {
+  'dolomiti-roadtrip': {
+    'Val Gardena, Ortisei e la Seceda': {
+      autore: 'Stch2022 (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl:
+        "https://commons.wikimedia.org/wiki/File:The_famous_Sec%C3%ABda-Alm_Ridgeline_located_in_South_Tyrol,_Italy.jpg",
+    },
+    'Alta Badia e il Parco di Fanes-Sennes': {
       autore: 'Bbruno (Wikimedia Commons)',
       licenza: 'CC BY-SA 3.0',
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lago_Verde_Fanes_03.JPG',
     },
-    'Giorno 3 — Le Tre Cime di Lavaredo': {
+    'I Quattro Passi e il Sella Ronda': {
+      autore: 'gogolander (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rifugio_Nuvolau_Dolomiti.JPG',
+    },
+    'Il Lagazuoi e le trincee della Grande Guerra': {
+      autore: 'Luca Lorenzi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gallerie_del_Lagazuoi.JPG',
+    },
+    'La Marmolada, la Regina delle Dolomiti': {
+      autore: 'Marco Manfroi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Marmolada_lago_fedaia.jpg',
+    },
+    'Le Tre Cime di Lavaredo e San Candido': {
       autore: 'Alessandro Drago (Wikimedia Commons)',
       licenza: 'CC BY-SA 4.0',
       fonteUrl:
         'https://commons.wikimedia.org/wiki/File:Le_Tre_Cime_dopo_il_tramonto,_dal_Rifugio_Locatelli.jpg',
     },
-    'Giorno 4 — Prima notte in rifugio': {
-      autore: 'gogolander (Wikimedia Commons)',
-      licenza: 'CC BY-SA 3.0',
-      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rifugio_Nuvolau_Dolomiti.JPG',
+    'Brunico e la Val Pusteria': {
+      autore: '-wuppertaler (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:ITA_Brunico,_Stadtgasse_004.jpg',
     },
-    'Giorno 5 — Seconda tappa in quota': {
+    "Vipiteno e l'Alta Val d'Isarco": {
+      autore: 'Zairon (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sterzing_Zw%C3%B6lferturm_1.jpg',
+    },
+    "Val di Sole, l'altra faccia del Trentino": {
+      autore: 'Andrea.piccioli (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Trentino_-_Val_di_Sole_-_Peio_(TN).jpg',
+    },
+    'Cosa fare d\'estate — sentieri impegnativi (Puez-Odle)': {
       autore: 'Flortography (Wikimedia Commons)',
       licenza: 'CC BY-SA 4.0',
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hiking_at_Sass_de_Putia.jpg',
     },
-    'Giorno 6 — Una via ferrata': {
-      autore: 'Luca Lorenzi (Wikimedia Commons)',
+    'Cosa fare d\'estate — sentieri per tutti (Alpe di Siusi)': {
+      autore: 'H. Zell (Wikimedia Commons)',
       licenza: 'CC BY-SA 3.0',
-      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gallerie_del_Lagazuoi.JPG',
-    },
-    'Giorno 7 — Seceda, Alpe di Siusi e rientro': {
-      autore: 'Stch2022 (Wikimedia Commons)',
-      licenza: 'CC BY 4.0',
-      fonteUrl:
-        "https://commons.wikimedia.org/wiki/File:The_famous_Sec%C3%ABda-Alm_Ridgeline_located_in_South_Tyrol,_Italy.jpg",
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Seiser_Alm_01.jpg',
     },
   },
   'lofoten-estate-2025': {

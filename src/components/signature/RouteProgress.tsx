@@ -11,7 +11,16 @@ import { motion, useScroll, useTransform } from 'motion/react'
  * direttamente la posizione di scroll, come farebbe una scrollbar nativa,
  * non è un effetto decorativo aggiunto sopra il contenuto.
  */
-export function RouteProgress({ totaleGiorni, containerRef }: { totaleGiorni: number; containerRef: React.RefObject<HTMLElement | null> }) {
+export function RouteProgress({
+  totaleGiorni,
+  containerRef,
+  label = 'Giorno',
+}: {
+  totaleGiorni: number
+  containerRef: React.RefObject<HTMLElement | null>
+  /** Sostituisce "Giorno" per i viaggi il cui `giorni[]` non rappresenta giorni di calendario (es. le zone di un roadtrip). */
+  label?: string
+}) {
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ['start center', 'end center'],
@@ -32,7 +41,7 @@ export function RouteProgress({ totaleGiorni, containerRef }: { totaleGiorni: nu
         />
       </div>
       <div className="pt-0.5 font-mono text-xs tabular-nums text-stone/60">
-        <p>Giorno</p>
+        <p>{label}</p>
         <motion.p className="font-display text-lg text-alpine">{giornoCorrente}</motion.p>
         <p>di {totaleGiorni}</p>
       </div>

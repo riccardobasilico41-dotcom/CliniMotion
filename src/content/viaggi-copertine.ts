@@ -110,8 +110,8 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
     immagine: '/images/copertine/arabia-saudita-itinerario.jpg',
     imageAlt: 'I balconi in legno intagliato (rawashin) di una casa tradizionale ad Al-Balad, la città vecchia di Gedda',
   },
-  'dolomiti-estate': {
-    immagine: '/images/copertine/dolomiti-estate.jpg',
+  'dolomiti-roadtrip': {
+    immagine: '/images/copertine/dolomiti-roadtrip.jpg',
     imageAlt: 'Le Tre Cime di Lavaredo tra le nuvole, Dolomiti, Italia',
   },
   'parigi-5-giorni': {

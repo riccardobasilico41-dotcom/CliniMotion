@@ -54,5 +54,5 @@ export const italia: Paese = {
     aggiornatoAl: 'settembre 2026',
   },
   heroImageAlt: 'Le cime delle Dolomiti al tramonto con l\'enrosadira, Italia',
-  tripPrincipaleSlug: 'dolomiti-estate',
+  tripPrincipaleSlug: 'dolomiti-roadtrip',
 }

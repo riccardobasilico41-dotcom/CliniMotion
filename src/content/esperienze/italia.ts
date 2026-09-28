@@ -38,7 +38,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Una versione ridotta di 4-5 tappe, per chi non ha mai fatto un trekking a rifugi',
       'Il giro del Sassolungo o dell\'Alpe di Siusi in giornata, per chi vuole solo assaggiare',
     ],
-    tripSlugs: ['dolomiti-estate'],
+    tripSlugs: ['dolomiti-roadtrip'],
     imageAlt: 'Escursionisti su un sentiero dell\'Alta Via 1 con le pareti dolomitiche sullo sfondo',
   },
   {
@@ -70,7 +70,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Il Lago di Sorapis, con il turchese da farina glaciale, anch\'esso contingentato ma meno battuto',
       'Salire alle Tre Cime a piedi dalla Val Fiscalina, evitando pedaggio e prenotazione',
     ],
-    tripSlugs: ['dolomiti-estate'],
+    tripSlugs: ['dolomiti-roadtrip'],
     imageAlt: 'Le pareti nord delle Tre Cime di Lavaredo viste dal sentiero al Rifugio Locatelli',
   },
   {
@@ -100,7 +100,7 @@ export const esperienzeItalia: Esperienza[] = [
       'Il Sentiero delle Gallerie del Lagazuoi, che è la parte storica con molta meno esposizione',
       'Un sentiero attrezzato di difficoltà bassa, per capire se l\'esposizione è gestibile prima di impegnarsi',
     ],
-    tripSlugs: ['dolomiti-estate'],
+    tripSlugs: ['dolomiti-roadtrip'],
     imageAlt: 'Scala metallica di una via ferrata su parete verticale nelle Dolomiti',
   },
   {

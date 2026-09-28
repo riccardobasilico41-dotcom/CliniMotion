@@ -102,9 +102,9 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
     src: '/videos/trips/messico-beach-life.mp4',
     poster: '/videos/trips/messico-beach-life-poster.jpg',
   },
-  'dolomiti-estate': {
-    src: '/videos/trips/dolomiti-estate.mp4',
-    poster: '/videos/trips/dolomiti-estate-poster.jpg',
+  'dolomiti-roadtrip': {
+    src: '/videos/trips/dolomiti-roadtrip.mp4',
+    poster: '/videos/trips/dolomiti-roadtrip-poster.jpg',
   },
   'firenze-3-giorni': {
     src: '/videos/trips/firenze-3-giorni.mp4',

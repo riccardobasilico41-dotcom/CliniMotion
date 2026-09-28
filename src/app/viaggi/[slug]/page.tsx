@@ -68,7 +68,11 @@ export default async function ViaggioPage({ params }: PageProps<'/viaggi/[slug]'
   const toc: TocItem[] = []
   if (meta) toc.push({ href: '#il-viaggio-in-breve', label: 'Il viaggio in breve' })
   if (meta && meta.tappeMappa.length > 0) toc.push({ href: '#mappa', label: 'Mappa' })
-  if (viaggio.giorni.length > 0) toc.push({ href: '#itinerario-giorno-per-giorno', label: 'Itinerario giorno per giorno' })
+  if (viaggio.giorni.length > 0)
+    toc.push({
+      href: '#itinerario-giorno-per-giorno',
+      label: meta?.unitaGiorniLabel ? 'Itinerario per zone' : 'Itinerario giorno per giorno',
+    })
   if (cosaVedereSezione) toc.push({ href: `#${slugify(cosaVedereSezione.titolo)}`, label: 'Cosa vedere e fare' })
   if (viaggio.doveDormito) toc.push({ href: '#dove-dormire', label: 'Dove dormire' })
   if (viaggio.doveMangiato) toc.push({ href: '#dove-mangiare', label: 'Dove mangiare' })
@@ -206,9 +210,16 @@ function SignatureViaggioContent({
 
             {viaggio.giorni.length > 0 && (
               <div id="itinerario-giorno-per-giorno" className="scroll-mt-24">
-                <h2 className="font-display text-2xl text-alpine">Itinerario giorno per giorno</h2>
+                <h2 className="font-display text-2xl text-alpine">
+                  {meta.unitaGiorniLabel ? 'Itinerario per zone' : 'Itinerario giorno per giorno'}
+                </h2>
                 <div className="mt-10">
-                  <DaySectionSignature giorni={viaggio.giorni} meta={meta.giorni} paeseSlug={meta.paeseSlug} />
+                  <DaySectionSignature
+                    giorni={viaggio.giorni}
+                    meta={meta.giorni}
+                    paeseSlug={meta.paeseSlug}
+                    unitaLabel={meta.unitaGiorniLabel}
+                  />
                 </div>
               </div>
             )}

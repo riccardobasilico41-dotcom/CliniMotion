@@ -74,7 +74,7 @@ import { esperienzePeru } from '@/content/esperienze/peru'
 import { italia } from '@/content/paesi/italia'
 import { destinazioniItalia } from '@/content/destinazioni/italia'
 import { esperienzeItalia } from '@/content/esperienze/italia'
-import { dolomitiEstateMeta } from '@/content/viaggi-dati/dolomiti-estate'
+import { dolomitiRoadtripMeta } from '@/content/viaggi-dati/dolomiti-roadtrip'
 import { settimanaBiancaMeta } from '@/content/viaggi-dati/settimana-bianca'
 import { grandiCittaItaliaMeta } from '@/content/viaggi-dati/grandi-citta-italia'
 import { siciliaItinerarioMeta } from '@/content/viaggi-dati/sicilia-itinerario'
@@ -170,7 +170,7 @@ const TRIP_META: TripMeta[] = [
   borneoItinerarioMeta,
   stopoverGolfoMeta,
   arabiaSauditaItinerarioMeta,
-  dolomitiEstateMeta,
+  dolomitiRoadtripMeta,
   settimanaBiancaMeta,
   grandiCittaItaliaMeta,
   siciliaItinerarioMeta,

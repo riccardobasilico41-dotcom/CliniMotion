@@ -33,8 +33,8 @@ const INTENSITA_CLASSES: Record<IntensitaGiorno, string> = {
  */
 export const DayTimelineSignature = forwardRef<
   HTMLOListElement,
-  { giorni: ViaggioGiorno[]; meta: GiornoMeta[]; paeseSlug: string }
->(function DayTimelineSignature({ giorni, meta, paeseSlug }, ref) {
+  { giorni: ViaggioGiorno[]; meta: GiornoMeta[]; paeseSlug: string; unitaLabel?: string }
+>(function DayTimelineSignature({ giorni, meta, paeseSlug, unitaLabel = 'Giorno' }, ref) {
   return (
     <ol ref={ref} className="space-y-16 sm:space-y-24">
       {giorni.map((giorno, i) => {
@@ -84,7 +84,7 @@ export const DayTimelineSignature = forwardRef<
                 ) : (
                   <FieldDossier
                     size="sm"
-                    eyebrow={`Giorno ${numero}`}
+                    eyebrow={`${unitaLabel} ${numero}`}
                     titolo={info?.destinazioneSlug ?? sottotitolo}
                     meta={info?.intensita ? INTENSITA_LABEL[info.intensita] : undefined}
                     className="mt-5 h-28"

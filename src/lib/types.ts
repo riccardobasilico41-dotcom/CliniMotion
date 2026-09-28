@@ -205,6 +205,8 @@ export type TripMeta = {
   budgetTotale?: string
   viaggioInBreve: ViaggioInBreve
   tappeMappa: TappaMappa[]
+  /** Etichetta usata al posto di "Giorno" nella timeline e nel segnaposto di percorso, per i viaggi il cui `giorni[]` non rappresenta giorni di calendario (es. le zone di un roadtrip modulare). Assente = "Giorno", il default per tutti gli altri viaggi. */
+  unitaGiorniLabel?: string
   giorni: GiornoMeta[]
   budget: VoceBudget[]
 }
