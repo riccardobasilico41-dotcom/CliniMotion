@@ -54,6 +54,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'cancun',
+      immagine: '/images/viaggi/messico-beach-life/giorno-0-cancun-zona-hotelera.jpg',
+      imageAlt: 'La Zona Hotelera di Cancún vista tra le palme, con la spiaggia e il mare turchese',
     },
     {
       titoloGiorno: 'Giorno 1 — Cancún, giornata di spiaggia',
@@ -62,6 +64,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'cancun',
+      immagine: '/images/viaggi/messico-beach-life/giorno-1-cancun-spiaggia.jpg',
+      imageAlt: 'La spiaggia di Cancún con sabbia bianca, mare turchese e lo skyline degli hotel sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 2 — Cancún → Valladolid',
@@ -70,6 +74,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'medio',
       destinazioneSlug: 'valladolid',
+      immagine: '/images/viaggi/messico-beach-life/giorno-2-valladolid-cattedrale.jpg',
+      imageAlt: "La Chiesa di San Gervasio sulla piazza principale di Valladolid, nello Yucatán",
     },
     {
       titoloGiorno: 'Giorno 3 — Valladolid → Mérida',
@@ -79,6 +85,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Chichén Itzá 614 MXN/persona · cenote Ik Kil 320 MXN',
       destinazioneSlug: 'merida',
+      immagine: '/images/viaggi/messico-beach-life/giorno-3-merida-paseo-montejo.jpg',
+      imageAlt: 'Una delle eleganti dimore coloniali sul Paseo de Montejo, il viale monumentale di Mérida',
     },
     {
       titoloGiorno: 'Giorno 4 — Mérida, giornata break: Playa Progreso',
@@ -87,6 +95,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'provato',
       intensita: 'leggero',
       destinazioneSlug: 'merida',
+      immagine: '/images/viaggi/messico-beach-life/giorno-4-playa-progreso.jpg',
+      imageAlt: 'La spiaggia di Playa Progreso con il lunghissimo molo che si allunga nel Golfo del Messico',
     },
     {
       titoloGiorno: 'Giorno 5 — Mérida → Campeche',
@@ -96,6 +106,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Temazcal Yax Ha 450 MXN · sombrero base a Becal 800 MXN',
       destinazioneSlug: 'campeche',
+      immagine: '/images/viaggi/messico-beach-life/giorno-5-campeche-case-colorate.jpg',
+      imageAlt: 'Le case colorate del centro storico coloniale di Campeche, patrimonio UNESCO',
     },
     {
       titoloGiorno: 'Giorno 6 — Campeche → Mahahual',
@@ -104,6 +116,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'mahahual',
+      immagine: '/images/viaggi/messico-beach-life/giorno-6-mahahual-costa.jpg',
+      imageAlt: 'Il lungomare di Mahahual con palapa, ristoranti e l\'accesso diretto alla spiaggia caraibica',
     },
     {
       titoloGiorno: 'Giorno 7 — Mahahual: Bacalar, snorkeling e Temazcal',
@@ -112,6 +126,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'mahahual',
+      immagine: '/images/viaggi/messico-beach-life/giorno-7-bacalar-laguna.jpg',
+      imageAlt: 'Vista aerea della Laguna di Bacalar, la "laguna dei sette colori", con un molo di legno e due palapa',
     },
     {
       titoloGiorno: 'Giorno 8 — Tulum: giornata chill',
@@ -121,6 +137,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'Caleta Tankah 300 MXN/persona',
       destinazioneSlug: 'tulum',
+      immagine: '/images/viaggi/messico-beach-life/giorno-8-tulum-rovine.jpg',
+      imageAlt: 'Le rovine Maya di Tulum su una scogliera a picco sulla spiaggia bianca e il mare turchese',
     },
     {
       titoloGiorno: 'Giorno 9 — Tulum e Playa del Carmen',
@@ -129,6 +147,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'tulum',
+      immagine: '/images/viaggi/messico-beach-life/giorno-9-playa-del-carmen.jpg',
+      imageAlt: 'La spiaggia di Playa del Carmen con lettini, ombrelloni e il molo sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 10 — Verso Holbox: 3 Islas e bioluminescenza',
@@ -137,6 +157,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'holbox',
+      immagine: '/images/viaggi/messico-beach-life/giorno-10-holbox-acqua-bassa.jpg',
+      imageAlt: "L'acqua bassa e turchese di Holbox con la spiaggia bianca, dove ci si sposta anche in bicicletta",
     },
     {
       titoloGiorno: 'Giorno 11 — Holbox: squalo balena',
@@ -145,6 +167,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'holbox',
+      immagine: '/images/viaggi/messico-beach-life/giorno-11-holbox-squalo-balena.jpg',
+      imageAlt: 'Uno squalo balena affiora in superficie mentre alcuni snorkeler nuotano accanto, con la barca del tour sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 12 — Rientro a Cancún',
@@ -153,6 +177,8 @@ export const messicoBeachLifeMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'cancun',
+      immagine: '/images/viaggi/messico-beach-life/giorno-12-cancun-aeroporto.jpg',
+      imageAlt: "L'interno del terminal dell'aeroporto di Cancún, con i viaggiatori in transito verso l'uscita",
     },
   ],
   budget: [

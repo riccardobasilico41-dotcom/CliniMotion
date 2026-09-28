@@ -56,6 +56,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'normandia',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-1-rouen.jpg',
+      imageAlt: 'Le guglie della cattedrale di Rouen viste dalla torre del Gros-Horloge, sopra i tetti della città vecchia',
     },
     {
       titoloGiorno: 'Giorno 2 — Le spiagge dello sbarco (parte 1)',
@@ -64,6 +66,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'normandia',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-2-omaha-beach.jpg',
+      imageAlt: 'Le file di croci bianche del cimitero americano di Normandia affacciate su Omaha Beach',
     },
     {
       titoloGiorno: 'Giorno 3 — Le spiagge dello sbarco (parte 2)',
@@ -72,6 +76,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'normandia',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-3-pointe-du-hoc.jpg',
+      imageAlt: 'I crateri lasciati dai bombardamenti sulla scogliera della Pointe du Hoc, ancora intatti nel prato',
     },
     {
       titoloGiorno: 'Giorno 4 — Bayeux e l\'Arazzo',
@@ -81,6 +87,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'verificare stato del cantiere di ristrutturazione',
       destinazioneSlug: 'normandia',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-4-bayeux-cattedrale.jpg',
+      imageAlt: 'La facciata gotica della cattedrale di Bayeux con le sue due guglie gemelle contro il cielo blu',
     },
     {
       titoloGiorno: 'Giorno 5 — Étretat e Honfleur',
@@ -89,6 +97,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'normandia',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-5-etretat.jpg',
+      imageAlt: "La falesia d'Aval di Étretat con il suo celebre arco naturale visto dalla spiaggia di ciottoli",
     },
     {
       titoloGiorno: 'Giorno 6 — Mont-Saint-Michel',
@@ -97,6 +107,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'normandia',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-6-mont-saint-michel-mura.jpg',
+      imageAlt: "Le mura fortificate del Mont-Saint-Michel viste da dentro il borgo, con l'abbazia e la sua guglia che svettano sopra i tetti",
     },
     {
       titoloGiorno: 'Giorno 7 — Mont-Saint-Michel all\'alba, poi Saint-Malo',
@@ -105,6 +117,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'bretagna',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-7-saint-malo.jpg',
+      imageAlt: 'La città corsara di Saint-Malo racchiusa dalle sue mura, vista dal porto con le barche ormeggiate',
     },
     {
       titoloGiorno: 'Giorno 8 — Dinan e la Côte de Granit Rose',
@@ -113,6 +127,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'bretagna',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-8-dinan.jpg',
+      imageAlt: 'La ripida rue du Jerzual a Dinan, lastricata in ciottoli e fiancheggiata da case a graticcio',
     },
     {
       titoloGiorno: 'Giorno 9 — Ploumanac\'h e il GR34',
@@ -121,6 +137,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'bretagna',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-9-ploumanach.jpg',
+      imageAlt: "I massi di granito rosa di Ploumanac'h che si accendono al tramonto, con il faro di Mean Ruz sullo sfondo",
     },
     {
       titoloGiorno: 'Giorno 10 — Penisola di Crozon',
@@ -129,6 +147,8 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'bretagna',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-10-crozon-pen-hir.jpg',
+      imageAlt: 'Gli scogli dei Tas de Pois visti dalla Pointe de Pen-Hir, sulla costa scoscesa della penisola di Crozon',
     },
     {
       titoloGiorno: 'Giorno 11 — Carnac e il Golfo del Morbihan',
@@ -137,12 +157,16 @@ export const normandiaBretagnaMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'bretagna',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-11-carnac.jpg',
+      imageAlt: 'Le file di menhir degli allineamenti di Carnac che si perdono tra i pini, nel Morbihan',
     },
     {
       titoloGiorno: 'Giorno 12 — Partenza',
       tratta: 'Partenza',
       intensita: 'leggero',
       destinazioneSlug: 'bretagna',
+      immagine: '/images/viaggi/normandia-bretagna/giorno-12-partenza.jpg',
+      imageAlt: "La torre di controllo dell'aeroporto di Rennes-Saint-Jacques, ultima tappa prima del rientro",
     },
   ],
   budget: [

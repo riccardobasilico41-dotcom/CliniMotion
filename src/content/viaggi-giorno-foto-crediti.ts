@@ -985,4 +985,142 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cloud_Forest,_Gardens_by_the_Bay,_Singapore_-_20120712-03.jpg',
     },
   },
+  'normandia-bretagna': {
+    'Giorno 1 — Rouen': {
+      autore: 'Daniel Vorndran / DXR (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Rouen_Cathedral_and_Rue_de_Gros_Horloge_as_seen_from_Gros_Horloge_140215_2.jpg',
+    },
+    'Giorno 2 — Le spiagge dello sbarco (parte 1)': {
+      autore: 'Jrwadf1435 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Normandy_American_Cemetery_and_Memorial_Overlooking_Omaha_Beach.jpg',
+    },
+    'Giorno 3 — Le spiagge dello sbarco (parte 2)': {
+      autore: 'Jebulon (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bombing_craters_at_Pointe_du_Hoc.jpg',
+    },
+    "Giorno 4 — Bayeux e l'Arazzo": {
+      autore: 'Ndesmoul (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Bayeux_-_fa%C3%A7ade_-_assemblage_de_4_images.jpg',
+    },
+    'Giorno 5 — Étretat e Honfleur': {
+      autore: 'Mathieu Chollet / MChollet (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cliffs_of_Etretat,_Normandy,_France,_December_2022.jpg',
+    },
+    'Giorno 6 — Mont-Saint-Michel': {
+      autore: 'John Samuel / Jsamwrites (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ramparts_of_Mont_Saint-Michel_01.jpg',
+    },
+    "Giorno 7 — Mont-Saint-Michel all'alba, poi Saint-Malo": {
+      autore: 'Wolfgang Pehlemann (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0 DE',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Saint-Malo_Panorama_Remparts_Walled_City_Altstadt_mit_Stadtmauern_Bastion_St_Philippe_Kathedrale_St_Vincent_Foto_2017_Wolfgang_Pehlemann_P1170149.jpg',
+    },
+    'Giorno 8 — Dinan e la Côte de Granit Rose': {
+      autore: 'Rémih (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rue_du_Jerzual_Dinan.jpg',
+    },
+    "Giorno 9 — Ploumanac'h e il GR34": {
+      autore: 'Pierre Guezingar (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: "https://commons.wikimedia.org/wiki/File:Fin_de_journ%C3%A9e_sur_Ploumanac%27h_-_Flickr_-_pguezingar.jpg",
+    },
+    'Giorno 10 — Penisola di Crozon': {
+      autore: 'Gzen92 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Pointe_de_Pen-Hir_et_les_Tas_de_Pois_(2).jpg',
+    },
+    'Giorno 11 — Carnac e il Golfo del Morbihan': {
+      autore: 'Le Passant (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Alignements_de_Carnac,_Morbihan_(France).jpg',
+    },
+    'Giorno 12 — Partenza': {
+      autore: 'Serge Ottaviani (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:A%C3%A9roport_de_Rennes_-_Saint-Jacques_-_tours_de_contr%C3%B4le.JPG',
+    },
+  },
+  'messico-beach-life': {
+    'Giorno 0 — Cancún, notte extra pre-tour': {
+      autore: 'Alfonzo Buscemi (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cancun_Hotel_Zone_at_VCI_-_panoramio.jpg',
+    },
+    'Giorno 1 — Cancún, giornata di spiaggia': {
+      autore: 'Matthew T Rader (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:A_beautiful_beach_in_Cancun,_Mexico.jpg',
+    },
+    'Giorno 2 — Cancún → Valladolid': {
+      autore: 'Adam Jones (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Plaza_Scene_with_Iglesia_de_San_Gervasio_-_Valladolid_-_Yucatan_-_Mexico.jpg',
+    },
+    'Giorno 3 — Valladolid → Mérida': {
+      autore: 'Andreita Pech (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Casa_Pe%C3%B3n_de_Regil_-_Paseo_de_Montejo,_M%C3%A9rida,_Yucat%C3%A1n.jpg',
+    },
+    'Giorno 4 — Mérida, giornata break: Playa Progreso': {
+      autore: 'DaLoetz (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:The_beach_and_pier_of_Progreso_de_Castro,_Yucat%C3%A1n.jpg',
+    },
+    'Giorno 5 — Mérida → Campeche': {
+      autore: 'Bernard DUPONT (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Colorful_Houses_-_Colonial_Quarter,_Campeche_Feb_2020.jpg',
+    },
+    'Giorno 6 — Campeche → Mahahual': {
+      autore: 'Larry D. Moore (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Walking_Path_Mahahual_Quintana_Roo_2023.jpg',
+    },
+    'Giorno 7 — Mahahual: Bacalar, snorkeling e Temazcal': {
+      autore: 'Sharon Hahn Darlin (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bacalar,_Quintana_Roo,_Mexico_-_Shore_2021.jpg',
+    },
+    'Giorno 8 — Tulum: giornata chill': {
+      autore: 'Erik Cleves Kristensen (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Maya_ruins_at_Tulum_2023_-_beach.jpg',
+    },
+    'Giorno 9 — Tulum e Playa del Carmen': {
+      autore: 'Scott S Bateman (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Playa-del-carmen-beach.jpg',
+    },
+    'Giorno 10 — Verso Holbox: 3 Islas e bioluminescenza': {
+      autore: 'Bruno Rijsman (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:A_touristic_beach_on_Holbox_Island,_Mexico,_june_2018.jpg',
+    },
+    'Giorno 11 — Holbox: squalo balena': {
+      autore: 'dronepicr (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Whale_shark_Holbox_island_Mexico_Walhai_(20179364025).jpg',
+    },
+    'Giorno 12 — Rientro a Cancún': {
+      autore: 'Antony-22 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Canc%C3%BAn_International_Airport_2024a.jpg',
+    },
+  },
 }
