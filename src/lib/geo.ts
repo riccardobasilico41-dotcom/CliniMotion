@@ -148,13 +148,58 @@ import { svizzera } from '@/content/paesi/svizzera'
 import { destinazioniSvizzera } from '@/content/destinazioni/svizzera'
 import { esperienzeSvizzera } from '@/content/esperienze/svizzera'
 import { svizzeraAlpiVanMeta } from '@/content/viaggi-dati/svizzera-alpi-van'
+import { paesiBassi } from '@/content/paesi/paesi-bassi'
+import { destinazioniPaesiBassi } from '@/content/destinazioni/paesi-bassi'
+import { esperienzePaesiBassi } from '@/content/esperienze/paesi-bassi'
+import { amsterdamWeekendMeta } from '@/content/viaggi-dati/amsterdam-weekend'
+import { portogallo } from '@/content/paesi/portogallo'
+import { destinazioniPortogallo } from '@/content/destinazioni/portogallo'
+import { esperienzePortogallo } from '@/content/esperienze/portogallo'
+import { lisbonaWeekendMeta } from '@/content/viaggi-dati/lisbona-weekend'
+import { repubblicaCeca } from '@/content/paesi/repubblica-ceca'
+import { destinazioniRepubblicaCeca } from '@/content/destinazioni/repubblica-ceca'
+import { esperienzeRepubblicaCeca } from '@/content/esperienze/repubblica-ceca'
+import { pragaWeekendMeta } from '@/content/viaggi-dati/praga-weekend'
+import { austria } from '@/content/paesi/austria'
+import { destinazioniAustria } from '@/content/destinazioni/austria'
+import { esperienzeAustria } from '@/content/esperienze/austria'
+import { viennaWeekendMeta } from '@/content/viaggi-dati/vienna-weekend'
+import { ungheria } from '@/content/paesi/ungheria'
+import { destinazioniUngheria } from '@/content/destinazioni/ungheria'
+import { esperienzeUngheria } from '@/content/esperienze/ungheria'
+import { budapestWeekendMeta } from '@/content/viaggi-dati/budapest-weekend'
+import { germania } from '@/content/paesi/germania'
+import { destinazioniGermania } from '@/content/destinazioni/germania'
+import { esperienzeGermania } from '@/content/esperienze/germania'
+import { berlinoWeekendMeta } from '@/content/viaggi-dati/berlino-weekend'
+import { danimarca } from '@/content/paesi/danimarca'
+import { destinazioniDanimarca } from '@/content/destinazioni/danimarca'
+import { esperienzeDanimarca } from '@/content/esperienze/danimarca'
+import { capitaliNordicheMeta } from '@/content/viaggi-dati/capitali-nordiche'
+import { lituania } from '@/content/paesi/lituania'
+import { destinazioniLituania } from '@/content/destinazioni/lituania'
+import { esperienzeLituania } from '@/content/esperienze/lituania'
+import { lettonia } from '@/content/paesi/lettonia'
+import { destinazioniLettonia } from '@/content/destinazioni/lettonia'
+import { esperienzeLettonia } from '@/content/esperienze/lettonia'
+import { estonia } from '@/content/paesi/estonia'
+import { destinazioniEstonia } from '@/content/destinazioni/estonia'
+import { esperienzeEstonia } from '@/content/esperienze/estonia'
+import { capitaliBalticheMeta } from '@/content/viaggi-dati/capitali-baltiche'
+import { spagna } from '@/content/paesi/spagna'
+import { destinazioniSpagna } from '@/content/destinazioni/spagna'
+import { esperienzeSpagna } from '@/content/esperienze/spagna'
+import { andalusiaItinerarioMeta } from '@/content/viaggi-dati/andalusia-itinerario'
+import { spagnaNordItinerarioMeta } from '@/content/viaggi-dati/spagna-nord-itinerario'
+import { baleariItinerarioMeta } from '@/content/viaggi-dati/baleari-itinerario'
+import { canarieItinerarioMeta } from '@/content/viaggi-dati/canarie-itinerario'
 import { getViaggioBySlug, type Viaggio } from './viaggi'
 
 // Registro dei Paesi disponibili. Aggiungere un nuovo Paese = aggiungere una
 // riga qui più i relativi file in src/content/{paesi,destinazioni,esperienze}.
-const PAESI: Paese[] = [italia, messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia, marocco, newYork, florida, transilvania, bulgaria, costaRica, indonesia, guatemala, belize, panama, peru, bolivia, cina, coreaDelSud, malesia, borneo, singapore, emiratiArabiUniti, qatar, arabiaSaudita, francia, polonia, svizzera]
-const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia, ...destinazioniMarocco, ...destinazioniNewYork, ...destinazioniFlorida, ...destinazioniTransilvania, ...destinazioniBulgaria, ...destinazioniCostaRica, ...destinazioniIndonesia, ...destinazioniGuatemala, ...destinazioniBelize, ...destinazioniPanama, ...destinazioniPeru, ...destinazioniBolivia, ...destinazioniCina, ...destinazioniCoreaDelSud, ...destinazioniMalesia, ...destinazioniBorneo, ...destinazioniSingapore, ...destinazioniEmiratiArabiUniti, ...destinazioniQatar, ...destinazioniArabiaSaudita, ...destinazioniItalia, ...destinazioniFrancia, ...destinazioniPolonia, ...destinazioniSvizzera]
-const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia, ...esperienzeMarocco, ...esperienzeNewYork, ...esperienzeFlorida, ...esperienzeTransilvania, ...esperienzeBulgaria, ...esperienzeCostaRica, ...esperienzeIndonesia, ...esperienzeGuatemala, ...esperienzeBelize, ...esperienzePanama, ...esperienzePeru, ...esperienzeBolivia, ...esperienzeCina, ...esperienzeCoreaDelSud, ...esperienzeMalesia, ...esperienzeBorneo, ...esperienzeSingapore, ...esperienzeEmiratiArabiUniti, ...esperienzeQatar, ...esperienzeArabiaSaudita, ...esperienzeItalia, ...esperienzeFrancia, ...esperienzePolonia, ...esperienzeSvizzera]
+const PAESI: Paese[] = [italia, messico, norvegia, islanda, svezia, giordania, sriLanka, giappone, thailandia, marocco, newYork, florida, transilvania, bulgaria, costaRica, indonesia, guatemala, belize, panama, peru, bolivia, cina, coreaDelSud, malesia, borneo, singapore, emiratiArabiUniti, qatar, arabiaSaudita, francia, polonia, svizzera, paesiBassi, portogallo, repubblicaCeca, austria, ungheria, germania, lituania, lettonia, estonia, danimarca, spagna]
+const DESTINAZIONI: Destinazione[] = [...destinazioniMessico, ...destinazioniNorvegia, ...destinazioniIslanda, ...destinazioniSvezia, ...destinazioniGiordania, ...destinazioniSriLanka, ...destinazioniGiappone, ...destinazioniThailandia, ...destinazioniMarocco, ...destinazioniNewYork, ...destinazioniFlorida, ...destinazioniTransilvania, ...destinazioniBulgaria, ...destinazioniCostaRica, ...destinazioniIndonesia, ...destinazioniGuatemala, ...destinazioniBelize, ...destinazioniPanama, ...destinazioniPeru, ...destinazioniBolivia, ...destinazioniCina, ...destinazioniCoreaDelSud, ...destinazioniMalesia, ...destinazioniBorneo, ...destinazioniSingapore, ...destinazioniEmiratiArabiUniti, ...destinazioniQatar, ...destinazioniArabiaSaudita, ...destinazioniItalia, ...destinazioniFrancia, ...destinazioniPolonia, ...destinazioniSvizzera, ...destinazioniPaesiBassi, ...destinazioniPortogallo, ...destinazioniRepubblicaCeca, ...destinazioniAustria, ...destinazioniUngheria, ...destinazioniGermania, ...destinazioniLituania, ...destinazioniLettonia, ...destinazioniEstonia, ...destinazioniDanimarca, ...destinazioniSpagna]
+const ESPERIENZE: Esperienza[] = [...esperienzeMessico, ...esperienzeNorvegia, ...esperienzeIslanda, ...esperienzeSvezia, ...esperienzeGiordania, ...esperienzeSriLanka, ...esperienzeGiappone, ...esperienzeThailandia, ...esperienzeMarocco, ...esperienzeNewYork, ...esperienzeFlorida, ...esperienzeTransilvania, ...esperienzeBulgaria, ...esperienzeCostaRica, ...esperienzeIndonesia, ...esperienzeGuatemala, ...esperienzeBelize, ...esperienzePanama, ...esperienzePeru, ...esperienzeBolivia, ...esperienzeCina, ...esperienzeCoreaDelSud, ...esperienzeMalesia, ...esperienzeBorneo, ...esperienzeSingapore, ...esperienzeEmiratiArabiUniti, ...esperienzeQatar, ...esperienzeArabiaSaudita, ...esperienzeItalia, ...esperienzeFrancia, ...esperienzePolonia, ...esperienzeSvizzera, ...esperienzePaesiBassi, ...esperienzePortogallo, ...esperienzeRepubblicaCeca, ...esperienzeAustria, ...esperienzeUngheria, ...esperienzeGermania, ...esperienzeLituania, ...esperienzeLettonia, ...esperienzeEstonia, ...esperienzeDanimarca, ...esperienzeSpagna]
 
 const TRIP_META: TripMeta[] = [
   messicoBeachLifeMeta,
@@ -210,6 +255,18 @@ const TRIP_META: TripMeta[] = [
   tourDuMontBlancMeta,
   cracoviaWeekendMeta,
   svizzeraAlpiVanMeta,
+  amsterdamWeekendMeta,
+  lisbonaWeekendMeta,
+  pragaWeekendMeta,
+  viennaWeekendMeta,
+  budapestWeekendMeta,
+  berlinoWeekendMeta,
+  capitaliBalticheMeta,
+  capitaliNordicheMeta,
+  andalusiaItinerarioMeta,
+  spagnaNordItinerarioMeta,
+  baleariItinerarioMeta,
+  canarieItinerarioMeta,
 ]
 
 export function getAllPaesi(): Paese[] {

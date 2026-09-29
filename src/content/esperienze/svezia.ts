@@ -6,6 +6,12 @@ import type { Esperienza } from '@/lib/types'
 // operatori, Swedish Tourist Association/STF, LKAB) per dare a chi legge una
 // guida utile e concreta, non solo un ricordo personale — prezzi e orari vanno
 // comunque sempre riverificati prima di prenotare, cambiano stagione per stagione.
+//
+// Le quattro esperienze di Stoccolma in fondo al file (Vasamuseet, Gamla Stan,
+// ABBA Museum, arcipelago) appartengono al nuovo itinerario "Capitali
+// nordiche" (src/content/viaggi/60-capitali-nordiche.md) e non al viaggio in
+// Lapponia: nessuna è stata provata di persona, giudizio resta 'da-verificare'
+// su tutte, coerente con destinazioni/svezia.ts.
 
 export const esperienzeSvezia: Esperienza[] = [
   {
@@ -117,5 +123,89 @@ export const esperienzeSvezia: Esperienza[] = [
     alternative: [],
     tripSlugs: [],
     imageAlt: 'Galleria sotterranea illuminata della miniera di ferro LKAB a Kiruna',
+  },
+  {
+    slug: 'vasamuseet-stoccolma',
+    paeseSlug: 'svezia',
+    destinazioneSlug: 'stoccolma',
+    nome: 'Vasamuseet (Museo Vasa)',
+    localita: 'Djurgården, Stoccolma',
+    cosE:
+      'Il museo che custodisce il Vasa, una nave da guerra reale svedese affondata nel porto di Stoccolma nel suo viaggio inaugurale nel 1628, dopo aver navigato meno di 1.300 metri, e recuperata quasi completamente intatta nel 1961 dal fondo del porto. È oggi la nave del XVII secolo meglio conservata al mondo, esposta intera all\'interno di un edificio costruito apposta intorno allo scafo.',
+    percheFarla:
+      'Perché non è un semplice museo navale: è un disastro navale del Seicento conservato quasi come si fosse fermato ieri, con oltre 95% del materiale originale, e restituisce un colpo d\'occhio che nessuna foto rende davvero.',
+    durata: 'indicativamente 1,5-2 ore per una visita con calma, incluso il film introduttivo',
+    periodo: 'tutto l\'anno, museo al coperto',
+    costo: 'da 195 SEK (gennaio-aprile e ottobre-dicembre) a 240 SEK (maggio-settembre) per adulti; gratuito sotto i 18 anni',
+    comePrenotare: 'Biglietto acquistabile online in anticipo (consigliato in alta stagione) o direttamente in loco',
+    cosaPortare: 'Nulla di particolare, museo al coperto',
+    perChiEAdatta: 'Chiunque, nessuna difficoltà; tra le attrazioni più visitate di tutta la Svezia',
+    giudizio: 'da-verificare',
+    alternative: ['Il biglietto combinato con il Vrak Museum of Wrecks, dedicato ad altri relitti del Mar Baltico, valido 72 ore'],
+    tripSlugs: ['capitali-nordiche'],
+    imageAlt: 'La prua scolpita della nave da guerra Vasa del XVII secolo esposta al Vasamuseet di Stoccolma',
+  },
+  {
+    slug: 'gamla-stan-passeggiata',
+    paeseSlug: 'svezia',
+    destinazioneSlug: 'stoccolma',
+    nome: 'Passeggiata a Gamla Stan',
+    localita: 'Gamla Stan, centro storico di Stoccolma',
+    cosE:
+      'Una passeggiata a piedi nel centro storico medievale di Stoccolma, costruito su una piccola isola propria: vicoli stretti acciottolati, case color pastello, la piazza di Stortorget (la più antica della città, teatro del "Bagno di sangue di Stoccolma" del 1520), il Palazzo Reale con il cambio della guardia e la cattedrale di Storkyrkan.',
+    percheFarla:
+      'Perché è il nucleo originario di Stoccolma, fondata qui nel 1252, e concentra in un\'area piccola e percorribile in poche ore gran parte della storia della città.',
+    durata: 'mezza giornata per un giro con calma, incluse soste per caffè',
+    periodo: 'tutto l\'anno, più piacevole da aprile a settembre',
+    costo: 'gratuito camminare; il Palazzo Reale (appartamenti di stato) ha un ingresso a pagamento separato',
+    comePrenotare: 'Nessuna prenotazione necessaria per la passeggiata; il cambio della guardia ha orari fissi da verificare in loco o online',
+    cosaPortare: 'Scarpe comode: i ciottoli di Gamla Stan non perdonano tacchi o suole sottili',
+    perChiEAdatta: 'Chiunque, nessuna difficoltà fisica particolare',
+    giudizio: 'da-verificare',
+    alternative: [],
+    tripSlugs: ['capitali-nordiche'],
+    imageAlt: 'Vicolo acciottolato con case color pastello nel centro storico di Gamla Stan, Stoccolma',
+  },
+  {
+    slug: 'abba-museum-stoccolma',
+    paeseSlug: 'svezia',
+    destinazioneSlug: 'stoccolma',
+    nome: 'ABBA The Museum',
+    localita: 'Djurgården, Stoccolma',
+    cosE:
+      'Un museo interattivo dedicato agli ABBA, il gruppo pop svedese più famoso al mondo: costumi di scena originali, strumenti, la ricostruzione dello studio di registrazione Polar Music, e stanze interattive dove ci si può "esibire" virtualmente insieme agli ologrammi della band.',
+    percheFarla:
+      'Perché è uno dei musei musicali più curati e divertenti d\'Europa, pensato per essere vissuto più che osservato, e perché racconta un pezzo di cultura pop svedese esportata in tutto il mondo.',
+    durata: 'circa 1,5-2 ore',
+    periodo: 'tutto l\'anno, museo al coperto',
+    costo: 'adulti 269-349 SEK secondo la data (prezzo dinamico), bambini 7-15 anni 129-169 SEK, gratuito sotto i 7',
+    comePrenotare: 'Biglietto con fascia oraria d\'ingresso, da prenotare online in anticipo: gli slot più richiesti si esauriscono, specie nei weekend',
+    cosaPortare: 'Nulla di particolare',
+    perChiEAdatta: 'Chiunque, anche senza essere fan sfegatati degli ABBA; particolarmente indicato per famiglie grazie alla componente interattiva',
+    giudizio: 'da-verificare',
+    alternative: [],
+    tripSlugs: ['capitali-nordiche'],
+    imageAlt: 'Costumi di scena originali degli ABBA esposti all\'ABBA The Museum di Stoccolma',
+  },
+  {
+    slug: 'arcipelago-stoccolma-in-barca',
+    paeseSlug: 'svezia',
+    destinazioneSlug: 'stoccolma',
+    nome: 'Gita in barca nell\'arcipelago di Stoccolma',
+    localita: 'Stockholms skärgård, a est di Stoccolma',
+    cosE:
+      'Un\'uscita in barca — guidata su battello turistico o in autonomia con i traghetti pubblici Waxholmsbolaget — tra le oltre 30.000 isole e isolotti dell\'arcipelago di Stoccolma, che si estende verso est fino al Mar Baltico. Le formule guidate più comuni toccano una o due isole in mezza giornata; per chi ha più tempo esistono uscite di giornata intera o soggiorni di una notte su un\'isola.',
+    percheFarla:
+      'Perché l\'arcipelago è la ragione per cui molti svedesi considerano Stoccolma una città "sull\'acqua" più che una città e basta: un\'altra faccia della capitale rispetto al centro storico, fatta di casette rosse di legno, pinete e acqua bassa e trasparente.',
+    durata: 'da 2-2,5 ore per un\'uscita guidata classica a una giornata intera per chi vuole toccare più isole',
+    periodo: 'maggio-settembre, quando la maggior parte delle linee turistiche e dei collegamenti verso le isole minori è attiva; d\'inverno il servizio si riduce parecchio',
+    costo: 'da circa 375 SEK (35€ circa) per un\'uscita guidata di 2-2,5 ore; i traghetti pubblici Waxholmsbolaget sono più economici ma richiedono organizzarsi da soli l\'itinerario',
+    comePrenotare: 'Tour guidati prenotabili online (es. Strömma) con partenza dal centro; i traghetti pubblici si prendono direttamente al molo di Strandvägen o Nybroplan, biglietto acquistabile in loco o via app',
+    cosaPortare: 'Una giacca a vento anche d\'estate: il vento in mare aperto si sente più che in città',
+    perChiEAdatta: 'Chiunque, nessuna difficoltà fisica sulle uscite guidate; le formule in autonomia richiedono un minimo di organizzazione con orari dei traghetti',
+    giudizio: 'da-verificare',
+    alternative: ['I traghetti pubblici Waxholmsbolaget, più economici e più liberi nei tempi ma senza guida'],
+    tripSlugs: ['capitali-nordiche'],
+    imageAlt: 'Isolotto con case di legno rosse tradizionali nell\'arcipelago di Stoccolma, circondato da acqua calma',
   },
 ]

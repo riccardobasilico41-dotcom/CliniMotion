@@ -1,6 +1,12 @@
 import type { Esperienza } from '@/lib/types'
 
 // Contenuto riutilizzato dal viaggio "Lofoten in 7 giorni" (src/content/viaggi/01-lofoten-estate-2025.md).
+//
+// Le tre esperienze di Oslo in fondo al file (Vigeland Park, musei di
+// Bygdøy, crociera sull'Oslofjord) appartengono al nuovo itinerario
+// "Capitali nordiche" (src/content/viaggi/60-capitali-nordiche.md) e non al
+// viaggio alle Lofoten: nessuna è stata provata di persona, giudizio resta
+// 'da-verificare' su tutte, coerente con destinazioni/norvegia.ts.
 
 export const esperienzeNorvegia: Esperienza[] = [
   {
@@ -262,5 +268,68 @@ export const esperienzeNorvegia: Esperienza[] = [
     alternative: [],
     tripSlugs: [],
     imageAlt: 'Igloo di vetro innevato con aurora boreale visibile attraverso il soffitto trasparente',
+  },
+  {
+    slug: 'vigeland-park-oslo',
+    paeseSlug: 'norvegia',
+    destinazioneSlug: 'oslo',
+    nome: 'Vigeland Park',
+    localita: 'Frognerparken, Oslo',
+    cosE:
+      'Il più grande parco di sculture al mondo realizzato da un solo artista: oltre 200 opere in bronzo, granito e ferro battuto di Gustav Vigeland, installate permanentemente all\'interno del grande parco cittadino di Frogner. Il pezzo più noto è il Monolitto, una colonna di granito alta oltre 14 metri scolpita con 121 figure umane intrecciate.',
+    percheFarla:
+      'Perché è gratuito, sempre aperto e considerato l\'attrazione più visitata di tutta la Norvegia: un parco pubblico che è anche una delle opere scultoree più ambiziose d\'Europa, percorribile con calma in un paio d\'ore.',
+    durata: 'circa 1,5-2 ore per un giro con calma tra i vari settori del parco',
+    periodo: 'tutto l\'anno, sempre aperto; più piacevole da maggio a settembre',
+    costo: 'gratuito',
+    comePrenotare: 'Nessuna prenotazione, ingresso libero',
+    cosaPortare: 'Nulla di particolare; scarpe comode per il percorso a piedi',
+    perChiEAdatta: 'Chiunque, nessuna difficoltà fisica; adatto anche a famiglie con bambini grazie agli ampi spazi verdi',
+    giudizio: 'da-verificare',
+    alternative: [],
+    tripSlugs: ['capitali-nordiche'],
+    imageAlt: 'Il Monolitto di granito scolpito con figure umane intrecciate nel Vigeland Park di Oslo',
+  },
+  {
+    slug: 'bygdoy-musei-fram-kontiki',
+    paeseSlug: 'norvegia',
+    destinazioneSlug: 'oslo',
+    nome: 'Musei di Bygdøy: Fram Museum e Kon-Tiki Museum',
+    localita: 'Penisola di Bygdøy, Oslo',
+    cosE:
+      'Due musei affiancati sulla penisola museale di Bygdøy: il Fram Museum, che espone la Fram, la nave polare usata da Fridtjof Nansen e Roald Amundsen nelle spedizioni verso l\'Artico e l\'Antartide (compresa quella che nel 1911 raggiunse per prima il Polo Sud), visitabile anche a bordo; e il Kon-Tiki Museum, dedicato alla zattera con cui Thor Heyerdahl attraversò il Pacifico nel 1947 per dimostrare una sua teoria sulle migrazioni polinesiane. Il vicino Viking Ship Museum, che ospitava le navi vichinghe originali, è chiuso per una ristrutturazione che dovrebbe protrarsi fino al 2027, con le navi in trasferimento verso il nuovo Museum of the Viking Age.',
+    percheFarla:
+      'Perché raccontano due capitoli decisivi dell\'esplorazione norvegese del Novecento, uno polare e uno oceanico, a pochi passi l\'uno dall\'altro sulla stessa penisola.',
+    durata: 'circa 1 ora per ciascun museo, mezza giornata per entrambi con gli spostamenti',
+    periodo: 'tutto l\'anno, musei al coperto',
+    costo: 'Fram Museum circa 180 NOK (16€ circa) adulti; Kon-Tiki Museum a prezzo simile — biglietti combinati spesso disponibili',
+    comePrenotare: 'Biglietto acquistabile online o in loco; consigliato online in alta stagione per evitare code',
+    cosaPortare: 'Nulla di particolare',
+    perChiEAdatta: 'Chiunque, adatto anche a famiglie',
+    giudizio: 'da-verificare',
+    alternative: ['Il Norsk Folkemuseum, il museo a cielo aperto della vita tradizionale norvegese, sulla stessa penisola di Bygdøy'],
+    tripSlugs: ['capitali-nordiche'],
+    imageAlt: 'La nave polare Fram esposta all\'interno del Fram Museum sulla penisola di Bygdøy, Oslo',
+  },
+  {
+    slug: 'oslofjord-crociera',
+    paeseSlug: 'norvegia',
+    destinazioneSlug: 'oslo',
+    nome: 'Crociera sull\'Oslofjord',
+    localita: 'Oslofjord, partenza dal municipio di Oslo',
+    cosE:
+      'Un\'uscita in barca di 1,5-2 ore sull\'Oslofjord, tra le isole e le baie a sud della città, con partenza tipicamente dal molo davanti al municipio (Rådhusbrygge). Alcuni operatori usano barche a vela d\'epoca in legno, altri battelli moderni o silenziosi elettrici; esistono anche formule combinate con un tour della città in pullman.',
+    percheFarla:
+      'Perché Oslo si affaccia direttamente sul fiordo, e vederla dall\'acqua — con lo skyline del centro, la fortezza di Akershus e le isole minori — è un punto di vista che il solo giro a piedi non dà.',
+    durata: 'da 1,5 a 2 ore per la crociera classica; le formule combinate con tour cittadino occupano mezza giornata',
+    periodo: 'maggio-settembre, quando la maggior parte delle linee turistiche è attiva; d\'inverno l\'offerta si riduce',
+    costo: 'indicativamente 45-70€ a persona per la crociera di 1,5-2 ore; le formule combinate con tour in pullman partono da circa 120-130€',
+    comePrenotare: 'Prenotazione online consigliata in alta stagione, con partenza diretta dal molo del municipio',
+    cosaPortare: 'Una giacca anche d\'estate: il vento sul fiordo si sente più che in città',
+    perChiEAdatta: 'Chiunque, nessuna difficoltà fisica',
+    giudizio: 'da-verificare',
+    alternative: ['I traghetti pubblici locali verso le isole del fiordo (Hovedøya, Gressholmen), più economici e senza guida'],
+    tripSlugs: ['capitali-nordiche'],
+    imageAlt: 'Barca a vela in legno che naviga sull\'Oslofjord con lo skyline di Oslo sullo sfondo',
   },
 ]

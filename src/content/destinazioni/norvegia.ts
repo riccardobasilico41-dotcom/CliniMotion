@@ -7,6 +7,15 @@ import type { Destinazione } from '@/lib/types'
 // Le immagini sono foto stock temporanee (Pixabay/Pexels, licenze free-use),
 // scelte per rappresentare davvero il luogo in attesa delle foto reali del
 // viaggio — vanno sostituite non appena disponibili gli scatti originali.
+//
+// Oslo serve anche un secondo viaggio, "Capitali nordiche"
+// (src/content/viaggi/60-capitali-nordiche.md): lì la città non è più solo il
+// giorno di apertura/chiusura delle Lofoten, ma la tappa finale di 2-3 giorni
+// pieni. visitataPersonalmente resta true (quella giornata di transito è
+// stata vissuta davvero) e miaEsperienza non cambia — racconta solo quella
+// giornata. Le voci aggiunte per il nuovo itinerario (Vigeland Park, Fram
+// Museum, crociera sul fiordo) sono ricerca, non ricordo: coerente con le
+// singole schede Esperienza collegate, che restano giudizio 'da-verificare'.
 
 export const destinazioniNorvegia: Destinazione[] = [
   {
@@ -14,35 +23,47 @@ export const destinazioniNorvegia: Destinazione[] = [
     paeseSlug: 'norvegia',
     ordine: 1,
     nome: 'Oslo',
-    tipologia: ['cultura'],
-    giorniConsigliati: '1 giorno, sia all\'andata che al ritorno',
+    tipologia: ['cultura', 'città'],
+    giorniConsigliati:
+      '1 giorno, sia all\'andata che al ritorno, nel viaggio alle Lofoten; 2-3 giorni pieni nell\'itinerario "Capitali nordiche", come tappa finale dopo Copenaghen e Stoccolma',
     visitataPersonalmente: true,
     introduzione:
-      'La capitale norvegese, punto di ingresso e di uscita del viaggio: giardini reali, lungomare di Aker Brygge, musei d\'arte contemporanea e l\'Opera House affacciata sul fiordo.',
-    percheAndarci: 'Un giorno di cultura e passeggiate a piedi che funziona bene sia per aprire sia per chiudere il viaggio, prima o dopo il volo interno verso Bodø.',
+      'La capitale norvegese: giardini reali, lungomare di Aker Brygge, musei d\'arte contemporanea e l\'Opera House affacciata sul fiordo. Nel viaggio alle Lofoten è punto di ingresso e di uscita, una giornata per direzione; nell\'itinerario "Capitali nordiche" diventa una tappa piena, con il parco di sculture di Vigeland, i musei della penisola di Bygdøy e un\'uscita sul fiordo.',
+    percheAndarci:
+      'Un giorno di cultura e passeggiate a piedi che funziona bene sia per aprire sia per chiudere il viaggio alle Lofoten, prima o dopo il volo interno verso Bodø. Come tappa finale di un giro di capitali nordiche, regge benissimo 2-3 giorni pieni tra il centro, Bygdøy e il fiordo.',
     cosaVedere: [
       'Giardini del Palazzo Reale',
       'Lungomare di Aker Brygge',
       'Museo Astrup Fearnley (edificio di Renzo Piano)',
       'Oslo Opera House, con salita sul tetto per la vista su città e mare',
+      'Il Vigeland Park (Frognerparken), il più grande parco di sculture al mondo opera di un solo artista: oltre 200 statue in bronzo, granito e ferro di Gustav Vigeland, ingresso libero e sempre aperto — l\'attrazione più visitata di tutta la Norvegia',
+      'La penisola di Bygdøy, con il Fram Museum (dedicato alla nave polare usata da Nansen e Amundsen) e il Kon-Tiki Museum (la zattera di Thor Heyerdahl): il Viking Ship Museum della stessa penisola è invece chiuso per una ristrutturazione che dovrebbe durare fino al 2027, con le navi vichinghe in trasferimento verso il nuovo Museum of the Viking Age — da verificare la riapertura prima di programmare la visita',
     ],
     cosaFare: [
       'Passeggiata a piedi dal Palazzo Reale ad Aker Brygge fino all\'Opera House',
       'Salita sul tetto dell\'Opera House per la vista, con una sosta per un tè caldo nel bar interno',
+      'Una passeggiata tra le sculture del Vigeland Park — vedi la scheda esperienza dedicata',
+      'Una mattinata ai musei di Bygdøy (Fram Museum e Kon-Tiki Museum) — vedi la scheda esperienza dedicata',
+      'Una crociera sull\'Oslofjord di due ore, tra le isole e le baie a sud della città — vedi la scheda esperienza dedicata',
     ],
     doveDormire:
       'Ho dormito al Citybox Hotel, a 5 minuti a piedi da Oslo S: design-hotel economico, check-in automatico, camere essenziali ma pulite, letti comodi, macchina del caffè in stanza. Le recensioni (Tripadvisor, oltre 2.400 giudizi, punteggio 4/5) confermano l\'impressione diretta — ottimo rapporto qualità-prezzo per gli standard di Oslo e posizione imbattibile, a fronte di uno stile volutamente minimal (niente reception fisica) e qualche lamentela su stanze rumorose se affacciate sul tram. Consiglio di chiedere una camera sul lato interno.\n\nAlternative a Oslo — economiche: Saga Poshtel (a pochi passi da Oslo S), Comfort Hotel Xpress Central Station (due minuti da Jernbanetorget) · fascia media (qui rientra anche il Citybox scelto): Comfort Hotel Karl Johan (250 m da Oslo S) · fascia alta senza esagerare: Amerikalinjen (hotel storico e boutique vicino alla stazione), The Thief (design hotel sul lungomare di Tjuvholmen, con spa interna).',
     doveMangiare:
       'Cena da Rorbua (Aker Brygge): cucina norvegese tradizionale, porzioni generose, prezzi nella media, atmosfera calda in legno. Se si torna a Oslo a fine viaggio, Café Sara è un\'ottima ultima cena — locale semplice ma aperto fino a tardi, comodo dopo un volo serale (consigliata prenotazione nel weekend).',
-    comeArrivare: 'Volo internazionale su Oslo Gardermoen; dall\'aeroporto il treno Flytoget porta al centro in 19 minuti (circa 210 NOK, partenze ogni 10 minuti).',
-    comeSpostarsi: 'A piedi in centro; Flytoget per/dall\'aeroporto.',
-    periodoMigliore: 'da confermare',
-    costi: 'Flytoch circa 210 NOK a tratta; cene nella media per gli standard norvegesi (comunque cari rispetto all\'Italia).',
-    erroriDaEvitare: ['Se si torna a Café Sara nel weekend, prenotare: è un locale molto frequentato la sera'],
+    comeArrivare:
+      'Volo internazionale su Oslo Gardermoen; dall\'aeroporto il treno Flytoget porta al centro in 19 minuti (circa 210 NOK, partenze ogni 10 minuti). Da Stoccolma, per chi arriva come tappa finale di "Capitali nordiche": treno diretto SJ (circa 5h45) o volo interno (circa 1h).',
+    comeSpostarsi: 'A piedi in centro; Flytoget per/dall\'aeroporto; per Bygdøy, bus urbano o traghetto stagionale dal municipio.',
+    periodoMigliore: 'da confermare per la sola tappa di transito; maggio-settembre per un soggiorno pieno, con la crociera sul fiordo e Vigeland Park al meglio con le giornate lunghe',
+    costi:
+      'Flytoget circa 210 NOK a tratta; cene nella media per gli standard norvegesi (comunque cari rispetto all\'Italia). Vigeland Park: ingresso libero. Fram Museum: circa 180 NOK (16€ circa). Crociera sull\'Oslofjord di 1,5-2 ore: indicativamente 45-70€ a persona.',
+    erroriDaEvitare: [
+      'Se si torna a Café Sara nel weekend, prenotare: è un locale molto frequentato la sera',
+      'Programmare la visita al Viking Ship Museum di Bygdøy senza verificare prima: è chiuso per ristrutturazione, con riapertura prevista non prima del 2027',
+    ],
     miaEsperienza:
       'Oslo l\'ho vissuta come tappa breve ma piacevole su entrambi i lati del viaggio: un pomeriggio di passeggiata tranquilla il primo giorno, e un\'ultima cena rilassata da Café Sara al rientro, dopo una settimana di trekking.',
-    esperienzeSlugs: [],
-    tripSlugs: ['lofoten-estate-2025'],
+    esperienzeSlugs: ['vigeland-park-oslo', 'bygdoy-musei-fram-kontiki', 'oslofjord-crociera'],
+    tripSlugs: ['lofoten-estate-2025', 'capitali-nordiche'],
     imageAlt: 'Facciata in vetro e marmo dell\'Oslo Opera House, con persone sul tetto spiovente',
     immagine: '/images/norvegia/oslo-stock.jpg',
   },

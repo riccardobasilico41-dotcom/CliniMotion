@@ -9,6 +9,15 @@ import type { Destinazione } from '@/lib/types'
 //
 // Le immagini sono foto stock temporanee (Pixabay/Pexels, licenze free-use),
 // scelte per rappresentare davvero il luogo in attesa di foto originali.
+//
+// Stoccolma serve un secondo viaggio, "Capitali nordiche"
+// (src/content/viaggi/60-capitali-nordiche.md): lì la città non è più solo
+// il transito di una notte verso Kiruna, ma una tappa piena di 2-3 giorni.
+// visitataPersonalmente resta true (la notte di transito è stata vissuta
+// davvero) e miaEsperienza non cambia — racconta solo quel transito. Le voci
+// aggiunte per il nuovo itinerario (Gamla Stan, Vasa Museum, City Hall, ABBA
+// Museum, arcipelago) sono ricerca, non ricordo: coerente con le singole
+// schede Esperienza collegate, che restano giudizio 'da-verificare'.
 
 export const destinazioniSvezia: Destinazione[] = [
   {
@@ -16,24 +25,44 @@ export const destinazioniSvezia: Destinazione[] = [
     paeseSlug: 'svezia',
     ordine: 1,
     nome: 'Stoccolma',
-    tipologia: ['cultura'],
-    giorniConsigliati: 'una notte, sia all\'andata che al ritorno — solo transito',
+    tipologia: ['cultura', 'città'],
+    giorniConsigliati:
+      'una notte, sia all\'andata che al ritorno, nel viaggio in Lapponia — solo transito; 2-3 giorni pieni nell\'itinerario "Capitali nordiche", come seconda tappa dopo Copenaghen',
     visitataPersonalmente: true,
-    introduzione: 'Il punto di transito obbligato tra il volo internazionale e quello interno verso Kiruna, sia all\'andata che al ritorno.',
-    percheAndarci: 'Serve comunque attraversarla per i collegamenti aerei: una notte per direzione, senza vero tempo per visitarla.',
-    cosaVedere: ['Il centro città, in una versione molto ridotta viste le poche ore disponibili'],
-    cosaFare: ['Poco altro oltre a check-in/check-out data la sola notte di transito'],
-    doveDormire: 'Ho dormito al Radisson Blu Royal Viking sia all\'andata sia al ritorno: catena internazionale affidabile, comoda per chi arriva o parte con voli serali.',
-    doveMangiare: 'Nessuna nota specifica, viste le poche ore disponibili in entrambe le occasioni.',
-    comeArrivare: 'Volo internazionale su Stoccolma Arlanda.',
-    comeSpostarsi: 'Non necessario, solo transito aeroporto-hotel.',
-    periodoMigliore: 'da confermare',
-    costi: 'da completare',
+    introduzione:
+      'Il punto di transito obbligato tra il volo internazionale e quello interno verso Kiruna nel viaggio in Lapponia, ma anche una capitale a sé che merita ben più di una notte: costruita su quattordici isole collegate da oltre cinquanta ponti, con il nucleo medievale di Gamla Stan, il relitto secentesco del Vasa e il municipio dove ogni anno si tiene il banchetto del Nobel.',
+    percheAndarci:
+      'Per il volo interno verso Kiruna serve comunque attraversarla, una notte per direzione. Ma è anche la seconda tappa naturale di un giro di capitali nordiche: da Copenaghen si arriva in treno o in aereo, e la città regge benissimo 2-3 giorni pieni tra centro storico, musei e arcipelago.',
+    cosaVedere: [
+      'Il centro città, in una versione molto ridotta se si è solo in transito per una notte',
+      'Gamla Stan, il centro storico medievale su un\'isola propria: vicoli stretti, case colorate, il Palazzo Reale (con il cambio della guardia) e la piazza di Stortorget',
+      'Il Vasamuseet (Museo Vasa), che custodisce una nave da guerra reale del 1628 affondata nel suo viaggio inaugurale nel porto di Stoccolma e recuperata quasi intatta nel 1961 — una delle navi antiche meglio conservate al mondo',
+      'Stadshuset, il Municipio in mattoni rossi affacciato sull\'acqua, sede del banchetto del Premio Nobel nella Sala Blu e della Sala Dorata rivestita di oltre 18 milioni di tessere dorate',
+      'ABBA The Museum, sull\'isola di Djurgården, dedicato al gruppo pop più famoso della Svezia, con cimeli originali e stanze interattive',
+      'L\'arcipelago di Stoccolma (Stockholms skärgård), oltre 30.000 tra isole e isolotti che si aprono a est della città verso il Mar Baltico',
+    ],
+    cosaFare: [
+      'Poco altro oltre a check-in/check-out se si è solo in transito per una notte',
+      'Una passeggiata tra i vicoli di Gamla Stan, con sosta a Stortorget',
+      'La visita al Vasamuseet — vedi la scheda esperienza dedicata',
+      'Un tour guidato di Stadshuset, con salita alla torre nei mesi caldi per la vista sulla città (accesso stagionale, da verificare)',
+      'Una mezza giornata o giornata intera in barca nell\'arcipelago — vedi la scheda esperienza dedicata',
+    ],
+    doveDormire:
+      'Ho dormito al Radisson Blu Royal Viking sia all\'andata sia al ritorno, in transito verso la Lapponia: catena internazionale affidabile, comoda per chi arriva o parte con voli serali. Per un soggiorno pieno, Gamla Stan e Norrmalm/città vecchia restano le zone più centrali e comode a piedi; Södermalm, più giovane e con una scena di bar e ristoranti propria, è un\'alternativa spesso più economica a pochi minuti di metro dal centro.',
+    doveMangiare:
+      'Nessuna nota specifica sui singoli locali, viste le poche ore disponibili nelle soste di transito. Södermalm e il quartiere di Östermalm concentrano gran parte dell\'offerta gastronomica cittadina, dai fast-casual ai ristoranti di fascia alta.',
+    comeArrivare:
+      'Volo internazionale su Stoccolma Arlanda. Da Copenaghen, treno diretto SJ (circa 5 ore) o volo interno (circa 1 ora) per chi arriva come seconda tappa dell\'itinerario "Capitali nordiche".',
+    comeSpostarsi: 'Non necessario per il solo transito aeroporto-hotel. Per un soggiorno pieno, metro (Tunnelbana), bus e traghetti urbani con biglietto integrato SL; il centro storico si gira bene anche a piedi.',
+    periodoMigliore: 'maggio-settembre per il clima e per le uscite in arcipelago, che funzionano meglio con le giornate lunghe',
+    costi:
+      'Biglietto SL singolo 43 SEK, pass giornaliero 180 SEK. Vasamuseet 195-240 SEK secondo la stagione. ABBA The Museum 269-349 SEK. Gita in arcipelago da circa 375 SEK (circa 33€) per un\'uscita guidata di 2-2,5 ore.',
     erroriDaEvitare: [],
     miaEsperienza:
       'Stoccolma è stata puramente una tappa logistica in entrambe le direzioni: giusto il tempo di dormire tra un volo e l\'altro, niente di più.',
-    esperienzeSlugs: [],
-    tripSlugs: ['lapponia-svedese-abisko'],
+    esperienzeSlugs: ['vasamuseet-stoccolma', 'gamla-stan-passeggiata', 'abba-museum-stoccolma', 'arcipelago-stoccolma-in-barca'],
+    tripSlugs: ['lapponia-svedese-abisko', 'capitali-nordiche'],
     imageAlt: 'Case colorate del centro storico di Stoccolma affacciate sull\'acqua in inverno',
     immagine: '/images/svezia/stoccolma-stock.jpg',
   },
