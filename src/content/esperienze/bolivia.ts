@@ -4,6 +4,11 @@ import type { Esperienza } from '@/lib/types'
 // compilare con i ricordi e le opinioni reali — il giudizio 'da-verificare' è
 // un segnaposto, non una valutazione. Prezzi e operatori cambiano: da
 // riverificare prima di prenotare.
+//
+// Tutte e tre le esperienze sono ora collegate al viaggio-diario "Bolivia in
+// 19 giorni" (tripSlugs: ['bolivia-itinerario']): vedi
+// src/content/viaggi/49-bolivia-itinerario.md e
+// src/content/viaggi-dati/bolivia-itinerario.ts.
 
 export const esperienzeBolivia: Esperienza[] = [
   {
@@ -68,7 +73,7 @@ export const esperienzeBolivia: Esperienza[] = [
     ],
     giudizio: 'da-verificare',
     alternative: ['Percorrere la strada in auto o in moto con autista, per chi vuole vedere il paesaggio senza pedalare'],
-    tripSlugs: [],
+    tripSlugs: ['bolivia-itinerario'],
     imageAlt: 'Ciclisti sulla pista sterrata della Carretera de la Muerte con strapiombo sulla valle degli Yungas, Bolivia',
   },
   {
@@ -94,7 +99,7 @@ export const esperienzeBolivia: Esperienza[] = [
       'Tour di un giorno sul solo salar, per chi ha poco tempo',
       'Percorso inverso partendo da San Pedro de Atacama, in Cile',
     ],
-    tripSlugs: [],
+    tripSlugs: ['bolivia-itinerario'],
     imageAlt: 'Fenicotteri sulla Laguna Colorada nel Sud Lípez, Bolivia',
   },
   {
@@ -117,7 +122,7 @@ export const esperienzeBolivia: Esperienza[] = [
       'Sconsigliata a chi soffre di claustrofobia o ha problemi respiratori: le gallerie sono strette, l\'aria è pessima e si è a 4.000 metri di quota. Va affrontata sapendo che non è un\'attrazione, ma un luogo di lavoro con condizioni durissime e aspettative di vita ridotte.',
     giudizio: 'da-verificare',
     alternative: ['Casa Nacional de la Moneda, l\'antica zecca coloniale, per capire la storia del Cerro Rico senza entrare in miniera'],
-    tripSlugs: [],
+    tripSlugs: ['bolivia-itinerario'],
     imageAlt: 'Ingresso di una galleria mineraria sul Cerro Rico di Potosí, Bolivia',
   },
 ]

@@ -23,7 +23,7 @@ export const esperienzeBelize: Esperienza[] = [
     perChiEAdatta: 'Adatta anche a chi non è esperto: si nuota in superficie con giubbotto disponibile, ma serve essere a proprio agio in acqua aperta.',
     giudizio: 'da-verificare',
     alternative: ['Immersione con bombole sugli stessi siti per chi è brevettato'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Squali nutrice e razze in acqua bassa a Shark Ray Alley, Belize',
   },
   {
@@ -47,7 +47,7 @@ export const esperienzeBelize: Esperienza[] = [
       'Serve saper nuotare ed essere a proprio agio in spazi stretti e al buio: ci sono passaggi in cui si procede in acqua fino al petto e fessure da superare di lato. Non adatta a chi soffre di claustrofobia.',
     giudizio: 'da-verificare',
     alternative: ['Cave tubing lungo il fiume Caves Branch, molto più leggero e senza componente archeologica'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Ingresso allagato della grotta di Actun Tunichil Muknal nella giungla del Belize',
   },
 ]

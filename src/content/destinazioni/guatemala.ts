@@ -46,7 +46,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     miaEsperienza:
       'È la tappa più comoda del Guatemala e anche la meno rappresentativa: Antigua è bellissima, ordinata, piena di stranieri, e non somiglia al resto del paese. Va presa per quello che è — una base logistica piacevole dove tutto si organizza in dieci minuti, con qualche chiesa in rovina che vale la sosta. La cosa che invece resta è l\'Acatenango. Sei ore di salita con gli zaini pesanti, si parte tra i campi di mais e si arriva sopra i quattromila metri con un freddo che nessuno si aspetta ai tropici, e a metà notte il Fuego comincia a eruttare a un paio di chilometri di distanza. È faticoso al limite del divertente, ma la lista delle cose da fare in America Centrale comincia da lì.',
     esperienzeSlugs: ['trekking-acatenango'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Strada acciottolata di Antigua Guatemala con l\'arco di Santa Catalina e un vulcano sullo sfondo',
   },
   {
@@ -90,7 +90,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     miaEsperienza:
       'L\'errore che fanno quasi tutti è fermarsi a Panajachel, che è un nodo di trasporti con una via di negozi e basta. Il lago comincia quando si sale su una lancia e si cambia sponda: dieci minuti di barca e si passa dallo yoga e dai caffè vegani di San Marcos alla vita completamente tradizionale di Santiago, dove le donne portano ancora il tocoyal avvolto in testa e nessuno si accorge di chi arriva. Da sapere prima: nel pomeriggio si alza lo Xocomil, un vento che rende le traversate scomode e a volte le sospende — chi deve prendere un bus il giorno dopo faccia i conti con questo. E l\'alba dall\'Indian Nose vale la sveglia alle quattro solo con cielo sereno: nella stagione delle piogge si sale al buio per guardare una nuvola.',
     esperienzeSlugs: ['lance-villaggi-atitlan'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Il lago Atitlán con i vulcani sullo sfondo e una barca in primo piano, Guatemala',
   },
   {
@@ -134,7 +134,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     miaEsperienza:
       'Tikal batte gli altri siti maya per una ragione che le foto non rendono: la foresta non è stata tolta. Si cammina per chilometri sotto la volta degli alberi sentendo le scimmie urlatrici — un rumore che la prima volta sembra un animale molto più grande — e i templi compaiono uno alla volta invece di essere tutti allineati in una spianata. Il biglietto per l\'alba va comprato sapendo cosa si compra: nella stagione secca la foschia sopra la giungla è frequente e dal Tempio IV si vede il bianco. Ma anche con la nebbia, essere lassù prima che arrivino i pullman è l\'unico modo di sentire il posto. Flores è un\'isoletta carina da una sera, non di più: serve come base, non come meta.',
     esperienzeSlugs: ['alba-tikal'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Il Tempio I di Tikal che emerge dalla giungla del Petén, Guatemala',
   },
   {
@@ -175,7 +175,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     miaEsperienza:
       'Il viaggio per arrivarci è metà del racconto: otto-dieci ore di shuttle, di cui le ultime su una sterrata che scende nella valle a passo d\'uomo, con lo zaino che rimbalza e la sensazione precisa di essersi allontanati parecchio da tutto. Poi ci si arriva, e le piscine sono davvero quelle delle fotografie. La salita al Mirador è ripida e in mezz\'ora si è fradici di sudore, ma senza quella vista dall\'alto non si capisce come funziona il posto — il fiume che sparisce sotto il ponte di roccia e riemerge trecento metri più in là. Le grotte di K\'anba, con una candela in mano e tratti da fare a nuoto al buio, sono la cosa meno turistica e più memorabile della zona: chi soffre di claustrofobia le salti senza rimpianti.',
     esperienzeSlugs: [],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Le piscine naturali turchesi a gradoni di Semuc Champey, Guatemala',
   },
   {
@@ -213,7 +213,7 @@ export const destinazioniGuatemala: Destinazione[] = [
     miaEsperienza:
       'Il mercato è enorme e nelle prime due ore è ancora di chi ci lavora: dopo, verso metà mattina, arrivano gli shuttle e la parte artigianale diventa un mercato per stranieri, con gli stessi tessuti ripetuti banco dopo banco. La parte che vale è quella alimentare nelle vie laterali, dove si compra e si vende sul serio. Ma la cosa che resta non è la merce: è la scalinata di Santo Tomás, dove si bruciano copale e offerte secondo riti k\'iche\' sui gradini di una chiesa cattolica, con il fumo che copre tutto. Non è folklore per visitatori e non va fotografato come tale: si sta a guardare da un lato, e si capisce più di quanto spieghi qualsiasi museo. Mezza giornata basta, ma solo giovedì o domenica.',
     esperienzeSlugs: [],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Bancarelle di tessuti colorati al mercato di Chichicastenango, Guatemala',
   },
 ]

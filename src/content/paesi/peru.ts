@@ -2,8 +2,8 @@ import type { Paese } from '@/lib/types'
 
 // Paese visitato di persona, ma senza ancora un racconto scritto: miaEsperienza
 // resta assente nelle destinazioni collegate, in attesa dei ricordi reali.
-// tripPrincipaleSlug punta a un itinerario ancora da scrivere: il codice
-// gestisce il caso con un link di fallback a /viaggi.
+// tripPrincipaleSlug punta a peru-itinerario (src/content/viaggi/50-peru-itinerario.md
+// + src/content/viaggi-dati/peru-itinerario.ts), ora pubblicato.
 
 export const peru: Paese = {
   slug: 'peru',

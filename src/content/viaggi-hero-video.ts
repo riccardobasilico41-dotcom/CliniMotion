@@ -210,6 +210,22 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
     src: '/videos/trips/settimana-bianca-francia.mp4',
     poster: '/videos/trips/settimana-bianca-francia-poster.jpg',
   },
+  'indonesia-itinerario': {
+    src: '/videos/trips/indonesia-itinerario.mp4',
+    poster: '/videos/trips/indonesia-itinerario-poster.jpg',
+  },
+  'bolivia-itinerario': {
+    src: '/videos/trips/bolivia-itinerario.mp4',
+    poster: '/videos/trips/bolivia-itinerario-poster.jpg',
+  },
+  'peru-itinerario': {
+    src: '/videos/trips/peru-itinerario.mp4',
+    poster: '/videos/trips/peru-itinerario-poster.jpg',
+  },
+  'centro-america-itinerario': {
+    src: '/videos/trips/centro-america-itinerario.mp4',
+    poster: '/videos/trips/centro-america-itinerario-poster.jpg',
+  },
 }
 
 export function getHeroVideo(slug: string): HeroVideo | undefined {

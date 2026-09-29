@@ -1,14 +1,12 @@
 import type { Paese } from '@/lib/types'
 
-// A differenza degli altri Paesi, l'Indonesia non ha ancora un viaggio-diario
-// (src/content/viaggi) collegato: le otto isole sono state visitate ma non
-// esiste ancora un racconto giorno-per-giorno scritto, né foto caricate.
-// Per ora questo file e le destinazioni/esperienze collegate contengono solo
-// la parte "guida" (cosa vedere, come muoversi, quando andare), verificabile
-// e non personale — aneddoti, foto e i veri itinerari combinati verranno
-// aggiunti in un secondo momento. tripPrincipaleSlug punta a uno slug non
-// ancora esistente: il codice gestisce il caso (link di fallback a /viaggi),
-// da aggiornare non appena il primo itinerario combinato sarà pubblicato.
+// L'Indonesia ha ora il suo primo viaggio-diario combinato: "Indonesia in 30
+// giorni" (src/content/viaggi/48-indonesia-itinerario.md, dati in
+// src/content/viaggi-dati/indonesia-itinerario.ts), tripPrincipaleSlug
+// 'indonesia-itinerario' qui sotto. Sette delle otto isole sono collegate al
+// viaggio (Raja Ampat esclusa per incompatibilità di stagione, vedi la sua
+// scheda). Mancano ancora le foto: verranno caricate in un secondo momento,
+// in un task separato da questo primo itinerario testuale.
 
 export const indonesia: Paese = {
   slug: 'indonesia',

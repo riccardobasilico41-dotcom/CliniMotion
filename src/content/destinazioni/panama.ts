@@ -46,7 +46,7 @@ export const destinazioniPanama: Destinazione[] = [
     miaEsperienza:
       'Panama City spiazza perché non somiglia al resto della regione: dal Casco Viejo si guarda uno skyline di grattacieli che sembra Miami, e in mezzo ci sono duecento metri di quartieri in cui non si entra la sera. Il Casco è stato ristrutturato in fretta e in modo disomogeneo, con palazzi rifatti accanto a facciate ancora puntellate, e questo contrasto è la cosa più interessante da guardare. Sulle chiuse di Miraflores serve una raccomandazione pratica più che un giudizio: senza una nave in transito si guarda una vasca di cemento vuota, quindi gli orari di passaggio vanno controllati prima di partire da casa. Quando invece una portacontainer entra nella camera con pochi centimetri per lato, il senso si capisce subito.',
     esperienzeSlugs: ['chiuse-miraflores'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Lo skyline di Panama City visto dal Casco Viejo al tramonto',
   },
   {
@@ -87,7 +87,7 @@ export const destinazioniPanama: Destinazione[] = [
     miaEsperienza:
       'Il viaggio per arrivarci mette alla prova: sveglia alle cinque, tre ore di 4x4 su una strada di montagna con pendenze che sembrano sbagliate, e poi una barca aperta che nelle giornate ventose prende onda in pieno. Poi si arriva, e le isole sono esattamente quelle delle fotografie — palme, sabbia, acqua bassa e nient\'altro. Vale la pena sapere in cosa si sta entrando: Guna Yala è un territorio autogoverno, le regole le fanno i Guna, il turismo lo gestiscono loro e l\'ingresso si paga in contanti a loro. Le cabañas sono spartane per scelta, non per trascuratezza: luce a orario, acqua dolce razionata, niente wifi. Chi ci va aspettandosi un resort passa due giorni a lamentarsi; chi accetta il patto trova il posto più bello dei Caraibi panamensi.',
     esperienzeSlugs: ['notte-isola-san-blas'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Isolotto con palme e acqua turchese nell\'arcipelago di San Blas, Panama',
   },
   {
@@ -131,7 +131,7 @@ export const destinazioniPanama: Destinazione[] = [
     miaEsperienza:
       'Bocas è l\'opposto esatto di San Blas: rumorosa, sociale, piena di ostelli e di gente che resta più del previsto. Le case su palafitte di Bocas Town sono belle in fotografia e un po\' meno da vicino, ma il giro in barca tra gli isolotti compensa: Cayo Zapatilla è la cosa più bella dell\'arcipelago e Starfish Beach mantiene la promessa del nome, con le stelle marine visibili in acqua alta un metro. Due avvertenze pratiche che valgono più di qualsiasi consiglio estetico. La prima: qui il meteo non segue la stagione secca panamense, e ci si può trovare sotto la pioggia in pieno febbraio mentre nella capitale c\'è il sole. La seconda: le sabbie sono infestate dai chitre, moscerini che pungono senza che ci si accorga e lasciano segni per giorni.',
     esperienzeSlugs: [],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Case su palafitte e barche a Bocas Town, arcipelago di Bocas del Toro, Panama',
   },
   {
@@ -174,7 +174,7 @@ export const destinazioniPanama: Destinazione[] = [
     miaEsperienza:
       'Dopo il caldo umido delle isole, Boquete è un sollievo fisico: si dorme con la finestra aperta e senza ventilatore, cosa che a Panama non capita quasi mai. La salita notturna al Barú è dura più per il modo in cui è fatta che per la pendenza — tredici chilometri di pista sconnessa partendo attorno a mezzanotte, al buio, col freddo che aumenta man mano, per arrivare in vetta intorno ai 3.475 metri prima dell\'alba. E qui va detta la verità scomoda: la famosa vista sui due oceani insieme si ottiene solo con cielo perfettamente limpido, che nella pratica significa pochi giorni buoni anche in stagione secca. Chi non vuole rischiare la notte in bianco ha alternative valide: il Sendero Los Quetzales e un tour serio in una finca di caffè valgono da soli la deviazione in montagna.',
     esperienzeSlugs: ['alba-volcan-baru'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Piantagioni di caffè e colline verdi attorno a Boquete, Panama',
   },
 ]

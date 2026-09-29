@@ -246,4 +246,24 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/ski-slope-in-france-drone-footage-13369425/',
   },
+  'indonesia-itinerario': {
+    autore: 'sibstock (Mixkit)',
+    licenza: 'Mixkit Stock Video Free License',
+    fonteUrl: 'https://mixkit.co/free-stock-video/aerial-view-of-tiered-rice-paddies-in-indonesia-16132/',
+  },
+  'bolivia-itinerario': {
+    autore: 'antonlukin (Pixabay)',
+    licenza: 'Pixabay Content License',
+    fonteUrl: 'https://pixabay.com/videos/salt-uyuni-bolivia-water-drone-128689/',
+  },
+  'peru-itinerario': {
+    autore: 'Adrien JACTA (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/beautiful-view-of-machu-picchu-4361882/',
+  },
+  'centro-america-itinerario': {
+    autore: 'Florian Delée (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/ancient-mayan-ruins-of-tikal-in-guatemala-29721176/',
+  },
 }

@@ -23,7 +23,7 @@ export const esperienzeIndonesia: Esperienza[] = [
     perChiEAdatta: 'Camminatori con una base di forma fisica; i trekking multi-giorno richiedono più resistenza per il caldo umido e il terreno accidentato.',
     giudizio: 'da-verificare',
     alternative: [],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Orango femmina con cucciolo tra i rami della giungla di Bukit Lawang, Sumatra',
   },
   {
@@ -43,7 +43,7 @@ export const esperienzeIndonesia: Esperienza[] = [
     perChiEAdatta: 'Adatta a tutti, nessuna difficoltà fisica rilevante: la parte a piedi fino al cratere è breve.',
     giudizio: 'da-verificare',
     alternative: [],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Fila di jeep al punto panoramico del Monte Penanjakan all\'alba, con il Bromo sullo sfondo',
   },
   {
@@ -63,7 +63,7 @@ export const esperienzeIndonesia: Esperienza[] = [
     perChiEAdatta: 'La maggior parte dei punti panoramici richiede solo brevi camminate; Kelingking Beach ha una discesa/risalita ripida non adatta a chi ha problemi di mobilità.',
     giudizio: 'da-verificare',
     alternative: [],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Vista dall\'alto di Kelingking Beach a forma di T-Rex, Nusa Penida',
   },
   {
@@ -83,7 +83,7 @@ export const esperienzeIndonesia: Esperienza[] = [
     perChiEAdatta: 'Diving certificato per le immersioni vere e proprie; lo snorkeling lungo gli stessi reef è un\'alternativa accessibile a tutti.',
     giudizio: 'da-verificare',
     alternative: ['Snorkeling lungo gli stessi reef per chi non è certificato al diving'],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Parete corallina verticale ricca di pesci tropicali al Bunaken National Park',
   },
   {
@@ -103,7 +103,7 @@ export const esperienzeIndonesia: Esperienza[] = [
     perChiEAdatta: 'Richiede una buona forma fisica: il percorso è lungo, ripido in più tratti e in quota.',
     giudizio: 'da-verificare',
     alternative: [],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Lago craterico di Segara Anak visto dal bordo del vulcano Rinjani, Lombok',
   },
   {
@@ -123,7 +123,7 @@ export const esperienzeIndonesia: Esperienza[] = [
     perChiEAdatta: 'Adatto a tutti i livelli di camminatori; il rispetto rigoroso delle indicazioni del ranger è obbligatorio per sicurezza.',
     giudizio: 'da-verificare',
     alternative: [],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Drago di Komodo osservato a distanza di sicurezza durante un trekking guidato',
   },
   {
@@ -143,7 +143,7 @@ export const esperienzeIndonesia: Esperienza[] = [
     perChiEAdatta: 'Adatto a tutti: la salita dal parcheggio al punto panoramico è breve.',
     giudizio: 'da-verificare',
     alternative: [],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'I tre laghi craterici del Kelimutu di colori diversi visti all\'alba, Flores',
   },
   {

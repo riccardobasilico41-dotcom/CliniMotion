@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, ArrowUpRight, AlertTriangle } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
@@ -11,6 +10,8 @@ import { getAllMeraviglie, getMeraviglia } from '@/lib/meraviglie'
 import { pageMetadata } from '@/lib/seo'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbJsonLd } from '@/lib/structured-data'
+import { getHeroVideoMeraviglia } from '@/content/meraviglie-hero-video'
+import { MeravigliaHeroMedia } from '@/components/signature/MeravigliaHeroMedia'
 
 export async function generateStaticParams() {
   return getAllMeraviglie().map((m) => ({ slug: m.slug }))
@@ -62,15 +63,12 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
         ]}
       />
       <section className="relative flex min-h-[42vh] items-end overflow-hidden border-b border-alpine/10 bg-alpine-dark text-cream sm:min-h-[48vh]">
-        {meraviglia.heroImage && (
+        {(meraviglia.heroImage || getHeroVideoMeraviglia(meraviglia.slug)) && (
           <>
-            <Image
-              src={meraviglia.heroImage}
-              alt={meraviglia.heroImageAlt}
-              fill
-              priority
-              sizes="100vw"
-              className="object-cover"
+            <MeravigliaHeroMedia
+              image={meraviglia.heroImage}
+              imageAlt={meraviglia.heroImageAlt}
+              video={getHeroVideoMeraviglia(meraviglia.slug)}
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark/90 via-alpine-dark/25 to-alpine-dark/10" />
           </>

@@ -2,8 +2,9 @@ import type { Paese } from '@/lib/types'
 
 // Paese non ancora visitato di persona: contenuto guida verificabile
 // (cosa vedere, come muoversi, costi indicativi), nessun ricordo personale.
-// tripPrincipaleSlug punta all'itinerario combinato del Centro America,
-// ancora da scrivere.
+// tripPrincipaleSlug punta all'itinerario combinato del Centro America
+// (src/content/viaggi/51-centro-america-itinerario.md), che copre Belize
+// nella Parte 1 insieme al Guatemala.
 
 export const belize: Paese = {
   slug: 'belize',

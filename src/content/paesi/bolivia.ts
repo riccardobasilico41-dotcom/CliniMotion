@@ -1,8 +1,14 @@
 import type { Paese } from '@/lib/types'
 
-// Paese visitato di persona, ma senza ancora un racconto scritto: miaEsperienza
-// resta assente nelle destinazioni collegate, in attesa dei ricordi reali.
-// tripPrincipaleSlug punta a un itinerario ancora da scrivere.
+// La Bolivia ha ora il suo primo viaggio-diario: "Bolivia in 19 giorni"
+// (src/content/viaggi/49-bolivia-itinerario.md, dati in
+// src/content/viaggi-dati/bolivia-itinerario.ts), tripPrincipaleSlug
+// 'bolivia-itinerario' qui sotto. Tutte e cinque le destinazioni boliviane
+// sono collegate al viaggio. I passaggi in prima persona restano bozze da
+// rileggere e personalizzare: miaEsperienza resta assente nelle destinazioni
+// collegate, in attesa dei ricordi reali. Mancano ancora le foto: verranno
+// caricate in un secondo momento, in un task separato da questo primo
+// itinerario testuale.
 
 export const bolivia: Paese = {
   slug: 'bolivia',

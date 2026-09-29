@@ -2,9 +2,10 @@ import type { Paese } from '@/lib/types'
 
 // Paese non ancora visitato di persona: contenuto guida verificabile
 // (cosa vedere, come muoversi, costi indicativi), nessun ricordo personale.
-// tripPrincipaleSlug punta all'itinerario combinato del Centro America,
-// ancora da scrivere — il codice gestisce il caso con un link di fallback
-// a /viaggi.
+// tripPrincipaleSlug punta all'itinerario combinato del Centro America
+// (src/content/viaggi/51-centro-america-itinerario.md), che copre il
+// Guatemala nella Parte 1 insieme al Belize; è anche il Paese scelto come
+// paeseSlug canonico del TripMeta (vedi la nota in viaggi-dati/centro-america-itinerario.ts).
 
 export const guatemala: Paese = {
   slug: 'guatemala',

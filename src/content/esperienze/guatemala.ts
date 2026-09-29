@@ -26,7 +26,7 @@ export const esperienzeGuatemala: Esperienza[] = [
       'Richiede una discreta forma fisica: il dislivello è importante, il terreno è sabbia vulcanica che cede sotto i piedi e l\'altitudine si sente. I porter per lo zaino si possono ingaggiare a parte.',
     giudizio: 'da-verificare',
     alternative: ['Vulcano Pacaya in mezza giornata, molto più semplice ma senza eruzioni dal vivo garantite'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Il vulcano Fuego in eruzione visto di notte dal campo sull\'Acatenango, Guatemala',
   },
   {
@@ -47,7 +47,7 @@ export const esperienzeGuatemala: Esperienza[] = [
     perChiEAdatta: 'Adatta a tutti; chi soffre il mal di mare farebbe bene a viaggiare la mattina presto, quando l\'acqua è ferma.',
     giudizio: 'da-verificare',
     alternative: ['Tour organizzato in barca privata con guida, più caro ma con orari garantiti'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Lancha pubblica in navigazione sul lago Atitlán con i vulcani sullo sfondo, Guatemala',
   },
   {
@@ -68,7 +68,7 @@ export const esperienzeGuatemala: Esperienza[] = [
     perChiEAdatta: 'Adatta a tutti, con la sola accortezza della sveglia molto presto e di alcuni chilometri a piedi nella giungla al buio.',
     giudizio: 'da-verificare',
     alternative: ['Tramonto a Yaxhá, sito vicino molto meno affollato, spesso preferito proprio per la luce serale'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Le cime dei templi di Tikal che emergono dalla giungla nella luce dell\'alba, Guatemala',
   },
 ]

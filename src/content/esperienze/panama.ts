@@ -26,7 +26,7 @@ export const esperienzePanama: Esperienza[] = [
       'Chiuse di Agua Clara, sul lato caraibico, più recenti e meno affollate',
       'Transito parziale del canale in barca (mezza giornata o giornata intera), per attraversare davvero una chiusa',
     ],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Nave che attraversa le chiuse di Miraflores sul Canale di Panama',
   },
   {
@@ -53,7 +53,7 @@ export const esperienzePanama: Esperienza[] = [
       'Gita in giornata da Panama City, molto più faticosa per via dei trasferimenti',
       'Traversata a vela San Blas-Cartagena (3-5 giorni), per chi prosegue verso la Colombia',
     ],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Cabaña con tetto di palma su un isolotto di sabbia bianca a San Blas, Panama',
   },
   {
@@ -76,7 +76,7 @@ export const esperienzePanama: Esperienza[] = [
       'Richiede buona resistenza: sono molte ore di cammino continuo in salita, di notte e in quota. Chi non se la sente può salire in 4x4 nella parte bassa.',
     giudizio: 'da-verificare',
     alternative: ['Sendero Los Quetzales, molto più leggero, per la foresta nuvolosa e il birdwatching'],
-    tripSlugs: [],
+    tripSlugs: ['centro-america-itinerario'],
     imageAlt: 'Vista dall\'alto del Volcán Barú all\'alba, con le nuvole sotto la vetta, Panama',
   },
 ]

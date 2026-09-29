@@ -12,6 +12,349 @@ import type { CreditoImmagine } from './viaggi-copertine-crediti'
  */
 
 export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> = {
+  'peru-itinerario': {
+    'Giorno 1 — Arrivo a Lima': {
+      autore: 'McKay Savage (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Peru_-_Lima_099_-_sunset_paragliders_(7012750019).jpg',
+    },
+    'Giorno 2 — Lima: centro storico, Miraflores e Barranco': {
+      autore: 'McKay Savage (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Plaza_de_Armas,_Lima,_Peru.jpg',
+    },
+    'Giorno 3 — Volo a Cusco e primo giorno di acclimatamento': {
+      autore: 'Diego Delso (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Plaza_de_Armas,_Cusco,_Per%C3%BA,_2015-07-31,_DD_53-56_PAN.jpg',
+    },
+    'Giorno 4 — Cusco: Qorikancha, Sacsayhuamán e San Blas': {
+      autore: 'Diego Delso (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n,_Cusco,_Per%C3%BA,_2015-07-31,_DD_28-30_PAN.JPG',
+    },
+    'Giorno 5 — Rainbow Mountain o la laguna Humantay': {
+      autore: 'Yifan Wang (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vinicunca,_Rainbow_Mountain.jpg',
+    },
+    'Giorno 6 — Verso la Valle Sacra: Pisac e Ollantaytambo': {
+      autore: 'Marvin The Paranoid (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:The_Inca_fortress_at_Ollantaytambo.jpg',
+    },
+    'Giorno 7 — Le saline di Maras, Moray e Chinchero': {
+      autore: 'F Delventhal (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_of_Inca_terraces_of_Moray,_2018.jpg',
+    },
+    'Giorno 8 — In treno verso Machu Picchu': {
+      autore: 'Sashimi-b (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Peru_Rail_above_Urubamba_River.jpg',
+    },
+    'Giorno 9 — Machu Picchu all\'apertura': {
+      autore: 'Tomas Sobek (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ruins_of_Machu_Picchu_(Unsplash).jpg',
+    },
+    'Giorno 10 — Da Cusco a Puno sull\'altopiano': {
+      autore: 'Ellywa (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Raqchi_Peru,_Temple_of_Wiracocha.jpg',
+    },
+    'Giorno 11 — Titicaca: le isole Uros e Taquile, notte ad Amantaní': {
+      autore: 'Diego Delso (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Islas_flotantes_de_los_Uros,_Lago_Titicaca,_Per%C3%BA,_2015-08-01,_DD_17.JPG',
+    },
+    'Giorno 12 — Amantaní all\'alba e ritorno a Puno': {
+      autore: 'H.dav.are (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Landscape_of_Amantan%C3%AD_Island_from_Pachatata_temple.jpg',
+    },
+    'Giorno 13 — Da Puno ad Arequipa': {
+      autore: 'Draceane (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Arequipa,_Plaza_de_Armas,_2023_(10).jpg',
+    },
+    'Giorno 14 — Arequipa, la città bianca': {
+      autore: 'Josep M. Gracia (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:ARE_-_Blue_corridor_in_Santa_Catalina_Monastery,_Arequipa,_Peru,_2013.jpg',
+    },
+    'Giorno 15 — Verso il Canyon del Colca': {
+      autore: 'Nad Hemnani / Unsplash (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Colca_Canyon,_Chivay,_Peru_(Unsplash).jpg',
+    },
+    'Giorno 16 — La Cruz del Cóndor e ritorno ad Arequipa': {
+      autore: 'Thomas Fuhrmann (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Peru_-_Colca_Canyon_-_Andean_condor_(Vultur_gryphus)_01.jpg',
+    },
+    'Giorno 17 — Da Arequipa a Lima, chiusura della Parte 1': {
+      autore: 'Ibrehaut (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Puente_de_los_Suspiros,_Barranco.jpg',
+    },
+    'Giorno 18 — Verso l\'Amazzonia: volo a Puerto Maldonado': {
+      autore: 'PalestinaPeru (Wikimedia Commons)',
+      licenza: 'Dominio pubblico',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:TambopataRiver.JPG',
+    },
+    'Giorno 19 — Tambopata: canopy walkway e lago Sandoval': {
+      autore: 'Ozesama (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lago_Sandoval.jpg',
+    },
+    'Giorno 20 — L\'alba alla collpa e il volo di rientro a Lima': {
+      autore: 'Brian Ralphs (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Parrots_at_a_clay_lick_-Tambopata_National_Reserve,_Peru-8c.jpg',
+    },
+    'Giorno 21 — Lima e il bus notturno per Huaraz': {
+      autore: 'Kuruman (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cruz_del_sur_DSC_0307.jpg',
+    },
+    'Giorno 22 — Arrivo a Huaraz e primo giorno di acclimatamento': {
+      autore: 'sergejf (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Huaraz_central_square_(Plaza_de_Armas)_(5968881438).jpg',
+    },
+    'Giorno 23 — Acclimatamento: la laguna Churup': {
+      autore: 'Roxana Sepúlveda (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Nevado_y_laguna_Churup_(agosto_2019).jpg',
+    },
+    'Giorno 24 — Il sito archeologico di Chavín de Huántar': {
+      autore: 'Inti Runa Viajero (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_-_archeological_site_of_Chavin_de_Huantar,_Ancash,_Peru.jpg',
+    },
+    'Giorno 25 — La Laguna 69': {
+      autore: 'Renata Maria Cristina (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Laguna_69,_no_desfiladeiro_Demanda_do_Parque_Nacional_Huascar%C3%A1n_01.jpg',
+    },
+    'Giorno 26 — Trekking di Santa Cruz, giorno 1': {
+      autore: 'Candy Lopez / WikiAcción Perú (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Valle_Santa_Cruz_%C3%81ncash_04.jpg',
+    },
+    'Giorno 27 — Trekking di Santa Cruz, giorno 2: il passo di Punta Unión': {
+      autore: 'TMbux (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Near_Punta_Union,_Santa_Cruz_Track,_Cordillera_Blanca,_Peru_-_panoramio_(7).jpg',
+    },
+    'Giorno 28 — Trekking di Santa Cruz, giorno 3': {
+      autore: 'Candy Lopez / WikiAcción Perú (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Laguna_Jatuncocha_en_Valle_Santa_Cruz_%C3%81ncash_13.jpg',
+    },
+    'Giorno 29 — Trekking di Santa Cruz, giorno 4: rientro a Huaraz': {
+      autore: 'Candy Lopez / WikiAcción Perú (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Valle_Santa_Cruz_%C3%81ncash_10.jpg',
+    },
+    'Giorno 30 — Giornata di riposo a Huaraz': {
+      autore: 'Allison Bellido (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Nevado_Pastoruri.jpg',
+    },
+    'Giorno 31 — Bus notturno per Lima e partenza': {
+      autore: 'TomasVial (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Aeropuerto_Internacional_Jorge_Ch%C3%A1vez_en_2024.jpg',
+    },
+  },
+  'indonesia-itinerario': {
+    'Giorno 1 — Arrivo a Medan e trasferimento a Bukit Lawang': {
+      autore: 'VanuitVoorburg (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bukit_Lawang_bridge_over_Bohorok.jpg',
+    },
+    'Giorno 2 — Trekking tra gli oranghi del Gunung Leuser': {
+      autore: 'Andreiromario (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Orang_Utan_di_Taman_Gunung_Leuser.jpg',
+    },
+    'Giorno 3 — Berastagi, i vulcani Sibayak e Sinabung': {
+      autore: 'Palma Bernardo Alexius Hutabarat (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gunung_Sibayak_2015-05-24.jpeg',
+    },
+    'Giorno 4 — Verso il Lago Toba e l\'isola di Samosir': {
+      autore: 'Christian Advs Sltg (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_of_Parapat_seen_from_Lake_Toba_01.JPG',
+    },
+    'Giorno 5 — Samosir e i villaggi Batak': {
+      autore: 'Ahanpranata (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Huta_Siallagan_Batak_Village.jpg',
+    },
+    'Giorno 6 — Giacarta e il volo verso Yogyakarta': {
+      autore: 'Chainwit. (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Batavia_City_Hall_(Jakarta_History_Museum)_Fatahillah_Square_(2025)_-_img_17.jpg',
+    },
+    'Giorno 7 — Alba a Borobudur, tramonto a Prambanan': {
+      autore: 'Justine Hong (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Borobudur_Sunrise_2012-01-05.jpg',
+    },
+    'Giorno 8 — Yogyakarta: kraton, batik e Malioboro': {
+      autore: 'CEphoto / Uwe Aranas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Yogyakarta_Indonesia_Kraton-the-Sultans-Palace-01.jpg',
+    },
+    'Giorno 9 — In treno verso Surabaya e trasferimento a Cemoro Lawang': {
+      autore: 'Hugo van den Bos (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cemoro_Lawang_from_Mount_Penanjakan.jpg',
+    },
+    'Giorno 10 — Alba al Gunung Bromo e la cascata di Madakaripura': {
+      autore: 'Thomas Hirsch (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Mount_Bromo_at_sunrise,_showing_its_volcanoes_and_Mount_Semeru_(background).jpg',
+    },
+    'Giorno 11 — Il fuoco blu del Kawah Ijen': {
+      autore: 'Jakub Hałun (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Blue_fire_of_Ijen,_Kawah_Ijen,_Java,_Indonesia,_20220821_0432_9580.jpg',
+    },
+    'Giorno 12 — Il traghetto per Bali e arrivo a Ubud': {
+      autore: 'CEphoto / Uwe Aranas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bali-Strait_Indonesia_KMP-Gilimanuk-01.jpg',
+    },
+    'Giorno 13 — Ubud e le risaie di Tegalalang': {
+      autore: 'Thomas Fuhrmann (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Rice_terraces_on_Bali_-_Tegalalang_Rice_Terrace_-_Indonesia_04.jpg',
+    },
+    'Giorno 14 — Sidemen, la pace delle risaie': {
+      autore: 'Adimelali Bali (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:RICE_TERRACE_OF_SIDEMEN_EAST_BALI.jpg',
+    },
+    'Giorno 15 — Amed e il mare a est': {
+      autore: 'Marklchaves (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bali-amed-village-fishing-beach-boats.jpg',
+    },
+    'Giorno 16 — Munduk e le cascate, verso Lovina': {
+      autore: 'Mike Dickison (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Belong_Waterfall_MRD_01.jpg',
+    },
+    'Giorno 17 — Lovina e i delfini all\'alba': {
+      autore: 'Kahadni (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lovina-dauphins.jpg',
+    },
+    'Giorno 18 — Uluwatu: surf, spiagge e la danza Kecak al tramonto': {
+      autore: 'Jakub Hałun (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cliffs_of_Uluwatu,_Bali,_Indonesia,_20220826_1006_1038.jpg',
+    },
+    'Giorno 19 — Canggu e la vita notturna di Bali': {
+      autore: 'Burmesedays (Wikivoyage / Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sunset_at_Canggu_beach.jpg',
+    },
+    'Giorno 20 — Giornata a Nusa Penida': {
+      autore: 'Chainwit. (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Kelingking_Beach_(T-Rex_Bay)_of_Nusa_Penida,_Bali_(2025)_-_img_01.jpg',
+    },
+    'Giorno 21 — Da Bali a Lombok, verso Senaru': {
+      autore: 'Midori (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Savanna_Mt._Rinjani_1.JPG',
+    },
+    'Giorno 22 — Inizio del trekking al Gunung Rinjani': {
+      autore: 'Midori (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Savanna_Mt._Rinjani_4.JPG',
+    },
+    'Giorno 23 — Il lago Segara Anak e la discesa dal Rinjani': {
+      autore: 'Paxson Woelber (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Lake_Segara_Anak,_Gunung_Baru_volcanic_crater,_and_the_summit_of_Mount_Rinjani.jpg',
+    },
+    'Giorno 24 — Verso le isole Gili': {
+      autore: 'Jorge Láscar (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Beach_-_Gili_Trawangan_(16950555226).jpg',
+    },
+    'Giorno 25 — Gili Trawangan e Gili Air, senza motori': {
+      autore: 'Salgo60 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gili_Air.jpg',
+    },
+    'Giorno 26 — Labuan Bajo e inizio del tour nel Parco di Komodo': {
+      autore: 'Isabell Schulz (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Labuan_Bajo_Harbour_-_43602513235.jpg',
+    },
+    'Giorno 27 — Padar Island all\'alba e Pink Beach': {
+      autore: 'Jakub Hałun (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Padar_Island,_Komodo_National_Park,_Indonesia,_20250822_0929_2659.jpg',
+    },
+    'Giorno 28 — I draghi di Komodo e lo snorkeling a Kanawa': {
+      autore: 'Charles J. Sharp (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Komodo_dragon_(Varanus_komodoensis)_2.jpg',
+    },
+    'Giorno 29 — Trans-Flores verso Bajawa e il villaggio di Bena': {
+      autore: 'Josep M. Gracia (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:BTV_-_Panorama_of_Bena_traditional_village,_Flores,_Indonesia,_2019.jpg',
+    },
+    'Giorno 30 — Da Bajawa a Moni': {
+      autore: 'Josep M. Gracia (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:RUT_-_Rice_fields_landscape_near_Ruteng,_Flores,_Indonesia,_2019.jpg',
+    },
+    'Giorno 31 — Alba al Kelimutu': {
+      autore: 'Josep M. Gracia (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:KEL_-_Kelimutu_crater_lakes_in_early_morning,_Flores,_Indonesia,_2019.jpg',
+    },
+    'Giorno 32 — Verso Makassar e Tana Toraja': {
+      autore: 'Fhikri Latifi (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Pantai_Losari_Makassar.jpg',
+    },
+    'Giorno 33 — Tana Toraja: villaggi tongkonan e tombe nella roccia': {
+      autore: 'Arian Zwegers (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tana_Toraja,_Kete_Kesu,_tongkonan_(6823113962).jpg',
+    },
+    'Giorno 34 — Trekking tra i villaggi di montagna di Rantepao': {
+      autore: 'Jorge Franganillo (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Limbong_(46440966694).jpg',
+    },
+    'Giorno 35 — Makassar e partenza': {
+      autore: 'Sanko (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Fort_Rotterdam,_Makassar,_Indonesia_-_20100227-01.jpg',
+    },
+  },
   'tour-du-mont-blanc': {
     'Giorno 1 — Les Houches, partenza': {
       autore: 'Ymblanter (Wikimedia Commons)',
@@ -2281,6 +2624,268 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       autore: 'Yassen Kounchev (Pexels)',
       licenza: 'Pexels License',
       fonteUrl: 'https://www.pexels.com/photo/19745695/',
+    },
+  },
+  'bolivia-itinerario': {
+    'Giorno 1 — Arrivo a El Alto e primo contatto con La Paz': {
+      autore: 'Paul Richter (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:La_Paz-center.jpg',
+    },
+    'Giorno 2 — La Paz: teleferiche, mercato delle streghe e Valle de la Luna': {
+      autore: 'Parallelepiped09 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mi_Telef%C3%A9rico,_La_Paz,_Bolivia.jpg',
+    },
+    'Giorno 3 — Tiwanaku e trasferimento a Copacabana': {
+      autore: 'Antoluan (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:TEMPLO_DE_KALASASAYA.jpg',
+    },
+    'Giorno 4 — Barca per l\'Isola del Sole e notte sull\'isola': {
+      autore: 'LBM1948 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Isla_del_Sol_01.jpg',
+    },
+    'Giorno 5 — L\'Isola del Sole all\'alba e ritorno a La Paz': {
+      autore: 'Jawira (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vista_del_Lago_Titicaca_desde_la_Isla_del_Sol.jpg',
+    },
+    'Giorno 6 — La Carretera de la Muerte in mountain bike': {
+      autore: 'Carmelo Calderón (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Carretera_de_la_Muerte_-Los_yungas.jpg',
+    },
+    'Giorno 7 — El Alto e bus notturno verso Uyuni': {
+      autore: 'Senorhorst Jahnsen (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Mercado-feria_16_de_Julio_-_El_Alto_(16072458712).jpg',
+    },
+    'Giorno 8 — Uyuni, il cimitero dei treni e ingresso nel Salar': {
+      autore: 'Josep M. Gracia (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:SAL_-_Giant_cactus_forest_on_Incahuasi_Island,_Salar_de_Uyuni,_Bolivia,_2013.jpg',
+    },
+    'Giorno 9 — Sud Lípez: lagune colorate e notte a oltre 4.000 metri': {
+      autore: 'Havardtl (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:James%27s_Flamingoes_in_Laguna_Colorada,_Bolivia.jpg',
+    },
+    'Giorno 10 — Geyser Sol de Mañana, Laguna Verde e ritorno a Uyuni': {
+      autore: 'Carlos Adampol Galindo (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Laguna_Verde_and_Licancabur,_Uyuni,_Bolivia.jpg',
+    },
+    'Giorno 11 — Da Uyuni a Potosí': {
+      autore: 'Pavel Špindler (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl:
+        'https://commons.wikimedia.org/wiki/File:Potos%C3%AD_-_hora_Cerro_Rico_-_4.824_m.n.m._-_panoramio.jpg',
+    },
+    'Giorno 12 — Potosí e le miniere del Cerro Rico': {
+      autore: 'François Bianco (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Miner_in_the_Cerro_Rico_(14277901592).jpg',
+    },
+    'Giorno 13 — Da Potosí a Sucre': {
+      autore: 'Mx. Granger (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Plaza_25_de_Mayo_(Sucre)_1.jpg',
+    },
+    'Giorno 14 — Sucre: centro coloniale e Parque Cretácico': {
+      autore: 'Sean Mulry (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Parque_Cret%C3%A1cico_Sucre_Bolivia.jpg',
+    },
+    'Giorno 15 — Da Sucre a La Paz': {
+      autore: 'Christopher Walker (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Centro_de_La_Paz_Bolivia.jpg',
+    },
+    'Giorno 16 — Volo verso Rurrenabaque e ingresso nelle pampas del Yacuma': {
+      autore: 'PamJCB (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Embarcaciones_en_Pampas_del_R%C3%ADo_Yacuma.jpg',
+    },
+    'Giorno 17 — Pampas del Yacuma: caimani, capibara e delfini rosa': {
+      autore: 'Lalibellefotografia (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bufeo_-_Inia_boliviensis.jpg',
+    },
+    'Giorno 18 — Pesca ai piranha e ricerca notturna dei caimani, ritorno a Rurrenabaque': {
+      autore: 'Gabrarq77 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ca%C3%B1on_del_Bala_-_Rurrenabaque.jpg',
+    },
+    'Giorno 19 — Ritorno a La Paz e partenza': {
+      autore: 'Senorhorst Jahnsen (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mt._Illimani_near_El_Alto_Airport.jpg',
+    },
+  },
+  'centro-america-itinerario': {
+    'Giorno 1 — Arrivo a Città del Guatemala e trasferimento ad Antigua': {
+      autore: 'Rene Hernandez (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Antigua_Guatemala_-_Santa_Catalina_Arch_-_Old_Architecture.jpg',
+    },
+    'Giorno 2 — Antigua Guatemala: arco di Santa Catalina e Cerro de la Cruz': {
+      autore: 'Simon Burchell (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cerro_de_la_Cruz,_Antigua_Guatemala_01.jpg',
+    },
+    'Giorno 3 — Salita al vulcano Acatenango': {
+      autore: 'Diego Girón (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/a-mountain-covered-in-clouds-with-a-small-volcano-in-the-background-28036968/',
+    },
+    'Giorno 4 — Il Fuego in eruzione e la discesa dall\'Acatenango': {
+      autore: 'Kieran Wood (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Volcan_de_Fuego_in_Guatemala_-_Eruption_at_night.jpg',
+    },
+    'Giorno 5 — Chichicastenango e il lago Atitlán': {
+      autore: 'Bruno Rijsman (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Chichicastenango_Market_(Guatemala,_March_2020)_-_65.jpg',
+    },
+    'Giorno 6 — Panajachel e il lago Atitlán': {
+      autore: 'Chad Davis (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lake_Atitlán_%26_Panajachel_Guatemala.jpg',
+    },
+    'Giorno 7 — Il giro dei villaggi del lago Atitlán in lancha': {
+      autore: 'lamblukas (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:San_Pedro_la_Laguna,_Lake_Atitlan,_Guatemala_-_55051270960.jpg',
+    },
+    'Giorno 8 — Alba dall\'Indian Nose e Santiago Atitlán': {
+      autore: 'Vikulinkaaa (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lago_de_Atitlán_seen_from_Santiago_Atitlán.jpg',
+    },
+    'Giorno 9 — Verso Lanquín e Semuc Champey': {
+      autore: 'Salix Oculus (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_of_Lanquín,_Guatemala.jpg',
+    },
+    'Giorno 10 — Le piscine di Semuc Champey e le grotte di K\'anba': {
+      autore: 'Christopher Crouzet (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Semuc_Champey,_Guatemala.jpg',
+    },
+    'Giorno 11 — Trasferimento a Flores, sul lago Petén Itzá': {
+      autore: 'Edgouno (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Isla_de_Flores_desde_el_Lago_Petén_Itzá.jpg',
+    },
+    'Giorno 12 — Alba a Tikal dal Tempio IV': {
+      autore: 'MusikAnimal (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Jungles_of_Tikal_as_seen_from_Tikal_Temple_IV.jpg',
+    },
+    'Giorno 13 — La frontiera di Melchor de Mencos e l\'arrivo a San Ignacio': {
+      autore: 'Greg Schechter (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Belize_Guatemala_Border_-_Flickr_-_GregTheBusker.jpg',
+    },
+    'Giorno 14 — La grotta ATM (Actun Tunichil Muknal)': {
+      autore: 'Thomas Shahan (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Barton_Creek_Cave,_Belize.jpg',
+    },
+    'Giorno 15 — Xunantunich e la Mountain Pine Ridge': {
+      autore: 'Ronald Plett (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/mayan-ruins-in-xunantunich-15368562/',
+    },
+    'Giorno 16 — Verso la costa sud: Placencia': {
+      autore: 'Sasha India (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Placencia,_Belize_(28842265646).jpg',
+    },
+    'Giorno 17 — Placencia e la Placencia Sidewalk': {
+      autore: 'Jim McIntosh (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Placencia_Belize,_December_2021_-_The_Beach.jpg',
+    },
+    'Giorno 18 — Hopkins e la cultura garifuna': {
+      autore: 'Pitxiquin (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Casa_tradicional_garifuna_a_Hopkins_10.jpg',
+    },
+    'Giorno 19 — Verso Belize City e Caye Caulker': {
+      autore: 'dronepicr (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Caye_Caulker_Belize_aerial_(20688990128).jpg',
+    },
+    'Giorno 20 — Caye Caulker: Hol Chan e Shark Ray Alley': {
+      autore: 'Cam Green (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/fishes-underwater-4166312/',
+    },
+    'Giorno 21 — Ambergris Caye e il Great Blue Hole': {
+      autore: 'USGS (Wikimedia Commons)',
+      licenza: 'Pubblico dominio',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Great_Blue_Hole.jpg',
+    },
+    'Giorno 22 — Ultimo giorno alle isole e trasferimento a Belize City': {
+      autore: 'Jasmine Halki (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Belize_City_harbour,_Belize.jpg',
+    },
+    'Giorno 23 — Il volo per Panama City': {
+      autore: 'RB Photo (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Casco_Viejo,_Panama_City,_Panama_-_54319827771.jpg',
+    },
+    'Giorno 24 — Panama City: Casco Viejo e le chiuse di Miraflores': {
+      autore: 'Ivo Kruusamägi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Miraflores_Locks,_Panama_-_11.jpg',
+    },
+    'Giorno 25 — Verso San Blas: la traversata di Cartí': {
+      autore: 'Tom Mussak (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:San_Blas_Islands,_Panama_(Unsplash).jpg',
+    },
+    'Giorno 26 — Giornata piena tra le isole di Guna Yala': {
+      autore: 'Mónica J. Mora (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Isla_Perro_en_la_Comarca_Guna_Yala.JPG',
+    },
+    'Giorno 27 — Ritorno a Panama City e volo per David': {
+      autore: 'Fran Hogan (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Aerial_view_of_Boquete,_Panama.jpg',
+    },
+    'Giorno 28 — Boquete: caffè e Sendero Los Quetzales': {
+      autore: 'gailhampshire (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_from_Finca_Lerida_coffee_plantation_-_Flickr_-_gailhampshire.jpg',
+    },
+    'Giorno 29 — Alba sui due oceani dal Volcán Barú': {
+      autore: 'Mega mind01 (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Volcán-barú-boquete-panama.jpg',
+    },
+    'Giorno 30 — Da Boquete a Bocas del Toro': {
+      autore: 'Kent MacElwee (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bocas_Town_--_Isla_Colon.jpg',
+    },
+    'Giorno 31 — Bocas del Toro: Cayo Zapatilla e Starfish Beach': {
+      autore: 'José Porras (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cayo_Zapatillas_en_Bocas_del_Toro.jpg',
+    },
+    'Giorno 32 — Ultima mattina a Bocas Town e partenza': {
+      autore: 'Dronepicr (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bocas_del_Toro_Panama_3.jpg',
     },
   },
 }

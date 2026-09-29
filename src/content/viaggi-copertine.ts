@@ -23,11 +23,11 @@ export type CopertinaViaggio = {
 
 export const copertineViaggi: Record<string, CopertinaViaggio> = {
   'lofoten-estate-2025': {
-    immagine: '/images/norvegia/henningsvaer-stock.jpg',
-    imageAlt: 'Vista aerea del celebre campo da calcio di Henningsvær incastonato tra il mare e le montagne, Lofoten',
+    immagine: '/images/copertine/lofoten-estate-2025.jpg',
+    imageAlt: 'Il campo da calcio di Henningsvær incastonato tra il mare e le montagne, visto dalla collina rocciosa sopra il villaggio, Lofoten',
   },
   'islanda-2024': {
-    immagine: '/images/islanda/jokulsarlon-stock.jpg',
+    immagine: '/images/copertine/islanda-2024.jpg',
     imageAlt: 'Iceberg blu che galleggiano nella laguna glaciale di Jökulsárlón, Islanda',
   },
   'messico-beach-life': {
@@ -35,12 +35,12 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
     imageAlt: 'La piramide di Chichén Itzá nello Yucatán, Messico',
   },
   'lapponia-svedese-abisko': {
-    immagine: '/images/svezia/abisko-stock.jpg',
-    imageAlt: 'Aurora boreale verde sopra le montagne innevate del parco nazionale di Abisko',
+    immagine: '/images/copertine/lapponia-svedese-abisko.jpg',
+    imageAlt: "Le vette innevate di Lapporten, la celebre \"porta della Lapponia\", viste oltre il lago ghiacciato di Torneträsk vicino ad Abisko",
   },
   tromso: {
-    immagine: '/images/norvegia/tromso-stock.jpg',
-    imageAlt: 'Cattedrale Artica di Tromsø illuminata di sera con aurora boreale sullo sfondo',
+    immagine: '/images/copertine/tromso.jpg',
+    imageAlt: 'Vista panoramica di Tromsø dal Fjellheisen, con il ponte cittadino, la Cattedrale Artica e le montagne innevate sullo sfondo',
   },
   'giordania-360': {
     immagine: '/images/copertine/giordania-360.jpg',
@@ -82,6 +82,10 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
     immagine: '/images/copertine/costa-rica-360.jpg',
     imageAlt: 'Il vulcano Arenal circondato dalla foresta pluviale, Costa Rica',
   },
+  'bolivia-itinerario': {
+    immagine: '/images/copertine/bolivia-itinerario.jpg',
+    imageAlt: 'L\'Isla Incahuasi, coperta di cactus giganti, in mezzo alla distesa bianca del Salar de Uyuni, Bolivia',
+  },
   'cina-classica': {
     immagine: '/images/copertine/cina-classica.jpg',
     imageAlt: 'Le torri di guardia non restaurate della Grande Muraglia Cinese a Jinshanling, tra le montagne',
@@ -101,6 +105,10 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
   'borneo-itinerario': {
     immagine: '/images/copertine/borneo-itinerario.jpg',
     imageAlt: "St. John's Peak sul Monte Kinabalu emerge dal mare di nuvole poco prima dell'alba, Borneo",
+  },
+  'indonesia-itinerario': {
+    immagine: '/images/copertine/indonesia-itinerario.jpg',
+    imageAlt: 'Le colline vulcaniche e le baie turchesi di Padar Island al tramonto, con alcune barche ancorate nella baia, Parco Nazionale di Komodo, Indonesia',
   },
   'stopover-golfo': {
     immagine: '/images/copertine/stopover-golfo.jpg',
@@ -209,5 +217,13 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
   'costa-azzurra': {
     immagine: '/images/copertine/costa-azzurra.jpg',
     imageAlt: 'Il Sentier du Littoral, il sentiero costiero che corre sulle rocce di Cap d\'Antibes sulla Costa Azzurra',
+  },
+  'centro-america-itinerario': {
+    immagine: '/images/copertine/centro-america-itinerario.jpg',
+    imageAlt: 'L\'arco di Santa Catalina ad Antigua Guatemala, con la torre dell\'orologio incorniciata tra le facciate coloniali del centro storico',
+  },
+  'peru-itinerario': {
+    immagine: '/images/copertine/peru-itinerario.jpg',
+    imageAlt: 'La cittadella di Machu Picchu vista dal punto panoramico classico, con il Huayna Picchu alle spalle delle terrazze inca',
   },
 }

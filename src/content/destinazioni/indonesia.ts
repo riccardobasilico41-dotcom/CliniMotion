@@ -1,8 +1,14 @@
 import type { Destinazione } from '@/lib/types'
 
-// Otto isole visitate di persona, ma senza ancora un viaggio-diario collegato
-// (src/content/viaggi) né foto caricate: tripSlugs resta vuoto e le immagini
-// usano il fallback grafico, invece di ricorrere a foto stock.
+// Otto isole visitate di persona. Sette di queste sono ora collegate al primo
+// viaggio-diario combinato dell'Indonesia ("Indonesia in 30 giorni", slug
+// indonesia-itinerario): tripSlugs riporta quel viaggio per Sumatra, Giava,
+// Bali, Sulawesi, Lombok e Gili, Komodo e Flores. Raja Ampat resta con
+// tripSlugs vuoto di proposito: la sua stagione migliore (ottobre-aprile) è
+// opposta a quella del resto dell'arcipelago, quindi non è stata inclusa in
+// quell'itinerario e aspetta ancora un viaggio dedicato tutto suo.
+// Le foto restano da caricare (immagini con fallback grafico, non foto stock):
+// è un task separato da questo, che ha collegato solo testo e metadati.
 // I campi miaEsperienza sono bozze scritte da Claude nella voce del diario,
 // basate su ciò che è oggettivamente vero di ogni isola (fatica, stagione,
 // affollamento, logistica) e non su ricordi reali: vanno riletti e sostituiti
@@ -96,7 +102,7 @@ export const destinazioniIndonesia: Destinazione[] = [
     miaEsperienza:
       'È l\'isola che quasi nessuno mette in itinerario, e sbaglia. Il trekking a Bukit Lawang non è una passeggiata nel verde: si sale nel fango aggrappandosi alle radici, fa un caldo che toglie il respiro, e dopo tre ore senza vedere niente viene il dubbio di aver buttato una giornata. Poi un orango scende su un ramo a pochi metri, guarda per qualche secondo e riprende a mangiare, e quel dubbio sparisce. Va detta anche la parte scomoda: qualche guida attira gli animali col cibo per garantire l\'avvistamento, ed è una pratica da rifiutare esplicitamente al momento della prenotazione. Il Lago Toba, dopo, funziona come decompressione — grande come una provincia, silenzioso, con un ritmo che rallenta da solo.',
     esperienzeSlugs: ['trekking-oranghi-bukit-lawang'],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Orango di Sumatra tra i rami della giungla del Gunung Leuser',
   },
   {
@@ -140,7 +146,7 @@ export const destinazioniIndonesia: Destinazione[] = [
     miaEsperienza:
       'Giava è la parte di Indonesia che fa meno vacanza e lascia il ricordo più netto. L\'Ijen soprattutto: si parte all\'una di notte, si sale al buio con la maschera antigas addosso, e quando si scende nel cratere le fiamme blu sono più piccole di come appaiono nelle foto — è tutto il resto a essere enorme. Perché accanto passano i minatori con ceste di zolfo da ottanta chili sulle spalle, scalzi o quasi, e il turismo lì dentro assume un peso diverso. Al Bromo succede l\'opposto: l\'alba dal Penanjakan è spettacolare ma è anche un parcheggio con centinaia di jeep e file di persone col telefono alzato. Vale comunque, a patto di saperlo prima. Borobudur all\'alba è una delle poche cose che regge il proprio mito, ma il biglietto per salire sulla struttura è a numero chiuso e si esaurisce con largo anticipo.',
     esperienzeSlugs: ['alba-bromo-jeep'],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Alba sul cratere fumante del Gunung Bromo circondato dal Mare di Sabbia, Giava',
   },
   {
@@ -185,7 +191,7 @@ export const destinazioniIndonesia: Destinazione[] = [
     miaEsperienza:
       'Bali è due isole diverse a seconda di dove si dorme, ed è il motivo per cui riceve giudizi opposti. Il sud tra Canggu e Seminyak è cemento, traffico e locali pensati per chi arriva da fuori: ci si può divertire, ma non è l\'Indonesia. Bastano venti chilometri verso l\'interno e le offerte di fiori davanti alle case ricompaiono ogni mattina, i templi sono in uso e non in mostra, e l\'isola torna quella che si veniva a cercare. La cosa che resta più impressa non è una risaia né una spiaggia: è la danza Kecak a Uluwatu al tramonto, settanta uomini seduti in cerchio che fanno tutta la musica con la voce. Nusa Penida invece è ormai vittima del proprio successo — Kelingking a metà giornata è una coda di persone su un sentiero ripido — e conviene essere sulla prima barca del mattino.',
     esperienzeSlugs: ['giornata-nusa-penida'],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Risaie a terrazza verdi di Tegalalang vicino a Ubud, Bali',
   },
   {
@@ -226,7 +232,7 @@ export const destinazioniIndonesia: Destinazione[] = [
     miaEsperienza:
       'Tana Toraja è la cosa più diversa vista in Indonesia, e non è un posto da cartolina. Un funerale toraja dura giorni, ospita centinaia di persone, prevede il sacrificio di bufali davanti a tutti e non ha niente della sobrietà cui siamo abituati: è una festa, costosissima, per cui le famiglie risparmiano anni. Assistervi da estranei è possibile — si porta un regalo, di solito zucchero o sigarette, e si sta dove indica la guida — ma richiede la disponibilità a vedere cose che colpiscono. Bunaken poi è l\'altra faccia: pareti coralline che scendono a picco per centinaia di metri, dove ci si gira sulla schiena e sotto non c\'è più fondo. Tra le due, quella che ha cambiato qualcosa è Toraja.',
     esperienzeSlugs: ['diving-bunaken-national-park'],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Case tradizionali tongkonan dal tetto a barca a Tana Toraja, Sulawesi',
   },
   {
@@ -268,7 +274,7 @@ export const destinazioniIndonesia: Destinazione[] = [
     miaEsperienza:
       'Il Rinjani è il trekking più duro fatto in Indonesia e il paragone con gli altri non regge. La salita al bordo del cratere è lunga, esposta e finisce su sabbia vulcanica dove a ogni tre passi se ne perde uno; il campo si monta sul ciglio col vento, e la notte si dorme poco e male. Ma svegliarsi sopra il lago Segara Anak con le nuvole sotto ripaga tutto. Le Gili funzionano bene esattamente dopo: nessuna auto, nessuno scooter, si gira a piedi in un\'ora e le tartarughe si vedono partendo dalla spiaggia senza barca né guida. Trawangan la sera è più festaiola di quanto qualcuno si aspetti, Meno è l\'opposto esatto — meglio saperlo prima di prenotare.',
     esperienzeSlugs: ['trekking-gunung-rinjani'],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Acqua turchese e barche tradizionali sulla spiaggia dell\'isola di Gili Trawangan',
   },
   {
@@ -310,7 +316,7 @@ export const destinazioniIndonesia: Destinazione[] = [
     miaEsperienza:
       'I draghi, va detto subito, stanno quasi sempre fermi. Sono animali enormi che passano la giornata all\'ombra e si muovono poco, e chi arriva aspettandosi una scena da documentario resta spiazzato: l\'impressione la fanno le dimensioni e il fatto che il ranger tenga in mano solo un bastone biforcuto. Rinca è più selvaggia e meno affollata dell\'isola di Komodo, e conviene chiederla esplicitamente. La cosa che regge davvero è Padar all\'alba: una salita breve e ripida su una cresta, e tre baie con tre sabbie diverse tutte insieme sotto. Va fatta prestissimo, perché dalle otto la fila sul sentiero è continua e il caldo diventa serio.',
     esperienzeSlugs: ['trekking-draghi-komodo'],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'Drago di Komodo sulla sabbia dell\'isola di Rinca, parco nazionale di Komodo',
   },
   {
@@ -352,7 +358,7 @@ export const destinazioniIndonesia: Destinazione[] = [
     miaEsperienza:
       'Flores è la parte di Indonesia rimasta indietro, ed è esattamente questo che la rende la più interessante di tutte. La Trans-Flores è una strada che sulla mappa sembra corta e nella realtà è una successione infinita di curve: duecento chilometri sono una giornata intera, e chi ha poco tempo farebbe meglio a rinunciare. Il Kelimutu all\'alba merita comunque la sveglia alle tre, con l\'avvertenza che i colori dei tre laghi cambiano davvero nel tempo e non c\'è modo di sapere prima cosa si troverà: non è un difetto, è il senso del posto. Wae Rebo è la cosa più forte dell\'isola — tre ore di salita nella foresta, poi sette case coniche in una radura tra le montagne e nient\'altro — ma è un villaggio abitato, non un\'attrazione, e si sta alle loro regole.',
     esperienzeSlugs: ['alba-kelimutu'],
-    tripSlugs: [],
+    tripSlugs: ['indonesia-itinerario'],
     imageAlt: 'I tre laghi vulcanici colorati del Kelimutu visti dall\'alto, Flores',
   },
   {
@@ -378,21 +384,85 @@ export const destinazioniIndonesia: Destinazione[] = [
       'Giornata a Arborek per lo snorkeling dal villaggio',
     ],
     doveDormire:
-      'Homestay a gestione familiare sulle isole (Gam, Kri, Arborek): essenziali — palafitte, luce a orario, bagno condiviso — ma è il modo in cui i soldi restano davvero alle comunità locali. In alternativa i dive resort di fascia alta o il liveaboard, che è l\'unico modo per arrivare fino a Wayag.',
+      'Tre opzioni molto diverse per budget e comfort — homestay, dive resort o liveaboard — vedi il confronto dedicato più sotto.',
     doveMangiare:
       'Non c\'è scelta e non c\'è bisogno che ce ne sia: negli homestay si mangia quello che cucina la famiglia, tre volte al giorno, pesce appena pescato con riso e verdure. È buono e monotono. Fuori dagli alloggi non esistono ristoranti, quindi l\'ultima occasione per comprare snack, acqua e contanti è Sorong o Waisai: sulle isole non ci sono bancomat.',
     comeArrivare:
       'Volo su Sorong (via Giacarta o Makassar), poi traghetto veloce o barca privata per Waisai o i resort/liveaboard.',
     comeSpostarsi: 'Solo via mare: barca pubblica, barca privata o liveaboard.',
-    periodoMigliore: 'ottobre-aprile, mare più calmo e visibilità migliore (fa eccezione rispetto al resto dell\'arcipelago)',
+    periodoMigliore:
+      'non esiste una vera stagione sbagliata, ma due esperienze diverse. Da ottobre ad aprile — con il picco tra dicembre e febbraio — le correnti portano una risalita di acque ricche di plancton che richiama mante e gli altri grandi pelagici, il mare è più calmo e i liveaboard operano a pieno regime: è la finestra più sicura e con più fauna. Da maggio a settembre soffiano i venti da sud-est, più forti ad agosto, che alzano il mare soprattutto nello stretto di Dampier e negli attraversamenti verso Misool: gli spostamenti tra isole possono allungarsi e le uscite nelle zone più esposte possono saltare, e molti liveaboard in questo periodo si spostano altrove. In cambio l\'estate ha molta meno gente. Sulla pioggia invece non c\'è una vera regola stagionale da aspettarsi: qui piove tutto l\'anno, a rovesci brevi e imprevedibili, e non è il fattore che decide quando andare — a decidere sono il vento e cosa si vuole vedere sott\'acqua.',
     costi:
       'tra le mete più costose dell\'Indonesia per via della logistica e del permesso obbligatorio del parco marino (PIN Raja Ampat)',
     erroriDaEvitare: [
       'Non calcolare il costo e i tempi per ottenere il permesso obbligatorio del parco marino (PIN Raja Ampat)',
       'Sottovalutare i costi di trasporto interno: voli e barche verso quest\'area sono tra i più cari del paese',
+      'Andare in estate aspettandosi gli stessi grandi pelagici dell\'inverno: mante e squali sono molto meno frequenti quando il plancton non risale in superficie',
+      'Non mettere in conto giornate cuscinetto se si viaggia da maggio a settembre: il vento può far saltare un\'uscita o allungare un trasferimento tra isole, soprattutto verso Misool',
+    ],
+    confronti: [
+      {
+        titolo: 'Dove dormire a Raja Ampat: homestay, resort o liveaboard?',
+        introduzione:
+          'Con un arcipelago fatto quasi solo di isole e nessuna vera città, dove si dorme decide gran parte del viaggio: budget, contatto con le comunità locali e quali punti del parco si riesce davvero a raggiungere.',
+        opzioni: [
+          {
+            nome: 'Homestay',
+            sintesi: 'Palafitte a gestione familiare su isole come Gam, Kri o Arborek: la base più semplice e più diffusa.',
+            costo: 'indicativamente 25-45€ a notte, pasti inclusi (colazione, pranzo e cena preparati dalla famiglia)',
+            durata: 'più adatta a soggiorni di una settimana o più su una o due isole',
+            pro: [
+              'La spesa resta quasi interamente alla comunità locale, che è anche ciò che sostiene la protezione del parco marino',
+              'Molti reef eccezionali (Arborek su tutti) si raggiungono a nuoto dalla spiaggia, senza barca',
+              'Contatto diretto con chi vive sulle isole',
+            ],
+            contro: [
+              'Sistemazioni essenziali: bagno spesso condiviso, elettricità solo a orari fissi (generatore)',
+              'Nessun ristorante fuori dall\'alloggio: si mangia quello che cucina la famiglia',
+              'Per i punti più lontani (Wayag, Misool) serve comunque organizzare barche a parte',
+            ],
+            perChi: 'Chi vuole il modo più autentico ed economico di stare a Raja Ampat, e si accontenta di esplorare l\'area intorno alla propria isola.',
+          },
+          {
+            nome: 'Dive resort',
+            sintesi: 'Strutture di fascia medio-alta, spesso su un\'isola privata o quasi, pensate per il diving organizzato.',
+            costo: 'da circa 150 a oltre 400€ a notte, spesso con pacchetti che includono le immersioni',
+            durata: 'da pochi giorni a una settimana, con uscite giornaliere in barca verso i siti vicini',
+            pro: [
+              'Comfort molto superiore all\'homestay: acqua calda, elettricità continua, ristorante proprio',
+              'Staff dedicato e barche più veloci e attrezzate per le uscite di immersione',
+              'Buona base fissa per chi vuole più comodità senza rinunciare al diving quotidiano',
+            ],
+            contro: [
+              'Costo comunque alto, e più lontano dal modello che sostiene direttamente le comunità',
+              'Resta legato a un\'unica area: per i punti lontani serve comunque spostarsi',
+            ],
+            perChi: 'Chi fa diving sul serio e vuole comfort e organizzazione, senza il budget o la flessibilità di un liveaboard.',
+          },
+          {
+            nome: 'Liveaboard',
+            sintesi: 'Barca che fa da alloggio e mezzo di trasporto insieme, spostandosi di notte per essere ogni giorno su un punto diverso.',
+            costo: 'il più caro in assoluto: indicativamente 250-500€+ al giorno a persona, tutto incluso',
+            durata: 'in genere 7-10 giorni, il modo più efficiente per coprire aree lontane tra loro',
+            pro: [
+              'È l\'unico modo pratico per arrivare fino a Wayag o spingersi a sud verso Misool nello stesso viaggio',
+              'Nessun tempo perso in spostamenti via terra o traghetti: si dorme mentre la barca cambia zona',
+              'Immersioni e pasti organizzati dall\'equipaggio, il comfort più alto delle tre opzioni',
+            ],
+            contro: [
+              'Il costo è nettamente il più alto delle tre opzioni, spesso il doppio o il triplo di una settimana in homestay',
+              'Il meno legato alle comunità locali: i soldi restano quasi tutti all\'operatore',
+              'Nella stagione dei venti (maggio-settembre) molti liveaboard si spostano altrove, per evitare le zone più esposte',
+            ],
+            perChi: 'Chi ha il budget per farlo e vuole vedere il massimo dell\'arcipelago — inclusi i punti più remoti — in un\'unica settimana organizzata.',
+          },
+        ],
+        raccomandazione:
+          'Per un primo viaggio con budget contenuto, l\'homestay su un\'isola come Kri o Arborek dà già moltissimo. Il liveaboard si giustifica quando l\'obiettivo è vedere tutto l\'arcipelago, Wayag compreso, in un\'unica settimana intensa — ed è lì che il suo costo, il più alto delle tre opzioni, trova il senso.',
+      },
     ],
     miaEsperienza:
-      'È il posto più bello visto sott\'acqua, e anche il più faticoso da raggiungere: due voli, un traghetto e una barca, con costi che non somigliano al resto dell\'Indonesia. Ma la differenza si vede al primo snorkeling — la densità di pesce sul reef di Arborek, a venti metri dalla riva, è qualcosa che altrove semplicemente non c\'è più. Le correnti sono forti e vanno rispettate: certi punti si fanno solo negli orari giusti, e non è una raccomandazione formale. Dormire negli homestay invece che nei resort è la scelta che vale la pena fare, non per il prezzo ma perché quel modello è ciò che tiene in piedi la protezione del parco. Piaynemo al tramonto, con le scale di legno e la piattaforma affollata, è l\'unico momento in cui si incontra qualcun altro.',
+      'È il posto più bello visto sott\'acqua, e anche il più faticoso da raggiungere: due voli, un traghetto e una barca, con costi che non somigliano al resto dell\'Indonesia. Ma la differenza si vede al primo snorkeling — la densità di pesce sul reef di Arborek, a venti metri dalla riva, è qualcosa che altrove semplicemente non c\'è più. Le correnti sono forti e vanno rispettate: certi punti si fanno solo negli orari giusti, e non è una raccomandazione formale. Dormire negli homestay invece che nei resort è la scelta che vale la pena fare, non per il prezzo ma perché quel modello è ciò che tiene in piedi la protezione del parco. Piaynemo al tramonto, con le scale di legno e la piattaforma affollata, è l\'unico momento in cui si incontra qualcun altro. Ci siamo stati ad agosto, che su tutte le guide è segnato come la stagione sbagliata — e in parte lo è, ma non come ci si aspetta: il mare è stato clamoroso lo stesso, dieci giorni senza vedere una goccia di pioggia. Il vento invece sì, si è fatto sentire: ha allungato un paio di trasferimenti tra le isole e ci ha fatto saltare un\'uscita in una zona più esposta. L\'altro conto da fare è sui grandi pelagici: mante e squali d\'estate sono molto più rari, perché la risalita di acque ricche di plancton che li richiama è soprattutto un fenomeno invernale. Tra i reef pieni di pesce comunque e pochissimi altri turisti in giro, non è stato un compromesso di cui pentirsi.',
     esperienzeSlugs: ['diving-liveaboard-raja-ampat'],
     tripSlugs: [],
     imageAlt: 'Isole calcaree a forma di fungo viste dal belvedere di Piaynemo, Raja Ampat',

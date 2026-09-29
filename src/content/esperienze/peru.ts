@@ -27,7 +27,7 @@ export const esperienzePeru: Esperienza[] = [
       'Montaña Machu Picchu: più lunga e meno ripida, vista più ampia ma più distante',
       'Porta del Sole (Intipunku): raggiungibile senza biglietto extra, con vista panoramica sulla cittadella',
     ],
-    tripSlugs: [],
+    tripSlugs: ['peru-itinerario'],
     imageAlt: 'Vista di Machu Picchu dall\'alto del Huayna Picchu, Perù',
   },
   {
@@ -96,7 +96,7 @@ export const esperienzePeru: Esperienza[] = [
     perChiEAdatta: 'Chiunque accetti sistemazioni essenziali: bagno condiviso, niente acqua calda garantita, niente elettricità continua.',
     giudizio: 'da-verificare',
     alternative: ['Notte a Taquile, meno organizzata per l\'ospitalità ma altrettanto autentica'],
-    tripSlugs: [],
+    tripSlugs: ['peru-itinerario'],
     imageAlt: 'Case in pietra e terrazzamenti sull\'isola di Amantaní, lago Titicaca, Perù',
   },
 ]

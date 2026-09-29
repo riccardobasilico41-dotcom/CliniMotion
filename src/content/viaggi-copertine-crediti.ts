@@ -46,6 +46,11 @@ export const creditiCopertine: Record<string, CreditoImmagine> = {
     licenza: 'CC BY-SA 4.0',
     fonteUrl: 'https://commons.wikimedia.org/wiki/File:St._John%27s_Peak_Mount_Kinabalu_3.jpg',
   },
+  'indonesia-itinerario': {
+    autore: 'Lydia Kristiani',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Padar_Island_in_Komodo_National_Park.jpg',
+  },
   'stopover-golfo': {
     autore: 'Phil6007',
     licenza: 'CC BY-SA 4.0',
@@ -180,5 +185,40 @@ export const creditiCopertine: Record<string, CreditoImmagine> = {
     autore: 'Gilbert Bochenek',
     licenza: 'CC BY-SA 3.0',
     fonteUrl: "https://commons.wikimedia.org/wiki/File:Cap_d%27antibes-PACA-Sentier_du_littoral-gb.jpg",
+  },
+  tromso: {
+    autore: 'BishkekRocks',
+    licenza: 'CC BY-SA 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tromsø_panorama.jpg',
+  },
+  'lofoten-estate-2025': {
+    autore: 'Cappo80',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Campo_da_calcio_di_Henningsvaer.JPG',
+  },
+  'islanda-2024': {
+    autore: 'Fabrizio Lecce',
+    licenza: 'CC BY 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Icebergs_in_the_Jökulsárlón_Glacier_Lagoon,_Iceland.jpg',
+  },
+  'lapponia-svedese-abisko': {
+    autore: 'Ximonic (Simo Räsänen)',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lapporten_over_Torneträsk,_Norrbotten,_Sweden,_2015_April.jpg',
+  },
+  'bolivia-itinerario': {
+    autore: 'Diego Delso',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Isla_Incahuasi,_Salar_de_Uyuni,_Bolivia,_2016-02-04,_DD_43.jpg',
+  },
+  'centro-america-itinerario': {
+    autore: 'Chad Davis',
+    licenza: 'CC BY-SA 2.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Santa_Catalina_Arch_-_Antigua_Guatemala_Feb_2020.jpg',
+  },
+  'peru-itinerario': {
+    autore: 'Steve FUNG',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Overlook_1.jpg',
   },
 }
