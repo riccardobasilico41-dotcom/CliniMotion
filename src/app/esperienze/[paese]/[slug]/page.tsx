@@ -109,7 +109,7 @@ export default async function EsperienzaPage({
       {esperienza.immagine && (
         <Container className="relative -mt-10 sm:-mt-14">
           <Reveal>
-            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-alpine/10 shadow-lg sm:aspect-[21/9]">
+            <div className="relative aspect-[16/9] overflow-hidden rounded-none border border-alpine/10 shadow-lg sm:aspect-[21/9]">
               <Image
                 src={esperienza.immagine}
                 alt={esperienza.imageAlt}
@@ -139,7 +139,7 @@ export default async function EsperienzaPage({
                 </p>
               </div>
             ) : (
-              <div className="rounded-xl border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
+              <div className="rounded-none border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
                 Ricordo personale da aggiungere.
               </div>
             )}

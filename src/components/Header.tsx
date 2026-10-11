@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Container } from './ui/Container'
 import { siteConfig } from '@/lib/site-config'
 import { getAllViaggi } from '@/lib/viaggi'
 
@@ -9,31 +8,29 @@ const navLinks = [
   { href: '/meraviglie', label: 'Meraviglie del mondo' },
 ]
 
-/* Hallmark · nav: N6 Newspaper masthead — full-width centred wordmark, thin
- * issue line above it in small caps, double rule below. Replaces the
- * previous N1a (wordmark + inline links), the most-recognised AI nav
- * fingerprint. Not sticky by design — a masthead is a statement, not a
- * utility bar; StickyTableOfContents carries in-page wayfinding on long
- * content pages. See design.md. */
+/* Stile A "Ghat" · nav: testata a una riga. Marchio grotesk pesante a
+ * sinistra, conteggio degli itinerari accanto (dato reale, non decorazione),
+ * voci a destra, filo sottile sotto. Non sticky: StickyTableOfContents porta
+ * l'orientamento nelle pagine lunghe. Vedi design.md. */
 export function Header() {
   const itinerari = getAllViaggi().length
 
   return (
-    <header className="border-b-4 border-double border-alpine/20 bg-cream">
-      <Container className="flex flex-col items-center gap-2 py-7 text-center sm:py-9">
-        <p className="text-[0.65rem] font-medium uppercase tracking-[0.28em] text-stone">
-          Diario di viaggio · {itinerari} itinerari raccontati
-        </p>
-        <Link href="/" className="font-display text-3xl font-medium tracking-tight text-alpine sm:text-4xl">
-          {siteConfig.brandName}
-        </Link>
-        <nav aria-label="Primary" className="mt-1">
-          <ul className="flex items-center gap-6">
+    <header className="border-b border-ink/15 bg-cream">
+      <div className="flex flex-wrap items-center justify-between gap-x-8 gap-y-2 px-4 py-4 sm:px-8 lg:px-12">
+        <div className="flex items-baseline gap-4">
+          <Link href="/" className="font-display text-2xl font-extrabold text-ink sm:text-[1.7rem]">
+            {siteConfig.brandName}
+          </Link>
+          <span className="hidden text-sm text-stone md:inline">{itinerari} itinerari raccontati</span>
+        </div>
+        <nav aria-label="Primary">
+          <ul className="flex flex-wrap items-center gap-x-6 gap-y-1">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="text-sm font-medium text-stone transition-colors duration-150 hover:text-rosso"
+                  className="inline-flex min-h-11 items-center text-[0.95rem] font-medium text-ink decoration-rosso decoration-2 underline-offset-[6px] transition-colors duration-150 hover:text-rosso hover:underline"
                 >
                   {link.label}
                 </Link>
@@ -41,7 +38,7 @@ export function Header() {
             ))}
           </ul>
         </nav>
-      </Container>
+      </div>
     </header>
   )
 }

@@ -1,98 +1,84 @@
-'use client'
-
+import Image from 'next/image'
 import Link from 'next/link'
-import { motion, useReducedMotion } from 'motion/react'
 import { ArrowRight } from 'lucide-react'
-import { Container } from '@/components/ui/Container'
-import { RouteLine } from './RouteLine'
 import type { PuntoTappa } from './geo'
 
 /**
- * Apertura cinematica della Home: apertura tipografica su un fondale video
- * (loop muto, 20s, licenza libera — vedi credito in HERO_VIDEO_CREDITO più
- * sotto) invece del solo hero fotografico singolo. Sopra restano la linea di
- * rotta schematica (decorativa, aria-hidden — attraversa Paesi reali
- * dell'archivio, ma senza pretesa di scala) e il titolo, rivelato con una
- * singola maschera al montaggio (non per-parola: un solo gesto comunicativo,
- * non una cascata).
- *
- * `prefers-reduced-motion`: niente video autoplay (è esattamente il tipo di
- * movimento continuo che quella preferenza chiede di evitare) — resta solo
- * il frame fermo del video come immagine di sfondo, stesso trattamento
- * scuro sopra. Il titolo salta dritto allo stato finale.
+ * Apertura della Home, Stile A "Ghat": hero diviso. A sinistra un titolo
+ * grotesk pesante (le ultime parole in rosso), sottotitolo e una sola azione
+ * piena; a destra una fotografia vera a tutta altezza, con il credito sotto.
+ * Niente video in loop né linea di rotta decorativa: la foto fa il lavoro.
+ * Statico, quindi nessun problema con `prefers-reduced-motion`.
  */
-export const HERO_VIDEO_CREDITO = {
-  autore: 'Mixkit',
-  licenza: 'Mixkit Stock Video Free License',
-  fonteUrl: 'https://mixkit.co/free-stock-video/beautiful-beach-surrounded-by-nature-seen-from-above-5371/',
+export const HERO_FOTO = {
+  src: '/images/copertine/lofoten-estate-2025.jpg',
+  alt: 'Il campo da calcio di Henningsvær, alle Lofoten, tra il mare e le montagne',
+  luogo: 'Henningsvær, Lofoten',
+  autore: 'Cappo80',
+  licenza: 'CC BY-SA 4.0',
+  fonteUrl: 'https://commons.wikimedia.org/wiki/File:Campo_da_calcio_di_Henningsvaer.JPG',
+}
+
+/** Divide la tagline: le ultime tre parole vanno in rosso. */
+function dividiTagline(tagline: string): [string, string] {
+  const parole = tagline.split(' ')
+  if (parole.length < 5) return [tagline, '']
+  return [parole.slice(0, -3).join(' '), parole.slice(-3).join(' ')]
 }
 
 export function CinematicHero({
   tagline,
   subtext,
-  routeTappe,
 }: {
   tagline: string
   subtext: string
-  routeTappe: PuntoTappa[]
+  routeTappe?: PuntoTappa[]
 }) {
-  const reduceMotion = useReducedMotion()
+  const [inizio, fine] = dividiTagline(tagline)
 
   return (
-    <section className="relative flex min-h-[100dvh] items-end overflow-hidden bg-alpine-dark pb-14 sm:pb-20">
-      <div className="absolute inset-0">
-        {reduceMotion ? (
-          // eslint-disable-next-line @next/next/no-img-element -- sfondo decorativo a piena pagina, non serve next/image qui
-          <img
-            src="/videos/hero-travel-poster.jpg"
-            alt=""
-            aria-hidden="true"
-            className="h-full w-full object-cover"
-          />
-        ) : (
-          <video
-            aria-hidden="true"
-            autoPlay
-            loop
-            muted
-            playsInline
-            poster="/videos/hero-travel-poster.jpg"
-            className="h-full w-full object-cover"
-          >
-            <source src="/videos/hero-travel.mp4" type="video/mp4" />
-          </video>
-        )}
-      </div>
-      <div className="pointer-events-none absolute inset-0 opacity-70">
-        <RouteLine tappe={routeTappe} decorative className="h-full w-full" strokeClassName="stroke-cream/[0.14]" />
-      </div>
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark via-alpine-dark/65 to-alpine-dark/45" />
-
-      <Container className="relative z-10">
-        <motion.h1
-          initial={reduceMotion ? false : { clipPath: 'inset(0 100% 0 0)' }}
-          animate={{ clipPath: 'inset(0 0% 0 0)' }}
-          transition={reduceMotion ? { duration: 0 } : { duration: 1.1, ease: [0.16, 1, 0.3, 1] }}
-          className="max-w-4xl font-display text-5xl font-medium leading-[0.98] tracking-tight text-balance text-cream sm:text-7xl lg:text-8xl"
-        >
-          {tagline}
-        </motion.h1>
-
-        <motion.div
-          initial={reduceMotion ? false : { opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={reduceMotion ? { duration: 0 } : { duration: 0.6, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-        >
-          <p className="mt-6 max-w-md text-base leading-relaxed text-cream/70 sm:text-lg">{subtext}</p>
+    <section className="grid border-b-2 border-ink lg:min-h-[calc(100dvh-4rem)] lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
+      <div className="flex flex-col justify-end px-4 pb-12 pt-10 sm:px-8 lg:px-12 lg:pb-16 lg:pt-24">
+        <h1 className="max-w-[14ch] font-display text-[clamp(2.75rem,7vw,6.75rem)] text-balance text-ink">
+          {inizio} {fine && <span className="text-rosso">{fine}</span>}
+        </h1>
+        <p className="mt-7 max-w-[34ch] text-lg leading-relaxed text-stone sm:text-xl">{subtext}</p>
+        <div className="mt-8 flex flex-wrap items-center gap-6">
           <Link
             href="/viaggi"
-            className="group mt-7 inline-flex items-center gap-2 text-sm font-medium text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream"
+            className="inline-flex min-h-12 items-center gap-2 bg-rosso px-6 py-3 text-[0.95rem] font-semibold text-cream transition-colors duration-150 hover:bg-rosso-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosso focus-visible:ring-offset-2"
           >
             Scopri gli itinerari
-            <ArrowRight size={15} className="transition-transform group-hover:translate-x-1" />
+            <ArrowRight size={16} aria-hidden="true" />
           </Link>
-        </motion.div>
-      </Container>
+          <Link
+            href="/destinazioni"
+            className="text-[0.95rem] font-semibold text-ink underline decoration-rosso decoration-2 underline-offset-[6px] hover:text-rosso"
+          >
+            Sfoglia per Paese
+          </Link>
+        </div>
+      </div>
+
+      <figure className="relative m-0 flex flex-col">
+        <div className="relative aspect-[4/5] w-full lg:aspect-auto lg:flex-1">
+          <Image
+            src={HERO_FOTO.src}
+            alt={HERO_FOTO.alt}
+            fill
+            priority
+            sizes="(min-width: 1024px) 42vw, 100vw"
+            className="object-cover"
+          />
+        </div>
+        <figcaption className="px-4 py-3 text-xs text-stone sm:px-8 lg:px-4">
+          {HERO_FOTO.luogo}. Foto:{' '}
+          <a href={HERO_FOTO.fonteUrl} className="underline underline-offset-2 hover:text-rosso" rel="noopener noreferrer" target="_blank">
+            {HERO_FOTO.autore}
+          </a>
+          , {HERO_FOTO.licenza}
+        </figcaption>
+      </figure>
     </section>
   )
 }

@@ -56,7 +56,7 @@ export default function DestinazioniIndexPage() {
                   <RevealItem key={paese.slug}>
                     <Link
                       href={`/destinazioni/${paese.slug}`}
-                      className="group flex h-full flex-col gap-3 rounded-2xl border border-alpine/10 bg-white p-6 transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg active:scale-[0.99] motion-reduce:active:scale-100"
+                      className="group flex h-full flex-col gap-3 rounded-none border border-alpine/10 bg-white p-6 transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg active:scale-[0.99] motion-reduce:active:scale-100"
                     >
                       <h3 className="font-display text-xl font-medium text-alpine">{paese.nome}</h3>
                       <p className="text-sm leading-relaxed text-stone">{paese.descrizione}</p>
