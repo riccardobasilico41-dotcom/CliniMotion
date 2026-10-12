@@ -16,14 +16,14 @@ export default function NotFound() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Link
             href="/viaggi"
-            className="inline-flex items-center gap-2 rounded-full bg-alpine px-6 py-3 text-sm font-medium text-cream transition-colors hover:bg-alpine-dark"
+            className="inline-flex items-center gap-2 rounded-none bg-alpine px-6 py-3 text-sm font-medium text-cream transition-colors hover:bg-alpine-dark"
           >
             Tutti i viaggi
             <ArrowRight size={15} />
           </Link>
           <Link
             href="/destinazioni/messico"
-            className="inline-flex items-center gap-2 rounded-full border border-alpine/30 px-6 py-3 text-sm font-medium text-alpine transition-colors hover:bg-alpine/5"
+            className="inline-flex items-center gap-2 rounded-none border border-alpine/30 px-6 py-3 text-sm font-medium text-alpine transition-colors hover:bg-alpine/5"
           >
             Destinazioni Messico
           </Link>

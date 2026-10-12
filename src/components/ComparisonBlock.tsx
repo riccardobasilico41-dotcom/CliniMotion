@@ -10,13 +10,13 @@ import { Reveal } from './Reveal'
 export function ComparisonBlock({ confronto }: { confronto: Confronto }) {
   return (
     <Reveal>
-      <div className="rounded-2xl border border-alpine/15 bg-cream-dark/40 p-6 sm:p-8">
+      <div className="rounded-none border border-alpine/15 bg-cream-dark/40 p-6 sm:p-8">
         <h3 className="font-display text-2xl text-alpine">{confronto.titolo}</h3>
         <p className="mt-3 text-base leading-relaxed text-stone">{confronto.introduzione}</p>
 
         <div className="mt-8 grid gap-5 lg:grid-cols-2">
           {confronto.opzioni.map((opzione) => (
-            <div key={opzione.nome} className="flex flex-col rounded-xl border border-alpine/10 bg-white p-5">
+            <div key={opzione.nome} className="flex flex-col rounded-none border border-alpine/10 bg-white p-5">
               <h4 className="font-display text-lg font-medium text-alpine">{opzione.nome}</h4>
               <p className="mt-2 text-sm leading-relaxed text-stone">{opzione.sintesi}</p>
 
@@ -67,7 +67,7 @@ export function ComparisonBlock({ confronto }: { confronto: Confronto }) {
         </div>
 
         {confronto.raccomandazione && (
-          <p className="mt-6 flex gap-2 rounded-xl border border-rosso/20 bg-rosso/5 p-5 text-base leading-relaxed text-stone">
+          <p className="mt-6 flex gap-2 rounded-none border border-rosso/20 bg-rosso/5 p-5 text-base leading-relaxed text-stone">
             <ArrowRight size={17} className="mt-1 shrink-0 text-rosso" aria-hidden />
             <span>
               <span className="font-medium text-rosso-dark">In sintesi: </span>

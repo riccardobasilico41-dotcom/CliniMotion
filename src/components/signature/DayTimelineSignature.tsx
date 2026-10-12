@@ -51,7 +51,7 @@ export const DayTimelineSignature = forwardRef<
                 </span>
                 {info && (
                   <span
-                    className={`ml-4 inline-flex h-fit items-center gap-1.5 rounded-full px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider sm:ml-0 sm:mt-3 ${INTENSITA_CLASSES[info.intensita]}`}
+                    className={`ml-4 inline-flex h-fit items-center gap-1.5 rounded-none px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider sm:ml-0 sm:mt-3 ${INTENSITA_CLASSES[info.intensita]}`}
                   >
                     <Gauge size={12} />
                     {INTENSITA_LABEL[info.intensita]}
@@ -72,7 +72,7 @@ export const DayTimelineSignature = forwardRef<
                     schermo invece che sullo spazio realmente disponibile qui, e le due
                     colonne si sovrapponevano. */}
                 {info?.immagine ? (
-                  <div className="relative mt-5 aspect-[4/3] w-full overflow-hidden rounded-sm sm:aspect-[16/10]">
+                  <div className="relative mt-5 aspect-[4/3] w-full overflow-hidden rounded-none sm:aspect-[16/10]">
                     <Image
                       src={info.immagine}
                       alt={info.imageAlt ?? sottotitolo}

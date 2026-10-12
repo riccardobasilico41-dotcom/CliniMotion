@@ -178,7 +178,7 @@ function SignatureViaggioContent({
                   {CAMPI_VIAGGIO_IN_BREVE.map(({ key, label }) => {
                     const valore = meta.viaggioInBreve[key]
                     return (
-                      <div key={key} className="rounded-xl border border-dashed border-alpine/20 p-4">
+                      <div key={key} className="rounded-none border border-dashed border-alpine/20 p-4">
                         <dt className="text-xs font-semibold uppercase tracking-wider text-stone/70">{label}</dt>
                         <dd className={`mt-1.5 text-sm leading-relaxed ${valore ? 'text-ink' : 'italic text-stone/60'}`}>
                           {valore ?? 'Ricordo personale da aggiungere'}
@@ -196,7 +196,7 @@ function SignatureViaggioContent({
                 <p className="mt-2 max-w-xl text-sm leading-relaxed text-stone">
                   Le tappe dell&apos;itinerario, nell&apos;ordine in cui si visitano.
                 </p>
-                <div className="mt-8 rounded-2xl border border-alpine/10 bg-cream-dark/40 p-6 sm:p-10">
+                <div className="mt-8 rounded-none border border-alpine/10 bg-cream-dark/40 p-6 sm:p-10">
                   <RouteLine
                     tappe={meta.tappeMappa}
                     paeseSlug={meta.paeseSlug}
@@ -278,7 +278,7 @@ function SignatureViaggioContent({
             {viaggio.tags.length > 0 && (
               <div className="flex flex-wrap gap-2">
                 {viaggio.tags.map((tag) => (
-                  <span key={tag} className="rounded-full bg-alpine/5 px-3 py-1 text-xs font-medium text-alpine">
+                  <span key={tag} className="rounded-none bg-alpine/5 px-3 py-1 text-xs font-medium text-alpine">
                     #{tag}
                   </span>
                 ))}
@@ -290,7 +290,7 @@ function SignatureViaggioContent({
             {toc.length > 0 && <StickyTableOfContents items={toc} />}
 
             {viaggio.schedaPratica && (
-              <div className="rounded-2xl border border-alpine/10 bg-cream-dark/50 p-6">
+              <div className="rounded-none border border-alpine/10 bg-cream-dark/50 p-6">
                 <h2 className="font-display text-lg text-alpine">Scheda pratica</h2>
                 {viaggio.periodo && viaggio.periodo !== viaggio.periodoBreve && (
                   <p className="mt-4 text-sm leading-relaxed text-stone">

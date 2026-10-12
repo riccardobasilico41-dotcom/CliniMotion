@@ -53,7 +53,7 @@ export function CountrySheet({ scheda }: { scheda: SchedaPaese }) {
             <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">{blocco.titolo}</h3>
             <dl className="mt-4 grid gap-4 sm:grid-cols-2">
               {voci.map((voce) => (
-                <div key={voce.label} className="rounded-xl border border-alpine/10 bg-white p-5">
+                <div key={voce.label} className="rounded-none border border-alpine/10 bg-white p-5">
                   <dt className="font-display text-base text-alpine">{voce.label}</dt>
                   <dd className="mt-2 text-sm leading-relaxed text-stone">{voce.valore}</dd>
                 </div>

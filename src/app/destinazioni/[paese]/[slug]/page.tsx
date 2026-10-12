@@ -121,7 +121,7 @@ export default async function DestinazionePage({
       {destinazione.immagine && (
         <Container className="relative -mt-10 sm:-mt-14">
           <Reveal>
-            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-alpine/10 shadow-lg sm:aspect-[21/9]">
+            <div className="relative aspect-[16/9] overflow-hidden rounded-none border border-alpine/10 shadow-lg sm:aspect-[21/9]">
               <Image
                 src={destinazione.immagine}
                 alt={destinazione.imageAlt}
@@ -198,7 +198,7 @@ export default async function DestinazionePage({
                 </p>
               </div>
             ) : (
-              <div className="rounded-xl border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
+              <div className="rounded-none border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
                 Ricordo personale da aggiungere.
               </div>
             )}

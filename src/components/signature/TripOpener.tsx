@@ -120,7 +120,7 @@ export function TripOpener({
             {codicePaese(paeseSlug)}
           </span>
           {inLavorazione && (
-            <span className="rounded-full bg-cream/10 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/70">
+            <span className="rounded-none bg-cream/10 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/70">
               Racconto in arrivo
             </span>
           )}
@@ -130,7 +130,7 @@ export function TripOpener({
           initial={reduceMotion ? false : { opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={reduceMotion ? { duration: 0 } : { duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-3 max-w-4xl font-display text-5xl font-medium leading-[0.98] tracking-tight text-balance sm:text-7xl lg:text-8xl"
+          className="mt-3 max-w-5xl font-display text-4xl font-medium leading-[1] tracking-tight text-balance sm:text-5xl lg:text-6xl"
         >
           {editorialHeadline ?? titolo}
         </motion.h1>

@@ -40,7 +40,7 @@ export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; feat
   return (
     <Link
       href={`/viaggi/${viaggio.slug}`}
-      className="group relative flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
+      className="group relative flex flex-col overflow-hidden rounded-none border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
     >
       {featured && <FeaturedBorderTrail />}
       <div
@@ -70,7 +70,7 @@ export function TripCard({ viaggio, featured = false }: { viaggio: Viaggio; feat
           {continente}
         </p>
         {viaggio.inLavorazione && (
-          <span className="absolute right-4 top-4 z-10 rounded-full bg-cream/15 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/80 backdrop-blur">
+          <span className="absolute right-4 top-4 z-10 rounded-none bg-cream/15 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/80 backdrop-blur">
             Racconto in arrivo
           </span>
         )}

@@ -1,5 +1,19 @@
 # Design — Viaggi 360°
 
+> **Aggiornamento ottobre 2026 · Stile A "Ghat" (in anteprima sul branch `design/stile-a-ghat`).**
+> **Bricolage Grotesque** (titoli 750-800, interlinea stretta, tracking -0.03em, sempre in tondo)
+> + **Schibsted Grotesk** (testo); **bianco calce, nero caldo, un solo rosso sindoor**;
+> **angoli vivi ovunque** (restano tondi solo i pallini indicatori); bottone primario
+> **rosso pieno squadrato**, secondario = link sottolineato in rosso. I nomi dei token
+> (`alpine`, `cream`, `rosso`…) restano per compatibilità: cambiano solo i valori.
+> Home con **hero diviso** (titolo a sinistra con le ultime parole in rosso, foto vera a
+> destra con credito). Testata a una riga. Dove il testo sotto contraddice questo
+> paragrafo, vale questo paragrafo.
+
+---
+
+## Storico (sistema precedente, per riferimento)
+
 A locked design system for this app, produced by `hallmark redesign` (multi-page flow).
 Every page redesign in this project reads this file before emitting code. Extend or
 amend this file when the system needs to grow — don't regenerate per page.

@@ -42,7 +42,7 @@ export function DayTimeline({
 
         return (
           <Reveal key={giorno.titolo}>
-            <li className="rounded-2xl border border-alpine/10 bg-white p-6 sm:p-7">
+            <li className="rounded-none border border-alpine/10 bg-white p-6 sm:p-7">
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div className="flex items-center gap-3">
                   <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-alpine font-display text-sm font-semibold text-cream">
@@ -52,7 +52,7 @@ export function DayTimeline({
                 </div>
                 {info && (
                   <span
-                    className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider ${INTENSITA_CLASSES[info.intensita]}`}
+                    className={`inline-flex items-center gap-1.5 rounded-none px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider ${INTENSITA_CLASSES[info.intensita]}`}
                   >
                     <Gauge size={12} />
                     {INTENSITA_LABEL[info.intensita]}

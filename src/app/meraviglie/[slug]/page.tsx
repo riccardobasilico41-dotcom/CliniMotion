@@ -124,7 +124,7 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
               <h2 className="font-display text-2xl text-alpine">Cosa vedere e perché</h2>
               <div className="mt-4 space-y-4">
                 {meraviglia.sezioniDaVedere.map((sezione) => (
-                  <div key={sezione.nome} className="rounded-xl border border-alpine/10 bg-cream-dark/40 p-5">
+                  <div key={sezione.nome} className="rounded-none border border-alpine/10 bg-cream-dark/40 p-5">
                     <h3 className="font-display text-lg text-alpine">{sezione.nome}</h3>
                     <p className="mt-1.5 text-sm leading-relaxed text-stone">{sezione.perche}</p>
                   </div>
@@ -162,7 +162,7 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
             </div>
 
             {meraviglia.scamDaEvitare.length > 0 && (
-              <div className="rounded-2xl border border-rosso/20 bg-rosso/5 p-6">
+              <div className="rounded-none border border-rosso/20 bg-rosso/5 p-6">
                 <h2 className="flex items-center gap-2 font-display text-2xl text-rosso-dark">
                   <AlertTriangle size={20} />
                   Truffe comuni da evitare
@@ -194,7 +194,7 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
                 </p>
               </div>
             ) : (
-              <div className="rounded-xl border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
+              <div className="rounded-none border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
                 Ricordo personale da aggiungere.
               </div>
             )}

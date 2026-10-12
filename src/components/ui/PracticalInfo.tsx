@@ -18,7 +18,7 @@ export function PracticalInfo({ items, className = '' }: { items: PracticalInfoI
       {items.map((item) => (
         <div
           key={item.label}
-          className="rounded-xl border border-alpine/10 bg-white p-4"
+          className="rounded-none border border-alpine/10 bg-white p-4"
         >
           <dt className="text-xs font-semibold uppercase tracking-wider text-stone/70">{item.label}</dt>
           {item.href ? (

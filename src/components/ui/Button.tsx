@@ -2,10 +2,10 @@ import Link from 'next/link'
 import type { ReactNode } from 'react'
 
 const base =
-  'inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium tracking-wide transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2'
+  'inline-flex items-center justify-center gap-2 rounded-none px-6 py-3 text-[0.95rem] font-semibold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2'
 
 const variants = {
-  primary: `${base} bg-alpine text-cream hover:bg-alpine-dark focus-visible:ring-alpine`,
+  primary: `${base} bg-rosso text-cream hover:bg-rosso-dark focus-visible:ring-rosso`,
   secondary: `${base} border border-alpine/30 text-alpine hover:bg-alpine/5 focus-visible:ring-alpine`,
   light: `${base} bg-cream text-alpine hover:bg-white focus-visible:ring-cream`,
 }

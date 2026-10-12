@@ -42,7 +42,7 @@ export function CountryHero({
           <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3">
             <Link
               href={tripHref}
-              className="inline-flex items-center gap-2 rounded-full bg-rosso px-6 py-3 text-sm font-medium text-cream transition-colors duration-150 hover:bg-rosso-dark"
+              className="inline-flex items-center gap-2 rounded-none bg-rosso px-6 py-3 text-sm font-medium text-cream transition-colors duration-150 hover:bg-rosso-dark"
             >
               Scopri il mio itinerario
               <ArrowRight size={15} />

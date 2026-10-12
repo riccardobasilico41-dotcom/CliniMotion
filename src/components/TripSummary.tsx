@@ -14,7 +14,7 @@ export function TripSummary({ viaggio, meta }: { viaggio: Viaggio; meta: TripMet
   ]
 
   return (
-    <div id="scheda-riassuntiva" className="rounded-2xl border border-alpine/10 bg-cream-dark/50 p-6 sm:p-8">
+    <div id="scheda-riassuntiva" className="rounded-none border border-alpine/10 bg-cream-dark/50 p-6 sm:p-8">
       <h2 className="font-display text-xl text-alpine">Scheda riassuntiva</h2>
       <dl className="mt-5 grid gap-x-6 gap-y-4 sm:grid-cols-2">
         {righe.map((r) => (

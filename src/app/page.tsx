@@ -75,7 +75,7 @@ export default function HomePage() {
     <>
       <CinematicHero
         tagline={siteConfig.tagline}
-        subtext="Diario di viaggio con itinerari giorno per giorno, verificati e riverificati — non copiati da altre guide."
+        subtext="Diario di viaggio con itinerari giorno per giorno, verificati e riverificati, non copiati da altre guide."
         routeTappe={ROTTA_DECORATIVA}
       />
 
@@ -137,7 +137,7 @@ export default function HomePage() {
               </p>
               <Link
                 href="/viaggi"
-                className="inline-flex items-center gap-2 rounded-full bg-alpine px-7 py-3.5 text-sm font-medium text-cream transition-colors duration-150 hover:bg-alpine-dark"
+                className="inline-flex items-center gap-2 rounded-none bg-alpine px-7 py-3.5 text-sm font-medium text-cream transition-colors duration-150 hover:bg-alpine-dark"
               >
                 Esplora tutti i {viaggi.length} viaggi
                 <ArrowRight size={15} />
