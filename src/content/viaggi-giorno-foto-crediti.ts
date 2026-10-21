@@ -2947,4 +2947,136 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Saint_Kinga_Chapel_in_Wieliczka_Salt_Mine.jpg',
     },
   },
+  'praga-weekend': {
+    'Giorno 1 — Staré Město e la Piazza della Città Vecchia': {
+      autore: 'x70tjw (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Old_Town_Square,_Prague_(16070968840).jpg',
+    },
+    'Giorno 2 — Ponte Carlo, Malá Strana e il Castello di Praga': {
+      autore: 'Diliff (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Prague_Castle_and_Charles_Bridge,_Czech_Republic_-_Diliff.jpg',
+    },
+    'Giorno 3 — Josefov, il quartiere ebraico': {
+      autore: 'Jorge Láscar (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lascar_Josefov_(Old_Jewish_Quarter)_(4504602778).jpg',
+    },
+    'Giorno 4 — Vyšehrad e l\'ultimo giro': {
+      autore: 'ŠJů, panorama di Justass (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vyšehrad,_z_Císařské_louky_panoramic.jpg',
+    },
+  },
+  'vienna-weekend': {
+    'Giorno 1 — Innere Stadt e Stephansdom': {
+      autore: 'C.Stadler/Bwag (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Wien_-_Stephansdom_(1).JPG',
+    },
+    'Giorno 2 — Hofburg e Naschmarkt': {
+      autore: 'Jebulon (Wikimedia Commons)',
+      licenza: 'Pubblico dominio (CC0)',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hofburg_Michaelertor_Vienna.jpg',
+    },
+    'Giorno 3 — Schönbrunn': {
+      autore: 'Julesvernex2 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Schönbrunn_Palace,_seen_from_behind_the_Neptune_fountain_(Vienna,_Austria).jpg',
+    },
+    'Giorno 4 — Belvedere e Prater': {
+      autore: 'Rosser1954 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:The_Belvedere_Palace,_Vienna,_Austria.jpg',
+    },
+  },
+  'amsterdam-weekend': {
+    'Giorno 1 — Grachtengordel e Jordaan': {
+      autore: 'Dietmar Rabich (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Singel_--_2015_--_7171.jpg',
+    },
+    'Giorno 2 — Casa di Anna Frank e Dam Square': {
+      autore: 'Dietmar Rabich (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Anne-Frank-Huis_--_2015_--_7185.jpg',
+    },
+    'Giorno 3 — Rijksmuseum e Van Gogh Museum': {
+      autore: 'Marco Almbauer (Wikimedia Commons)',
+      licenza: 'Pubblico dominio',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_-_Gallery_of_Honour.jpg',
+    },
+    'Giorno 4 — In bicicletta per la città': {
+      autore: 'John Salatas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bicycles_amsterdam.jpg',
+    },
+  },
+  'lisbona-weekend': {
+    'Giorno 1 — Alfama e il tram 28': {
+      autore: 'Jakub Hałun (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2016_9045.jpg',
+    },
+    'Giorno 2 — Belém': {
+      autore: 'NorbertNagel (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Jer%C3%B3nimos_Monastery_in_Bel%C3%A9m_-_Lisbon_-_Portugal_-_03.jpg',
+    },
+    'Giorno 3 — Sintra': {
+      autore: 'CEphoto, Uwe Aranas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg',
+    },
+    'Giorno 4 — Baixa, Chiado e ultimo giro': {
+      autore: 'NorbertNagel (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Praca_do_Comercio_-_Lisbon_-_Portugal.jpg',
+    },
+  },
+  'budapest-weekend': {
+    'Giorno 1 — Il colle di Buda e il Bastione dei Pescatori': {
+      autore: 'Chmee2/Valtameri (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Fisher_Bastion_in_Buda_Castle_(3).JPG',
+    },
+    'Giorno 2 — Il Parlamento e il quartiere ebraico': {
+      autore: 'Vermont (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_from_the_Danube_during_blue_hour.jpg',
+    },
+    'Giorno 3 — Le terme: Széchenyi o Gellért': {
+      autore: 'Robot8A (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Széchenyi_thermal_bath,_pool,_Budapest_12_55_44_917000.jpg',
+    },
+    'Giorno 4 — Danubio, Isola Margherita e l\'ultimo giro': {
+      autore: 'Perituss (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Margaret_Island_2014.jpg',
+    },
+  },
+  'berlino-weekend': {
+    'Giorno 1 — Porta di Brandeburgo e il quartiere del governo': {
+      autore: 'Leonhard Lenz (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_from_east_at_evening_02.jpg',
+    },
+    'Giorno 2 — Il Muro di Berlino e la Guerra Fredda': {
+      autore: 'Ansgar Koreng (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mauergedenkstätte_Bernauer_Straße,_Berlin,_170514,_ako.jpg',
+    },
+    'Giorno 3 — L\'Isola dei Musei e Berlino Est': {
+      autore: 'Jim Woodward (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bode_Museum_and_Pergamon_Museum_-_October_2011.jpg',
+    },
+    'Giorno 4 — Kreuzberg e Friedrichshain': {
+      autore: 'Gzen92 (Wikimedia Commons); murale di Dmitri Vrubel',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:East_Side_Gallery_-_Dmitri_Vrubel_-_Le_baiser_(Berlin).jpg',
+    },
+  },
 }

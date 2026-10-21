@@ -4,8 +4,10 @@ import type { TripMeta } from '@/lib/types'
 // Il testo narrativo resta nel markdown (src/content/viaggi/57-berlino-weekend.md).
 // `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
 // del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
-// Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da ogni giorno,
-// task separato.
+// Foto giorno-per-giorno sourced da Wikimedia Commons (licenza libera, verificata
+// per ciascuna); crediti in src/content/viaggi-giorno-foto-crediti.ts. La foto del
+// Giorno 2 (memoriale del Muro) è scelta con registro sobrio e documentario, non
+// turistico, coerente con il tono del testo su questa giornata.
 
 export const berlinoWeekendMeta: TripMeta = {
   tripSlug: 'berlino-weekend',
@@ -58,6 +60,8 @@ export const berlinoWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Reichstag gratuito ma con prenotazione online obbligatoria; Memoriale dell\'Olocausto a ingresso libero',
       destinazioneSlug: 'berlino',
+      immagine: '/images/viaggi/berlino-weekend/giorno-01-brandeburgo.jpg',
+      imageAlt: 'La Porta di Brandeburgo illuminata al crepuscolo, con la Quadriga in controluce e visitatori in primo piano',
     },
     {
       titoloGiorno: 'Giorno 2 — Il Muro di Berlino e la Guerra Fredda',
@@ -67,6 +71,8 @@ export const berlinoWeekendMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'memoriale del Muro e Topografia del Terrore a ingresso libero; Checkpoint Charlie gratuito da vedere, foto con i figuranti a pagamento',
       destinazioneSlug: 'berlino',
+      immagine: '/images/viaggi/berlino-weekend/giorno-02-muro-bernauer.jpg',
+      imageAlt: 'I pali d\'acciaio del memoriale del Muro di Berlino a Bernauer Straße, controluce nella foschia dell\'alba, senza persone',
     },
     {
       titoloGiorno: 'Giorno 3 — L\'Isola dei Musei e Berlino Est',
@@ -76,6 +82,8 @@ export const berlinoWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'biglietto singolo museo 12-14€ circa, biglietto cumulativo Isola dei Musei 24-29€ circa; verificare in anticipo le sale aperte del Pergamonmuseum',
       destinazioneSlug: 'berlino',
+      immagine: '/images/viaggi/berlino-weekend/giorno-03-isola-musei.jpg',
+      imageAlt: 'Veduta aerea del Bode-Museum e del Pergamonmuseum sull\'Isola dei Musei, con la Sprea che li circonda',
     },
     {
       titoloGiorno: 'Giorno 4 — Kreuzberg e Friedrichshain',
@@ -83,6 +91,8 @@ export const berlinoWeekendMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'East Side Gallery a ingresso libero; club serali indicativamente 10-25€',
       destinazioneSlug: 'berlino',
+      immagine: '/images/viaggi/berlino-weekend/giorno-04-east-side-gallery.jpg',
+      imageAlt: 'Il murale del "Bacio fraterno" di Dmitri Vrubel sull\'East Side Gallery, il tratto di Muro di Berlino dipinto nel 1990',
     },
   ],
   budget: [

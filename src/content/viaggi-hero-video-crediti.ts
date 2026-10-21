@@ -286,4 +286,24 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/aerial-view-of-the-cathedral-17138406/',
   },
+  'amsterdam-weekend': {
+    autore: 'Cody Douglas (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/stunning-aerial-view-of-amsterdam-canal-31532135/',
+  },
+  'lisbona-weekend': {
+    autore: 'Max Medyk (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-lisbon-s-praca-do-comercio-29651213/',
+  },
+  'budapest-weekend': {
+    autore: 'K (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/drone-view-of-budapest-parliament-building-34430011/',
+  },
+  'berlino-weekend': {
+    autore: 'Pexels (creator non specificato sulla pagina)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/berlin-skyline-panorama-with-tv-tower-40319604/',
+  },
 }

@@ -4,8 +4,8 @@ import type { TripMeta } from '@/lib/types'
 // Il testo narrativo resta nel markdown (src/content/viaggi/59-lisbona-weekend.md).
 // `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
 // del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
-// Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da ogni giorno,
-// task separato.
+// Foto giorno-per-giorno sourced da Wikimedia Commons (licenza libera, verificata
+// per ciascuna) — crediti in src/content/viaggi-giorno-foto-crediti.ts.
 
 export const lisbonaWeekendMeta: TripMeta = {
   tripSlug: 'lisbona-weekend',
@@ -57,6 +57,8 @@ export const lisbonaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'biglietto tram singolo circa 3€, più conveniente la carta Viva Viagem/Navegante',
       destinazioneSlug: 'lisbona',
+      immagine: '/images/viaggi/lisbona-weekend/giorno-01-alfama.jpg',
+      imageAlt: 'Veduta dall\'alto dei tetti in tegole rosse del quartiere dell\'Alfama, Lisbona',
     },
     {
       titoloGiorno: 'Giorno 2 — Belém',
@@ -66,6 +68,8 @@ export const lisbonaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'ingressi Jerónimos e Torre de Belém pochi euro ciascuno',
       destinazioneSlug: 'lisbona',
+      immagine: '/images/viaggi/lisbona-weekend/giorno-02-belem.jpg',
+      imageAlt: 'Le torri manueline del Mosteiro dos Jerónimos a Belém, Lisbona',
     },
     {
       titoloGiorno: 'Giorno 3 — Sintra',
@@ -75,6 +79,8 @@ export const lisbonaWeekendMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'treno da Rossio circa 5€ a tratta; Palácio da Pena 20-25€, Quinta da Regaleira circa 15€',
       destinazioneSlug: 'sintra',
+      immagine: '/images/viaggi/lisbona-weekend/giorno-03-sintra.jpg',
+      imageAlt: 'Il Palácio Nacional da Pena con le sue torri colorate in stile romantico, Sintra',
     },
     {
       titoloGiorno: 'Giorno 4 — Baixa, Chiado e ultimo giro',
@@ -82,6 +88,8 @@ export const lisbonaWeekendMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'Elevador de Santa Justa pochi euro, incluso nei pass giornalieri dei trasporti',
       destinazioneSlug: 'lisbona',
+      immagine: '/images/viaggi/lisbona-weekend/giorno-04-baixa.jpg',
+      imageAlt: 'La Praça do Comércio sul Tago, vista dall\'alto del Castelo de São Jorge, Lisbona',
     },
   ],
   budget: [

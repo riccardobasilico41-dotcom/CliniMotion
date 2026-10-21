@@ -242,6 +242,22 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
     src: '/videos/trips/vienna-weekend.mp4',
     poster: '/videos/trips/vienna-weekend-poster.jpg',
   },
+  'amsterdam-weekend': {
+    src: '/videos/trips/amsterdam-weekend.mp4',
+    poster: '/videos/trips/amsterdam-weekend-poster.jpg',
+  },
+  'lisbona-weekend': {
+    src: '/videos/trips/lisbona-weekend.mp4',
+    poster: '/videos/trips/lisbona-weekend-poster.jpg',
+  },
+  'budapest-weekend': {
+    src: '/videos/trips/budapest-weekend.mp4',
+    poster: '/videos/trips/budapest-weekend-poster.jpg',
+  },
+  'berlino-weekend': {
+    src: '/videos/trips/berlino-weekend.mp4',
+    poster: '/videos/trips/berlino-weekend-poster.jpg',
+  },
 }
 
 export function getHeroVideo(slug: string): HeroVideo | undefined {

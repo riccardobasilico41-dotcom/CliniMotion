@@ -36,6 +36,6 @@ details[open] { background: #970302; color: #dfdedd; }
 <p>Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)</p>
 </div>
 </div>
-<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request served via cp1107 cp1107, Varnish XID 236821464<br>Upstream caches: cp1107 int<br>Error: 429, Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) at Wed, 21 Oct 2026 14:23:21 GMT<br><details><summary>Sensitive client information</summary>IP address: 160.79.106.137</details></code></p>
+<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request served via cp1113 cp1113, Varnish XID 470684364<br>Upstream caches: cp1113 int<br>Error: 429, Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1) at Wed, 21 Oct 2026 14:25:38 GMT<br><details><summary>Sensitive client information</summary>IP address: 160.79.106.131</details></code></p>
 </div>
 </html>

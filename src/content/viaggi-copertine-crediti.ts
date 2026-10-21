@@ -241,4 +241,24 @@ export const creditiCopertine: Record<string, CreditoImmagine> = {
     licenza: 'CC BY-SA 3.0',
     fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_from_Belvedere_-_Vienna.jpg',
   },
+  'amsterdam-weekend': {
+    autore: 'Lyn Gateley',
+    licenza: 'CC BY 2.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:DSC00288,_Canal_Cruise,_Amsterdam,_Netherlands_(338955340).jpg',
+  },
+  'lisbona-weekend': {
+    autore: 'Jakub Hałun',
+    licenza: 'CC BY 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2016_9045.jpg',
+  },
+  'budapest-weekend': {
+    autore: 'Florian Fèvre (Billy69150)',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Danube_and_Hungarian_Parliament_Building_by_night.jpg',
+  },
+  'berlino-weekend': {
+    autore: 'Martin Kraft',
+    licenza: 'CC BY-SA 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:MK20007_Brandenburger_Tor.jpg',
+  },
 }

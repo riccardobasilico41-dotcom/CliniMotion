@@ -242,4 +242,20 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
     immagine: '/images/copertine/vienna-weekend.jpg',
     imageAlt: 'Lo skyline di Vienna visto dai giardini del Belvedere, con la cupola della Karlskirche e la guglia di Santo Stefano',
   },
+  'amsterdam-weekend': {
+    immagine: '/images/copertine/amsterdam-weekend.jpg',
+    imageAlt: 'Case a schiera con i tipici gable viste da una crociera sui canali di Amsterdam',
+  },
+  'lisbona-weekend': {
+    immagine: '/images/copertine/lisbona-weekend.jpg',
+    imageAlt: 'Il quartiere dell\'Alfama con la cupola del Panteão Nacional, visto dal Miradouro de Santa Luzia, Lisbona',
+  },
+  'budapest-weekend': {
+    immagine: '/images/copertine/budapest-weekend.jpg',
+    imageAlt: 'Il Parlamento ungherese illuminato di notte lungo il Danubio, con il Castello di Buda e il Ponte delle Catene sullo sfondo',
+  },
+  'berlino-weekend': {
+    immagine: '/images/copertine/berlino-weekend.jpg',
+    imageAlt: 'La Porta di Brandeburgo illuminata di notte vista dall\'alto, con la Quadriga sulla sommità e lo skyline di Berlino intorno',
+  },
 }
