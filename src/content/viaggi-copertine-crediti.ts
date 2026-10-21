@@ -21,6 +21,11 @@ export type CreditoImmagine = {
 }
 
 export const creditiCopertine: Record<string, CreditoImmagine> = {
+  'capitali-nordiche': {
+    autore: 'Stig Nygaard',
+    licenza: 'CC BY 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Nyhavn_on_a_sunny_spring_day._Denmark_2012._-_panoramio.jpg',
+  },
   'capitali-baltiche': {
     autore: 'Ivar Leidus',
     licenza: 'CC BY-SA 3.0 EE',

@@ -22,6 +22,10 @@ export type CopertinaViaggio = {
 }
 
 export const copertineViaggi: Record<string, CopertinaViaggio> = {
+  'capitali-nordiche': {
+    immagine: '/images/copertine/capitali-nordiche.jpg',
+    imageAlt: 'Nyhavn a Copenaghen, le facciate colorate delle case dei mercanti del XVII secolo sotto un cielo blu intenso',
+  },
   'capitali-baltiche': {
     immagine: '/images/copertine/capitali-baltiche.jpg',
     imageAlt: 'La Città Vecchia di Tallinn vista dalla piattaforma panoramica di Patkuli, con la guglia della Chiesa di Sant\'Olaf e le torri delle mura cittadine tra gli alberi autunnali',

@@ -331,4 +331,9 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/historic-tallinn-a-drone-s-eye-view-26383204/',
   },
+  'capitali-nordiche': {
+    autore: 'Mathias Bruun Nielsen (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/scenic-copenhagen-nyhavn-canal-view-37719723/',
+  },
 }

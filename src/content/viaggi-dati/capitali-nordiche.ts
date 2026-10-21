@@ -5,8 +5,8 @@ import type { TripMeta } from '@/lib/types'
 // (src/content/viaggi/60-capitali-nordiche.md). `titoloGiorno` deve
 // combaciare esattamente con le intestazioni "### Giorno N — ..." del file
 // markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
-// Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da ogni
-// giorno, task separato.
+// Foto giorno-per-giorno sourced da Wikimedia Commons e Pexels (licenza
+// libera verificata per ciascuna) — crediti in viaggi-giorno-foto-crediti.ts.
 //
 // `paeseSlug` è una scelta editoriale, non un dato oggettivo: il tipo
 // TripMeta supporta un solo Paese canonico per viaggio, qui impostato su
@@ -73,6 +73,8 @@ export const capitaliNordicheMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'copenaghen',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-01-copenaghen.jpg',
+      imageAlt: 'Nyhavn a Copenaghen, le case colorate del XVII secolo e le barche a vela ormeggiate lungo il canale',
     },
     {
       titoloGiorno: 'Giorno 2 — Tivoli Gardens, la Sirenetta e il lungomare',
@@ -81,6 +83,8 @@ export const capitaliNordicheMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Tivoli Gardens da circa 20€ solo giardini, fino a 66€ il biglietto combinato con le giostre; aperto solo a stagioni',
       destinazioneSlug: 'copenaghen',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-02-copenaghen.jpg',
+      imageAlt: 'Tivoli Gardens illuminato di sera a Copenaghen, con la cupola del padiglione orientale decorata di luci',
     },
     {
       titoloGiorno: 'Giorno 3 — Christiania, Christianshavn e il treno per Stoccolma',
@@ -89,6 +93,8 @@ export const capitaliNordicheMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'stoccolma',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-03-copenaghen.jpg',
+      imageAlt: 'Murale a Christiania, Copenaghen, con biciclette cargo danesi parcheggiate davanti al muro dipinto',
     },
     {
       titoloGiorno: 'Giorno 4 — Gamla Stan e il centro storico di Stoccolma',
@@ -96,6 +102,8 @@ export const capitaliNordicheMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'stoccolma',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-04-stoccolma.jpg',
+      imageAlt: 'Mårten Trotzigs gränd, il vicolo più stretto di Gamla Stan a Stoccolma, tra facciate gialle e rosse',
     },
     {
       titoloGiorno: 'Giorno 5 — Vasamuseet, Stadshuset e ABBA The Museum',
@@ -104,6 +112,8 @@ export const capitaliNordicheMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Vasamuseet 195-240 SEK secondo la stagione; ABBA The Museum 269-349 SEK',
       destinazioneSlug: 'stoccolma',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-05-stoccolma.jpg',
+      imageAlt: 'La prua scolpita della Vasa, la nave da guerra svedese del 1628, al Vasamuseet di Stoccolma',
     },
     {
       titoloGiorno: 'Giorno 6 — L\'arcipelago di Stoccolma e il treno per Oslo',
@@ -113,6 +123,8 @@ export const capitaliNordicheMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'gita in arcipelago da circa 375 SEK (35€ circa) per un\'uscita guidata di 2-2,5 ore',
       destinazioneSlug: 'oslo',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-06-stoccolma.jpg',
+      imageAlt: 'Un isolotto con una casetta rossa svedese tra gli alberi, nell\'arcipelago di Stoccolma',
     },
     {
       titoloGiorno: 'Giorno 7 — Il centro di Oslo e l\'Opera House',
@@ -120,6 +132,8 @@ export const capitaliNordicheMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'oslo',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-07-oslo.jpg',
+      imageAlt: 'La facciata inclinata in marmo bianco della Oslo Opera House, vista dal lungomare',
     },
     {
       titoloGiorno: 'Giorno 8 — Vigeland Park e i musei di Bygdøy',
@@ -128,6 +142,8 @@ export const capitaliNordicheMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Vigeland Park gratuito; Fram Museum circa 180 NOK (16€ circa); Viking Ship Museum chiuso per ristrutturazione fino al 2027',
       destinazioneSlug: 'oslo',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-08-oslo.jpg',
+      imageAlt: 'Il Monolitto di Gustav Vigeland circondato dalle sculture del Vigeland Park di Oslo',
     },
     {
       titoloGiorno: 'Giorno 9 — Crociera sull\'Oslofjord e partenza',
@@ -135,6 +151,8 @@ export const capitaliNordicheMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'crociera sull\'Oslofjord indicativamente 45-70€ a persona per 1,5-2 ore',
       destinazioneSlug: 'oslo',
+      immagine: '/images/viaggi/capitali-nordiche/giorno-09-oslo.jpg',
+      imageAlt: 'Navi da crociera sull\'Oslofjord con il tetto della Oslo Opera House e i palazzi della città sullo sfondo',
     },
   ],
   budget: [

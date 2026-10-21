@@ -12,6 +12,53 @@ import type { CreditoImmagine } from './viaggi-copertine-crediti'
  */
 
 export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> = {
+  'capitali-nordiche': {
+    'Giorno 1 — Arrivo a Copenaghen e Nyhavn': {
+      autore: 'Kallerna (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Nyhavn_Copenhagen_4.jpg',
+    },
+    'Giorno 2 — Tivoli Gardens, la Sirenetta e il lungomare': {
+      autore: 'Jerrye & Roy Klotz MD (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:TIVOLI_GARDENS_AT_NIGHT,_COPENHAGEN.jpg',
+    },
+    'Giorno 3 — Christiania, Christianshavn e il treno per Stoccolma': {
+      autore: 'Smurrayinchester (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mural_in_Christiania_against_hard_drugs.jpg',
+    },
+    'Giorno 4 — Gamla Stan e il centro storico di Stoccolma': {
+      autore: 'Evija Ciematniece (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/charming-alley-in-stockholm-s-gamla-stan-37376994/',
+    },
+    'Giorno 5 — Vasamuseet, Stadshuset e ABBA The Museum': {
+      autore: 'Richard Mortel (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Swedish_warship_Vasa,_sank_1628,_Vasamuseet,_Stockholm_(4)_(35433872524).jpg',
+    },
+    'Giorno 6 — L\'arcipelago di Stoccolma e il treno per Oslo': {
+      autore: 'Claudia Schmalz (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/an-aerial-shot-of-an-island-with-a-house-13304257/',
+    },
+    'Giorno 7 — Il centro di Oslo e l\'Opera House': {
+      autore: 'Piotrek Wilk (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/oslo-opera-house-18170373/',
+    },
+    'Giorno 8 — Vigeland Park e i musei di Bygdøy': {
+      autore: 'Simi Williamson (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/vigeland-sculpture-park-monolith-under-blue-sky-34337131/',
+    },
+    'Giorno 9 — Crociera sull\'Oslofjord e partenza': {
+      autore: 'Dua\'a Al-Amad (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/spectacular-view-of-oslo-harbor-with-cruise-ships-33068143/',
+    },
+  },
   'peru-itinerario': {
     'Giorno 1 — Arrivo a Lima': {
       autore: 'McKay Savage (Wikimedia Commons)',

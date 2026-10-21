@@ -279,6 +279,10 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
     src: '/videos/trips/capitali-baltiche.mp4',
     poster: '/videos/trips/capitali-baltiche-poster.jpg',
   },
+  'capitali-nordiche': {
+    src: '/videos/trips/capitali-nordiche.mp4',
+    poster: '/videos/trips/capitali-nordiche-poster.jpg',
+  },
 }
 
 export function getHeroVideo(slug: string): HeroVideo | undefined {
