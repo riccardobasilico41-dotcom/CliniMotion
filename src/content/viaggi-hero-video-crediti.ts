@@ -326,4 +326,9 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/santa-teresa-volcano-15392395/',
   },
+  'capitali-baltiche': {
+    autore: 'Danny Photography (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/historic-tallinn-a-drone-s-eye-view-26383204/',
+  },
 }

@@ -23,8 +23,9 @@ import type { TripMeta } from '@/lib/types'
 // /destinazioni/lituania/: è un limite noto del tipo attuale, non un errore
 // di battitura (vedi la stessa nota in centro-america-itinerario.ts).
 //
-// Le foto giorno-per-giorno sono un task a parte, non ancora impostato per
-// nessun giorno di questo viaggio.
+// Le foto giorno-per-giorno (`immagine`/`imageAlt`) sono sourced da Wikimedia
+// Commons, licenza libera verificata per ciascuna; crediti in
+// `viaggi-giorno-foto-crediti.ts`.
 
 export const capitaliBalticheMeta: TripMeta = {
   tripSlug: 'capitali-baltiche',
@@ -82,6 +83,8 @@ export const capitaliBalticheMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'vilnius',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-1-vilnius-pilies.jpg',
+      imageAlt: 'Via Pilies nella Città Vecchia di Vilnius, con la facciata barocca della Chiesa di Sant\'Anna e Sant\'Bernardino e i passanti tra i negozi',
     },
     {
       titoloGiorno: 'Giorno 2 — Vilnius: Cattedrale, Torre di Gediminas e il Palazzo dei Granduchi',
@@ -90,6 +93,8 @@ export const capitaliBalticheMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Torre di Gediminas 8€ più 2-3€ di funicolare',
       destinazioneSlug: 'vilnius',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-2-vilnius-cattedrale-gediminas.jpg',
+      imageAlt: 'La Cattedrale di Vilnius con il campanile separato in Piazza della Cattedrale, con la Torre di Gediminas sulla collina alle spalle',
     },
     {
       titoloGiorno: 'Giorno 3 — Užupis e il castello dell\'isola di Trakai',
@@ -99,6 +104,8 @@ export const capitaliBalticheMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Castello di Trakai 12-14€ secondo la stagione; noleggio barca 8-15€/ora',
       destinazioneSlug: 'trakai',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-3-trakai-castello.jpg',
+      imageAlt: 'Il Castello dell\'Isola di Trakai in mattoni rossi gotici, riflesso nelle acque del lago Galvė con una barca a vela in primo piano',
     },
     {
       titoloGiorno: 'Giorno 4 — Il bus per Riga e le prime ore nella Città Vecchia',
@@ -108,6 +115,8 @@ export const capitaliBalticheMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'bus Vilnius-Riga indicativamente 15-25€ a persona secondo l\'anticipo di prenotazione',
       destinazioneSlug: 'riga',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-4-riga-casa-teste-nere.jpg',
+      imageAlt: 'La Casa delle Teste Nere a Riga illuminata al crepuscolo, con la torre della Chiesa di San Pietro sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 5 — Riga: il quartiere Art Nouveau e il Mercato Centrale',
@@ -116,6 +125,8 @@ export const capitaliBalticheMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'torre della Chiesa di San Pietro 9€',
       destinazioneSlug: 'riga',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-5-riga-art-nouveau.jpg',
+      imageAlt: 'Una facciata Art Nouveau decorata lungo Alberta iela a Riga, con balconcini in ferro battuto e motivi ornamentali in stucco',
     },
     {
       titoloGiorno: 'Giorno 6 — Jūrmala e l\'ultimo giro per Riga',
@@ -125,6 +136,8 @@ export const capitaliBalticheMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'treno per Jūrmala circa 2€ a tratta',
       destinazioneSlug: 'jurmala',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-6-jurmala-spiaggia.jpg',
+      imageAlt: 'La spiaggia di sabbia bianca di Jūrmala affollata di bagnanti, con la pineta sullo sfondo lungo il Golfo di Riga',
     },
     {
       titoloGiorno: 'Giorno 7 — Il bus per Tallinn e la Città Vecchia alla luce della sera',
@@ -134,6 +147,8 @@ export const capitaliBalticheMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'bus Riga-Tallinn indicativamente 15-25€ a persona secondo l\'anticipo di prenotazione',
       destinazioneSlug: 'tallinn',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-7-tallinn-municipio.jpg',
+      imageAlt: 'Il Municipio di Tallinn in Piazza del Municipio alla luce calda della sera, con l\'alta guglia gotica e il loggiato ad arcate',
     },
     {
       titoloGiorno: 'Giorno 8 — Tallinn: la Città Vecchia e la collina di Toompea',
@@ -142,6 +157,8 @@ export const capitaliBalticheMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'quattro torri delle mura cittadine (Kiek in de Kök) 12€',
       destinazioneSlug: 'tallinn',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-8-tallinn-mura.jpg',
+      imageAlt: 'Le mura cittadine medievali di Tallinn con le torri Kiek in de Kök e Neitsitorn, viste dal parco sottostante',
     },
     {
       titoloGiorno: 'Giorno 9 — Kadriorg, Telliskivi e la partenza',
@@ -149,6 +166,8 @@ export const capitaliBalticheMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'ingresso al KUMU 12-16€ secondo la mostra',
       destinazioneSlug: 'tallinn',
+      immagine: '/images/viaggi/capitali-baltiche/giorno-9-kadriorg-palazzo.jpg',
+      imageAlt: 'La facciata barocca rosso e bianco del Palazzo di Kadriorg a Tallinn, con il portico a colonne e il balcone centrale',
     },
   ],
   budget: [

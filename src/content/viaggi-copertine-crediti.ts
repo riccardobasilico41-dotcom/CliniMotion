@@ -21,6 +21,11 @@ export type CreditoImmagine = {
 }
 
 export const creditiCopertine: Record<string, CreditoImmagine> = {
+  'capitali-baltiche': {
+    autore: 'Ivar Leidus',
+    licenza: 'CC BY-SA 3.0 EE',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vanalinn_Patkuli_platvormilt_2013.jpg',
+  },
   'cina-classica': {
     autore: 'Luka Peternel',
     licenza: 'CC BY-SA 4.0',

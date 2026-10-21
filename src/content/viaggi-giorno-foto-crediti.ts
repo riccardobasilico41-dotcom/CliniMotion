@@ -2888,6 +2888,54 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bocas_del_Toro_Panama_3.jpg',
     },
   },
+  'capitali-baltiche': {
+    'Giorno 1 — Arrivo a Vilnius e la Città Vecchia al tramonto': {
+      autore: 'Chad Kainz (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Old_Town_Vilnius_(4729571330).jpg',
+    },
+    'Giorno 2 — Vilnius: Cattedrale, Torre di Gediminas e il Palazzo dei Granduchi': {
+      autore: 'Bernt Rostad (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vilnius_Cathedral_(9651321103).jpg',
+    },
+    'Giorno 3 — Užupis e il castello dell\'isola di Trakai': {
+      autore: 'David Iliff (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Trakai_Island_Castle,_Lithuania_-_Diliff.jpg',
+    },
+    'Giorno 4 — Il bus per Riga e le prime ore nella Città Vecchia': {
+      autore: 'David Iliff (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        "https://commons.wikimedia.org/wiki/File:House_of_Blackheads_and_St._Peter's_Church_Tower,_Riga,_Latvia_-_Diliff.jpg",
+    },
+    'Giorno 5 — Riga: il quartiere Art Nouveau e il Mercato Centrale': {
+      autore: 'Zairon (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Riga_Jugendstil_Alberta_iela_08.JPG',
+    },
+    'Giorno 6 — Jūrmala e l\'ultimo giro per Riga': {
+      autore: 'Ken Eckert (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Jurmala_Beach,_Latvia.jpg',
+    },
+    'Giorno 7 — Il bus per Tallinn e la Città Vecchia alla luce della sera': {
+      autore: 'Medvedev (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tallinn_Town_Hall.jpg',
+    },
+    'Giorno 8 — Tallinn: la Città Vecchia e la collina di Toompea': {
+      autore: 'Cayambe (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:City_wall_Towers_Tallinn_2015.jpg',
+    },
+    'Giorno 9 — Kadriorg, Telliskivi e la partenza': {
+      autore: 'Acediscovery (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Kadriorg_Palace-Tallinn.jpg',
+    },
+  },
   'svizzera-alpi-van': {
     'Interlaken e i laghi di Thun e Brienz': {
       autore: 'Jasper ter Mors (Wikimedia Commons)',

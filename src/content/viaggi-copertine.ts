@@ -22,6 +22,10 @@ export type CopertinaViaggio = {
 }
 
 export const copertineViaggi: Record<string, CopertinaViaggio> = {
+  'capitali-baltiche': {
+    immagine: '/images/copertine/capitali-baltiche.jpg',
+    imageAlt: 'La Città Vecchia di Tallinn vista dalla piattaforma panoramica di Patkuli, con la guglia della Chiesa di Sant\'Olaf e le torri delle mura cittadine tra gli alberi autunnali',
+  },
   'lofoten-estate-2025': {
     immagine: '/images/copertine/lofoten-estate-2025.jpg',
     imageAlt: 'Il campo da calcio di Henningsvær incastonato tra il mare e le montagne, visto dalla collina rocciosa sopra il villaggio, Lofoten',

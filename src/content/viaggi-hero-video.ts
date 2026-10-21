@@ -9,8 +9,9 @@
  * Alcune voci sono il miglior match disponibile più che un ritratto esatto
  * della destinazione (es. paesaggio di giungla generico per il Borneo,
  * castello della Loira diverso da quello nominato nel viaggio, palude
- * generica per la Camargue) — vedi `viaggi-hero-video-crediti.ts` per fonte
- * e licenza di ciascun video.
+ * generica per la Camargue, aerea di Tallinn sola per le tre capitali
+ * baltiche) — vedi `viaggi-hero-video-crediti.ts` per fonte e licenza di
+ * ciascun video.
  *
  * Ogni video è muto, in loop, ~10-20s, compresso per il web (ffmpeg,
  * 1280px di larghezza, audio rimosso).
@@ -273,6 +274,10 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
   'canarie-itinerario': {
     src: '/videos/trips/canarie-itinerario.mp4',
     poster: '/videos/trips/canarie-itinerario-poster.jpg',
+  },
+  'capitali-baltiche': {
+    src: '/videos/trips/capitali-baltiche.mp4',
+    poster: '/videos/trips/capitali-baltiche-poster.jpg',
   },
 }
 
