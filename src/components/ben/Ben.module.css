@@ -1,0 +1,122 @@
+/* Pose e movimenti di Ben per stato (data-state). Origini in coordinate dell'artboard 600×600. */
+.ben { display: block; width: 100%; height: auto; overflow: visible; }
+.ben * { transform-box: view-box; }
+
+.rig { transform-origin: 300px 525px; transition: transform .35s cubic-bezier(.2,.8,.2,1); }
+.corpo { transform-origin: 300px 330px; }
+.zaino { transform-origin: 300px 470px; }
+.cappellino { transform-origin: 300px 215px; transition: transform .3s ease-out; }
+.gambaS { transform-origin: 220px 470px; }
+.gambaD { transform-origin: 380px 470px; }
+.braccioS { transform-origin: 170px 320px; transition: transform .25s ease-out; }
+.braccioD { transform-origin: 430px 320px; transition: transform .25s ease-out; }
+.occhi { transform-origin: 300px 305px; transition: transform .08s linear; }
+.pupille { transition: transform .35s ease-out; }
+.guance { opacity: .7; transform-origin: 300px 353px; transition: opacity .3s, transform .3s; }
+.sopracciglia { transform-origin: 300px 245px; transition: transform .25s ease-out; }
+.boccaSorpresa { opacity: 0; transform-origin: 300px 396px; transition: opacity .15s; }
+.boccaFelice { transform-origin: 300px 405px; transition: opacity .15s, transform .2s; }
+
+/* battito di ciglia (attivato da JS a intervalli casuali) */
+.ben[data-blink='on'] .occhi { transform: scaleY(.08); }
+
+/* idle: respiro + zaino che segue */
+.ben[data-state='idle'] .corpo { animation: breathe 1.75s ease-in-out infinite alternate; }
+.ben[data-state='idle'] .zaino { animation: pack 1.75s ease-in-out infinite alternate; }
+.ben[data-state='idle'] .cappellino { animation: hatIdle 1.75s ease-in-out infinite alternate; }
+
+/* run: gambe e braccia alternate, saltello, cappello e zaino in ritardo */
+.ben[data-state='run'] .rig { animation: bob .16s ease-in-out infinite alternate; }
+.ben[data-state='run'] .gambaS, .ben[data-state='run'] .braccioD { animation: step .16s ease-in-out infinite alternate; }
+.ben[data-state='run'] .gambaD, .ben[data-state='run'] .braccioS { animation: step .16s ease-in-out infinite alternate-reverse; }
+.ben[data-state='run'] .cappellino { animation: hatRun .32s ease-in-out infinite; }
+.ben[data-state='run'] .zaino { animation: packRun .32s ease-in-out infinite; }
+
+/* brake: si sbilancia indietro */
+.ben[data-state='brake'] .rig { transform: rotate(9deg); }
+.ben[data-state='brake'] .gambaS, .ben[data-state='brake'] .gambaD { transform: rotate(-22deg); }
+.ben[data-state='brake'] .cappellino { transform: translate(-18px, -10px) rotate(-10deg); }
+
+/* crash: compressione, oscillazione, cappello che salta */
+.ben[data-state='crash'] .rig { animation: squash .7s cubic-bezier(.3,1.6,.5,1) both; }
+.ben[data-state='crash'] .cappellino { animation: hatPop .7s ease-out both; }
+.ben[data-state='crash'] .sopracciglia { transform: translateY(-14px); }
+
+/* recover: si rimette dritto */
+.ben[data-state='recover'] .rig { animation: wobble .6s ease-out both; }
+
+/* embarrassed: guance rosse, sguardo basso */
+.ben[data-state='embarrassed'] .guance { opacity: 1; transform: scale(1.18); }
+.ben[data-state='embarrassed'] .pupille { transform: translate(-6px, 9px) !important; }
+.ben[data-state='embarrassed'] .rig { transform: rotate(-4deg); }
+.ben[data-state='embarrassed'] .braccioD { transform: rotate(-40deg) translate(-20px, -20px); }
+
+/* lean: appoggiato di spalla, rilassato */
+.ben[data-state='lean'] .rig { transform: rotate(-7deg) translateX(-6px); }
+.ben[data-state='lean'] .corpo { animation: breathe 1.75s ease-in-out infinite alternate; }
+
+/* wave: saluta col braccio destro */
+.ben[data-state='wave'] .braccioD { animation: wave .26s ease-in-out infinite alternate; }
+.ben[data-state='wave'] .rig { transform: rotate(-3deg); }
+
+/* point: indica a sinistra (il contenuto) */
+.ben[data-state='point'] .braccioS { transform: rotate(78deg) translate(10px, 10px); }
+.ben[data-state='point'] .sopracciglia { transform: translateY(-8px); }
+.ben[data-state='point'] .pupille { transform: translate(-9px, 0) !important; }
+
+/* curious: testa inclinata, bocca a "o" */
+.ben[data-state='curious'] .rig { transform: rotate(7deg); }
+.ben[data-state='curious'] .sopracciglia { transform: translateY(-12px) rotate(-3deg); }
+
+/* lost: si guarda intorno */
+.ben[data-state='lost'] .pupille { animation: lookAround 2.4s ease-in-out infinite; }
+.ben[data-state='lost'] .rig { animation: sway 2.4s ease-in-out infinite; }
+.ben[data-state='lost'] .sopracciglia { transform: translateY(-6px) rotate(4deg); }
+
+/* bocca sorpresa negli stati di sorpresa */
+.ben[data-state='crash'] .boccaSorpresa, .ben[data-state='brake'] .boccaSorpresa,
+.ben[data-state='curious'] .boccaSorpresa, .ben[data-state='lost'] .boccaSorpresa { opacity: 1; }
+.ben[data-state='crash'] .boccaFelice, .ben[data-state='brake'] .boccaFelice,
+.ben[data-state='curious'] .boccaFelice, .ben[data-state='lost'] .boccaFelice { opacity: 0; }
+.ben[data-state='embarrassed'] .boccaFelice { transform: scale(.7); }
+
+@keyframes breathe { to { transform: scale(1.018, 1.026); } }
+@keyframes pack { to { transform: translateY(3px); } }
+@keyframes hatIdle { to { transform: translateY(-3px); } }
+@keyframes bob { to { transform: translateY(-16px); } }
+@keyframes step { from { transform: rotate(-28deg); } to { transform: rotate(28deg); } }
+@keyframes hatRun { 0%, 100% { transform: rotate(-5deg) translateY(0); } 50% { transform: rotate(2deg) translateY(-8px); } }
+@keyframes packRun { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(8px) rotate(-2deg); } }
+@keyframes squash {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.16, .82) rotate(-6deg); }
+  55% { transform: scale(.94, 1.06) rotate(4deg); }
+  80% { transform: scale(1.03, .97) rotate(-2deg); }
+  100% { transform: scale(1, 1) rotate(-1deg); }
+}
+@keyframes hatPop {
+  0% { transform: none; }
+  35% { transform: translate(14px, -70px) rotate(18deg); }
+  70% { transform: translate(6px, -8px) rotate(6deg); }
+  100% { transform: translate(4px, 0) rotate(5deg); }
+}
+@keyframes wobble { 0% { transform: rotate(-1deg); } 35% { transform: rotate(5deg); } 70% { transform: rotate(-3deg); } 100% { transform: rotate(0); } }
+@keyframes wave { from { transform: rotate(-70deg) translate(-26px, -38px); } to { transform: rotate(-105deg) translate(-30px, -44px); } }
+@keyframes lookAround { 0%, 100% { transform: translate(0, 0); } 25% { transform: translate(-10px, -2px); } 60% { transform: translate(10px, -2px); } }
+@keyframes sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+
+/* pulsante che contiene Ben: niente stile da bottone, solo il fuoco visibile */
+.hit { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.hit:focus-visible { outline: 2px solid var(--color-rosso); outline-offset: 4px; }
+
+/* fumetto */
+.bubble {
+  position: absolute; bottom: 100%; left: 50%; transform: translate(-30%, -6px);
+  white-space: nowrap; background: var(--color-cream); color: var(--color-ink);
+  border: 1.5px solid var(--color-ink); padding: .35rem .7rem; font-size: .8rem; font-weight: 600;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ben *, .ben { animation: none !important; transition: none !important; }
+}

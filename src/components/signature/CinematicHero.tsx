@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import type { PuntoTappa } from './geo'
+import { BenHero } from '@/components/ben/BenHero'
 
 /**
  * Apertura della Home, Stile A "Ghat": hero diviso. A sinistra un titolo
@@ -61,7 +62,7 @@ export function CinematicHero({
       </div>
 
       <figure className="relative m-0 flex flex-col">
-        <div className="relative aspect-[4/5] w-full lg:aspect-auto lg:flex-1">
+        <div className="relative aspect-[4/5] w-full overflow-hidden lg:aspect-auto lg:flex-1">
           <Image
             src={HERO_FOTO.src}
             alt={HERO_FOTO.alt}
@@ -70,6 +71,7 @@ export function CinematicHero({
             sizes="(min-width: 1024px) 42vw, 100vw"
             className="object-cover"
           />
+          <BenHero />
         </div>
         <figcaption className="px-4 py-3 text-xs text-stone sm:px-8 lg:px-4">
           {HERO_FOTO.luogo}. Foto:{' '}

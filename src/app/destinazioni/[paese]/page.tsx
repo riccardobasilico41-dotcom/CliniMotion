@@ -6,6 +6,7 @@ import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { Reveal, RevealGroup, RevealItem } from '@/components/Reveal'
 import { CountryHero } from '@/components/CountryHero'
+import { BenSpot } from '@/components/ben/BenSpot'
 import { RouteTimeline } from '@/components/RouteTimeline'
 import { DestinationCard } from '@/components/DestinationCard'
 import { ExperienceCard } from '@/components/ExperienceCard'
@@ -146,10 +147,17 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
       {/* Destinazioni */}
       <section id="destinazioni" className="scroll-mt-24 border-t border-alpine/10 py-20 sm:py-28">
         <Container>
-          <SectionHeading
-            title="Destinazioni"
-            description="Ogni tappa dell'itinerario esplorata singolarmente: quanto fermarsi, cosa fare, dove ho dormito e mangiato io."
-          />
+          <div className="flex items-end justify-between gap-6">
+            <SectionHeading
+              title="Destinazioni"
+              description="Ogni tappa dell'itinerario esplorata singolarmente: quanto fermarsi, cosa fare, dove ho dormito e mangiato io."
+            />
+            <BenSpot
+              pose="point"
+              label="Ben indica le destinazioni: tocca per un saluto"
+              className="hidden w-24 shrink-0 sm:block lg:w-28"
+            />
+          </div>
           <RevealGroup className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3" stagger={0.04}>
             {destinazioni.map((d) => (
               <RevealItem key={d.slug}>
