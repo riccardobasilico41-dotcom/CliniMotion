@@ -266,4 +266,74 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/ancient-mayan-ruins-of-tikal-in-guatemala-29721176/',
   },
+  'svizzera-alpi-van': {
+    autore: 'Kim Aswani (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/drone-footage-of-the-town-of-interlaken-switzerland-15399066/',
+  },
+  'cracovia-weekend': {
+    autore: 'Pawel Graniczny (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/wawel-castel-19558619/',
+  },
+  'praga-weekend': {
+    autore: 'Airam Dato-on (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-prague-cityscape-with-river-34918718/',
+  },
+  'vienna-weekend': {
+    autore: 'KJeremy (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-the-cathedral-17138406/',
+  },
+  'amsterdam-weekend': {
+    autore: 'Cody Douglas (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/stunning-aerial-view-of-amsterdam-canal-31532135/',
+  },
+  'lisbona-weekend': {
+    autore: 'Max Medyk (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-lisbon-s-praca-do-comercio-29651213/',
+  },
+  'budapest-weekend': {
+    autore: 'K (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/drone-view-of-budapest-parliament-building-34430011/',
+  },
+  'berlino-weekend': {
+    autore: 'Pexels (creator non specificato sulla pagina)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/berlin-skyline-panorama-with-tv-tower-40319604/',
+  },
+  'andalusia-itinerario': {
+    autore: 'Andrew Alston (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/puente-nuevo-ronda-spain-drone-17579227/',
+  },
+  'spagna-nord-itinerario': {
+    autore: 'Borys Trusevych (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/san-sebostian-spain-20763763/',
+  },
+  'baleari-itinerario': {
+    autore: 'Haseeb Ahmad (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/ibiza-castle-oldtown-ibiza-20419774/',
+  },
+  'canarie-itinerario': {
+    autore: 'David Castillo López (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/santa-teresa-volcano-15392395/',
+  },
+  'capitali-baltiche': {
+    autore: 'Danny Photography (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/historic-tallinn-a-drone-s-eye-view-26383204/',
+  },
+  'capitali-nordiche': {
+    autore: 'Mathias Bruun Nielsen (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/scenic-copenhagen-nyhavn-canal-view-37719723/',
+  },
 }

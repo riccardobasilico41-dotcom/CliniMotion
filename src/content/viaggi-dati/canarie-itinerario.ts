@@ -63,6 +63,8 @@ export const canarieItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'tenerife',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-01-tenerife.jpg',
+      imageAlt: 'Il Paseo Viñatigo a Puerto de la Cruz, Tenerife, con il profilo del Teide sullo sfondo tra le nuvole',
     },
     {
       titoloGiorno: 'Giorno 2 — Il Parco Nazionale del Teide',
@@ -71,6 +73,8 @@ export const canarieItinerarioMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'funivia circa 40€ A/R; permesso per la vetta gratuito, prenotazione fino a 56 giorni prima',
       destinazioneSlug: 'tenerife',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-02-tenerife.jpg',
+      imageAlt: 'La caldera del Teide vista dall\'alto, vicino alla vetta del vulcano, punto più alto di Spagna',
     },
     {
       titoloGiorno: 'Giorno 3 — Il Parco Rurale di Anaga',
@@ -78,6 +82,8 @@ export const canarieItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'tenerife',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-03-tenerife.jpg',
+      imageAlt: 'La foresta di laurisilva avvolta nella nebbia nel Massiccio di Anaga, Tenerife, relitto botanico dell\'era terziaria',
     },
     {
       titoloGiorno: 'Giorno 4 — Da Tenerife a Gran Canaria',
@@ -86,6 +92,8 @@ export const canarieItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'gran-canaria',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-04-gran-canaria.jpg',
+      imageAlt: 'Un aereo Binter Canarias in fase di atterraggio sopra il mare, la compagnia che collega le isole Canarie con voli interni',
     },
     {
       titoloGiorno: 'Giorno 5 — Le dune di Maspalomas',
@@ -93,6 +101,8 @@ export const canarieItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'gran-canaria',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-05-gran-canaria.jpg',
+      imageAlt: 'Le dune di sabbia dorata di Maspalomas a Gran Canaria, con l\'oceano sullo sfondo e due persone che camminano tra le dune',
     },
     {
       titoloGiorno: 'Giorno 6 — Il centro montuoso di Gran Canaria: il Roque Nublo',
@@ -100,6 +110,8 @@ export const canarieItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'gran-canaria',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-06-gran-canaria.jpg',
+      imageAlt: 'La sagoma del Roque Nublo stagliata contro il cielo al tramonto, incorniciata dai rami dei pini canari',
     },
     {
       titoloGiorno: 'Giorno 7 — Da Gran Canaria a Lanzarote',
@@ -108,6 +120,8 @@ export const canarieItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'lanzarote',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-07-lanzarote.jpg',
+      imageAlt: 'Un aereo Binter Canarias in volo sopra il mare, la compagnia aerea regionale che collega Gran Canaria e Lanzarote',
     },
     {
       titoloGiorno: 'Giorno 8 — Timanfaya e la Geria',
@@ -116,6 +130,8 @@ export const canarieItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Timanfaya con bus incluso circa 12-18€',
       destinazioneSlug: 'lanzarote',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-08-lanzarote.jpg',
+      imageAlt: 'Il paesaggio vulcanico del Parco Nazionale di Timanfaya a Lanzarote, con coni vulcanici rossi e ocra e l\'oceano sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 9 — Le opere di César Manrique e chiusura del viaggio',
@@ -123,6 +139,8 @@ export const canarieItinerarioMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'Jameos del Agua e Cueva de los Verdes circa 10-12€ ciascuno',
       destinazioneSlug: 'lanzarote',
+      immagine: '/images/viaggi/canarie-itinerario/giorno-09-lanzarote.jpg',
+      imageAlt: 'La piscina ornamentale turchese di Jameos del Agua a Lanzarote, l\'opera di César Manrique ricavata in un tubo vulcanico',
     },
   ],
   budget: [

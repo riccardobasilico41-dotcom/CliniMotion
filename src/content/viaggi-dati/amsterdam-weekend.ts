@@ -4,8 +4,8 @@ import type { TripMeta } from '@/lib/types'
 // Il testo narrativo resta nel markdown (src/content/viaggi/58-amsterdam-weekend.md).
 // `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
 // del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
-// Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da ogni giorno,
-// task separato.
+// Foto giorno-per-giorno sourced da Wikimedia Commons (licenza libera, verificata
+// per ciascuna) — crediti in src/content/viaggi-giorno-foto-crediti.ts.
 
 export const amsterdamWeekendMeta: TripMeta = {
   tripSlug: 'amsterdam-weekend',
@@ -57,6 +57,8 @@ export const amsterdamWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'crociera sui canali circa 15-20€ a persona',
       destinazioneSlug: 'amsterdam',
+      immagine: '/images/viaggi/amsterdam-weekend/giorno-01-grachtengordel.jpg',
+      imageAlt: 'Case a schiera seicentesche affacciate sul canale Singel, nel Grachtengordel di Amsterdam',
     },
     {
       titoloGiorno: 'Giorno 2 — Casa di Anna Frank e Dam Square',
@@ -66,6 +68,8 @@ export const amsterdamWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Casa di Anna Frank circa 16€, prenotazione online obbligatoria con settimane di anticipo',
       destinazioneSlug: 'amsterdam',
+      immagine: '/images/viaggi/amsterdam-weekend/giorno-02-anne-frank.jpg',
+      imageAlt: 'La facciata della Casa di Anna Frank sul Prinsengracht, con i visitatori in fila all\'ingresso',
     },
     {
       titoloGiorno: 'Giorno 3 — Rijksmuseum e Van Gogh Museum',
@@ -75,6 +79,8 @@ export const amsterdamWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'biglietti museo circa 20-25€ l\'uno, consigliata prenotazione online con fascia oraria',
       destinazioneSlug: 'amsterdam',
+      immagine: '/images/viaggi/amsterdam-weekend/giorno-03-rijksmuseum.jpg',
+      imageAlt: 'La Gallery of Honour del Rijksmuseum di Amsterdam, con il soffitto a volte decorato',
     },
     {
       titoloGiorno: 'Giorno 4 — In bicicletta per la città',
@@ -82,6 +88,8 @@ export const amsterdamWeekendMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'noleggio bici circa 10-15€ al giorno',
       destinazioneSlug: 'amsterdam',
+      immagine: '/images/viaggi/amsterdam-weekend/giorno-04-bicicletta.jpg',
+      imageAlt: 'Una tipica bicicletta olandese parcheggiata lungo la ringhiera di un canale di Amsterdam',
     },
   ],
   budget: [

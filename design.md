@@ -242,3 +242,9 @@ stacked margins.
   }
 }
 ```
+
+### Aggiornamento 21 ottobre 2026 · pagine omogenee e Ben
+- **Apertura unica** per tutte le pagine interne: `src/components/ui/PageHeader.tsx` (briciole, etichetta rossa, h1 `clamp(2.5rem,5.2vw,5rem)`, sottotitolo, dati, azioni; foto o video vero a destra 7/5 con credito CC; senza media testata tipografica allineata al Container). La Home resta con `CinematicHero`.
+- Una sola scala per i titoli di sezione (`clamp(2rem,3.4vw,3rem)`); niente ombre (hover = bordo ink); markdown in linea dei contenuti reso da `ui/Rich.tsx`.
+- Font self-hosted in `src/app/fonts` con `next/font/local`.
+- **Ben**, la mascotte: `src/components/ben/` e `docs/BEN.md`.

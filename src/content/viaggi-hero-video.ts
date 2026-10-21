@@ -9,8 +9,9 @@
  * Alcune voci sono il miglior match disponibile più che un ritratto esatto
  * della destinazione (es. paesaggio di giungla generico per il Borneo,
  * castello della Loira diverso da quello nominato nel viaggio, palude
- * generica per la Camargue) — vedi `viaggi-hero-video-crediti.ts` per fonte
- * e licenza di ciascun video.
+ * generica per la Camargue, aerea di Tallinn sola per le tre capitali
+ * baltiche) — vedi `viaggi-hero-video-crediti.ts` per fonte e licenza di
+ * ciascun video.
  *
  * Ogni video è muto, in loop, ~10-20s, compresso per il web (ffmpeg,
  * 1280px di larghezza, audio rimosso).
@@ -225,6 +226,62 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
   'centro-america-itinerario': {
     src: '/videos/trips/centro-america-itinerario.mp4',
     poster: '/videos/trips/centro-america-itinerario-poster.jpg',
+  },
+  'svizzera-alpi-van': {
+    src: '/videos/trips/svizzera-alpi-van.mp4',
+    poster: '/videos/trips/svizzera-alpi-van-poster.jpg',
+  },
+  'cracovia-weekend': {
+    src: '/videos/trips/cracovia-weekend.mp4',
+    poster: '/videos/trips/cracovia-weekend-poster.jpg',
+  },
+  'praga-weekend': {
+    src: '/videos/trips/praga-weekend.mp4',
+    poster: '/videos/trips/praga-weekend-poster.jpg',
+  },
+  'vienna-weekend': {
+    src: '/videos/trips/vienna-weekend.mp4',
+    poster: '/videos/trips/vienna-weekend-poster.jpg',
+  },
+  'amsterdam-weekend': {
+    src: '/videos/trips/amsterdam-weekend.mp4',
+    poster: '/videos/trips/amsterdam-weekend-poster.jpg',
+  },
+  'lisbona-weekend': {
+    src: '/videos/trips/lisbona-weekend.mp4',
+    poster: '/videos/trips/lisbona-weekend-poster.jpg',
+  },
+  'budapest-weekend': {
+    src: '/videos/trips/budapest-weekend.mp4',
+    poster: '/videos/trips/budapest-weekend-poster.jpg',
+  },
+  'berlino-weekend': {
+    src: '/videos/trips/berlino-weekend.mp4',
+    poster: '/videos/trips/berlino-weekend-poster.jpg',
+  },
+  'andalusia-itinerario': {
+    src: '/videos/trips/andalusia-itinerario.mp4',
+    poster: '/videos/trips/andalusia-itinerario-poster.jpg',
+  },
+  'spagna-nord-itinerario': {
+    src: '/videos/trips/spagna-nord-itinerario.mp4',
+    poster: '/videos/trips/spagna-nord-itinerario-poster.jpg',
+  },
+  'baleari-itinerario': {
+    src: '/videos/trips/baleari-itinerario.mp4',
+    poster: '/videos/trips/baleari-itinerario-poster.jpg',
+  },
+  'canarie-itinerario': {
+    src: '/videos/trips/canarie-itinerario.mp4',
+    poster: '/videos/trips/canarie-itinerario-poster.jpg',
+  },
+  'capitali-baltiche': {
+    src: '/videos/trips/capitali-baltiche.mp4',
+    poster: '/videos/trips/capitali-baltiche-poster.jpg',
+  },
+  'capitali-nordiche': {
+    src: '/videos/trips/capitali-nordiche.mp4',
+    poster: '/videos/trips/capitali-nordiche-poster.jpg',
   },
 }
 

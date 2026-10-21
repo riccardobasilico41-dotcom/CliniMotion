@@ -22,6 +22,14 @@ export type CopertinaViaggio = {
 }
 
 export const copertineViaggi: Record<string, CopertinaViaggio> = {
+  'capitali-nordiche': {
+    immagine: '/images/copertine/capitali-nordiche.jpg',
+    imageAlt: 'Nyhavn a Copenaghen, le facciate colorate delle case dei mercanti del XVII secolo sotto un cielo blu intenso',
+  },
+  'capitali-baltiche': {
+    immagine: '/images/copertine/capitali-baltiche.jpg',
+    imageAlt: 'La Città Vecchia di Tallinn vista dalla piattaforma panoramica di Patkuli, con la guglia della Chiesa di Sant\'Olaf e le torri delle mura cittadine tra gli alberi autunnali',
+  },
   'lofoten-estate-2025': {
     immagine: '/images/copertine/lofoten-estate-2025.jpg',
     imageAlt: 'Il campo da calcio di Henningsvær incastonato tra il mare e le montagne, visto dalla collina rocciosa sopra il villaggio, Lofoten',
@@ -225,5 +233,53 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
   'peru-itinerario': {
     immagine: '/images/copertine/peru-itinerario.jpg',
     imageAlt: 'La cittadella di Machu Picchu vista dal punto panoramico classico, con il Huayna Picchu alle spalle delle terrazze inca',
+  },
+  'svizzera-alpi-van': {
+    immagine: '/images/copertine/svizzera-alpi-van.jpg',
+    imageAlt: 'Veduta aerea di Zermatt con il Cervino sullo sfondo, Alpi Vallesane',
+  },
+  'cracovia-weekend': {
+    immagine: '/images/copertine/cracovia-weekend.jpg',
+    imageAlt: 'Il Castello di Wawel visto dal fiume Vistola, Cracovia',
+  },
+  'praga-weekend': {
+    immagine: '/images/copertine/praga-weekend.jpg',
+    imageAlt: 'Il Castello di Praga e la Cattedrale di San Vito visti dalla collina di Petřín, sopra i tetti rossi di Malá Strana',
+  },
+  'vienna-weekend': {
+    immagine: '/images/copertine/vienna-weekend.jpg',
+    imageAlt: 'Lo skyline di Vienna visto dai giardini del Belvedere, con la cupola della Karlskirche e la guglia di Santo Stefano',
+  },
+  'amsterdam-weekend': {
+    immagine: '/images/copertine/amsterdam-weekend.jpg',
+    imageAlt: 'Case a schiera con i tipici gable viste da una crociera sui canali di Amsterdam',
+  },
+  'lisbona-weekend': {
+    immagine: '/images/copertine/lisbona-weekend.jpg',
+    imageAlt: 'Il quartiere dell\'Alfama con la cupola del Panteão Nacional, visto dal Miradouro de Santa Luzia, Lisbona',
+  },
+  'budapest-weekend': {
+    immagine: '/images/copertine/budapest-weekend.jpg',
+    imageAlt: 'Il Parlamento ungherese illuminato di notte lungo il Danubio, con il Castello di Buda e il Ponte delle Catene sullo sfondo',
+  },
+  'berlino-weekend': {
+    immagine: '/images/copertine/berlino-weekend.jpg',
+    imageAlt: 'La Porta di Brandeburgo illuminata di notte vista dall\'alto, con la Quadriga sulla sommità e lo skyline di Berlino intorno',
+  },
+  'andalusia-itinerario': {
+    immagine: '/images/copertine/andalusia-itinerario.jpg',
+    imageAlt: 'Il Patio de los Arrayanes nei Palazzi Nazaríes dell\'Alhambra di Granada, con la Torre de Comares riflessa nella vasca d\'acqua',
+  },
+  'spagna-nord-itinerario': {
+    immagine: '/images/copertine/spagna-nord-itinerario.jpg',
+    imageAlt: 'Panorama della baia della Concha a San Sebastián, visto dal Monte Igueldo',
+  },
+  'baleari-itinerario': {
+    immagine: '/images/copertine/baleari-itinerario.jpg',
+    imageAlt: 'Es Vedrà ed Es Vedranell al tramonto, gli scogli al largo della costa sud-ovest di Ibiza',
+  },
+  'canarie-itinerario': {
+    immagine: '/images/copertine/canarie-itinerario.jpg',
+    imageAlt: 'I Roques de García e il vulcano Teide sullo sfondo, nel Parco Nazionale del Teide a Tenerife',
   },
 }

@@ -4,8 +4,8 @@ import type { TripMeta } from '@/lib/types'
 // Il testo narrativo resta nel markdown (src/content/viaggi/55-vienna-weekend.md).
 // `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
 // del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
-// Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da ogni giorno,
-// task separato.
+// Foto giorno-per-giorno sourced da Wikimedia Commons (licenza libera,
+// verificata per ciascuna) — crediti in viaggi-giorno-foto-crediti.ts.
 
 export const viennaWeekendMeta: TripMeta = {
   tripSlug: 'vienna-weekend',
@@ -58,6 +58,8 @@ export const viennaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'accesso alla cattedrale gratuito; salita alla torre sud e catacombe con biglietto separato',
       destinazioneSlug: 'vienna',
+      immagine: '/images/viaggi/vienna-weekend/giorno-01-stephansdom.jpg',
+      imageAlt: 'Il tetto maiolicato e la guglia sud della Cattedrale di Santo Stefano (Stephansdom), nel cuore dell\'Innere Stadt di Vienna',
     },
     {
       titoloGiorno: 'Giorno 2 — Hofburg e Naschmarkt',
@@ -67,6 +69,8 @@ export const viennaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'biglietto combinato Hofburg attorno ai 20€; Naschmarkt libero, si paga solo quello che si consuma',
       destinazioneSlug: 'vienna',
+      immagine: '/images/viaggi/vienna-weekend/giorno-02-hofburg.jpg',
+      imageAlt: 'La cupola barocca del Michaelertor, l\'ingresso monumentale della Hofburg su Michaelerplatz a Vienna',
     },
     {
       titoloGiorno: 'Giorno 3 — Schönbrunn',
@@ -76,6 +80,8 @@ export const viennaWeekendMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'tour di base da circa 26€; giardini e parco gratuiti, Gloriette a parte',
       destinazioneSlug: 'vienna',
+      immagine: '/images/viaggi/vienna-weekend/giorno-03-schonbrunn.jpg',
+      imageAlt: 'La facciata color giallo Schönbrunn del palazzo imperiale, vista dai giardini oltre la Fontana di Nettuno',
     },
     {
       titoloGiorno: 'Giorno 4 — Belvedere e Prater',
@@ -83,6 +89,8 @@ export const viennaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'biglietto Upper Belvedere attorno ai 20-25€; ingresso al Prater libero, giostre a pagamento singolo',
       destinazioneSlug: 'vienna',
+      immagine: '/images/viaggi/vienna-weekend/giorno-04-belvedere.jpg',
+      imageAlt: 'L\'Upper Belvedere riflesso nella vasca del giardino barocco, Vienna',
     },
   ],
   budget: [

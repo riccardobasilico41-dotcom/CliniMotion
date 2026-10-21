@@ -4,8 +4,9 @@ import type { TripMeta } from '@/lib/types'
 // Córdoba, Granada e Ronda". Il testo narrativo resta nel markdown
 // (src/content/viaggi/64-andalusia-itinerario.md). `titoloGiorno` deve
 // combaciare esattamente con le intestazioni "### Giorno N — ..." del file
-// markdown. Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da
-// ogni giorno, task separato. Trip principale del Paese "spagna" (vedi
+// markdown. Foto giorno-per-giorno sourced da Wikimedia Commons (licenza
+// libera, verificata per ciascuna) — crediti in
+// `viaggi-giorno-foto-crediti.ts`. Trip principale del Paese "spagna" (vedi
 // tripPrincipaleSlug in paesi/spagna.ts).
 
 export const andalusiaItinerarioMeta: TripMeta = {
@@ -59,6 +60,8 @@ export const andalusiaItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'siviglia',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-1-cattedrale-giralda.jpg',
+      imageAlt: 'La Giralda, il campanile della Cattedrale di Siviglia, vista dal Patio de los Naranjos',
     },
     {
       titoloGiorno: 'Giorno 2 — Siviglia: Real Alcázar, Triana e flamenco',
@@ -67,6 +70,8 @@ export const andalusiaItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Real Alcázar circa 15,50€ (Appartamenti Reali +5,50€); tablao di flamenco 20-45€ a persona',
       destinazioneSlug: 'siviglia',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-2-real-alcazar.jpg',
+      imageAlt: 'Il Patio de las Doncellas nel Real Alcázar di Siviglia, con gli archi mudéjar e la vasca d\'acqua centrale',
     },
     {
       titoloGiorno: 'Giorno 3 — Da Siviglia a Córdoba: la Mezquita',
@@ -76,6 +81,8 @@ export const andalusiaItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Mezquita-Catedral circa 15€ (gratuita nei giorni feriali 8:30-9:30)',
       destinazioneSlug: 'cordoba',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-3-mezquita.jpg',
+      imageAlt: 'Colonne, archi e arabeschi sopra il mihrab della Mezquita-Catedral di Córdoba',
     },
     {
       titoloGiorno: 'Giorno 4 — Córdoba e trasferimento a Granada',
@@ -85,6 +92,8 @@ export const andalusiaItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Alcázar de los Reyes Cristianos circa 7€',
       destinazioneSlug: 'granada',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-4-alcazar-reyes-cristianos.jpg',
+      imageAlt: 'I giardini dell\'Alcázar de los Reyes Cristianos di Córdoba, con la Torre del Homenaje sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 5 — Granada: l\'Alhambra e il Generalife',
@@ -93,6 +102,8 @@ export const andalusiaItinerarioMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'Alhambra generale circa 19,60€, prenotazione obbligatoria con mesi di anticipo',
       destinazioneSlug: 'granada',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-5-alhambra.jpg',
+      imageAlt: 'Il Patio de los Arrayanes nei Palazzi Nazaríes dell\'Alhambra di Granada, riflesso nella vasca d\'acqua',
     },
     {
       titoloGiorno: 'Giorno 6 — Granada: Albaicín e Sacromonte',
@@ -101,6 +112,8 @@ export const andalusiaItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'zambra di flamenco nel Sacromonte 25-40€ a persona',
       destinazioneSlug: 'granada',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-6-albaicin-sacromonte.jpg',
+      imageAlt: 'Vista dal Mirador de San Nicolás sull\'Albaicín, con l\'Alhambra e la Sierra Nevada sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 7 — Da Granada a Ronda: la Serranía',
@@ -109,6 +122,8 @@ export const andalusiaItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'ronda-pueblos-blancos',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-7-serrania-ronda.jpg',
+      imageAlt: 'Il pueblo blanco di Zahara de la Sierra con la sua fortezza araba, nella Serranía de Ronda al tramonto',
     },
     {
       titoloGiorno: 'Giorno 8 — Ronda: il Puente Nuevo e i pueblos blancos',
@@ -118,12 +133,16 @@ export const andalusiaItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Plaza de Toros e museo circa 10€; bagni arabi circa 3,50€',
       destinazioneSlug: 'ronda-pueblos-blancos',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-8-puente-nuevo.jpg',
+      imageAlt: 'Il Puente Nuevo di Ronda visto dal fondo della gola del Tajo, con una cascata sul torrente Guadalevín',
     },
     {
       titoloGiorno: 'Giorno 9 — Ronda e chiusura del viaggio verso Málaga',
       tratta: 'Ronda → Málaga, in auto (circa 1h30) → volo di rientro',
       intensita: 'leggero',
       destinazioneSlug: 'ronda-pueblos-blancos',
+      immagine: '/images/viaggi/andalusia-itinerario/giorno-9-ronda-tajo.jpg',
+      imageAlt: 'Le case bianche di Ronda affacciate sul bordo della gola del Tajo, con la campagna andalusa sullo sfondo',
     },
   ],
   budget: [

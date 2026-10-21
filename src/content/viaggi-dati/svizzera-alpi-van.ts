@@ -8,9 +8,10 @@ import type { TripMeta } from '@/lib/types'
 // markdown. `titoloGiorno` deve combaciare esattamente con le intestazioni
 // "### ..." del file markdown, altrimenti il merge in DayTimeline non trova
 // la corrispondenza.
-// Nessun campo miaEsperienza né immagine/imageAlt sui singoli GiornoMeta:
-// questa guida non è basata su un viaggio vissuto realmente (vedi la nota
-// in fondo al markdown), e le foto sono un task separato.
+// Nessun campo miaEsperienza sui singoli GiornoMeta: questa guida non è
+// basata su un viaggio vissuto realmente (vedi la nota in fondo al
+// markdown). Ogni zona ha però `immagine`/`imageAlt` sourced da Wikimedia
+// Commons (licenza libera, credito in viaggi-giorno-foto-crediti.ts).
 
 export const svizzeraAlpiVanMeta: TripMeta = {
   tripSlug: 'svizzera-alpi-van',
@@ -60,6 +61,8 @@ export const svizzeraAlpiVanMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'campeggi 35-50 CHF/notte; giro in battello sui laghi da circa 20-30 CHF a tratta',
       destinazioneSlug: 'interlaken',
+      immagine: '/images/viaggi/svizzera-alpi-van/interlaken-thun-brienz.jpg',
+      imageAlt: 'Il Lago di Thun, Interlaken e il Lago di Brienz visti dall\'alto del Niesen, Alpi Bernesi',
     },
     {
       titoloGiorno: 'Lauterbrunnen e la valle delle cascate',
@@ -68,6 +71,8 @@ export const svizzeraAlpiVanMeta: TripMeta = {
       costiNoti:
         'Trümmelbachfälle 18 CHF ingresso; campeggio libero vietato nella valle, multe fino a 200 CHF',
       destinazioneSlug: 'lauterbrunnen',
+      immagine: '/images/viaggi/svizzera-alpi-van/lauterbrunnen.jpg',
+      imageAlt: 'La valle di Lauterbrunnen all\'imbrunire, con le pareti verticali e la cascata di Staubbach illuminate',
     },
     {
       titoloGiorno: 'Grindelwald e il First',
@@ -75,6 +80,8 @@ export const svizzeraAlpiVanMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'funivia First 72-76 CHF A/R; Cliff Walk incluso nel biglietto',
       destinazioneSlug: 'grindelwald',
+      immagine: '/images/viaggi/svizzera-alpi-van/grindelwald-first.jpg',
+      imageAlt: 'Il Cliff Walk sospeso sulla parete del First, con l\'Eiger di fronte, Grindelwald',
     },
     {
       titoloGiorno: 'Jungfraujoch, il Top of Europe',
@@ -82,6 +89,8 @@ export const svizzeraAlpiVanMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'biglietto 224-261 CHF A/R secondo stagione; Good Morning Ticket scontato partendo entro le 8',
       destinazioneSlug: 'jungfraujoch',
+      immagine: '/images/viaggi/svizzera-alpi-van/jungfraujoch.jpg',
+      imageAlt: 'La stazione dello Sphinx Observatory al Jungfraujoch, incastonata nella roccia sopra il ghiacciaio dell\'Aletsch',
     },
     {
       titoloGiorno: 'Mürren e lo Schilthorn',
@@ -89,6 +98,8 @@ export const svizzeraAlpiVanMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'funivia Schilthorn circa 115 CHF A/R da Stechelberg; via ferrata Mürren-Gimmelwald aperta giugno-ottobre',
       destinazioneSlug: 'muerren-schilthorn',
+      immagine: '/images/viaggi/svizzera-alpi-van/muerren-schilthorn.jpg',
+      imageAlt: 'Veduta aerea di Mürren appollaiata sulla falesia sopra la valle di Lauterbrunnen, Alpi Bernesi',
     },
     {
       titoloGiorno: 'Grimselpass e Furkapass',
@@ -96,6 +107,8 @@ export const svizzeraAlpiVanMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'nessun pedaggio sulla strada; passi aperti indicativamente giugno-ottobre, verificare ogni stagione',
       destinazioneSlug: 'grimsel-furka',
+      immagine: '/images/viaggi/svizzera-alpi-van/grimsel-furka.jpg',
+      imageAlt: 'La strada a tornanti del Furkapass con vista sul Grimselpass, Canton Vallese',
     },
     {
       titoloGiorno: 'Zermatt e il Cervino',
@@ -103,6 +116,8 @@ export const svizzeraAlpiVanMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'parcheggio Täsch da 17 CHF/giorno; funivia Gornergrat a parte',
       destinazioneSlug: 'zermatt',
+      immagine: '/images/viaggi/svizzera-alpi-van/zermatt.jpg',
+      imageAlt: 'Gli chalet in legno del centro di Zermatt con il Cervino che appare sullo sfondo',
     },
   ],
   budget: [

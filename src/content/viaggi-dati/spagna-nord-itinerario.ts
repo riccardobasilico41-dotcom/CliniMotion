@@ -4,8 +4,9 @@ import type { TripMeta } from '@/lib/types'
 // Sebastián, Bilbao e la costa verso Santiago". Il testo narrativo resta nel
 // markdown (src/content/viaggi/65-spagna-nord-itinerario.md). `titoloGiorno`
 // deve combaciare esattamente con le intestazioni "### Giorno N — ..." del
-// file markdown. Nessuna foto: campo `immagine`/`imageAlt` volutamente
-// assente da ogni giorno, task separato.
+// file markdown. Foto giorno-per-giorno sourced da Wikimedia Commons
+// (licenza libera, verificata per ciascuna) — crediti in
+// `viaggi-giorno-foto-crediti.ts`.
 
 export const spagnaNordItinerarioMeta: TripMeta = {
   tripSlug: 'spagna-nord-itinerario',
@@ -57,6 +58,8 @@ export const spagnaNordItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'san-sebastian',
+      immagine: '/images/viaggi/spagna-nord-itinerario/giorno-1-parte-vieja.jpg',
+      imageAlt: 'Vista panoramica della Parte Vieja di San Sebastián, con il Monte Urgull e la baia della Concha',
     },
     {
       titoloGiorno: 'Giorno 2 — San Sebastián: la Concha e il Monte Igueldo',
@@ -64,6 +67,8 @@ export const spagnaNordItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'san-sebastian',
+      immagine: '/images/viaggi/spagna-nord-itinerario/giorno-2-concha-igueldo.jpg',
+      imageAlt: 'La baia della Concha con l\'isola di Santa Clara e il Monte Urgull, vista dal Monte Igueldo',
     },
     {
       titoloGiorno: 'Giorno 3 — Da San Sebastián a Bilbao',
@@ -72,6 +77,8 @@ export const spagnaNordItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'bilbao',
+      immagine: '/images/viaggi/spagna-nord-itinerario/giorno-3-casco-viejo-bilbao.jpg',
+      imageAlt: 'Il Casco Viejo di Bilbao, il quartiere storico delle Siete Calles',
     },
     {
       titoloGiorno: 'Giorno 4 — Bilbao: il Guggenheim e l\'Ensanche',
@@ -80,6 +87,8 @@ export const spagnaNordItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Guggenheim 18€ (metà giugno-metà settembre) o 15€ nel resto dell\'anno',
       destinazioneSlug: 'bilbao',
+      immagine: '/images/viaggi/spagna-nord-itinerario/giorno-4-guggenheim.jpg',
+      imageAlt: 'Il Museo Guggenheim di Bilbao visto da nord-ovest, con il Ponte della Salve e le sculture del cortile',
     },
     {
       titoloGiorno: 'Giorno 5 — Da Bilbao alla Cantabria: Santander e Santillana del Mar',
@@ -87,6 +96,8 @@ export const spagnaNordItinerarioMeta: TripMeta = {
       pernottamento: 'Santander o Santillana del Mar',
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
+      immagine: '/images/viaggi/spagna-nord-itinerario/giorno-5-santillana-del-mar.jpg',
+      imageAlt: 'Il borgo medievale di Santillana del Mar, in Cantabria',
     },
     {
       titoloGiorno: 'Giorno 6 — Cantabria e Asturie: la Costa Verde',
@@ -94,6 +105,8 @@ export const spagnaNordItinerarioMeta: TripMeta = {
       pernottamento: 'Llanes o Gijón',
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
+      immagine: '/images/viaggi/spagna-nord-itinerario/giorno-6-costa-verde-llanes.jpg',
+      imageAlt: 'La costa rocciosa della Costa Verde asturiana nei pressi di Llanes',
     },
     {
       titoloGiorno: 'Giorno 7 — Dalle Asturie alla Galizia: verso Santiago',
@@ -102,12 +115,16 @@ export const spagnaNordItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'santiago-compostela-camino-del-norte',
+      immagine: '/images/viaggi/spagna-nord-itinerario/giorno-7-camino-galicia.jpg',
+      imageAlt: 'Le frecce gialle che segnano il Camino del Norte nella campagna della Galizia, verso Santiago',
     },
     {
       titoloGiorno: 'Giorno 8 — Santiago de Compostela e chiusura del Cammino',
       tratta: 'Santiago de Compostela → volo di rientro (aeroporto Rosalía de Castro)',
       intensita: 'leggero',
       destinazioneSlug: 'santiago-compostela-camino-del-norte',
+      immagine: '/images/viaggi/spagna-nord-itinerario/giorno-8-catedral-santiago.jpg',
+      imageAlt: 'La facciata occidentale della Cattedrale di Santiago de Compostela',
     },
   ],
   budget: [

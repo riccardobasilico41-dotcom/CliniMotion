@@ -21,6 +21,16 @@ export type CreditoImmagine = {
 }
 
 export const creditiCopertine: Record<string, CreditoImmagine> = {
+  'capitali-nordiche': {
+    autore: 'Stig Nygaard',
+    licenza: 'CC BY 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Nyhavn_on_a_sunny_spring_day._Denmark_2012._-_panoramio.jpg',
+  },
+  'capitali-baltiche': {
+    autore: 'Ivar Leidus',
+    licenza: 'CC BY-SA 3.0 EE',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vanalinn_Patkuli_platvormilt_2013.jpg',
+  },
   'cina-classica': {
     autore: 'Luka Peternel',
     licenza: 'CC BY-SA 4.0',
@@ -220,5 +230,65 @@ export const creditiCopertine: Record<string, CreditoImmagine> = {
     autore: 'Steve FUNG',
     licenza: 'CC BY-SA 4.0',
     fonteUrl: 'https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Overlook_1.jpg',
+  },
+  'svizzera-alpi-van': {
+    autore: 'Bob Tan',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Zermatt_aerial_panorama_facing_the_Materhorn_160622_2.jpg',
+  },
+  'cracovia-weekend': {
+    autore: 'Ingo Mehling',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Krakow_-_Wawel_from_Vistula_-_4.jpg',
+  },
+  'praga-weekend': {
+    autore: 'Uoaei1',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Praha_Panorama_from_Petřín_20170430.jpg',
+  },
+  'vienna-weekend': {
+    autore: 'MrPanyGoff',
+    licenza: 'CC BY-SA 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_from_Belvedere_-_Vienna.jpg',
+  },
+  'amsterdam-weekend': {
+    autore: 'Lyn Gateley',
+    licenza: 'CC BY 2.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:DSC00288,_Canal_Cruise,_Amsterdam,_Netherlands_(338955340).jpg',
+  },
+  'lisbona-weekend': {
+    autore: 'Jakub Hałun',
+    licenza: 'CC BY 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2016_9045.jpg',
+  },
+  'budapest-weekend': {
+    autore: 'Florian Fèvre (Billy69150)',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Danube_and_Hungarian_Parliament_Building_by_night.jpg',
+  },
+  'berlino-weekend': {
+    autore: 'Martin Kraft',
+    licenza: 'CC BY-SA 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:MK20007_Brandenburger_Tor.jpg',
+  },
+  'andalusia-itinerario': {
+    autore: 'Benjamin Smith',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Granada_-_Alhambra_-_Palacios_nazar%C3%ADes_-_Patio_de_los_Arrayanes.jpg',
+  },
+  'spagna-nord-itinerario': {
+    autore: 'Phillip Maiwald (Nikopol)',
+    licenza: 'CC BY-SA 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:San_Sebastian_Bay_Panorama.jpg',
+  },
+  'baleari-itinerario': {
+    autore: 'Macondo (Wikimedia Commons)',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Es_Vedr%C3%A0_i_es_Vedranell_2020-07-31.jpg',
+  },
+  'canarie-itinerario': {
+    autore: 'Ingo Mehling (Wikimedia Commons)',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Teide_Roques_de_Garcia.jpg',
   },
 }

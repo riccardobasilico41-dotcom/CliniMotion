@@ -4,8 +4,8 @@ import type { TripMeta } from '@/lib/types'
 // Il testo narrativo resta nel markdown (src/content/viaggi/56-budapest-weekend.md).
 // `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
 // del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
-// Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da ogni giorno,
-// task separato.
+// Foto giorno-per-giorno sourced da Wikimedia Commons (licenza libera, verificata
+// per ciascuna); crediti in src/content/viaggi-giorno-foto-crediti.ts.
 
 export const budapestWeekendMeta: TripMeta = {
   tripSlug: 'budapest-weekend',
@@ -58,6 +58,8 @@ export const budapestWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'ingressi ai musei del castello a parte; il Bastione dei Pescatori è gratuito fuori dalle torrette a pagamento',
       destinazioneSlug: 'budapest',
+      immagine: '/images/viaggi/budapest-weekend/giorno-01-bastione-pescatori.jpg',
+      imageAlt: 'La torretta conica del Bastione dei Pescatori vista da un arco in pietra, con Pest innevata sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 2 — Il Parlamento e il quartiere ebraico',
@@ -67,6 +69,8 @@ export const budapestWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'tour del Parlamento da prenotare online con anticipo, ingressi contingentati',
       destinazioneSlug: 'budapest',
+      immagine: '/images/viaggi/budapest-weekend/giorno-02-parlamento.jpg',
+      imageAlt: 'Il Parlamento ungherese illuminato nell\'ora blu, riflesso nelle acque del Danubio',
     },
     {
       titoloGiorno: 'Giorno 3 — Le terme: Széchenyi o Gellért',
@@ -76,6 +80,8 @@ export const budapestWeekendMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'ingresso alle terme indicativamente 20-30€, telo e ciabatte a noleggio se non portati da casa',
       destinazioneSlug: 'budapest',
+      immagine: '/images/viaggi/budapest-weekend/giorno-03-szechenyi.jpg',
+      imageAlt: 'La facciata gialla e la cupola delle Terme di Széchenyi viste dalla vasca esterna, al tramonto',
     },
     {
       titoloGiorno: 'Giorno 4 — Danubio, Isola Margherita e l\'ultimo giro',
@@ -83,6 +89,8 @@ export const budapestWeekendMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'crociera sul Danubio indicativamente 15-25€ a persona',
       destinazioneSlug: 'budapest',
+      immagine: '/images/viaggi/budapest-weekend/giorno-04-isola-margherita.jpg',
+      imageAlt: 'La torre dell\'acquedotto dell\'Isola Margherita vista tra gli alberi del parco, con persone a passeggio e in bicicletta',
     },
   ],
   budget: [

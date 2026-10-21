@@ -75,7 +75,7 @@ export default function HomePage() {
     <>
       <CinematicHero
         tagline={siteConfig.tagline}
-        subtext="Diario di viaggio con itinerari giorno per giorno, verificati e riverificati — non copiati da altre guide."
+        subtext="Diario di viaggio con itinerari giorno per giorno, verificati e riverificati, non copiati da altre guide."
         routeTappe={ROTTA_DECORATIVA}
       />
 

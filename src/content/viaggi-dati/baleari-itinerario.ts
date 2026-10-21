@@ -60,6 +60,8 @@ export const baleariItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'mallorca',
+      immagine: '/images/viaggi/baleari-itinerario/giorno-01-mallorca.jpg',
+      imageAlt: 'La Cattedrale di Palma di Mallorca (La Seu) vista dal Parc de la Mar, con le guglie gotiche riflesse nello specchio d\'acqua',
     },
     {
       titoloGiorno: 'Giorno 2 — La Serra de Tramuntana: Valldemossa e Sóller',
@@ -68,6 +70,8 @@ export const baleariItinerarioMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'trenino storico Palma-Sóller circa 32€ A/R',
       destinazioneSlug: 'mallorca',
+      immagine: '/images/viaggi/baleari-itinerario/giorno-02-mallorca.jpg',
+      imageAlt: 'Il borgo di Valldemossa incastonato tra le montagne della Serra de Tramuntana, con il campanile della parrocchia e i tetti in pietra tra il verde',
     },
     {
       titoloGiorno: 'Giorno 3 — Da Mallorca a Ibiza',
@@ -76,6 +80,8 @@ export const baleariItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       destinazioneSlug: 'ibiza',
+      immagine: '/images/viaggi/baleari-itinerario/giorno-03-ibiza.jpg',
+      imageAlt: 'Il traghetto Baleària "Visemar One" in arrivo al porto di Ibiza, con il faro sulla costa alle sue spalle',
     },
     {
       titoloGiorno: 'Giorno 4 — Ibiza Town e Dalt Vila',
@@ -83,6 +89,8 @@ export const baleariItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'ibiza',
+      immagine: '/images/viaggi/baleari-itinerario/giorno-04-ibiza.jpg',
+      imageAlt: 'Vista aerea di Dalt Vila, la città alta fortificata di Ibiza, con le mura rinascimentali, la cattedrale e i tetti del centro storico',
     },
     {
       titoloGiorno: 'Giorno 5 — Il nord di Ibiza: calette e mercati',
@@ -90,6 +98,8 @@ export const baleariItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'ibiza',
+      immagine: '/images/viaggi/baleari-itinerario/giorno-05-ibiza.jpg',
+      imageAlt: 'La chiesa bianca di Santa Gertrudis de Fruitera nel nord di Ibiza, con il campanile giallo e la piazza del paese',
     },
     {
       titoloGiorno: 'Giorno 6 — Da Ibiza a Minorca',
@@ -98,6 +108,8 @@ export const baleariItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'minorca',
+      immagine: '/images/viaggi/baleari-itinerario/giorno-06-minorca.jpg',
+      imageAlt: 'Un traghetto veloce in arrivo al porto di Ibiza, con un\'altra nave Baleària e imbarcazioni da diporto sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 7 — Ciutadella e il Camí de Cavalls',
@@ -105,12 +117,16 @@ export const baleariItinerarioMeta: TripMeta = {
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'minorca',
+      immagine: '/images/viaggi/baleari-itinerario/giorno-07-minorca.jpg',
+      imageAlt: 'Il sentiero del Camí de Cavalls scavato nella roccia bianca tra Cala Macarella e Cala Macarelleta a Minorca, con il mare sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 8 — Mahón e chiusura del viaggio',
       tratta: 'Ciutadella → Mahón → volo di rientro',
       intensita: 'leggero',
       destinazioneSlug: 'minorca',
+      immagine: '/images/viaggi/baleari-itinerario/giorno-08-minorca.jpg',
+      imageAlt: 'Vista aerea del porto naturale di Mahón a Minorca, uno dei più profondi d\'Europa, con la città bianca distesa lungo l\'insenatura',
     },
   ],
   budget: [

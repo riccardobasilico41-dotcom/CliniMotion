@@ -12,6 +12,53 @@ import type { CreditoImmagine } from './viaggi-copertine-crediti'
  */
 
 export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> = {
+  'capitali-nordiche': {
+    'Giorno 1 — Arrivo a Copenaghen e Nyhavn': {
+      autore: 'Kallerna (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Nyhavn_Copenhagen_4.jpg',
+    },
+    'Giorno 2 — Tivoli Gardens, la Sirenetta e il lungomare': {
+      autore: 'Jerrye & Roy Klotz MD (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:TIVOLI_GARDENS_AT_NIGHT,_COPENHAGEN.jpg',
+    },
+    'Giorno 3 — Christiania, Christianshavn e il treno per Stoccolma': {
+      autore: 'Smurrayinchester (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mural_in_Christiania_against_hard_drugs.jpg',
+    },
+    'Giorno 4 — Gamla Stan e il centro storico di Stoccolma': {
+      autore: 'Evija Ciematniece (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/charming-alley-in-stockholm-s-gamla-stan-37376994/',
+    },
+    'Giorno 5 — Vasamuseet, Stadshuset e ABBA The Museum': {
+      autore: 'Richard Mortel (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Swedish_warship_Vasa,_sank_1628,_Vasamuseet,_Stockholm_(4)_(35433872524).jpg',
+    },
+    'Giorno 6 — L\'arcipelago di Stoccolma e il treno per Oslo': {
+      autore: 'Claudia Schmalz (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/an-aerial-shot-of-an-island-with-a-house-13304257/',
+    },
+    'Giorno 7 — Il centro di Oslo e l\'Opera House': {
+      autore: 'Piotrek Wilk (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/oslo-opera-house-18170373/',
+    },
+    'Giorno 8 — Vigeland Park e i musei di Bygdøy': {
+      autore: 'Simi Williamson (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/vigeland-sculpture-park-monolith-under-blue-sky-34337131/',
+    },
+    'Giorno 9 — Crociera sull\'Oslofjord e partenza': {
+      autore: 'Dua\'a Al-Amad (Pexels)',
+      licenza: 'Pexels License',
+      fonteUrl: 'https://www.pexels.com/photo/spectacular-view-of-oslo-harbor-with-cruise-ships-33068143/',
+    },
+  },
   'peru-itinerario': {
     'Giorno 1 — Arrivo a Lima': {
       autore: 'McKay Savage (Wikimedia Commons)',
@@ -2886,6 +2933,423 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       autore: 'Dronepicr (Wikimedia Commons)',
       licenza: 'CC BY 3.0',
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bocas_del_Toro_Panama_3.jpg',
+    },
+  },
+  'capitali-baltiche': {
+    'Giorno 1 — Arrivo a Vilnius e la Città Vecchia al tramonto': {
+      autore: 'Chad Kainz (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Old_Town_Vilnius_(4729571330).jpg',
+    },
+    'Giorno 2 — Vilnius: Cattedrale, Torre di Gediminas e il Palazzo dei Granduchi': {
+      autore: 'Bernt Rostad (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vilnius_Cathedral_(9651321103).jpg',
+    },
+    'Giorno 3 — Užupis e il castello dell\'isola di Trakai': {
+      autore: 'David Iliff (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Trakai_Island_Castle,_Lithuania_-_Diliff.jpg',
+    },
+    'Giorno 4 — Il bus per Riga e le prime ore nella Città Vecchia': {
+      autore: 'David Iliff (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl:
+        "https://commons.wikimedia.org/wiki/File:House_of_Blackheads_and_St._Peter's_Church_Tower,_Riga,_Latvia_-_Diliff.jpg",
+    },
+    'Giorno 5 — Riga: il quartiere Art Nouveau e il Mercato Centrale': {
+      autore: 'Zairon (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Riga_Jugendstil_Alberta_iela_08.JPG',
+    },
+    'Giorno 6 — Jūrmala e l\'ultimo giro per Riga': {
+      autore: 'Ken Eckert (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Jurmala_Beach,_Latvia.jpg',
+    },
+    'Giorno 7 — Il bus per Tallinn e la Città Vecchia alla luce della sera': {
+      autore: 'Medvedev (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tallinn_Town_Hall.jpg',
+    },
+    'Giorno 8 — Tallinn: la Città Vecchia e la collina di Toompea': {
+      autore: 'Cayambe (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:City_wall_Towers_Tallinn_2015.jpg',
+    },
+    'Giorno 9 — Kadriorg, Telliskivi e la partenza': {
+      autore: 'Acediscovery (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Kadriorg_Palace-Tallinn.jpg',
+    },
+  },
+  'svizzera-alpi-van': {
+    'Interlaken e i laghi di Thun e Brienz': {
+      autore: 'Jasper ter Mors (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:ThunerseeInterlaken.jpg',
+    },
+    'Lauterbrunnen e la valle delle cascate': {
+      autore: 'Amir Yaqubi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lauterbrunnen_Valley_after_sunset.jpg',
+    },
+    'Grindelwald e il First': {
+      autore: 'Freddy Amend (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg',
+    },
+    'Jungfraujoch, il Top of Europe': {
+      autore: 'Gianluca Miscione (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Jungfreijoch.jpg',
+    },
+    'Mürren e lo Schilthorn': {
+      autore: 'Bob Tan (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Murren_and_the_Launterbrunnen_Valley_120622_2.jpg',
+    },
+    'Grimselpass e Furkapass': {
+      autore: 'Zairon (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Wallis_Furkapass_Blick_auf_den_Grimselpass_1.JPG',
+    },
+    'Zermatt e il Cervino': {
+      autore: 'TiagoSanchez (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_of_the_Matterhorn_from_Zermatt_village.jpg',
+    },
+  },
+  'cracovia-weekend': {
+    'Giorno 1 — Rynek Główny e il colle di Wawel': {
+      autore: 'Andrzej Otrębski (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Krakow_Rynek_Glowny_panorama_2.jpg',
+    },
+    'Giorno 2 — Auschwitz-Birkenau': {
+      autore: 'Ingo Mehling (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Auschwitz_II_Birkenau_-_gate,_tracks.jpg',
+    },
+    'Giorno 3 — Kazimierz e Podgórze': {
+      autore: 'Suicasmo (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tempel_Synagogue_of_Kazimierz,_Kraków_20180813.jpg',
+    },
+    'Giorno 4 — La Miniera di Wieliczka e l\'ultimo giro': {
+      autore: 'Андрей Романенко / Andrei Romanenko (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Saint_Kinga_Chapel_in_Wieliczka_Salt_Mine.jpg',
+    },
+  },
+  'praga-weekend': {
+    'Giorno 1 — Staré Město e la Piazza della Città Vecchia': {
+      autore: 'x70tjw (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Old_Town_Square,_Prague_(16070968840).jpg',
+    },
+    'Giorno 2 — Ponte Carlo, Malá Strana e il Castello di Praga': {
+      autore: 'Diliff (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Prague_Castle_and_Charles_Bridge,_Czech_Republic_-_Diliff.jpg',
+    },
+    'Giorno 3 — Josefov, il quartiere ebraico': {
+      autore: 'Jorge Láscar (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lascar_Josefov_(Old_Jewish_Quarter)_(4504602778).jpg',
+    },
+    'Giorno 4 — Vyšehrad e l\'ultimo giro': {
+      autore: 'ŠJů, panorama di Justass (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Vyšehrad,_z_Císařské_louky_panoramic.jpg',
+    },
+  },
+  'vienna-weekend': {
+    'Giorno 1 — Innere Stadt e Stephansdom': {
+      autore: 'C.Stadler/Bwag (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Wien_-_Stephansdom_(1).JPG',
+    },
+    'Giorno 2 — Hofburg e Naschmarkt': {
+      autore: 'Jebulon (Wikimedia Commons)',
+      licenza: 'Pubblico dominio (CC0)',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hofburg_Michaelertor_Vienna.jpg',
+    },
+    'Giorno 3 — Schönbrunn': {
+      autore: 'Julesvernex2 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Schönbrunn_Palace,_seen_from_behind_the_Neptune_fountain_(Vienna,_Austria).jpg',
+    },
+    'Giorno 4 — Belvedere e Prater': {
+      autore: 'Rosser1954 (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:The_Belvedere_Palace,_Vienna,_Austria.jpg',
+    },
+  },
+  'amsterdam-weekend': {
+    'Giorno 1 — Grachtengordel e Jordaan': {
+      autore: 'Dietmar Rabich (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Singel_--_2015_--_7171.jpg',
+    },
+    'Giorno 2 — Casa di Anna Frank e Dam Square': {
+      autore: 'Dietmar Rabich (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Amsterdam_(NL),_Anne-Frank-Huis_--_2015_--_7185.jpg',
+    },
+    'Giorno 3 — Rijksmuseum e Van Gogh Museum': {
+      autore: 'Marco Almbauer (Wikimedia Commons)',
+      licenza: 'Pubblico dominio',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Rijksmuseum_Amsterdam_-_Gallery_of_Honour.jpg',
+    },
+    'Giorno 4 — In bicicletta per la città': {
+      autore: 'John Salatas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bicycles_amsterdam.jpg',
+    },
+  },
+  'lisbona-weekend': {
+    'Giorno 1 — Alfama e il tram 28': {
+      autore: 'Jakub Hałun (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2016_9045.jpg',
+    },
+    'Giorno 2 — Belém': {
+      autore: 'NorbertNagel (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Jer%C3%B3nimos_Monastery_in_Bel%C3%A9m_-_Lisbon_-_Portugal_-_03.jpg',
+    },
+    'Giorno 3 — Sintra': {
+      autore: 'CEphoto, Uwe Aranas (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg',
+    },
+    'Giorno 4 — Baixa, Chiado e ultimo giro': {
+      autore: 'NorbertNagel (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Praca_do_Comercio_-_Lisbon_-_Portugal.jpg',
+    },
+  },
+  'budapest-weekend': {
+    'Giorno 1 — Il colle di Buda e il Bastione dei Pescatori': {
+      autore: 'Chmee2/Valtameri (Wikimedia Commons)',
+      licenza: 'CC BY 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Fisher_Bastion_in_Buda_Castle_(3).JPG',
+    },
+    'Giorno 2 — Il Parlamento e il quartiere ebraico': {
+      autore: 'Vermont (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_from_the_Danube_during_blue_hour.jpg',
+    },
+    'Giorno 3 — Le terme: Széchenyi o Gellért': {
+      autore: 'Robot8A (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Széchenyi_thermal_bath,_pool,_Budapest_12_55_44_917000.jpg',
+    },
+    'Giorno 4 — Danubio, Isola Margherita e l\'ultimo giro': {
+      autore: 'Perituss (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Margaret_Island_2014.jpg',
+    },
+  },
+  'berlino-weekend': {
+    'Giorno 1 — Porta di Brandeburgo e il quartiere del governo': {
+      autore: 'Leonhard Lenz (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_from_east_at_evening_02.jpg',
+    },
+    'Giorno 2 — Il Muro di Berlino e la Guerra Fredda': {
+      autore: 'Ansgar Koreng (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mauergedenkstätte_Bernauer_Straße,_Berlin,_170514,_ako.jpg',
+    },
+    'Giorno 3 — L\'Isola dei Musei e Berlino Est': {
+      autore: 'Jim Woodward (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bode_Museum_and_Pergamon_Museum_-_October_2011.jpg',
+    },
+    'Giorno 4 — Kreuzberg e Friedrichshain': {
+      autore: 'Gzen92 (Wikimedia Commons); murale di Dmitri Vrubel',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:East_Side_Gallery_-_Dmitri_Vrubel_-_Le_baiser_(Berlin).jpg',
+    },
+  },
+  'andalusia-itinerario': {
+    'Giorno 1 — Arrivo a Siviglia: Cattedrale e Giralda': {
+      autore: 'Jebulon (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Giralda_from_orange_trees_courtyard_Seville_Spain.jpg',
+    },
+    'Giorno 2 — Siviglia: Real Alcázar, Triana e flamenco': {
+      autore: 'Benjamin Smith (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sevilla_-_Real_Alc%C3%A1zar_-_Patio_de_las_Doncellas.jpg',
+    },
+    'Giorno 3 — Da Siviglia a Córdoba: la Mezquita': {
+      autore: 'Benjamin Smith (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_-_Mezquita-Catedral_-_Interior_-_01.jpg',
+    },
+    'Giorno 4 — Córdoba e trasferimento a Granada': {
+      autore: 'Volodymyr Vlasenko (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gardens_of_the_Alc%C3%A1zar_de_los_Reyes_Cristianos._C%C3%B3rdoba,_Spain.jpg',
+    },
+    'Giorno 5 — Granada: l\'Alhambra e il Generalife': {
+      autore: 'Benjamin Smith (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Granada_-_Alhambra_-_Palacios_nazar%C3%ADes_-_Patio_de_los_Arrayanes.jpg',
+    },
+    'Giorno 6 — Granada: Albaicín e Sacromonte': {
+      autore: 'Jebulon (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Albaizin,_Mirador_San_Nicolas,_from_Alhambra,_Granada,_Andalusia,_Spain.jpg',
+    },
+    'Giorno 7 — Da Granada a Ronda: la Serranía': {
+      autore: 'Bocaleones (Wikimedia Commons)',
+      licenza: 'Pubblico dominio',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Zahara_desde_enfrente.jpg',
+    },
+    'Giorno 8 — Ronda: il Puente Nuevo e i pueblos blancos': {
+      autore: 'Christopher Down (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ronda_Puente_Nuevo_and_El_Tajo_gorge.jpg',
+    },
+    'Giorno 9 — Ronda e chiusura del viaggio verso Málaga': {
+      autore: 'Vescoolz (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Casas_colgadas_en_el_Tajo_de_Ronda_Malaga_paisaje.jpg',
+    },
+  },
+  'spagna-nord-itinerario': {
+    'Giorno 1 — Arrivo a San Sebastián: la Parte Vieja': {
+      autore: 'Mariordo (Mario Roberto Durán Ortiz) (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_San_Sebastian_Parte_Vieja_06_2012_2503.jpg',
+    },
+    'Giorno 2 — San Sebastián: la Concha e il Monte Igueldo': {
+      autore: 'Keta (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.5',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Donostia_Igeldotik.jpg',
+    },
+    'Giorno 3 — Da San Sebastián a Bilbao': {
+      autore: 'Zarateman (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bilbao_-_Casco_Viejo_11.jpg',
+    },
+    'Giorno 4 — Bilbao: il Guggenheim e l\'Ensanche': {
+      autore: 'José Ligero Loarte (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Museo_Guggenheim_--_2021_--_Bilbao,_Euskadi,_Espa%C3%B1a.jpg',
+    },
+    'Giorno 5 — Da Bilbao alla Cantabria: Santander e Santillana del Mar': {
+      autore: 'Frédérique PANASSAC (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Santillana_del_Mar_(2210539728).jpg',
+    },
+    'Giorno 6 — Cantabria e Asturie: la Costa Verde': {
+      autore: 'Zarateman (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Llanes_-_Costa_1.jpg',
+    },
+    'Giorno 7 — Dalle Asturie alla Galizia: verso Santiago': {
+      autore: 'José Antonio Gil Martínez (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Camino_de_Santiago_(2671914306).jpg',
+    },
+    'Giorno 8 — Santiago de Compostela e chiusura del Cammino': {
+      autore: 'Fernando (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Santiago_cathedral_2021.jpg',
+    },
+  },
+  'baleari-itinerario': {
+    'Giorno 1 — Arrivo a Palma di Mallorca': {
+      autore: 'Arieleisenhammer (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Palma_Cathedral_(La_Seu)_from_Parc_de_la_Mar.jpg',
+    },
+    'Giorno 2 — La Serra de Tramuntana: Valldemossa e Sóller': {
+      autore: 'Abrget47j (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Valldemossa_view.jpg',
+    },
+    'Giorno 3 — Da Mallorca a Ibiza': {
+      autore: 'Vince Vega (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Visemar_one_ibiza.jpg',
+    },
+    'Giorno 4 — Ibiza Town e Dalt Vila': {
+      autore: 'UnFUG-Fabi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Eivissa_-_Dalt_Vila_from_Airplane.jpg',
+    },
+    'Giorno 5 — Il nord di Ibiza: calette e mercati': {
+      autore: 'Gerda Arendt (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Church_of_Santa_Gertrudis,_Ibiza.jpg',
+    },
+    'Giorno 6 — Da Ibiza a Minorca': {
+      autore: 'Charles, Port Chester NY (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Fast_ferry_from_the_island_Formentera_arriving_at_the_port_of_Ibiza,_Illes_Balears,_Espa%C3%B1a_(53986551152).jpg',
+    },
+    'Giorno 7 — Ciutadella e il Camí de Cavalls': {
+      autore: 'Nicolas Vigier (Wikimedia Commons, via Flickr)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Menorca_-_50130260113.jpg',
+    },
+    'Giorno 8 — Mahón e chiusura del viaggio': {
+      autore: 'Paucabot (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ma%C3%B3.jpg',
+    },
+  },
+  'canarie-itinerario': {
+    'Giorno 1 — Arrivo a Tenerife: Puerto de la Cruz e la costa nord': {
+      autore: 'Cayambe (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Paseo_Vi%C3%B1atigo_in_Puerto_de_la_Cruz,_Tenerife.jpg',
+    },
+    'Giorno 2 — Il Parco Nazionale del Teide': {
+      autore: 'Mike McBey (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Caldera_of_Mount_Teide_(40440575312).jpg',
+    },
+    'Giorno 3 — Il Parco Rurale di Anaga': {
+      autore: 'Christoph Strässler (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mist_Forest_in_the_Anaga_Massif,_Tenerife,_Spain1.jpg',
+    },
+    'Giorno 4 — Da Tenerife a Gran Canaria': {
+      autore: 'Gary Shaw (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:EC-MFC_(36267150485).jpg',
+    },
+    'Giorno 5 — Le dune di Maspalomas': {
+      autore: 'Himarerme (Wikimedia Commons)',
+      licenza: 'Pubblico dominio',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Dunas_de_Maspalomas.jpg',
+    },
+    'Giorno 6 — Il centro montuoso di Gran Canaria: il Roque Nublo': {
+      autore: 'Rvr (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Roque_Nublo_-_Gran_Canaria_01.jpg',
+    },
+    'Giorno 7 — Da Gran Canaria a Lanzarote': {
+      autore: 'Gary Shaw (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:EC-MEN_(35873086530).jpg',
+    },
+    'Giorno 8 — Timanfaya e la Geria': {
+      autore: 'Miljenko Suljic (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Timanfaya_National_Park_landscape.jpg',
+    },
+    'Giorno 9 — Le opere di César Manrique e chiusura del viaggio': {
+      autore: 'Edmundo Sáez (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ornamental_pool_in_Jameos_del_Agua.jpg',
     },
   },
 }
