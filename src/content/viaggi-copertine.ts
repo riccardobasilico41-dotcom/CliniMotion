@@ -258,4 +258,20 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
     immagine: '/images/copertine/berlino-weekend.jpg',
     imageAlt: 'La Porta di Brandeburgo illuminata di notte vista dall\'alto, con la Quadriga sulla sommità e lo skyline di Berlino intorno',
   },
+  'andalusia-itinerario': {
+    immagine: '/images/copertine/andalusia-itinerario.jpg',
+    imageAlt: 'Il Patio de los Arrayanes nei Palazzi Nazaríes dell\'Alhambra di Granada, con la Torre de Comares riflessa nella vasca d\'acqua',
+  },
+  'spagna-nord-itinerario': {
+    immagine: '/images/copertine/spagna-nord-itinerario.jpg',
+    imageAlt: 'Panorama della baia della Concha a San Sebastián, visto dal Monte Igueldo',
+  },
+  'baleari-itinerario': {
+    immagine: '/images/copertine/baleari-itinerario.jpg',
+    imageAlt: 'Es Vedrà ed Es Vedranell al tramonto, gli scogli al largo della costa sud-ovest di Ibiza',
+  },
+  'canarie-itinerario': {
+    immagine: '/images/copertine/canarie-itinerario.jpg',
+    imageAlt: 'I Roques de García e il vulcano Teide sullo sfondo, nel Parco Nazionale del Teide a Tenerife',
+  },
 }

@@ -3079,4 +3079,182 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:East_Side_Gallery_-_Dmitri_Vrubel_-_Le_baiser_(Berlin).jpg',
     },
   },
+  'andalusia-itinerario': {
+    'Giorno 1 — Arrivo a Siviglia: Cattedrale e Giralda': {
+      autore: 'Jebulon (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Giralda_from_orange_trees_courtyard_Seville_Spain.jpg',
+    },
+    'Giorno 2 — Siviglia: Real Alcázar, Triana e flamenco': {
+      autore: 'Benjamin Smith (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Sevilla_-_Real_Alc%C3%A1zar_-_Patio_de_las_Doncellas.jpg',
+    },
+    'Giorno 3 — Da Siviglia a Córdoba: la Mezquita': {
+      autore: 'Benjamin Smith (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:C%C3%B3rdoba_-_Mezquita-Catedral_-_Interior_-_01.jpg',
+    },
+    'Giorno 4 — Córdoba e trasferimento a Granada': {
+      autore: 'Volodymyr Vlasenko (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Gardens_of_the_Alc%C3%A1zar_de_los_Reyes_Cristianos._C%C3%B3rdoba,_Spain.jpg',
+    },
+    'Giorno 5 — Granada: l\'Alhambra e il Generalife': {
+      autore: 'Benjamin Smith (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Granada_-_Alhambra_-_Palacios_nazar%C3%ADes_-_Patio_de_los_Arrayanes.jpg',
+    },
+    'Giorno 6 — Granada: Albaicín e Sacromonte': {
+      autore: 'Jebulon (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Albaizin,_Mirador_San_Nicolas,_from_Alhambra,_Granada,_Andalusia,_Spain.jpg',
+    },
+    'Giorno 7 — Da Granada a Ronda: la Serranía': {
+      autore: 'Bocaleones (Wikimedia Commons)',
+      licenza: 'Pubblico dominio',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Zahara_desde_enfrente.jpg',
+    },
+    'Giorno 8 — Ronda: il Puente Nuevo e i pueblos blancos': {
+      autore: 'Christopher Down (Wikimedia Commons)',
+      licenza: 'CC BY 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ronda_Puente_Nuevo_and_El_Tajo_gorge.jpg',
+    },
+    'Giorno 9 — Ronda e chiusura del viaggio verso Málaga': {
+      autore: 'Vescoolz (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Casas_colgadas_en_el_Tajo_de_Ronda_Malaga_paisaje.jpg',
+    },
+  },
+  'spagna-nord-itinerario': {
+    'Giorno 1 — Arrivo a San Sebastián: la Parte Vieja': {
+      autore: 'Mariordo (Mario Roberto Durán Ortiz) (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_San_Sebastian_Parte_Vieja_06_2012_2503.jpg',
+    },
+    'Giorno 2 — San Sebastián: la Concha e il Monte Igueldo': {
+      autore: 'Keta (Wikimedia Commons)',
+      licenza: 'CC BY-SA 2.5',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Donostia_Igeldotik.jpg',
+    },
+    'Giorno 3 — Da San Sebastián a Bilbao': {
+      autore: 'Zarateman (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bilbao_-_Casco_Viejo_11.jpg',
+    },
+    'Giorno 4 — Bilbao: il Guggenheim e l\'Ensanche': {
+      autore: 'José Ligero Loarte (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Museo_Guggenheim_--_2021_--_Bilbao,_Euskadi,_Espa%C3%B1a.jpg',
+    },
+    'Giorno 5 — Da Bilbao alla Cantabria: Santander e Santillana del Mar': {
+      autore: 'Frédérique PANASSAC (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Santillana_del_Mar_(2210539728).jpg',
+    },
+    'Giorno 6 — Cantabria e Asturie: la Costa Verde': {
+      autore: 'Zarateman (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Llanes_-_Costa_1.jpg',
+    },
+    'Giorno 7 — Dalle Asturie alla Galizia: verso Santiago': {
+      autore: 'José Antonio Gil Martínez (Wikimedia Commons)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Camino_de_Santiago_(2671914306).jpg',
+    },
+    'Giorno 8 — Santiago de Compostela e chiusura del Cammino': {
+      autore: 'Fernando (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Santiago_cathedral_2021.jpg',
+    },
+  },
+  'baleari-itinerario': {
+    'Giorno 1 — Arrivo a Palma di Mallorca': {
+      autore: 'Arieleisenhammer (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Palma_Cathedral_(La_Seu)_from_Parc_de_la_Mar.jpg',
+    },
+    'Giorno 2 — La Serra de Tramuntana: Valldemossa e Sóller': {
+      autore: 'Abrget47j (Wikimedia Commons)',
+      licenza: 'CC BY-SA 3.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Valldemossa_view.jpg',
+    },
+    'Giorno 3 — Da Mallorca a Ibiza': {
+      autore: 'Vince Vega (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Visemar_one_ibiza.jpg',
+    },
+    'Giorno 4 — Ibiza Town e Dalt Vila': {
+      autore: 'UnFUG-Fabi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Eivissa_-_Dalt_Vila_from_Airplane.jpg',
+    },
+    'Giorno 5 — Il nord di Ibiza: calette e mercati': {
+      autore: 'Gerda Arendt (Wikimedia Commons)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Church_of_Santa_Gertrudis,_Ibiza.jpg',
+    },
+    'Giorno 6 — Da Ibiza a Minorca': {
+      autore: 'Charles, Port Chester NY (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Fast_ferry_from_the_island_Formentera_arriving_at_the_port_of_Ibiza,_Illes_Balears,_Espa%C3%B1a_(53986551152).jpg',
+    },
+    'Giorno 7 — Ciutadella e il Camí de Cavalls': {
+      autore: 'Nicolas Vigier (Wikimedia Commons, via Flickr)',
+      licenza: 'CC0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Menorca_-_50130260113.jpg',
+    },
+    'Giorno 8 — Mahón e chiusura del viaggio': {
+      autore: 'Paucabot (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ma%C3%B3.jpg',
+    },
+  },
+  'canarie-itinerario': {
+    'Giorno 1 — Arrivo a Tenerife: Puerto de la Cruz e la costa nord': {
+      autore: 'Cayambe (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Paseo_Vi%C3%B1atigo_in_Puerto_de_la_Cruz,_Tenerife.jpg',
+    },
+    'Giorno 2 — Il Parco Nazionale del Teide': {
+      autore: 'Mike McBey (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Caldera_of_Mount_Teide_(40440575312).jpg',
+    },
+    'Giorno 3 — Il Parco Rurale di Anaga': {
+      autore: 'Christoph Strässler (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Mist_Forest_in_the_Anaga_Massif,_Tenerife,_Spain1.jpg',
+    },
+    'Giorno 4 — Da Tenerife a Gran Canaria': {
+      autore: 'Gary Shaw (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:EC-MFC_(36267150485).jpg',
+    },
+    'Giorno 5 — Le dune di Maspalomas': {
+      autore: 'Himarerme (Wikimedia Commons)',
+      licenza: 'Pubblico dominio',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Dunas_de_Maspalomas.jpg',
+    },
+    'Giorno 6 — Il centro montuoso di Gran Canaria: il Roque Nublo': {
+      autore: 'Rvr (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Roque_Nublo_-_Gran_Canaria_01.jpg',
+    },
+    'Giorno 7 — Da Gran Canaria a Lanzarote': {
+      autore: 'Gary Shaw (Wikimedia Commons, via Flickr)',
+      licenza: 'CC BY-SA 2.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:EC-MEN_(35873086530).jpg',
+    },
+    'Giorno 8 — Timanfaya e la Geria': {
+      autore: 'Miljenko Suljic (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Timanfaya_National_Park_landscape.jpg',
+    },
+    'Giorno 9 — Le opere di César Manrique e chiusura del viaggio': {
+      autore: 'Edmundo Sáez (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Ornamental_pool_in_Jameos_del_Agua.jpg',
+    },
+  },
 }

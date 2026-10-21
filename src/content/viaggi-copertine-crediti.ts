@@ -261,4 +261,24 @@ export const creditiCopertine: Record<string, CreditoImmagine> = {
     licenza: 'CC BY-SA 3.0',
     fonteUrl: 'https://commons.wikimedia.org/wiki/File:MK20007_Brandenburger_Tor.jpg',
   },
+  'andalusia-itinerario': {
+    autore: 'Benjamin Smith',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Granada_-_Alhambra_-_Palacios_nazar%C3%ADes_-_Patio_de_los_Arrayanes.jpg',
+  },
+  'spagna-nord-itinerario': {
+    autore: 'Phillip Maiwald (Nikopol)',
+    licenza: 'CC BY-SA 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:San_Sebastian_Bay_Panorama.jpg',
+  },
+  'baleari-itinerario': {
+    autore: 'Macondo (Wikimedia Commons)',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Es_Vedr%C3%A0_i_es_Vedranell_2020-07-31.jpg',
+  },
+  'canarie-itinerario': {
+    autore: 'Ingo Mehling (Wikimedia Commons)',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Teide_Roques_de_Garcia.jpg',
+  },
 }

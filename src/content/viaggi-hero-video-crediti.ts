@@ -306,4 +306,24 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/berlin-skyline-panorama-with-tv-tower-40319604/',
   },
+  'andalusia-itinerario': {
+    autore: 'Andrew Alston (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/puente-nuevo-ronda-spain-drone-17579227/',
+  },
+  'spagna-nord-itinerario': {
+    autore: 'Borys Trusevych (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/san-sebostian-spain-20763763/',
+  },
+  'baleari-itinerario': {
+    autore: 'Haseeb Ahmad (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/ibiza-castle-oldtown-ibiza-20419774/',
+  },
+  'canarie-itinerario': {
+    autore: 'David Castillo López (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/santa-teresa-volcano-15392395/',
+  },
 }

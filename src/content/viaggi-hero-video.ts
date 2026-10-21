@@ -258,6 +258,22 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
     src: '/videos/trips/berlino-weekend.mp4',
     poster: '/videos/trips/berlino-weekend-poster.jpg',
   },
+  'andalusia-itinerario': {
+    src: '/videos/trips/andalusia-itinerario.mp4',
+    poster: '/videos/trips/andalusia-itinerario-poster.jpg',
+  },
+  'spagna-nord-itinerario': {
+    src: '/videos/trips/spagna-nord-itinerario.mp4',
+    poster: '/videos/trips/spagna-nord-itinerario-poster.jpg',
+  },
+  'baleari-itinerario': {
+    src: '/videos/trips/baleari-itinerario.mp4',
+    poster: '/videos/trips/baleari-itinerario-poster.jpg',
+  },
+  'canarie-itinerario': {
+    src: '/videos/trips/canarie-itinerario.mp4',
+    poster: '/videos/trips/canarie-itinerario-poster.jpg',
+  },
 }
 
 export function getHeroVideo(slug: string): HeroVideo | undefined {
