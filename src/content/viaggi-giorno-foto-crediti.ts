@@ -2888,4 +2888,63 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Bocas_del_Toro_Panama_3.jpg',
     },
   },
+  'svizzera-alpi-van': {
+    'Interlaken e i laghi di Thun e Brienz': {
+      autore: 'Jasper ter Mors (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:ThunerseeInterlaken.jpg',
+    },
+    'Lauterbrunnen e la valle delle cascate': {
+      autore: 'Amir Yaqubi (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Lauterbrunnen_Valley_after_sunset.jpg',
+    },
+    'Grindelwald e il First': {
+      autore: 'Freddy Amend (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg',
+    },
+    'Jungfraujoch, il Top of Europe': {
+      autore: 'Gianluca Miscione (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Jungfreijoch.jpg',
+    },
+    'Mürren e lo Schilthorn': {
+      autore: 'Bob Tan (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Murren_and_the_Launterbrunnen_Valley_120622_2.jpg',
+    },
+    'Grimselpass e Furkapass': {
+      autore: 'Zairon (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Wallis_Furkapass_Blick_auf_den_Grimselpass_1.JPG',
+    },
+    'Zermatt e il Cervino': {
+      autore: 'TiagoSanchez (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:View_of_the_Matterhorn_from_Zermatt_village.jpg',
+    },
+  },
+  'cracovia-weekend': {
+    'Giorno 1 — Rynek Główny e il colle di Wawel': {
+      autore: 'Andrzej Otrębski (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Krakow_Rynek_Glowny_panorama_2.jpg',
+    },
+    'Giorno 2 — Auschwitz-Birkenau': {
+      autore: 'Ingo Mehling (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Auschwitz_II_Birkenau_-_gate,_tracks.jpg',
+    },
+    'Giorno 3 — Kazimierz e Podgórze': {
+      autore: 'Suicasmo (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Tempel_Synagogue_of_Kazimierz,_Kraków_20180813.jpg',
+    },
+    'Giorno 4 — La Miniera di Wieliczka e l\'ultimo giro': {
+      autore: 'Андрей Романенко / Andrei Romanenko (Wikimedia Commons)',
+      licenza: 'CC BY-SA 4.0',
+      fonteUrl: 'https://commons.wikimedia.org/wiki/File:Saint_Kinga_Chapel_in_Wieliczka_Salt_Mine.jpg',
+    },
+  },
 }

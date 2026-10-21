@@ -226,4 +226,20 @@ export const copertineViaggi: Record<string, CopertinaViaggio> = {
     immagine: '/images/copertine/peru-itinerario.jpg',
     imageAlt: 'La cittadella di Machu Picchu vista dal punto panoramico classico, con il Huayna Picchu alle spalle delle terrazze inca',
   },
+  'svizzera-alpi-van': {
+    immagine: '/images/copertine/svizzera-alpi-van.jpg',
+    imageAlt: 'Veduta aerea di Zermatt con il Cervino sullo sfondo, Alpi Vallesane',
+  },
+  'cracovia-weekend': {
+    immagine: '/images/copertine/cracovia-weekend.jpg',
+    imageAlt: 'Il Castello di Wawel visto dal fiume Vistola, Cracovia',
+  },
+  'praga-weekend': {
+    immagine: '/images/copertine/praga-weekend.jpg',
+    imageAlt: 'Il Castello di Praga e la Cattedrale di San Vito visti dalla collina di Petřín, sopra i tetti rossi di Malá Strana',
+  },
+  'vienna-weekend': {
+    immagine: '/images/copertine/vienna-weekend.jpg',
+    imageAlt: 'Lo skyline di Vienna visto dai giardini del Belvedere, con la cupola della Karlskirche e la guglia di Santo Stefano',
+  },
 }

@@ -221,4 +221,24 @@ export const creditiCopertine: Record<string, CreditoImmagine> = {
     licenza: 'CC BY-SA 4.0',
     fonteUrl: 'https://commons.wikimedia.org/wiki/File:Machu_Picchu,_Overlook_1.jpg',
   },
+  'svizzera-alpi-van': {
+    autore: 'Bob Tan',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Zermatt_aerial_panorama_facing_the_Materhorn_160622_2.jpg',
+  },
+  'cracovia-weekend': {
+    autore: 'Ingo Mehling',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Krakow_-_Wawel_from_Vistula_-_4.jpg',
+  },
+  'praga-weekend': {
+    autore: 'Uoaei1',
+    licenza: 'CC BY-SA 4.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Praha_Panorama_from_Petřín_20170430.jpg',
+  },
+  'vienna-weekend': {
+    autore: 'MrPanyGoff',
+    licenza: 'CC BY-SA 3.0',
+    fonteUrl: 'https://commons.wikimedia.org/wiki/File:Panorama_from_Belvedere_-_Vienna.jpg',
+  },
 }

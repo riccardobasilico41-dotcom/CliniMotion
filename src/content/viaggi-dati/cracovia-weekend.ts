@@ -4,8 +4,10 @@ import type { TripMeta } from '@/lib/types'
 // Il testo narrativo resta nel markdown (src/content/viaggi/53-cracovia-weekend.md).
 // `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
 // del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
-// Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da ogni giorno,
-// task separato.
+// Ogni giorno ha `immagine`/`imageAlt` sourced da Wikimedia Commons (licenza
+// libera, credito in viaggi-giorno-foto-crediti.ts). La foto di Auschwitz-
+// Birkenau usa l'inquadratura sobria del cancello/binari, non un primo piano
+// sulle esposizioni.
 
 export const cracoviaWeekendMeta: TripMeta = {
   tripSlug: 'cracovia-weekend',
@@ -58,6 +60,8 @@ export const cracoviaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Castello e Cattedrale di Wawel hanno biglietti separati per le diverse sezioni, a numero limitato',
       destinazioneSlug: 'cracovia',
+      immagine: '/images/viaggi/cracovia-weekend/rynek-wawel.jpg',
+      imageAlt: 'Rynek Główny, la grande piazza del mercato medievale di Cracovia, con le torri della Basilica di Santa Maria',
     },
     {
       titoloGiorno: 'Giorno 2 — Auschwitz-Birkenau',
@@ -67,6 +71,8 @@ export const cracoviaWeekendMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'ingresso gratuito, prenotazione online obbligatoria; trasporto in bus o treno a parte',
       destinazioneSlug: 'auschwitz-birkenau',
+      immagine: '/images/viaggi/cracovia-weekend/auschwitz-birkenau.jpg',
+      imageAlt: 'Il cancello d\'ingresso e i binari ferroviari di Auschwitz II-Birkenau, memoriale',
     },
     {
       titoloGiorno: 'Giorno 3 — Kazimierz e Podgórze',
@@ -76,6 +82,8 @@ export const cracoviaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'ingressi a sinagoghe e musei pochi euro ciascuno; tour gastronomico serale a parte',
       destinazioneSlug: 'cracovia',
+      immagine: '/images/viaggi/cracovia-weekend/kazimierz-podgorze.jpg',
+      imageAlt: 'La facciata della Tempel Synagogue nel quartiere di Kazimierz, Cracovia',
     },
     {
       titoloGiorno: 'Giorno 4 — La Miniera di Wieliczka e l\'ultimo giro',
@@ -83,6 +91,8 @@ export const cracoviaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'biglietto Wieliczka attorno ai 120 PLN; consigliata prenotazione online',
       destinazioneSlug: 'cracovia',
+      immagine: '/images/viaggi/cracovia-weekend/wieliczka.jpg',
+      imageAlt: 'La Cappella di Santa Kinga nella Miniera di sale di Wieliczka, scolpita interamente nel sale',
     },
   ],
   budget: [

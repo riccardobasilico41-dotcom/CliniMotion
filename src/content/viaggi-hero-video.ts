@@ -226,6 +226,22 @@ export const heroVideoViaggi: Record<string, HeroVideo> = {
     src: '/videos/trips/centro-america-itinerario.mp4',
     poster: '/videos/trips/centro-america-itinerario-poster.jpg',
   },
+  'svizzera-alpi-van': {
+    src: '/videos/trips/svizzera-alpi-van.mp4',
+    poster: '/videos/trips/svizzera-alpi-van-poster.jpg',
+  },
+  'cracovia-weekend': {
+    src: '/videos/trips/cracovia-weekend.mp4',
+    poster: '/videos/trips/cracovia-weekend-poster.jpg',
+  },
+  'praga-weekend': {
+    src: '/videos/trips/praga-weekend.mp4',
+    poster: '/videos/trips/praga-weekend-poster.jpg',
+  },
+  'vienna-weekend': {
+    src: '/videos/trips/vienna-weekend.mp4',
+    poster: '/videos/trips/vienna-weekend-poster.jpg',
+  },
 }
 
 export function getHeroVideo(slug: string): HeroVideo | undefined {

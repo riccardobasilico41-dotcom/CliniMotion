@@ -4,8 +4,8 @@ import type { TripMeta } from '@/lib/types'
 // Il testo narrativo resta nel markdown (src/content/viaggi/54-praga-weekend.md).
 // `titoloGiorno` deve combaciare esattamente con le intestazioni "### Giorno N — ..."
 // del file markdown, altrimenti il merge in DayTimeline non trova la corrispondenza.
-// Nessuna foto: campo `immagine`/`imageAlt` volutamente assente da ogni giorno,
-// task separato.
+// Foto giorno-per-giorno sourced da Wikimedia Commons (licenza libera,
+// verificata per ciascuna) — crediti in viaggi-giorno-foto-crediti.ts.
 
 export const pragaWeekendMeta: TripMeta = {
   tripSlug: 'praga-weekend',
@@ -58,6 +58,8 @@ export const pragaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'accesso alla piazza e alle chiese esterne gratuito; attenzione ai ristoranti con conti gonfiati intorno alla piazza',
       destinazioneSlug: 'praga',
+      immagine: '/images/viaggi/praga-weekend/giorno-01-staremesto.jpg',
+      imageAlt: 'La torre del Municipio Vecchio con l\'Orologio Astronomico, sulla Piazza della Città Vecchia di Praga',
     },
     {
       titoloGiorno: 'Giorno 2 — Ponte Carlo, Malá Strana e il Castello di Praga',
@@ -67,6 +69,8 @@ export const pragaWeekendMeta: TripMeta = {
       intensita: 'intenso',
       costiNoti: 'biglietto Circuito A del Castello attorno ai 450 CZK; cortili e navata della Cattedrale gratuiti',
       destinazioneSlug: 'praga',
+      immagine: '/images/viaggi/praga-weekend/giorno-02-castello.jpg',
+      imageAlt: 'Il Ponte Carlo sulla Moldava con il colle del Castello di Praga e la Cattedrale di San Vito sullo sfondo',
     },
     {
       titoloGiorno: 'Giorno 3 — Josefov, il quartiere ebraico',
@@ -76,6 +80,8 @@ export const pragaWeekendMeta: TripMeta = {
       intensita: 'medio',
       costiNoti: 'Jewish Town Ticket attorno ai 600 CZK; Sinagoga Vecchia-Nuova con biglietto separato',
       destinazioneSlug: 'praga',
+      immagine: '/images/viaggi/praga-weekend/giorno-03-josefov.jpg',
+      imageAlt: 'La Sinagoga Vecchia-Nuova (Staronová synagoga), il cuore gotico del quartiere ebraico di Josefov a Praga',
     },
     {
       titoloGiorno: 'Giorno 4 — Vyšehrad e l\'ultimo giro',
@@ -83,6 +89,8 @@ export const pragaWeekendMeta: TripMeta = {
       intensita: 'leggero',
       costiNoti: 'ingresso al parco di Vyšehrad gratuito',
       destinazioneSlug: 'praga',
+      immagine: '/images/viaggi/praga-weekend/giorno-04-vysehrad.jpg',
+      imageAlt: 'Il colle roccioso di Vyšehrad sulla Moldava, con le guglie della Basilica dei Santi Pietro e Paolo',
     },
   ],
   budget: [

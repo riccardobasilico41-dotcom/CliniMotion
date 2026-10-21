@@ -266,4 +266,24 @@ export const creditiHeroVideo: Record<string, CreditoVideo> = {
     licenza: 'Pexels License',
     fonteUrl: 'https://www.pexels.com/video/ancient-mayan-ruins-of-tikal-in-guatemala-29721176/',
   },
+  'svizzera-alpi-van': {
+    autore: 'Kim Aswani (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/drone-footage-of-the-town-of-interlaken-switzerland-15399066/',
+  },
+  'cracovia-weekend': {
+    autore: 'Pawel Graniczny (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/wawel-castel-19558619/',
+  },
+  'praga-weekend': {
+    autore: 'Airam Dato-on (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-prague-cityscape-with-river-34918718/',
+  },
+  'vienna-weekend': {
+    autore: 'KJeremy (Pexels)',
+    licenza: 'Pexels License',
+    fonteUrl: 'https://www.pexels.com/video/aerial-view-of-the-cathedral-17138406/',
+  },
 }
