@@ -1,10 +1,9 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
-import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { ArrowLeft, ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
-import { Reveal } from '@/components/Reveal'
+import { PageHeader } from '@/components/ui/PageHeader'
+import { Rich } from '@/components/ui/Rich'
 import { PersonalVerdict } from '@/components/ui/PersonalVerdict'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { RelatedContent } from '@/components/RelatedContent'
@@ -19,6 +18,7 @@ import {
   getViaggiByEsperienza,
 } from '@/lib/geo'
 import { pageMetadata } from '@/lib/seo'
+import { richNodes } from '@/components/ui/Rich'
 
 export async function generateStaticParams() {
   return getAllEsperienze().map((e) => ({ paese: e.paeseSlug, slug: e.slug }))
@@ -73,73 +73,37 @@ export default async function EsperienzaPage({
           ]),
         ]}
       />
-      <section className="border-b border-alpine/10 bg-alpine-dark py-16 text-cream sm:py-20">
-        <Container>
-          <Reveal>
-            <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-cream/60">
-              <Link href="/" className="hover:text-cream">
-                Home
-              </Link>
-              <span>/</span>
-              <Link href={`/destinazioni/${paeseSlug}`} className="hover:text-cream">
-                {paese.nome}
-              </Link>
-              <span>/</span>
-              <span className="text-cream/85">{esperienza.nome}</span>
-            </nav>
-            <Link
-              href={`/destinazioni/${paeseSlug}`}
-              className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-cream/60 hover:text-cream"
-            >
-              <ArrowLeft size={13} />
-              Torna al Messico
-            </Link>
-            <div className="mt-6 flex flex-wrap items-center gap-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">{esperienza.localita}</p>
-              <PersonalVerdict giudizio={esperienza.giudizio} />
-            </div>
-            <h1 className="mt-3 max-w-2xl font-display text-4xl font-medium leading-tight sm:text-5xl">
-              {esperienza.nome}
-            </h1>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-cream/70">{esperienza.cosE}</p>
-          </Reveal>
-        </Container>
-      </section>
-
-      {esperienza.immagine && (
-        <Container className="relative -mt-10 sm:-mt-14">
-          <Reveal>
-            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-alpine/10 shadow-lg sm:aspect-[21/9]">
-              <Image
-                src={esperienza.immagine}
-                alt={esperienza.imageAlt}
-                fill
-                sizes="(min-width: 1024px) 1152px, 100vw"
-                priority
-                className="object-cover"
-              />
-            </div>
-          </Reveal>
-        </Container>
-      )}
+      <PageHeader
+        crumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Destinazioni', href: '/destinazioni' },
+          { label: paese.nome, href: `/destinazioni/${paeseSlug}` },
+          { label: esperienza.nome },
+        ]}
+        eyebrow={esperienza.localita}
+        badge={<PersonalVerdict giudizio={esperienza.giudizio} />}
+        title={esperienza.nome}
+        lead={<Rich text={esperienza.cosE} as="p" />}
+        media={esperienza.immagine ? { tipo: 'foto', src: esperienza.immagine, alt: esperienza.imageAlt } : undefined}
+      />
 
       <section className="py-16 sm:py-20">
         <Container className="grid gap-14 lg:grid-cols-[1.6fr_1fr]">
           <div className="space-y-12">
             <div>
               <h2 className="font-display text-2xl text-alpine">Perché farla</h2>
-              <p className="mt-3 text-base leading-relaxed text-stone">{esperienza.percheFarla}</p>
+              <p className="mt-3 text-base leading-relaxed text-stone">{richNodes(esperienza.percheFarla)}</p>
             </div>
 
             {esperienza.miaEsperienza ? (
               <div>
                 <h2 className="font-display text-2xl text-alpine">La mia esperienza</h2>
                 <p className="mt-3 font-display text-xl italic leading-relaxed text-alpine">
-                  {esperienza.miaEsperienza}
+                  {richNodes(esperienza.miaEsperienza)}
                 </p>
               </div>
             ) : (
-              <div className="rounded-xl border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
+              <div className="rounded-none border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
                 Ricordo personale da aggiungere.
               </div>
             )}

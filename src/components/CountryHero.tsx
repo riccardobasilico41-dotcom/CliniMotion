@@ -1,16 +1,15 @@
-import Link from 'next/link'
-import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
-import { Container } from './ui/Container'
-import { Reveal } from './Reveal'
+import { HeaderAction, HeaderFacts, PageHeader } from './ui/PageHeader'
+import type { Media } from './ui/HeaderMedia'
+import { copertineViaggi } from '@/content/viaggi-copertine'
+import { creditiCopertine } from '@/content/viaggi-copertine-crediti'
 import type { Paese } from '@/lib/types'
 
-/* Hallmark · macrostructure: 08 Photographic (Paese hub variant) · genre: editorial
- * Replaces the previous radial-gradient "aurora-blob" background + per-word
- * fade-in headline + boxed "Foto in arrivo" placeholder with a real country
- * photograph doing the work, matching the Home hero. Falls back to a plain
- * dark surface (no gradient) when a Paese has no heroImage yet — never a
- * gradient standing in for a missing photo. See design.md. */
+/**
+ * Apertura della pagina Paese: stessa grammatica di tutte le pagine interne (`PageHeader`).
+ * Foto: quella del Paese se c'è, altrimenti la copertina reale del viaggio principale
+ * (con il suo credito); se manca anche quella, testata solo tipografica.
+ */
 export function CountryHero({
   paese,
   tripHref,
@@ -20,64 +19,43 @@ export function CountryHero({
   tripHref: string
   destinazioniHref: string
 }) {
-  return (
-    <section className="relative flex min-h-[52vh] items-end overflow-hidden bg-alpine-dark sm:min-h-[60vh]">
-      {paese.heroImage && (
-        <>
-          <Image
-            src={paese.heroImage}
-            alt={paese.heroImageAlt}
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark/90 via-alpine-dark/25 to-alpine-dark/10" />
-        </>
-      )}
-      <Container className="relative z-10 pb-10 sm:pb-14">
-        <Reveal>
-          <h1 className="font-display text-4xl font-medium leading-[1.05] text-cream sm:text-5xl">{paese.nome}</h1>
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-cream/75 sm:text-lg">{paese.descrizione}</p>
-          <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3">
-            <Link
-              href={tripHref}
-              className="inline-flex items-center gap-2 rounded-full bg-rosso px-6 py-3 text-sm font-medium text-cream transition-colors duration-150 hover:bg-rosso-dark"
-            >
-              Scopri il mio itinerario
-              <ArrowRight size={15} />
-            </Link>
-            <Link
-              href={destinazioniHref}
-              className="group inline-flex items-center gap-2 text-sm font-medium text-cream underline decoration-cream/40 underline-offset-4 hover:decoration-cream"
-            >
-              Esplora le destinazioni
-              <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-            </Link>
-          </div>
-        </Reveal>
+  const copertina = copertineViaggi[paese.tripPrincipaleSlug]
+  const media: Media | undefined = paese.heroImage
+    ? { tipo: 'foto', src: paese.heroImage, alt: paese.heroImageAlt }
+    : copertina
+      ? { tipo: 'foto', src: copertina.immagine, alt: copertina.imageAlt }
+      : undefined
+  const credito = !paese.heroImage && copertina ? creditiCopertine[paese.tripPrincipaleSlug] : undefined
 
-        <Reveal delay={0.15}>
-          <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-cream/15 pt-7 sm:grid-cols-4">
-            <div>
-              <dt className="text-xs font-semibold uppercase tracking-wider text-cream/50">Periodo migliore</dt>
-              <dd className="mt-1.5 text-sm text-cream/85">{paese.periodoMigliore}</dd>
-            </div>
-            <div>
-              <dt className="text-xs font-semibold uppercase tracking-wider text-cream/50">Durata consigliata</dt>
-              <dd className="mt-1.5 text-sm text-cream/85">{paese.durataConsigliata}</dd>
-            </div>
-            <div>
-              <dt className="text-xs font-semibold uppercase tracking-wider text-cream/50">Budget indicativo</dt>
-              <dd className="mt-1.5 text-sm text-cream/85">{paese.budgetIndicativo}</dd>
-            </div>
-            <div>
-              <dt className="text-xs font-semibold uppercase tracking-wider text-cream/50">Stile di viaggio</dt>
-              <dd className="mt-1.5 text-sm text-cream/85">{paese.stileViaggio.join(' · ')}</dd>
-            </div>
-          </dl>
-        </Reveal>
-      </Container>
-    </section>
+  return (
+    <PageHeader
+      crumbs={[{ label: 'Home', href: '/' }, { label: 'Destinazioni', href: '/destinazioni' }, { label: paese.nome }]}
+      eyebrow={paese.continente}
+      title={paese.nome}
+      lead={<p>{paese.descrizione}</p>}
+      meta={
+        <HeaderFacts
+          items={[
+            { label: 'Periodo migliore', value: paese.periodoMigliore },
+            { label: 'Durata consigliata', value: paese.durataConsigliata },
+            { label: 'Budget indicativo', value: paese.budgetIndicativo },
+            { label: 'Stile di viaggio', value: paese.stileViaggio.join(' · ') },
+          ]}
+        />
+      }
+      actions={
+        <>
+          <HeaderAction href={tripHref}>
+            Scopri il mio itinerario
+            <ArrowRight size={16} aria-hidden="true" />
+          </HeaderAction>
+          <HeaderAction href={destinazioniHref} secondary>
+            Esplora le destinazioni
+          </HeaderAction>
+        </>
+      }
+      media={media}
+      credito={credito}
+    />
   )
 }

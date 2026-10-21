@@ -1,18 +1,20 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* Hallmark · genre: editorial · theme: custom (locked, ported 1:1 from the
- * previous hex palette) · nav: N6 · footer: Ft1 · designed-as-app
- * See design.md at the project root for the full system this file implements. */
+/* Hallmark · genre: editorial · theme: custom "Stile A · Ghat" (bianco calce, nero
+ * caldo, un solo rosso sindoor) · display Bricolage Grotesque + body Schibsted Grotesk
+ * · nav: N6 · footer: Ft1 · designed-as-app
+ * I nomi dei token restano quelli storici (alpine, cream, rosso…) per non toccare
+ * i componenti: cambiano solo i valori. Vedi design.md. */
 :root {
-  --color-alpine: oklch(39.1% 0.079 239.9);
-  --color-alpine-dark: oklch(28.0% 0.053 239.0);
-  --color-cream: oklch(99.1% 0.003 84.6);
-  --color-cream-dark: oklch(95.1% 0.006 197.0);
-  --color-rosso: oklch(58.5% 0.181 32.4);
-  --color-rosso-dark: oklch(49.9% 0.153 33.6);
-  --color-stone: oklch(43.6% 0.024 246.0);
-  --color-ink: oklch(23.9% 0.018 245.0);
+  --color-alpine: oklch(21.5% 0.006 60);      /* #1E1B18 nero caldo: titoli, fondi scuri */
+  --color-alpine-dark: oklch(16.5% 0.005 60); /* #121110 */
+  --color-cream: oklch(96.9% 0.005 95);       /* #F6F5F1 bianco calce */
+  --color-cream-dark: oklch(93.5% 0.008 95);  /* #ECEAE3 */
+  --color-rosso: oklch(50.5% 0.18 27);        /* #B3261E sindoor */
+  --color-rosso-dark: oklch(42% 0.15 27);     /* #8E1D17 */
+  --color-stone: oklch(39.5% 0.012 70);       /* #4A4640 */
+  --color-ink: oklch(19% 0.006 60);           /* #161412 */
 
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
@@ -31,8 +33,8 @@
   --color-rosso-dark: var(--color-rosso-dark);
   --color-stone: var(--color-stone);
   --color-ink: var(--color-ink);
-  --font-display: var(--font-fraunces);
-  --font-sans: var(--font-inter);
+  --font-display: var(--font-bricolage);
+  --font-sans: var(--font-schibsted);
 }
 
 html,
@@ -43,6 +45,18 @@ body {
 body {
   background: var(--color-cream);
   color: var(--color-ink);
+}
+
+/* Stile A: titoli grotesk pesanti e stretti, sempre in tondo. */
+.font-display {
+  letter-spacing: -0.03em;
+}
+:is(h1, h2, h3).font-display {
+  font-weight: 750;
+  line-height: 0.98;
+}
+.font-display.italic {
+  font-style: normal;
 }
 
 .text-balance {

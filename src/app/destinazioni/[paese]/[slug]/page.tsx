@@ -1,10 +1,9 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
-import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { ArrowLeft, ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
-import { Reveal } from '@/components/Reveal'
+import { PageHeader } from '@/components/ui/PageHeader'
+import { Rich } from '@/components/ui/Rich'
 import { ContentStatusBadge } from '@/components/ui/ContentStatusBadge'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { ExperienceCard } from '@/components/ExperienceCard'
@@ -20,16 +19,10 @@ import {
   getViaggiByDestinazione,
 } from '@/lib/geo'
 import { pageMetadata } from '@/lib/seo'
+import { richNodes } from '@/components/ui/Rich'
 
 // "Torna a..." con l'articolo corretto per ciascun Paese (il Messico, la Norvegia,
 // l'Islanda, la Svezia) — l'italiano non si presta a una regola generica affidabile.
-const TORNA_A_PAESE: Record<string, string> = {
-  messico: 'Torna al Messico',
-  norvegia: 'Torna alla Norvegia',
-  islanda: "Torna all'Islanda",
-  svezia: 'Torna alla Svezia',
-}
-
 export async function generateStaticParams() {
   return getAllDestinazioni().map((d) => ({ paese: d.paeseSlug, slug: d.slug }))
 }
@@ -83,64 +76,26 @@ export default async function DestinazionePage({
           ]),
         ]}
       />
-      <section className="border-b border-alpine/10 bg-alpine-dark py-16 text-cream sm:py-20">
-        <Container>
-          <Reveal>
-            <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-cream/60">
-              <Link href="/" className="hover:text-cream">
-                Home
-              </Link>
-              <span>/</span>
-              <Link href={`/destinazioni/${paeseSlug}`} className="hover:text-cream">
-                {paese.nome}
-              </Link>
-              <span>/</span>
-              <span className="text-cream/85">{destinazione.nome}</span>
-            </nav>
-            <Link
-              href={`/destinazioni/${paeseSlug}`}
-              className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-cream/60 hover:text-cream"
-            >
-              <ArrowLeft size={13} />
-              {TORNA_A_PAESE[paese.slug] ?? `Torna a ${paese.nome}`}
-            </Link>
-            <div className="mt-6 flex flex-wrap items-center gap-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">
-                {destinazione.tipologia.join(' · ')}
-              </p>
-              {destinazione.visitataPersonalmente && <ContentStatusBadge stato="provato" />}
-            </div>
-            <h1 className="mt-3 max-w-2xl font-display text-4xl font-medium leading-tight sm:text-5xl">
-              {destinazione.nome}
-            </h1>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-cream/70">{destinazione.introduzione}</p>
-          </Reveal>
-        </Container>
-      </section>
-
-      {destinazione.immagine && (
-        <Container className="relative -mt-10 sm:-mt-14">
-          <Reveal>
-            <div className="relative aspect-[16/9] overflow-hidden rounded-2xl border border-alpine/10 shadow-lg sm:aspect-[21/9]">
-              <Image
-                src={destinazione.immagine}
-                alt={destinazione.imageAlt}
-                fill
-                sizes="(min-width: 1024px) 1152px, 100vw"
-                priority
-                className="object-cover"
-              />
-            </div>
-          </Reveal>
-        </Container>
-      )}
+      <PageHeader
+        crumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Destinazioni', href: '/destinazioni' },
+          { label: paese.nome, href: `/destinazioni/${paeseSlug}` },
+          { label: destinazione.nome },
+        ]}
+        eyebrow={destinazione.tipologia.join(' · ')}
+        badge={destinazione.visitataPersonalmente ? <ContentStatusBadge stato="provato" /> : undefined}
+        title={destinazione.nome}
+        lead={<Rich text={destinazione.introduzione} as="p" />}
+        media={destinazione.immagine ? { tipo: 'foto', src: destinazione.immagine, alt: destinazione.imageAlt } : undefined}
+      />
 
       <section className="py-16 sm:py-20">
         <Container className="grid gap-14 lg:grid-cols-[1.6fr_1fr]">
           <div className="space-y-12">
             <div>
               <h2 className="font-display text-2xl text-alpine">Perché andarci</h2>
-              <p className="mt-3 text-base leading-relaxed text-stone">{destinazione.percheAndarci}</p>
+              <p className="mt-3 text-base leading-relaxed text-stone">{richNodes(destinazione.percheAndarci)}</p>
             </div>
 
             {destinazione.cosaVedere.length > 0 && (
@@ -148,7 +103,7 @@ export default async function DestinazionePage({
                 <h2 className="font-display text-2xl text-alpine">Cosa vedere</h2>
                 <ul className="mt-3 space-y-1.5 text-base leading-relaxed text-stone">
                   {destinazione.cosaVedere.map((v) => (
-                    <li key={v}>· {v}</li>
+                    <li key={v}>· {richNodes(v)}</li>
                   ))}
                 </ul>
               </div>
@@ -159,7 +114,7 @@ export default async function DestinazionePage({
                 <h2 className="font-display text-2xl text-alpine">Cosa fare</h2>
                 <ul className="mt-3 space-y-1.5 text-base leading-relaxed text-stone">
                   {destinazione.cosaFare.map((v) => (
-                    <li key={v}>· {v}</li>
+                    <li key={v}>· {richNodes(v)}</li>
                   ))}
                 </ul>
               </div>
@@ -172,21 +127,21 @@ export default async function DestinazionePage({
             {destinazione.doveMangiare && (
               <div>
                 <h2 className="font-display text-2xl text-alpine">Dove mangiare</h2>
-                <p className="mt-3 text-base leading-relaxed text-stone">{destinazione.doveMangiare}</p>
+                <p className="mt-3 text-base leading-relaxed text-stone">{richNodes(destinazione.doveMangiare)}</p>
               </div>
             )}
 
             {destinazione.usciteSerali && (
               <div>
                 <h2 className="font-display text-2xl text-alpine">Dove andare dopo cena</h2>
-                <p className="mt-3 text-base leading-relaxed text-stone">{destinazione.usciteSerali}</p>
+                <p className="mt-3 text-base leading-relaxed text-stone">{richNodes(destinazione.usciteSerali)}</p>
               </div>
             )}
 
             {destinazione.doveDormire && (
               <div>
                 <h2 className="font-display text-2xl text-alpine">Dove dormire</h2>
-                <p className="mt-3 text-base leading-relaxed text-stone">{destinazione.doveDormire}</p>
+                <p className="mt-3 text-base leading-relaxed text-stone">{richNodes(destinazione.doveDormire)}</p>
               </div>
             )}
 
@@ -194,11 +149,11 @@ export default async function DestinazionePage({
               <div>
                 <h2 className="font-display text-2xl text-alpine">La mia esperienza</h2>
                 <p className="mt-3 font-display text-xl italic leading-relaxed text-alpine">
-                  {destinazione.miaEsperienza}
+                  {richNodes(destinazione.miaEsperienza)}
                 </p>
               </div>
             ) : (
-              <div className="rounded-xl border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
+              <div className="rounded-none border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
                 Ricordo personale da aggiungere.
               </div>
             )}
@@ -208,7 +163,7 @@ export default async function DestinazionePage({
                 <h2 className="font-display text-2xl text-alpine">Errori da evitare</h2>
                 <ul className="mt-3 space-y-1.5 text-base leading-relaxed text-stone">
                   {destinazione.erroriDaEvitare.map((v) => (
-                    <li key={v}>· {v}</li>
+                    <li key={v}>· {richNodes(v)}</li>
                   ))}
                 </ul>
               </div>

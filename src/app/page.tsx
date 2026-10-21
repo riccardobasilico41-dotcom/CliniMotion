@@ -137,7 +137,7 @@ export default function HomePage() {
               </p>
               <Link
                 href="/viaggi"
-                className="inline-flex items-center gap-2 rounded-full bg-alpine px-7 py-3.5 text-sm font-medium text-cream transition-colors duration-150 hover:bg-alpine-dark"
+                className="inline-flex items-center gap-2 rounded-none bg-alpine px-7 py-3.5 text-sm font-medium text-cream transition-colors duration-150 hover:bg-alpine-dark"
               >
                 Esplora tutti i {viaggi.length} viaggi
                 <ArrowRight size={15} />
@@ -151,7 +151,7 @@ export default function HomePage() {
         <Container>
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
-              <h2 className="font-display text-3xl font-medium text-balance text-alpine sm:text-4xl">
+              <h2 className="font-display text-[clamp(2rem,3.4vw,3rem)] text-balance text-alpine">
                 Le sette meraviglie del mondo
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">

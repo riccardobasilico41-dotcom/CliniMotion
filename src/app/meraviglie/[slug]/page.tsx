@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { ArrowLeft, ArrowUpRight, AlertTriangle } from 'lucide-react'
+import { ArrowUpRight, AlertTriangle } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
-import { Reveal } from '@/components/Reveal'
 import { ContentStatusBadge } from '@/components/ui/ContentStatusBadge'
 import { PracticalInfo } from '@/components/ui/PracticalInfo'
 import { getAllMeraviglie, getMeraviglia } from '@/lib/meraviglie'
@@ -11,7 +9,9 @@ import { pageMetadata } from '@/lib/seo'
 import { JsonLd } from '@/components/JsonLd'
 import { breadcrumbJsonLd } from '@/lib/structured-data'
 import { getHeroVideoMeraviglia } from '@/content/meraviglie-hero-video'
-import { MeravigliaHeroMedia } from '@/components/signature/MeravigliaHeroMedia'
+import { creditiHeroVideoMeraviglie } from '@/content/meraviglie-hero-video-crediti'
+import { creditiMeraviglie } from '@/content/meraviglie-foto-crediti'
+import { PageHeader } from '@/components/ui/PageHeader'
 
 export async function generateStaticParams() {
   return getAllMeraviglie().map((m) => ({ slug: m.slug }))
@@ -37,6 +37,7 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
   const { slug } = await params
   const meraviglia = getMeraviglia(slug)
   if (!meraviglia) notFound()
+  const heroVideo = getHeroVideoMeraviglia(meraviglia.slug)
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -62,55 +63,26 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
           ]),
         ]}
       />
-      <section className="relative flex min-h-[42vh] items-end overflow-hidden border-b border-alpine/10 bg-alpine-dark text-cream sm:min-h-[48vh]">
-        {(meraviglia.heroImage || getHeroVideoMeraviglia(meraviglia.slug)) && (
-          <>
-            <MeravigliaHeroMedia
-              image={meraviglia.heroImage}
-              imageAlt={meraviglia.heroImageAlt}
-              video={getHeroVideoMeraviglia(meraviglia.slug)}
-            />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-alpine-dark/90 via-alpine-dark/25 to-alpine-dark/10" />
-          </>
-        )}
-        <Container className="relative z-10 py-16 sm:py-20">
-          <Reveal>
-            <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-xs text-cream/60">
-              <Link href="/" className="hover:text-cream">
-                Home
-              </Link>
-              <span>/</span>
-              <Link href="/meraviglie" className="hover:text-cream">
-                Meraviglie
-              </Link>
-              <span>/</span>
-              <span className="text-cream/85">{meraviglia.nome}</span>
-            </nav>
-            <Link
-              href="/meraviglie"
-              className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-cream/60 hover:text-cream"
-            >
-              <ArrowLeft size={13} />
-              Torna alle meraviglie
-            </Link>
-            <div className="mt-6 flex flex-wrap items-center gap-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">
-                {meraviglia.paese} · {meraviglia.citta}
-              </p>
-              {meraviglia.visitataPersonalmente && <ContentStatusBadge stato="provato" />}
-            </div>
-            <h1 className="mt-3 max-w-2xl font-display text-4xl font-medium leading-tight sm:text-5xl">
-              {meraviglia.nome}
-              {meraviglia.nomeLocale && (
-                <span className="ml-3 font-display text-xl font-normal italic text-cream/60">
-                  {meraviglia.nomeLocale}
-                </span>
-              )}
-            </h1>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-cream/70">{meraviglia.descrizione}</p>
-          </Reveal>
-        </Container>
-      </section>
+      <PageHeader
+        crumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Meraviglie del mondo', href: '/meraviglie' },
+          { label: meraviglia.nome },
+        ]}
+        eyebrow={`${meraviglia.paese} · ${meraviglia.citta}`}
+        badge={meraviglia.visitataPersonalmente ? <ContentStatusBadge stato="provato" /> : undefined}
+        title={meraviglia.nome}
+        titleNote={meraviglia.nomeLocale}
+        lead={<p>{meraviglia.descrizione}</p>}
+        media={
+          heroVideo
+            ? { tipo: 'video', src: heroVideo.src, poster: heroVideo.poster }
+            : meraviglia.heroImage
+              ? { tipo: 'foto', src: meraviglia.heroImage, alt: meraviglia.heroImageAlt }
+              : undefined
+        }
+        credito={heroVideo ? creditiHeroVideoMeraviglie[meraviglia.slug] : creditiMeraviglie[meraviglia.slug]}
+      />
 
       <section className="py-16 sm:py-20">
         <Container className="grid gap-14 lg:grid-cols-[1.6fr_1fr]">
@@ -124,7 +96,7 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
               <h2 className="font-display text-2xl text-alpine">Cosa vedere e perché</h2>
               <div className="mt-4 space-y-4">
                 {meraviglia.sezioniDaVedere.map((sezione) => (
-                  <div key={sezione.nome} className="rounded-xl border border-alpine/10 bg-cream-dark/40 p-5">
+                  <div key={sezione.nome} className="rounded-none border border-alpine/10 bg-cream-dark/40 p-5">
                     <h3 className="font-display text-lg text-alpine">{sezione.nome}</h3>
                     <p className="mt-1.5 text-sm leading-relaxed text-stone">{sezione.perche}</p>
                   </div>
@@ -162,7 +134,7 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
             </div>
 
             {meraviglia.scamDaEvitare.length > 0 && (
-              <div className="rounded-2xl border border-rosso/20 bg-rosso/5 p-6">
+              <div className="rounded-none border border-rosso/20 bg-rosso/5 p-6">
                 <h2 className="flex items-center gap-2 font-display text-2xl text-rosso-dark">
                   <AlertTriangle size={20} />
                   Truffe comuni da evitare
@@ -194,7 +166,7 @@ export default async function MeravigliaPage({ params }: { params: Promise<{ slu
                 </p>
               </div>
             ) : (
-              <div className="rounded-xl border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
+              <div className="rounded-none border border-dashed border-alpine/20 p-5 text-sm text-stone/70">
                 Ricordo personale da aggiungere.
               </div>
             )}

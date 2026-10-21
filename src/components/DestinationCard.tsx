@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Waves, Trees, Landmark, Music, Tent, Compass } from 'lucide-react'
 import type { Destinazione } from '@/lib/types'
 import { ContentStatusBadge } from './ui/ContentStatusBadge'
+import { plain } from '@/components/ui/Rich'
 
 const TIPOLOGIA_ICON: Record<string, typeof Waves> = {
   mare: Waves,
@@ -28,7 +29,7 @@ export function DestinationCard({ destinazione, paeseSlug }: { destinazione: Des
   return (
     <Link
       href={`/destinazioni/${paeseSlug}/${destinazione.slug}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
+      className="group flex flex-col overflow-hidden rounded-none border border-alpine/10 bg-white transition-[border-color,transform] duration-150 ease-out hover:border-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
     >
       <div
         role={destinazione.immagine ? undefined : 'img'}
@@ -62,7 +63,7 @@ export function DestinationCard({ destinazione, paeseSlug }: { destinazione: Des
       </div>
       <div className="flex flex-1 flex-col gap-2.5 p-5">
         <h3 className="font-display text-lg font-medium leading-tight text-alpine">{destinazione.nome}</h3>
-        <p className="text-sm leading-relaxed text-stone">{destinazione.introduzione}</p>
+        <p className="text-sm leading-relaxed text-stone">{plain(destinazione.introduzione)}</p>
         <div className="mt-auto flex items-center justify-between pt-2">
           <span className="text-xs text-stone/70">{destinazione.giorniConsigliati}</span>
           <span className="text-sm font-medium text-rosso">Scopri la destinazione</span>

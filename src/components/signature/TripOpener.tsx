@@ -120,7 +120,7 @@ export function TripOpener({
             {codicePaese(paeseSlug)}
           </span>
           {inLavorazione && (
-            <span className="rounded-full bg-cream/10 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/70">
+            <span className="rounded-none bg-cream/10 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-cream/70">
               Racconto in arrivo
             </span>
           )}

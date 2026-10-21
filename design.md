@@ -1,5 +1,38 @@
 # Design — Viaggi 360°
 
+> **Aggiornamento ottobre 2026 · Stile A "Ghat".** Il sistema è passato da
+> Fraunces + Inter / alpino-crema-rosso a uno stile più editoriale e grafico:
+> **Bricolage Grotesque** (titoli, 750-800, interlinea stretta, tracking -0.03em,
+> sempre in tondo) + **Schibsted Grotesk** (testo); **bianco calce, nero caldo, un
+> solo rosso sindoor**; **angoli vivi ovunque** (niente pillole, niente card
+> arrotondate; restano tondi solo i pallini indicatori); bottone primario **rosso
+> pieno squadrato**, secondario = link sottolineato in rosso. I nomi dei token
+> (`alpine`, `cream`, `rosso`…) restano per compatibilità con i componenti: sono
+> cambiati solo i valori (vedi sotto). La Home apre con un **hero diviso**: titolo
+> grande a sinistra con le ultime parole in rosso, una foto vera a destra con il
+> credito sotto. Testata (nav) a una riga: marchio a sinistra, voci a destra.
+> Dove il testo qui sotto contraddice questo paragrafo, vale questo paragrafo.
+
+### Token Stile A (valori attuali)
+```css
+:root {
+  --color-alpine:      oklch(21.5% 0.006 60);  /* #1E1B18 nero caldo */
+  --color-alpine-dark: oklch(16.5% 0.005 60);  /* #121110 */
+  --color-cream:       oklch(96.9% 0.005 95);  /* #F6F5F1 bianco calce */
+  --color-cream-dark:  oklch(93.5% 0.008 95);  /* #ECEAE3 */
+  --color-rosso:       oklch(50.5% 0.18 27);   /* #B3261E sindoor */
+  --color-rosso-dark:  oklch(42% 0.15 27);     /* #8E1D17 */
+  --color-stone:       oklch(39.5% 0.012 70);  /* #4A4640 */
+  --color-ink:         oklch(19% 0.006 60);    /* #161412 */
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-body:    "Schibsted Grotesk", sans-serif;
+}
+```
+
+---
+
+## Storico (sistema precedente, per riferimento)
+
 A locked design system for this app, produced by `hallmark redesign` (multi-page flow).
 Every page redesign in this project reads this file before emitting code. Extend or
 amend this file when the system needs to grow — don't regenerate per page.

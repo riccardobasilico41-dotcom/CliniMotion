@@ -95,7 +95,7 @@ export function FeaturedJourney({
     <section className="border-t border-alpine/10 bg-cream-dark/40">
       <Container className="py-16 sm:py-20">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rosso">Il viaggio in evidenza</p>
-        <h2 className="mt-3 max-w-2xl font-display text-3xl font-medium leading-tight text-balance text-alpine sm:text-4xl">
+        <h2 className="mt-3 max-w-2xl font-display text-[clamp(2rem,3.4vw,3rem)] text-balance text-alpine">
           {titolo}
         </h2>
       </Container>

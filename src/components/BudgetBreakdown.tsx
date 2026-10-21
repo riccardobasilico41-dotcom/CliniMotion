@@ -2,7 +2,7 @@ import type { VoceBudget } from '@/lib/types'
 
 export function BudgetBreakdown({ voci }: { voci: VoceBudget[] }) {
   return (
-    <div className="overflow-hidden rounded-2xl border border-alpine/10 bg-white">
+    <div className="overflow-hidden rounded-none border border-alpine/10 bg-white">
       <table className="w-full text-sm">
         <tbody>
           {voci.map((voce, i) => {

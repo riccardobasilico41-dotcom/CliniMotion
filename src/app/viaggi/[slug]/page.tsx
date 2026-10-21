@@ -5,14 +5,16 @@ import { ScrollProgress } from '@/components/motion-primitives/scroll-progress'
 import { TripSummary } from '@/components/TripSummary'
 import { BudgetBreakdown } from '@/components/BudgetBreakdown'
 import { StickyTableOfContents, type TocItem } from '@/components/StickyTableOfContents'
-import { TripOpener } from '@/components/signature/TripOpener'
+import { HeaderFacts, PageHeader } from '@/components/ui/PageHeader'
+import { creditiCopertine } from '@/content/viaggi-copertine-crediti'
+import { creditiHeroVideo } from '@/content/viaggi-hero-video-crediti'
 import { DaySectionSignature } from '@/components/signature/DaySectionSignature'
 import { RouteLine } from '@/components/signature/RouteLine'
 import { Container } from '@/components/ui/Container'
 import { getAllViaggi, getViaggioBySlug, type Viaggio } from '@/lib/viaggi'
 import { getTripMeta } from '@/lib/geo'
 import type { ViaggioInBreve, TripMeta } from '@/lib/types'
-import { slugify } from '@/lib/utils'
+import { getContinente, slugify } from '@/lib/utils'
 import { JsonLd } from '@/components/JsonLd'
 import { articoloViaggioJsonLd, breadcrumbJsonLd } from '@/lib/structured-data'
 import { copertineViaggi } from '@/content/viaggi-copertine'
@@ -147,18 +149,35 @@ function SignatureViaggioContent({
 }) {
   return (
     <>
-      <TripOpener
-        titolo={viaggio.titolo}
-        editorialHeadline={editorial.editorialHeadline}
-        editorialHook={editorial.editorialHook}
-        paeseSlug={meta.paeseSlug}
-        periodoBreve={viaggio.periodoBreve}
-        durataBreve={viaggio.durataBreve}
-        compagniBreve={viaggio.compagniBreve}
-        tappe={meta.tappeMappa}
-        inLavorazione={viaggio.inLavorazione}
-        copertina={copertina}
-        video={video}
+      <PageHeader
+        crumbs={[{ label: 'Home', href: '/' }, { label: 'Viaggi', href: '/viaggi' }, { label: viaggio.titolo }]}
+        eyebrow={getContinente(viaggio.categorie)}
+        badge={
+          viaggio.inLavorazione ? (
+            <span className="border border-ink/20 px-2.5 py-1 text-[0.65rem] font-semibold uppercase tracking-wider text-stone">
+              Racconto in arrivo
+            </span>
+          ) : undefined
+        }
+        title={editorial.editorialHeadline ?? viaggio.titolo}
+        lead={editorial.editorialHook ? <p>{editorial.editorialHook}</p> : undefined}
+        meta={
+          <HeaderFacts
+            items={[
+              { label: 'Periodo', value: viaggio.periodoBreve },
+              { label: 'Durata', value: viaggio.durataBreve },
+              { label: 'Con chi', value: viaggio.compagniBreve },
+            ]}
+          />
+        }
+        media={
+          video
+            ? { tipo: 'video', src: video.src, poster: video.poster }
+            : copertina
+              ? { tipo: 'foto', src: copertina.immagine, alt: copertina.imageAlt }
+              : undefined
+        }
+        credito={video ? creditiHeroVideo[viaggio.slug] : copertina ? creditiCopertine[viaggio.slug] : undefined}
       />
 
       <section className="py-16 sm:py-20">
@@ -178,7 +197,7 @@ function SignatureViaggioContent({
                   {CAMPI_VIAGGIO_IN_BREVE.map(({ key, label }) => {
                     const valore = meta.viaggioInBreve[key]
                     return (
-                      <div key={key} className="rounded-xl border border-dashed border-alpine/20 p-4">
+                      <div key={key} className="rounded-none border border-dashed border-alpine/20 p-4">
                         <dt className="text-xs font-semibold uppercase tracking-wider text-stone/70">{label}</dt>
                         <dd className={`mt-1.5 text-sm leading-relaxed ${valore ? 'text-ink' : 'italic text-stone/60'}`}>
                           {valore ?? 'Ricordo personale da aggiungere'}
@@ -196,7 +215,7 @@ function SignatureViaggioContent({
                 <p className="mt-2 max-w-xl text-sm leading-relaxed text-stone">
                   Le tappe dell&apos;itinerario, nell&apos;ordine in cui si visitano.
                 </p>
-                <div className="mt-8 rounded-2xl border border-alpine/10 bg-cream-dark/40 p-6 sm:p-10">
+                <div className="mt-8 rounded-none border border-alpine/10 bg-cream-dark/40 p-6 sm:p-10">
                   <RouteLine
                     tappe={meta.tappeMappa}
                     paeseSlug={meta.paeseSlug}
@@ -278,7 +297,7 @@ function SignatureViaggioContent({
             {viaggio.tags.length > 0 && (
               <div className="flex flex-wrap gap-2">
                 {viaggio.tags.map((tag) => (
-                  <span key={tag} className="rounded-full bg-alpine/5 px-3 py-1 text-xs font-medium text-alpine">
+                  <span key={tag} className="rounded-none bg-alpine/5 px-3 py-1 text-xs font-medium text-alpine">
                     #{tag}
                   </span>
                 ))}
@@ -290,7 +309,7 @@ function SignatureViaggioContent({
             {toc.length > 0 && <StickyTableOfContents items={toc} />}
 
             {viaggio.schedaPratica && (
-              <div className="rounded-2xl border border-alpine/10 bg-cream-dark/50 p-6">
+              <div className="rounded-none border border-alpine/10 bg-cream-dark/50 p-6">
                 <h2 className="font-display text-lg text-alpine">Scheda pratica</h2>
                 {viaggio.periodo && viaggio.periodo !== viaggio.periodoBreve && (
                   <p className="mt-4 text-sm leading-relaxed text-stone">

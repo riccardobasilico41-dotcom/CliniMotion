@@ -1,20 +1,24 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
 
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "900"],
-  style: ["normal", "italic"],
+// Stile A "Ghat": grotesk espressivo per i titoli, grotesk sobrio per il testo.
+// Font variabili ospitati sul sito (src/app/fonts): niente richieste a Google, niente errori di build.
+const bricolage = localFont({
+  src: "./fonts/BricolageGrotesque-normal-500-800.woff2",
+  variable: "--font-bricolage",
+  weight: "500 800",
+  display: "swap",
 });
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+const schibsted = localFont({
+  src: "./fonts/SchibstedGrotesk-normal-400-700.woff2",
+  variable: "--font-schibsted",
+  weight: "400 700",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -52,7 +56,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="it"
-      className={`${fraunces.variable} ${inter.variable} h-full antialiased`}
+      className={`${bricolage.variable} ${schibsted.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-cream font-sans text-ink">
         <script

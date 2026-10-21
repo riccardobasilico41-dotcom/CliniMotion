@@ -108,7 +108,7 @@ export function TripFilters({ viaggi }: { viaggi: Viaggio[] }) {
           <select
             value={continente}
             onChange={(e) => setContinente(e.target.value)}
-            className="rounded-full border border-alpine/20 bg-white px-3 py-1.5 text-sm text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine"
+            className="rounded-none border border-alpine/20 bg-white px-3 py-1.5 text-sm text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine"
           >
             <option value="tutti">Tutti</option>
             {continenti.map((c) => (
@@ -124,7 +124,7 @@ export function TripFilters({ viaggi }: { viaggi: Viaggio[] }) {
           <select
             value={paese}
             onChange={(e) => setPaese(e.target.value)}
-            className="rounded-full border border-alpine/20 bg-white px-3 py-1.5 text-sm text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine"
+            className="rounded-none border border-alpine/20 bg-white px-3 py-1.5 text-sm text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine"
           >
             <option value="tutti">Tutti</option>
             {paesi.map((p) => (
@@ -140,7 +140,7 @@ export function TripFilters({ viaggi }: { viaggi: Viaggio[] }) {
           <select
             value={durata}
             onChange={(e) => setDurata(e.target.value)}
-            className="rounded-full border border-alpine/20 bg-white px-3 py-1.5 text-sm text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine"
+            className="rounded-none border border-alpine/20 bg-white px-3 py-1.5 text-sm text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine"
           >
             <option value="tutte">Tutte</option>
             {FASCE_DURATA.map((f) => (
@@ -178,7 +178,7 @@ export function TripFilters({ viaggi }: { viaggi: Viaggio[] }) {
                 type="button"
                 onClick={() => toggleStile(stile)}
                 aria-pressed={attivo}
-                className={`rounded-full border px-3 py-1.5 text-sm capitalize transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine ${
+                className={`rounded-none border px-3 py-1.5 text-sm capitalize transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine ${
                   attivo
                     ? 'border-alpine bg-alpine text-cream'
                     : 'border-alpine/20 bg-white text-stone hover:border-alpine/40'
@@ -201,7 +201,7 @@ export function TripFilters({ viaggi }: { viaggi: Viaggio[] }) {
             ({ continente, items }) => (
               <div key={continente}>
                 <div className="flex items-baseline gap-4 border-b border-alpine/15 pb-3">
-                  <h2 className="font-display text-2xl font-medium text-alpine sm:text-3xl">{continente}</h2>
+                  <h2 className="font-display text-[clamp(1.6rem,2.4vw,2.1rem)] text-alpine">{continente}</h2>
                   <span className="text-xs font-semibold uppercase tracking-[0.18em] text-stone/60">
                     {items.length} {items.length === 1 ? 'viaggio' : 'viaggi'}
                   </span>

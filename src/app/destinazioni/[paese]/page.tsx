@@ -16,6 +16,7 @@ import { breadcrumbJsonLd } from '@/lib/structured-data'
 import { getAllPaesi, getPaese, getDestinazioniByPaese, getEsperienzeByPaese, getTripMeta } from '@/lib/geo'
 import { getViaggioBySlug } from '@/lib/viaggi'
 import { pageMetadata } from '@/lib/seo'
+import { richNodes } from '@/components/ui/Rich'
 
 export async function generateStaticParams() {
   return getAllPaesi().map((p) => ({ paese: p.slug }))
@@ -80,15 +81,15 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
               description="Itinerario completo, giorno per giorno — con quello che rifarei e quello che cambierei."
             />
             <Reveal>
-              <div className="mt-8 grid gap-10 rounded-2xl border border-alpine/10 bg-cream-dark/40 p-6 sm:p-10 lg:grid-cols-[1.4fr_1fr]">
+              <div className="mt-8 grid gap-10 rounded-none border border-alpine/10 bg-cream-dark/40 p-6 sm:p-10 lg:grid-cols-[1.4fr_1fr]">
                 <div>
                   {tripPrincipale.apertura ? (
                     <p className="font-display text-xl italic leading-relaxed text-alpine">
-                      {tripPrincipale.apertura}
+                      {richNodes(tripPrincipale.apertura)}
                     </p>
                   ) : (
                     <p className="font-display text-xl italic leading-relaxed text-stone">
-                      {tripPrincipale.descrizione}
+                      {richNodes(tripPrincipale.descrizione)}
                     </p>
                   )}
                   <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3 text-sm">
@@ -100,7 +101,7 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
                       <>
                         <div>
                           <dt className="text-xs font-semibold uppercase tracking-wider text-stone/60">Trasporti</dt>
-                          <dd className="text-ink">{tripMeta.trasporti}</dd>
+                          <dd className="text-ink">{richNodes(tripMeta.trasporti)}</dd>
                         </div>
                         <div>
                           <dt className="text-xs font-semibold uppercase tracking-wider text-stone/60">Stile</dt>
@@ -108,7 +109,7 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
                         </div>
                         <div>
                           <dt className="text-xs font-semibold uppercase tracking-wider text-stone/60">Ritmo</dt>
-                          <dd className="text-ink">{tripMeta.ritmo}</dd>
+                          <dd className="text-ink">{richNodes(tripMeta.ritmo)}</dd>
                         </div>
                       </>
                     )}
@@ -116,14 +117,14 @@ export default async function PaesePage({ params }: { params: Promise<{ paese: s
                   <div className="mt-8 flex flex-wrap gap-3">
                     <Link
                       href={`/viaggi/${tripPrincipale.slug}`}
-                      className="inline-flex items-center gap-2 rounded-full bg-alpine px-6 py-3 text-sm font-medium text-cream transition-colors hover:bg-alpine-dark"
+                      className="inline-flex items-center gap-2 rounded-none bg-alpine px-6 py-3 text-sm font-medium text-cream transition-colors hover:bg-alpine-dark"
                     >
                       Copia questo itinerario
                       <ArrowRight size={15} />
                     </Link>
                     <Link
                       href={`/viaggi/${tripPrincipale.slug}#itinerario-giorno-per-giorno`}
-                      className="inline-flex items-center gap-2 rounded-full border border-alpine/30 px-6 py-3 text-sm font-medium text-alpine transition-colors hover:bg-alpine/5"
+                      className="inline-flex items-center gap-2 rounded-none border border-alpine/30 px-6 py-3 text-sm font-medium text-alpine transition-colors hover:bg-alpine/5"
                     >
                       Leggi il viaggio giorno per giorno
                     </Link>

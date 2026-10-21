@@ -8,7 +8,7 @@ export function MeravigliaCard({ meraviglia }: { meraviglia: Meraviglia }) {
   return (
     <Link
       href={`/meraviglie/${meraviglia.slug}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
+      className="group flex flex-col overflow-hidden rounded-none border border-alpine/10 bg-white transition-[border-color,transform] duration-150 ease-out hover:border-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
     >
       <div
         role={meraviglia.heroImage ? undefined : 'img'}

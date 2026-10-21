@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
+import { PageHeader } from '@/components/ui/PageHeader'
 import { RevealGroup, RevealItem } from '@/components/Reveal'
 import { getAllPaesi } from '@/lib/geo'
 import { raggruppaPerContinente } from '@/lib/utils'
@@ -21,7 +22,7 @@ export default function DestinazioniIndexPage() {
   const gruppi = raggruppaPerContinente(paesi, (p) => p.continente)
 
   return (
-    <section className="py-20 sm:py-28">
+    <>
       <JsonLd
         data={raccoltaJsonLd({
           nome: 'Destinazioni',
@@ -30,22 +31,24 @@ export default function DestinazioniIndexPage() {
           elementi: paesi.map((p) => ({ nome: p.nome, percorso: `/destinazioni/${p.slug}` })),
         })}
       />
+      <PageHeader
+        crumbs={[{ label: 'Home', href: '/' }, { label: 'Destinazioni' }]}
+        eyebrow="Paese per Paese"
+        title="Destinazioni"
+        lead={
+          <p>
+            {paesi.length} Paesi divisi per macro-regione: scegline uno per esplorarlo destinazione per destinazione ed
+            esperienza per esperienza, non solo come itinerario unico.
+          </p>
+        }
+      />
+      <section className="py-14 sm:py-20">
       <Container>
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-stone/50">Paese per Paese</p>
-        <h1 className="mt-3 max-w-2xl font-display text-4xl font-medium leading-tight text-balance text-alpine sm:text-5xl">
-          Destinazioni
-        </h1>
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
-          {paesi.length} Paesi divisi per macro-regione: scegline uno per esplorarlo destinazione per destinazione
-          ed esperienza per esperienza, non solo come itinerario unico.
-        </p>
-        <div className="mt-8 max-w-2xl border-t border-alpine/10" />
-
-        <div className="mt-14 space-y-16">
+        <div className="space-y-16">
           {gruppi.map(({ continente, items }) => (
             <div key={continente}>
               <div className="flex items-baseline gap-4 border-b border-alpine/15 pb-3">
-                <h2 className="font-display text-2xl font-medium text-alpine sm:text-3xl">{continente}</h2>
+                <h2 className="font-display text-[clamp(1.6rem,2.4vw,2.1rem)] text-alpine">{continente}</h2>
                 <span className="text-xs font-semibold uppercase tracking-[0.18em] text-stone/60">
                   {items.length} {items.length === 1 ? 'Paese' : 'Paesi'}
                 </span>
@@ -56,7 +59,7 @@ export default function DestinazioniIndexPage() {
                   <RevealItem key={paese.slug}>
                     <Link
                       href={`/destinazioni/${paese.slug}`}
-                      className="group flex h-full flex-col gap-3 rounded-2xl border border-alpine/10 bg-white p-6 transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg active:scale-[0.99] motion-reduce:active:scale-100"
+                      className="group flex h-full flex-col gap-3 rounded-none border border-alpine/10 bg-white p-6 transition-[border-color,transform] duration-150 ease-out hover:border-ink active:scale-[0.99] motion-reduce:active:scale-100"
                     >
                       <h3 className="font-display text-xl font-medium text-alpine">{paese.nome}</h3>
                       <p className="text-sm leading-relaxed text-stone">{paese.descrizione}</p>
@@ -75,6 +78,7 @@ export default function DestinazioniIndexPage() {
           ))}
         </div>
       </Container>
-    </section>
+      </section>
+    </>
   )
 }

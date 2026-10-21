@@ -9,5 +9,19 @@
     "footer": "Ft1 Mast-headed",
     "enrichment": "real travel photography (Home hero + 4 CountryHero pages), typography-only elsewhere",
     "brief": "Viaggi 360° · personal travel diary/blog, multi-page redesign via design.md"
+  },
+  {
+    "date": "2026-10-21",
+    "scope": "app",
+    "change": "Stile A Ghat completato + pagine omogenee",
+    "header": "PageHeader unico per tutte le pagine interne (briciole, etichetta rossa, h1 clamp(2.5rem,5.2vw,5rem), foto/video vero a destra 7/5 con credito; senza media testata tipografica)",
+    "fonts": "Bricolage Grotesque + Schibsted Grotesk self-hosted (next/font/local)",
+    "fixes": [
+      "markdown in linea (**, *, link) reso nelle schede",
+      "/meraviglie senza h1",
+      "ombre -> bordo ink in hover",
+      "scala h2 di sezione unica",
+      "crediti CC BY/BY-SA mostrati sotto foto e video"
+    ]
   }
 ]

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { richNodes } from './Rich'
 
 export type PracticalInfoItem = {
   label: string
@@ -18,7 +19,7 @@ export function PracticalInfo({ items, className = '' }: { items: PracticalInfoI
       {items.map((item) => (
         <div
           key={item.label}
-          className="rounded-xl border border-alpine/10 bg-white p-4"
+          className="rounded-none border border-alpine/10 bg-white p-4"
         >
           <dt className="text-xs font-semibold uppercase tracking-wider text-stone/70">{item.label}</dt>
           {item.href ? (
@@ -30,7 +31,7 @@ export function PracticalInfo({ items, className = '' }: { items: PracticalInfoI
               <ArrowRight size={13} />
             </Link>
           ) : (
-            <dd className="mt-1.5 text-sm leading-relaxed text-ink">{item.value || 'da completare'}</dd>
+            <dd className="mt-1.5 text-sm leading-relaxed text-ink">{item.value ? richNodes(item.value) : 'da completare'}</dd>
           )}
         </div>
       ))}

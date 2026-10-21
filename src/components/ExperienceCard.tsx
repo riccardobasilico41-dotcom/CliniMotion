@@ -3,12 +3,13 @@ import Image from 'next/image'
 import { MapPin, Clock3 } from 'lucide-react'
 import type { Esperienza } from '@/lib/types'
 import { PersonalVerdict } from './ui/PersonalVerdict'
+import { plain } from '@/components/ui/Rich'
 
 export function ExperienceCard({ esperienza, paeseSlug }: { esperienza: Esperienza; paeseSlug: string }) {
   return (
     <Link
       href={`/esperienze/${paeseSlug}/${esperienza.slug}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-alpine/10 bg-white transition-[box-shadow,transform] duration-150 ease-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
+      className="group flex flex-col overflow-hidden rounded-none border border-alpine/10 bg-white transition-[border-color,transform] duration-150 ease-out hover:border-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 active:scale-[0.99] motion-reduce:active:scale-100"
     >
       {esperienza.immagine && (
         <div className="relative h-36 overflow-hidden">
@@ -28,13 +29,13 @@ export function ExperienceCard({ esperienza, paeseSlug }: { esperienza: Esperien
         </div>
         <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-stone/70">
           <span className="inline-flex items-center gap-1.5">
-            <MapPin size={13} /> {esperienza.localita}
+            <MapPin size={13} /> {plain(esperienza.localita)}
           </span>
           <span className="inline-flex items-center gap-1.5">
-            <Clock3 size={13} /> {esperienza.durata}
+            <Clock3 size={13} /> {plain(esperienza.durata)}
           </span>
         </div>
-        <p className="text-sm leading-relaxed text-stone">{esperienza.percheFarla}</p>
+        <p className="text-sm leading-relaxed text-stone">{plain(esperienza.percheFarla)}</p>
         <span className="mt-auto inline-flex items-center pt-1 text-sm font-medium text-rosso">
           Scopri l&apos;esperienza
         </span>

@@ -26,7 +26,7 @@ export function VisualArchive({
     <section className="border-t border-alpine/10 py-24 sm:py-32">
       <Container className="mb-10">
         <div className="flex flex-wrap items-end justify-between gap-4">
-          <h2 className="max-w-xl font-display text-3xl font-medium leading-tight text-balance text-alpine sm:text-4xl">
+          <h2 className="max-w-xl font-display text-[clamp(2rem,3.4vw,3rem)] text-balance text-alpine">
             L&apos;archivio dei viaggi
           </h2>
           <Link
@@ -48,7 +48,7 @@ export function VisualArchive({
               <Link
                 key={viaggio.slug}
                 href={`/viaggi/${viaggio.slug}`}
-                className="group relative flex h-[26rem] w-[19rem] shrink-0 snap-start flex-col overflow-hidden rounded-none border border-alpine/10 transition-shadow duration-150 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 sm:w-[22rem]"
+                className="group relative flex h-[26rem] w-[19rem] shrink-0 snap-start flex-col overflow-hidden rounded-none border border-alpine/10 transition-colors duration-150 hover:border-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-alpine focus-visible:ring-offset-2 sm:w-[22rem]"
               >
                 {copertina ? (
                   <>
