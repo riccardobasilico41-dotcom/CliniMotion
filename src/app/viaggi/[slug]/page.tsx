@@ -273,7 +273,7 @@ function SignatureViaggioContent({
             <div id="budget" className="scroll-mt-24">
               <h2 className="font-display text-2xl text-alpine">Budget</h2>
               <p className="mt-2 text-sm text-stone">
-                Voci di spesa indicative: dove non c&apos;è un dato affidabile, la voce resta da completare invece di
+                Voci di spesa indicative: dove non c&apos;è un dato affidabile, la voce resta vuota invece di
                 una stima inventata.
               </p>
               <div className="mt-4">

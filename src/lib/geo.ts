@@ -315,6 +315,7 @@ export function getDestinazioniByEsperienza(esperienza: Esperienza): Destinazion
 const NOTA_LAVORO = /(da confermare|da ricordare|da completare|da recuperare|con foto\/ricordi)/i
 function pulisci<T>(v: T): T {
   if (typeof v === 'string') {
+    if (/^\s*(da completare|da confermare|da ricordare|da recuperare)\b/i.test(v)) return '' as T
     return v
       .replace(/\s*\((?:[^()]*?)(?:da confermare|da ricordare|da completare|da recuperare)(?:[^()]*?)\)/gi, '')
       .trim() as T
