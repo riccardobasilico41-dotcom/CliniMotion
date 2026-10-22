@@ -1,7 +1,7 @@
 # Transilvania Express in 5 giorni: castelli, saline sotterranee e la strada più bella del mondo
 
-**Stato bozza:** 🟡 in lavorazione (itinerario, info pratiche e aneddoti pronti grazie a diario di viaggio, foglio giorno-per-giorno e Vade Mecum ufficiali — aneddoti scritti come bozza da rileggere e personalizzare; manca la conferma delle scelte effettive fatte per alcune tappe facoltative)
-**Periodo del viaggio:** ponte di Halloween, 31 ottobre - 4 novembre [anno da confermare]
+**Stato bozza:** 🟡 in lavorazione (itinerario, info pratiche e aneddoti pronti grazie a diario di viaggio, foglio giorno-per-giorno e Vade Mecum ufficiali — apertura e chiusura scritte dai ricordi dell'autore)
+**Periodo del viaggio:** ponte di Halloween, 31 ottobre - 4 novembre 2024
 **Durata:** 5 giorni, 4 notti
 **Compagni di viaggio:** on the road con auto a noleggio self-drive per tutto il percorso
 **Categoria:** Europa · Romania · Transilvania · on the road · castelli
@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-Il primo vero momento del viaggio è arrivato quando, lasciata l'autostrada per la prima strada di montagna, mi sono reso conto di quanto tempo avrei passato al volante nei giorni successivi: cinque giorni per attraversare Valacchia e Transilvania, con punte di cinque ore di guida in un solo giorno. Ma ne è valsa la pena fin dalla prima tappa vera, il Castello di Peleș che spunta tra gli alberi con la sua facciata neorinascimentale — uno dei castelli più belli che abbia visto in Europa, altro che Dracula.
+Il ricordo più forte di questo viaggio è la Transfăgărășan. Il foliage accompagnava tutta la strada, e ai bordi della carreggiata sono comparsi gli orsi. Una cosa incredibile. Era il ponte di Halloween del 2024: cinque giorni in auto a noleggio partendo da Bucarest, tra Valacchia e Transilvania, con i castelli di Peleș e Bran, i borghi sassoni, le saline sotterranee di Turda e giornate fino a cinque ore di guida. Qui sotto c'è il giro tappa per tappa, con i posti dove abbiamo dormito e mangiato.
 
 ## Scheda pratica
 - **Quando andare:** clima freddo, spesso piovoso o nevoso — "perfetto per entrare nel mood Transilvania", come recita il Vade Mecum ufficiale. Il meteo può far cambiare l'itinerario in corsa, soprattutto per la Transfăgărășan (vedi sotto).
@@ -38,7 +38,7 @@ Da vedere anche, se c'è tempo, il **Romanian Athenaeum**, splendida sala concer
 
 In serata, meeting di benvenuto in hotel e **walking tour** con guida locale (in alternativa, free walking tour con GuruWalk o Freetour.com, oppure una guida personalizzata come Catalina o Stefania, circa 100€ per 2,5-3h di tour).
 
-**Cena di benvenuto** (inclusa) da **Caru' cu Bere**, nel quartiere storico di Lipscani: ristorante tipico dove si assaggia un po' di tutta la cucina rumena — ottime zuppe e stinco. Nel corso della serata ci sono più spettacoli folk, a intervalli regolari, con ballerini in abiti tradizionali. Budget 25-30€/pax, che copre un piatto principale (sarmale, mici o pollo, sempre con polenta, crauti e patate), una bevanda alcolica e un dolce — i papanași, frittelle con crema e frutti di bosco, da condividere in due o tre persone viste le porzioni enormi. Dopo cena, il quartiere di Lipscani è pieno di bar e locali con musica fino a tardi.
+**Cena di benvenuto** (inclusa) da **Caru' cu Bere**, nel quartiere storico di Lipscani: ristorante tipico dove si assaggia un po' di tutta la cucina rumena — ottime zuppe e stinco. Per me è stato davvero bello, buono e suggestivo. Nel corso della serata ci sono più spettacoli folk, a intervalli regolari, con ballerini in abiti tradizionali. Budget 25-30€/pax, che copre un piatto principale (sarmale, mici o pollo, sempre con polenta, crauti e patate), una bevanda alcolica e un dolce — i papanași, frittelle con crema e frutti di bosco, da condividere in due o tre persone viste le porzioni enormi. Dopo cena, il quartiere di Lipscani è pieno di bar e locali con musica fino a tardi.
 
 *Nota pratica: prelevare contante appena atterrati, e prenotare i taxi dai touch screen del terminal arrivi (tariffa aeroporto-centro non dovrebbe superare i 60 LEI). Compagnie affidabili: Cobălcescu e Cris Taxi.*
 
@@ -58,7 +58,7 @@ Cena in serata da **Sergiana** — zuppe fumanti servite in pagnotte scavate, st
 
 Al mattino si può passare dal **Bear Sanctuary** (tour guidato, biglietti online entro 14 giorni prima): gli orsi sono attivi solo di mattina, quindi va fatta come prima cosa della giornata; per i turni con la Transfăgărășan aperta, si consiglia di saltarla, dato che si vedranno comunque orsi lungo la strada del Day 4.
 
-Un'ora e venti porta a **Viscri** (tappa facoltativa, se i tempi lo permettono): uno dei due principali villaggi sassoni della Transilvania, con la sua **Chiesa Fortificata** del XII secolo, Patrimonio UNESCO (12 LEI/pax).
+Un'ora e venti porta a **Viscri** (tappa facoltativa, se i tempi lo permettono): uno dei due principali villaggi sassoni della Transilvania, con la sua **Chiesa Fortificata** del XII secolo, Patrimonio UNESCO (12 LEI/pax). Io ho fatto tutte le tappe facoltative: il Bear Sanctuary, Viscri e anche la Cetatea Făgărașului.
 
 Proseguendo verso **Sighișoara**, borgo medievale UNESCO con vie acciottolate e case colorate: tappa obbligata alla Torre dell'Orologio e alla casa natale del Conte Dracula (5 LEI per salire al piano superiore, al **Vlad Dracul Restaurant**). Pranzo tra **Gasthaus Altepost** e lo stesso Vlad Dracul Restaurant. Da non perdere la salita alla parte alta della città lungo **The Covered Stairway**, la scalinata coperta in legno.
 
@@ -73,9 +73,9 @@ Al mattino, **city tour di Sibiu** in inglese (2h, guida locale su prenotazione)
 
 Nel primo pomeriggio, 1h30 di auto per raggiungere la **Transfăgărășan**, spesso definita una delle strade più belle al mondo: tornanti spettacolari fino a 2.000 metri di quota, con sosta consigliata al **Balea Lac Restaurant** sul Lago Bâlea. **Il tratto è aperto solo dal 20 giugno al 31 ottobre** (le date vanno sempre controllate sul sito ufficiale): nei turni invernali si sale al lago solo in funivia, con la possibilità però di fermarsi al Balea Ice Hotel (aperto da dicembre a metà aprile) per un drink nell'Ice Bar.
 
-Per i turni nel periodo di apertura della strada, si prosegue verso sud: **ancora 3h45 di auto fino a Bucarest**, con partenza dal Lago Bâlea nel primo pomeriggio per rispettare i tempi. È il tratto in cui è più probabile avvistare **orsi** lungo la carreggiata — foto e video sì, cibo e discese dall'auto no. Possibile sosta fotografica alla **Diga di Vidraru**, spettacolare invaso in cemento tra le montagne.
+Per i turni nel periodo di apertura della strada, si prosegue verso sud: **ancora 3h45 di auto fino a Bucarest**, con partenza dal Lago Bâlea nel primo pomeriggio per rispettare i tempi. È il tratto in cui è più probabile avvistare **orsi** lungo la carreggiata — foto e video sì, cibo e discese dall'auto no. Io la Transfăgărășan l'ho fatta in entrambi i modi, in auto lungo la strada famosa e in funivia. Possibile sosta fotografica alla **Diga di Vidraru**, spettacolare invaso in cemento tra le montagne.
 
-Riconsegna auto ad Avis (Gran Hotel Bucuresti) in serata. **Cena di arrivederci** (non inclusa) da **Hanu' lui Manuc**, nel quartiere di Lipscani — concept molto simile a Caru' cu Bere, prezzi più alti ma cucina eccellente, prenotazione necessaria — oppure all'**Excalibur**, locale in stile medievale. Per chi ha ancora energie, un **pub crawl** organizzato (16€/pax, 4 shot in 4 pub diversi più ingresso in discoteca), o i locali del quartiere: **Freddo**, **St. Patrick**, il bel giardino all'aperto di **Grădina Dorobanți**.
+Riconsegna auto ad Avis (Gran Hotel Bucuresti) in serata. **Cena di arrivederci** (non inclusa) da **Hanu' lui Manuc**, nel quartiere di Lipscani — concept molto simile a Caru' cu Bere, prezzi più alti ma cucina eccellente, prenotazione necessaria — oppure all'**Excalibur**, locale in stile medievale: carino, ma un po' sopravvalutato. Per chi ha ancora energie, un **pub crawl** organizzato (16€/pax, 4 shot in 4 pub diversi più ingresso in discoteca), o i locali del quartiere: **Freddo**, **St. Patrick**, il bel giardino all'aperto di **Grădina Dorobanți**.
 
 ### Giorno 5 — Bucarest: check-out, Terme e saluti
 Ultimo giorno, in base all'orario del volo: mezza giornata (o l'intera giornata) alle **Terme di Bucarest** — un parco termale enorme diviso in tre aree (giochi d'acqua, relax, ristoranti/bar), con un braccialetto per pagare tutto e saldare all'uscita, costo 35€ per l'intera giornata. Le Terme si trovano proprio accanto all'aeroporto, quindi si può uscire con tranquillità anche solo 2 ore prima del volo.
@@ -118,7 +118,7 @@ Per l'ultima notte ho dormito vicino al Palazzo del Parlamento, in un 4 stelle c
 - Non dare da mangiare agli orsi né scendere dall'auto se se ne avvista uno lungo la strada.
 
 ## Chiusura personale
-Tra Peleș e Bran vince nettamente il primo: più bello architettonicamente, meno costruito a tavolino attorno al mito di Dracula, che con questo castello — lo confermano anche le guide — non ha in realtà nessun legame storico reale. La Transfăgărășan ha mantenuto tutte le aspettative, tornanti compresi, e gli orsi avvistati dal finestrino sulla strada del ritorno sono stati la ciliegina sulla torta. Cinque giorni così densi di chilometri li rifarei, ma di corsa: è un viaggio che si vive meglio sapendo già che si tornerà per andare più piano.
+Errori da non ripetere, questa volta, non ne ho. Un consiglio sì, ed è sulla strada. In Romania bisogna guidare con molta attenzione, soprattutto di notte: capita ancora spesso di incontrare calessi senza illuminazione. E il Paese ha uno dei tassi di incidenti stradali più alti d'Europa. Parti con margine, non rincorrere gli orari e, quando puoi, evita di guidare col buio.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonti ufficiali del tour operator (WeRoad):
@@ -128,14 +128,11 @@ Fonti ufficiali del tour operator (WeRoad):
 4. **Statistiche di sicurezza stradale UE** (Eurostat/Commissione Europea, dati 2024) — usate per contestualizzare il tema "strade belle ma impegnative" richiesto esplicitamente per questo viaggio.
 
 **Cosa manca ancora per chiudere la bozza:**
-- Anno esatto del viaggio (il periodo, ponte di Halloween/inizio novembre, è chiaro dalle date nel foglio operativo: 31/10-03/11 + giorno terme).
-- Conferma delle tappe facoltative effettivamente fatte (Bear Sanctuary, Viscri, Cetatea Făgărașului) e del percorso di rientro seguito al Day 4 (Transfăgărășan aperta o funivia).
-- Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
-  sostituire con i ricordi veri, incluso il racconto in prima persona
-  dell'esperienza al volante sui tornanti di montagna e degli eventuali
-  avvistamenti di orsi (per ora solo ipotizzati nella chiusura).
+- Niente di sostanziale: anno, tappe facoltative e Transfăgărășan confermati dall'autore.
 
 **Note di redazione (revisione 22/10/2026):** itinerario già in prosa: revisione mirata, tolti i rimandi a «diario/itinerario ufficiale» e le note «da valutare/da verificare».
+
+**Note di redazione (22/10/2026):** riscritto dal Quaderno dei ricordi; anno 2024; tappe facoltative tutte fatte (Bear Sanctuary, Viscri, Cetatea Făgărașului); Transfăgărășan sia in auto sia in funivia; giudizi su Caru' cu Bere ed Excalibur; apertura (foliage e orsi sulla Transfăgărășan) e chiusura (nessun errore; calessi senza luci di notte, incidenti) dai ricordi. Tolti dalla chiusura i giudizi su Peleș/Bran scritti in bozza.
 
 ## Foto/media
 - [ ] foto del Castello di Peleș

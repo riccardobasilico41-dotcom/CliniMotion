@@ -1,6 +1,6 @@
 # Lofoten in 7 giorni: il mio itinerario tra fiordi, trekking e spiagge polari
 
-**Stato bozza:** 🟡 in lavorazione (struttura, info pratiche e aneddoti pronti — mancano solo le foto; aneddoti scritti come bozza da rileggere e personalizzare)
+**Stato bozza:** 🟡 in lavorazione (struttura, info pratiche e aneddoti pronti — mancano solo le foto; apertura e chiusura scritte dai ricordi dell'autore)
 **Periodo del viaggio:** 6-13 luglio 2025
 **Durata:** 7 giorni pieni + rientro
 **Compagni di viaggio:** auto a noleggio condivisa per gli spostamenti sulle isole
@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-Il primo pensiero, appena atterrato a Oslo a luglio inoltrato, è stato quanto poco il calendario avesse a che fare con la temperatura reale: giacca a vento indosso in piena estate, e il sole che a mezzanotte era ancora lì, basso e ostinato sull'orizzonte, come se nessuno gli avesse detto che era ora di tramontare. Alle Lofoten quella luce non se n'è più andata: mi ha accompagnato sui 1.978 scalini del Reinebringen, sul gommone lanciato verso il Trollfjord tra le aquile di mare, e sulla spiaggia di Bunes, raggiungibile solo a piedi dopo un traghetto — il posto che più di tutti mi è rimasto addosso, per quanto sembrava fuori dal mondo.
+Delle Lofoten mi è rimasta addosso prima di tutto la luce. A luglio il sole di mezzanotte non tramonta: resta basso sull'orizzonte e la giornata non finisce mai davvero. Poi le strade, infinite, che corrono tra fiordi e montagne. A un certo punto ho capito che il viaggio vero era lì, al volante, tra una tappa e l'altra. E poi la baia di Reine: lì non ho trovato parole migliori di un «wow». Questo è il giro che ho fatto in sette giorni, con due basi fisse, un'auto a noleggio e qualche traghetto, dall'arrivo a Oslo fino all'ultima sera, di nuovo in città.
 
 ## Scheda pratica
 - **Quando andare:** luglio — piena estate polare, luce lunghissima, ma clima comunque
@@ -164,16 +164,16 @@ alternative qui sotto hanno riscontri online più consistenti.
   niente vino/superalcolici (solo birra).
 
 ## Chiusura personale
-Lo rifarei, ma con un giorno in più: sette sono bastati per non fermarmi mai, e qualche tappa — Reinebringen su tutte — meritava di essere goduta senza guardare l'orologio del traghetto successivo. Tra i due trekking simbolo del viaggio scelgo il Festvågtind: più tecnico, meno affollato, con quel laghetto a metà salita che il Reinebringen, più fotografato ma più battuto, non ha. Quello che porto a casa non è però una singola tappa, ma la sensazione di aver vissuto una settimana senza vera notte: le Lofoten in luglio sono un posto dove il tempo si allunga, e alla fine ci si scorda cosa significhi vedere buio.
+Una cosa da sapere prima di partire: se il tempo è brutto, alle Lofoten non c'è niente da fare. Proprio niente, a parte Svolvær e uno o due paesi un po' più grandi. Conviene lasciare margine nel programma e tenere i trekking per le giornate serene. Se dovessi ripartire valuterei il camper o un van: le strade sono belle e i posti attrezzati sono tanti. E se ti piace la natura, le Lofoten sono clamorose.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Diario di viaggio originale caricato (BHS Travel) — orari ammorbiditi in fase di
-editing, prezzi in NOK e nomi di locali già integrati sopra. Aneddoti di apertura
-e chiusura scritti come bozza (Claude) sulla base dell'itinerario reale — da
-rileggere e sostituire con i ricordi veri prima di pubblicare. Da recuperare
+editing, prezzi in NOK e nomi di locali già integrati sopra. Apertura e chiusura riscritte dai ricordi dell'autore (Quaderno dei ricordi). Da recuperare
 ancora: le foto.
 
 **Note di redazione (revisione 22/10/2026):** itinerario riscritto in prosa (VOCE-EDITORIALE.md), fatti invariati. Da verificare: la panetteria compare come «Kringala» (Giorno 3) e «Kringla» (Giorno 4).
+
+**Note di redazione (22/10/2026):** riscritto dal Quaderno dei ricordi; apertura dal momento indicato (sole di mezzanotte, strade, baia di Reine), chiusura con errore (maltempo) e consiglio (camper/van) e la nota «clamorose se ti piace la natura». Nessun nome nuovo da inserire («non saprei»); prima persona dell'itinerario lasciata com'è (viaggio fatto tutto).
 
 ## Foto/media
 - [ ] foto del Trollfjord e delle aquile di mare

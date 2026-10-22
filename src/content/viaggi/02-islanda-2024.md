@@ -1,10 +1,9 @@
 # Islanda in tenda: 9 giorni sull'isola del ghiaccio e del fuoco (Ring Road)
 
 **Stato bozza:** 🟡 in lavorazione (percorso Giorno 1-9 ricostruito con fasce orarie
-indicative e logistica di dettaglio; aneddoti di apertura/chiusura pronti come
-bozza da rileggere e personalizzare; da confermare campeggi/ristoranti dei
-Giorni 3-8 con ricordi/foto e giorno/logistica esatta dell'escursione al vulcano)
-**Periodo del viaggio:** estate 2024
+indicative e logistica di dettaglio; apertura e chiusura scritte dai ricordi dell'autore; da confermare campeggi/ristoranti dei
+Giorni 3-8)
+**Periodo del viaggio:** fine luglio 2024
 **Durata:** 9 giorni, 8 notti (6 in tenda, 2 in hotel)
 **Compagni di viaggio:** auto a noleggio condivisa, cassa comune per i pasti durante il percorso
 **Categoria:** Europa · Islanda · on the road · campeggio · Ring Road
@@ -12,7 +11,7 @@ Giorni 3-8 con ricordi/foto e giorno/logistica esatta dell'escursione al vulcano
 ---
 
 ## Apertura personale
-La decisione è arrivata dopo cena, quasi per scherzo: erano passate le undici di sera e il sole, complice il pieno dell'estate islandese, non si era ancora deciso a tramontare. Quattro chilometri a piedi sulla sabbia nera e piatta di Sólheimasandur, controvento, per raggiungere un relitto d'aereo abbandonato dal 1973 — un'ora buona per tratta, con la luce che non calava mai del tutto. È il momento più assurdo di tutto il viaggio, ed è quello che racconto per primo: perché riassume bene cosa significhi guidare la Ring Road in tenda, tra ghiacciai, geyser e vulcani — un paese dove la stanchezza di giornata non basta mai a farti rinunciare a un'ultima deviazione.
+Alle due di notte, davanti al relitto dell'aereo di Sólheimasandur, c'era ancora luce. Eravamo partiti dopo cena, con quattro chilometri di sabbia nera da fare a piedi, e il sole di fine luglio non si era mai deciso a sparire del tutto. Poi c'è il risveglio in tenda col rumore delle cascate. E soprattutto il kayak nella laguna ghiacciata di Jökulsárlón, in mezzo agli iceberg, con le foche intorno: lì non mi è venuto da dire altro che «wow». Questo è il giro che abbiamo fatto: nove giorni sulla Ring Road, sei notti in tenda e un'auto a noleggio, da Keflavík a Keflavík.
 
 ## Scheda pratica
 - **Quando andare:** estate — clima comunque variabile, tra 10 e 20°C di giorno,
@@ -38,9 +37,9 @@ TBD — giorno di partenza dall'Italia.
 ### Giorno 1 — Arrivo a Keflavík e l'eruzione vista da vicino
 Si atterra a Keflavík nel tardo pomeriggio e la prima Islanda è quella, poco romantica, della zona aeroportuale. Il bus 55 porta in una ventina di minuti alla fermata *Kellir* (4 € a persona), a due passi dal Konvin Hotel: giusto il tempo di lasciare lo zaino e si esce a cena.
 
-La cena è da **Kaffi Duus**, pesce misto per circa 30 €. Ci si arriva ancora col 55: cinque minuti a piedi fino alla fermata, dieci di bus, altri dieci a piedi da Hringbraut & Melteigur. Dopo, un giro tra i locali di Keflavík e il rientro, sempre in bus, con un occhio all'orologio: l'ultima corsa passa poco dopo le 23 e non va persa.
+La cena è da **Kaffi Duus**, pesce misto per circa 30 €. Qui ho assaggiato il **filetto di balena**. È un piatto che fa discutere: in Islanda la caccia alla balena è ancora permessa ma molto contestata, e conviene farsi un'idea prima di ordinarlo. Ci si arriva ancora col 55: cinque minuti a piedi fino alla fermata, dieci di bus, altri dieci a piedi da Hringbraut & Melteigur. Dopo, un giro tra i locali di Keflavík e il rientro, sempre in bus, con un occhio all'orologio: l'ultima corsa passa poco dopo le 23 e non va persa.
 
-È in questi primi giorni, sulla penisola di Reykjanes, che ho visto da vicino il **vulcano in eruzione**: la zona di Grindavík e Fagradalsfjall, a pochi minuti dall'aeroporto, entrata in attività più volte tra il 2023 e il 2024. È stata una delle esperienze più forti di tutto il viaggio.
+È in questi primi giorni, sulla penisola di Reykjanes, che ho visto da vicino il **vulcano in eruzione**: la zona di Grindavík e Fagradalsfjall, a pochi minuti dall'aeroporto, entrata in attività più volte tra il 2023 e il 2024. Ci sono andato in autonomia, senza tour. È stata una delle esperienze più forti di tutto il viaggio. Le eruzioni però vanno e vengono e l'area viene chiusa spesso: prima di partire controlla lo stato della zona su safetravel.is.
 
 ### Giorno 2 — Golden Circle: Geysir e Gullfoss
 La giornata comincia presto e con la logistica: auto da Sixt all'aeroporto di Keflavík, poi la tenda da RENTATENT (Vesturvör 32b, Kópavogur, apre alle 9). Da lì inizia davvero il viaggio, verso il Golden Circle.
@@ -49,14 +48,14 @@ Al **Geysir** l'acqua salta ogni sei o sette minuti: un quarto d'ora basta per v
 
 Il pomeriggio è una fila di cascate. A **Seljalandsfoss** (parcheggio 700 ISK) si passa dietro il getto d'acqua; la vicina Gljúfrabúi si raggiunge camminando dentro il fiume. Mezz'ora d'auto e c'è **Skógafoss**, con i suoi circa 470 scalini fino in cima al salto. In serata si monta la tenda per la prima volta al campeggio di **Vík** (1.950 ISK, doccia 300 ISK) e si cena lì.
 
-Poi la decisione presa quasi per scherzo. A inizio luglio il sole non tramonta, la stanchezza non basta, e così, invece di dormire, siamo ripartiti per il **relitto del DC-3 di Sólheimasandur**, abbandonato sulla sabbia dal 1973. Venti minuti d'auto fino al parcheggio sulla Ring Road, poi 4 km a piedi su sabbia nera, piatta e senza riparo dal vento, tra i 40 e i 60 minuti per tratta. *Una vera sfacchinata dopo una giornata già piena, ma probabilmente il momento più assurdo e memorabile di tutto il viaggio.* Al campeggio siamo rientrati a notte fonda, con una luce che non è mai calata del tutto.
+Poi la decisione presa quasi per scherzo. A fine luglio il sole non tramonta, la stanchezza non basta, e così, invece di dormire, siamo ripartiti per il **relitto del DC-3 di Sólheimasandur**, abbandonato sulla sabbia dal 1973. Venti minuti d'auto fino al parcheggio sulla Ring Road, poi 4 km a piedi su sabbia nera, piatta e senza riparo dal vento, tra i 40 e i 60 minuti per tratta. *Una vera sfacchinata dopo una giornata già piena, ma probabilmente il momento più assurdo e memorabile di tutto il viaggio.* Al campeggio siamo rientrati a notte fonda, con una luce che non è mai calata del tutto.
 
 ### Giorno 3 — Dyrhólaey, Reynisfjara e la laguna glaciale
 La sveglia arriva più tardi del previsto, ed è colpa del relitto. Si parte con calma verso **Dyrhólaey**: il faro, l'arco di lava nera sul mare, i faraglioni e, d'estate, le pulcinelle di mare. Subito dopo c'è **Reynisfjara**, la spiaggia nera con le colonne di basalto. Qui le onde sono imprevedibili e pericolose: le indicazioni vanno seguite alla lettera. Pranzo veloce al baracchino della spiaggia, hot dog o zuppa per 2-3.000 ISK.
 
 Il pomeriggio va verso l'interno. Un'ora e un quarto di guida e si arriva al canyon di **Fjaðrárgljúfur**, profondo un centinaio di metri e lungo due chilometri, molto meno affollato degli altri luoghi della zona. Altri tre quarti d'ora e si entra a **Skaftafell**, nel parco del Vatnajökull, il più grande d'Europa, dove i sentieri portano anche alla cascata nera di Svartifoss.
 
-Da Skaftafell ho fatto il **trekking sul ghiacciaio Vatnajökull**, con ramponi, piccozza e guida alpina: crepacci, ghiaccio blu e un silenzio assoluto. È una delle attività più intense del viaggio. Un'ora più a est c'è **Jökulsárlón**, la laguna dove il ghiacciaio stacca i suoi iceberg, che galleggiano quasi fino al mare. L'ho vista in **kayak**, pagaiando tra i blocchi di ghiaccio con le foche spesso a pochi metri: tutta un'altra cosa rispetto al belvedere affollato. Accanto c'è la **Diamond Beach**, dove il ghiaccio si arena sulla sabbia nera.
+Da Skaftafell ho fatto il **trekking sul ghiacciaio Vatnajökull** con **Troll Expeditions**, molto carino, con ramponi, piccozza e guida alpina: crepacci, ghiaccio blu e un silenzio assoluto. È una delle attività più intense del viaggio. Un'ora più a est c'è **Jökulsárlón**, la laguna dove il ghiacciaio stacca i suoi iceberg, che galleggiano quasi fino al mare. L'ho vista in **kayak**, pagaiando tra i blocchi di ghiaccio con le foche spesso a pochi metri: tutta un'altra cosa rispetto al belvedere affollato. Accanto c'è la **Diamond Beach**, dove il ghiaccio si arena sulla sabbia nera.
 
 L'ultima ora di guida porta a **Höfn**, dove si arriva a sera inoltrata. Si dorme in campeggio, al Vestrahorn ai piedi della montagna, a 18 minuti dal paese, o a quello comunale in centro. A cena c'è la zuppa di pesce della «capitale dell'aragosta islandese», oppure si cucina in tenda.
 
@@ -101,8 +100,8 @@ Check-out e trasferimento a **Keflavík**, a circa 45 minuti da Reykjavík, in b
 - **Geysir e Gullfoss** — il classico Golden Circle, imperdibile.
 - **Seljalandsfoss** (si passa dietro) e **Skógafoss** — le cascate più fotogeniche
   del sud.
-- **Relitto dell'aereo a Sólheimasandur** — ci sono andato **a piedi, a
-  mezzanotte**, grazie al sole di mezzanotte di inizio luglio: 4 km a tratta sulla
+- **Relitto dell'aereo a Sólheimasandur** — ci sono andato **a piedi, di
+  notte**, grazie alla luce di fine luglio: 4 km a tratta sulla
   sabbia nera, un'ora buona per senso. *La chicca vera del viaggio, ma solo se
   siete disposti a una sfacchinata dopo una giornata già piena.*
 - **Reynisfjara** — spiaggia di sabbia nera, bellissima ma da rispettare per la
@@ -230,7 +229,7 @@ Check-out e trasferimento a **Keflavík**, a circa 45 minuti da Reykjavík, in b
   guidava il mezzo se preso a noleggio condiviso).
 
 ## Chiusura personale
-Nove giorni in tenda intorno a tutta l'isola restano il viaggio più fisico che abbia fatto: vento che non si ferma mai, notti vicine allo zero anche in piena estate, e giornate scandite più dai tempi di guida che da un vero programma. Ne valeva la pena per il ghiaccio — il trekking sul Vatnajökull e il kayak tra gli iceberg di Jökulsárlón restano i due momenti che rifarei senza pensarci, insieme al vulcano visto da vicino sulla penisola di Reykjanes, un colpo di fortuna che non pensavo mi sarebbe capitato. Se dovessi consigliarlo a qualcuno, gli direi di non sottovalutare il campeggio: è quello che rende il viaggio più duro, ma anche quello che lo rende vero.
+Se dovessi rifarlo starei molto più attento alle distanze e agli imprevisti. Qui basta poco: una gomma bucata o, come è successo a noi, la batteria di una macchina scarica. Abbiamo dovuto posticipare tutto e saltare alcune tappe. Per questo il consiglio è di pianificare senza compattare tutto e lasciare margine tra una tappa e l'altra. E porta il cibo da casa, perché in Islanda costa tanto, davvero tanto.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Fonti caricate:
@@ -279,6 +278,8 @@ Fonti caricate:
   come i Giorni 4-9, per ora ricostruiti "a tavolino" su base logistica reale.
 
 **Note di redazione (revisione 22/10/2026):** itinerario riscritto in prosa (VOCE-EDITORIALE.md). Tolte dal testo pubblico e da confermare: giorno esatto dell'eruzione; operatori e durata di trekking e kayak; quale campeggio a Höfn; nome dell'hotel e del ristorante dell'ultima sera a Reykjavík; locali dei Giorni 4-8. I Giorni 4-9 restano ricostruiti su logistica reale: sostituire con i ricordi veri quando possibile.
+
+**Note di redazione (22/10/2026):** riscritto dal Quaderno dei ricordi; periodo corretto in fine luglio 2024 (prima «inizio luglio»: vince la conferma); vulcano fatto in autonomia, aggiunto avviso di controllare la chiusura dell'area; trekking sul ghiacciaio con Troll Expeditions (operatore del kayak non ricordato); filetto di balena da Kaffi Duus con nota sulla caccia; apertura e chiusura dai ricordi (relitto alle due di notte, cascate dalla tenda, kayak tra iceberg e foche; batteria scarica, cibo caro). Campeggi/ristoranti e Giorni 4-9: «non ricordo», lasciati com'erano.
 
 ## Foto/media
 - [ ] foto al vulcano in eruzione
