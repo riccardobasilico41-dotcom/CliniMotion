@@ -126,7 +126,7 @@ Volo da Abha con scalo a Jeddah o Riyadh, e rientro.
 - **Umluj e il Mar Rosso (+2 giorni tra Jeddah e AlUla):** un centinaio di isole di sabbia bianca e reef tra i meno danneggiati del pianeta, perché fino al 2019 nessun turista poteva arrivarci. Nessuna infrastruttura, pochi operatori — e una finestra che si sta chiudendo in fretta, perché su quella costa stanno sorgendo mega-progetti turistici.
 - **Il deserto del Rub' al-Khali (+3 giorni da Riyadh):** il Quarto Vuoto, il più grande deserto di sabbia continuo del mondo, con spedizioni organizzate di più giorni.
 - **La costa orientale, Dammam e Al-Ahsa (+2 giorni):** l'oasi più grande del mondo, patrimonio UNESCO, e il lato del Golfo Persico.
-- **Il Golfo in stopover (+2-4 giorni):** Dubai, Abu Dhabi e Doha sono tutti a un'ora e mezza di volo, con i loro programmi stopover. Hanno un itinerario dedicato in questo archivio.
+- **Il Golfo in stopover (+2-4 giorni):** Dubai, Abu Dhabi e Doha sono tutti a un'ora e mezza di volo, con i loro programmi stopover. Sul sito c'è un itinerario dedicato.
 
 ## Dove abbiamo dormito
 - **Jeddah:** vicino ad Al-Balad per essere nella parte storica, o sulla Corniche per il mare. La città è dispersa: la posizione conta.

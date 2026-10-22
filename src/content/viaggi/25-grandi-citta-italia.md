@@ -122,7 +122,7 @@ Rientro da Napoli.
 ## Estensioni possibili
 - **Milano (+2 giorni):** le terrazze del Duomo, che quasi tutti saltano per fare solo l'interno, e il **Cenacolo** — prenotabile solo con aperture trimestrali, mesi prima. Più i laghi prealpini a un'ora.
 - **Costiera Amalfitana e Capri (+3 giorni da Napoli):** con il traghetto invece dell'auto, che in estate sulla statale amalfitana è un ingorgo continuo.
-- **Le rotte del vino (+4-6 giorni):** Langhe, Valpolicella o Chianti si incastrano bene con questo itinerario. Hanno una sezione dedicata in questo archivio.
+- **Le rotte del vino (+4-6 giorni):** Langhe, Valpolicella o Chianti si incastrano bene con questo itinerario. Sul sito c'è un itinerario dedicato.
 
 ## Dove abbiamo dormito
 - **Roma:** Monti o Trastevere per il rione vivo, Prati per i prezzi e la metro verso il Vaticano, Testaccio per mangiare bene.

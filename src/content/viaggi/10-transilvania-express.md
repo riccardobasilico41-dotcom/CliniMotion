@@ -22,7 +22,7 @@ Il primo vero momento del viaggio è arrivato quando, lasciata l'autostrada per 
 - **Bagaglio:** zaino compatto 40/50/60 litri o duffel bag, niente trolley — si può lasciare tutto in hotel o in auto. Scarpe da ginnastica comode obbligatorie (si cammina molto, ma niente trekking veri), abbigliamento tecnico e caldo per gli sbalzi termici, protezione solare, kway/ombrello.
 
 ### Un viaggio fatto (soprattutto) di strada
-Più che negli altri viaggi di questo archivio, qui il tempo passato in auto è parte integrante dell'esperienza: si parla di **5 ore di guida in un solo giorno** (Day 3, Brașov-Sighișoara-Salina Turda-Sibiu) e di un altro tratto di **3h45 non-stop** nel pomeriggio del Day 4 per rientrare a Bucarest dopo la Transfăgărășan. Le strade di montagna sono strette, piene di tornanti e — sui passi più alti — spesso chiuse o percorribili solo in parte a seconda della stagione: la Transfăgărășan stessa è aperta di norma solo dal 20 giugno al 31 ottobre, altrimenti si sale solo in funivia fino al Lago Bâlea.
+Più che in altri viaggi, qui il tempo passato in auto è parte integrante dell'esperienza: si parla di **5 ore di guida in un solo giorno** (Day 3, Brașov-Sighișoara-Salina Turda-Sibiu) e di un altro tratto di **3h45 non-stop** nel pomeriggio del Day 4 per rientrare a Bucarest dopo la Transfăgărășan. Le strade di montagna sono strette, piene di tornanti e — sui passi più alti — spesso chiuse o percorribili solo in parte a seconda della stagione: la Transfăgărășan stessa è aperta di norma solo dal 20 giugno al 31 ottobre, altrimenti si sale solo in funivia fino al Lago Bâlea.
 
 **Un punto da tenere bene a mente prima di mettersi al volante:** la Romania è, da diversi anni consecutivi, il Paese con il più alto tasso di mortalità stradale dell'Unione Europea — 78 morti per milione di abitanti nel 2024 secondo i dati Eurostat/Commissione Europea, contro una media UE di 44 (le strade più sicure sono in Svezia, con appena 20). Non è quindi un caso isolato o una percezione: i numeri lo confermano, ed è per questo che l'itinerario stesso invita più volte a **rispettare le tempistiche, non guidare di fretta e monitorare sempre il meteo**, soprattutto sui passi di montagna dove le condizioni possono cambiare rapidamente e la visibilità nei tornanti è spesso limitata. Qualche accorgimento pratico, oltre alla prudenza di base:
 - Sulla Transfăgărășan e sulla strada del ritorno verso Bucarest è frequente avvistare **orsi** ai bordi della carreggiata: non dare loro da mangiare e non scendere dall'auto, ci si limita a fotografare dal finestrino.
@@ -32,7 +32,7 @@ Più che negli altri viaggi di questo archivio, qui il tempo passato in auto è 
 ## Itinerario giorno per giorno
 
 ### Giorno 1 — Bucarest
-Hotel Duke Romana. Nel tardo pomeriggio, visita al **Palazzo del Parlamento** — il secondo edificio più grande al mondo dopo il Pentagono, voluto dal dittatore Nicolae Ceaușescu: la visita è guidata, dura un'ora, costa circa 12,5€/pax da pagare all'ingresso (niente deposito bagagli, quindi va portato tutto con sé durante la visita).
+Si dorme all'Hotel Duke Romana, e il primo incontro con Bucarest è il più ingombrante. Nel tardo pomeriggio si visita il **Palazzo del Parlamento** — il secondo edificio più grande al mondo dopo il Pentagono, voluto dal dittatore Nicolae Ceaușescu: la visita è guidata, dura un'ora, costa circa 12,5€/pax da pagare all'ingresso (niente deposito bagagli, quindi va portato tutto con sé durante la visita).
 
 Da vedere anche, se c'è tempo, il **Romanian Athenaeum**, splendida sala concerti neoclassica del 1888 sede dell'Orchestra Filarmonica George Enescu — bastano 30 minuti per un giro fotografico, ingresso 2€/pax, a pochi passi dal quartiere Piața Romană.
 
@@ -47,18 +47,18 @@ Ritiro auto presso Avis (Gran Hotel Bucuresti) in mattinata presto — conviene 
 
 Pranzo in centro a Sinaia — **Restaurant Bucegi** (terrazza) o pranzo al sacco/street food per guadagnare tempo nel pomeriggio.
 
-Dopo pranzo, transfer verso **Bran** (circa 1h), con eventuale sosta fotografica al **Castello di Cantacuzino** (noto per la serie Netflix *Mercoledì*). Al **Castello di Bran**, la fortezza medievale del XIII secolo nota come "Castello di Dracula" — anche se, come nota onestamente il diario di viaggio ufficiale, non esiste alcuna prova storica che Bram Stoker si sia ispirato proprio a questo castello o a Vlad III di Valacchia per il suo romanzo del 1897: il legame è in gran parte una costruzione turistica, per quanto il castello resti affascinante di per sé. Biglietti acquistabili online in anticipo, guida ufficiale disponibile su prenotazione (30-40 minuti, da pagare in loco, in contanti), visita libera di circa un'ora. Attorno al castello, bancarelle e ristoranti sono piuttosto cari — vere e proprie trappole per turisti.
+Dopo pranzo, transfer verso **Bran** (circa 1h), con eventuale sosta fotografica al **Castello di Cantacuzino** (noto per la serie Netflix *Mercoledì*). Al **Castello di Bran**, la fortezza medievale del XIII secolo nota come "Castello di Dracula" — anche se non esiste alcuna prova storica che Bram Stoker si sia ispirato proprio a questo castello o a Vlad III di Valacchia per il suo romanzo del 1897: il legame è in gran parte una costruzione turistica, per quanto il castello resti affascinante di per sé. Biglietti acquistabili online in anticipo, guida ufficiale disponibile su prenotazione (30-40 minuti, da pagare in loco, in contanti), visita libera di circa un'ora. Attorno al castello, bancarelle e ristoranti sono piuttosto cari — vere e proprie trappole per turisti.
 
 In mezz'ora si arriva a **Brașov**: check-in, doccia, e uscita a piedi per la **Fortezza di Râșnov**, in cima a una rocca vicino alla scritta cittadina in stile hollywoodiano — raggiungibile a piedi o in cabinovia, con un'atmosfera più "da Signore degli Anelli" che vampiresca. Se c'è tempo, si prosegue verso il centro storico: **Piața Sfatului** con la Casa Sfatului (XIV secolo) e la Torre dell'Orologio, e la **Chiesa Nera (Biserica Neagră)**, la più grande chiesa gotica di Romania, aperta fino al tardo pomeriggio.
 
 Cena in serata da **Sergiana** — zuppe fumanti servite in pagnotte scavate, stufati di carne alla paprika, polenta con panna acida e formaggio fuso (attenzione ai prezzi di vino e palinka, spesso sopra media; prenotazione anticipata via email). In alternativa, **Casa Românească**, taverna rustica con pollo in padella, montone affumicato e sarmale. Dopocena al **Deane's Irish Pub & Grill** o al **Musik Cafe**.
 
 ### Giorno 3 — Paesi sassoni, Sighișoara e Salina Turda
-**Giornata più lunga al volante del viaggio: 5 ore di guida totali, quindi partenza presto e tempistiche da rispettare rigorosamente** — così lo segnala esplicitamente l'itinerario ufficiale.
+È la giornata più lunga al volante: cinque ore di guida in tutto, quindi si parte presto e i tempi vanno rispettati.
 
-Al mattino, possibile tappa al **Bear Sanctuary** (da valutare, biglietti online entro 14 giorni prima, tour guidato): gli orsi sono attivi solo di mattina, quindi va fatta come prima cosa della giornata; per i turni con la Transfăgărășan aperta, si consiglia di saltarla, dato che si vedranno comunque orsi lungo la strada del Day 4.
+Al mattino si può passare dal **Bear Sanctuary** (tour guidato, biglietti online entro 14 giorni prima): gli orsi sono attivi solo di mattina, quindi va fatta come prima cosa della giornata; per i turni con la Transfăgărășan aperta, si consiglia di saltarla, dato che si vedranno comunque orsi lungo la strada del Day 4.
 
-Transfer verso **Viscri** (1h20, tappa facoltativa da valutare in base ai tempi): uno dei due principali villaggi sassoni della Transilvania, con la sua **Chiesa Fortificata** del XII secolo, Patrimonio UNESCO (12 LEI/pax).
+Un'ora e venti porta a **Viscri** (tappa facoltativa, se i tempi lo permettono): uno dei due principali villaggi sassoni della Transilvania, con la sua **Chiesa Fortificata** del XII secolo, Patrimonio UNESCO (12 LEI/pax).
 
 Proseguendo verso **Sighișoara**, borgo medievale UNESCO con vie acciottolate e case colorate: tappa obbligata alla Torre dell'Orologio e alla casa natale del Conte Dracula (5 LEI per salire al piano superiore, al **Vlad Dracul Restaurant**). Pranzo tra **Gasthaus Altepost** e lo stesso Vlad Dracul Restaurant. Da non perdere la salita alla parte alta della città lungo **The Covered Stairway**, la scalinata coperta in legno.
 
@@ -67,11 +67,11 @@ In circa 2h di auto si arriva alle saline sotterranee di **Salina Turda** (bigli
 Nel tardo pomeriggio si riparte per **Sibiu** (1h30 di auto), con check-in e cena prenotata in serata. Tra le opzioni: **Crama Sibiul Vechi**, il ristorante più suggestivo della città, in una cantina rustica (polpette di carne tritata, stufato del contadino con polenta — pochi coperti, prenotazione obbligatoria), oppure **La Dobrun**, vicinissima all'hotel, o **Crama Ileana**. Dopocena, **Oldie's Pub** (adatto a gruppi grandi) o **Geea Caffe** (più intimo).
 
 ### Giorno 4 — Sibiu, Transfăgărășan e ritorno a Bucarest
-**Ultimo giorno prima del rientro, ancora molti km da percorrere: sveglia presto.**
+È l'ultimo giorno prima del rientro e i chilometri sono ancora tanti: sveglia presto.
 
 Al mattino, **city tour di Sibiu** in inglese (2h, guida locale su prenotazione): la Piața Mare gremita di gente, il Museo Brukenthal con la sua collezione d'arte, il **Ponte delle Bugie (Podul Minciunilor)**, le mura e le torri medievali di questa città Patrimonio UNESCO. Pranzo veloce o take away prima di rimettersi in marcia.
 
-Nel primo pomeriggio, 1h30 di auto per raggiungere la **Transfăgărășan**, spesso definita una delle strade più belle al mondo: tornanti spettacolari fino a 2.000 metri di quota, con sosta consigliata al **Balea Lac Restaurant** sul Lago Bâlea. **Il tratto è percorribile solo dal 20 giugno al 31 ottobre** (da verificare sempre sul sito ufficiale): nei turni invernali si sale al lago solo in funivia, con la possibilità però di fermarsi al Balea Ice Hotel (aperto da dicembre a metà aprile) per un drink nell'Ice Bar.
+Nel primo pomeriggio, 1h30 di auto per raggiungere la **Transfăgărășan**, spesso definita una delle strade più belle al mondo: tornanti spettacolari fino a 2.000 metri di quota, con sosta consigliata al **Balea Lac Restaurant** sul Lago Bâlea. **Il tratto è aperto solo dal 20 giugno al 31 ottobre** (le date vanno sempre controllate sul sito ufficiale): nei turni invernali si sale al lago solo in funivia, con la possibilità però di fermarsi al Balea Ice Hotel (aperto da dicembre a metà aprile) per un drink nell'Ice Bar.
 
 Per i turni nel periodo di apertura della strada, si prosegue verso sud: **ancora 3h45 di auto fino a Bucarest**, con partenza dal Lago Bâlea nel primo pomeriggio per rispettare i tempi. È il tratto in cui è più probabile avvistare **orsi** lungo la carreggiata — foto e video sì, cibo e discese dall'auto no. Possibile sosta fotografica alla **Diga di Vidraru**, spettacolare invaso in cemento tra le montagne.
 
@@ -134,6 +134,8 @@ Fonti ufficiali del tour operator (WeRoad):
   sostituire con i ricordi veri, incluso il racconto in prima persona
   dell'esperienza al volante sui tornanti di montagna e degli eventuali
   avvistamenti di orsi (per ora solo ipotizzati nella chiusura).
+
+**Note di redazione (revisione 22/10/2026):** itinerario già in prosa: revisione mirata, tolti i rimandi a «diario/itinerario ufficiale» e le note «da valutare/da verificare».
 
 ## Foto/media
 - [ ] foto del Castello di Peleș

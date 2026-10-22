@@ -9,15 +9,15 @@
 ---
 
 ## Apertura personale
-Berlino non si lascia coprire in un weekend da tre giorni come altre capitali europee di questo archivio, ed è per questo che qui i giorni diventano quattro: è una città molto più estesa e meno densa di Parigi o Cracovia, dove gli spostamenti tra un quartiere e l'altro richiedono quasi sempre i mezzi pubblici, e dove il Novecento ha lasciato più strati di quanti ce ne siano in quasi ogni altra capitale del continente — capitale del Reich, città divisa in due dal Muro per ventotto anni, infine simbolo della riunificazione tedesca.
+Berlino non si lascia girare in tre giorni come altre capitali europee, ed è per questo che qui i giorni diventano quattro: è una città molto più estesa e meno densa di Parigi o Cracovia, dove gli spostamenti tra un quartiere e l'altro richiedono quasi sempre i mezzi pubblici, e dove il Novecento ha lasciato più strati di quanti ce ne siano in quasi ogni altra capitale del continente — capitale del Reich, città divisa in due dal Muro per ventotto anni, infine simbolo della riunificazione tedesca.
 
-Quel Novecento non si può aggirare, e non è nemmeno giusto farlo: un giorno intero di questo itinerario è dedicato ai luoghi della memoria, dal Muro alla Topografia del Terrore, con lo stesso registro sobrio e informativo che questo archivio ha già usato per Auschwitz-Birkenau — mai come tappe turistiche qualunque, sempre come luoghi che chiedono tempo e attenzione.
+Quel Novecento non si può aggirare, e non è nemmeno giusto farlo: un giorno intero di questo itinerario è dedicato ai luoghi della memoria, dal Muro alla Topografia del Terrore: non tappe turistiche qualunque, ma luoghi che chiedono tempo e attenzione.
 
 Il resto della città, però, è tutt'altro che solo memoria: l'Isola dei Musei con l'archeologia di mezzo mondo, e i quartieri a est come Kreuzberg e Friedrichshain, cresciuti proprio sulle macerie della città divisa fino a diventare tra i più vivi d'Europa. Quattro giorni bastano per tenere insieme tutto questo, senza affrettare nessuna delle due metà.
 
 ## Scheda pratica
 - **Quando andare:** **maggio-settembre** per clima mite e giornate lunghe, con **giugno-agosto** il periodo più caldo e affollato. **Aprile e ottobre** restano gestibili con meno folla. **Novembre-marzo** è freddo, spesso vicino o sotto zero da dicembre a febbraio, ma **dicembre** porta i mercatini di Natale sparsi in decine di punti della città.
-- **Valuta:** **euro**, come in Italia — a differenza di altre mete recenti di questo archivio come Polonia e Ungheria, qui non c'è nessuna conversione da fare.
+- **Valuta:** **euro**, come in Italia — a differenza di Polonia e Ungheria, qui non c'è niente da convertire.
 - **Contante:** nonostante l'immagine di paese digitalizzato, in Germania — Berlino compresa — **il contante resta più diffuso che altrove in Europa**: alcuni bar, ristoranti e piccoli negozi non accettano carte o le accettano solo sopra una soglia minima. Meglio avere sempre un po' di contante con sé.
 - **La domenica:** la **Ladenschlussgesetz**, la legge tedesca sugli orari di apertura, tiene **chiusi quasi tutti i negozi la domenica** in tutta la Germania (ristoranti, bar e farmacie restano aperti). Va messo in conto costruendo il programma, soprattutto per chi pensa di fare shopping o commissioni.
 - **Trasporti in città:** rete **BVG** di U-Bahn, S-Bahn, tram e bus, tra le più efficienti d'Europa. Il biglietto va **convalidato prima di salire** nelle stazioni senza tornelli: i controlli in borghese sono frequenti e le multe salate. A differenza di città più compatte, qui **servono i mezzi pubblici** anche solo per passare da un quartiere all'altro.
@@ -37,11 +37,11 @@ A pochi passi, il **Memoriale dell'Olocausto** (Denkmal für die ermordeten Jude
 Sera nel quartiere di Mitte, tra Unter den Linden e Gendarmenmarkt, la piazza con il Duomo Tedesco e Francese e il Konzerthaus.
 
 ### Giorno 2 — Il Muro di Berlino e la Guerra Fredda
-Una giornata dedicata alla città divisa, affrontata con lo stesso spirito con cui questo archivio ha già trattato Auschwitz-Birkenau: non una tappa tra le altre, ma un percorso che chiede tempo.
+È la giornata della città divisa, e chiede tempo: non è una tappa tra le altre.
 
 Si parte dalla **Gedenkstätte Berliner Mauer**, il memoriale lungo **Bernauer Straße**, il tratto meglio conservato e documentato del confine: qui resta visibile una ricostruzione della "striscia della morte", la fascia di terreno tra i due muri paralleli pattugliata dalle guardie di frontiera, insieme al centro di documentazione che racconta le storie di chi ha tentato la fuga.
 
-A metà giornata, spostamento verso **Checkpoint Charlie**, l'ex punto di attraversamento tra i settori americano e sovietico: oggi è ricostruito con un presidio simbolico ed è diventato uno dei luoghi più turistici della città, con figuranti a pagamento per le foto — un contrasto netto, e voluto qui nell'itinerario, con la sobrietà di Bernauer Straße.
+A metà giornata, spostamento verso **Checkpoint Charlie**, l'ex punto di attraversamento tra i settori americano e sovietico: oggi è ricostruito con un presidio simbolico ed è diventato uno dei luoghi più turistici della città, con figuranti a pagamento per le foto — un contrasto netto con la sobrietà di Bernauer Straße, ed è voluto.
 
 Nel pomeriggio, la **Topografia del Terrore** (Topographie des Terrors), il centro di documentazione costruito sul sito delle ex sedi centrali della Gestapo e delle SS, con un tratto di Muro ancora in piedi lungo il perimetro esterno: la mostra ricostruisce, senza sconti, l'apparato repressivo del regime nazista che aveva qui la sua sede operativa.
 
@@ -87,7 +87,7 @@ Il **döner kebab** e il **currywurst** come street food di riferimento, reperib
 - **Non farsi fotografare gratis a Checkpoint Charlie**: il pagamento arriva a cose fatte.
 - **Portare sempre un po' di contante**: non tutti i locali accettano carte.
 - **Ricordarsi della domenica**: quasi tutti i negozi sono chiusi per legge.
-- **Mettere in conto i tempi di spostamento**: Berlino è molto più estesa di altre capitali di questo archivio.
+- **Mettere in conto i tempi di spostamento**: Berlino è molto più estesa di Parigi o Cracovia.
 - **Convalidare sempre il biglietto BVG** prima di salire, dove non ci sono tornelli.
 
 ## Chiusura personale

@@ -11,7 +11,7 @@
 ## Apertura personale
 Le Baleari sono tre isole diverse tenute insieme solo dalla geografia e dall'estate mediterranea, non da un carattere comune. Mallorca è quasi un piccolo continente: una capitale vera, Palma, e una catena montuosa patrimonio UNESCO, la Serra de Tramuntana. Ibiza è due isole in una — il sud della vita notturna mondialmente famosa e il nord rurale, quasi hippie, che le guide generaliste tendono a saltare del tutto. Minorca è la scelta deliberata del silenzio: gran parte del suo territorio è riserva della biosfera UNESCO, e lo sviluppo turistico è rimasto contenuto per scelta politica fin dagli anni '80.
 
-Otto giorni, collegati in traghetto, bastano per vedere tutte e tre senza ridurle a scali di poche ore: tre-quattro giorni a Mallorca, la più grande, e due-tre ciascuna per Ibiza e Minorca. Con meno tempo a disposizione, conviene sceglierne una sola invece di comprimerle tutte — la scheda di Mallorca in questo archivio include un confronto dettagliato tra le tre per chi deve decidere.
+Otto giorni, collegati in traghetto, bastano per vedere tutte e tre senza ridurle a scali di poche ore: tre-quattro giorni a Mallorca, la più grande, e due-tre ciascuna per Ibiza e Minorca. Con meno tempo a disposizione, conviene sceglierne una sola invece di comprimerle tutte — più sotto c'è un confronto tra le tre per chi deve decidere.
 
 ## Scheda pratica
 - **Quando andare:** **maggio-giugno** e **settembre**, il compromesso migliore tra clima gradevole e prezzi più bassi. **Luglio-agosto** è il picco assoluto: prezzi di voli, traghetti e alloggi tra i più alti d'Europa, spiagge e centri storici molto affollati.

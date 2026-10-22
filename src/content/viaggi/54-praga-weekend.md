@@ -69,9 +69,9 @@ Sera in centro, per l'ultima cena del weekend.
 - **Una serata in un hospoda** fuori dal centro più turistico, per la birra ai prezzi reali.
 
 ## Estensioni possibili
-- **Kutná Hora (+1 giorno, o mezza giornata):** circa un'ora di treno, per l'Ossario di Sedlec, decorato interamente con ossa umane, e la Cattedrale di Santa Barbara, entrambi Patrimonio UNESCO — la gita fuori porta più classica da Praga, non ancora verificata a fondo per questo archivio.
+- **Kutná Hora (+1 giorno, o mezza giornata):** circa un'ora di treno, per l'Ossario di Sedlec, decorato interamente con ossa umane, e la Cattedrale di Santa Barbara, entrambi Patrimonio UNESCO — la gita fuori porta più classica da Praga.
 - **Karlovy Vary:** le storiche terme termali della Boemia occidentale, a circa 2 ore di bus, per chi ha più tempo e cerca un ritmo più lento.
-- **Vienna:** con un treno diretto di circa 4 ore, è la naturale combinazione con questo weekend per chi ha più giorni a disposizione — vedi l'itinerario dedicato su questo stesso archivio.
+- **Vienna:** con un treno diretto di circa 4 ore, è la naturale combinazione con questo weekend per chi ha più giorni a disposizione — sul sito c'è l'itinerario dedicato.
 
 ## Dove abbiamo dormito
 **Staré Město** è la scelta più comoda, tutto a piedi, ma anche la zona con i prezzi più alti. **Malá Strana** è altrettanto centrale e più tranquilla, ai piedi del Castello. **Vinohrady** e **Žižkov**, poco fuori dal nucleo storico ma ben collegati in tram, sono le alternative più vissute e più economiche.

@@ -73,7 +73,7 @@ All'andata una sistemazione semplice ed essenziale, in linea con lo stile "STF" 
 La struttura più iconica del viaggio: la storica stazione di montagna dentro il parco nazionale di Abisko, punto di partenza diretto per la seggiovia della Aurora Sky Station. Essenziale ma con un'atmosfera unica, immersa nel parco.
 
 ## Dove abbiamo mangiato
-Non ho ancora annotazioni puntuali sui singoli ristoranti — dal preventivo, il budget indicativo per i pasti era di 10-15€ al giorno per le colazioni (spesso incluse nelle strutture STF) e 30-50€ a pasto per pranzi e cene. Da completare con i locali specifici una volta recuperati i ricordi più precisi.
+Per i pasti il budget indicativo era di 10-15€ al giorno per le colazioni (spesso incluse nelle strutture STF) e 30-50€ a pasto per pranzi e cene.
 
 ## Consigli pratici / errori da non ripetere
 - **Non andare a Capodanno se puoi evitarlo.** È il periodo più caro dell'anno per volare e dormire in questa zona — l'ho fatto perché volevo esattamente quel Capodanno lì, ma se l'obiettivo è solo vedere l'aurora boreale in Lapponia svedese, conviene saperlo prima.
@@ -86,6 +86,8 @@ Consiglierei la versione di Capodanno solo a chi cerca proprio quello — il fas
 
 ## Materiale grezzo (appunti, non ancora editato)
 Contenuto ricostruito da 4 documenti dell'agenzia "Mama Family Travel Partner" (preventivo Lapponia Svedese, piano hotel, piano voli, presentazione comparativa Capodanno con Tromsø e Reykjavík) preparati originariamente per un preventivo. L'itinerario giorno per giorno è stato ricostruito incrociando il piano voli/hotel (date e strutture esatte) con il riepilogo delle attività della presentazione comparativa (Aurora Sky Station, motoslitta, husky). I prezzi e i dettagli operativi di ogni attività (durate, formule guidata/self-drive, orari, come si prenota) sono stati integrati con ricerca sui siti ufficiali degli operatori e della Swedish Tourist Association, per rendere la pagina utile a chi vuole organizzare lo stesso viaggio — vanno comunque sempre riverificati prima di prenotare. Da confermare/completare: anno esatto del viaggio, ristoranti specifici, aneddoti, foto.
+
+**Note di redazione (revisione 22/10/2026):** tolti dal testo pubblico i promemoria «da completare/da confermare» (nomi di hotel e locali): vanno nel Quaderno dei ricordi.
 
 ## Foto/media
 - [ ] foto dell'Aurora Sky Station e della cena in quota

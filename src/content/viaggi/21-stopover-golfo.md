@@ -102,7 +102,7 @@ Sera sulla **Corniche**, che il giovedì è il momento sociale della città: fam
 - **Al Ain (+1 giorno da Abu Dhabi):** l'oasi patrimonio UNESCO con i canali falaj in funzione da duemila anni, per capire com'era questo paese prima del petrolio.
 - **Il nord del Qatar (+1 giorno da Doha):** Al Zubarah, i villaggi abbandonati e le lastre di Serra nel deserto.
 - **AlUla (+2 giorni da Jeddah):** Hegra, la seconda città nabatea dopo Petra, raggiungibile con un volo interno e compresa nei 4 giorni del visto stopover.
-- **Arabia Saudita completa (+12 giorni):** ha un itinerario dedicato in questo archivio.
+- **Arabia Saudita completa (+12 giorni):** sul sito c'è un itinerario dedicato.
 
 ## Dove abbiamo dormito
 - **Dubai:** con Dubai Connect l'hotel è assegnato e non si sceglie. Fuori dal programma, Deira e Bur Dubai per i prezzi bassi e la metropolitana, Downtown per essere sotto il Burj Khalifa.

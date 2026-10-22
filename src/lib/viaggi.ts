@@ -50,6 +50,15 @@ function parseMeta(headerBlock: string): Record<string, string> {
       currentKey = null
     }
   }
+  // Le note di lavoro nei campi in testa ("da confermare", "anno esatto da confermare")
+  // non devono finire nella riga di dati sotto il titolo. "Stato bozza" resta intatto: è interno.
+  for (const k of Object.keys(meta)) {
+    if (k === 'Stato bozza') continue
+    let v = meta[k].replace(/\s*\*?\([^)]*(?:confermar|verificar|completar|ricordar)[^)]*\)\*?/gi, '').trim()
+    v = v.replace(/[;,]\s*[^;,]*(?:da confermare|da verificare|da completare)[^;,]*$/i, '').trim()
+    if (/^(?:\*?\(?)?(?:da confermare|da verificare|da completare|tbd)\b/i.test(v)) v = ''
+    meta[k] = v
+  }
   return meta
 }
 

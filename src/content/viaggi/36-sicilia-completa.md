@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-C'è un itinerario, in questo archivio, che dice di non provare a fare tutta la Sicilia e di prenderne una metà. Resta il consiglio giusto per chi ha dieci giorni. Questo è l'itinerario per chi ne ha diciassette, e allora il discorso cambia completamente: la Sicilia intera si fa, ma solo se le si dà il tempo che chiede, che è quello di una nazione e non quello di una regione.
+C'è un itinerario, su questo sito, che dice di non provare a fare tutta la Sicilia e di prenderne una metà. Resta il consiglio giusto per chi ha dieci giorni. Questo è l'itinerario per chi ne ha diciassette, e allora il discorso cambia completamente: la Sicilia intera si fa, ma solo se le si dà il tempo che chiede, che è quello di una nazione e non quello di una regione.
 
 L'isola è grande come la Lombardia e ha una rete stradale che non è la Lombardia: **le autostrade esistono solo su due direttrici**, tutto il resto è statale, e i tempi delle mappe vanno **aumentati di circa un terzo**. Diciassette giorni sembrano molti finché non si prova a metterci dentro due parchi archeologici greci, un vulcano attivo, otto città barocche, la più grande concentrazione di arte arabo-normanna del mondo, una riserva costiera, delle saline e un paio di isole di storia fenicia.
 
@@ -175,7 +175,7 @@ Il **mercato della Pescheria**, che si tiene in una piazza dietro il Duomo ed è
 Ultima granita con la brioche, ultimi acquisti — **pistacchio di Bronte**, cioccolato di Modica, capperi, vino dell'Etna, sale delle saline di Trapani — e volo da Catania.
 
 ## Come accorciarlo
-- **In 10 giorni si fa una metà**, ed è il consiglio che vale per la maggior parte delle persone: l'**orientale** (Etna, Siracusa, Val di Noto, Agrigento) è la scelta giusta la prima volta, e ha un itinerario dedicato in questo archivio.
+- **In 10 giorni si fa una metà**, ed è il consiglio che vale per la maggior parte delle persone: l'**orientale** (Etna, Siracusa, Val di Noto, Agrigento) è la scelta giusta la prima volta, e ha un itinerario dedicato sul sito.
 - **In 12-13 giorni** si fa il giro completo tagliando le giornate più lente: si accorcia Palermo a due giorni, si accorpano Marsala e lo Zingaro, si salta Cefalù e si fa il Val di Noto in due giorni invece che in tre.
 - **In 7 giorni, solo l'occidentale:** Palermo, Monreale, Segesta, Erice, le saline, Mozia, Selinunte e lo Zingaro. È la Sicilia meno battuta dal turismo internazionale e ha il rapporto qualità-prezzo migliore dell'isola.
 - **Quello che non va fatto:** comprimere il giro completo sotto i dodici giorni. Si finisce per passare la vacanza sulle statali.

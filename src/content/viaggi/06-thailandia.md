@@ -372,7 +372,7 @@ diventata negli anni una delle feste in spiaggia più grandi al mondo: tra
   avanti-indietro da Samui.
 
 ## Chiusura personale
-Difficile chiudere il racconto di un paese visitato tante volte e in modi così diversi, ma se devo scegliere i momenti che porto a casa sono la crociera al tramonto sul lago Cheow Lan a Khao Sok, tra torri calcaree che sembrano una piccola Guilin, e lo street food di Bangkok, sempre diverso e sempre all'altezza della fama. Tra le Similan e Koh Phi Phi vince nettamente il mare delle prime, ma se cerco vita da isola e serate scelgo sempre Phi Phi. Alla Thailandia torno sempre volentieri, ed è forse l'unico paese di questo archivio di cui posso dire con certezza che ci tornerò ancora.
+Difficile chiudere il racconto di un paese visitato tante volte e in modi così diversi, ma se devo scegliere i momenti che porto a casa sono la crociera al tramonto sul lago Cheow Lan a Khao Sok, tra torri calcaree che sembrano una piccola Guilin, e lo street food di Bangkok, sempre diverso e sempre all'altezza della fama. Tra le Similan e Koh Phi Phi vince nettamente il mare delle prime, ma se cerco vita da isola e serate scelgo sempre Phi Phi. Alla Thailandia torno sempre volentieri, ed è forse l'unico paese di cui posso dire con certezza che ci tornerò ancora.
 
 ## Materiale grezzo (appunti, non ancora editato)
 Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base

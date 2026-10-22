@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-Le Canarie sono spagnole per bandiera e africane per geografia: al largo delle coste del Marocco, più vicine a Casablanca che a Madrid, con un clima subtropicale che non cambia quasi mai — 16-21°C anche a gennaio. È l'unica meta di questo archivio spagnolo pensata esplicitamente per la stagione fredda europea, quando altrove si scappa dal freddo e qui si sta semplicemente bene tutto l'anno.
+Le Canarie sono spagnole per bandiera e africane per geografia: al largo delle coste del Marocco, più vicine a Casablanca che a Madrid, con un clima subtropicale che non cambia quasi mai — 16-21°C anche a gennaio. Tra le mete spagnole del sito è l'unica pensata per la stagione fredda europea, quando altrove si scappa dal freddo e qui si sta semplicemente bene tutto l'anno.
 
 Sette isole in tutto, di cui questo itinerario ne copre tre — Tenerife, Gran Canaria e Lanzarote — scelte non a caso: tre isole ben coperte valgono più di sette viste di corsa. Tenerife ha il Teide, il punto più alto di Spagna; Gran Canaria racchiude in poco spazio dune quasi sahariane e montagna; Lanzarote è l'isola più vulcanica in assoluto, e quella dove un solo artista, César Manrique, ha plasmato l'intera urbanistica.
 

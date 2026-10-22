@@ -53,7 +53,7 @@ Pranzo (tardo) al **cenote Ik Kil**, che chiude alle 17 — anche qui si paga di
 ### Giorno 4 — Mérida, giornata break: Playa Progreso
 Giornata senza transfer, dedicata a un'escursione a **Playa Progreso**, con partenza in mattinata. Al beach club **El Adiós** ho chiesto di Ana: con una consumazione si hanno i lettini in spiaggia gratis. A Progreso c'è anche il **museo del meteorite**, e poco distante **Isla C. Olimpios**, una spiaggia alternativa molto bella e meno battuta.
 
-*Nota da aggiungere all'itinerario: sempre in zona Mérida si può fare il bagno con i maialini a "pig beach" (playa de los cerditos), un'attività curiosa e meno turistica rispetto al resto del programma — da valutare come alternativa o aggiunta alla giornata di Progreso.*
+*Sempre dalle parti di Mérida si può fare il bagno con i maialini alla «pig beach», la playa de los cerditos: un'attività curiosa e meno turistica del resto del programma, da aggiungere o alternare alla giornata di Progreso.*
 
 Rientro a Mérida nel tardo pomeriggio. Prima di scendere in centro sono passato dalla **Negrita** per prenotare (chiude alle 22, quindi meglio muoversi per tempo) e mi sono fatto lasciare dal driver al mercado municipal per un pomeriggio libero di shopping. In serata, dopo la Negrita, ci si sposta alla Mezcalería per continuare la serata.
 
@@ -144,24 +144,21 @@ Descritto spesso come "un gioiello nel centro storico di Mérida": camere pulite
 Valutazione molto positiva (8,8/10 su Booking, oltre 400 recensioni): staff sempre citato come disponibile, camere pulite, posizione comoda nel centro storico a pochi passi dal Forte San Carlos. Tra le critiche più ricorrenti, qualche recensione segnala una struttura "un po' stanca" per essere classificata 4 stelle, rumore dal climatizzatore e assenza di ascensore.
 *Alternative in centro storico:* economiche: Casa Rosanna, Casa Lilia · fascia media: Gamma Campeche Malecón, Misión Campeche América Centro Histórico · lux: Hacienda Puerta Campeche (The Luxury Collection), Casa Don Gustavo Boutique Hotel
 
-**Mahahual (Giorno 6-7) — nome da confermare**
-Non ho un nome preciso della struttura dove ho dormito a Mahahual: da recuperare per completare la bozza.
+**Mahahual (Giorno 6-7)**
 *Alternative sul lungomare:* economiche: Hotel Machos, Blue Reef Hotel Mahahual · fascia media: 40 Cañones, Aquastar Boutique Hotel · lux: Hayhu Eco-Luxury Beach Club, Inkanto Luxury Hotel
 
 **Bacalar — visitata solo in giornata (Giorno 7), nessun pernottamento**
 La tappa di Bacalar è stata un tour in barca in giornata, senza notte in loco — utile comunque avere alternative per chi vuole aggiungere una notte sulla laguna.
 *Alternative sulla laguna:* economiche: Mayan Beach Club · fascia media: CasaBakal, Khaban · lux: MÍA Bacalar Luxury Resort & Spa, Our Habitas Bacalar
 
-**Tulum (Giorno 8-9) — nome da confermare**
-Anche qui manca il nome esatto della struttura: da aggiungere per chiudere la bozza.
+**Tulum (Giorno 8-9)**
 *Alternative:* economiche: Huaya Camp (glamping), Latino Hotel Boutique · fascia media: La Zebra Tulum, Sueños Tulum · lux: Hotel Ma'xanab, Hotel Bardo
 
 **Playa del Carmen — solo serata (Giorno 9), nessun pernottamento**
 Playa del Carmen è stata una tappa serale per la vita notturna, non una notte di soggiorno — alternative utili comunque per chi la vuole usare come base.
 *Alternative in centro:* economiche: Barrio Latino Hotel, Aqualuna Boutique Hotel · fascia media: The Marquee Playa Hotel, Antera · lux: Serenity Hotel Boutique, The Fives Downtown
 
-**Holbox (Giorno 10-11) — nome da confermare**
-Manca anche qui il nome della struttura: da recuperare.
+**Holbox (Giorno 10-11)**
 *Alternative sull'isola:* economiche: Villas Palmar Holbox, Tribu Hostel · fascia media: Villas HM Paraíso del Mar, Hotel Siesta Holbox · lux: Hotel Boutique Naj Casa Holbox, Casa Las Tortugas
 
 ## Dove abbiamo mangiato
@@ -214,3 +211,8 @@ Tra il Temazcal, lo squalo balena e la bioluminescenza di Punta Mosquito, il pod
 - Verificare se la notte del Giorno 9 sia stata effettivamente a Tulum o a Playa del Carmen — dal diario non è chiarissimo, ho assunto Tulum come base.
 - Dove si è dormito (se si è dormito) la notte del Giorno 12 a Cancún, visto che il diario si interrompe lì.
 - Se il periodo di viaggio è coerente con le cerimonie Hanal Pixán (fine ottobre-inizio novembre) — al momento è solo un'ipotesi non confermata, quindi lasciata come nota facoltativa in "Cosa vedere/cosa fare" e non nel campo "Periodo del viaggio".
+
+**Note di redazione (revisione 22/10/2026):** già in prima persona: revisione minima (nota «da aggiungere all'itinerario» resa testo per il lettore).
+
+**Note di redazione (revisione 22/10/2026):** tolti dal testo pubblico i promemoria «da completare/da confermare» (nomi di hotel e locali): vanno nel Quaderno dei ricordi.
+

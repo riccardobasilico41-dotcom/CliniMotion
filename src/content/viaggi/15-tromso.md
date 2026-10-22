@@ -46,10 +46,10 @@ Ultima mattinata libera in città prima del volo di rientro — buon momento per
 - **Da valutare per un prossimo viaggio (non fatto questa volta):** whale watching invernale verso Skjervøy (stagione orche/megattere circa metà ottobre-fine gennaio, giornata intera, 130-260€ a persona) e una notte in igloo di vetro nel Lyngenfjord con Lyngen North (circa 1h30-2h da Tromsø, 380-420€ a notte per 2 persone, da prenotare con largo anticipo perché gli igloo sono pochi).
 
 ## Dove abbiamo dormito
-Non ho ricordi precisi sulla struttura scelta — da completare. La zona più comoda della città è quella del porto/Storgata, a pochi passi da negozi, bar e dal punto di ritrovo di gran parte delle escursioni organizzate. Indicativamente: doppia in hotel centrale in alta stagione 140-170€/notte; opzioni più economiche (ostelli, es. Tromsø Activities Hostel) da circa 35€ a notte in dormitorio.
+La zona più comoda della città è quella del porto/Storgata, a pochi passi da negozi, bar e dal punto di ritrovo di gran parte delle escursioni organizzate. Indicativamente: doppia in hotel centrale in alta stagione 140-170€/notte; opzioni più economiche (ostelli, es. Tromsø Activities Hostel) da circa 35€ a notte in dormitorio.
 
 ## Dove abbiamo mangiato
-Ricordi generici più che locali precisi: la cucina locale ruota molto intorno a granchio reale (kongekrabbe) e baccalà essiccato (tørrfisk/lutefisk), entrambi presenti nei ristoranti della zona di Storgata. Da completare con i nomi specifici se tornano in mente.
+La cucina locale ruota molto intorno a granchio reale (kongekrabbe) e baccalà essiccato (tørrfisk/lutefisk), entrambi presenti nei ristoranti della zona di Storgata.
 
 ## Consigli pratici / errori da non ripetere
 - Prenotare le escursioni serali (aurora chase in particolare) con un minimo di anticipo, soprattutto nei mesi di punta (novembre-marzo).
@@ -75,6 +75,8 @@ Anche con pochi ricordi diretti, quello che mi è rimasto di più è la sensazio
 
 ## Materiale grezzo (appunti, non ancora editato)
 Viaggio realmente fatto ma di cui restano pochi ricordi diretti. La struttura del viaggio (5 giorni: arrivo/città, aurora chase, husky, esperienza sami con renne, partenza) viene da una presentazione comparativa dell'agenzia "Mama Family Travel Partner" che elencava Tromsø come una delle tre alternative artiche per Capodanno insieme ad Abisko e Reykjavík — le attività elencate corrispondono a quanto effettivamente fatto. Tutte le sezioni pratiche (prezzi, orari, nomi degli operatori, dove dormire/mangiare, Fjellheisen, Polar Museum, whale watching, igloo di vetro) sono state integrate con ricerca sui siti ufficiali degli operatori e di Visit Tromsø, per rendere la pagina una guida utile a chi vuole organizzare lo stesso viaggio — non sono ricordi diretti, e prezzi/orari vanno sempre riverificati prima di prenotare.
+
+**Note di redazione (revisione 22/10/2026):** tolti dal testo pubblico i promemoria «da completare/da confermare» (nomi di hotel e locali): vanno nel Quaderno dei ricordi.
 
 ## Foto/media
 - [ ] foto della Cattedrale Artica

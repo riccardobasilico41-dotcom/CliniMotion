@@ -9,7 +9,7 @@
 ---
 
 ## Apertura personale
-Il Costa Rica si racconta bene partendo dal suo stesso motto: quella "Pura Vida" che ho scoperto non essere affatto uno slogan turistico, ma un modo reale di vivere il tempo, più lento e meno ansioso del solito. L'ho capito fin dai primi giorni, tra un casado mangiato in una soda locale e la prima scimmia urlatrice sentita gridare dagli alberi sopra la testa — un suono che, la prima volta, fa sobbalzare più di quanto ci si aspetti. Tredici giorni che attraversano il paese da una costa all'altra, dal Mar dei Caraibi al Pacifico, sono il viaggio più denso di tutto questo archivio.
+Il Costa Rica si racconta bene partendo dal suo stesso motto: quella "Pura Vida" che ho scoperto non essere affatto uno slogan turistico, ma un modo reale di vivere il tempo, più lento e meno ansioso del solito. L'ho capito fin dai primi giorni, tra un casado mangiato in una soda locale e la prima scimmia urlatrice sentita gridare dagli alberi sopra la testa — un suono che, la prima volta, fa sobbalzare più di quanto ci si aspetti. Tredici giorni che attraversano il paese da una costa all'altra, dal Mar dei Caraibi al Pacifico, sono il viaggio più denso tra quelli raccontati qui.
 
 ## Scheda pratica
 - **Quando andare:** clima tropicale tutto l'anno, caldo e umido, con possibili piogge soprattutto sulle coste — l'itinerario stesso può variare in caso di maltempo. Novembre è tra i mesi con meno probabilità di incontrare le balene a Uvita (la stagione migliore è gennaio-marzo o luglio-ottobre), ma resta comunque un buon periodo per il resto del paese.
@@ -25,107 +25,88 @@ Il Costa Rica si racconta bene partendo dal suo stesso motto: quella "Pura Vida"
 - **Sul tempo, letteralmente relativo:** una delle note più oneste del Vade Mecum ufficiale — **Google Maps non è affidabile** per le tempistiche reali in Costa Rica: traffico, condizioni delle strade e imprevisti fanno parte del viaggio, così come i tempi lunghissimi al ristorante (motivo per cui spesso a pranzo si opta per lunch box o menu ordinati in anticipo, per non perdere le ore migliori alle cascate).
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — San José
-Arrivi scaglionati durante la giornata (Uber dall'aeroporto al centro, 30 min-1h, circa 14$), quindi nessuna attività organizzata fino al meeting di benvenuto in hotel. San José in sé ha poco da offrire dal punto di vista turistico, ma vale una passeggiata al **Mercado Central** (ottimo anche per un primo pranzo tipico) e, se c'è tempo, una visita al **Museo Nazionale** o una passeggiata nel quartiere coloniale di **Barrio Amón**.
+Il gruppo arriva alla spicciolata durante il giorno (Uber dall'aeroporto al centro, da mezz'ora a un'ora, circa 14 $) e fino al meeting di benvenuto in hotel non c'è niente in programma. San José di suo ha poco da offrire a chi viaggia, ma una passeggiata al **Mercado Central**, buono anche per il primo pranzo tipico, la vale. Se resta tempo, il **Museo Nazionale** o il quartiere coloniale di **Barrio Amón**.
 
-Cena a **Jardín de Lolita**, un giardino informale dove si mangia da diversi food truck seduti tutti insieme — un buon modo per socializzare fin dalla prima sera. In alternativa, **Colonia Arepas y Bar** (cucina venezuelana e costaricana) o il **Costa Rica Beer Factory**, con birra artigianale locale. Dopocena, gelati "alcolici" da **Booze and Scoops** e serata di ballo (musica diversa ogni sera) a **La Concha**, nel quartiere di La California — sicuro e animato anche di sera, a differenza del centro.
+La prima cena è al **Jardín de Lolita**, un giardino informale dove si mangia dai food truck seduti tutti insieme: un modo facile per rompere il ghiaccio. In alternativa, **Colonia Arepas y Bar**, cucina venezuelana e costaricana, o il **Costa Rica Beer Factory**, con la birra artigianale locale. Dopo, i gelati «alcolici» di **Booze and Scoops** e la serata di ballo a **La Concha**, con musica diversa ogni sera, nel quartiere di La California: sicuro e animato anche di notte, a differenza del centro.
 
 ### Giorno 2 — Puerto Viejo, tra Caribe e giungla
-Partenza dall'hotel in mattinata, transfer di circa 4-4h30 verso **Puerto Viejo**, sulla costa caraibica — con panini presi lungo il tragitto alla Panaderia Francesa.
+Si parte in mattinata per quattro ore, quattro e mezza di transfer fino a **Puerto Viejo**, sulla costa caraibica, con i panini presi lungo la strada alla Panaderia Francesa.
 
-Arrivata, noleggio bici da **Rasta Lion** (+506 8970 8522, circa 6$, con possibilità di riconsegnarle quando si vuole, entro il tardo pomeriggio, per 5$): il modo migliore per esplorare la costa, con tappe a **Punta Uva** (40 minuti di pedalata, la spiaggia più bella per nuotare nei Caraibi), **Playa Chiquita** e **Cocles**, dove fermarsi per l'happy hour al tramonto. Lungo la strada è facile avvistare scimmie urlatrici sugli alberi e i grandi ragni dorati tessitori di ragnatele (innocui, nonostante l'aspetto). Per gli spostamenti più brevi, i tuk tuk locali costano circa 4$ a persona (max 3 a bordo).
+All'arrivo si noleggiano le bici da **Rasta Lion** (+506 8970 8522, circa 6 $, da riconsegnare quando si vuole entro il tardo pomeriggio, per 5 $): è il modo migliore per girare la costa. A quaranta minuti di pedalata c'è **Punta Uva**, la spiaggia più bella dei Caraibi costaricani per nuotare, poi **Playa Chiquita** e **Cocles**, dove ci si ferma per l'happy hour al tramonto. Lungo la strada si vedono facilmente le scimmie urlatrici sugli alberi e i grandi ragni dorati che tessono le tele, innocui nonostante l'aspetto. Per i tratti brevi ci sono i tuk tuk, circa 4 $ a persona, tre al massimo.
 
-Cena da **Madre Tierra**; dopocena, se c'è musica dal vivo, **Hot Rocks** è il locale di riferimento — muoversi sempre in gruppo, Puerto Viejo di notte richiede un po' di attenzione in più, specialmente per le ragazze da sole.
+Si cena da **Madre Tierra** e, se c'è musica dal vivo, si finisce all'**Hot Rocks**. Di notte Puerto Viejo chiede un po' di attenzione in più: meglio muoversi in gruppo, soprattutto per le ragazze da sole.
 
-*Nota: chi vuole cimentarsi nel rafting più estremo del viaggio può organizzare con almeno una settimana d'anticipo il **Pacuaré rafting** (112$, giornata intera) lungo il tragitto verso Puerto Viejo — uno dei fiumi top 5 al mondo per il rafting, anche se le 4 ore in acqua possono risultare lunghe per chi è alla prima esperienza, soprattutto in stagione secca quando il livello dell'acqua è più basso. Il rafting "ufficiale" del pacchetto arriva comunque più avanti, sul fiume Sarapiquí, più costante e adatto anche ai meno esperti.*
+*Chi vuole il rafting più estremo del viaggio può organizzare, almeno una settimana prima, il **Pacuaré** (112 $, giornata intera) lungo il tragitto per Puerto Viejo. È tra i cinque fiumi migliori al mondo per il rafting, ma quattro ore in acqua possono sembrare lunghe a chi è alla prima esperienza, soprattutto nella stagione secca, quando l'acqua è bassa. Il rafting del pacchetto arriva comunque più avanti, sul Sarapiquí, più regolare e adatto anche ai meno esperti.*
 
 ### Giorno 3 — Parco Nazionale di Cahuita
-Giornata (opzionale, da organizzare con almeno una settimana d'anticipo) dedicata al **tour completo di Cahuita**, organizzato dalla guida locale **José** (+506 7221 4153, contattabile su WhatsApp), non incluso nel pacchetto base ma vivamente consigliato: 50$ a persona (gratis per il coordinatore), da pagare in contanti.
+È una giornata facoltativa, da organizzare almeno una settimana prima, ma è quella che consiglio di più: il **tour completo di Cahuita** con la guida locale **José** (+506 7221 4153, anche su WhatsApp), 50 $ a persona in contanti, gratis per il coordinatore.
 
-Il tour comprende: **passeggiata guidata nel Parco Nazionale di Cahuita** (circa 1h, ingresso incluso, alta probabilità di avvistare bradipi, scimmie e diverse specie di serpenti), **sosta bagno in spiaggia** dentro il parco, **pranzo**, **visita alla comunità indigena Bribrì** (il capo villaggio racconta le proprietà delle piante tradizionali e si vedono le piccole rane velenose che allevano), **laboratorio di preparazione del cioccolato** tradizionale con degustazione finale, e infine una **cascata** raggiungibile con una breve ma ripida camminata (circa 150 metri), dove è possibile fare il bagno. Al bar in cima si può bere una **pipa fría** (acqua di cocco fresca), con l'aggiunta facoltativa di rum.
+Si comincia con un'ora di passeggiata guidata nel **Parco Nazionale di Cahuita**, ingresso compreso, dove è molto probabile vedere bradipi, scimmie e diverse specie di serpenti, e si fa il bagno su una spiaggia dentro il parco. Dopo pranzo si visita la **comunità indigena Bribrì**: il capo villaggio racconta le proprietà delle piante tradizionali e mostra le piccole rane velenose che allevano. Poi un **laboratorio di cioccolato** tradizionale, con degustazione, e per finire una **cascata** in fondo a una camminata breve ma ripida, circa 150 metri, dove si può fare il bagno. Al bar in cima si beve una **pipa fría**, acqua di cocco fresca, con il rum per chi vuole.
 
-Cena tra **Beach Break Bar and Restaurant** a Playa Cocles, i tacos di **Tasty Waves**, il più elegante (e caro) **Koki Beach Restaurant** — dove capita spesso di vedere un bradipo attraversare il tetto del locale ogni sera — o la pizza di **Amimodo**. Dopocena a **Selina**, l'hotel/ostello dove si concentra la vita notturna del paese, con serata karaoke.
+La cena si sceglie tra il **Beach Break Bar and Restaurant** a Playa Cocles, i tacos di **Tasty Waves**, la pizza di **Amimodo** e il **Koki Beach Restaurant**, più elegante e più caro, dove ogni sera capita spesso di vedere un bradipo che attraversa il tetto. Dopo, al **Selina**, l'hotel-ostello dove si concentra la vita notturna del paese, con il karaoke.
 
 ### Giorno 4 — Verso Tortuguero, tra fiume e giungla
-Partenza in mattinata presto (colazione veloce e subito in transfer): 1h30 di van fino al porto di **Moin**, poi 3 ore di navigazione in barca fino a **Tortuguero**, tra canali immersi nella giungla — un tragitto già di per sé spettacolare, con alte probabilità di avvistare coccodrilli, caimani, uccelli e scimmie lungo le rive. Pranzo incluso a bordo (un tipico casado).
+Colazione veloce e via: un'ora e mezza di van fino al porto di **Moin**, poi tre ore di barca fino a **Tortuguero** tra canali immersi nella giungla. Il tragitto è già uno spettacolo, con coccodrilli, caimani, uccelli e scimmie lungo le rive. Il pranzo, un casado tipico, è a bordo.
 
-Arrivo a Tortuguero, un piccolo villaggio che si gira interamente a piedi, senza strade per auto — pieno di negozietti di souvenir. Nel pomeriggio, due possibilità:
-- **Cerro Tortuguero**: da fare in autonomia (6$ a persona per la barca + 3$ di ingresso), una breve salita nella giungla fino a una collina panoramica con vista su tutta l'area.
-- **Temporada de nacimiento (nidificazione delle tartarughe)**: se il periodo lo consente (tipicamente luglio-ottobre, ma vale la pena controllare comunque con il DMC), un'escursione notturna guidata da **Juan** (+506 8500 1369) — circa 40$ a persona, di solito nel tardo pomeriggio o in serata, per assistere dal vivo alla deposizione delle uova.
+Tortuguero è un villaggio senza strade per le auto, si gira tutto a piedi tra negozietti di souvenir. Il pomeriggio offre due possibilità. Il **Cerro Tortuguero**, in autonomia (6 $ di barca più 3 $ d'ingresso), è una breve salita nella giungla fino a una collina con la vista su tutta la zona. Se è il periodo giusto, di solito tra luglio e ottobre ma conviene chiedere al DMC, c'è la **nidificazione delle tartarughe**: un'escursione serale guidata da **Juan** (+506 8500 1369, circa 40 $ a persona) per vedere dal vivo la deposizione delle uova.
 
-Cena inclusa in hotel — tra le alternative in paese, **Taylor's Place** o **Mi Niño**.
+La cena è inclusa in hotel; in paese ci sono anche **Taylor's Place** e **Mi Niño**.
 
 ### Giorno 5 — Tortuguero: kayak tra le mangrovie, poi Sarapiquí
-Sveglia molto presto, prima dell'alba: partenza per l'**escursione in kayak** (inclusa), il momento migliore per avvistare la fauna selvatica tra i canali — 2 ore di navigazione, kayak singoli o doppi. Rientro per la colazione.
+La sveglia suona prima dell'alba per il **kayak tra i canali**, incluso: due ore in singolo o in doppio, nel momento migliore per vedere gli animali. Si rientra per la colazione.
 
-In tarda mattinata, imbarco per il trasferimento a **Sarapiquí**: 1h30 in barca più 2h30 in van, con sosta consigliata in un supermercato lungo il tragitto per fare scorta di bibite prima di arrivare al lodge (a Tortuguero, davanti al molo, c'è un piccolo supermercato e un serbatoio di acqua potabile gratuita).
+In tarda mattinata ci si imbarca verso **Sarapiquí**: un'ora e mezza di barca e due ore e mezza di van. Conviene fermarsi in un supermercato lungo la strada per le bibite prima del lodge; a Tortuguero, davanti al molo, c'è un piccolo supermercato e un serbatoio di acqua potabile gratuita.
 
-Arrivo all'**Epic Adventure Lodge**, immerso nella foresta: tempo per rilassarsi in piscina o passeggiare lungo il fiume. In serata, **cooking class inclusa** — si impara a preparare un piatto tradizionale (tipicamente empanadas), che diventa anche la cena della serata (informare in anticipo il lodge di eventuali vegetariani/vegani nel gruppo). Se il gruppo preferisce, il primo giorno al lodge è anche possibile organizzare un BBQ in alternativa.
+All'**Epic Adventure Lodge**, in mezzo alla foresta, c'è tempo per la piscina o per camminare lungo il fiume. La sera la **cooking class**, inclusa, insegna un piatto tradizionale, di solito le empanadas, che diventa la cena (vegetariani e vegani vanno segnalati prima al lodge). Se il gruppo preferisce, la prima sera al lodge si può fare anche un barbecue.
 
 ### Giorno 6 — Rafting sul fiume Sarapiquí
-Partenza dal lodge in mattinata per il **rafting sul fiume Sarapiquí** (incluso e prepagato), con soste per acqua e frutta lungo il percorso — attività che si conclude verso mezzogiorno. A differenza del più estremo Pacuaré, il Sarapiquí offre un'esperienza più regolare tutto l'anno, adatta anche a chi rafta per la prima volta.
+In mattinata si parte dal lodge per il **rafting sul Sarapiquí**, incluso e già pagato, con soste per acqua e frutta, fino a mezzogiorno. Rispetto al Pacuaré è un fiume più regolare tutto l'anno, adatto anche a chi non ha mai fatto rafting.
 
-Nel pomeriggio, tempo permettendo, escursione facoltativa alle **Cataratas Bajas del Toro** (circa 1h di auto dal punto del rafting): la zona di Bajos del Toro è considerata la "capitale delle cascate" del Costa Rica, con diverse opzioni tra cui le "gemelas" e la Catarata del Toro. Per questa escursione conviene organizzare il pranzo al sacco il giorno prima (circa 12$ a persona a fine rafting) ed essere sul posto entro il primo pomeriggio, perché l'area chiude nel tardo pomeriggio.
-
-Cena inclusa al lodge.
+Nel pomeriggio, se il tempo regge, si può andare alle **Cataratas Bajas del Toro**, a circa un'ora d'auto: Bajos del Toro è considerata la capitale delle cascate del Costa Rica, con le «gemelas» e la Catarata del Toro. Il pranzo al sacco va ordinato il giorno prima (circa 12 $ a persona, a fine rafting) e bisogna essere lì entro il primo pomeriggio, perché l'area chiude nel tardo pomeriggio. Cena inclusa al lodge.
 
 ### Giorno 7 — Arenal: cascate, vulcano e sorgenti termali
-Trasferimento di circa 1h20 verso **La Fortuna**, ai piedi del vulcano Arenal, con il minivan a disposizione per tutta la giornata.
+Un'ora e venti di strada fino a **La Fortuna**, ai piedi del vulcano Arenal, con il minivan a disposizione per tutto il giorno.
 
-Prima tappa, la **Cascada de La Fortuna**: probabilmente la cascata più fotografata del paese, con una piscina naturale alla base dove è possibile fare il bagno (ingresso circa 18-20$, da pagare con la cassa comune). Il DMC propone anche un **tour combo** che include pranzo e tre attività: nella prima versione (90$ a persona) c'è la cascata più il trekking al vulcano (Mirador El Silencio, ottime viste, circa 10$/pax se fatto separatamente) e le sorgenti termali; nella seconda versione (120$ a persona) al posto del trekking ci sono i **ponti sospesi** di Mistico Hanging Bridges (circa 30$/pax da soli).
+La prima tappa è la **Cascada de La Fortuna**, probabilmente la cascata più fotografata del paese, con una piscina naturale alla base dove ci si può bagnare (circa 18-20 $, dalla cassa comune). Il DMC propone un **tour combo** con pranzo e tre attività: per 90 $ la cascata, il trekking al vulcano al Mirador El Silencio (ottime viste, circa 10 $ da solo) e le sorgenti termali; per 120 $, al posto del trekking, i **ponti sospesi** dei Mistico Hanging Bridges (circa 30 $ da soli).
 
-Nel tardo pomeriggio, il momento più suggestivo della giornata: le **sorgenti termali naturali** nel tratto di fiume chiamato **El Choyin**, gratuite (a differenza delle terme "da spa" come Termalitas de Arenal, a pagamento ma con servizi extra come il barbecue) — consigliato portare solo scarpe da fiume, costume, una torcia frontale in una sacca impermeabile, senza asciugamani (può piovere e non ci sono spogliatoi).
+Il momento più bello arriva nel tardo pomeriggio, alle **sorgenti termali naturali** di **El Choyin**, un tratto di fiume gratuito, diverso dalle terme da spa come Termalitas de Arenal, a pagamento ma con extra come il barbecue. Servono solo scarpe da fiume, costume e una frontale in una sacca impermeabile; niente asciugamani, perché può piovere e non ci sono spogliatoi.
 
-Cena da **Nanku Restaurant**, con musica dal vivo, oppure la cucina tradizionale e più economica di **Soda Víquez**, o il messicano di **Spectacular Cantina**. Dopocena, la festa si sposta di solito all'ostello **Selina** o al **Lava Lounge**.
+Si cena al **Nanku Restaurant** con musica dal vivo, alla **Soda Víquez**, più tradizionale ed economica, o al messicano **Spectacular Cantina**. La festa di solito si sposta poi al **Selina** o al **Lava Lounge**.
 
-*Nota: chi vuole un'esperienza più adrenalinica può valutare il **canyoning nel Lost Canyon** (115-119$, super avventuroso secondo chi lo ha provato) — disponibile in mattinata il Giorno 8 (con pranzo incluso) o nel primo pomeriggio del Giorno 7. Chi non partecipa ha comunque il pulmino a disposizione, perché il canyoning gestisce il proprio trasporto.*
+*Per chi cerca adrenalina c'è il **canyoning nel Lost Canyon** (115-119 $, «super avventuroso» secondo chi l'ha provato), la mattina del Giorno 8 con pranzo incluso o il primo pomeriggio del Giorno 7. Ha il suo trasporto, quindi chi non partecipa tiene comunque il pulmino.*
 
 ### Giorno 8 — Monteverde, nella foresta nebulosa
-Partenza in mattinata presto (colazione veloce e subito in transfer): prima tappa ai **ponti sospesi** vicino a La Fortuna (secondo alcuni feedback, un po' sottotono rispetto alle aspettative), poi lungo trasferimento di circa 3-3h30 verso **Monteverde**, con pranzo lungo il tragitto in una delle sode locali.
+Colazione veloce e partenza presto. La prima tappa sono i **ponti sospesi** vicino a La Fortuna, un po' sottotono rispetto alle aspettative secondo alcuni del gruppo. Poi tre ore, tre e mezza di strada fino a **Monteverde**, con il pranzo in una delle sode lungo la via.
 
-Nel primo pomeriggio, **visita a una piantagione di caffè** (circa 2 ore, con degustazione finale) — consigliato prenotare lo slot del primo pomeriggio tramite il DMC, che può negoziare tariffe di gruppo. In alternativa esistono tour combinati che includono anche cioccolato e canna da zucchero, o un'escursione alle Tigre Waterfalls con pranzo incluso.
+Nel primo pomeriggio si visita una **piantagione di caffè**, due ore con degustazione finale: conviene prenotare lo slot del primo pomeriggio tramite il DMC, che può ottenere tariffe di gruppo. In alternativa ci sono tour che aggiungono cioccolato e canna da zucchero, o un'escursione alle Tigre Waterfalls con pranzo incluso.
 
-Cena a **Tree House** (con un supermercato proprio accanto, comodo per fare scorta di bibite per dopo) o tra le alternative **Tico y Rico**, **The Green Restaurant** e **Sabor Tico**.
-
-In serata, **camminata notturna** nella foresta nebulosa (circa 1h30), uno dei momenti più suggestivi del viaggio per osservare la fauna notturna — il Kinkajou Night Walk Tour è generalmente considerato il migliore (28$ a persona). *Da segnalare: l'attività non è piaciuta a tutti allo stesso modo, principalmente per la durata — se possibile, vale la pena chiedere alla guida di accorciarla a circa 1h15-1h30.*
+Si cena al **Tree House**, con un supermercato accanto per le bibite, oppure da **Tico y Rico**, al **The Green Restaurant** o da **Sabor Tico**. La sera c'è la **camminata notturna** nella foresta nebulosa, un'ora e mezza per vedere la fauna della notte: il Kinkajou Night Walk Tour (28 $) è considerato il migliore. *Non è piaciuta a tutti allo stesso modo, soprattutto per la durata: se si può, meglio chiedere alla guida di tenerla tra un'ora e un quarto e un'ora e mezza.*
 
 ### Giorno 9 — Zipline a Monteverde, poi verso il Pacifico e Uvita
-Per chi vuole iniziare con energia, possibilità di un **birdwatching all'alba** (guida consigliata Jason, +506 8636 0491, circa 50$ a persona) prima delle attività della giornata.
+Chi vuole cominciare presto può fare **birdwatching all'alba** con Jason (+506 8636 0491, circa 50 $ a persona).
 
-**Zipline avventura**: le tirolesi di Monteverde sono considerate tra le migliori del paese (più lunghe di quelle di La Fortuna), con un turno in mattinata presto e uno in tarda mattinata — circa 60$ a persona, con possibilità di fermarsi dopo la terza linea con un rimborso del 75% per chi non se la sente di continuare. Durata complessiva circa 3 ore.
+Poi le **zipline**: quelle di Monteverde sono tra le migliori del paese, più lunghe di quelle di La Fortuna. Ci sono due turni, all'alba e in tarda mattinata, costano circa 60 $ e durano tre ore; chi dopo la terza linea non se la sente si ferma e riceve un rimborso del 75%.
 
-Pranzo (ad esempio da **Tico y Rico**), poi lungo trasferimento verso **Uvita** (fino a 4 ore), sulla costa pacifica, con sosta fotografica d'obbligo al **ponte di Tárcoles** per vedere i grandi coccodrilli che si radunano nel fiume sottostante — e, tempo permettendo, una sosta su una spiaggia per il tramonto prima di arrivare in hotel.
-
-Cena al **Gastro Park** di Uvita (spesso disponibile uno sconto del 10% se avvisato in anticipo).
+Dopo pranzo, per esempio da **Tico y Rico**, fino a quattro ore di strada verso **Uvita**, sul Pacifico. La sosta al **ponte di Tárcoles** è d'obbligo: sotto, nel fiume, si radunano grandi coccodrilli. Se il tempo lo permette, un tramonto su una spiaggia prima dell'hotel. Cena al **Gastro Park** di Uvita (avvisando prima, spesso c'è uno sconto del 10%).
 
 ### Giorno 10 — Uvita: avvistamento balene
-Giornata dedicata al **whale watching**: Uvita ha due stagioni per l'avvistamento (gennaio-marzo e luglio-ottobre sono le migliori, mentre novembre-dicembre e maggio-giugno possono offrire meno incontri) — un'escursione di circa 3h30-4h, 70$ a persona, con acqua e frutta inclusi. *Importante: da organizzare solo tramite il DMC, evitando fornitori locali che spesso non offrono un'assicurazione adeguata per questo tipo di attività.*
+È il giorno del **whale watching**. A Uvita le stagioni migliori sono gennaio-marzo e luglio-ottobre; novembre-dicembre e maggio-giugno possono dare meno incontri. L'uscita dura tre ore e mezza, quattro, costa 70 $ con acqua e frutta incluse. *Importante: solo tramite il DMC, non con i fornitori locali, che spesso non hanno un'assicurazione adeguata.*
 
-Pomeriggio libero in spiaggia — la costa di Uvita, con il celebre banco di sabbia a forma di coda di balena (**Cola de la Ballena**, visibile soprattutto con la bassa marea), resta uno dei paesaggi più belli di tutto il viaggio.
-
-Cena in hotel.
+Il pomeriggio è libero in spiaggia. La costa di Uvita, con il banco di sabbia a forma di coda di balena, la **Cola de la Ballena**, che si vede soprattutto con la bassa marea, è uno dei paesaggi più belli del viaggio. Cena in hotel.
 
 ### Giorno 11 — Uvita: giornata libera tra surf, cavalli e yoga
-Ultima giornata piena a Uvita, da vivere a ritmo libero. Tra le opzioni:
-- **Equitazione** al Rancho Merced (+506 8861 5147), circa 52$ a persona per 2 ore — bella esperienza secondo chi l'ha provata, anche se non è tra le attività più scelte.
-- **Surf**: noleggio tavole per l'intera giornata (circa 70$ per 4 tavole) presso Nomadic Surf.
-- **Yoga al tramonto**: lezione di un'ora, circa 10$ a persona, in un deck con vista molto suggestiva (max 10 persone).
-- Semplicemente **spiaggia e relax**, magari con una passeggiata verso la punta della Cola de la Ballena.
-
-Cena libera in zona.
+L'ultimo giorno pieno a Uvita va al ritmo di ciascuno. Al Rancho Merced (+506 8861 5147) si va a **cavallo** per due ore, circa 52 $: bella esperienza secondo chi l'ha fatta, anche se pochi la scelgono. Da Nomadic Surf si noleggiano le **tavole da surf** per tutto il giorno, circa 70 $ per quattro. Al tramonto c'è un'ora di **yoga** su un deck con una vista molto bella, circa 10 $, dieci persone al massimo. Oppure semplicemente spiaggia, magari camminando fino alla punta della Cola de la Ballena. La cena è libera.
 
 ### Giorno 12 — Parco Nazionale Manuel Antonio e rientro a San José
-Partenza molto presto, prima dell'alba (colazione veloce e subito in viaggio) verso il **Parco Nazionale Manuel Antonio** (circa 1h30 di trasferimento), tappa considerata tra le più belle di tutto il Costa Rica.
+Si parte prima dell'alba, colazione veloce, per un'ora e mezza di strada fino al **Parco Nazionale Manuel Antonio**, una delle tappe più belle del Costa Rica.
 
-**Visita guidata inclusa** nel parco: la guida aiuta ad avvistare bradipi, scimmie, iguane e colibrì lungo i sentieri (circa 1-2 ore a seconda del ritmo e di quanta fauna si incontra), seguita da tempo libero su una delle spiagge più belle del paese, all'interno del parco stesso. *Il parco è chiuso il martedì: se il Giorno 12 cade di martedì, la visita viene spostata al Giorno 10 o 11.*
+La visita guidata, inclusa, dura una o due ore secondo il passo e gli incontri: la guida aiuta a vedere bradipi, scimmie, iguane e colibrì lungo i sentieri. Poi c'è tempo per una delle spiagge più belle del paese, dentro il parco. *Il parco chiude il martedì: se il Giorno 12 cade di martedì, la visita si sposta al Giorno 10 o 11.*
 
-Ultimo lungo trasferimento (circa 3h30-4h) verso **San José**, con eventuale sosta per l'acquisto di souvenir lungo il percorso.
-
-**Cena d'arrivederci** al **Costa Rica Beer Factory** — un modo diretto per chiudere il cerchio con il primo locale visitato all'arrivo, tra birra artigianale locale e un ultimo brindisi di gruppo.
+Resta l'ultimo lungo trasferimento, tre ore e mezza o quattro, fino a **San José**, con una sosta per i souvenir. La cena d'arrivederci è al **Costa Rica Beer Factory**, dove si era passati la prima sera: un ultimo brindisi di gruppo con la birra artigianale, e il cerchio si chiude.
 
 ### Giorno 13 — Check-out e rientro
-Ultimo giorno: saluti e partenza, ognuno secondo l'orario del proprio volo.
+Saluti e partenze, ciascuno con l'orario del proprio volo.
 
 ## Cosa vedere / cosa fare
 - **Il tragitto in barca fino a Tortuguero**, tra canali di giungla, coccodrilli e uccelli — uno dei trasferimenti più belli del viaggio, non solo una tappa di passaggio.
@@ -199,6 +180,8 @@ Fonti ufficiali del tour operator (WeRoad):
 - Aneddoti di apertura/chiusura scritti come bozza (Claude) — da rileggere e
   sostituire con i ricordi veri.
 - Eventuale racconto della "sorpresa di compleanno" organizzata durante il Giorno 12 (consegna di empanadas fuori dall'ingresso di Manuel Antonio) — sembra un dettaglio con una bella storia dietro.
+
+**Note di redazione (revisione 22/10/2026):** itinerario riscritto (VOCE-EDITORIALE.md), fatti e contatti invariati.
 
 ## Foto/media
 - [ ] foto del tragitto in barca verso Tortuguero

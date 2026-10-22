@@ -121,7 +121,7 @@ Partenza da Changi, che è uno dei pochi aeroporti al mondo in cui conviene arri
 ## Estensioni possibili
 - **Isole della costa est (Perhentian, +3-4 giorni):** il mare vero della Malesia, con le tartarughe che si incontrano facendo snorkeling dalla riva. **Funziona solo da maggio a settembre**: da novembre a febbraio il monsone chiude le isole e ferma i traghetti. Se il viaggio cade in quella finestra, l'itinerario va ribaltato — costa est invece di costa ovest.
 - **Langkawi (+3 giorni):** l'alternativa della costa ovest, aperta nella stessa stagione di questo itinerario. Il mare è mediocre e torbido, ma il giro tra le mangrovie di Kilim e lo Sky Bridge valgono la sosta, ed essendo porto franco l'alcol costa un terzo.
-- **Borneo (+10-12 giorni):** due ore e mezza di volo da Kuala Lumpur, ed è un viaggio a sé. Ha un itinerario dedicato in questo archivio.
+- **Borneo (+10-12 giorni):** due ore e mezza di volo da Kuala Lumpur, ed è un viaggio a sé. Sul sito c'è un itinerario dedicato.
 
 ## Dove abbiamo dormito
 - **Kuala Lumpur:** Bukit Bintang per la comodità, Chinatown per i prezzi e il carattere. La regola è stare vicino a una fermata della monorotaia.

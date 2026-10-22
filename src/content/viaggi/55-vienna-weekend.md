@@ -9,13 +9,13 @@
 ---
 
 ## Apertura personale
-Vienna è la capitale che per sei secoli ha ospitato la corte più potente d'Europa centrale, e si vede in ogni angolo del centro storico: una reggia con oltre 1.400 stanze appena fuori porta, un palazzo che oggi custodisce uno dei quadri più riprodotti al mondo, una cattedrale gotica con il tetto a tegole colorate che è diventata il simbolo stesso della città. Ma quello che rende Vienna diversa da Praga o Cracovia, già coperte da questo archivio, non è solo la grandezza imperiale: è l'euro al posto di una valuta locale da convertire, e una cultura del caffè talmente radicata da essere entrata nel patrimonio culturale immateriale dell'UNESCO.
+Vienna è la capitale che per sei secoli ha ospitato la corte più potente d'Europa centrale, e si vede in ogni angolo del centro storico: una reggia con oltre 1.400 stanze appena fuori porta, un palazzo che oggi custodisce uno dei quadri più riprodotti al mondo, una cattedrale gotica con il tetto a tegole colorate che è diventata il simbolo stesso della città. Ma quello che rende Vienna diversa da Praga o Cracovia non è solo la grandezza imperiale: è l'euro al posto di una valuta locale da convertire, e una cultura del caffè talmente radicata da essere entrata nel patrimonio culturale immateriale dell'UNESCO.
 
-Tre o quattro giorni bastano per l'essenziale: l'Innere Stadt con la Cattedrale di Santo Stefano, la Hofburg, Schönbrunn (che da sola vale mezza giornata), il Belvedere con Klimt e il Prater come chiusura più leggera. È un weekend più semplice, dal punto di vista pratico, di altri in questo archivio — niente cambio valuta, trasporti pubblici tra i più efficienti d'Europa — ma con una città che chiede comunque di rallentare almeno un'ora al giorno in un caffè storico, non come pausa turistica ma come vera e propria usanza locale.
+Tre o quattro giorni bastano per l'essenziale: l'Innere Stadt con la Cattedrale di Santo Stefano, la Hofburg, Schönbrunn (che da sola vale mezza giornata), il Belvedere con Klimt e il Prater come chiusura più leggera. È un weekend più semplice, dal punto di vista pratico, di molte altre capitali — niente cambio valuta, trasporti pubblici tra i più efficienti d'Europa — ma con una città che chiede comunque di rallentare almeno un'ora al giorno in un caffè storico, non come pausa turistica ma come vera e propria usanza locale.
 
 ## Scheda pratica
 - **Quando andare:** **aprile-maggio e settembre-ottobre**, con clima mite, meno folla e code più corte a Schönbrunn e Stephansplatz. **Giugno-agosto** è alta stagione: caldo e molto affollato nei punti più turistici. **Novembre-marzo** è freddo, ma la città regge bene anche d'inverno e a dicembre i mercatini di Natale, in particolare quello davanti al Municipio, sono tra i più noti d'Europa.
-- **Valuta:** l'Austria è nell'**eurozona**, a differenza di Praga e Cracovia già trattate su questo archivio: nessun cambio valuta, nessun rischio di conversioni penalizzanti nei ristoranti. Un vantaggio pratico non banale per chi arriva dall'Italia.
+- **Valuta:** l'Austria è nell'**eurozona**, a differenza di Praga e Cracovia: nessun cambio valuta, nessun rischio di conversioni penalizzanti nei ristoranti. Un vantaggio pratico non banale per chi arriva dall'Italia.
 - **Domenica, negozi chiusi:** quasi tutti i negozi, supermercati compresi, **sono chiusi la domenica per legge**, con le sole eccezioni dei punti vendita nelle stazioni ferroviarie, in aeroporto e delle farmacie di turno. Gli acquisti vanno organizzati nei giorni feriali o al sabato.
 - **Attenzione ai borseggi sulla linea U3 della metropolitana:** in particolare nel tratto tra Stephansplatz e Westbahnhof, e nei luoghi più affollati come Stephansplatz stessa e il Naschmarkt nei weekend. Vienna è tra le prime città europee per numero di episodi di borseggio, pur restando una delle più sicure al mondo per la criminalità violenta.
 - **Finti agenti di polizia:** come in altre capitali europee, circola la truffa di persone che si qualificano come poliziotti e chiedono di controllare documenti o borsello. Un vero agente non lo fa per strada senza un motivo chiaro.
@@ -67,9 +67,9 @@ Sera di chiusura: per chi ha pianificato in anticipo, un biglietto in piedi all'
 - **Un biglietto in piedi all'Opera di Stato**, per chi ha tempo di incastrarlo.
 
 ## Estensioni possibili
-- **Salisburgo (+1-2 giorni):** circa 2h30 di treno diretto, per la città natale di Mozart e location di "Tutti insieme appassionatamente" — un itinerario a sé, non ancora coperto da questo archivio.
+- **Salisburgo (+1-2 giorni):** circa 2h30 di treno diretto, per la città natale di Mozart e location di "Tutti insieme appassionatamente" — un viaggio a sé.
 - **Wachau e la valle del Danubio (+1 giorno):** circa un'ora di treno, per i vigneti e i villaggi medievali lungo il fiume, tra Krems e Melk.
-- **Praga:** con un treno diretto di circa 4 ore, è la naturale combinazione con questo weekend per chi ha più giorni a disposizione — vedi l'itinerario dedicato su questo stesso archivio.
+- **Praga:** con un treno diretto di circa 4 ore, è la naturale combinazione con questo weekend per chi ha più giorni a disposizione — sul sito c'è l'itinerario dedicato.
 
 ## Dove abbiamo dormito
 L'**Innere Stadt** (il I distretto, dentro il Ring) è la scelta più comoda, con la maggior parte delle attrazioni a portata di piedi, ma anche la zona con i prezzi più alti. I distretti limitrofi (II, IV, VII) sono alternative più economiche e ben collegate in U-Bahn, spesso a pochi minuti a piedi dal Ring.
