@@ -309,8 +309,34 @@ export function getDestinazioniByEsperienza(esperienza: Esperienza): Destinazion
   return DESTINAZIONI.find((d) => d.slug === esperienza.destinazioneSlug)
 }
 
+// Le schede dati dei viaggi contengono appunti di lavoro ("(da confermare quale)",
+// "Diversi dettagli … sono ancora da confermare con foto/ricordi"): restano nei file
+// per chi ci lavora, ma non arrivano al lettore.
+const NOTA_LAVORO = /(da confermare|da ricordare|da completare|da recuperare|con foto\/ricordi)/i
+function pulisci<T>(v: T): T {
+  if (typeof v === 'string') {
+    return v
+      .replace(/\s*\((?:[^()]*?)(?:da confermare|da ricordare|da completare|da recuperare)(?:[^()]*?)\)/gi, '')
+      .trim() as T
+  }
+  if (Array.isArray(v)) {
+    return v.filter((x) => !(typeof x === 'string' && NOTA_LAVORO.test(x))).map(pulisci) as T
+  }
+  if (v && typeof v === 'object') {
+    return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, pulisci(x)])) as T
+  }
+  return v
+}
+const metaPulite = new Map<string, TripMeta>()
+
 export function getTripMeta(tripSlug: string): TripMeta | undefined {
-  return TRIP_META.find((t) => t.tripSlug === tripSlug)
+  const cached = metaPulite.get(tripSlug)
+  if (cached) return cached
+  const raw = TRIP_META.find((t) => t.tripSlug === tripSlug)
+  if (!raw) return undefined
+  const clean = pulisci(raw)
+  metaPulite.set(tripSlug, clean)
+  return clean
 }
 
 /** Viaggi (dal parser markdown) che toccano una destinazione. */

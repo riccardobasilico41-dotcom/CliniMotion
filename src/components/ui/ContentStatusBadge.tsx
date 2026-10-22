@@ -15,6 +15,8 @@ export function ContentStatusBadge({
   stato: StatoContenuto
   className?: string
 }) {
+  // "da confermare" è uno stato di lavoro interno: al lettore non si mostra
+  if (stato === 'da-confermare') return null
   const { classes, icon: Icon } = STYLE[stato]
   return (
     <span
