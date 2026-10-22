@@ -1013,7 +1013,7 @@ export const creditiGiornoFoto: Record<string, Record<string, CreditoImmagine>> 
       licenza: 'CC BY-SA 4.0',
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Great_Buddha_at_K%C5%8Dtoku-in_20190421_1.jpg',
     },
-    'Giorno 3 (08.04) — NUOVO: Monte Fuji e Pagoda Chureito': {
+    'Giorno 3 (08.04) — Monte Fuji e Pagoda Chureito': {
       autore: 'Stjepko Krehula (Wikimedia Commons)',
       licenza: 'CC BY 4.0',
       fonteUrl: 'https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg',

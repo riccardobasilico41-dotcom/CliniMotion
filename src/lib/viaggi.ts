@@ -135,7 +135,11 @@ function parseViaggio(filename: string): Viaggio {
   const sections = splitByHeading(body, '## ')
 
   const itinerarioSection = sections.find((s) => /^Itinerario/i.test(s.titolo))
-  const giorni = itinerarioSection ? splitByHeading(itinerarioSection.corpo, '### ') : []
+  // I giorni segnaposto ("TBD …") sono appunti di lavoro: non vanno in pagina.
+  // Foto e dati dei giorni si agganciano per titolo, quindi filtrarli non sposta nulla.
+  const giorni = itinerarioSection
+    ? splitByHeading(itinerarioSection.corpo, '### ').filter((g) => !/^TBD\b/i.test(g.corpo.trim()))
+    : []
 
   const apertura = publicText(sections.find((s) => s.titolo === 'Apertura personale')?.corpo ?? '')
   const schedaPratica = sections.find((s) => s.titolo === 'Scheda pratica')?.corpo ?? ''

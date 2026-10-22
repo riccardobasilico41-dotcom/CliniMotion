@@ -32,123 +32,54 @@ Bangkok l'ho vista più volte nel corso degli anni, e ogni volta ho scoperto qua
   turistica per "guida abusiva").
 
 ## Itinerario del giro principale (11 giorni)
-*(i dettagli su Bangkok, il nord e le isole del sud sono ripresi ed
-espansi più sotto, divisi per zona — qui la sequenza giorno per giorno del
-viaggio organizzato)*
-
 ### Giorno 1 — Bangkok
-Prima serata in città, zona **Khao San Road** per un primo assaggio della
-vita notturna — vedi la sezione Bangkok qui sotto per la guida completa.
+La prima sera è per **Khao San Road** e un primo assaggio della vita notturna di Bangkok. Per tutto il resto della città c'è la sezione dedicata più sotto.
 
 ### Giorno 2 — Bangkok-Hua Hin
-- **Mattina presto** Pick-up dall'hotel (con gruppi grandi, ci si divide su due
-  van — non è possibile chiedere un van unico).
-- **In mattinata** **Floating Market** (mercato galleggiante).
-- **Tarda mattinata** **Train Market** (il mercato che si smonta al passaggio del
-  treno) — vedi più sotto il box dedicato a questi due mercati.
-- **Verso mezzogiorno** Pranzo a un autogrill lungo la strada (tanta scelta di
-  cibo, sorprendentemente buono per essere un autogrill).
-- **Nel primo pomeriggio** Eventuale tappa a **Tham Khao Luang**, se il tempo lo
-  permette.
-- **Nel tardo pomeriggio** Arrivo a **Hua Hin**.
-- **Cena:** Cicada Market, Tamarind Market o Chatchai Market — tutti mercati
-  serali con tantissime bancarelle di street food.
+Il pick-up in hotel è di mattina presto. Con un gruppo grande ci si divide su due van, e non c'è modo di averne uno solo. La mattina è per i mercati: prima il **Floating Market**, il mercato galleggiante, poi il **Train Market**, quello che si smonta al passaggio del treno (più sotto c'è un approfondimento su entrambi).
+
+Verso mezzogiorno si mangia in un autogrill lungo la strada, con tanta scelta e cibo sorprendentemente buono. Nel primo pomeriggio, se c'è tempo, una tappa alla grotta di **Tham Khao Luang**, poi l'arrivo a **Hua Hin** nel tardo pomeriggio. La cena è in uno dei mercati serali, Cicada, Tamarind o Chatchai, pieni di bancarelle di street food.
 
 ### Giorno 3 — Hua Hin-Chumphon
-- **Mattina presto** Partenza verso il **Parco Nazionale di Sam Roi Yot** (ingresso 200
-  THB a persona, di solito raccolto dal coordinatore in cassa comune).
-- Arrivo alla spiaggia di **Laem Sala** via barca (15 min) o trekking (40
-  min, secondo le condizioni del mare).
-- Piccola escursione nella foresta di sabbia fino alla **Grotta di Phra
-  Nakorn** — al suo interno un padiglione reale che, con la luce giusta che
-  filtra dall'alto, è uno degli scorci più fotografati della Thailandia.
-- Relax in spiaggia fino a mezzogiorno, poi pranzo verso mezzogiorno.
-- **Nel primo pomeriggio** **Kui Buri National Park**: safari (con cambio veicolo
-  dedicato) per l'osservazione di bufali rossi ed elefanti selvatici — *da
-  mettere in chiaro con il gruppo: non è un safari africano, gli animali si
-  vedono spesso solo da lontano, e a volte non si vedono affatto.* Ingresso
-  1.050 THB a persona.
-- Eventuale tappa al **Wat Thang Sai**, se il tempo lo consente.
-- Trasferimento a **Chumphon** (circa 3h30).
-- **Cena:** Cube Bar o Helio Restaurant.
+Si parte presto per il **Parco Nazionale di Sam Roi Yot** (200 THB a persona, di solito raccolti dal coordinatore nella cassa comune). La spiaggia di **Laem Sala** si raggiunge in barca, un quarto d'ora, o a piedi in quaranta minuti, secondo il mare. Da lì una breve escursione nella foresta porta alla **Grotta di Phra Nakorn**, con dentro un padiglione reale: quando la luce filtra dall'alto è uno degli scorci più fotografati della Thailandia. Si resta in spiaggia fino al pranzo.
+
+Nel primo pomeriggio si cambia veicolo per il safari nel **Kui Buri National Park** (1.050 THB a persona), a caccia di bufali rossi ed elefanti selvatici. *Meglio dirlo chiaro al gruppo: non è un safari africano, gli animali si vedono spesso da lontano e a volte non si vedono affatto.* Se c'è tempo, il **Wat Thang Sai**, poi tre ore e mezza fino a **Chumphon**. Cena al Cube Bar o all'Helio Restaurant.
 
 ### Giorno 4 — Chumphon-Khao Sok
-- **Mattina presto** Pick-up, trasferimento verso **Khao Sok** (circa 4h30, due soste
-  in stazioni di servizio lungo la strada). Ingresso al parco 220 THB a
-  persona.
-- All'arrivo guida e autista salutano (mancia opzionale, circa 500 baht per
-  auto).
-- **Attività opzionali** (da prenotare tramite l'hotel/Smiley Bungalows con
-  almeno 24h di anticipo — mai con fornitori esterni non autorizzati):
-  elephant safari, bamboo rafting, night safari, trekking nella giungla.
-- **Cena:** Bamboo Bistro Khao Sok.
+Pick-up presto e quattro ore e mezza di strada fino a **Khao Sok**, con due soste in stazioni di servizio; l'ingresso al parco costa 220 THB a persona. All'arrivo guida e autista salutano (la mancia è facoltativa, circa 500 baht per auto).
+
+Le attività facoltative, elephant safari, bamboo rafting, night safari e trekking nella giungla, si prenotano tramite l'hotel, lo Smiley Bungalows, almeno 24 ore prima e mai con fornitori esterni non autorizzati. Cena al Bamboo Bistro Khao Sok.
 
 ### Giorno 5 — Khao Sok, il lago Cheow Lan
-Pacchetto "2 giorni 1 notte" sul lago, tutto incluso (colazione, pranzo, cena):
-- **In mattinata** Transfer verso il molo (con sosta in un negozio locale in
-  tarda mattinata).
-- Imbarco e circa 1h30 di navigazione fino al **resort galleggiante** sul
-  lago — sistemazione molto essenziale, aspettative da tarare di conseguenza
-  (niente copertura telefonica garantita, wifi solo a volte in reception).
-  Tempo libero per godersi il lago.
-- **Nel tardo pomeriggio** Crociera al tramonto sul lago con guida anglofona locale — tra
-  le formazioni calcaree che emergono dall'acqua, uno degli scenari più
-  spettacolari di tutta la Thailandia, spesso paragonato a una piccola
-  Guilin. *Attenzione: niente rumore dopo cena, e niente birra portata da
-  fuori — regole rigide del resort.*
+Due giorni e una notte sul lago, con colazione, pranzo e cena inclusi. Il transfer porta al molo, con una sosta in un negozio locale, e da lì un'ora e mezza di barca arriva al **resort galleggiante**. La sistemazione è molto essenziale e le aspettative vanno tarate: il telefono non sempre prende e il wifi c'è, a volte, solo alla reception. Il resto del giorno è libero, a godersi il lago.
+
+Nel tardo pomeriggio la crociera al tramonto, con una guida locale che parla inglese, passa tra le pareti calcaree che escono dall'acqua: uno degli scenari più spettacolari della Thailandia, spesso paragonato a una piccola Guilin. *Attenzione alle regole del resort: niente rumore dopo cena e niente birra portata da fuori.*
 
 ### Giorno 6 — Khao Sok-Krabi
-- **In mattinata** Trasferimento dal lago verso Krabi: 1h di barca + 2h di
-  strada, arrivo previsto verso mezzogiorno.
-- **Attività suggerite:** **Railay Beach** via barca (15 min, 200 THB a
-  tratta), poi 30 minuti a piedi fino a **Phra Nang Beach** e alla sua
-  grotta; spettacolo gratuito di fuoco ad **Ao Nang Beach** (in serata, davanti al
-  Boat Service Club).
-- **Cena:** Last Fisherman (pranzo), Sea Salt Krabi Restaurant, o un
-  ristorante di cucina thailandese locale.
+Un'ora di barca e due di strada, e verso mezzogiorno si è a Krabi. Il pomeriggio va a **Railay Beach**: barca di un quarto d'ora, 200 THB a tratta, poi mezz'ora a piedi fino a **Phra Nang Beach** e alla sua grotta. In serata, ad **Ao Nang Beach**, davanti al Boat Service Club, c'è uno spettacolo di fuoco gratuito.
+
+A pranzo il Last Fisherman, a cena il Sea Salt Krabi Restaurant o un ristorante di cucina thailandese locale.
 
 ### Giorno 7 — Krabi: Bond Island e canoa
-Escursione di giornata intera (dalla mattina presto al tardo pomeriggio) con guida anglofona: visita a
-**Koh Ta Poo** (l'isola resa famosa da *L'uomo dalla pistola d'oro*, 007) e
-**Koh Ping Gun**; giro in canoa fino a **Tham Lot**; pranzo a **Koh Panyee**
-(il villaggio di pescatori costruito su palafitte); visita alla **Monkey
-Cave** e relax alle cascate. Ingresso al parco nazionale, pranzo, pick-up e
-drop-off tutti inclusi.
+Una giornata intera in barca, dalla mattina presto al tardo pomeriggio, con guida in inglese. Si passa da **Koh Ta Poo**, l'isola resa famosa da *L'uomo dalla pistola d'oro*, e da **Koh Ping Gun**, si entra in canoa fino a **Tham Lot**, si pranza a **Koh Panyee**, il villaggio di pescatori sulle palafitte, poi la **Monkey Cave** e un po' di riposo alle cascate. Ingresso al parco, pranzo e trasferimenti sono inclusi.
 
-**Cena e serata:** Sea Salt Krabi Restaurant o Reeve Beach Club Krabi per
-cena; per la serata, Carlito's o Slinky (più disco).
+Per cena, il Sea Salt Krabi Restaurant o il Reeve Beach Club Krabi; per la serata, Carlito's o, più disco, Slinky.
 
 ### Giorno 8 — Krabi-Koh Phi Phi
-- **In mattinata** Traghetto da Ao Nopparat Thara Pier verso **Koh Phi Phi**
-  (Tonsai Pier, circa 2h30 di navigazione). Check-in 30 minuti prima della
-  partenza.
-- **Attività suggerite:** gita in barca a **Bamboo Island**, oppure
-  mezza giornata di diving con Blue View Divers.
-- **Cena e serata:** Dow Restaurant o ACQUA Restaurant per cena; Reggae Bar
-  (con incontri amatoriali di Muay Thai, molto divertenti da guardare) o
-  Backpacker Bar per la serata.
+Il traghetto parte in mattinata da Ao Nopparat Thara Pier (check-in mezz'ora prima) e in due ore e mezza arriva a **Koh Phi Phi**, al Tonsai Pier. Il pomeriggio offre una gita in barca a **Bamboo Island** oppure mezza giornata di immersioni con Blue View Divers.
+
+Si cena al Dow Restaurant o all'ACQUA Restaurant. La serata è al Backpacker Bar o al Reggae Bar, dove gli incontri amatoriali di Muay Thai sono molto divertenti da guardare.
 
 ### Giorno 9 — Koh Phi Phi-Krabi
-- **Nel primo pomeriggio** Traghetto di ritorno verso Krabi (molo Ao Nopparat Thara o
-  Klong Jirat, secondo l'operatore).
-- **Cena:** Reeve Beach Club Krabi, con spettacolo di fuoco in serata.
+Il traghetto di ritorno è nel primo pomeriggio e attracca ad Ao Nopparat Thara o a Klong Jirat, secondo l'operatore. Cena al Reeve Beach Club Krabi, con lo spettacolo di fuoco della sera.
 
 ### Giorno 10 — Krabi-Bangkok
-- Volo interno da Krabi a Bangkok (bagaglio incluso, circa 15 kg;
-  attenzione: può atterrare a Bangkok/BKK o a Don Mueang/DMK, controllare il
-  biglietto — check-in richiesto 80 minuti prima).
-- **Sera:** rooftop bar per un ultimo drink con vista.
-- **Cena:** Sawasdee House o Sathorn is Charme Eatery.
+Volo interno da Krabi a Bangkok, con circa 15 kg di bagaglio inclusi e check-in 80 minuti prima. Attenzione all'aeroporto: si può atterrare a BKK o a Don Mueang (DMK), va controllato sul biglietto. La sera, un ultimo drink su un rooftop e cena al Sawasdee House o al Sathorn is Charme Eatery.
 
 ### Giorno 11 — Bangkok
-Ultima giornata libera, nessun servizio incluso — perfetta per recuperare
-qualcosa dalla lista di Bangkok qui sotto.
+L'ultima giornata è libera e senza servizi inclusi: il momento giusto per recuperare qualcosa dalla lista di Bangkok qui sotto.
 
----
-
-# ZONA 1 — BANGKOK
-
-## Rooftop bar
+## Bangkok: i rooftop bar
 Bangkok è probabilmente la capitale mondiale dei rooftop bar — vale la pena
 sceglierne almeno un paio per sere diverse:
 - **Vertigo & Moon Bar** (Banyan Tree) — uno dei più iconici, aperto,
@@ -166,7 +97,7 @@ Attenzione al dress code: quasi tutti richiedono pantaloni lunghi (niente
 infradito/canottiera) e chiudono gli ultimi ordini presto (spesso 00:30, con
 chiusura all'1:00).
 
-## Templi e tour in città
+## Bangkok: templi e tour in città
 - **Grand Palace** — il palazzo reale, il monumento più fotografato di
   Bangkok (8:30-15:30, circa 500 baht; dress code rigido, spalle e ginocchia
   coperte, si trovano teli a noleggio all'ingresso). Da vedere anche il **Wat
@@ -212,7 +143,7 @@ testa di Buddha avvolta dalle radici di un albero), **Wat Chaiwatthanaram**
 (sulla riva del fiume, spettacolare al tramonto) e **Wat Phra Si Sanphet**.
 Fattibile comodamente in giornata da Bangkok.
 
-## Street food e street food Michelin
+## Bangkok: street food e street food Michelin
 Bangkok è probabilmente la capitale mondiale dello street food, al punto che
 la Guida Michelin ha iniziato a premiare le bancarelle proprio come farebbe
 con un ristorante:
@@ -253,7 +184,7 @@ con un ristorante:
 - **Silom/Soi Convent** — carretti all'ora di pranzo per gli impiegati degli
   uffici, street food genuino a pranzo.
 
-## Vita notturna
+## Bangkok: vita notturna
 Bangkok di notte ha facce molto diverse tra loro, vale la pena sapere cosa
 aspettarsi da ciascuna prima di scegliere dove andare:
 - **Khao San Road** — il quartier generale storico dei backpacker: bar a
@@ -278,9 +209,7 @@ aspettarsi da ciascuna prima di scegliere dove andare:
 - **Chatuchak Night Market/JJ Green** — versione serale e più chill del
   weekend market diurno, con più bar e meno folla.
 
----
-
-# ZONA 2 — IL NORD CULTURALE (Chiang Mai)
+## Il nord culturale: Chiang Mai
 Il nord della Thailandia, atmosfera completamente diversa da Bangkok: più
 lenta, più verde, più "montagna". *(Chiang Rai non è stata visitata — se
 capita un prossimo viaggio, il White Temple/Wat Rong Khun e il Blue Temple
@@ -317,9 +246,7 @@ meritano una tappa a parte, circa 3h da Chiang Mai.)*
   migliore del paese per farne uno, con molte scuole che includono anche una
   visita al mercato locale per scegliere gli ingredienti.
 
----
-
-# ZONA 3 — IL MARE DEL SUD
+## Il mare del sud
 
 La Thailandia del sud ha **due coste con climi completamente sfasati** tra
 loro, ed è la cosa più importante da sapere prima di scegliere dove andare
@@ -451,6 +378,8 @@ Difficile chiudere il racconto di un paese visitato tante volte e in modi così 
 Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base
 dell'itinerario e delle zone descritte nel file — da rileggere e sostituire
 con episodi veri, in particolare sui numerosi viaggi a Bangkok.
+
+**Note di redazione (revisione 22/10/2026):** itinerario riscritto in prosa; i titoli «# ZONA 1/2/3» (primo livello, non letti dal sito: la zona Bangkok finiva dentro il Giorno 11 e Chiang Mai dentro «Vita notturna») sono diventati sezioni «## …» vere, con le sezioni di Bangkok prefissate «Bangkok:».
 
 ## Foto/media
 - [ ] foto del Grand Palace e di Wat Arun

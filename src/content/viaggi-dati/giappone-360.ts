@@ -66,7 +66,7 @@ export const giappone360Meta: TripMeta = {
       imageAlt: 'Il Grande Buddha di Kamakura (Kotoku-in) visto di fronte, con la collina boscosa alle spalle',
     },
     {
-      titoloGiorno: 'Giorno 3 (08.04) — NUOVO: Monte Fuji e Pagoda Chureito',
+      titoloGiorno: 'Giorno 3 (08.04) — Monte Fuji e Pagoda Chureito',
       tratta: 'Tokyo → Kawaguchiko → Tokyo',
       pernottamento: 'Agora Place Asakusa (giornata aggiunta editorialmente, non vissuta realmente)',
       statoPernottamento: 'da-confermare',

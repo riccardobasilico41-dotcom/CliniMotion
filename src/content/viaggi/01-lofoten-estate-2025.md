@@ -24,132 +24,50 @@ Il primo pensiero, appena atterrato a Oslo a luglio inoltrato, è stato quanto p
   in giornata.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Oslo
-Atterraggio a Gardermoen verso l'ora di pranzo. Dall'aeroporto il treno **Flytoget**
-porta al centro in 19 minuti (~210 NOK, partenze ogni 10 min, si segue "Flytoget
-Airport Express" dentro il terminal). Da Oslo S l'hotel (Citybox Hotel) è a 5 minuti
-a piedi.
+Si atterra a Gardermoen verso l'ora di pranzo e la città è a 19 minuti di **Flytoget**: dentro il terminal si seguono i cartelli «Flytoget Airport Express», i treni partono ogni dieci minuti e il biglietto costa circa 210 NOK. Da Oslo S il Citybox Hotel è a cinque minuti a piedi.
 
-Pomeriggio a piedi: giardini del Palazzo Reale → lungomare di Aker Brygge → museo
-Astrup Fearnley (Renzo Piano) → Oslo Opera House, con salita sul tetto per la vista
-su città e mare (tappa consigliata per un tè caldo nel bar interno).
-
-Cena in serata da **Rorbua** (Aker Brygge): cucina norvegese tradizionale, porzioni
-generose, prezzi nella media, atmosfera calda in legno.
+Il pomeriggio è una lunga camminata: i giardini del Palazzo Reale, il lungomare di Aker Brygge, il museo Astrup Fearnley di Renzo Piano e infine l'Opera House, dove si sale sul tetto a guardare la città e il mare. Al bar interno un tè caldo ci sta tutto, anche a luglio. Si cena da **Rorbua**, sempre ad Aker Brygge: cucina norvegese tradizionale, porzioni generose, prezzi nella media, legno ovunque.
 
 ### Giorno 2 — Oslo → Bodø → Svolvær
-Partenza prima dell'alba: Flytoget di primissima mattina verso l'aeroporto, volo
-Oslo–Bodø a inizio giornata. Arrivo a Bodø in mattinata, ritiro auto e giro del
-centro/molo a piedi (vista panoramica possibile a Nyholms Fort, 10 min a piedi).
+Si parte prima dell'alba, col primo Flytoget verso l'aeroporto, e il volo per Bodø atterra in mattinata. Ritirata l'auto, un giro a piedi tra il centro e il molo; per una vista dall'alto c'è Nyholms Fort, a dieci minuti. Il pranzo si prende da asporto da **Bryggerikaia**, che apre a metà mattina e fa panini «mega farciti», e si mangia al punto panoramico della città.
 
-Pranzo da asporto da **Bryggerikaia** (apre a metà mattina, ottimi panini "mega
-farciti"), consumato al punto panoramico della città.
+Poi tre ore e un quarto di guida fino a Bognes, con due soste che valgono la pena:
+- **Kate Koisk Husflid**, caffè con vista su un lago: solo contanti (NOK o euro) o app di pagamento norvegese, niente bagno.
+- **Mørsvikbotn Handel**, stazione di servizio con bagno gratuito e un altro laghetto davanti.
 
-Nel primo pomeriggio partenza verso Bognes (circa 3h15 di guida), con due soste
-consigliate lungo la strada:
-- **Kate Koisk Husflid** — caffè con vista su un lago, solo contanti NOK/EUR o app
-  di pagamento norvegese, niente bagno.
-- **Mørsvikbotn Handel** — stazione di servizio con bagno gratuito, vista su un
-  altro laghetto.
-
-Nel tardo pomeriggio traghetto Bognes–Lødingen (conviene arrivare con 40 minuti di
-anticipo), poi altre 1h40 di auto fino a Svolvær, con arrivo in serata. Cena da
-**Bacalo** (cibo nella media).
+A Bognes si prende il traghetto per Lødingen (meglio essere al molo 40 minuti prima), poi un'ora e quaranta d'auto fino a Svolvær, dove si arriva in serata. Cena da **Bacalo**, nella media.
 
 ### Giorno 3 — Svolvær → Henningsvær
-Colazione in mattinata da **Kringala** (panetteria, ottima, vicino agli appartamenti).
+La colazione è da **Kringala**, una panetteria ottima vicino agli appartamenti. Poi la prima vera emozione delle Lofoten: il gommone di **Lofoten Explorer** verso il **Trollfjord**, due ore con le tute termiche fornite dall'equipaggio, guide simpatiche e le aquile di mare a pochi metri dalla barca. È una delle cose più belle del viaggio. *Consiglio: guanti, sottoguanti e cappellino.*
 
-In mattinata escursione in RIB (gommone veloce) con **Lofoten Explorer** verso il
-**Trollfjord** — una delle esperienze più belle del viaggio: tutoni termici forniti,
-avvistamento di aquile di mare a pochi metri dalla barca, guide professionali e
-simpatiche. Durata ~2 ore. *Consiglio: portare guanti/sottoguanti e cappellino.*
+In tarda mattinata si torna a Svolvær e mezz'ora d'auto porta a **Henningsvær**. Il pranzo è da **Fiskekrogen**, sul canale del villaggio: cibo ottimo, meglio prenotare e chiedere un tavolo alla finestra, perché l'effetto «piccola Venezia» è vero. Dopo pranzo il famoso campo da calcio, perfetto per foto e drone, e un giro tra bakery, artigianato e boutique vintage di un paese piccolo ma vivace.
 
-Rientro a Svolvær in tarda mattinata, poi 30 minuti d'auto fino a **Henningsvær** per il
-pranzo da **Fiskekrogen**, sul canale del villaggio — cibo ottimo, meglio prenotare
-e chiedere un tavolo vicino alla finestra (l'effetto "piccola Venezia" è vero). Dopo
-pranzo tappa al celebre campo da calcio di Henningsvær (ottimo per foto/drone) e giro
-del villaggio, piccolo ma vivace tra bakery, artigianato locale e boutique vintage.
-
-Nel pomeriggio **Festvågtind trail** (parcheggio al Festvågtind Parking): 3 km per
-500 m di dislivello, più tecnico del Reinebringen — tratti rocciosi e terreno
-sabbioso/irregolare. In circa 40 minuti si arriva a un punto panoramico intermedio
-con un laghetto alpino; da lì si può proseguire a destra verso un belvedere (più
-semplice) o a sinistra verso la vetta vera e propria (più impegnativo).
-
-Cena in serata da **Paleo Arctic**: il ristorante migliore di tutto il viaggio,
-prezzi leggermente sopra la media ma qualità nettamente superiore.
+Il pomeriggio è per il **Festvågtind trail**, con partenza dal Festvågtind Parking: 3 km e 500 metri di dislivello, più tecnico del Reinebringen, tra roccia e terreno sabbioso. In una quarantina di minuti si arriva a un laghetto alpino a metà strada; da lì, a destra, un belvedere più semplice, a sinistra la vetta vera, più impegnativa. La sera si cena da **Paleo Arctic**, il ristorante migliore di tutto il viaggio: costa un po' più della media, ma la qualità è nettamente superiore.
 
 ### Giorno 4 — Svolvær → Reine → Nesland
-Colazione da Kringla, rifornimento benzina, partenza in mattinata verso il **Viking
-Museum di Borg** (circa 55 min d'auto, apertura verso metà mattina). Visita con calma:
-film introduttivo (~20 min), esposizione ben curata, ricostruzione della longhouse
-vichinga. Attività esterne disponibili (tiro con l'arco, lancio dell'ascia, giri a
-cavallo/in barca su prenotazione) — le ho saltate per il freddo e i tempi di attesa.
+Colazione da Kringla, pieno di benzina e 55 minuti d'auto fino al **Viking Museum di Borg**, che apre verso metà mattina. Merita una visita con calma: un film introduttivo di una ventina di minuti, un'esposizione ben curata e la ricostruzione della longhouse vichinga. Fuori si può tirare con l'arco, lanciare l'ascia o uscire a cavallo e in barca su prenotazione; io ho lasciato perdere, tra il freddo e le attese. Pranzo poco dopo mezzogiorno a Leknes, al **DIGG Restaurant**: semplice, buono, non memorabile.
 
-Pranzo poco dopo mezzogiorno a Leknes, **DIGG Restaurant** (semplice, cibo buono ma
-non memorabile).
+Nel primo pomeriggio si arriva a **Reine** (parcheggio 200 NOK per tre ore) per il **Reinebringen**, il trekking simbolo delle Lofoten: 1.978 scalini di pietra costruiti da sherpa nepalesi, 448 metri di dislivello in 1,1 km. Tecnicamente è facile, sono solo scalini, ma il dislivello si sente. Il tempo medio è tra due e quattro ore; io ci ho messo un'ora e cinquanta in tutto, 45 minuti di salita, mezz'ora in cima e mezz'ora di discesa. *Vista mozzafiato, ma vale davvero solo con cielo sereno.*
 
-Nel primo pomeriggio arrivo a **Reine** (parcheggio 200 NOK/3h) per il
-**Reinebringen**, il trekking più iconico delle Lofoten: 1.978 scalini in pietra
-costruiti da sherpa nepalesi, 448 m di dislivello in 1,1 km. Sentiero semplice dal
-punto di vista tecnico (solo scalini) ma il dislivello si sente — tempo medio 2-4
-ore, il mio tempo totale è stato di 1h50 (45 min salita, 30 min sosta, 30 min
-discesa). *Vista mozzafiato, ma vale davvero solo con cielo sereno.*
-
-Cena al **Ramberg Resort**, buona posizione a due passi dalla spiaggia di Ramberg per
-una passeggiata digestiva.
+Si cena al **Ramberg Resort**, a due passi dalla spiaggia di Ramberg: una passeggiata sulla sabbia dopo cena chiude bene la giornata.
 
 ### Giorno 5 — Spiaggia di Bunes
-Colazione in casa, sosta alla Coop Prix di Reine per il pranzo al sacco, poi
-traghetto della mattinata verso **Vindstad** (~40 min di navigazione, molto
-scenografico — meglio arrivare con 30 minuti di anticipo anche con posti riservati).
+Colazione in casa, panini comprati alla Coop Prix di Reine e il traghetto del mattino per **Vindstad**: quaranta minuti di navigazione tra pareti di roccia, tra i più scenografici del viaggio. Anche con il posto prenotato conviene essere al molo mezz'ora prima.
 
-Da Vindstad, dopo una sosta alla "casetta gialla" (ex scuola, oggi bar comunitario
-gestito da volontari, ottimi cinnamon roll), sentiero pianeggiante di 20-30 minuti
-fino a una casetta bianca fotogenica, poi salita leggera che costeggia un piccolo
-cimitero (15 min) fino a un colle panoramico, seguita da 5 minuti di discesa verso
-la **spiaggia di Bunes**: immensa, aperta sull'oceano, incastonata tra le montagne.
+A Vindstad la prima tappa è la «casetta gialla», una ex scuola diventata bar della comunità, gestita da volontari, con ottimi cinnamon roll. Poi venti o trenta minuti di sentiero pianeggiante fino a una casetta bianca, un quarto d'ora di salita leggera accanto a un piccolo cimitero, un colle panoramico e cinque minuti di discesa. Sotto c'è la **spiaggia di Bunes**, immensa, aperta sull'oceano e chiusa tra le montagne.
 
-Pranzo al sacco alla casetta gialla, tè caldo e partite a carte in attesa del
-traghetto di ritorno nel pomeriggio. Più tardi spesa a Ramberg (supermercato più
-fornito ed economico rispetto alla Coop di Reine, ma niente vino/superalcolici,
-solo birra) per il barbecue serale: salmone alla griglia, verdure saltate e contorni,
-serata conviviale nella rorbu.
+Il pranzo al sacco si mangia alla casetta gialla, poi tè caldo e partite a carte in attesa del traghetto del pomeriggio. Al rientro si fa la spesa a Ramberg, più fornita ed economica della Coop di Reine, anche se vende solo birra, niente vino o superalcolici. La sera è un barbecue nella rorbu: salmone alla griglia, verdure saltate e una tavolata lunga.
 
 ### Giorno 6 — Å e il sentiero verso Nusfjord
-Partenza in mattinata verso **Å**, il villaggio dal nome più corto del mondo (~50 min
-d'auto). Tappa alla storica bakery del paese (pochi posti a sedere, ma dolci ottimi),
-poi visita guidata (in tarda mattinata, in inglese) al **Museo dei Pescatori** — un'ora
-per capire davvero lo stile di vita delle comunità di pescatori delle Lofoten,
-interessante anche sotto la pioggia.
+Cinquanta minuti d'auto e si arriva ad **Å**, il paese dal nome più corto del mondo. Prima la storica bakery, pochi posti a sedere e dolci ottimi, poi la visita guidata in inglese del **Museo dei Pescatori**, in tarda mattinata: un'ora che fa capire davvero come vivevano le comunità di pescatori delle Lofoten, interessante anche sotto la pioggia. Si pranza a **Sakrisøy** da **Anita's Seafood**, tra panini farciti, zuppe e sushi con vista sul fiordo; si ordina al bancone.
 
-Pranzo a **Sakrisøy** da **Anita's Seafood**: panini farciti, zuppe, sushi, vista
-sul fiordo (si ordina al bancone, niente servizio al tavolo).
-
-Nel pomeriggio, appena il cielo si è aperto, passeggiata panoramica da **Nesland
-verso Nusfjord**: ~11 km A/R lungo il fiordo, tra bosco e tratti rocciosi, senza
-difficoltà tecniche — ottima alternativa più leggera dopo i trekking dei giorni
-precedenti. Cena casalinga nella rorbu (pasta panna e salmone, per finire le scorte
-della grigliata).
+Nel pomeriggio, appena il cielo si apre, si cammina da **Nesland verso Nusfjord**: circa 11 km andata e ritorno lungo il fiordo, tra bosco e tratti di roccia, senza difficoltà tecniche. Dopo i trekking dei giorni prima è la giornata giusta per qualcosa di più leggero. Cena nella rorbu con quello che resta della grigliata: pasta con panna e salmone.
 
 ### Giorno 7 — Bødø e rientro a Oslo
-Sveglia presto, partenza prima dell'alba verso il porto di **Moskenes** per il
-traghetto mattutino verso Bodø (~3h30 di navigazione, meglio arrivare con 40 minuti
-di anticipo).
+Sveglia prima dell'alba per il traghetto del mattino da **Moskenes** a Bodø, tre ore e mezza di navigazione (al porto 40 minuti prima). A Bodø la colazione è da Melkebaren, dove il servizio è lento. Poi la spiaggia di **Mjelle**, piacevole ma anonima dopo quello che si è visto nei giorni precedenti, e il traghetto di dieci minuti per **Misten e Kjerringøy**, restando in auto (al molo mezz'ora prima). Kjerringøy non mi ha entusiasmato, ma riempie onestamente qualche ora. *Nota: se il Bodø/Glimt gioca in casa, può valere la pena andare allo stadio.*
 
-A Bodø: colazione da Melkebaren (servizio lento, da tenere in conto), poi spiaggia
-di **Mjelle** (piacevole ma "anonima" rispetto agli standard visti nei giorni
-precedenti) e traghetto verso **Misten/Kjerringøy** (~10 min, si resta in auto,
-arrivare 30 min prima). Kjerringøy non ha entusiasmato particolarmente, ma è
-un'opzione onesta per occupare qualche ora — *nota: se gioca il Bodø/Glimt in casa,
-può valere la pena assistere.*
-
-Traghetto di ritorno nel primo pomeriggio, sosta relax in spiaggia tra i campeggi
-Bobil Plats e Nils Fredrik, poi rifornimento auto e riconsegna prima del volo per
-Oslo (atterraggio in serata). Ultima cena a Oslo da **Café Sara**, locale semplice
-ma aperto fino a tardi — ottimo per una cena post-volo (consigliata prenotazione
-nel weekend).
+Si rientra col traghetto del primo pomeriggio, ci si concede un po' di spiaggia tra i campeggi Bobil Plats e Nils Fredrik, poi pieno, riconsegna dell'auto e volo per Oslo, con atterraggio in serata. L'ultima cena è da **Café Sara**, un locale semplice aperto fino a tardi, perfetto dopo un volo (nel weekend conviene prenotare).
 
 ## Cosa vedere / cosa fare
 - **Reinebringen** — il trekking simbolo delle Lofoten, 1.978 scalini, vista top solo
@@ -254,6 +172,8 @@ editing, prezzi in NOK e nomi di locali già integrati sopra. Aneddoti di apertu
 e chiusura scritti come bozza (Claude) sulla base dell'itinerario reale — da
 rileggere e sostituire con i ricordi veri prima di pubblicare. Da recuperare
 ancora: le foto.
+
+**Note di redazione (revisione 22/10/2026):** itinerario riscritto in prosa (VOCE-EDITORIALE.md), fatti invariati. Da verificare: la panetteria compare come «Kringala» (Giorno 3) e «Kringla» (Giorno 4).
 
 ## Foto/media
 - [ ] foto del Trollfjord e delle aquile di mare

@@ -39,131 +39,51 @@ Petra è uno dei siti più visitati al mondo, ma quel Capodanno l'ho attraversat
   Madaba) prima di arrivare nelle zone più conservatrici o nel deserto.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Arrivo ad Amman
-Arrivo ad Amman. Da valutare un food tour in città (info da chiedere in loco).
-Cena di benvenuto da **Zajal** (Prince Mohammed Street, Amman — circa 15 JOD),
-per il primo assaggio di cucina giordana appena arrivato in Giordania.
+Il primo assaggio di Giordania è a tavola. La cena di benvenuto è da **Zajal**, in Prince Mohammed Street, per circa 15 JOD. Chi arriva con un po' di margine può chiedere sul posto di un food tour in città.
 
 ### Giorno 2 — Jerash e Mar Morto
-- **Mattina presto** Partenza da Amman verso **Jerash**, con una sosta lungo
-  il tragitto per acquistare alcolici (circa 1h di viaggio totale).
-- **In mattinata** Arrivo a Jerash e visita guidata al sito archeologico — una
-  delle città romane meglio conservate al mondo fuori dall'Italia, con il suo
-  foro ovale, il cardo colonnato e i due teatri.
-- **Verso mezzogiorno** Trasferimento verso il **Mar Morto** (circa 1h30),
-  sistemazione all'**Holiday Inn Dead Sea**.
-- **Nel primo pomeriggio** Arrivo, pranzo, relax e bagno nelle acque
-  iper-saline al tramonto — galleggiare a pelo d'acqua guardando il sole
-  calare dietro le colline della Cisgiordania è un'esperienza a sé.
-- *(Da valutare in alternativa: tramonto dal Monte Nebo, il luogo da cui la
-  tradizione vuole che Mosè abbia visto la Terra Promessa.)*
-- **Cena** a Madaba, tra **Haret Jdoudna** o **Hikayet Sitti** (entrambi su
-  Adel Jumean Street/Khaled Ben Al-Walid Street).
-- **Dopocena** al Bar del Grand Hotel Madaba o al **Saint John Sky Bar**, per
-  un drink con vista sulla città.
+Si parte presto da Amman verso **Jerash**, circa un'ora di strada, con una sosta lungo il tragitto per comprare alcolici. La visita guidata al sito archeologico mostra una delle città romane meglio conservate fuori dall'Italia: il foro ovale, il cardo colonnato, i due teatri.
+
+Verso mezzogiorno si scende al **Mar Morto**, un'ora e mezza, e ci si sistema all'**Holiday Inn Dead Sea**. Pranzo, riposo e poi il bagno al tramonto: galleggiare a pelo d'acqua mentre il sole cala dietro le colline della Cisgiordania è un'esperienza a sé. In alternativa, il tramonto si può vedere dal Monte Nebo, il luogo da cui la tradizione vuole che Mosè abbia visto la Terra Promessa.
+
+La cena è a Madaba, da **Haret Jdoudna** o **Hikayet Sitti**, tra Adel Jumean Street e Khaled Ben Al-Walid Street. Per il bicchiere della sera, il bar del Grand Hotel Madaba o il **Saint John Sky Bar**, con la città dall'alto.
 
 ### Giorno 3 — Karak, Monte Nebo e Little Petra
-- Acquisto alcolici a Madaba (Soho o Hangover) prima di ripartire.
-- **Mattina** Transfer verso **Karak Castle** (circa 1h30, ingresso incluso nel
-  Jordan Pass) — l'imponente fortezza crociata che domina l'altopiano a sud del
-  Mar Morto.
-- Visita al **Monte Nebo** e trasferimento verso **Little Petra** (Siq
-  al-Barid), pranzo lungo la strada.
-- **Little Petra Trek** — sentiero descritto nelle note di viaggio come
-  "tosto": è l'anticamera di Petra, un piccolo canyon con facciate nabatee in
-  miniatura, meno affollato e già capace di dare la prima scarica di
-  entusiasmo prima del grande giorno.
-- **Cena tipica** organizzata dal DMC locale.
+Prima di lasciare Madaba si fa scorta di alcolici da Soho o da Hangover. Un'ora e mezza di transfer porta al **Karak Castle**, la grande fortezza crociata che domina l'altopiano a sud del Mar Morto (l'ingresso è nel Jordan Pass). Poi il **Monte Nebo** e la strada verso **Little Petra**, Siq al-Barid, con il pranzo lungo il percorso.
+
+Il **Little Petra Trek** è un sentiero che nelle note di viaggio è finito con un aggettivo solo: «tosto». È l'anticamera di Petra, un piccolo canyon con facciate nabatee in miniatura, meno affollato, che dà la prima scarica di entusiasmo prima del giorno grande. La sera, cena tipica organizzata dal DMC locale.
 
 ### Giorno 4 — Petra, giornata intera
-**Il giorno clou del viaggio.** Giornata intera dedicata interamente a **Petra**,
-una delle Sette Meraviglie del Mondo Moderno e patrimonio UNESCO — e con il
-sito quasi deserto per via del calo turistico regionale, un privilegio raro.
+È il giorno per cui si viene in Giordania: tutto dedicato a **Petra**, patrimonio UNESCO e una delle Sette Meraviglie del Mondo Moderno. Con il calo del turismo nella regione il sito era quasi deserto, un privilegio raro.
 
-Si entra dal **Siq**, la gola naturale lunga circa 1,2-1,5 km e larga in alcuni
-punti appena 3 metri, scavata dall'acqua nella roccia arenaria rosa: 30-40
-minuti di cammino tra pareti altissime, fino a quando, da una stretta fessura,
-si intravede per la prima volta il **Tesoro (Al-Khazneh)** — 39-40 metri di
-facciata scolpita nella roccia, il monumento simbolo della Giordania, reso
-ancora più iconico da *Indiana Jones e l'ultima crociata*. Vederlo emergere
-dal Siq senza le folle abituali davanti è un momento che da solo vale il
-viaggio.
+Si entra dal **Siq**, la gola scavata dall'acqua nell'arenaria rosa: un chilometro e mezzo circa, larga in certi punti appena tre metri, tra pareti altissime. Dopo mezz'ora o quaranta minuti di cammino, da una fessura stretta compare il **Tesoro (Al-Khazneh)**: 39-40 metri di facciata scolpita nella roccia, il monumento simbolo del paese, reso ancora più famoso da *Indiana Jones e l'ultima crociata*. Vederlo uscire dal Siq senza la folla davanti vale da solo il viaggio.
 
-Da qui il sito si apre su oltre 8 km di estensione e più di 800 monumenti,
-incluse le **Tombe Reali**. Per chi ha le gambe (e il tempo), la vera sfida è
-la salita al **Monastero (Ad-Deir)**: oltre 800 gradini scolpiti nella roccia,
-circa 40-45 minuti di cammino ripido, ma la vista del secondo grande monumento
-di Petra — ancora più massiccio del Tesoro, 45 metri di altezza per 50 di
-larghezza — ripaga ogni passo. Consigliato un tè alla menta al chiosco davanti
-al monumento prima del rientro.
+Da lì il sito si allarga per più di 8 km e 800 monumenti, Tombe Reali comprese. Per chi ha gambe e tempo, la vera sfida è il **Monastero (Ad-Deir)**: oltre 800 gradini scolpiti nella roccia, 40-45 minuti di salita ripida. Lassù c'è il secondo grande monumento di Petra, più massiccio del Tesoro, 45 metri di altezza per 50 di larghezza, e la fatica è ripagata. Prima di scendere, un tè alla menta al chiosco davanti.
 
-**In serata**: hammam e bagno turco da **Al Yhakor** (Al Yakhor Turkish Bath,
-Wadi Musa) — perfetto per sciogliere le gambe dopo una giornata intera di
-cammino.
+La sera l'hammam di **Al Yhakor** (Al Yakhor Turkish Bath, a Wadi Musa) scioglie le gambe dopo una giornata intera a piedi.
 
 ### Giorno 5 — Wadi Rum: cammelli, jeep safari e Capodanno nel deserto
-Il secondo grande protagonista del viaggio: **Wadi Rum**, la "Valle della
-Luna", deserto di sabbia rossa e formazioni di arenaria che ha fatto da set a
-*Lawrence d'Arabia* e a diversi film ambientati su Marte.
+L'altro protagonista del viaggio è **Wadi Rum**, la «Valle della Luna»: sabbia rossa e torri di arenaria, il set di *Lawrence d'Arabia* e di più di un film ambientato su Marte. Ci si arriva in un'ora e mezza, con una sosta a sorpresa in una pasticceria locale per il pranzo al sacco da portare nel deserto (10 JOD).
 
-- **Mattina** Transfer verso Wadi Rum (circa 1h30).
-- Sosta a sorpresa in una panetteria/pasticceria locale (10 JOD, pranzo al
-  sacco da portare nel deserto).
-- **Cammellata**: 45 minuti (20 JOD), il modo più autentico per entrare nel
-  deserto, sulle orme delle carovane che lo attraversano da millenni.
-- **Jeep Safari** (4-6 ore) a bordo dei classici pick-up beduini, tra le tappe
-  iconiche del Wadi Rum: la Sorgente di Lawrence, il canyon di Khazali (con le
-  sue incisioni rupestri nabatee), le dune rosse, i ponti di roccia naturali
-  come Umm Fruth, la Casa di Lawrence. Immancabile il **sandboarding** sulle
-  dune, e — per chi se la sente — la possibilità di guidare in prima persona
-  la jeep nel deserto. Spazio anche per una partita di beach volley
-  improvvisata sulla sabbia.
-- **Tramonto sulle dune** all'arrivo al campo tendato nel cuore del deserto.
-- **Cena beduina tipica**, cucinata secondo tradizione (spesso il famoso zarb,
-  cotto sotto la sabbia).
-- **Capodanno nel deserto**: festa di fine anno sotto uno dei cieli stellati
-  più belli del mondo, lontano da ogni inquinamento luminoso — difficile
-  immaginare un modo più assurdo di salutare l'anno vecchio.
+Si entra nel deserto a dorso di cammello, 45 minuti per 20 JOD, sulle tracce delle carovane. Poi il **jeep safari**, quattro-sei ore sui pick-up beduini: la Sorgente di Lawrence, il canyon di Khazali con le incisioni rupestri nabatee, le dune rosse, ponti di roccia come Umm Fruth, la Casa di Lawrence. Sulle dune si fa **sandboarding**; chi se la sente può guidare la jeep nel deserto, e c'è spazio anche per una partita di beach volley improvvisata.
+
+Al campo tendato si arriva per il tramonto sulle dune. La cena è beduina, cucinata secondo tradizione, spesso lo zarb cotto sotto la sabbia. E poi il **Capodanno nel deserto**, sotto uno dei cieli stellati più belli del mondo, lontano da qualsiasi luce: difficile immaginare un modo più assurdo di salutare l'anno vecchio.
 
 ### Giorno 6 — Alba nel deserto e mare ad Aqaba
-- **Alba sulle dune**, prima che il sole spunti sull'orizzonte (l'orario
-  esatto varia con la stagione) — il deserto che cambia colore, dal blu della
-  notte al rosa e oro dell'alba.
-- **Transfer verso Aqaba** (circa 1h): dal deserto al Mar Rosso in meno di
-  un'ora, uno dei contrasti più belli della Giordania.
-- Arrivo in hotel, deposito bagagli.
-- **Transfer verso la spiaggia** (15 minuti), con possibilità di:
-  - Beach club
-  - Sport acquatici (jet ski, banana boat)
-  - Snorkeling sulle barriere coralline del Mar Rosso
-  - Boat tour con **Deep Blue** (incluso nel pacchetto)
-- **Cena** ad Aqaba, tra **Sheikh El Harah** (specialità di pesce), **Suzana**,
-  **Buffalo Wings & Ring** (cucina americana) o **Khubza & Seneya** (Al Nahda
-  Street).
+Ci si sveglia prima del sole per l'**alba sulle dune** (l'ora cambia con la stagione) e il deserto passa dal blu della notte al rosa e all'oro. Un'ora dopo si è sul Mar Rosso, ad **Aqaba**: dal deserto al mare in meno di un'ora, uno dei contrasti più belli della Giordania.
+
+Lasciati i bagagli in hotel, quindici minuti portano alla spiaggia. Lì si sceglie: beach club, jet ski e banana boat, snorkeling sulle barriere coralline, oppure l'uscita in barca con **Deep Blue**, inclusa nel pacchetto. La cena è ad Aqaba, tra il pesce di **Sheikh El Harah**, **Suzana**, la cucina americana di **Buffalo Wings & Ring** o **Khubza & Seneya** in Al Nahda Street.
 
 ### Giorno 7 — Rientro ad Amman: due opzioni
-- **Mattina presto** Transfer da Aqaba ad Amman (circa 4h30).
+Si parte presto da Aqaba: quattro ore e mezza fino ad Amman. Da lì la giornata si divide in due.
 
-**Opzione 1 — cultura:**
-- **Verso mezzogiorno** Arrivo ad Amman e pranzo al Bazaar.
-- **Nel primo pomeriggio** Visita alla Cittadella e al Teatro Romano.
-- **Nel tardo pomeriggio** Possibilità di bagno turco.
-- **In serata** Cooking class e corso di calligrafia araba (organizzati dal
-  DMC).
-- **A tarda sera** Dopocena e serata da **Talet Al Jabal** o **C-Ling**
-  (Rainbow Street).
+**Opzione 1, la cultura.** Pranzo al Bazaar, poi la Cittadella e il Teatro Romano nel primo pomeriggio. Nel tardo pomeriggio c'è tempo per un bagno turco, la sera per la cooking class e il corso di calligrafia araba organizzati dal DMC. Si chiude da **Talet Al Jabal** o da **C-Ling**, in Rainbow Street.
 
-**Opzione 2 — avventura:**
-- Pausa buggy nel deserto vicino Amman (40 JOD, circa 2h).
-- Pranzo in strada.
-- **Nel pomeriggio** Visita al Bazaar per souvenir e shopping.
-- **In serata** Cooking class e corso di calligrafia (DMC).
-- **A tarda sera** Dopocena e serata da **C-Ling** (Rainbow Street).
+**Opzione 2, l'avventura.** Due ore di buggy nel deserto vicino ad Amman (40 JOD), pranzo in strada, poi il Bazaar per souvenir e shopping. La sera la stessa cooking class con calligrafia del DMC, e dopocena da **C-Ling**, in Rainbow Street.
 
 ### Giorno 8 — Rientro
-Check-out e saluti. Trasferimento in aeroporto in Uber/taxi. Giornata libera
-per eventuali attività extra prima del volo di rientro.
+Check-out, saluti e un Uber o un taxi verso l'aeroporto. Se il volo lo permette, la giornata resta libera per qualcosa in più.
 
 ## Cosa vedere / cosa fare
 - **Petra** — il vero cuore del viaggio: il Siq, il Tesoro all'uscita della
@@ -273,6 +193,8 @@ in poche righe ("Giornata dedicata a Petra").
   di Capodanno nel deserto, eventuali incontri con le guide locali.
 - Conferma di quale opzione è stata scelta per il Giorno 7 (cultura o
   avventura).
+
+**Note di redazione (revisione 22/10/2026):** itinerario riscritto in prosa (VOCE-EDITORIALE.md), fatti e opzioni invariati.
 
 ## Foto/media
 - [ ] foto del Tesoro (Al-Khazneh) all'uscita del Siq

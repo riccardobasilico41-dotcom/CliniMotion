@@ -20,52 +20,34 @@ New York si vive a passo svelto, e in sei giorni l'ho attraversata a piedi per 1
 - **Consapevolezza sul ritmo:** le attività proposte sono più di quelle effettivamente fattibili in 6 giorni — è normale non riuscire a fare tutto, meglio deciderlo in anticipo piuttosto che rincorrere la lista completa.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 (07.09) — Arrivo, Times Square
-- Arrivo e sistemazione in hotel.
-- **Cena** da **Shake Shack**.
-- Prenotazione per il **Top of the Rock** (l'osservatorio del Rockefeller Center) per i giorni successivi.
-- Passeggiata serale a **Times Square** — l'impatto notturno con le luci e i cartelloni, tappa quasi obbligata la prima sera.
-- **Dopocena** al Magic Hour Bar.
-- **Hotel:** Paramount Hotel, 235 W 46th St.
+Si arriva, si lasciano le valigie al Paramount Hotel, al 235 W 46th St, e la prima cena è da **Shake Shack**. Prima di uscire conviene prenotare il **Top of the Rock**, l'osservatorio del Rockefeller Center, per i giorni seguenti. Poi la passeggiata a **Times Square**: l'impatto di notte, con le luci e i cartelloni, è quasi d'obbligo la prima sera. Si chiude al Magic Hour Bar.
 
 ### Giorno 2 (08.09) — Harlem, Central Park, Empire State Building
-- **Colazione**: da scegliere tra Le Pain Quotidien (comodo per prendere poi la metro), The Monkey Cup ad Harlem, o Junior's per la cheesecake (più punti in città, tra cui 49th/45th street e Brooklyn).
-- **In mattinata**, messa gospel: la Bethel Gospel Assembly o, in alternativa, la **Canaan Baptist Church** (funzione di circa 2 ore, nessun obbligo di offerta, ci si può alzare e uscire quando si vuole) — un'esperienza di quartiere autentica, non un tour organizzato.
-- **A metà mattina**, **walking tour di Harlem** (275$ + mancia, circa 2h): i punti iconici del quartiere, incluso l'**Apollo Theater**.
-- **Nel primo pomeriggio**, pranzo da **Gray's Papaya** (hot dog economici, un classico newyorkese) o brunch da Andrew NYC Diner (zona Madison Square Garden).
-- **Central Park**: noleggio bici, ingresso con l'autobus M1 davanti al Met (per chi vuole la classica foto sulla scalinata) per poi addentrarsi nel parco fino a Strawberry Fields.
-- **In serata**, cena da **Kesté** (pizza napoletana).
-- **A tarda sera**, **Empire State Building**, salita serale.
+La colazione si sceglie tra Le Pain Quotidien, comodo per la metro, The Monkey Cup ad Harlem e Junior's, per la cheesecake, che ha più sedi in città, tra cui 49th/45th street e Brooklyn.
+
+La mattina è ad Harlem, con la messa gospel alla Bethel Gospel Assembly o alla **Canaan Baptist Church**: circa due ore, nessun obbligo di offerta, ci si può alzare e uscire quando si vuole. È un'esperienza di quartiere, non un tour organizzato. A metà mattina il **walking tour di Harlem**, circa due ore per 275 $ più mancia, porta tra i punti simbolo del quartiere, **Apollo Theater** compreso.
+
+Si pranza con gli hot dog economici di **Gray's Papaya**, un classico newyorkese, o con un brunch da Andrew NYC Diner, zona Madison Square Garden. Il pomeriggio è a **Central Park** in bici: si arriva con l'autobus M1 davanti al Met, per la foto classica sulla scalinata, e da lì si entra nel parco fino a Strawberry Fields. Cena da **Kesté**, pizza napoletana, e a tarda sera la salita all'**Empire State Building**.
 
 ### Giorno 3 (09.09) — Cattedrale, MoMA, High Line, The Vessel
-- **Mattina presto**, partenza verso la cattedrale, passando per il **Rockefeller Center**.
-- Subito dopo, **Cattedrale di San Patrizio**.
-- **In mattinata**, **MoMA** (Museum of Modern Art) — ingresso principale da 11 West 53rd Street, tempo consigliato circa 2 ore, con priorità al quarto e quinto piano dove si concentrano le opere più famose. *Scaricare in anticipo l'app Bloomberg Connects per mappa e audioguida, disponibili solo online.*
-- **Verso mezzogiorno**, pranzo libero (Shake Shack Midtown East, Five Guys, McDonald's) o spostamento a **Chelsea Market** per pranzare lì.
-- **Nel primo pomeriggio**, passeggiata sulla **High Line** (circa 1 miglio e mezzo) fino a **The Vessel** (1h30-2h in totale).
-- Rooftop **Edge** o **Summit** (i due osservatori panoramici di Hudson Yards), oppure tempo libero/visita alla Grand Central Station e alla Public Library.
-- **Cena** da **Ellen's Stardust Diner**, cena-spettacolo con cameriere che cantano.
-- *Da valutare: inserire la visita al 9/11 Museum al mattino, se il tempo lo permette.*
+Presto si passa dal **Rockefeller Center** per arrivare alla **Cattedrale di San Patrizio**. Poi il **MoMA**, con ingresso principale all'11 West 53rd Street: due ore circa, dando la precedenza al quarto e al quinto piano, dove si concentrano le opere più famose. *Conviene scaricare prima l'app Bloomberg Connects, per mappa e audioguida, disponibili solo online.*
+
+A pranzo, qualcosa di veloce tra Shake Shack Midtown East, Five Guys e McDonald's, oppure il **Chelsea Market**. Nel primo pomeriggio la **High Line**, circa un miglio e mezzo a piedi, fino a **The Vessel**: un'ora e mezza o due in tutto. Dopo si sale su **Edge** o su **Summit**, gli osservatori di Hudson Yards, oppure si va alla Grand Central Station e alla Public Library. La cena è da **Ellen's Stardust Diner**, dove i camerieri cantano.
 
 ### Giorno 4 (10.09) — Statua della Libertà, Wall Street, Chinatown, Broadway
-- **In mattinata**, traghetto (prenotato) verso la **Statua della Libertà**: visita dal basso e **Ellis Island**, il museo dell'immigrazione.
-- **Nel primo pomeriggio**, rientro a Manhattan.
-- **Pranzo**: Liberty Bagels, oppure a Chinatown da Me La Wa (spesso fila) o Uncle Lo; in alternativa Prince Street Pizza a SoHo, famosa per la pepperoni pizza in stile americano.
-- **Wall Street**: il Charging Bull, la Borsa di New York, Trinity Church, Zuccotti Park, l'Oculus, Ground Zero.
-- Metro verso **Canal Street**: **SoHo**, **Little Italy** e **Chinatown** — circa un'ora per girare, passando per Pell Street, Doyers Street e Columbus Park (usato dalla comunità cinese come ritrovo per giochi da tavolo e tai-chi). *Little Italy si riduce ormai a Mulberry Street, con la scritta iconica, ma poco altro; se si mangia lì, Lombardi's Pizza è un'opzione anche se non memorabile.*
-- **Nel tardo pomeriggio**, tramonto al Time Out Market o al Darling Rooftop (vista su Central Park).
-- **In serata**, **musical a Broadway**.
+In mattinata il traghetto prenotato porta alla **Statua della Libertà**, vista dal basso, e a **Ellis Island**, con il museo dell'immigrazione. Nel primo pomeriggio si torna a Manhattan per pranzo: Liberty Bagels, Me La Wa (spesso con la fila) o Uncle Lo a Chinatown, oppure Prince Street Pizza a SoHo, famosa per la pepperoni pizza all'americana.
+
+Poi **Wall Street**: il Charging Bull, la Borsa, la Trinity Church, Zuccotti Park, l'Oculus e Ground Zero. La metro porta a **Canal Street** e da lì si gira un'oretta tra **SoHo**, **Little Italy** e **Chinatown**, passando per Pell Street, Doyers Street e Columbus Park, dove la comunità cinese si ritrova per giochi da tavolo e tai-chi. *Little Italy ormai è quasi solo Mulberry Street, con la scritta famosa e poco altro; se si mangia lì, Lombardi's Pizza va bene ma non resta nella memoria.*
+
+Il tramonto si guarda dal Time Out Market o dal Darling Rooftop, con vista su Central Park. La sera, un **musical a Broadway**.
 
 ### Giorno 5 (11.09) — Ground Zero, DUMBO, Top of the Rock
-- **Ground Zero**: cerimonia di commemorazione dell'11 settembre (se le date coincidono), eventualmente visita al **9/11 Museum**.
-- **The Oculus**.
-- Pranzo da **Pisillo** (panini).
-- **DUMBO** (Brooklyn): l'incrocio tra Water Street e Washington Street (la foto simbolo con il ponte di Manhattan sullo sfondo), la giostra storica **Jane's Carousel**, il **Brooklyn Flea Market** (solo la domenica), l'arco del ponte di Manhattan, **Brooklyn Bridge Park** e la traversata a piedi del **Brooklyn Bridge**.
-- **Cibo**: Vinegar Hill House, Bluestone Lane (caffetteria a Dumbo).
-- **Tempo libero**: New York Public Library, Quinta Avenue, Macy's, Hotel Plaza, Trump Tower, Rockefeller Center.
-- **Tramonto** al **Top of the Rock**.
-- **Cena e serata**: Virgil's BBQ, poi 230 Rooftop, con giro finale in limo a Times Square.
+L'11 settembre, a **Ground Zero**, c'è la cerimonia di commemorazione, se le date coincidono; poi, volendo, il **9/11 Museum** e **The Oculus**. Pranzo con i panini di **Pisillo**.
+
+Il pomeriggio è a **DUMBO**, a Brooklyn: l'incrocio tra Water Street e Washington Street, quello della foto col Manhattan Bridge sullo sfondo, la giostra storica **Jane's Carousel**, il **Brooklyn Flea Market** (solo la domenica), l'arco del ponte, il **Brooklyn Bridge Park** e il ritorno a piedi sul **Brooklyn Bridge**. Per mangiare, Vinegar Hill House o la caffetteria Bluestone Lane.
+
+Con il tempo che resta: la New York Public Library, la Quinta Avenue, Macy's, il Plaza, la Trump Tower, il Rockefeller Center. Il tramonto è dal **Top of the Rock**. L'ultima sera comincia da Virgil's BBQ, continua al 230 Rooftop e finisce con un giro in limousine a Times Square.
 
 ### Giorno 6 (12.09) — Rientro
 Check-out e saluti.
@@ -127,6 +109,8 @@ Di New York porto a casa soprattutto i contrasti tra un quartiere e l'altro: la 
 ## Materiale grezzo (appunti, non ancora editato)
 Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base
 dell'itinerario reale — da rileggere e sostituire con i ricordi veri.
+
+**Note di redazione (revisione 22/10/2026):** itinerario riscritto in prosa; tolta dal Giorno 3 la nota «da valutare il 9/11 Museum al mattino» (il museo resta nel Giorno 5).
 
 ## Foto/media
 - [ ] foto di Times Square di notte

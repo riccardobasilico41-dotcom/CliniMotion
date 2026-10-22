@@ -4,7 +4,7 @@
 indicative e logistica di dettaglio; aneddoti di apertura/chiusura pronti come
 bozza da rileggere e personalizzare; da confermare campeggi/ristoranti dei
 Giorni 3-8 con ricordi/foto e giorno/logistica esatta dell'escursione al vulcano)
-**Periodo del viaggio:** estate 2024 *(anno corretto rispetto alla bozza iniziale — da confermare le date esatte)*
+**Periodo del viaggio:** estate 2024
 **Durata:** 9 giorni, 8 notti (6 in tenda, 2 in hotel)
 **Compagni di viaggio:** auto a noleggio condivisa, cassa comune per i pasti durante il percorso
 **Categoria:** Europa · Islanda · on the road · campeggio · Ring Road
@@ -32,203 +32,70 @@ La decisione è arrivata dopo cena, quasi per scherzo: erano passate le undici d
   guidare, per alternarsi nei tratti più lunghi.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 0
 TBD — giorno di partenza dall'Italia.
 
 ### Giorno 1 — Arrivo a Keflavík e l'eruzione vista da vicino
-- **Nel tardo pomeriggio** arrivo a Keflavík, trasferimento in bus 55 (~20 min,
-  fermata *Kellir*, 4€ a persona) fino al Konvin Hotel; il tempo di sistemarmi e
-  sono pronto per uscire a cena.
-- *Da confermare — giorno/logistica esatta:* durante il viaggio ho visto da
-  vicino il **vulcano in eruzione** sulla penisola di Reykjanes (zona
-  Grindavík/Fagradalsfjall, la stessa area entrata in eruzione più volte tra il
-  2023 e il 2024, a pochi minuti da Keflavík) — una delle esperienze più forti
-  di tutto il viaggio. Non ho ancora ricostruito con precisione se sia successo
-  la sera dell'arrivo o in un altro momento del percorso: da confermare con
-  foto/ricordi per fissare il giorno esatto e i dettagli del tour/escursione.
-- **In serata** cena da **Kaffi Duus** (bus 55 + 5 min a piedi fino alla fermata,
-  10 min di viaggio, 10 min a piedi fino al ristorante — fermata Hringbraut &
-  Melteigur). Pesce misto, circa 30€.
-- **Più tardi** giro serale per Keflavík (bar/locali da scoprire sul posto).
-- **A tarda sera** rientro in hotel col bus 55 da Hringbraut & Melteigur a Kellir
-  (ultima corsa poco dopo le 23, da non perdere).
+Si atterra a Keflavík nel tardo pomeriggio e la prima Islanda è quella, poco romantica, della zona aeroportuale. Il bus 55 porta in una ventina di minuti alla fermata *Kellir* (4 € a persona), a due passi dal Konvin Hotel: giusto il tempo di lasciare lo zaino e si esce a cena.
+
+La cena è da **Kaffi Duus**, pesce misto per circa 30 €. Ci si arriva ancora col 55: cinque minuti a piedi fino alla fermata, dieci di bus, altri dieci a piedi da Hringbraut & Melteigur. Dopo, un giro tra i locali di Keflavík e il rientro, sempre in bus, con un occhio all'orologio: l'ultima corsa passa poco dopo le 23 e non va persa.
+
+È in questi primi giorni, sulla penisola di Reykjanes, che ho visto da vicino il **vulcano in eruzione**: la zona di Grindavík e Fagradalsfjall, a pochi minuti dall'aeroporto, entrata in attività più volte tra il 2023 e il 2024. È stata una delle esperienze più forti di tutto il viaggio.
 
 ### Giorno 2 — Golden Circle: Geysir e Gullfoss
-- **Presto al mattino** ritiro dell'auto a noleggio da Sixt Rent a Car, aeroporto
-  di Keflavík.
-- **In mattinata** ritiro della tenda da RENTATENT (Vesturvör 32b, Kópavogur,
-  aperto dalle 9:00).
-- Partenza verso Gullfoss–Geysir.
-- Arrivo al **Geysir**: eruzioni ogni 6-7 minuti, mi fermo circa 15-25 minuti.
-- Visita a **Gullfoss**, la "cascata dorata" — due salti di 11 e 21 metri sul
-  fiume Hvítá.
-- **Verso mezzogiorno** pranzo (al sacco o nei dintorni).
-- **Nel primo pomeriggio** sosta al supermercato **Krónan** (Austurvegur 4,
-  Hvolsvöllur) per la spesa, max 30 minuti.
-- Partenza verso **Seljalandsfoss** (parcheggio 700 ISK).
-- Visita a Seljalandsfoss — passo dietro la cascata, foto, poi proseguo verso la
-  vicina Gljúfrabúi, passando dentro il fiume.
-- Partenza per **Skógafoss** (~30 min).
-- Visita a Skógafoss + passeggiata (sentiero panoramico impegnativo, ~470
-  scalini per arrivare in cima al salto).
-- **Nel tardo pomeriggio** spostamento verso il campeggio di **Vík** (attrezzato,
-  1.950 ISK, doccia 300 ISK) — alternativa più spartana davanti alle cascate.
-- **In serata** cena al campeggio.
-- **A tarda sera**, grazie al sole di mezzanotte ancora presente a inizio luglio,
-  decisione last minute di non andare a dormire: destinazione il **relitto
-  dell'aereo di Sólheimasandur** — circa 20 minuti d'auto da Vík fino al
-  parcheggio sulla Ring Road, poi 4 km (40-60 minuti) a piedi su sabbia nera
-  piatta e completamente esposta al vento, fino al DC-3 abbandonato dal 1973.
-  Andata e ritorno a piedi, con la luce che non è mai calata del tutto —
-  *una vera sfacchinata dopo una giornata già piena, ma probabilmente il
-  momento più assurdo e memorabile di tutto il viaggio.* Rientro al campeggio a
-  notte fonda.
+La giornata comincia presto e con la logistica: auto da Sixt all'aeroporto di Keflavík, poi la tenda da RENTATENT (Vesturvör 32b, Kópavogur, apre alle 9). Da lì inizia davvero il viaggio, verso il Golden Circle.
+
+Al **Geysir** l'acqua salta ogni sei o sette minuti: un quarto d'ora basta per vederla due o tre volte. Poco più in là c'è **Gullfoss**, la «cascata dorata», con i suoi due salti di 11 e 21 metri sul fiume Hvítá. Pranzo al sacco, poi mezz'ora contata da **Krónan** a Hvolsvöllur (Austurvegur 4) per la spesa dei giorni di campeggio.
+
+Il pomeriggio è una fila di cascate. A **Seljalandsfoss** (parcheggio 700 ISK) si passa dietro il getto d'acqua; la vicina Gljúfrabúi si raggiunge camminando dentro il fiume. Mezz'ora d'auto e c'è **Skógafoss**, con i suoi circa 470 scalini fino in cima al salto. In serata si monta la tenda per la prima volta al campeggio di **Vík** (1.950 ISK, doccia 300 ISK) e si cena lì.
+
+Poi la decisione presa quasi per scherzo. A inizio luglio il sole non tramonta, la stanchezza non basta, e così, invece di dormire, siamo ripartiti per il **relitto del DC-3 di Sólheimasandur**, abbandonato sulla sabbia dal 1973. Venti minuti d'auto fino al parcheggio sulla Ring Road, poi 4 km a piedi su sabbia nera, piatta e senza riparo dal vento, tra i 40 e i 60 minuti per tratta. *Una vera sfacchinata dopo una giornata già piena, ma probabilmente il momento più assurdo e memorabile di tutto il viaggio.* Al campeggio siamo rientrati a notte fonda, con una luce che non è mai calata del tutto.
 
 ### Giorno 3 — Dyrhólaey, Reynisfjara e la laguna glaciale
-- **Mattina con calma** — mi sveglio più tardi del previsto, complice il rientro
-  notturno dal relitto dell'aereo.
-- **In mattinata** partenza verso **Dyrhólaey**: faro e black beach, promontorio
-  vulcanico con arco di lava nera e faraglioni, zona nota per il birdwatching
-  (pulcinelle di mare in estate).
-- Spostamento e arrivo a **Reynisfjara**, la famosa spiaggia nera di colonne di
-  basalto — *attenzione alle onde, sono imprevedibili e pericolose, seguire
-  sempre le indicazioni.*
-- **Verso mezzogiorno** pranzo veloce in spiaggia (baracchino hot dog/zuppa,
-  2-3.000 ISK).
-- **Nel primo pomeriggio** partenza verso l'interno, direzione
-  **Fjaðrárgljúfur** (circa 1h15 di guida): canyon profondo circa 100 metri e
-  lungo 2 km, molto meno affollato di altri siti della zona — ideale per una
-  passeggiata fotografica lungo i sentieri panoramici sul ciglio.
-- Proseguimento verso **Skaftafell** (circa 45 min), nel Parco Nazionale del
-  Vatnajökull, il più grande d'Europa — area esplorabile solo a piedi, con
-  sentieri verso la cascata nera Svartifoss.
-- Da Skaftafell, **trekking guidato sul ghiacciaio Vatnajökull** con ramponi e
-  piccozza (escursione con guida alpina, attrezzatura fornita in loco) — una
-  delle attività più intense di tutto il viaggio: crepacci, formazioni di
-  ghiaccio blu e il silenzio assoluto del ghiacciaio. *Da confermare con
-  foto/ricevute durata e operatore esatti.*
-- **Nel tardo pomeriggio** partenza verso **Jökulsárlón** (circa 1h): la laguna
-  glaciale dove il ghiacciaio Vatnajökull stacca i suoi iceberg, che galleggiano
-  fino quasi al mare — tra i punti più spettacolari di tutto il viaggio,
-  soprattutto con la luce bassa della sera islandese. Qui **kayak in mezzo agli
-  iceberg**: si pagaia tra i blocchi di ghiaccio che si staccano dal ghiacciaio,
-  con le foche spesso a pochi metri di distanza — un'esperienza molto diversa
-  dal semplice punto panoramico affollato di turisti. *Da confermare con
-  foto/ricevute durata e operatore esatti.* Tappa d'obbligo anche alla
-  vicina **Diamond Beach**, dove i blocchi di ghiaccio si arenano sulla sabbia
-  nera.
-- **In serata** ultima tratta verso **Höfn** (circa 1h): arrivo a sera inoltrata,
-  sistemazione al campeggio **Vestrahorn** (ai piedi dell'omonima montagna,
-  vista su spiaggia nera e oceano, 18 minuti da Höfn) o al campeggio comunale in
-  centro — *da confermare quale dei due*.
-- Cena: zuppa di pesce in uno dei ristoranti di Höfn, la "capitale
-  dell'aragosta islandese" — o in alternativa cena in campeggio.
+La sveglia arriva più tardi del previsto, ed è colpa del relitto. Si parte con calma verso **Dyrhólaey**: il faro, l'arco di lava nera sul mare, i faraglioni e, d'estate, le pulcinelle di mare. Subito dopo c'è **Reynisfjara**, la spiaggia nera con le colonne di basalto. Qui le onde sono imprevedibili e pericolose: le indicazioni vanno seguite alla lettera. Pranzo veloce al baracchino della spiaggia, hot dog o zuppa per 2-3.000 ISK.
+
+Il pomeriggio va verso l'interno. Un'ora e un quarto di guida e si arriva al canyon di **Fjaðrárgljúfur**, profondo un centinaio di metri e lungo due chilometri, molto meno affollato degli altri luoghi della zona. Altri tre quarti d'ora e si entra a **Skaftafell**, nel parco del Vatnajökull, il più grande d'Europa, dove i sentieri portano anche alla cascata nera di Svartifoss.
+
+Da Skaftafell ho fatto il **trekking sul ghiacciaio Vatnajökull**, con ramponi, piccozza e guida alpina: crepacci, ghiaccio blu e un silenzio assoluto. È una delle attività più intense del viaggio. Un'ora più a est c'è **Jökulsárlón**, la laguna dove il ghiacciaio stacca i suoi iceberg, che galleggiano quasi fino al mare. L'ho vista in **kayak**, pagaiando tra i blocchi di ghiaccio con le foche spesso a pochi metri: tutta un'altra cosa rispetto al belvedere affollato. Accanto c'è la **Diamond Beach**, dove il ghiaccio si arena sulla sabbia nera.
+
+L'ultima ora di guida porta a **Höfn**, dove si arriva a sera inoltrata. Si dorme in campeggio, al Vestrahorn ai piedi della montagna, a 18 minuti dal paese, o a quello comunale in centro. A cena c'è la zuppa di pesce della «capitale dell'aragosta islandese», oppure si cucina in tenda.
 
 ### Giorno 4 — Viking Village, fiordi dell'Est ed Egilsstaðir
-- **In mattinata** colazione in campeggio e tappa al **Viking Village** di Höfn,
-  il set cinematografico costruito nel 2010 accanto al campeggio Vestrahorn —
-  cavalli al pascolo, ricostruzione di villaggio vichingo, cornice perfetta per
-  due passi prima di ripartire.
-- Partenza verso **Egilsstaðir** lungo i **fiordi dell'Est** (Route 1, circa
-  250 km e 3-4 ore effettive, che diventano facilmente 5-6 ore con soste: la
-  strada segue ogni singolo fiordo, velocità media 50-60 km/h). Tra le zone
-  islandesi meno turistiche e più selvagge, note d'estate per le colonie di
-  pulcinelle di mare — possibile deviazione verso **Seyðisfjörður**, cittadina
-  raccolta tra le montagne e famosa per la sua scena artistica.
-- **Nel tardo pomeriggio** arrivo a **Egilsstaðir**, capoluogo dell'est
-  islandese (circa 2.500 abitanti). Sistemazione al **Camp Egilsstaðir**, ben
-  attrezzato (bagni, docce, lavanderia, cucine al chiuso e all'aperto, wifi
-  gratuita — circa 2.000 ISK a persona a notte).
-- Sosta ai **Vök Baths**, la piscina termale galleggiante sul lago Urriðavatn
-  poco fuori città (10 minuti d'auto) — il primo vero bagno caldo del viaggio
-  dopo due giorni di trekking e vento.
-- **In serata** cena in campeggio o in uno dei locali di Egilsstaðir.
+Colazione in campeggio e due passi al **Viking Village**, il set cinematografico costruito nel 2010 accanto al Vestrahorn: un villaggio vichingo ricostruito, con i cavalli al pascolo intorno.
+
+Poi la giornata è della strada. La Route 1 lungo i **fiordi dell'Est** fa circa 250 km, tre o quattro ore sulla carta che diventano facilmente cinque o sei: la strada segue ogni singolo fiordo e si viaggia a 50-60 km/h. È una delle zone meno turistiche dell'isola, la più selvaggia, e d'estate ci vivono colonie di pulcinelle di mare. Chi ha tempo può deviare per **Seyðisfjörður**, paese raccolto tra le montagne e noto per la sua scena artistica.
+
+Nel tardo pomeriggio si arriva a **Egilsstaðir**, capoluogo dell'est con circa 2.500 abitanti, e si monta la tenda al **Camp Egilsstaðir**: bagni, docce, lavanderia, cucine al chiuso e all'aperto, wifi gratuito, circa 2.000 ISK a persona. A dieci minuti ci sono i **Vök Baths**, la piscina termale che galleggia sul lago Urriðavatn: il primo vero bagno caldo dopo due giorni di trekking e vento.
 
 ### Giorno 5 — Stuðlagil, Dettifoss e Ásbyrgi
-- **In mattinata** partenza verso lo **Stuðlagil Canyon** (circa 1h di guida,
-  ultimo tratto su sterrato): una delle chicche meno battute del viaggio,
-  colonne di basalto alte 30 metri e un fiume dalle acque turchesi, diventato
-  famoso solo dal 2017 in poi grazie a un abbassamento del livello dell'acqua
-  dopo l'apertura della centrale idroelettrica di Kárahnjúkar.
-- Rientro verso la Route 1 e partenza per **Dettifoss** (circa 2h di guida): la
-  cascata più potente d'Europa (44 m di salto, portata fino a 500 m³/s in
-  estate) — l'acqua fangosa e la potenza del getto si sentono da lontano ancora
-  prima di vederla. Parcheggio e sentiero sul lato ovest (Route 862, asfaltata)
-  per la vista migliore.
-- **Nel primo pomeriggio** proseguimento su Route 862/85 verso **Ásbyrgi**
-  (circa 40 minuti): il canyon a forma di ferro di cavallo, che la leggenda
-  vuole originato da uno zoccolo del cavallo a otto zampe di Odino. Passeggiata
-  tra le pareti verdi del canyon fino allo stagno Botnstjörn.
-- **Nel tardo pomeriggio** sistemazione al **campeggio di Ásbyrgi**, nel cuore
-  del parco nazionale (aperto da metà maggio a fine ottobre, elettricità
-  disponibile), con diversi sentieri che partono direttamente dal campeggio.
-- **In serata** cena in campeggio.
+Un'ora di guida, l'ultimo tratto su sterrato, e si arriva allo **Stuðlagil Canyon**: colonne di basalto alte 30 metri e un fiume turchese. È diventato famoso solo dopo il 2017, quando la centrale idroelettrica di Kárahnjúkar ha abbassato il livello dell'acqua, e resta una delle tappe meno battute.
+
+Tornati sulla Route 1, due ore portano a **Dettifoss**, la cascata più potente d'Europa: 44 metri di salto e fino a 500 m³ d'acqua fangosa al secondo d'estate. Il boato si sente prima di vederla. La vista migliore è dal lato ovest, con parcheggio e sentiero sulla Route 862, asfaltata.
+
+Quaranta minuti dopo c'è **Ásbyrgi**, il canyon a ferro di cavallo che la leggenda attribuisce a uno zoccolo del cavallo a otto zampe di Odino. Si cammina tra le pareti verdi fino allo stagno Botnstjörn e si dorme al **campeggio di Ásbyrgi**, nel cuore del parco (aperto da metà maggio a fine ottobre, con elettricità), da cui partono diversi sentieri. Cena in campeggio.
 
 ### Giorno 6 — Húsavík, whale watching e il lago Mývatn
-- **In mattinata** partenza verso **Húsavík** (circa 1h di guida), la "capitale
-  mondiale del whale watching".
-- Uscita in barca (tour classico da 3 ore, imbarco al porto vecchio, a bordo di
-  una delle tradizionali barche in legno di quercia restaurate) alla ricerca di
-  megattere, balenottere minori e, con un po' di fortuna, orche o balenottere
-  azzurre nella baia di Skjálfandi.
-- **Verso mezzogiorno** pranzo veloce a Húsavík.
-- **Nel primo pomeriggio** circa un'ora di auto verso il **lago Mývatn**, zona
-  geotermicamente tra le più attive dell'isola: **Grjótagjá** (piccola grotta
-  lavica con sorgente termale, location di una scena di Game of Thrones — oggi
-  non balneabile per le temperature imprevedibili), **Hverfjall** (cratere
-  vulcanico ad anello), **Hverir** (fumarole e pozze di fango bollente, forte
-  odore di zolfo), **Dimmuborgir** (labirinto di formazioni laviche, tra cui la
-  "chiesa" naturale Kirkjan) e infine **Goðafoss**, la "cascata degli dei",
-  legata alla cristianizzazione dell'Islanda nell'anno 1000.
-- **In serata** ultimo tratto verso **Akureyri** (circa 45 min). Sistemazione al
-  campeggio **Hamrar** (ai margini della foresta di Kjarnaskógur, con diversi
-  sentieri che partono dal campeggio stesso, aree giochi e minigolf).
-- Cena — occasione per un barbecue con quanto comprato ad Akureyri.
+Un'ora di strada e si è a **Húsavík**, che si fa chiamare capitale mondiale del whale watching. L'uscita classica dura tre ore e parte dal porto vecchio, su una delle barche tradizionali in quercia restaurate. Nella baia di Skjálfandi si cercano megattere e balenottere minori; con fortuna, orche o balenottere azzurre.
+
+Dopo un pranzo veloce, un'altra ora d'auto porta al **lago Mývatn**, una delle zone geotermiche più attive dell'isola. In poche ore si passa dalla grotta di **Grjótagjá**, con la sorgente calda di una scena di Game of Thrones (oggi non balneabile, la temperatura è imprevedibile), al cratere ad anello di **Hverfjall**, alle fumarole e al fango bollente di **Hverir**, dove l'odore di zolfo è fortissimo, fino ai labirinti di lava di **Dimmuborgir** con la «chiesa» naturale di Kirkjan. L'ultima tappa è **Goðafoss**, la «cascata degli dei», legata alla cristianizzazione dell'Islanda nell'anno 1000.
+
+In serata, tre quarti d'ora e si arriva ad **Akureyri**. Si dorme al campeggio **Hamrar**, ai margini della foresta di Kjarnaskógur, e la spesa fatta in città diventa un barbecue.
 
 ### Giorno 7 — Verso la penisola di Snæfellsnes
-- **In mattinata** partenza da Akureyri: giornata quasi interamente di
-  trasferimento verso la penisola di **Snæfellsnes** (circa 390 km, 5 ore di
-  guida effettive via Route 1 e Borgarnes — che con soste diventano facilmente
-  6-7 ore).
-- Soste lungo il percorso: le tipiche **case di torba** islandesi (costruzioni
-  tradizionali con tetto vegetale, spesso lungo la Route 1 nel nord-ovest) e, se
-  il tempo lo permette, una sosta in una piscina termale naturale poco battuta
-  del West Iceland (es. **Guðrúnarlaug**, sulla strada verso i Fiordi
-  Occidentali — spogliatoio essenziale, ingresso gratuito).
-- **Nel tardo pomeriggio** arrivo alla penisola di Snæfellsnes e al
-  **Kirkjufell**, la montagna più fotografata d'Islanda (463 m), con la
-  cascata Kirkjufellsfoss in primo piano — parcheggio proprio accanto alla
-  cascata, nessuna camminata necessaria per la foto classica. Punto perfetto
-  per il tramonto (con luce fino a tardi, in piena estate).
-- **In serata** sistemazione al **campeggio di Grundarfjörður**, proprio ai
-  piedi della montagna, con vista sul fiordo.
-- Ultima cena "vera" in tenda: spesa nei negozi del paese (a 10 minuti a piedi
-  dal campeggio) e cena al campeggio.
+È quasi tutto trasferimento: circa 390 km da Akureyri alla penisola di **Snæfellsnes**, cinque ore effettive via Route 1 e Borgarnes, sei o sette con le soste. Lungo la strada del nord-ovest si incontrano le **case di torba** col tetto d'erba e, se c'è tempo, una piscina termale naturale poco battuta come **Guðrúnarlaug**, verso i Fiordi Occidentali: spogliatoio essenziale e ingresso gratuito.
+
+Nel tardo pomeriggio appare il **Kirkjufell**, i 463 metri più fotografati d'Islanda, con la cascata di Kirkjufellsfoss davanti. Il parcheggio è proprio accanto alla cascata e la foto classica non richiede camminate; con la luce lunga dell'estate è il posto giusto per il tramonto. L'ultima notte in tenda è al campeggio di **Grundarfjörður**, ai piedi della montagna con vista sul fiordo. Spesa nei negozi del paese, a dieci minuti a piedi, e cena al campeggio.
 
 ### Giorno 8 — Relax termale e rientro a Reykjavík
-- **In mattinata** con calma: smontaggio della tenda per l'ultima volta e
-  eventuale sosta in una piscina termale naturale del West Iceland lungo il
-  tragitto di rientro (es. zona di Deildartunguhver/Krauma, la sorgente calda
-  più potente d'Europa).
-- **Nel primo pomeriggio** partenza verso **Reykjavík** (circa 2h30 di guida,
-  180 km via Borgarnes).
-- **Nel tardo pomeriggio** arrivo in capitale, riconsegna dell'auto e della
-  tenda, check-in in hotel — ultima notte in un letto vero dopo 6 notti in
-  tenda!
-- **Pomeriggio libero** in centro città: mercatino dell'usato di
-  **Kolaportið** (se sabato o domenica), giro tra le vie colorate del centro,
-  eventuale tappa alla chiesa di Hallgrímskirkja.
-- **In serata** ultima cena in uno dei ristoranti del centro, per festeggiare
-  la fine del viaggio.
+Si smonta la tenda per l'ultima volta, con calma. Lungo il rientro c'è spazio per un'ultima sosta calda nel West Iceland, nella zona di Deildartunguhver e Krauma, la sorgente più potente d'Europa. Poi due ore e mezza, 180 km via Borgarnes, fino a **Reykjavík**.
+
+Nel tardo pomeriggio si riconsegnano auto e tenda e si entra in hotel: dopo sei notti in tenda, un letto vero. Il resto della giornata è libero in centro: il mercatino dell'usato di **Kolaportið** se è sabato o domenica, le vie colorate, la chiesa di Hallgrímskirkja. La sera, l'ultima cena in centro per chiudere il viaggio.
 
 ### Giorno 9 — Rientro
-- **Al mattino** check-out dall'hotel, trasferimento verso l'aeroporto di
-  **Keflavík** (circa 45 minuti da Reykjavík) in base all'orario del volo di
-  rientro.
+Check-out e trasferimento a **Keflavík**, a circa 45 minuti da Reykjavík, in base all'orario del volo.
 
 ## Cosa vedere / cosa fare
-- **Vulcano in eruzione sulla penisola di Reykjanes** — vista da vicino durante il viaggio, una delle esperienze più forti di tutta l'Islanda (giorno esatto da confermare).
+- **Vulcano in eruzione sulla penisola di Reykjanes** — visto da vicino durante il viaggio, una delle esperienze più forti di tutta l'Islanda.
 - **Trekking sul ghiacciaio Vatnajökull** da Skaftafell, con ramponi e guida — crepacci e ghiaccio blu a pochi passi.
 - **Kayak tra gli iceberg a Jökulsárlón** — un modo molto più immersivo di vivere la laguna glaciale rispetto al solo punto panoramico.
 - **Geysir e Gullfoss** — il classico Golden Circle, imperdibile.
@@ -279,8 +146,7 @@ TBD — giorno di partenza dall'Italia.
   - Fascia media: **Hotel Kría**, design nordico sulla via principale del paese.
   - Più curate: **Hótel Vík í Mýrdal**.
 
-- **Höfn — campeggio Vestrahorn *o* campeggio comunale di Höfn (Giorno 3, da
-  confermare quale).** Il campeggio Vestrahorn (~2.800 ISK a persona/notte)
+- **Höfn — campeggio Vestrahorn o campeggio comunale (Giorno 3).** Il campeggio Vestrahorn (~2.800 ISK a persona/notte)
   include l'ingresso al Viking Village e la vista su Stokksnes, ma alcune
   recensioni segnalano solo due docce disponibili in orari limitati; il
   campeggio comunale su Hafnarbraut (~1.800 ISK) è più centrale, vicino alla
@@ -326,8 +192,7 @@ TBD — giorno di partenza dall'Italia.
   poche vere alternative economiche o di lusso nella stessa cittadina. Per più
   scelta conviene guardare verso **Stykkishólmur**, a circa 25 minuti d'auto.
 
-- **Reykjavík — hotel, ultima notte (Giorno 8).** *(nome dell'hotel da
-  ricordare/confermare)*
+- **Reykjavík — hotel, ultima notte (Giorno 8).**
   #### Alternative a Reykjavík
   - Economiche: **KEX Hostel**, **Loft HI Eco Hostel**.
   - Fascia media: hotel di zona Þingholt, **Hlemmur Square**.
@@ -336,14 +201,10 @@ TBD — giorno di partenza dall'Italia.
 ## Dove abbiamo mangiato
 - Keflavík — Kaffi Duus (pesce misto, ~30€)
 - Reynisfjara — baracchino hot dog/zuppa in spiaggia
-- *(pasti dei Giorni 4-8: perlopiù cucinati in campeggio con la cassa comune —
-  da arricchire con eventuali locali/zuppe provate lungo il percorso, es. zuppa
-  di pesce a Höfn)*
-- Reykjavík — ultima cena prima del rientro *(locale da ricordare)*
+- Giorni 4-8: quasi sempre cucina da campeggio, con la cassa comune
+- Reykjavík — ultima cena in centro prima del rientro
 
 ## Consigli pratici / cosa mettere in valigia
-*(dal documento bagaglio — molto utile da tenere come sezione a parte tipo
-"checklist" quando diventerà articolo del sito)*
 - **Zaino, non trolley**: 50/60 litri, da imbarcare (non in cabina, soprattutto
   low-cost).
 - **Sacco a pelo, materassino, cuscino da campeggio** (se non affittati in loco).
@@ -416,6 +277,8 @@ Fonti caricate:
 - Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base
   dell'itinerario reale — da rileggere e sostituire con i ricordi veri, così
   come i Giorni 4-9, per ora ricostruiti "a tavolino" su base logistica reale.
+
+**Note di redazione (revisione 22/10/2026):** itinerario riscritto in prosa (VOCE-EDITORIALE.md). Tolte dal testo pubblico e da confermare: giorno esatto dell'eruzione; operatori e durata di trekking e kayak; quale campeggio a Höfn; nome dell'hotel e del ristorante dell'ultima sera a Reykjavík; locali dei Giorni 4-8. I Giorni 4-9 restano ricostruiti su logistica reale: sostituire con i ricordi veri quando possibile.
 
 ## Foto/media
 - [ ] foto al vulcano in eruzione

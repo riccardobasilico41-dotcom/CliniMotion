@@ -19,76 +19,43 @@ Il primo impatto vero con il Marocco è arrivato a Jemaa El-Fna, la piazza di Ma
 - **Come ci si muove:** van privato per tutte le tratte, alcune lunghe (fino a 4 ore), intervallate da soste per acquisti tipici (zafferano, turbanti, pashmine) e visite lungo il percorso.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Marrakech
-Giornata libera e incontro con Mustafa, la guida che mi ha accompagnato per tutto il viaggio. Pernottamento a **Villa Zahra** — ottima per stare comodo, con un po' più di spazio e tranquillità rispetto a un hotel in pieno centro; l'unico compromesso è la posizione, un po' fuori dal cuore della medina, da mettere in conto per gli spostamenti serali.
-
-- **In serata** cena da **Kui Zin**.
-- **Dopocena** al Churchill Bar o alla Pergola.
+Il primo giorno è libero e serve a conoscere Mustafa, la guida che mi ha accompagnato per tutto il viaggio. Si dorme a **Villa Zahra**: comoda, con più spazio e più tranquillità di un hotel in piena medina. L'unico compromesso è la posizione, un po' fuori dal centro, da mettere in conto per gli spostamenti della sera. Cena da **Kui Zin**, poi un bicchiere al Churchill Bar o alla Pergola.
 
 ### Giorno 2 — Marrakech-Aït Benhaddou
-- **In mattinata presto** partenza verso la **Kasbah di Telouet** (127 km, circa 2h30).
-- **A metà mattina** visita alla Kasbah di Telouet — l'antica residenza della famiglia Glaoui, con interni riccamente decorati che contrastano con l'esterno in terra battuta ormai in parte crollato.
-- Trasferimento verso **Aït Benhaddou** (47 km, circa 1h).
-- **Verso mezzogiorno** visita al celebre **ksar di Aït Benhaddou**, Patrimonio UNESCO e set di innumerevoli film e serie (da *Il Gladiatore* a *Game of Thrones*) — un villaggio fortificato di fango che sembra uscito da un'altra epoca.
-- **A seguire** pranzo da **Tawesna**.
-- **Nel tardo pomeriggio** rientro in hotel (Ksar El Janoub) e tempo libero, piscina.
-- **In serata** cena in hotel.
-- *Nota pratica per il giorno dopo: ricaricare i power bank in vista della notte nel deserto, e chiedere alla guida dove fermarsi per comprare alcolici e snack da portare a Merzouga (nel deserto le scorte sono limitate).*
+Si parte presto: 127 km, circa due ore e mezza, fino alla **Kasbah di Telouet**, l'antica residenza della famiglia Glaoui. Fuori è terra battuta in parte crollata, dentro ci sono interni riccamente decorati, e il contrasto è la ragione per venirci.
+
+Un'altra ora di strada e si arriva ad **Aït Benhaddou**, lo ksar patrimonio UNESCO che ha fatto da set a innumerevoli film e serie, dal *Gladiatore* a *Game of Thrones*: un villaggio fortificato di fango che sembra uscito da un'altra epoca. Pranzo da **Tawesna**, poi rientro all'hotel Ksar El Janoub, piscina e cena lì.
+
+*Nota pratica per il giorno dopo: caricare i power bank prima della notte nel deserto e chiedere alla guida dove fermarsi per alcolici e snack da portare a Merzouga, perché nel deserto le scorte sono poche.*
 
 ### Giorno 3 — Merzouga, l'ingresso nel Sahara
-- **In mattinata presto** partenza verso le **Gole di Todra** (200 km, circa 3h).
-- Visita alle gole (30 min) — pareti di roccia che si stringono fino a pochi metri di distanza, tra le più spettacolari del Marocco.
-- Pranzo al sacco durante il tragitto.
-- **Nel primo pomeriggio** ripartenza verso **Erg Chebbi** (187 km, circa 3h), con sosta in un mercato locale per comprare turbanti e pashmine — utili contro sabbia e freddo notturno nel deserto.
-- **Nel tardo pomeriggio** arrivo nel deserto, sistemazione al campo tendato **Camp La Source**.
-- **Al tramonto** giro in cammello sulle dune (incluso).
-- **Cena** al campo — segnalare eventuali allergie/intolleranze in anticipo.
-- *Nella notte, cielo stellato senza pari: lontano da ogni luce artificiale, uno dei momenti più belli di tutto il viaggio.*
+Presto in strada: 200 km, tre ore, fino alle **Gole di Todra**. Bastano trenta minuti per camminare tra pareti di roccia che si stringono fino a pochi metri, tra le più spettacolari del Marocco. Pranzo al sacco lungo il tragitto.
+
+Nel primo pomeriggio si riparte verso l'**Erg Chebbi**, altri 187 km. A metà strada, in un mercato locale, si comprano turbanti e pashmine: servono contro la sabbia e contro il freddo della notte nel deserto. Nel tardo pomeriggio si arriva al campo tendato **Camp La Source** e al tramonto si sale sui cammelli per un giro tra le dune, incluso. La cena è al campo (le allergie vanno segnalate prima). *Di notte, un cielo stellato senza pari, lontano da qualsiasi luce: uno dei momenti più belli di tutto il viaggio.*
 
 ### Giorno 4 — Merzouga-Agdz
-- **Prima dell'alba** sveglia.
-- **All'alba** giro in cammello (incluso) — le dune che cambiano colore con la luce del sole nascente.
-- **Al rientro** colazione.
-- **In mattinata** **quad nel deserto** (350 MAD a persona, da concordare con la guida). *In alternativa, se si ha la patente, si può guidare anche in moto: opzione consigliata da prenotare con qualche giorno di anticipo, perché i mezzi disponibili sono limitati.*
-- **In tarda mattinata** partenza verso **Agdz** (300 km, circa 4h).
-- **Nel tardo pomeriggio** arrivo in hotel (Kasbah Trane), tempo libero/piscina.
-- **In serata** visita alla **Kasbah di Tamnougalt** (20 MAD a persona + 200 MAD di mancia per la guida locale) — una delle kasbah meglio conservate della valle del Draa.
-- **Più tardi in serata** cena in hotel.
+La sveglia suona prima dell'alba per un altro giro in cammello, incluso, mentre le dune cambiano colore col sole che sale. Colazione al rientro, poi il **quad nel deserto**, 350 MAD a persona da concordare con la guida. *Chi ha la patente può anche guidare una moto: conviene prenotarla qualche giorno prima, i mezzi sono pochi.*
+
+In tarda mattinata si parte per **Agdz**, 300 km e circa quattro ore. Nel tardo pomeriggio si arriva alla Kasbah Trane, con un po' di tempo per la piscina. La sera si visita la **Kasbah di Tamnougalt**, una delle meglio conservate della valle del Draa (20 MAD a persona più 200 MAD di mancia alla guida locale), e si cena in hotel.
 
 ### Giorno 5 — Agdz-Agadir
-- **In mattinata presto** partenza verso **Taliouine** (173 km, circa 2h30), la capitale marocchina dello zafferano — sosta per l'acquisto nella città vecchia (meglio farsi consigliare dalla guida il posto giusto piuttosto che fermarsi nel primo negozio lungo la strada).
-- Pranzo lungo il tragitto, eventualmente a **Taroudant**: se ci si ferma qui, vale la pena mangiare nella città vecchia per avere il tempo di vedere le antiche mura e il centro storico.
-- Proseguimento verso **Agadir** (187 km, circa 3h).
-- **Nel tardo pomeriggio** check-in in hotel (Hotel Oasis) e tempo libero — possibilità di yoga al tramonto con Khalid.
-- **In serata** cena da **Les Blancs**: cucina spagnola e mediterranea, rooftop con vista sul mare.
-- **Dopocena** al LOFT — narghilè e birre, atmosfera da discoteca araba.
+Si parte presto per **Taliouine**, 173 km, due ore e mezza: è la capitale marocchina dello zafferano, e lo si compra nella città vecchia. Meglio farsi indicare il posto giusto dalla guida che fermarsi nel primo negozio sulla strada. Si può pranzare a **Taroudant**, e in quel caso conviene farlo nella città vecchia, per avere il tempo di vedere le mura antiche e il centro storico.
+
+Altre tre ore, 187 km, portano ad **Agadir**. Check-in all'Hotel Oasis e tempo libero, con la possibilità di fare yoga al tramonto con Khalid. Si cena da **Les Blancs**, cucina spagnola e mediterranea su un rooftop con vista sul mare, e si finisce al LOFT, tra narghilè, birre e un'atmosfera da discoteca araba.
 
 ### Giorno 6 — Agadir-Essaouira, con tappa surf a Taghazout
-- **In mattinata presto** partenza verso **Taghazout** (23 km, 30 min).
-- **In mattinata** lezione di **surf** con Chillout (250 MAD a persona, 2h; docce disponibili a 10 MAD).
-- **Verso mezzogiorno** pranzo a Taghazout.
-- Trasferimento verso **Essaouira** (152 km, circa 2h30).
-- **Nel tardo pomeriggio** tour guidato di Essaouira (incluso, 1h30, mancia 150-200 MAD totali) — la città portuale fortificata affacciata sull'Atlantico, con la medina bianca e blu tra le più suggestive del Marocco. *Lo shopping qui costa meno che a Marrakech.*
-- **In serata** **hammam** da Kenza (250 MAD a persona, 1h) — un momento di pausa ben piazzato dopo giorni di van e visite.
-- **Più tardi in serata** cena tra **Triskala**, **La Table by Madada** o **Des Rêves**.
+Mezz'ora di strada e si è a **Taghazout** per due ore di **surf** con Chillout, 250 MAD a persona (le docce costano 10 MAD). Si pranza in paese e poi due ore e mezza, 152 km, fino a **Essaouira**.
+
+Il tour guidato del tardo pomeriggio, incluso, dura un'ora e mezza (mancia di 150-200 MAD in tutto): la città portuale fortificata sull'Atlantico, con una medina bianca e blu tra le più suggestive del Marocco. *Qui lo shopping costa meno che a Marrakech.* Dopo giorni di van e visite, l'**hammam** da Kenza, un'ora per 250 MAD, è una pausa ben piazzata. Per cena si sceglie tra **Triskala**, **La Table by Madada** e **Des Rêves**.
 
 ### Giorno 7 — Essaouira-Marrakech
-- **In mattinata** **avventura in quad** al Ranch de Diabat (incluso, 1h) — può essere ventoso, meglio coprirsi bene.
-- **A seguire** passeggiata a cavallo opzionale, sempre al Ranch de Diabat (max 12 cavalli disponibili).
-- **Verso mezzogiorno** picnic.
-- **Nel primo pomeriggio** partenza verso Marrakech (200 km, circa 3h).
-- **In serata** cena da **Narwama**, con dinner show.
-- **Notte:** Villa Zahra.
+La mattina è al Ranch de Diabat: un'ora di **quad**, incluso, dove può tirare vento e conviene coprirsi bene, e una passeggiata a cavallo facoltativa (i cavalli sono al massimo dodici). A mezzogiorno un picnic, poi tre ore e 200 km fino a Marrakech. La cena è da **Narwama**, con dinner show, e si torna a dormire a Villa Zahra.
 
 ### Giorno 8 — Marrakech
-- **In mattinata** tour guidato di Marrakech (incluso, mancia 200 MAD totali): **Medersa Ali Ben Youssef** (50 MAD, aperta di giorno), **Palazzo della Bahia** (70 MAD, aperta di giorno), **Tombe Saadiane** (70 MAD, aperta di giorno fino al tardo pomeriggio), **Moschea Koutoubia** (solo esterno, non musulmani non ammessi all'interno), **Piazza Jemaa El-Fna** — il cuore pulsante della medina, tra incantatori di serpenti, musicisti e bancarelle di ogni tipo, soprattutto dopo il tramonto.
-- **Verso mezzogiorno** pranzo e shopping nei souk.
-- **Nel pomeriggio** taxi verso il **Jardin Majorelle** (50 MAD a corsa).
-- **Poco dopo** visita al **Jardin Majorelle** (aperto dal mattino presto fino a sera, ultimo ingresso nel tardo pomeriggio, 150 MAD a persona — da prenotare in anticipo, i posti sono contingentati) — il giardino blu cobalto creato da Jacques Majorelle e poi appartenuto a Yves Saint Laurent.
-- **Nel tardo pomeriggio** shopping e tempo libero.
-- **In serata** cena da **Safran by Koya** — buono e bello.
-- **Notte:** Villa Zahra.
+La mattina è il tour guidato della città, incluso (mancia di 200 MAD in tutto): la **Medersa Ali Ben Youssef** (50 MAD), il **Palazzo della Bahia** (70 MAD), le **Tombe Saadiane** (70 MAD, aperte fino al tardo pomeriggio), la **Moschea Koutoubia**, solo da fuori perché i non musulmani non possono entrare, e infine **Piazza Jemaa El-Fna**, il cuore della medina, tra incantatori di serpenti, musicisti e bancarelle di ogni tipo, soprattutto dopo il tramonto.
+
+Si pranza e si gira per i souk. Nel pomeriggio un taxi, 50 MAD a corsa, porta al **Jardin Majorelle**, il giardino blu cobalto creato da Jacques Majorelle e poi appartenuto a Yves Saint Laurent: 150 MAD a persona, ingressi contingentati, da prenotare prima (apre presto e l'ultimo ingresso è nel tardo pomeriggio). Il resto è shopping e tempo libero. L'ultima cena è da **Safran by Koya**, buono e bello, e l'ultima notte ancora a Villa Zahra.
 
 ### Giorno 9 — Rientro
 Check-out e saluti.
@@ -148,6 +115,8 @@ Nove giorni da Marrakech al Sahara e ritorno, tra kasbah di fango, gole scavate 
 ## Materiale grezzo (appunti, non ancora editato)
 Aneddoti di apertura/chiusura scritti come bozza (Claude) sulla base
 dell'itinerario reale — da rileggere e sostituire con i ricordi veri.
+
+**Note di redazione (revisione 22/10/2026):** itinerario riscritto in prosa (VOCE-EDITORIALE.md), fatti invariati.
 
 ## Foto/media
 - [ ] foto del ksar di Aït Benhaddou
