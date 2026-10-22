@@ -35,7 +35,7 @@ Accanto, la **Chiesa di Mattia** (Mátyás-templom), con il tetto in tegole maio
 
 Nel pomeriggio, discesa verso il **Ponte delle Catene** (Széchenyi lánchíd), il primo ponte permanente tra Buda e Pest, aperto nel 1849: attraversarlo a piedi, con la vista sul Parlamento da un lato e sul castello dall'altro, è il modo più semplice per passare sulla sponda di Pest.
 
-Sera libera nel centro di Pest, per orientarsi in vista dei giorni successivi.
+La sera si cammina nel centro di Pest, per prendere le misure della città prima dei giorni successivi.
 
 ### Giorno 2 — Il Parlamento e il quartiere ebraico
 Mattina dedicata al **Parlamento ungherese** (Országház), completato nel 1904 e tra gli edifici parlamentari più grandi al mondo: il tour guidato (da prenotare con anticipo) porta dentro le sale principali e fino alla Sacra Corona di Santo Stefano, custodita sotto la cupola centrale.

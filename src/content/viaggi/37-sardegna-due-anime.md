@@ -64,7 +64,7 @@ Sosta possibile a **San Teodoro** con lo stagno e i **fenicotteri**, oppure a **
 
 Arrivo a **Cala Gonone** o nella zona di **Dorgali**, che è la base per il **Golfo di Orosei**: quaranta chilometri di **falesie calcaree a picco sul mare senza una sola strada**, con le cale raggiungibili solo in barca o a piedi. È il tratto di costa più spettacolare d'Italia e uno dei pochi rimasti davvero inaccessibili.
 
-Sera tranquilla, perché il giorno dopo si cammina.
+La sera si va a letto presto: il giorno dopo si cammina.
 
 ### Giorno 5 — Cala Goloritzé
 La giornata più bella dell'itinerario, e quella che richiede più organizzazione.

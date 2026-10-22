@@ -17,36 +17,35 @@ Provenza, Camargue e Occitania sono tre paesaggi mediterranei diversi messi in u
 - **Vignetta Crit'Air** per Marsiglia e Aix.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Avignone
-Il Palazzo dei Papi, il ponte, il centro storico.
+Si parte dalla Provenza dei papi: ad **Avignone** il Palazzo dei Papi, il ponte e il centro storico.
 
 ### Giorno 2 — Pont du Gard e Nîmes
-Il Pont du Gard con bagno nel fiume, poi Nîmes con l'arena romana e la Maison Carrée.
+Il **Pont du Gard** si guarda dal basso, e d'estate con il bagno nel fiume. Poi **Nîmes**, con l'arena romana e la Maison Carrée.
 
 ### Giorno 3 — Arles e la Camargue
-Arles con l'anfiteatro romano. Nel pomeriggio ingresso in Camargue.
+Ad **Arles** c'è l'anfiteatro romano. Nel pomeriggio si entra in **Camargue**, e il paesaggio cambia: dai monumenti al delta.
 
 ### Giorno 4 — Camargue
-Giornata intera: fenicotteri a Pont de Gau, passeggiata a cavallo, Saintes-Maries-de-la-Mer.
+Una giornata intera nel delta: i fenicotteri a Pont de Gau, una passeggiata a cavallo e Saintes-Maries-de-la-Mer.
 
 ### Giorno 5 — Aigues-Mortes e le Alpilles
-Le mura di Aigues-Mortes e le saline rosa, poi verso le Alpilles e Saint-Rémy-de-Provence.
+Le mura di **Aigues-Mortes** e le saline rosa, poi le Alpilles e **Saint-Rémy-de-Provence**.
 
 ### Giorno 6 — Il Luberon e la lavanda (se in stagione)
-Gordes, Roussillon con le cave di ocra, e i campi di lavanda a Valensole o Sault secondo il periodo.
+**Gordes**, **Roussillon** con le cave di ocra e, se è il periodo, i campi di lavanda a Valensole o Sault. La finestra è stretta e cambia da altopiano ad altopiano: va controllata pochi giorni prima, e nei campi privati non si entra per le foto.
 
 ### Giorno 7 — Le Gole del Verdon
-Giornata al canyon più profondo d'Europa: camminata sul fondo o giro in kayak dal lago di Sainte-Croix.
+È la sorpresa del viaggio: pochi lo mettono in programma, e il **Verdon** resta uno dei paesaggi più spettacolari di Francia, con un'acqua di un verde che sembra ritoccato. Si cammina sul fondo del canyon oppure si entra in kayak dal lago di Sainte-Croix.
 
 ### Giorno 8 — Aix-en-Provence e Marsiglia
-Aix con il Cours Mirabeau, poi Marsiglia: Vieux-Port, Le Panier, MuCEM.
+Il Cours Mirabeau ad **Aix**, poi **Marsiglia**: il Vieux-Port, Le Panier, il MuCEM, e la bouillabaisse. Per Aix e Marsiglia serve la vignetta Crit'Air.
 
 ### Giorno 9 — Le Calanques
-Giornata alle Calanques (verificare accesso), tra Marsiglia e Cassis.
+Le **Calanques**, tra Marsiglia e Cassis. D'estate l'accesso cambia giorno per giorno per il rischio incendi e va controllato ogni mattina.
 
 ### Giorno 10 — Un castello cataro o Carcassonne, e partenza
-Per chi prosegue verso ovest: un castello cataro o Carcassonne di sera prima del rientro.
+Chi prosegue verso ovest chiude con un castello cataro o con **Carcassonne** di sera, prima del rientro.
 
 ## Cosa vedere / cosa fare
 - Il Pont du Gard con il bagno nel fiume.
@@ -83,6 +82,9 @@ I passaggi in prima persona sono scritti da Claude come bozza, coerenti con ciò
 - [ ] foto delle Gole del Verdon
 - [ ] foto delle Calanques
 - [ ] mappa dei dieci giorni
+
+## Materiale grezzo (appunti, non ancora editato)
+**Note di redazione (revisione 22/10/2026):** itinerario ampliato in prosa con materiale già presente nell'articolo (scheda, consigli, cibo, chiusura).
 
 ## Tag
 `#provenza` `#camargue` `#francia` `#verdon` `#calanques` `#lavanda`

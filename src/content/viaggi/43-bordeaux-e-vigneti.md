@@ -18,27 +18,26 @@ Bordeaux mette insieme una città che si gira a piedi e un territorio che senza 
 - **Vignetta Crit'Air** per l'ingresso in città.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Bordeaux città
-Place de la Bourse e il Miroir d'eau, il centro settecentesco, i Chartrons. Sera con un'entrecôte à la bordelaise.
+Il primo giorno è a piedi, perché Bordeaux si gira così: Place de la Bourse con il Miroir d'eau, il centro settecentesco, il quartiere dei Chartrons. La sera, un'entrecôte à la bordelaise. Per entrare in città in auto serve la vignetta Crit'Air.
 
 ### Giorno 2 — La Cité du Vin e i Chartrons
-Mattina alla **Cité du Vin**. Pomeriggio nel quartiere dei Chartrons, tra ex magazzini di commercianti di vino convertiti.
+La mattina è alla **Cité du Vin**, il modo più ordinato per capire il vigneto prima di andarci. Il pomeriggio si torna ai Chartrons, tra gli ex magazzini dei commercianti di vino convertiti, con un canelé come merenda.
 
 ### Giorno 3 — Saint-Émilion
-Giornata intera: la chiesa monolitica scavata nella roccia con visita accompagnata, il borgo medievale, una degustazione su appuntamento.
+Una giornata intera sulla riva destra. A **Saint-Émilion** la chiesa monolitica scavata nella roccia si visita solo accompagnati, poi c'è il borgo medievale e una degustazione su appuntamento. Da qui in avanti vale la regola dei giorni di vigneto: guidatore che non assaggia, escursione accompagnata, oppure sputare in degustazione, che è la norma e non un'offesa.
 
 ### Giorno 4 — Pomerol e i Graves
-Attraversata di Pomerol, minuscola e con i vini più cari del mondo, poi i Graves a sud della città.
+Si attraversa **Pomerol**, minuscola, con i vini più cari del mondo, poi si scende nei **Graves**, a sud della città.
 
 ### Giorno 5 — Il Médoc
-Giornata lungo la strada dei château allineati, con due visite su appuntamento nei cru classati.
+È la giornata della strada dei château allineati sulla riva sinistra, con due visite nei cru classati. Ai grandi château non ci si presenta senza appuntamento: non si entra.
 
 ### Giorno 6 — Sauternes
-Visita a una proprietà del Sauternes: i grappoli con la muffa nobile, la vendemmia a passaggi successivi (se in stagione).
+Una proprietà del **Sauternes**, e la cosa che resta di più del viaggio: grappoli con la muffa nobile che sembrano da buttare, raccolti a mano cinque o sei volte nello stesso filare (in stagione si vede la vendemmia a passaggi successivi), per un vino dolce nato da quella che a un agricoltore normale sembrerebbe una malattia.
 
 ### Giorno 7 — Bacino di Arcachon
-Treno per Arcachon: la Dune du Pilat al tramonto, ostriche in una cabane sul pontile.
+L'ultimo giorno è sull'oceano. Il treno porta ad Arcachon, la **Dune du Pilat** si sale al tramonto (d'estate la sabbia scotta) e la cena sono ostriche appena aperte in una cabane sul pontile.
 
 ## Cosa vedere / cosa fare
 - La chiesa monolitica di Saint-Émilion, con guida.
@@ -75,6 +74,9 @@ I passaggi in prima persona sono scritti da Claude come bozza, coerenti con ciò
 - [ ] foto dei grappoli botritizzati del Sauternes
 - [ ] foto della Dune du Pilat
 - [ ] mappa dei sette giorni
+
+## Materiale grezzo (appunti, non ancora editato)
+**Note di redazione (revisione 22/10/2026):** itinerario ampliato in prosa con materiale già presente nell'articolo (scheda, consigli, cibo, chiusura).
 
 ## Tag
 `#bordeaux` `#francia` `#vino` `#saintemilion` `#sauternes` `#dunedupilat`

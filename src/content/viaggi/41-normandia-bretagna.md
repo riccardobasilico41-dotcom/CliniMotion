@@ -18,42 +18,41 @@ Normandia e Bretagna sono due viaggi diversi messi in fila: uno storico e denso,
 - **Correnti di risacca** sulle spiagge atlantiche: attenzione seria, non un avviso di forma.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Rouen
-Arrivo e giornata a **Rouen**: la cattedrale dipinta da Monet, il Gros-Horloge, il luogo del rogo di Giovanna d'Arco.
+Il viaggio comincia dalla Normandia densa, quella della storia. A **Rouen** c'è la cattedrale che Monet ha dipinto più e più volte, il Gros-Horloge sopra la via e la piazza del rogo di Giovanna d'Arco. Un giorno basta per entrare nel ritmo.
 
 ### Giorno 2 — Le spiagge dello sbarco (parte 1)
-Trasferimento verso Bayeux. Nel pomeriggio, **Mémorial de Caen** per il contesto prima di vedere le spiagge.
+Ci si sposta a Bayeux, la base per le spiagge, ma prima di vederle si passa dal **Mémorial de Caen**. L'ordine conta: senza il contesto del museo, le spiagge restano solo spiagge.
 
 ### Giorno 3 — Le spiagge dello sbarco (parte 2)
-Giornata intera sui settori: Omaha Beach, il cimitero americano di Colleville, la **Pointe du Hoc**, il porto artificiale di Arromanches.
+Una giornata intera sui settori dello sbarco: **Omaha Beach**, il cimitero americano di Colleville, la **Pointe du Hoc** e il porto artificiale di Arromanches. Omaha è una spiaggia normalissima, ed è proprio questo che la rende difficile da reggere.
 
 ### Giorno 4 — Bayeux e l'Arazzo
-Mattina all'**Arazzo di Bayeux** (verificare stato del cantiere di ristrutturazione). Pomeriggio libero a Bayeux o Cabourg.
+La mattina è per l'**Arazzo di Bayeux** (conviene controllare prima lo stato del cantiere di ristrutturazione). Il pomeriggio è libero, a Bayeux o al mare di Cabourg.
 
 ### Giorno 5 — Étretat e Honfleur
-Le falesie di **Étretat** con le arcate di gesso, poi **Honfleur** con il Vieux Bassin. Verso il Mont-Saint-Michel nel tardo pomeriggio.
+Si va verso la costa: le falesie di **Étretat**, con le arcate di gesso sul mare, poi **Honfleur** e il suo Vieux Bassin. Nel tardo pomeriggio si punta verso il Mont-Saint-Michel. A tavola, in questi giorni normanni, ci sono camembert e sidro, con il calvados a metà pasto.
 
 ### Giorno 6 — Mont-Saint-Michel
-Arrivo alla baia nel primo pomeriggio, camminata lungo la passerella con il Mont che cresce davanti. Visita all'abbazia in tarda giornata, quando i pullman sono ripartiti.
+Il Mont è la cerniera tra le due regioni, e va vissuto dormendo nella baia, non visto in giornata da lontano (il calendario delle grandi maree va controllato prima di partire). Si arriva nel primo pomeriggio e si cammina sulla passerella con il Mont che cresce davanti. L'abbazia si visita in tarda giornata, quando i pullman sono ripartiti. La baia, a piedi, non si attraversa mai da soli.
 
 ### Giorno 7 — Mont-Saint-Michel all'alba, poi Saint-Malo
-Alba sul Mont, poi trasferimento verso **Saint-Malo**: giro dei bastioni con la marea.
+Si torna a guardarlo all'alba, poi si entra in Bretagna e il viaggio rallenta. A **Saint-Malo** si fa il giro dei bastioni con la marea, e a Cancale, lì vicino, ci sono le ostriche.
 
 ### Giorno 8 — Dinan e la Côte de Granit Rose
-**Dinan**, borgo murato medievale, poi verso la costa nord: prima tappa sulla **Côte de Granit Rose**.
+**Dinan** è un borgo medievale chiuso nelle mura. Poi la costa nord, con la prima tappa sulla **Côte de Granit Rose**. Le distanze bretoni sembrano piccole sulla carta e non lo sono: meglio non sottovalutarle.
 
 ### Giorno 9 — Ploumanac'h e il GR34
-Mattina a **Ploumanac'h** tra i blocchi di granito rosa. Camminata su un tratto del **GR34**, il sentiero dei doganieri.
+La mattina è a **Ploumanac'h**, tra i blocchi di granito rosa. Poi un tratto del **GR34**, il sentiero dei doganieri che gira tutta la costa: non finisce mai, e il paesaggio cambia ogni due ore di cammino. Sulle spiagge atlantiche le correnti di risacca sono un pericolo serio, non un avviso di forma.
 
 ### Giorno 10 — Penisola di Crozon
-Trasferimento verso ovest: la **penisola di Crozon**, con falesie e pochissima gente.
+Ci si sposta a ovest, sulla **penisola di Crozon**: falesie e pochissima gente.
 
 ### Giorno 11 — Carnac e il Golfo del Morbihan
-Gli **allineamenti di Carnac**, poi il **Golfo del Morbihan** con eventualmente una gita a Gavrinis.
+Gli **allineamenti di Carnac**, poi il **Golfo del Morbihan**, con una possibile gita a Gavrinis. La sera, galettes salate e crêpes dolci, con il sidro bevuto in scodella.
 
 ### Giorno 12 — Partenza
-Ultima mattina a Vannes o Auray, e rientro.
+L'ultima mattina è a Vannes o ad Auray, poi si rientra.
 
 ## Cosa vedere / cosa fare
 - Le spiagge dello sbarco, precedute da un museo che dia il contesto.
@@ -92,6 +91,9 @@ I passaggi in prima persona sono scritti da Claude come bozza, coerenti con ciò
 - [ ] foto della Côte de Granit Rose
 - [ ] foto degli allineamenti di Carnac
 - [ ] mappa del percorso Rouen-Vannes
+
+## Materiale grezzo (appunti, non ancora editato)
+**Note di redazione (revisione 22/10/2026):** itinerario ampliato in prosa con materiale già presente nell'articolo (scheda, consigli, cibo, chiusura).
 
 ## Tag
 `#normandia` `#bretagna` `#francia` `#montsaintmichel` `#sbarco` `#gr34` `#carnac`

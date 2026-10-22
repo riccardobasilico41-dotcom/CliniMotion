@@ -45,14 +45,14 @@ A metà giornata, spostamento verso **Checkpoint Charlie**, l'ex punto di attrav
 
 Nel pomeriggio, la **Topografia del Terrore** (Topographie des Terrors), il centro di documentazione costruito sul sito delle ex sedi centrali della Gestapo e delle SS, con un tratto di Muro ancora in piedi lungo il perimetro esterno: la mostra ricostruisce, senza sconti, l'apparato repressivo del regime nazista che aveva qui la sua sede operativa.
 
-Sera tranquilla, senza programmi elaborati dopo una giornata di questo tipo.
+Dopo una giornata così, la sera va lasciata vuota.
 
 ### Giorno 3 — L'Isola dei Musei e Berlino Est
 Mattina e primo pomeriggio dedicati alla **Isola dei Musei** (Museumsinsel), patrimonio UNESCO dal 1999: il **Pergamonmuseum** (verificando in anticipo quali sale sono aperte per i lavori in corso), il **Neues Museum** con il celebre busto di **Nefertiti**, e l'**Altes Museum** con le collezioni di arte classica.
 
 Nel pomeriggio, spostamento verso **Alexanderplatz** e il quartiere circostante, cuore della ex Berlino Est: la **Fernsehturm** (Torre della TV), visibile da gran parte della città, e il **Nikolaiviertel**, il piccolo quartiere ricostruito intorno alla chiesa più antica di Berlino. Per chi vuole, il **DDR Museum**, dedicato alla vita quotidiana nella Germania Est, è a pochi passi.
 
-Sera libera, con cena in uno dei ristoranti intorno a Alexanderplatz o di ritorno verso Mitte.
+Si cena intorno ad Alexanderplatz o tornando verso Mitte.
 
 ### Giorno 4 — Kreuzberg e Friedrichshain
 L'ultimo giorno lascia il centro storico per i quartieri a est, cresciuti dopo la riunificazione negli spazi lasciati liberi dalla caduta del Muro. Mattina all'**East Side Gallery**, 1,3 km del Muro rimasti in piedi lungo la Sprea a Friedrichshain, dipinti nel 1990 da oltre cento artisti — tra i murales, il celebre "Bacio fraterno" tra Brežnev e Honecker.

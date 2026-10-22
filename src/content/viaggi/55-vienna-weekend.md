@@ -40,7 +40,7 @@ Mattina alla **Hofburg**, la reggia invernale degli Asburgo per oltre sei secoli
 
 Nel pomeriggio, il **Naschmarkt**: oltre un chilometro e mezzo di bancarelle tra frutta, spezie e cucine internazionali, in una cornice di edifici Art Nouveau protetti. Il sabato si aggiunge anche il mercatino delle pulci.
 
-Sera libera, magari con un secondo giro tra i caffè storici — Café Sacher o Café Hawelka, per varietà rispetto al primo giorno.
+La sera è il momento per un secondo caffè storico, diverso da quello del primo giorno: il Café Sacher o il Café Hawelka.
 
 ### Giorno 3 — Schönbrunn
 Giornata quasi interamente dedicata a **Schönbrunn**, la residenza estiva della famiglia imperiale: delle oltre 1.400 stanze del palazzo, una selezione visitabile con il tour di base o con il Grand Tour più esteso. Nel pomeriggio, i **giardini barocchi**, gratuiti, fino alla **Gloriette**, il padiglione panoramico in collina con vista su tutto il complesso e sulla città.

@@ -17,30 +17,29 @@ Tra tutte le rotte del vino francesi, questo itinerario combina le due più adat
 - **Guidatore designato o sputare in degustazione**, sempre.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Arrivo a Colmar
-Giornata nel centro storico di Colmar, con il Museo Unterlinden e il polittico di Issenheim.
+Si comincia dall'Alsazia, la più accessibile delle rotte del vino. Il primo giorno è nel centro storico di **Colmar**, con il Museo Unterlinden e il polittico di Issenheim. La sera, tarte flambée.
 
 ### Giorno 2 — Riquewihr e Eguisheim in bicicletta
-Noleggio bici e giro tra i villaggi della Route des Vins: Riquewihr, Eguisheim, Kaysersberg, con soste in cantina.
+Si noleggia una bici e si gira tra i villaggi della **Route des Vins**: Riquewihr, Eguisheim, Kaysersberg. Qui le cantine ricevono spesso senza appuntamento e le degustazioni sono gratuite o quasi: si entra e si chiacchiera.
 
 ### Giorno 3 — Route des Vins verso sud
-Prosecuzione della strada dei vini verso Colmar-sud, con una degustazione presso un produttore che riceve senza formalità.
+La strada dei vini continua verso sud, oltre Colmar, con una degustazione da un produttore che riceve senza formalità. Vale sempre la regola del guidatore designato, o dello sputare in degustazione.
 
 ### Giorno 4 — Strasburgo
-Giornata a Strasburgo: la cattedrale, il quartiere della Petite France, la cucina alsaziana.
+Una giornata a **Strasburgo**: la cattedrale, il quartiere della Petite France e la cucina alsaziana, choucroute compresa.
 
 ### Giorno 5 — Trasferimento a Reims
-Trasferimento verso la Champagne. Pomeriggio a Reims: la cattedrale delle incoronazioni con le vetrate di Chagall.
+Si passa in Champagne, e cambia tutto: qui le grandi maison vanno prenotate con anticipo, a volte gratis, a volte a pagamento. Il pomeriggio è a **Reims**, nella cattedrale delle incoronazioni, con le vetrate di Chagall.
 
 ### Giorno 6 — Una crayère di Champagne
-Visita a una maison con discesa nelle crayères scavate nel gesso, degustazione con spiegazione del rémuage.
+In una maison si scende nelle **crayères**, le gallerie scavate nel gesso dai Romani, e la degustazione arriva con la spiegazione del rémuage. Se in Alsazia il vino si racconta chiacchierando, qui si assiste a un processo tecnico. A merenda, jambon de Reims e biscotti rosa.
 
 ### Giorno 7 — Épernay e l'Avenue de Champagne
-Épernay, con le gallerie sotto la strada stessa e un'altra maison a scelta.
+**Épernay**, con le gallerie che corrono sotto la strada stessa, e un'altra maison a scelta.
 
 ### Giorno 8 — Rientro
-Rientro verso Parigi (meno di un'ora di treno da Reims).
+Da Reims a Parigi è meno di un'ora di treno. La Borgogna resta per il prossimo viaggio: più difficile, più cara, e con un'accoglienza opposta a quella alsaziana.
 
 ## Cosa vedere / cosa fare
 - La Route des Vins d'Alsace in bicicletta.
@@ -75,6 +74,9 @@ I passaggi in prima persona sono scritti da Claude come bozza, coerenti con ciò
 - [ ] foto di una crayère di Champagne
 - [ ] foto della cattedrale di Reims
 - [ ] mappa degli otto giorni
+
+## Materiale grezzo (appunti, non ancora editato)
+**Note di redazione (revisione 22/10/2026):** itinerario ampliato in prosa con materiale già presente nell'articolo (scheda, consigli, cibo, chiusura).
 
 ## Tag
 `#vino` `#francia` `#alsazia` `#champagne` `#routedesvins`

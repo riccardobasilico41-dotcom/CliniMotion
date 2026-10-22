@@ -18,27 +18,26 @@ La Francia ha i comprensori collegati più grandi del mondo, costruiti da zero a
 - **Sabato in alta stagione**: code lunghe in valle, meglio partire di domenica o molto presto.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Arrivo
-Arrivo alla stazione, ritiro appartamento, noleggio attrezzatura, primo giro sulle piste del pomeriggio se il forfait lo consente.
+Si arriva in stazione, si ritira l'appartamento e l'attrezzatura e, se il forfait lo consente, si fanno le prime piste nel pomeriggio. Il sabato in alta stagione le code in valle sono lunghe: meglio arrivare la domenica o molto presto. Il forfait comprato online costa meno che alla cassa, e l'assicurazione soccorso piste, che in Francia è a pagamento, si prende insieme.
 
 ### Giorno 2 — Sci nel comprensorio principale
-Prima giornata piena per esplorare il dominio scelto (Tre Valli, Paradiski, o Tignes-Val d'Isère), sfruttando l'estensione per non ripetere le piste.
+La prima giornata piena serve a esplorare il dominio scelto, Tre Valli, Paradiski o Tignes-Val d'Isère: comprensori collegati costruiti dagli anni Sessanta con un solo criterio, la quota, così grandi da non dover mai ripetere una pista.
 
 ### Giorno 3 — Sci nel comprensorio principale
-Seconda giornata sul dominio, spingendosi verso i settori più lontani dalla base.
+Il secondo giorno ci si spinge verso i settori più lontani dalla base.
 
 ### Giorno 4 — Giornata in una valle laterale o a Chamonix
-Per chi è in un comprensorio vicino, giornata a Chamonix: salita all'**Aiguille du Midi**, eventualmente **Vallée Blanche** con guida per sciatori esperti.
+Chi è in un comprensorio vicino passa la giornata a **Chamonix**: la salita all'**Aiguille du Midi**, che vale anche senza sciare, e per gli sciatori esperti la **Vallée Blanche**, solo con guida.
 
 ### Giorno 5 — Sci libero
-Ritorno al comprensorio principale, con una mezza giornata di scialpinismo o ciaspole in una valle laterale per chi vuole un'esperienza diversa dalla pista battuta.
+Si torna al comprensorio, con mezza giornata di scialpinismo o di ciaspole in una valle laterale per chi vuole uscire dalla pista battuta.
 
 ### Giorno 6 — Sci libero
-Ultima giornata piena sulle piste, dedicata ai settori preferiti scoperti nei giorni precedenti.
+L'ultima giornata piena è per i settori preferiti, scoperti nei giorni prima. La sera, raclette, fondue savoyarde o tartiflette, con un bianco di Savoia.
 
 ### Giorno 7 — Ultima mattina e partenza
-Ultima mattina sugli sci, pranzo e partenza nel primo pomeriggio.
+L'ultima mattina sugli sci, il pranzo e la partenza nel primo pomeriggio.
 
 ## Cosa vedere / cosa fare
 - L'Aiguille du Midi, anche senza sciare.
@@ -73,6 +72,9 @@ I passaggi in prima persona sono scritti da Claude come bozza, coerenti con ciò
 - [ ] foto dell'Aiguille du Midi
 - [ ] foto di uno scialpinista in salita
 - [ ] mappa della settimana
+
+## Materiale grezzo (appunti, non ancora editato)
+**Note di redazione (revisione 22/10/2026):** itinerario ampliato in prosa con materiale già presente nell'articolo (scheda, consigli, cibo, chiusura).
 
 ## Tag
 `#sci` `#francia` `#alpi` `#chamonix` `#settimanabianca`

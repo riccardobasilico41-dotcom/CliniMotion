@@ -19,33 +19,32 @@ Il Tour du Mont Blanc gira per intero attorno al massiccio più alto delle Alpi 
 - **Temporali pomeridiani regolari**: si parte presto per essere al rifugio prima del primo pomeriggio.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Les Houches, partenza
-Partenza da Les Houches, vicino Chamonix. Prima tappa verso Les Contamines-Montjoie.
+Si parte da **Les Houches**, vicino a Chamonix, verso Les Contamines-Montjoie. Il giro è lungo circa centosettanta chilometri e non è tecnico, ma le tappe sono lunghe e il ritmo lo dettano due cose: i rifugi prenotati a gennaio-febbraio e i temporali del pomeriggio. Si parte presto, ogni giorno, per essere al rifugio prima del primo pomeriggio.
 
 ### Giorno 2 — Verso il Col du Bonhomme
-Salita al Col du Bonhomme, con i primi grandi panorami sul massiccio.
+La salita al **Col du Bonhomme** regala i primi grandi panorami sul massiccio. Tappe da 800-900 metri di dislivello qui sono la norma.
 
 ### Giorno 3 — Ingresso in Italia, Val Veny
-Passaggio in territorio italiano, con il versante che si apre su prati larghissimi e la parete del Monte Bianco vista intera da lontano.
+Si passa in Italia, e il versante si apre su prati larghissimi, con la parete del Monte Bianco vista per intero da lontano.
 
 ### Giorno 4 — Courmayeur
-Tappa a Courmayeur, con possibilità di sosta più lunga o giorno di riposo.
+A **Courmayeur** ci si può fermare più a lungo o prendere un giorno di riposo.
 
 ### Giorno 5 — Rifugio Bonatti
-Salita verso il Rifugio Bonatti, uno dei punti panoramici più noti del giro.
+Si sale al **Rifugio Bonatti**, uno dei punti panoramici più noti del giro.
 
 ### Giorno 6 — Passaggio in Svizzera
-Attraversamento del Grand Col Ferret verso il versante svizzero, ordinato e verde.
+Il **Grand Col Ferret** porta sul versante svizzero, ordinato e verde.
 
 ### Giorno 7 — La Fouly, Champex-Lac
-Discesa verso Champex-Lac, con il lago alpino come punto di sosta.
+Si scende verso **Champex-Lac**, con il lago alpino come sosta.
 
 ### Giorno 8 — Rientro verso la Francia
-Ultima grande tappa di rientro verso il versante francese, con il massiccio che torna a dominare la vista.
+L'ultima grande tappa riporta sul versante francese, e il massiccio torna a dominare la vista.
 
 ### Giorno 9 — Chamonix
-Ultima tappa fino a Chamonix, chiudendo l'anello.
+L'ultima tappa chiude l'anello a **Chamonix**. Alla fine resta questo: lo stesso massiccio cambia faccia a ogni versante, verticale e ghiacciato in Francia, aperto e ampio in Italia, ordinato in Svizzera.
 
 ## Cosa vedere / cosa fare
 - I tre versanti del massiccio, ognuno con un carattere diverso.
@@ -81,6 +80,9 @@ I passaggi in prima persona sono scritti da Claude come bozza, coerenti con ciò
 - [ ] foto del Rifugio Bonatti
 - [ ] foto del lago di Champex
 - [ ] mappa dell'anello completo
+
+## Materiale grezzo (appunti, non ancora editato)
+**Note di redazione (revisione 22/10/2026):** itinerario ampliato in prosa con materiale già presente nell'articolo (scheda, consigli, cibo, chiusura).
 
 ## Tag
 `#tourdumontblanc` `#francia` `#trekking` `#montagna` `#chamonix`

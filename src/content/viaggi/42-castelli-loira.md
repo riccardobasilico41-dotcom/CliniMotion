@@ -18,24 +18,23 @@ La regola d'oro qui è non vederne troppi: cinque o sei castelli in sei giorni, 
 - **Bicicletta**: l'itinerario ciclabile Loira a Vélo collega i castelli lungo l'argine, pianeggiante.
 
 ## Itinerario giorno per giorno
-
 ### Giorno 1 — Arrivo e Blois
-Arrivo a Blois, visita al castello che riassume quattro secoli di stili architettonici in un solo cortile.
+Si comincia da **Blois**, ed è un buon modo di entrare in tema: il castello riassume quattro secoli di stili architettonici in un solo cortile, una specie di indice di tutto quello che si vedrà nei giorni dopo. Per dormire, Blois va bene, ma la base migliore per la settimana è Amboise, più centrale e con una vera vita di paese.
 
 ### Giorno 2 — Chambord
-Giornata intera a **Chambord**: la scala a doppia elica, gli appartamenti, la terrazza-foresta di camini, e il parco recintato in bici o a piedi.
+**Chambord** chiede la giornata intera. Dentro c'è la scala a doppia elica, dove due persone salgono senza incrociarsi, poi gli appartamenti e la terrazza in cima, una foresta di camini e comignoli. Fuori c'è il parco recintato, da girare in bici o a piedi: senza quello la visita resta a metà.
 
 ### Giorno 3 — Chenonceau e Amboise
-Mattina a **Chenonceau**, con la galleria sul fiume Cher. Pomeriggio ad **Amboise** e al **Clos Lucé**, la casa di Leonardo da Vinci.
+La mattina è a **Chenonceau**, il castello costruito sul fiume Cher, con la galleria che lo attraversa da una riva all'altra e la storia della linea di demarcazione che passava proprio lì. Il pomeriggio è ad **Amboise**, al **Clos Lucé**, la casa dove visse Leonardo da Vinci. Due visite in un giorno, ma diverse tra loro: è il limite giusto, perché dopo il terzo capolavoro in due giorni si smette di distinguerli.
 
 ### Giorno 4 — In bicicletta lungo la Loira
-Giornata a noleggio bici, da Amboise verso Chaumont-sur-Loire o Tours, lungo l'argine del fiume, con soste nei paesi senza castello.
+È il giorno senza castelli, e forse il più importante. Si noleggia una bici e si segue la **Loira a Vélo**, la ciclabile che corre sull'argine, tutta pianeggiante, da Amboise verso Chaumont-sur-Loire o verso Tours. Le soste sono nei paesi che un castello non ce l'hanno, e magari in una cantina trogloditica scavata nel tufo. È il modo giusto di vedere questo paesaggio: la Loira è uno dei pochi grandi fiumi europei rimasti in gran parte non canalizzati, e i castelli stanno qui per lei, non il contrario.
 
 ### Giorno 5 — Villandry e Azay-le-Rideau
-**Villandry** per i giardini rinascimentali a disegni geometrici, poi **Azay-le-Rideau**, il castello sull'isola che si specchia nell'acqua.
+**Villandry** è per i giardini rinascimentali, disegnati a geometrie: fuori stagione sono spogli, quindi conviene controllare il periodo prima di andarci. Poi **Azay-le-Rideau**, il castello sull'isola che si specchia nell'acqua.
 
 ### Giorno 6 — Cheverny o Fontevraud, e partenza
-Ultima visita a scelta: **Cheverny**, ancora abitato dalla stessa famiglia, o **Fontevraud**, con le tombe dei Plantageneti. Rientro nel pomeriggio.
+L'ultima visita si sceglie. **Cheverny** è ancora abitato dalla stessa famiglia; **Fontevraud** custodisce le tombe dei Plantageneti. Poi si rientra nel pomeriggio, con le rillettes e una bottiglia di Chenin o di Cabernet Franc in valigia.
 
 ## Cosa vedere / cosa fare
 - Chambord con la scala a doppia elica e la terrazza.
@@ -71,6 +70,9 @@ I passaggi in prima persona sono scritti da Claude come bozza, coerenti con ciò
 - [ ] foto della galleria di Chenonceau sul fiume
 - [ ] foto dei giardini di Villandry
 - [ ] mappa dei sei giorni lungo la Loira
+
+## Materiale grezzo (appunti, non ancora editato)
+**Note di redazione (revisione 22/10/2026):** itinerario ampliato in prosa usando solo materiale già presente nell'articolo (scheda, cosa vedere, consigli, chiusura). Aggiunta una sola glossa nota: la scala di Chambord dove due persone salgono senza incrociarsi.
 
 ## Tag
 `#loira` `#francia` `#chambord` `#chenonceau` `#castelli`

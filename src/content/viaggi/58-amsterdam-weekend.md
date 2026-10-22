@@ -41,7 +41,7 @@ Mattina alla **Casa di Anna Frank (Anne Frank Huis)**, sul Prinsengracht: l'edif
 
 Nel pomeriggio, **Dam Square**, la piazza centrale con il Palazzo Reale e il Monumento Nazionale, e una camminata verso il **Quartiere a Luci Rosse (De Wallen)**, nel cuore medievale della città: si attraversa come qualunque altro quartiere, senza fotografare vetrine né persone.
 
-Sera libera per cena in uno dei tanti locali del centro.
+La cena è in uno dei tanti locali del centro, senza programma.
 
 ### Giorno 3 — Rijksmuseum e Van Gogh Museum
 Giornata dedicata ai due grandi musei della città, entrambi affacciati sul **Museumplein**. Mattina al **Rijksmuseum**, il museo nazionale con la più grande collezione di arte e storia olandese al mondo, dalla *Ronda di notte* di Rembrandt in poi.
