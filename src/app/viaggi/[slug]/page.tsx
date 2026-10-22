@@ -334,7 +334,7 @@ function SignatureViaggioContent({
             )}
 
             <p className="text-xs leading-relaxed text-stone/60">
-              Viaggio effettuato nel {viaggio.periodo || 'periodo da confermare'} · pagina aggiornata il{' '}
+              {viaggio.periodo ? `Viaggio effettuato nel periodo: ${viaggio.periodo} · ` : ''}Pagina aggiornata il{' '}
               {new Date().toLocaleDateString('it-IT', { year: 'numeric', month: 'long', day: 'numeric' })}.
               <br />
               Prezzi, orari, documenti e traghetti vanno sempre verificati prima della partenza.
