@@ -234,14 +234,11 @@ positive, altre più critiche sulla gestione dei cambi di prenotazione.
 media: Mitsui Garden Hotel Kyoto Shijo, Hotel Vista Premio Kyoto · lux non
 eccessivo: Gion Hatanaka (ryokan con onsen), The Celestine Kyoto Gion
 
-**Hiroshima — Toyoko Inn Hiroshima Station** *(o minshuku/ryokan, da
-confermare)*
+**Hiroshima — Toyoko Inn Hiroshima Station**
 Catena economica ma affidabile: camere essenziali e pulite, colazione
 inclusa apprezzata nelle recensioni, comoda vicino alla stazione — ottima per
 chi si sposta molto con il JR Pass. Le pareti sottili, che lasciano passare i
-rumori dei corridoi, sono il difetto più ricorrente. Se invece la notte è
-stata in un minshuku/ryokan tradizionale, l'esperienza cambia registro: più
-autentica e meno da cartolina di certi ryokan da social media.
+rumori dei corridoi, sono il difetto più ricorrente.
 *Alternative:* economiche: APA Hotel Hiroshima Ekimae Ohashi, Centurion
 Hotel Residential Hiroshima Ekimae · fascia media: Hotel Sunroute Hiroshima,
 Courtyard by Marriott Hiroshima · lux non eccessivo: Hotel Granvia

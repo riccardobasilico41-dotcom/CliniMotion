@@ -7,7 +7,7 @@ import type { Paese } from '@/lib/types'
 // vero di ogni posto (code, quote, orari, regole d\'accesso) e non su ricordi
 // reali: vanno riletti e sostituiti. Nessun nome di hotel, ristorante o
 // operatore è stato inventato.
-// La scheda pratica è la parte più delicata di tutto l\'archivio: in Cina le
+// La scheda pratica è la parte più delicata tra quelli raccontati qui: in Cina le
 // regole su visto, pagamenti, SIM e biglietteria cambiano più in fretta che
 // altrove, e ogni voce va riverificata prima di partire.
 

@@ -123,7 +123,7 @@ export const islanda2024Meta: TripMeta = {
     {
       titoloGiorno: 'Giorno 8 — Relax termale e rientro a Reykjavík',
       tratta: 'Grundarfjörður → sosta termale (West Iceland) → Reykjavík',
-      pernottamento: 'Hotel a Reykjavík (nome da confermare)',
+      pernottamento: 'Hotel a Reykjavík',
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'reykjavik',

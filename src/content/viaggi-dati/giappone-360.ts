@@ -111,7 +111,7 @@ export const giappone360Meta: TripMeta = {
     {
       titoloGiorno: 'Giorno 7 (12.04) — Kyoto-Hiroshima-Miyajima',
       tratta: 'Kyoto → Hiroshima (Shinkansen ~2h) → Miyajima',
-      pernottamento: 'Toyoko Inn Hiroshima Station (o minshuku/ryokan, da confermare)',
+      pernottamento: 'Toyoko Inn Hiroshima Station',
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'hiroshima-miyajima',

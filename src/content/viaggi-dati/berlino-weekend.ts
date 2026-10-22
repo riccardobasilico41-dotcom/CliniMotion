@@ -12,7 +12,7 @@ import type { TripMeta } from '@/lib/types'
 export const berlinoWeekendMeta: TripMeta = {
   tripSlug: 'berlino-weekend',
   paeseSlug: 'germania',
-  ritmo: 'Quattro giorni di calendario, un giorno in più rispetto ad altri weekend lunghi di questo archivio per via delle dimensioni della città, con una giornata isolata dedicata al Muro e alla memoria',
+  ritmo: 'Quattro giorni di calendario, un giorno in più rispetto a un weekend lungo, per via delle dimensioni della città, con una giornata isolata dedicata al Muro e alla memoria',
   trasporti: 'Rete BVG di U-Bahn, S-Bahn, tram e bus: quasi indispensabile per spostarsi tra i quartieri, a differenza di centri storici più compatti; nessuna auto necessaria',
   stile: [
     'storia',
@@ -21,7 +21,7 @@ export const berlinoWeekendMeta: TripMeta = {
   ],
   adattoA: [
     'chi vuole un weekend europeo che unisca la memoria del Novecento a una scena artistica e notturna tra le più vive del continente',
-    'chi accetta di dedicare una giornata intera ai luoghi del Muro e del nazismo, con lo stesso rispetto già riservato ad Auschwitz-Birkenau in questo archivio',
+    'chi accetta di dedicare una giornata intera ai luoghi del Muro e del nazismo, con il rispetto che quei luoghi chiedono',
     'chi non ha problemi a muoversi molto con i mezzi pubblici, data l\'estensione della città',
   ],
   puntiForti: [
@@ -30,7 +30,7 @@ export const berlinoWeekendMeta: TripMeta = {
     'L\'East Side Gallery, la più lunga galleria d\'arte a cielo aperto del mondo, ricavata da un tratto del Muro sopravvissuto',
   ],
   criticita: [
-    'Berlino è molto più estesa di altre capitali di questo archivio: gli spostamenti richiedono quasi sempre i mezzi pubblici',
+    'Berlino è molto più estesa di Parigi o Cracovia: gli spostamenti richiedono quasi sempre i mezzi pubblici',
     'L\'ala nord del Pergamonmuseum, con la Sala dell\'Altare di Pergamo, è chiusa dal 2023 per ristrutturazione con riapertura non prevista a breve',
     'La domenica quasi tutti i negozi sono chiusi per la legge tedesca sugli orari di apertura (Ladenschlussgesetz)',
     'A Checkpoint Charlie i figuranti travestiti da soldati chiedono un pagamento a cose fatte per le foto',

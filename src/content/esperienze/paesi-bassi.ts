@@ -17,7 +17,7 @@ export const esperienzePaesiBassi: Esperienza[] = [
     cosE:
       'Il museo allestito nell\'edificio dove Anne Frank, la sua famiglia e altri quattro rifugiati si nascosero dal luglio 1942 all\'agosto 1944, prima di essere scoperti e deportati. Il percorso attraversa l\'"Achterhuis" (l\'alloggio segreto sul retro dell\'edificio, dietro la libreria girevole che ne nascondeva l\'accesso) rimasto in gran parte spoglio per volontà di Otto Frank, l\'unico sopravvissuto della famiglia, e ricostruisce la vicenda attraverso il diario di Anne e materiali storici originali.',
     percheFarla:
-      'Perché è uno dei luoghi di memoria più visitati e più diretti d\'Europa sulla persecuzione degli ebrei durante l\'occupazione nazista dei Paesi Bassi, reso universale dal diario di una ragazza di tredici anni. Come per altri luoghi di memoria di questo archivio, va affrontata con la disposizione giusta: non è una tappa turistica come le altre.',
+      'Perché è uno dei luoghi di memoria più visitati e più diretti d\'Europa sulla persecuzione degli ebrei durante l\'occupazione nazista dei Paesi Bassi, reso universale dal diario di una ragazza di tredici anni. Come altri luoghi di memoria, va affrontata con la disposizione giusta: non è una tappa turistica come le altre.',
     durata: 'circa 1-1,5 ore per il percorso completo, con ingresso a fascia oraria prenotata',
     periodo: 'tutto l\'anno; gli spazi interni sono ristretti e la visita può risultare affollata anche fuori stagione',
     costo: 'circa 16€ per gli adulti, con riduzioni per bambini e ragazzi; l\'ingresso online prevede una piccola commissione di prenotazione',

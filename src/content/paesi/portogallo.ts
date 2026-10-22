@@ -18,7 +18,7 @@ export const portogallo: Paese = {
   continente: 'Europa',
   titolo: 'Portogallo: Lisbona e Sintra in quattro giorni, tra colline, fado e palazzi da favola',
   descrizione:
-    'Per ora l\'archivio copre una sola meta portoghese, la più naturale per iniziare: Lisbona, la capitale costruita su sette colline affacciata sul Tago, con il tram 28 che attraversa l\'Alfama, il monastero di Jerónimos e la Torre di Belém a ricordare l\'epoca delle scoperte, e a meno di un\'ora di treno Sintra, la cittadina di palazzi romantici tra cui il Palácio da Pena, tanto fotogenica quanto affollata. Porto e il resto del Portogallo non sono qui: quattro giorni bastano appena per Lisbona e la sua gita fuori porta più classica.',
+    'Per ora sul sito c\'è una sola meta portoghese, la più naturale per iniziare: Lisbona, la capitale costruita su sette colline affacciata sul Tago, con il tram 28 che attraversa l\'Alfama, il monastero di Jerónimos e la Torre di Belém a ricordare l\'epoca delle scoperte, e a meno di un\'ora di treno Sintra, la cittadina di palazzi romantici tra cui il Palácio da Pena, tanto fotogenica quanto affollata. Porto e il resto del Portogallo non sono qui: quattro giorni bastano appena per Lisbona e la sua gita fuori porta più classica.',
   periodoMigliore:
     'aprile-maggio e settembre-ottobre, con clima mite, meno turisti e temperature più gestibili per camminare su e giù per le colline della città. Giugno-agosto è alta stagione: caldo intenso, tram 28 e Sintra al limite della capienza, code lunghe ovunque; novembre-marzo è mite per gli standard europei ma piovoso, con giornate più corte.',
   durataConsigliata:

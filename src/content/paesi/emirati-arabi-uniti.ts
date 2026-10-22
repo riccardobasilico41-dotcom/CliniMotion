@@ -22,7 +22,7 @@ export const emiratiArabiUniti: Paese = {
   durataConsigliata:
     '24 ore per uno stopover essenziale, 48 per Dubai fatta bene, 3-4 giorni per aggiungere Abu Dhabi e una notte nel deserto. Oltre i cinque giorni si comincia a ripetersi.',
   budgetIndicativo:
-    'molto variabile, ed è l\'unico paese di questo archivio in cui il modo di arrivarci cambia il conto: con Dubai Connect o lo stopover Etihad l\'hotel è incluso. Fuori da quei programmi, gli alloggi vanno dai 70€ delle zone vecchie ai numeri senza limite del lungomare. Mangiare, invece, costa poco: la cucina dei quartieri indiani e pakistani è ottima e sta sotto i 10€.',
+    'molto variabile, ed è l\'unico paese tra quelli raccontati qui in cui il modo di arrivarci cambia il conto: con Dubai Connect o lo stopover Etihad l\'hotel è incluso. Fuori da quei programmi, gli alloggi vanno dai 70€ delle zone vecchie ai numeri senza limite del lungomare. Mangiare, invece, costa poco: la cucina dei quartieri indiani e pakistani è ottima e sta sotto i 10€.',
   stileViaggio: ['stopover', 'architettura', 'deserto', 'città'],
   scheda: {
     documenti:

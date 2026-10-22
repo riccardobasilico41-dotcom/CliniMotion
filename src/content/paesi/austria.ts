@@ -16,7 +16,7 @@ export const austria: Paese = {
   continente: 'Europa',
   titolo: 'Austria: Vienna in un weekend lungo, tra caffè storici, palazzi imperiali e Klimt',
   descrizione:
-    'Per ora l\'archivio copre una sola meta austriaca, la più naturale per iniziare: Vienna, la capitale che per secoli è stata il cuore dell\'Impero asburgico e che oggi conserva quell\'eredità in un centro storico compatto — l\'Innere Stadt Patrimonio UNESCO, la reggia di Schönbrunn, il palazzo del Belvedere con "Il Bacio" di Klimt — insieme a una tradizione di caffè storici riconosciuta dall\'UNESCO come patrimonio culturale immateriale. A differenza di Praga o Cracovia, Vienna è nell\'eurozona: un fattore pratico che semplifica non poco un weekend qui rispetto alle altre capitali dell\'Europa centrale già coperte da questo archivio.',
+    'Per ora sul sito c\'è una sola meta austriaca, la più naturale per iniziare: Vienna, la capitale che per secoli è stata il cuore dell\'Impero asburgico e che oggi conserva quell\'eredità in un centro storico compatto — l\'Innere Stadt Patrimonio UNESCO, la reggia di Schönbrunn, il palazzo del Belvedere con "Il Bacio" di Klimt — insieme a una tradizione di caffè storici riconosciuta dall\'UNESCO come patrimonio culturale immateriale. A differenza di Praga o Cracovia, Vienna è nell\'eurozona: un fattore pratico che semplifica non poco un weekend qui rispetto alle altre capitali dell\'Europa centrale già coperte da questo archivio.',
   periodoMigliore:
     'aprile-maggio e settembre-ottobre, con clima mite e senza il pieno dell\'alta stagione. Giugno-luglio-agosto sono caldi e affollati nei punti più turistici (Schönbrunn e Stephansplatz in primis); novembre-marzo è freddo ma la città regge bene anche d\'inverno, con i mercatini di Natale a dicembre tra i più noti d\'Europa.',
   durataConsigliata:
@@ -28,7 +28,7 @@ export const austria: Paese = {
     documenti:
       'Austria nell\'Unione Europea e nell\'area Schengen: per i cittadini italiani basta la carta d\'identità valida per l\'espatrio (o il passaporto), senza formalità per soggiorni turistici sotto i tre mesi.',
     valuta:
-      'Euro. A differenza della Repubblica Ceca e della Polonia, già coperte da questo archivio, l\'Austria è nell\'eurozona: nessuna necessità di cambio valuta né rischio di conversioni penalizzanti nei ristoranti — un vantaggio pratico non da poco per chi arriva dall\'Italia.',
+      'Euro. A differenza della Repubblica Ceca e della Polonia, l\'Austria è nell\'eurozona: nessuna necessità di cambio valuta né rischio di conversioni penalizzanti nei ristoranti — un vantaggio pratico non da poco per chi arriva dall\'Italia.',
     pagamenti:
       'Carte e contactless funzionano quasi ovunque, compresi i trasporti pubblici. Il contante resta utile in alcuni dei caffè storici più tradizionali e per le mance, che a Vienna si arrotondano più che percentualizzare (indicativamente il 5-10%).',
     connettivita:

@@ -51,7 +51,7 @@ export const esperienzeBolivia: Esperienza[] = [
               'Gruppi più grandi, quindi meno controllo da parte delle guide',
               'È la fascia in cui si concentra la quasi totalità degli incidenti riportati',
             ],
-            perChi: 'Sconsigliata: è l\'unico caso in questo archivio in cui risparmiare non conviene.',
+            perChi: 'Sconsigliata: è l\'unico caso, tra tutti i viaggi del sito, in cui risparmiare non conviene.',
           },
           {
             nome: 'Operatori premium',

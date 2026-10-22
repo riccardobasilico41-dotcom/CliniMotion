@@ -1105,7 +1105,7 @@ export const destinazioniFrancia: Destinazione[] = [
           },
           {
             nome: 'Bordeaux',
-            sintesi: 'Il vigneto a denominazione più esteso di Francia, con la gerarchia del 1855 e i castelli-azienda. Ha una scheda dedicata in questo archivio.',
+            sintesi: 'Il vigneto a denominazione più esteso di Francia, con la gerarchia del 1855 e i castelli-azienda. Sul sito c\'è un itinerario dedicato.',
             costo: 'da medio a molto alto',
             durata: '4-6 giorni',
             pro: [

@@ -21,7 +21,7 @@ export const danimarca: Paese = {
   continente: 'Europa',
   titolo: 'Danimarca: Copenaghen, la porta d\'ingresso a un giro delle capitali nordiche',
   descrizione:
-    'Per ora l\'archivio copre una sola meta danese, ed è quella che conta davvero: Copenaghen, la città più bike-friendly d\'Europa, con i canali colorati di Nyhavn, i giardini storici di Tivoli, la Sirenetta sul lungomare e Christiania, la comunità autogestita che dal 1971 vive secondo regole proprie nel cuore della città. È anche la prima tappa di "Capitali nordiche", l\'itinerario che la unisce a Stoccolma e Oslo in un unico giro di capitali scandinave — tre paesi, tre lingue affini, tre valute diverse, nessuna delle quali è l\'euro.',
+    'Per ora sul sito c\'è una sola meta danese, ed è quella che conta davvero: Copenaghen, la città più bike-friendly d\'Europa, con i canali colorati di Nyhavn, i giardini storici di Tivoli, la Sirenetta sul lungomare e Christiania, la comunità autogestita che dal 1971 vive secondo regole proprie nel cuore della città. È anche la prima tappa di "Capitali nordiche", l\'itinerario che la unisce a Stoccolma e Oslo in un unico giro di capitali scandinave — tre paesi, tre lingue affini, tre valute diverse, nessuna delle quali è l\'euro.',
   periodoMigliore:
     'maggio-settembre per le giornate lunghe e il clima più mite, con giugno-agosto alta stagione (più caldo, più turisti, Tivoli negli orari estivi pieni); aprile e ottobre restano gestibili con meno folla; l\'inverno è freddo e buio presto, ma Tivoli riapre per i mercatini di Natale a fine novembre.',
   durataConsigliata: '3 giorni per Copenaghen da sola; è anche la prima tappa di un giro di 9 giorni con Stoccolma e Oslo (vedi l\'itinerario "Capitali nordiche")',

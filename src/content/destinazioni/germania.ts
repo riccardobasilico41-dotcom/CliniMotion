@@ -21,7 +21,7 @@ export const destinazioniGermania: Destinazione[] = [
     ordine: 1,
     nome: 'Berlino',
     tipologia: ['città', 'storia', 'memoria', 'arte'],
-    giorniConsigliati: '4 giorni, uno in più rispetto ad altre capitali di quest\'archivio per via delle dimensioni della città',
+    giorniConsigliati: '4 giorni, uno in più rispetto ad altre capitali, per via delle dimensioni della città',
     visitataPersonalmente: false,
     introduzione:
       'La capitale tedesca, capitale del Reich fino al 1945, divisa dal 1961 al 1989 in Berlino Ovest e Berlino Est dal Muro che l\'ha resa il simbolo fisico della Guerra Fredda, e riunificata con la Germania nel 1990. Città molto più estesa e meno densa di altre capitali europee, con quartieri dal carattere fortemente diverso: il centro storico e il quartiere del governo, l\'Isola dei Musei patrimonio UNESCO, e i quartieri a est come Kreuzberg e Friedrichshain, cresciuti sulla scia della riunificazione fino a diventare tra i più vivi d\'Europa.',
@@ -58,7 +58,7 @@ export const destinazioniGermania: Destinazione[] = [
       'Farsi fotografare con i finti soldati a Checkpoint Charlie senza sapere che il servizio è a pagamento: la foto "gratuita" viene richiesta a pagamento a cose fatte',
       'Programmare l\'Isola dei Musei senza controllare prima quali sale del Pergamonmuseum sono aperte: l\'ala nord, con la Sala dell\'Altare di Pergamo, è chiusa per lavori di ristrutturazione da tempo, con riapertura non prevista a breve',
       'Dare per scontato che i negozi siano aperti la domenica: la legge tedesca sugli orari chiude quasi tutta l\'attività commerciale, ristoranti esclusi',
-      'Sottovalutare le distanze: Berlino è molto più estesa di altre capitali europee di questo archivio, e spostarsi tra Mitte e Friedrichshain richiede sempre i mezzi pubblici, non una passeggiata',
+      'Sottovalutare le distanze: Berlino è molto più estesa di altre capitali europee, e spostarsi tra Mitte e Friedrichshain richiede sempre i mezzi pubblici, non una passeggiata',
       'Trattare i luoghi della memoria (Muro, Topografia del Terrore, Memoriale dell\'Olocausto) come tappe fotografiche qualunque: sono pensati per una visita silenziosa e informata',
     ],
     esperienzeSlugs: ['reichstag-cupola', 'museumsinsel-pergamon', 'east-side-gallery', 'berlino-clubbing'],

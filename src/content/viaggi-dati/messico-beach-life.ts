@@ -112,7 +112,7 @@ export const messicoBeachLifeMeta: TripMeta = {
     {
       titoloGiorno: 'Giorno 6 — Campeche → Mahahual',
       tratta: 'Campeche → Balam Ku → cenote Miguel Colorado → Mahahual',
-      pernottamento: 'nome da confermare',
+      pernottamento: '',
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'mahahual',
@@ -122,7 +122,7 @@ export const messicoBeachLifeMeta: TripMeta = {
     {
       titoloGiorno: 'Giorno 7 — Mahahual: Bacalar, snorkeling e Temazcal',
       tratta: 'Mahahual (tour in giornata a Bacalar)',
-      pernottamento: 'nome da confermare',
+      pernottamento: '',
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'mahahual',
@@ -132,7 +132,7 @@ export const messicoBeachLifeMeta: TripMeta = {
     {
       titoloGiorno: 'Giorno 8 — Tulum: giornata chill',
       tratta: 'Mahahual → Tulum',
-      pernottamento: 'nome da confermare',
+      pernottamento: '',
       statoPernottamento: 'da-confermare',
       intensita: 'leggero',
       costiNoti: 'Caleta Tankah 300 MXN/persona',
@@ -143,7 +143,7 @@ export const messicoBeachLifeMeta: TripMeta = {
     {
       titoloGiorno: 'Giorno 9 — Tulum e Playa del Carmen',
       tratta: 'Tulum (mattina) → serata a Playa del Carmen',
-      pernottamento: 'nome da confermare — non è chiaro se la notte sia stata a Tulum o Playa del Carmen',
+      pernottamento: '',
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'tulum',
@@ -153,7 +153,7 @@ export const messicoBeachLifeMeta: TripMeta = {
     {
       titoloGiorno: 'Giorno 10 — Verso Holbox: 3 Islas e bioluminescenza',
       tratta: 'Tulum/Playa del Carmen → Chiquilà → Holbox',
-      pernottamento: 'nome da confermare',
+      pernottamento: '',
       statoPernottamento: 'da-confermare',
       intensita: 'intenso',
       destinazioneSlug: 'holbox',
@@ -163,7 +163,7 @@ export const messicoBeachLifeMeta: TripMeta = {
     {
       titoloGiorno: 'Giorno 11 — Holbox: squalo balena',
       tratta: 'Holbox (escursione in giornata)',
-      pernottamento: 'nome da confermare',
+      pernottamento: '',
       statoPernottamento: 'da-confermare',
       intensita: 'medio',
       destinazioneSlug: 'holbox',

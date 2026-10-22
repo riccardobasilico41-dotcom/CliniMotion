@@ -20,7 +20,7 @@ export const paesiBassi: Paese = {
   continente: 'Europa',
   titolo: 'Paesi Bassi: Amsterdam in un weekend lungo, tra canali, musei e due ruote',
   descrizione:
-    'Per ora l\'archivio copre una sola meta olandese, la più ovvia per iniziare: Amsterdam, la capitale che si gira quasi solo a piedi o in bicicletta, con l\'anello di canali del Seicento patrimonio UNESCO, i grandi musei (Rijksmuseum, Van Gogh Museum), il quartiere di Jordaan e un luogo che chiede una visita informata più che turistica: la Casa di Anna Frank. Rotterdam, L\'Aia e il resto del paese non sono qui: un weekend di tre-quattro giorni basta a malapena per Amsterdam stessa.',
+    'Per ora sul sito c\'è una sola meta olandese, la più ovvia per iniziare: Amsterdam, la capitale che si gira quasi solo a piedi o in bicicletta, con l\'anello di canali del Seicento patrimonio UNESCO, i grandi musei (Rijksmuseum, Van Gogh Museum), il quartiere di Jordaan e un luogo che chiede una visita informata più che turistica: la Casa di Anna Frank. Rotterdam, L\'Aia e il resto del paese non sono qui: un weekend di tre-quattro giorni basta a malapena per Amsterdam stessa.',
   periodoMigliore:
     'aprile-maggio (tulipani e clima mite) e settembre-ottobre, con meno folla rispetto alla piena estate. Giugno-agosto è alta stagione, calda per gli standard olandesi e molto affollata sui canali e ai grandi musei; novembre-marzo è freddo, spesso piovoso e ventoso, ma con code più corte e i mercatini di Natale a dicembre.',
   durataConsigliata:

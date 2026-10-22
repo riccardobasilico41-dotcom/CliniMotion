@@ -8,7 +8,7 @@ import type { TripMeta } from '@/lib/types'
 export const costaRica360Meta: TripMeta = {
   tripSlug: 'costa-rica-360',
   paeseSlug: 'costa-rica',
-  ritmo: 'Molto denso — probabilmente il viaggio più intenso di tutto l\'archivio, 13 giorni da una costa all\'altra del paese',
+  ritmo: 'Molto denso — probabilmente il viaggio più intenso tra quelli raccontati qui, 13 giorni da una costa all\'altra del paese',
   trasporti: 'Van privato con autista per tutti i trasferimenti principali, più barche per Tortuguero e alcune escursioni',
   stile: ['giungla', 'vulcani', 'pura vida'],
   adattoA: ['chi vuole vedere il Costa Rica da costa a costa in un unico viaggio', 'chi ama la natura e la fauna selvatica', 'chi non ha problemi con un ritmo molto denso e trasferimenti lunghi'],

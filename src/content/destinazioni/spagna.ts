@@ -218,7 +218,7 @@ export const destinazioniSpagna: Destinazione[] = [
     erroriDaEvitare: [
       'Chiedere un piatto e caricarlo di pintxos come a un buffet: è considerato poco locale, meglio uno o due pezzi per bar prima di cambiare locale',
       'Fermarsi in un solo bar per tutta la serata: il senso del txikiteo è muoversi',
-      'Sottovalutare il meteo atlantico anche d\'estate: piove più spesso che in qualsiasi altra delle quattro regioni spagnole di questo archivio, conviene sempre avere con sé una giacca leggera',
+      'Sottovalutare il meteo atlantico anche d\'estate: piove più spesso che in qualsiasi altra delle quattro regioni spagnole raccontate qui, conviene sempre avere con sé una giacca leggera',
     ],
     esperienzeSlugs: ['pintxos-crawl-donostia'],
     tripSlugs: ['spagna-nord-itinerario'],
